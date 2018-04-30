@@ -24,7 +24,7 @@ This section will discuss the setting up EFT to produce the appropriate files.
     |**Name**|Enter in a Name for the Bank Account.|  
     |**Address**|If your bank account has an Address, make sure that the **Country/Region Code** field is filled.|  
     |**Address2**|If the Bank Account Address doesn't fit into the first field, then this field can be used to record additonal information.|
-    |**Post Code & City**|Completethe Post Code & City.|
+    |**Post Code & City**|Complete the Post Code & City.|
     |**State**|Complete the State.|
     |**Country/Region Code**|Complete the Country & Region Code.|
     |**Phone No.**|Complete the Phone No. field, if known.|
