@@ -1,4 +1,4 @@
-# How to setup Incorporated Companies
+# How to: setup Incorporated Companies
 
 1      Introduction
 
