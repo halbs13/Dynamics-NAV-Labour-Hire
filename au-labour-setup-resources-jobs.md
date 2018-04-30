@@ -19,7 +19,7 @@ This section will discuss the following setup areas within Resources & Jobs;
 - [Job Posting Groups](#to-job-posting-groups)
 
 ## To setup Resources
-YA number series must be setup for Resource records, regardless of whether the number will be manually entered into Dynamics NAV or transferred via the interface.
+A number series must be setup for Resource records, regardless of whether the number will be manually entered into Dynamics NAV or transferred via the interface.
 
 1. In the **Search** box, enter **Resources Setup**, and then choose the related link.  
 2. Fill the fields as described in the following table.  
