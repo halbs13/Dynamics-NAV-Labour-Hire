@@ -5,70 +5,27 @@ to be configured in order for it to operate. 
 
 These areas include:
 
-[General Ledger](au-labour-setup-general-ledger.md)
-[Sales & Receivables]
-[Job]
-[Resources]
-[Human Resources]
-[Payroll]
-[Labour Hire](au-labour-setup-labour-hire.md)
+- [General Ledger](au-labour-setup-general-ledger.md)
+- [Sales & Receivables](au-labour-setup-sales-receivables.md)
+- [Jobs](au-labour-setup-jobs.md)
+- [Resources](au-labour-setup-resources.md)
+- [Human Resources](au-labour-setup-human-resources.md)
+- [Payroll](au-labour-setup-payroll.md)
+- [Labour Hire](au-labour-setup-labour-hire.md)
 
+This section will discuss the following EFT Setup areas required to operate the Dynamics NAV Labour Hire module.
 
+## Bank Account & EFT Setup
 
+# EFT SETUP
 
+## Bank Account & EFT Setup 
 
+The Bank Account and EFT setup are required to allow for EFT or banking files to be generated from Payroll. 
 
-
-
-
-
-
+To setup the Bank Account, go to the following menu:  Departments/Financial Management/Cash Management/Bank Accounts
  
-
-This document will discuss the following EFT Setup areas
-required to operate the Dynamics NAV Labour Hire module.
-
- 
-
-
- Bank Account & EFT
-     Setup
-
-
- 
-
-
- 
-
-2     
-EFT SETUP
-
-2.1      
-Bank Account & EFT Setup 
-
-The Bank Account and EFT setup are required to allow for EFT
-or banking files to be generated from Payroll. 
-
- 
-
-To setup the Bank Account, go to the following
-menu:
-
-Departments/Financial Management/Cash
-Management/Bank Accounts
-
-
-
-2.1.1    
-“Edit – Bank Account Card” window
-
- 
-
-
- 
-  
-   
-   Field Name
+Field Name
    
    
    Description
