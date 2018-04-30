@@ -1,4 +1,4 @@
-# How to: setup Resources & Jobs
+# How to: Setup Resources & Jobs
 
 The Dynamics NAV Labour Hire module comprises and requires various areas within Dynamics NAV
 to be configured in order for it to operate. 
