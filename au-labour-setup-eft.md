@@ -45,6 +45,6 @@ This section will discuss the setting up EFT to produce the appropriate files.
     |**EFT Bank Code**|Complete the Bank Code of your Banking Institution.|
     |**EFT BSB No.**|The value in this field will populate with information entered on the **General** FastTab.|
     |**EFT Security No.**| Complete the EFT Security No.  This information is exported into the EFT file you generated.  It is usually known as the **User ID No.** in the EFT file.|
-    |**EFT Bank Code**|Enter in teh EFT Bank Code for the file being produced.  **53** is the number that is required on the file to the bank as this indentifies to the Bank that the file is a **Salary & Wages** file and will therefore be released accordingly.|
+    |**EFT Bank Code**|Enter in the EFT Bank Code for the file being produced.  **53** is the number that is required on the file to the bank as this indentifies to the Bank that the file is a **Salary & Wages** file and will therefore be released accordingly.|
     |**EFT Balancing Record Required**|Select this field if a Balancing Record is required on the EFT file.  Confirmation from your Banking Institution may be required.|
     
