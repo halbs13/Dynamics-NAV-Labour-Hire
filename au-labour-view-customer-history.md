@@ -1,4 +1,4 @@
-
+# How to: view Customer History
 
 1     
 Introduction
