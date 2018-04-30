@@ -1,3 +1,5 @@
+# How to setup and process Commission payments
+
 #INTRODUCTION#
 This document has been prepared as a training manual for users of the Dynamics NAV2017 Labour Hire Suite module.
 This document will contain information relating to the setup of Commissions and contains the following sections:
