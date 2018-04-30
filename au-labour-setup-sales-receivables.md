@@ -1,4 +1,4 @@
-# How to setup Sales & Receivables
+# How to: setup Sales & Receivables
 
 1      INTRODUCTION
 
