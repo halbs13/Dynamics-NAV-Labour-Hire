@@ -15,221 +15,37 @@ These areas include:
 
 This section will discuss the following EFT Setup areas required to operate the Dynamics NAV Labour Hire module.
 
-## Bank Account & EFT Setup
+### To set up EFT   
+1. In the **Search** box, enter **Bank Accounts**, and then choose the related link.  
+2. On the **General** FastTab, fill the fields as described in the following table.  
 
-# EFT SETUP
+    |Field|Description|  
+    |---------------------------------|---------------------------------------|  
+    |**No.**|Enter in a No. for the Bank Account.|  
+    |**Name**|Enter in a Name for the Bank Account.|  
+    |**Address**|If your bank account has an Address, make sure that the **Country/Region Code** field is filled.|  
+    |**Address2**|If the Bank Account Address doesn't fit into the first field, then this field can be used to record additonal information.|
+    |**Post Code & City**|Completethe Post Code & City.|
+    |**State**|Complete the State.|
+    |**Country/Region Code**|Complete the Country & Region Code.|
+    |**Phone No.**|Complete the Phone No. field, if known.|
+    |**Contact**|Complete the Contact field, if known.|
+    |**Bank Branch No.**|Complete the Bank Branch No. of where the Bank Account is held.|
+    |**Bank Account No.**|Complete the Bank Account No. of the Bank Account.|
+    
+3. On the **Posting** FastTab, fill the fields as described in the following table.
 
-## Bank Account & EFT Setup 
+    |Field|Description|  
+    |---------------------------------|---------------------------------------|  
+    |**Bank Acc. Posting Group**|The **Bank Account Posting Group** field is used to identify where the entries will post tyo in the General Ledger.  Complete the Bank Acc. Posting Group that relates to this Bank Account.|  
+    
+ 4. On the **Transfer** FastTab, fill the fields as described in the following table.
 
-The Bank Account and EFT setup are required to allow for EFT or banking files to be generated from Payroll. 
-
-To setup the Bank Account, go to the following menu:  Departments/Financial Management/Cash Management/Bank Accounts
- 
-Field Name
-   
-   
-   Description
-   
-  
- 
- 
-  
-  GENERAL FASTTAB – you specify the details of
-  the Bank Account in this area of the card.
-  
- 
- 
-  
-  No.
-  
-  
-  Enter in a No. for the Bank Account.
-  
- 
- 
-  
-  Name
-  
-  
-  Enter in a Name for the Bank Account.
-  
- 
- 
-  
-  Address
-  
-  
-  Enter in the Address of where the Bank Account
-  is held.
-  
- 
- 
-  
-  Address 2
-  
-  
-  If the Bank Account Address doesn’t fit into
-  the first field then this field can be used to record additional information.
-  
- 
- 
-  
-  Post Code & City
-  
-  
-  Enter in the Post Code and City of where the
-  Bank Account is held.
-  
- 
- 
-  
-  State
-  
-  
-  Enter in the State where the Bank Account is
-  held.
-  
- 
- 
-  
-  Country/Region Code
-  
-  
-  Enter in the Country Code where the Bank
-  Account is held.
-  
- 
- 
-  
-  Phone No.
-  
-  
-  Enter in the Phone No. of where the Bank
-  Account is held.
-  
- 
- 
-  
-  Contact
-  
-  
-  Enter in the Contact of where the Bank Account
-  is held.
-  
- 
- 
-  
-  Bank Branch No.
-  
-  
-  Enter in the Bank Branch No. of where the Bank
-  Account is held.
-  
- 
- 
-  
-  Bank Account No.
-  
-  
-  Enter in the Bank Account No. of the Bank
-  Account.
-  
- 
- 
-  
-  COMMUNICATION FASTTAB – the Communication
-  details of the Bank Account can be stored in this tab.  
-  
- 
- 
-  
-  POSTING FASTTAB
-  
- 
- 
-  
-  Bank Acc. Posting Group
-  
-  
-  The “Bank Account Posting Group” field is used
-  to identify where the entries will post to in the G/L.
-  Enter in the Bank Acc. Posting Group that
-  relates to the Bank Account.
-  
- 
- 
-  
-  TRANSFER FASTTAB
-  
-  
-   
-  
- 
- 
-  
-  EFT Bank Code
-  
-  
-  Enter in the Bank Code of your Banking Institution.
-  
- 
- 
-  
-  EFT BSB No.
-  
-  
-  This field will populate with information
-  entered on the General FastTab.
-  
- 
- 
-  
-  EFT Security No.
-  
-  
-  Enter in the EFT Security No.  This information is exported into the EFT
-  file you generate.  It is usually the
-  User ID no. in the EFT file.
-  
- 
- 
-  
-  EFT Bank Code
-  
-  
-  Enter in the EFT Bank Code for the file being
-  produced.  “53” is the number that is
-  required on the file to the bank as this identifies to the Bank that the file
-  is a Salary & Wages file and will therefore be released accordingly.
-  
- 
- 
-  
-  EFT Balancing Record Required
-  
-  
-  Select this field if a Balancing Record is
-  required on the EFT file.  Confirmation
-  from your Banking Institution may need to be verified.
-  
- 
- 
-  
-  Click “OK” after
-  you have completed your selection.
-  
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    |Field|Description|  
+    |---------------------------------|---------------------------------------|  
+    |**EFT Bank Code**|Complete the Bank Code of your Banking Institution.|
+    |**EFT BSB No.**|The value in this field will populate with information entered on the **General** FastTab.|
+    |**EFT Security No.**| Complete the EFT Security No.  This information is exported into the EFT fiel you generated.  It is usually known as the User ID No. in the EFT file.|
+    |**EFT Bank Code**|Enter in teh EFT Bank Code for the file being produced.  **53** is the number that is required on the file to the bank as this indentifies to the Bank that the file is a **Salary & Wages** file and will therefore be released accordingly.|
+    |**EFT Balancing Record Required**|Select this field if a Balancing Record is required on the EFT file.  Confirmation from your Banking Institution may need to be verified.|
+    
