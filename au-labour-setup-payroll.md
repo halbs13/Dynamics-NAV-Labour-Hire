@@ -1,4 +1,4 @@
-# How to setup Payroll
+# How to: setup Payroll
 
 1      INTRODUCTION
 
