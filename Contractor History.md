@@ -1,7 +1,4 @@
-
-
-1     
-Introduction
+# How to view Contractor History
 
  
 
