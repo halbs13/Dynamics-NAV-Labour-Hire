@@ -40,7 +40,7 @@ A number series must be setup for Job records, regardless of whether the number 
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**Job No.s**|Select the Job No. series from the **ArrowDow**.  If there is integration with AXiOM, the Job Numbers will be generated from within AXiOM and transfer into NAV, however this field should still be configured. **Note: The No. Series should be setup first.  You will need to create a new No. series if one does not exist.|  
+    |**Job No.s**|Select the Job No. series from the **ArrowDown**.  If there is integration with AXiOM, the Job Numbers will be generated from within AXiOM and transfer into NAV, however this field should still be configured. **Note: The No. Series should be setup first.  You will need to create a new No. series if one does not exist.|  
        
 
 ## To setup Job Posting Groups
@@ -52,14 +52,14 @@ Job Posting Groups are used through the Labour Hire module to set defaults such 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Code**|Enter in a Code that uniquely identifies the Job Posting Group.  The Code field allows for up to 10 characters but if you are using AXiOM then you must enter in 4 characters.|  
-    |**Description**|Enter in a Description which accurately describes the Job Posting Group. ** The description field will be transferred into Cost Centre field within AXiOM.|  
+    |**Description**|Enter in a Description which accurately describes the Job Posting Group. The description field will be transferred into Cost Centre field within AXiOM.|  
     |**Payroll No.**|Select the **Payroll No.** from the **ArrowDown** which this Job Posting Group transaction belongs to.  The Payroll No. is restricted to 6 characters. |  
-    |**Payroll Group**|The Payroll Group field is used to group the Cost Centre codes for selection in AXiOM by transferring to the “Ledger Code”.    Enter in a Code with a maximum of 6 characters.| 
-    |**Branch Code**|Select the Branch Code from the “ArrowDown” for this Job Posting Group transaction.|
-    |**Division Code**|Select the Division Code from the “ArrowDown” for this Job Posting Group transaction.|
-    |**Global Dimensions 1**|Select the Dimension Code from the “ArrowDown” for this Job Posting Group transaction.|
-    |**Global Dimensions 2**|Select the Dimension Code from the “ArrowDown” for this Job Posting Group transaction.|
-    |**General Product Posting Group**|From the AssistButton button, select the Gen. Prod. Posting Group for this Job Posting Group.|
+    |**Payroll Group**|The Payroll Group field is used to group the Cost Centre codes for selection in AXiOM by transferring to the “*Ledger Code*.    Enter in a Code with a maximum of 6 characters.| 
+    |**Branch Code**|Select the Branch Code from the **ArrowDown** for this Job Posting Group transaction.|
+    |**Division Code**|Select the Division Code from the **ArrowDown** for this Job Posting Group transaction.|
+    |**Global Dimensions 1**|Select the Dimension Code from the **ArrowDown** for this Job Posting Group transaction.|
+    |**Global Dimensions 2**|Select the Dimension Code from the **ArrowDown** for this Job Posting Group transaction.|
+    |**General Product Posting Group**|From the **ArrowDown**, select the **Gen. Prod. Posting Group** for this Job Posting Group.|
     |**Exclude from Integration**|This field is used to identify transactions which should no longer be included in the transfer of data to AXiOM.|
 
 3. Additional Dimensions can be setup by click on the **Dimensions** icon.    
@@ -67,7 +67,7 @@ Job Posting Groups are used through the Labour Hire module to set defaults such 
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**Dimension Code**|Select the additional dimension you wish to add from the “ArrowDown”.|  
-    |**Dimension Value Code**|Select the additional dimension value you wish to add from the “ArrowDown”.|  
+    |**Dimension Code**|Select the additional dimension you wish to add from the **ArrowDown**.|  
+    |**Dimension Value Code**|Select the additional dimension value you wish to add from the **ArrowDown**.|  
     |**Value Posting**|This option is not required at this level and is generally setup and maintained on G/L Accounts. |  
    
