@@ -1,4 +1,4 @@
-# How to Setup a Contractor 
+# How to: Setup a Contractor 
 
 o   Resource
 Setup
