@@ -1,18 +1,17 @@
 # How to setup EFT
 
-1.1      
-Configuration Overview
-
-The Dynamics
-NAV Labour Hire module comprises and requires various areas within Dynamics NAV
+The Dynamics NAV Labour Hire module comprises and requires various areas within Dynamics NAV
 to be configured in order for it to operate. 
-Those areas include:
 
-General LedgerSales &
-ReceivablesPurchase &
-PayablesResources &
-JobsHuman Resources
-& PayrollLabour Hire
+These areas include:
+
+[General Ledger](au-labour-setup-general-ledger.md)
+[Sales & Receivables]
+[Job]
+[Resources]
+[Human Resources]
+[Payroll]
+[Labour Hire](au-labour-setup-labour-hire.md)
 
 
 
