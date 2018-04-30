@@ -1,3 +1,5 @@
+# How to process an Internal Payroll in Labour Hire
+
 1 INTRODUCTION
 This document has been prepared as a training manual for users of the Dynamics NAV 2017 Labour Hire Suite module.
 This document will contain information relating to Internal Payroll Processing encompassing the following sections:
