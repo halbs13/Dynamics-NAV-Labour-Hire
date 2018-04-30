@@ -13,7 +13,7 @@ These areas include:
 - [Payroll](au-labour-setup-payroll.md)
 - [Labour Hire](au-labour-setup-labour-hire.md)
 
-This section will discuss the following EFT Setup areas required to operate the Dynamics NAV Labour Hire module.
+This section will discuss the setting up EFT to produce the appropriate files.
 
 ### To set up EFT   
 1. In the **Search** box, enter **Bank Accounts**, and then choose the related link.  
@@ -37,7 +37,7 @@ This section will discuss the following EFT Setup areas required to operate the 
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**Bank Acc. Posting Group**|The **Bank Account Posting Group** field is used to identify where the entries will post tyo in the General Ledger.  Complete the Bank Acc. Posting Group that relates to this Bank Account.|  
+    |**Bank Acc. Posting Group**|The **Bank Account Posting Group** field is used to identify where the entries will post to in the General Ledger.  Complete the Bank Acc. Posting Group that relates to this Bank Account.|  
     
  4. On the **Transfer** FastTab, fill the fields as described in the following table.
 
@@ -45,7 +45,7 @@ This section will discuss the following EFT Setup areas required to operate the 
     |---------------------------------|---------------------------------------|  
     |**EFT Bank Code**|Complete the Bank Code of your Banking Institution.|
     |**EFT BSB No.**|The value in this field will populate with information entered on the **General** FastTab.|
-    |**EFT Security No.**| Complete the EFT Security No.  This information is exported into the EFT fiel you generated.  It is usually known as the User ID No. in the EFT file.|
+    |**EFT Security No.**| Complete the EFT Security No.  This information is exported into the EFT file you generated.  It is usually known as the **User ID No.** in the EFT file.|
     |**EFT Bank Code**|Enter in teh EFT Bank Code for the file being produced.  **53** is the number that is required on the file to the bank as this indentifies to the Bank that the file is a **Salary & Wages** file and will therefore be released accordingly.|
-    |**EFT Balancing Record Required**|Select this field if a Balancing Record is required on the EFT file.  Confirmation from your Banking Institution may need to be verified.|
+    |**EFT Balancing Record Required**|Select this field if a Balancing Record is required on the EFT file.  Confirmation from your Banking Institution may be required.|
     
