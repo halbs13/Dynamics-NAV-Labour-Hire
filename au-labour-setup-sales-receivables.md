@@ -1,38 +1,75 @@
-# How to: setup Sales & Receivables
+# How to: Setup Sales & Receivables
 
-1      INTRODUCTION
-
-1.1      
-Configuration Overview
-
-The Dynamics
-NAV Labour Hire module comprises and requires various areas within Dynamics NAV
+The Dynamics NAV Labour Hire module comprises and requires various areas within Dynamics NAV
 to be configured in order for it to operate. 
-Those areas include:
 
-General LedgerSales &
-ReceivablesPurchase &
-PayablesResources &
-JobsHuman Resources
-& PayrollLabour Hire
+These areas include:
 
+- [General Ledger](au-labour-setup-general-ledger.md)
+- [Sales & Receivables](au-labour-setup-sales-receivables.md)
+- [Resources & Jobs](au-labour-setup-resources-jobs.md)
+- [Human Resources](au-labour-setup-human-resources.md)
+- [Payroll](au-labour-setup-payroll.md)
+- [Labour Hire](au-labour-setup-labour-hire.md)
 
+This section will discuss the following setup areas within Sales & Receivables;
 
+- [Sales & Receivables Setup] {### To setup Sales & Receivables}
+- [Customer Posting Groups]{### To setup Customer Posting Groups}
+- [Payment Terms]{### To setup Payment Terms}
+- [Payment Method]{### To setup Payment Method}
 
+### To setup Sales & Receivables
+You use the Sales & Receivables Setup to set up certain basic rules to be used in the Sales & Receivables application area. 
 
+A number series must be setup for the records, regardless of whether the number will be manually entered into Dynamics NAV or transferred via the interface.
 
+1. In the **Search** box, enter **Sales & Receivables Setup**, and then choose the related link.  
+2. On the **General** FastTab, fill the fields as described in the following table.  
 
+    |Field|Description|  
+    |---------------------------------|---------------------------------------|  
+    |**Discount Posting**|The options you have available are**No Discounts**, **Invoice Discounts**, **Line Discounts** and **All Discounts**. This field only needs to be configured if the customer is using Discounts.|  
+    |**Credit Warnings**|You can choose not to have warnings telling you that the customer’s credit limit has been exceeded. The options available are **Both Warnings**, **Credit Limit**, **Overdue Balance**, **No Warning**. This field only needs to be configured if the customer chooses Credit Warnings.|  
+    |**Logo Position on Documents**|Determine the position of the logo by clicking the AssistButton to the right of the field and selecting one of the four options: **No Logo**, **Left**, **Centre**, **Right**.|  
+    |**Default Posting Date**|This field will define how to use the **Posting Date** field on Sales documents.  If you select **Work Date**, the Posting Date field will hold the work date by default in case your transactions may wrongfully hold the work date if you forget to change the posting date. If you select **No Date**, the Posting Date field will be empty by default and you must manually enter a posting date before posting.|
+       
+3. On the **Numbering** FastTab, fill the fields as described in the following table.
 
+    |Field|Description|  
+    |---------------------------------|---------------------------------------|  
+    |**Customer Nos**|Complete the code for the Number series which will be used to assign Customer No.s.|
+    |**Quote Nos**|Complete the code for the Number series which will be used for Sales Quotes.|
+    |**Invoice Nos**|Complete the code for the Number series which will be used for Sales Invoices.|
+    |**Posted Invoice Nos**|Complete the code for the Number series which will be used for Posted Invoices.|
+    |**Cr/Adj Note Nos**|Complete the code for the Number series which will be used for Cr/Adj Notes.|
+    |**Posted Cr/Adj Notes Nos**|Complete the code for the Number series which will be used for Posted Credit/Adj Notes.|
+    
+### To setup Customer Posting Groups
+The Customer Posting Groups window is used to setup one or more customer posting groups.  For each posting group you setup, you must create links to the relevant G/L accounts.  You can use the same G/L account numbers or different account number for each posting group.
 
+After you have set up the posting groups, you assign them to the relevant customer accounts.  When you post to a customer account, the program will post to the G/L account that is specified by the customer posting group that is linked to the customer account. 
 
+1. In the **Search** box, enter **Cusotmer Posting Groups**, and then choose the related link.  
+2. On the **General** FastTab, fill the fields as described in the following table.  
 
- 
+    |Field|Description|  
+    |---------------------------------|---------------------------------------|  
+    |**Discount Posting**|The options you have available are**No Discounts**, **Invoice Discounts**, **Line Discounts** and **All Discounts**. This field only needs to be configured if the customer is using Discounts.|  
+    |**Credit Warnings**|You can choose not to have warnings telling you that the customer’s credit limit has been exceeded. The options available are **Both Warnings**, **Credit Limit**, **Overdue Balance**, **No Warning**. This field only needs to be configured if the customer chooses Credit Warnings.|  
+    |**Logo Position on Documents**|Determine the position of the logo by clicking the AssistButton to the right of the field and selecting one of the four options: **No Logo**, **Left**, **Centre**, **Right**.|  
+    |**Default Posting Date**|This field will define how to use the **Posting Date** field on Sales documents.  If you select **Work Date**, the Posting Date field will hold the work date by default in case your transactions may wrongfully hold the work date if you forget to change the posting date. If you select **No Date**, the Posting Date field will be empty by default and you must manually enter a posting date before posting.|
+       
+3. On the **Numbering** FastTab, fill the fields as described in the following table.
 
-This document will discuss the following Sales &
-Receivables Setup areas required to operate the Dynamics NAV Labour Hire
-module.
-
- 
+    |Field|Description|  
+    |---------------------------------|---------------------------------------|  
+    |**Customer Nos**|Complete the code for the Number series which will be used to assign Customer No.s.|
+    |**Quote Nos**|Complete the code for the Number series which will be used for Sales Quotes.|
+    |**Invoice Nos**|Complete the code for the Number series which will be used for Sales Invoices.|
+    |**Posted Invoice Nos**|Complete the code for the Number series which will be used for Posted Invoices.|
+    |**Cr/Adj Note Nos**|Complete the code for the Number series which will be used for Cr/Adj Notes.|
+    |**Posted Cr/Adj Notes Nos**|Complete the code for the Number series which will be used for Posted Credit/Adj Notes.|
 
 
  Sales & Receivables
@@ -44,59 +81,6 @@ module.
 
 
  
-
-
- 
-
-.
-
- 
-
-2     
-SALES & RECEIVABLES SETUP
-
-2.1      
-Sales & Receivables Setup
-
-You use
-the Sales & Receivables Setup to set up certain basic rules to be used in
-the Sales & Receivables application area. 
-
-
-A number
-series must be setup for the records, regardless of whether the number will be
-manually entered into Dynamics NAV or transferred via the interface.
-
-To access the Sales & Receivables Setup, go
-to the following menu:
-
-Departments/Financial Management/Receivables/Setup/Sales
-& Receivables Setup
-
-2.1.1    
-“Edit – Sales & Receivables Setup” window
-
- 
-
-
- 
-  
-   
-   Field Name
-   
-   
-   Description
-   
-  
- 
- 
-  
-  GENERAL FASTTAB – you specify options such as
-  how you want to calculate and post discounts and what warnings you would like
-  to have displayed.
-  
- 
- 
   
   Discount Posting
   
