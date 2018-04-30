@@ -14,8 +14,8 @@ These areas include:
 
 This section will discuss the following setup areas within Sales & Receivables;
 
-- [Sales & Receivables Setup] {### To setup Sales & Receivables}
-- [Customer Posting Groups]{### To setup Customer Posting Groups}
+- [Sales & Receivables Setup] {#To-setup-Sales-&-Receivables}
+- [Customer Posting Groups]{#To-setup-Customer-Posting-Groups}
 - [Payment Terms]{### To setup Payment Terms}
 - [Payment Method]{### To setup Payment Method}
 
