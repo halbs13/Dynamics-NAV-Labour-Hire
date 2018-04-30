@@ -1,4 +1,4 @@
-
+# How to view General Ledger Records
 
 1     
 Introduction
