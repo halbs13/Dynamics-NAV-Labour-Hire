@@ -1,4 +1,4 @@
-# How to setup Resources & Jobs
+# How to: setup Resources & Jobs
 
 1      INTRODUCTION
 
