@@ -1,18 +1,4 @@
-
-
-1      Introduction
-
-This document has been prepared
-as a training manual for users of the Dynamics NAV2017 Labour Hire Suite
-module.  
-
- 
-
-This document will contain
-information relating to Contractor setup and contains the following sections:
-
-·        
-Contractor Overview
+# How to Setup a Contractor 
 
 o   Resource
 Setup
