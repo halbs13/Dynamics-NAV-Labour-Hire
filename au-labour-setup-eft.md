@@ -7,8 +7,7 @@ These areas include:
 
 - [General Ledger](au-labour-setup-general-ledger.md)
 - [Sales & Receivables](au-labour-setup-sales-receivables.md)
-- [Jobs](au-labour-setup-jobs.md)
-- [Resources](au-labour-setup-resources.md)
+- [Resources & Jobs](au-labour-setup-resources-jobs.md)
 - [Human Resources](au-labour-setup-human-resources.md)
 - [Payroll](au-labour-setup-payroll.md)
 - [Labour Hire](au-labour-setup-labour-hire.md)
