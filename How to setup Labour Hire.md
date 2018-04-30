@@ -1,4 +1,5 @@
-2	LABOUR HIRE SETUP
+# How to setup Labour Hire
+
 2.1	Labour Hire Setup
 You use the Labour Hire Setup to establish certain basic rules to be used in the Labour Hire application area.  
 To access the Labour Hire Setup, go to the following menu:
