@@ -1,4 +1,4 @@
-# How to view Contractor History
+# How to: view Contractor History
 
  
 
