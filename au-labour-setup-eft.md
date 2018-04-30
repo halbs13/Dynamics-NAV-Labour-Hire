@@ -1,4 +1,4 @@
-# How to setup EFT
+# How to: Setup EFT
 
 The Dynamics NAV Labour Hire module comprises and requires various areas within Dynamics NAV
 to be configured in order for it to operate. 
