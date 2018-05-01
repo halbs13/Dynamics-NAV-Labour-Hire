@@ -66,76 +66,38 @@ have GST calculated and added to their payment.
 
 On the TaxTab in the Employee Card – the Tax Scale No. should be changed to GST.
 
-To access the
-Employee Maintenance task go to the following menu: 
+To access the Employee Maintenance task go to the following menu: 
 
-Departments/Payroll/Employee Maintenance/Payroll
-Employees
-
- 
-
-
-
- 
-
-2.6      
+*Departments/Payroll/Employee Maintenance/Payroll Employees*
+      
 ## 6. GST Transaction Type Setup
 
-A Transaction Code must be setup to represent
-GST. This code will be used in conjunction with the GST Tax scale when
+A Transaction Code must be setup to represent GST. This code will be used in conjunction with the GST Tax scale when
 calculating contractor pays.
 
-GST Accumulation Type and Accumulation
-Summary Type options are used when setting up the GST transaction code to
+GST Accumulation Type and Accumulation Summary Type options are used when setting up the GST transaction code to
 separate it from PAYG Tax.
 
-To access the Pay
-Transaction Types task go to the following menu: 
+To access the Pay Transaction Types task go to the following menu: 
 
-Departments/Payroll/Setup/Payroll Setup/General/Pay
-Transaction Types
+*Departments/Payroll/Setup/Payroll Setup/General/Pay Transaction Types*
 
-
-
- 
-
-The GST Product Posting Group field is used
-to reconcile the General Ledger Account used for GST. This is the only
-transaction type that will be setup with a GST Product Posting Group instead of
-a transaction posting group.
-
- 
-
-2.7      
+The GST Product Posting Group field is used to reconcile the General Ledger Account used for GST. This is the only
+transaction type that will be setup with a GST Product Posting Group instead of a transaction posting group.
+     
 ## 7. GST Calculation
 
-On the Pay Transaction Type setup card on the
-Parameters Tab, there is a GST applicable box that should be ticked for every
-code that should have GST applied. For wages type code, GST would apply,
-whereas for a reimbursement type code, GST may not apply.
+On the Pay Transaction Type setup card on the Parameters Tab, there is a GST applicable box that should be ticked for every code that should have GST applied. For wages type code, GST would apply, whereas for a reimbursement type code, GST may not apply.
 
-To access the Pay
-Transaction Types task go to the following menu: 
+To access the Pay Transaction Types task go to the following menu: 
 
-Departments/Payroll/Setup/Payroll Setup/General/Pay
-Transaction Types
+*Departments/Payroll/Setup/Payroll Setup/General/Pay Transaction Types*
 
-
-
+GST needs to be setup on the Payroll Control card and mapped to GST Tax Tran Type
  
+To access the Payroll Control Setup task go to the following menu: 
 
- 
-
-GST needs to be setup on the Payroll Control card and mapped
-to GST Tax Tran Type
-
- 
-
-To access the Payroll
-Control Setup task go to the following menu: 
-
-Departments/Payroll/Setup/Payroll Setup/Payroll
-Controls/Payroll Setup
+*Departments/Payroll/Setup/Payroll Setup/Payroll Controls/Payroll Setup*
 
  
 
