@@ -99,7 +99,7 @@ To access the Payroll Control Setup task go to the following menu:
 
 *Departments/Payroll/Setup/Payroll Setup/Payroll Controls/Payroll Setup*
 
- [GoToTop](#How-to-setup-Incorporated-Companies)
+ [GoToTop] (#How-to-setup-Incorporated-Companies)
 
 
 
