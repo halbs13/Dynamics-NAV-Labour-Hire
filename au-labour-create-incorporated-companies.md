@@ -1,4 +1,4 @@
-# How to: setup Incorporated Companies
+# How to setup Incorporated Companies
 
 This document will contain information relating to the setup of Incorporated Companies and contains the
 following sections:
@@ -11,34 +11,14 @@ following sections:
 - GST Transaction Type Setup
 - GST Calculation 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2     
-Incorporated Company Setup
-
-2.1      
-Incorporated
-Company Overview
+## Incorporated Company Overview
 
 Contractors that operate through Incorporated
 Companies can be processed through the Labour Hire Suite. These contractors are
 maintained and paid using the Payroll system and are setup as per PAYG type
 contractors with some differences which will be outlined in this document.
 
-2.2      
-Incorporated Company Flag Identifications
+### Incorporated Company Flag Identifications
 
 An “Incorporated Company” option is available
 as an Employment Basis from within the Employee Type. 
