@@ -11,26 +11,22 @@ following sections:
 - GST Transaction Type Setup
 - GST Calculation 
 
-## Incorporated Company Overview
+## 1. Incorporated Company Overview
 
 Contractors that operate through Incorporated
 Companies can be processed through the Labour Hire Suite. These contractors are
 maintained and paid using the Payroll system and are setup as per PAYG type
 contractors with some differences which will be outlined in this document.
 
-### Incorporated Company Flag Identifications
+## 2. Incorporated Company Flag Identifications
 
-An “Incorporated Company” option is available
-as an Employment Basis from within the Employee Type. 
+An “Incorporated Company” option is available as an Employment Basis from within the Employee Type. 
 
-During implementation, all Employee Type
-codes are setup and mapped to the appropriate employment basis type. 
+During implementation, all Employee Typecodes are setup and mapped to the appropriate employment basis type. 
 
-To access the Employee Types task, go to the
-following menu:
+To access the Employee Types task, go to thefollowing menu:
 
-Departments/Payroll/Setup/Payroll
-Setup/General/Employee Types
+Departments/Payroll/Setup/Payroll Setup/General/Employee Types
 
 
 
@@ -40,8 +36,8 @@ When setting up a new contractor that
 operates through an Incorporated Company, you must select Employee Type “INCORP”
 or “Incorporated Company”.
 
-2.3      
-Company Details
+      
+## 3. Company Details
 
 The Contractor
 Company Name and A.B.N fields are located on the Declaration Tab of the Payroll
@@ -59,8 +55,8 @@ Employees
 
  
 
-2.4      
-Workers Compensation Policies
+      
+## 4. Workers Compensation Policies
 
 Contractors operating through Incorporated
 Companies are required to provide details of their workers compensation policy.
@@ -125,7 +121,7 @@ The following fields need to be entered
  
 
 2.5      
-Goods & Services Tax ( GST ) Overview
+## 5. Goods & Services Tax ( GST ) Overview
 
 Where contractors are operating through
 Incorporated Companies they will not have PAYG Tax deducted but will instead
@@ -147,7 +143,7 @@ Employees
  
 
 2.6      
-GST Transaction Type Setup
+## 6. GST Transaction Type Setup
 
 A Transaction Code must be setup to represent
 GST. This code will be used in conjunction with the GST Tax scale when
@@ -175,7 +171,7 @@ a transaction posting group.
  
 
 2.7      
-GST Calculation
+## 7. GST Calculation
 
 On the Pay Transaction Type setup card on the
 Parameters Tab, there is a GST applicable box that should be ticked for every
