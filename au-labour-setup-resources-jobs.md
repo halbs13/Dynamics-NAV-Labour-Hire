@@ -16,7 +16,7 @@ This section will discuss the following setup areas within Resources & Jobs;
 
 - [Resources Setup](#to-setup-resources)
 - [Jobs Setup](#to-setup-jobs)
-- [Job Posting Groups](#to-job-posting-groups)
+- [Job Posting Groups](#to-setup-job-posting-groups)
 
 ## To setup Resources
 A number series must be setup for Resource records, regardless of whether the number will be manually entered into Dynamics NAV or transferred via the interface.
