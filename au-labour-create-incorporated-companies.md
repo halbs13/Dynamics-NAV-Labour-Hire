@@ -57,7 +57,7 @@ The following fields need to be entered:
  |--------------------------------------------------------------- | --------------------------------------------------------------|
  |**Workers Comp Policy No.** |The “Workers Comp Policy No.” is used to  record a Contractors policy number.|
  |**Workers Comp Insurer** | The “Workers Comp Insurer” is used to record the name of the Contractors Workers Comp Insurer.|
-|** Policy Expiration Policy**|The “Policy Expiration Date” is used to record the expiry date of the policy.|
+|**Policy Expiration Policy**|The “Policy Expiration Date” is used to record the expiry date of the policy.|
  
  
  
