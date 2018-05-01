@@ -61,7 +61,7 @@ The Payroll Setup defines global settings and rules within the payroll.  Many of
     |**Lump Sum B Assessable %**|The **Lump Sum B Assessable %** field is used to define the percentage of a Lump Sum B payment assessable for tax. This field will default to **5%** (which is expressed in decimal format of 5.00) when the company is initialized and can be updated accordingly if required.|
     |**Leave Loading Threshold**|The **Leave Loading Threshold** field was used to identify the total of leave bonus payments to an employee in a financial year above which tax installments apply. This function was retired by the Australian Govt. in July 2012.|
     |**FBT Start Day**|The **FBT Start Day** field is the number of the first day for the FBT year. This value in this field will appear on the Payment Summary.|
-    |**FBT Start Month**|The “FBT Start Month” field is the number of the first month for the FBT year. This value in this field will appear on the Payment Summary.|
+    |**FBT Start Month**|The **FBT Start Month** field is the number of the first month for the FBT year. This value in this field will appear on the Payment Summary.|
     
 3. On the **Employer** FastTab, fill the fields as described in the following table.
 
@@ -90,7 +90,7 @@ The Payroll Setup defines global settings and rules within the payroll.  Many of
     |---------------------------------|---------------------------------------|  
     |**Weekly Rate on Pay Advice**|A checkmark in this field indicates that the weekly rate of pay is to print on the pay advice.|         |**Annual Rate on Pay Advice**|A checkmark in this field indicates that the annual rate of pay is to print on the pay advice.|  
     |**YTD Value on Pay Advice**|A checkmark in this field indicates that the YTD values of pay are to print on the pay advice.|  
-    |**Employe Super. On Pay Advice**A checkmark in this field indicates to print the payment period value for employer superannuation contributions on the pay advice.| 
+    |**Employe Super. On Pay Advice**|A checkmark in this field indicates to print the payment period value for employer superannuation contributions on the pay advice.| 
     |**Accrued TIL on Pay Advice**|A checkmark in this field indicates to print the balance of TIL on the pay advice.|  
     |**Annual Leave on Pay Advice**|A checkmark in this field indicates to print the balance of Annual Leave on the pay advice.|  
     |**Personal Leave on Pay Advice**|A checkmark in this field indicates to print the balance of Personal Leave on the pay advice.|  
