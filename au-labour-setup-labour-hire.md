@@ -58,6 +58,8 @@ You use the Labour Hire Setup to establish certain basic rules to be used in the
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Default Job Invoice Grouping**|The **Default Job Invoice Grouping** field is used to define how invoices will be generated. The options available are; **Blank**,  **Alternate Date** – if you select this option then invoices will be grouped by Alternate Date when generated.  **Job Posting Group** – if you select this option then invoices will be grouped by Job Posting Group when generated. **Job Bill-To Contact** – if you select this option then invoices will be grouped by Job Bill-To Contact when generated. **Job No.** – if you select this option then invoices will be grouped by Job No. when generated. **Job Task No.** – if you select this option then invoices will be grouped by Job Task No. when generated.|  
+                                                                                                                 [GoToTheTop] (#how-to:-setup-labour-hire)
+    
          
 ## To setup Rate Frequency Conversion
 The Rate Frequency Conversion window is used to establish one or more different type of rate frequencies used on Order Rate Sets.
@@ -84,7 +86,7 @@ The Fee Types window is used to establish the Fee Types that are used within you
     |---------------------------------|---------------------------------------|  
     |**Code**|Select the “Fee Type” Code from the “ArrowDown”.|  
     |**Description**|Enter in a Description to describe the Fee Type.| 
-    |**Fee Type**|Enter in the Fee Type. The options available are; **Placement, **Requirement.**|
+    |**Fee Type**|Enter in the Fee Type. The options available are; **Placement**, **Requirement.**|
     |**G/L Account No.**|Enter in the GL account number where the placement fee type value will post to in the General Ledger.|
 
 ## To setup Placement Types
