@@ -1,4 +1,4 @@
-# How to: Setup Resources & Jobs
+# How to setup Resources and Jobs
 
 The Dynamics NAV Labour Hire module comprises and requires various areas within Dynamics NAV
 to be configured in order for it to operate. 
@@ -31,6 +31,7 @@ A number series must be setup for Resource records, regardless of whether the nu
     |**Time Sheet First Week Day**|This feature relates specifically to standard time sheets using Resources and Machines and **should not** be confused with Time Sheet Entry used in the Labour Hire module or TimeKeeper.|  
     |**Time Sheet by Job Approval**|This feature relates specifically to standard time sheets using Resources and Machines and **should not** be confused with Time Sheet Entry used in the Labour Hire module or TimeKeeper.| 
         
+[GoToTop](#how-to-setup-resources-and-jobs)
 
 ## To setup Jobs
 A number series must be setup for Job records, regardless of whether the number will be manually entered into Dynamics NAV or transferred via the interface.
@@ -42,6 +43,7 @@ A number series must be setup for Job records, regardless of whether the number 
     |---------------------------------|---------------------------------------|  
     |**Job No.s**|Select the Job No. series from the **ArrowDown**.  If there is integration with AXiOM, the Job Numbers will be generated from within AXiOM and transfer into NAV, however this field should still be configured. **Note: The No. Series should be setup first.  You will need to create a new No. series if one does not exist.|  
        
+[GoToTop](#how-to-setup-resources-and-jobs)
 
 ## To setup Job Posting Groups
 Job Posting Groups are used through the Labour Hire module to set defaults such as **Dimensions**, **Payroll Branch and Division** and **Product Posting Groups**.  Where there is integration into the AXiOM product, the Job Posting Group it is transferred across as the **Cost Centre** code which can be later selected on the Order.
@@ -71,3 +73,4 @@ Job Posting Groups are used through the Labour Hire module to set defaults such 
     |**Dimension Value Code**|Select the additional dimension value you wish to add from the **ArrowDown**.|  
     |**Value Posting**|This option is not required at this level and is generally setup and maintained on G/L Accounts.|  
    
+[GoToTop](#how-to-setup-resources-and-jobs)
