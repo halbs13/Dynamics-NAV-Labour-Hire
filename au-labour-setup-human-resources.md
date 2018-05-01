@@ -20,7 +20,7 @@ This section will discuss the following setup areas within Human Resources;
 - [Grounds for Termination](#to-setup-grounds-for-termination) - used for Internal Employees
 - [Qualifications](#to-setup-qualifications) - used for Internal Employees
 - [Relatives](#to-setup-relatives) - used for Internal Employees
-- [Misc. Articles](#to-setup-misc.-of-articles) - used for Internal Employees
+- [Misc. Articles](#to-setup-misc.-articles) - used for Internal Employees
 
 ## To setup Human Resources
 The Human Resources Setup allows you to define rules such as Employee No. Series, Base Unit of Measures.
