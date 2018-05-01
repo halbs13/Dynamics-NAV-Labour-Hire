@@ -16,7 +16,7 @@ This section will discuss the setting up General Ledger areas required to operat
 
 - [General Ledger Setup](#to-setup-general-ledger)
 - [Dimensions Setup](#to-setup-dimensions) 
-- [Posting Group Setup](#to-setup-posting groups) 
+- [Posting Group Setup](#to-setup-posting-groups) 
 - [General Product Posting Groups](#to-setup-general-product-posting-groups) 
 - [GST Posting Groups](#to-setup-gst-posting-groups) 
 
