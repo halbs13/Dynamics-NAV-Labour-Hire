@@ -16,70 +16,95 @@ This section will discuss the following setup areas within Human Resources;
 
 - [Labour Hire Setup](#to-setup-labour-hire)
 - [Rate Frequency Conversion](#to-setup-rate-frequency-conversion)
-- [Cause of Inactivity](#to-setup-cause-of-inactivity) - used for Internal Employees
-- [Grounds for Termination](#to-setup-grounds-for-termination) - used for Internal Employees
-- [Qualifications](#to-setup-qualifications) - used for Internal Employees
-- [Relatives](#to-setup-relatives) - used for Internal Employees
-- [Misc. Articles](#to-setup-misc.-of-articles) - used for Internal Employees
+- [Fee Types](#to-setup-fee-types) 
+- [Placement Types](#to-setup-placement-types) 
+- [Interface Options](#to-setup-interface-options) 
+- [Interface Defaults](#to-setup-interface-defaults) 
 
-## To setup Human Resources
-The Human Resources Setup allows you to define rules such as Employee No. Series, Base Unit of Measures.
+## To setup Labour Hire
+You use the Labour Hire Setup to establish certain basic rules to be used in the Labour Hire application area.
 
-1. In the **Search** box, enter **Human Resources Setup**, and then choose the related link.  
-2. Fill the fields as described in the following table.  
+1. In the **Search** box, enter **Labour Hire Setup**, and then choose the related link.  
+2. On the **General** FastTab, fill the fields as described in the following table. 
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**Employee Nos**|From the**ArrowDown**, select the Employee No. series. If there is integration with AXiOM, the Employee Numbers will be generated from within AXiOM and transfer into NAV.  This field should be configured in case there are Internal Employees being paid within the Labour Hire module.  **Note: The No. Series should be setup first.  You will need to create a new No. series if one does not exist.|  
-    |**Base Uit of Measure**|This field contains the base unit used to measure employee absences, work hours, etc.  E.g. the unit of measure could be hour or day.|  
-    |**Hours Unit of Measure**|This field contains the base unit used to measure time within Employee Time Sheet. E.g. the unit of measure is Hour.|  
+    |**Job Contract Posting Method**|This option defines when invoices can be generated once timesheets are processed.  The options available are; **Payroll** – if this option is selected then sales invoices will be available for generation once Payroll has been processed and posted. **Timesheet** – if this option is selected then sales invoices will be available for generation once Timesheets have processed to payroll.|  
+    |**Placement No.s**|The Placement No.s are used to allocate Placement No.s when using the Placement Entry screen. Select the Placement No.s from the **ArrowDown**. This option is not used if there is integration to Axiom.|  
+    |**Use Interface**|The **Use Interface** field if selected, can be used to restrict fields being updated in various tables within NAV as defined in the Interface Options table.|  
     |**Escalation Time**|This field is used to determine the duration of the initial escalation time used for notifications when using the TimeKeeper application.| 
-    |**Second Escalation Time**|This field is used to determine the duration of second escalation time used for notifications when using the TimeKeeper application.|
-    |**Time Sheet Week Ending Day**|This option is used for Employee Time Sheet to determine when the week ending day is.|
-    |**Job Resource Validation**|This field forms part of the TimeKeeper interface and is used when timesheets are being validated after import from TimeKeeper. The options available for selection are:**Job Planning Line** – select this option if the Resource can only enter time where they are on a Planning Line for the Job(s) ·**None** – select this option if the Resource can put time against any Job.
+   
+3. On the **Permanent Placement** FastTab, fill the fields as described in the following table. 
 
-## To setup Cause of Absences
-The Causes of Absence table is used to set up cause of absence codes for your employees.  These codes can be used to indicate various reasons for employee absences: sickness, personal days, personal emergencies, etc.  After they have been setup, they are then mapped through to the Pay Transaction Types within the Payroll module and transactional data transfers across to the Absence Registration table so that further analysis can be conducted. 
+    |Field|Description|  
+    |---------------------------------|---------------------------------------|  
+    |**No. Days/Weeks To Calculate Invoice Generation Date**|The **No. Days/Weeks To Calculate Invoice Generation Date** field is used to define when Permanent Placement invoices are to be generated.|  
+     |**Days/Week**|The **Days/Weeks** field is used to define if Permanent Placement invoices are generated days or weeks after the Permanent Placement.| 
+     |**Start/Create Date**|The **Start/Create Date** field is used to define if Permanent Placement invoices are generated from the Start Date or Creation Date of the Permanent Placement.|  
+     |**Before/After**|The **Before/After** field is used to define if Permanent Placement invoices are generated Before or After the date of the Permanent Placement.|
+     |**Placement Flat Fee Type Code**|The **Placement Flat Fee Type Code** field is used to define the GL account the Placement Flat Fees will be posted to.| 
+     |**Plcmt. Salary % Fee Type Code**|The **Plcmt. Salary % Fee Type Code** field is used to define the GL account the Placement Salary % Fee will be posted to.|  
+     
+4. On the **Timesheet** FastTab, fill the fields as described in the following table. 
 
-1. In the **Search** box, enter **Causes of Absence**, and then choose the related link.  
+    |Field|Description|  
+    |---------------------------------|---------------------------------------|  
+    |**Automatic Timesheet Line**|The **Automatic Timesheet Line** check box is used to define if timesheets are automatically generated when payrolls are posted and pay periods are closed.|  
+     |**Timesheet Unit Validation**|The Timesheet Unit Validation feature is used to define the number of hours worked on a daily basis. It is generally used for reporting to clients or for internal reasons that allows your organisation to record the number of hours an employee works on a daily basis. The “Timesheet Unit Validation” check box is used to define if timesheet unit validation is required.| 
+     |**Dup. Timesheet Check Frequency**|The **Dup. Timesheet Check Frequency** defines the frequency of when duplicate timesheets are checked. The options available are; Weekly or Daily. Duplicate timesheets are checked based on the following; * Alternate Date or Pay Period End Date * Transaction Type|  
+     
+5. On the **Invoicing** FastTab, fill the fields as described in the following table. 
+
+    |Field|Description|  
+    |---------------------------------|---------------------------------------|  
+    |**Default Job Invoice Grouping**|The **Default Job Invoice Grouping** field is used to define how invoices will be generated. The options available are; **Blank**,  **Alternate Date** – if you select this option then invoices will be grouped by Alternate Date when generated.  **Job Posting Group** – if you select this option then invoices will be grouped by Job Posting Group when generated. **Job Bill-To Contact** – if you select this option then invoices will be grouped by Job Bill-To Contact when generated. **Job No.** – if you select this option then invoices will be grouped by Job No. when generated. **Job Task No.** – if you select this option then invoices will be grouped by Job Task No. when generated.|  
+         
+## To setup Rate Frequency Conversion
+The Rate Frequency Conversion window is used to establish one or more different type of rate frequencies used on Order Rate Sets.
+
+The Rate Frequency Conversion factors are generally used when Placement Entry is being used.
+
+1. In the **Search** box, enter **Rate Frequency Conversion**, and then choose the related link.  
 2. Fill the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**Code**|Enter in the cause of absence code.  You can enter in a maximum of 10 characters, both numbers and letters.|  
-    |**Description**|Enter in a description for the cause of absence.|  
-    |**Total Absence (Base)**|This field displays the total number of absences (calculated in days or hours) for all employees as regards the cause of absence for this line. The program automatically calculates and updates the contents of the field using the entries in the Quantity field in the Employee Absence table. It is important that you use one **unit of measure** consistently when registering employee absences in order to obtain meaningful totals and statistics on employee absences.|  
-    |**Unit of Measure Code**|You can select the Unit of Measure to be used for calculating absences.| 
+    |**Frequency**|Select the **Frequency** type from the **ArrowDown**. The options available are; **Hour, **Day, **Week, **Month, **Unit.**|  
+    |**Hourly Conversion Rate**|Enter in the value to convert the hourly rate.|  
+    |**Maximum**|Enter in the maximum number of units.|  
+    |**Unit of Measure Code**|You can select the Unit of Measure code from the **ArrowDown**.| 
  
- ## To setup Cause of Inactivity
-The Causes of Inactivity table is used to set up cause of inactivity codes for your employees.  These codes can be used to indicate various reasons causing employee inactiveness: maternity leave, long-term illness, sabbatical, etc.  When you have setup the cause of inactivity codes, you can assign them to the individual employees on the employee card.  You can also specify a starting date for the period of inactiveness for the employee on the employee card. 
+## To setup Fee Types
+The Fee Types window is used to establish the Fee Types that are used within your organisation. An example of how this might be used is where you have Permanent Placement Fee overhead charges such as setup fees which can be mapped through to a relevant General Ledger account.
 
-1. In the **Search** box, enter **Causes of Inactivity**, and then choose the related link.  
+1. In the **Search** box, enter **Fee Types**, and then choose the related link.  
 2. Fill the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**Code**|Enter in the cause of inactivity code.  You can enter in a maximum of 10 characters, both numbers and letters.|  
-    |**Description**|Enter in a description for the cause of inactivity.|  
+    |**Code**|Select the “Fee Type” Code from the “ArrowDown”.|  
+    |**Description**|Enter in a Description to describe the Fee Type.| 
+    |**Fee Type**|Enter in the Fee Type. The options available are; **Placement, **Requirement.**|
+    |**G/L Account No.**|Enter in the GL account number where the placement fee type value will post to in the General Ledger.|
 
-## To setup Grounds for Termination
-The Grounds for Termination table is used to set up grounds for termination codes for your employees.  These codes can be used to indicate various reasons for employee termination: dismissal, retirement, resignation, etc.  When you have setup the grounds for termination codes, you can assign them to the individual employees on the employee card.  You can also specify a date on which the employee was terminated. 
+## To setup Placement Types
+The Placement Types window is used to set up codes for each set of Placement Types you process within your organisation.
 
-1. In the **Search** box, enter **Grounds for Termination**, and then choose the related link.  
+1. In the **Search** box, enter **Placement Type**, and then choose the related link.  
 2. Fill the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**Code**|Enter in the grounds for termination code.  You can enter in a maximum of 10 characters, both numbers and letters.|  
-    |**Description**|Enter in a description for the grounds for termination.|  
-    |**Term. Lump Sum A Type**|For each of the Termination codes, you will need to specify the Term. Lump Sum A type accordingly as these will print on the INB Payment Summary.  The options available are: **R** – where payment for a genuine redundancy, invalidity or under an approved early retirement scheme ·**T** – where payment was not a payment for a genuine redundancy, invalidity or under an approved early retirement scheme.|  
-    |**ETP Applicable**|The ETP field is used to identify how the termination payment will be treated.  If the employee is terminated with a code and this field has been selected, the Termination payment is then taxed and treated differently.|
+    |**Code**|Enter in a Placement Type. You can enter a maximum of 10 characters, both numbers and letters.|  
+    |**Description**|Enter in the text that describes the Placement Type.|  
+    |**Placement Category**|Enter in the Placement Category which describes the Placement Type. The options available are; **Permanent, **Contractor.**|  
+    |**Exclude from Integration**|The **Exclude from Integration** field is used to identify whether this transaction will be excluded from the integration to Axiom.|
     
-## To setup Qualifications
-The Qualifications table is used to set up qualification codes for your employees.  These codes can be used for various employee qualifications: job titles, employee computer skills, education, course, etc.   The table enables you to effectively register and update your employees’ qualifications in other parts of the program.  
+## To setup Interface Options
+The Interface Options window is used to specify the integration behavior between NAV and Axiom and NAV and TimeKeeper.  
 
-1. In the **Search** box, enter **Qualifications**, and then choose the related link.  
-2. Fill the fields as described in the following table.  
+1. In the **Search** box, enter **Interface Options**, and then choose the related link.  
+2. On the **Integration** FastTab, fill the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
