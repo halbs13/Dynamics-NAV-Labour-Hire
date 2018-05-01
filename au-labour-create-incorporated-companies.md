@@ -53,24 +53,17 @@ To access the Employee Maintenance task go to the following menu:
 
 The following fields need to be entered:
 
-
- 
-  
-   
-   Field Name
-   
-   
-   Description
-   
-  
+ |Field Name | Description
+ |--------------------------------------------------------------- | --------------------------------------------------------------|
+ |**Workers Comp Policy No.** |The “Workers Comp Policy No.” is used to  record a Contractors policy number.|
+  
  
  
   
-  Workers Comp Policy No.
   
   
-  The “Workers Comp Policy No.” is used to
-  record a Contractors policy number.
+  
+  
   
  
  
