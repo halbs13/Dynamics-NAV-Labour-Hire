@@ -71,7 +71,7 @@ The Rate Frequency Conversion factors are generally used when Placement Entry is
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**Frequency**|Select the **Frequency** type from the **ArrowDown**. The options available are; **Hour, **Day, **Week, **Month, **Unit.**|  
+    |**Frequency**|Select the **Frequency** type from the **ArrowDown**. The options available are; **Hour, Day, Week, Month, Unit.**|  
     |**Hourly Conversion Rate**|Enter in the value to convert the hourly rate.|  
     |**Maximum**|Enter in the maximum number of units.|  
     |**Unit of Measure Code**|You can select the Unit of Measure code from the **ArrowDown**.| 
