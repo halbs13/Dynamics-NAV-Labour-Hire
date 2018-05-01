@@ -26,54 +26,32 @@ During implementation, all Employee Typecodes are setup and mapped to the approp
 
 To access the Employee Types task, go to thefollowing menu:
 
-Departments/Payroll/Setup/Payroll Setup/General/Employee Types
+*Departments/Payroll/Setup/Payroll Setup/General/Employee Types*
 
-
-
- 
-
-When setting up a new contractor that
-operates through an Incorporated Company, you must select Employee Type “INCORP”
-or “Incorporated Company”.
-
-      
+When setting up a new contractor that operates through an Incorporated Company, you must select Employee Type “INCORP” or “Incorporated Company”.
+     
 ## 3. Company Details
 
-The Contractor
-Company Name and A.B.N fields are located on the Declaration Tab of the Payroll
-Employee card.
+The Contractor Company Name and A.B.N fields are located on the Declaration Tab of the Payroll Employee card.
 
-To access the
-Employee Maintenance task go to the following menu: 
+To access the Employee Maintenance task go to the following menu: 
 
-Departments/Payroll/Employee Maintenance/Payroll
-Employees
-
-
-
- 
-
- 
-
+*Departments/Payroll/Employee Maintenance/Payroll Employees*
       
 ## 4. Workers Compensation Policies
 
-Contractors operating through Incorporated
-Companies are required to provide details of their workers compensation policy.
+Contractors operating through Incorporated Companies are required to provide details of their workers compensation policy.
 
 The information that needs to be recorded
 includes Policy Number, Insurer and Expiration Date.
 
-Access is via the Payroll Employee card under
-the Work Cover Tab.
+Access is via the Payroll Employee card under the Work Cover Tab.
 
-To access the
-Employee Maintenance task go to the following menu: 
+To access the Employee Maintenance task go to the following menu: 
 
-Departments/Payroll/Employee Maintenance/Payroll
-Employees
+*Departments/Payroll/Employee Maintenance/Payroll Employees*
 
-The following fields need to be entered
+The following fields need to be entered:
 
 
  
