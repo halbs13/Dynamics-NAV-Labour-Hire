@@ -57,10 +57,10 @@ You use the Labour Hire Setup to establish certain basic rules to be used in the
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**Default Job Invoice Grouping**|The **Default Job Invoice Grouping** field is used to define how invoices will be generated. The options available are; **Blank**,  **Alternate Date** – if you select this option then invoices will be grouped by Alternate Date when generated.  **Job Posting Group** – if you select this option then invoices will be grouped by Job Posting Group when generated. **Job Bill-To Contact** – if you select this option then invoices will be grouped by Job Bill-To Contact when generated. **Job No.** – if you select this option then invoices will be grouped by Job No. when generated. **Job Task No.** – if you select this option then invoices will be grouped by Job Task No. when generated.|  
-                                                                              [GoToTop](#how-to-setup-labour-hire)
-    
-         
+    |**Default Job Invoice Grouping**|The **Default Job Invoice Grouping** field is used to define how invoices will be generated. The options available are; **Blank**,  **Alternate Date** – if you select this option then invoices will be grouped by Alternate Date when generated.  **Job Posting Group** – if you select this option then invoices will be grouped by Job Posting Group when generated. **Job Bill-To Contact** – if you select this option then invoices will be grouped by Job Bill-To Contact when generated. **Job No.** – if you select this option then invoices will be grouped by Job No. when generated. **Job Task No.** – if you select this option then invoices will be grouped by Job Task No. when generated.| 
+
+[GoToTop](#how-to-setup-labour-hire)
+             
 ## To setup Rate Frequency Conversion
 The Rate Frequency Conversion window is used to establish one or more different type of rate frequencies used on Order Rate Sets.
 
