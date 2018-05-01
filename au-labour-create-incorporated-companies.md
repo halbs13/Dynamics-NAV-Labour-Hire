@@ -1,17 +1,15 @@
 # How to: setup Incorporated Companies
 
-1      Introduction
-
-This document has been prepared
-as a training manual for users of the Dynamics NAV2017  Labour Hire Suite module.  
-
- 
-
-This document will contain
-information relating to the setup of Incorporated Companies and contains the
+This document will contain information relating to the setup of Incorporated Companies and contains the
 following sections:
 
-Incorporated Company OverviewIncorporated Company Flag IdentificationCompany DetailsWorkers Compensation PoliciesGoods & Services Tax (GST) OverviewGST Transaction Type SetupGST Calculation 
+- Incorporated Company Overview
+- Incorporated Company Flag Identification
+- Company Details
+- Workers Compensation Policies
+- Goods & Services Tax (GST) Overview
+- GST Transaction Type Setup
+- GST Calculation 
 
 
 
