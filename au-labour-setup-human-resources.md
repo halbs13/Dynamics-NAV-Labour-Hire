@@ -72,7 +72,7 @@ The Grounds for Termination table is used to set up grounds for termination code
     |---------------------------------|---------------------------------------|  
     |**Code**|Enter in the grounds for termination code.  You can enter in a maximum of 10 characters, both numbers and letters.|  
     |**Description**|Enter in a description for the grounds for termination.|  
-    |**Term. Lump Sum A Type**|For each of the Termination codes, you will need to specify the Term. Lump Sum A type accordingly as these will print on the INB Payment Summary.  The options available are: **R** – where payment for a genuine redundancy, invalidity or under an approved early retirement scheme ·**T** – where payment was not a payment for a genuine redundancy, invalidity or under an approved early retirement scheme.|  
+    |**Term. Lump Sum A Type**|For each of the Termination codes, you will need to specify the Term. Lump Sum A type accordingly as these will print on the INB Payment Summary.  The options available are: **R** – where payment for a genuine redundancy, invalidity or under an approved early retirement scheme.  **T** – where payment was not a payment for a genuine redundancy, invalidity or under an approved early retirement scheme.|  
     |**ETP Applicable**|The ETP field is used to identify how the termination payment will be treated.  If the employee is terminated with a code and this field has been selected, the Termination payment is then taxed and treated differently.|
     
 ## To setup Qualifications
