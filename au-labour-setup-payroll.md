@@ -227,145 +227,38 @@ Superannuation Funds are used to define the different type of Superannuation fun
 [GoToTop](#how-to-setup-payroll)    
     
     
-## To setup Qualifications
-The Qualifications table is used to set up qualification codes for your employees.  These codes can be used for various employee qualifications: job titles, employee computer skills, education, course, etc.   The table enables you to effectively register and update your employees’ qualifications in other parts of the program.  
+## Recording Multiple Fund Employer No.s
+If you have a multiple payroll entities setup within the one NAV Company as separate payrolls, you may have different Employee No's to record for each Superannuation Fund.  
 
-1. In the **Search** box, enter **Qualifications**, and then choose the related link.  
-2. Fill the fields as described in the following table.  
+To enter in an Employer No. for each Payroll, choose the **Payroll Setup** icon on the *Home ribbon* to record this information for each payroll. 
 
-    |Field|Description|  
-    |---------------------------------|---------------------------------------|  
-    |**Code**|Enter in the qualifications code.  You can enter in a maximum of 10 characters, both numbers and letters.|  
-    |**Description**|Enter in a description for the qualification.|  
-    |**Qualified Employees**|This field shows whether there are any employees with the qualification specified on the line. A yes indicates that the company has employees with this qualification. To see the employees that have this qualification, click the AssistButton to the right of the field.|  
-  
-  ## To setup Relatives
-The Relatives table is used to set up relative codes for your employees’ relatives.   You can also use this table to set up codes for close contacts to the employee if the employee does not have any family.   
+1. On the **General** FastTab, fill the fields as described in the following table.
 
-1. In the **Search** box, enter **Relatives**, and then choose the related link.  
-2. Fill the fields as described in the following table.  
+   |Field|Description|  
+   |---------------------------------|---------------------------------------|  
+   |**Payroll No.**|Select the Payroll No. from the **ArrowDown**.|  
+   |**Fund Code**|The Fund Code field will automatically default to the Fund Code that you are currently updating.|  
+   |**Fund Employer No.**|Enter in the Employer No. allocated to you by the Superannuation Fund.  The information contained in this field is used in the pay reports and is **mandatory**|
+   |**Pay Centre ID**|The Pay Centre ID field identifies the organisational unit responsible for paying the salary and contributions of an employee/member/investor which may be required for matching the investor when paying contributions.  Enter in the Pay Centre ID (up to 15 characters) as identified by the Superannuation Fund.|
+   
+[GoToTop](#how-to-setup-[payroll)
 
-    |Field|Description|  
-    |---------------------------------|---------------------------------------|  
-    |**Code**|Enter in the relatives code.  You can enter in a maximum of 10 characters, both numbers and letters.|  
-    |**Description**|Enter in a description for the relative.|  
- 
- ## To setup Misc. Articles
-The Misc. Articles table is used to set up codes for the benefits that you employees receive any other articles that are in your employees’ possession (keys, computers, company cars, etc.) The table enables you to effectively register and update your company’s articles in other parts of the program.   
+## How to setup Superannuation Products
+Superannuation Products defines the default parameters used for Superannuation Processing including the calculations of employee and employer contributions to an unlimited number of Superannuation funds.
 
-1. In the **Search** box, enter **Mics. Articles**, and then choose the related link.  
-2. Fill the fields as described in the following table.  
+Generally, employees aged over the age of 18, who are paid $450 (before tax) or more in a calendar month are covered by the superannuation guarantee legislation, regardless of their type of employment.  
 
-    |Field|Description|  
-    |---------------------------------|---------------------------------------|  
-    |**Code**|Enter in the misc. articles code.  You can enter in a maximum of 10 characters, both numbers and letters.|  
-    |**Description**|Enter in a description for the misc. article.|  
+The Superannuation Guarantee Contribution (SGC) is a percentage of specific components of employees’ remuneration, called “Ordinary Time Earnings”. 
 
+Superannuation contributions by either the employee or the employer are set up as a percentage of the employee’s pay (or base salary), or as a standard amount each pay period. The employer may also contribute a factor of the employee’s superannuation contribution.  Superannuation contribution can be set up to meet the minimum salary amount.  
 
-2.3.1.1    
-Recording Multiple Fund Employer No.’s
+When calculating Superannuation as a percentage of pay, the process uses the [pay transactions types](#how-to-setup-pay-transaction-types) that have the **Apply to Superannuation** field set to **Yes** on the parameters tab for the Standard Superannuation method and Employee contributions.
 
-If you have multiple payroll entities setup within the one
-NAV Company as separate payrolls you may have different Employer No.’s to
-record for each Superannuation Fund. 
+The payments of contributions to the superannuation funds are also recorded.  Payment can be set up to generate at the frequency required by the superannuation fund. Recorded against each Superannuation fund are the contributions made to it by the employee and employer.  
 
-To enter in an Employer No. for each Payroll, click on the “Payroll Setup” icon on the
-Home ribbon to record this information for each payroll.
+Manual changes can be made to superannuation contribution amounts for the employer or employee.  These changes will be recorded as transactions. On the Pay Journal one-off contributions to superannuation can be entered.
 
-  
-  GENERAL FASTTAB
-
-  Payroll No.
-  
-  Select the Payroll No. from the “ArrowDown”.
-  
-  Fund Code
-  
-  
-  The Fund Code field will automatically default to the Fund
-  Code that you are currently updating.
-  
-  Fund Employer No.
-  
-  
-  Enter in the Employer No. allocated to you by the
-  Superannuation Fund.  
-   
-  The information contained in this field is used in the
-  payment reports and is mandatory.
-  
-  Pay Centre ID
-  
-  
-  The Pay Centre ID field identifies the organisational unit
-  responsible for paying the salary and contributions of an
-  employee/member/investor which may be required for matching the investor when
-  paying contributions.
-   
-  Enter in the Pay Centre ID (up to 15 characters) as
-  identified by the Superannuation Fund.
-  
- 
-
-
- 
-
-2.4   
-Superannuation Products
-
-Superannuation Products defines
-the default parameters used for Superannuation Processing including the
-calculations of employee and employer contributions to an unlimited number of
-Superannuation funds.
-
- 
-
-Generally, employees aged over
-the age of 18, who are paid $450 (before tax) or more in a calendar month are
-covered by the superannuation guarantee legislation, regardless of their
-employee type.  
-
- 
-
-The Superannuation Guarantee
-Contribution (SGC) is a percentage of specific components of employees’
-remuneration, called “Ordinary Time Earnings”. 
-
- 
-
-Superannuation contributions by
-either the employee or the employer are set up as a percentage of the
-employee’s pay (or base salary), or as a standard amount each pay period. 
-The employer may also contribute a factor of the employee’s superannuation
-contribution.  Superannuation contribution can be set up to meet the
-minimum salary amount.  
-
- 
-
-When calculating Superannuation
-as a percentage of pay, the process uses the pay transactions types that have
-the “Apply to Superannuation” field set to “Yes” on the parameters tab for the
-Standard Superannuation method and Employee contributions.
-
- 
-
-The payments of contributions to the superannuation funds are also
-recorded.  Payment can be set up to generate at the frequency required by
-the superannuation fund. Recorded against each Superannuation fund are the contributions
-made to it by the employee and employer.  
-
- 
-
-Manual changes can be made to superannuation contribution amounts for the
-employer or employee.  These changes will be recorded as transactions. On
-the Pay Journal one-off contributions to superannuation can be entered.
-
- 
-
-Cheques to the superannuation
-fund can be automatically printed from the system.  These can be set up to
-be a standard amount each month or the actual amount that has been contributed
-since the last payment was made.
+Cheques to the superannuation fund can be automatically printed from the system.  These can be set up to be a standard amount each month or the actual amount that has been contributed since the last payment was made.
 
  
 
