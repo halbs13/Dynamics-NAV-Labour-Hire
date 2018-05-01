@@ -20,7 +20,7 @@ This section will discuss the following setup areas within Human Resources;
 - [Grounds for Termination](#to-setup-grounds-for-termination) - used for Internal Employees
 - [Qualifications](#to-setup-qualifications) - used for Internal Employees
 - [Relatives](#to-setup-relatives) - used for Internal Employees
-- [Misc. Articles](#to-setup-misc.-articles) - used for Internal Employees
+- [Misc. Articles](#to-setup-misc-articles) - used for Internal Employees
 
 ## To setup Human Resources
 The Human Resources Setup allows you to define rules such as Employee No. Series, Base Unit of Measures.
@@ -98,10 +98,10 @@ The Relatives table is used to set up relative codes for your employees’ relat
     |**Code**|Enter in the relatives code.  You can enter in a maximum of 10 characters, both numbers and letters.|  
     |**Description**|Enter in a description for the relative.|  
  
- ## To setup Misc. Articles
+ ## To setup Misc Articles
 The Misc. Articles table is used to set up codes for the benefits that you employees receive any other articles that are in your employees’ possession (keys, computers, company cars, etc.) The table enables you to effectively register and update your company’s articles in other parts of the program.   
 
-1. In the **Search** box, enter **Mics. Articles**, and then choose the related link.  
+1. In the **Search** box, enter **Misc. Articles**, and then choose the related link.  
 2. Fill the fields as described in the following table.  
 
     |Field|Description|  
