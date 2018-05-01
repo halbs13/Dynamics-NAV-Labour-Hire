@@ -167,7 +167,7 @@ The Interface Defaults window is used to define the behavior of integrated field
     |**Field Name**|The **Field Name** field will display the name of the Field selected in the Table No. field.|
     |**Field Type**|The **Field Type** field will display what type of field it is that you have selected.|
     |**Field Length**|The **Field Length** will display the length of the field that you have selected.|
-    |**Maintain by the Interface**|The **Maintain By The Interface** field if selected will be maintained by the interface.|
+    |**Maintain By The Interface**|The **Maintain By The Interface** field if selected will be maintained by the interface.|
     |**Not a Default**|The **Not A Default** field if selected no default will be assigned.|
     |**Default Value Text**|The **Default Value Text** field is used when the “Not A Default” field is set to True.|
     |**Default Value Code**|The **Default Value Code** field is used when the “Not A Default” field is set to True.|
