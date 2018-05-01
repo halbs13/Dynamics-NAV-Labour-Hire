@@ -313,637 +313,117 @@ Cheques to the superannuation fund can be automatically printed from the system.
 
 [GoToTop](#how-to-setup-payroll)
 
+## To setup Employee Types
+Employee Types are assigned to Employees in the Payroll Employee card (General FastTab) and determine what type of employee they are:
 
-  
- 
- 
-  
-  Cost Transaction Posting Group
-  
-  
-  This field indicates the Transaction Posting Group
-  assigned to Superannuation transactions.  It is used to determine the
-  debit General Ledger account.
-  
- 
- 
-  
-  Provision Tran. Posting Group
-  
-  
-  This field indicates the Transaction Posting Group
-  assigned to Superannuation transactions.  It is used to determine the
-  credit General Ledger account.
-  
- 
- 
-  
-  Click on the “OK”
-  button after you have completed your selection 
-  OR
-  Click on the “OK &
-  New” button to create a new Superannuation Company record.
-  
- 
+- Shift
+- Casual
+- Full time 
+- Part-time 
 
+The above types are automatically created by the Payroll-Initialise Codeunit 16000400.These values are user defined and you can add and maintain them to reflect your own requirements.The Employee types defined the type of payment summary the employee receives at the End of Financial Year. 
 
- 
+1. In the **Search** box, enter **Employee Type**, and then choose the related link.
+2. Fill the fields in the following table.
 
-2.5      
-Employee Type
-
-Employee Types are assigned to Employees in the
-Payroll Employee card (General Tab) and determine what type of employee they
-are:
-
-ShiftCasualFull time Part-time The above types are automatically created by the
-Payroll-Initialise Codeunit 16000400.These values are user defined and you can
-add and maintain them to reflect your own requirements.The Employee types defined the type of payment
-summary the employee receives at the End of Financial Year. To access the Employee Types, go to the following
-menu:
-
-
-
-
-
-
-
-
-
-
-
-
-
-Departments/Payroll/Setup/Payroll Setup/ General/Employee
-Types
-
-
-
-2.5.1    
-“Edit – Employee Types” window
-
- 
-
-
- 
-  
+   |Field|Description|  
+   |---------------------------------|---------------------------------------|  
+   |**Code**|This field is used to enter a unique Code to identify the Employee Type.|  
+   |**Full Description**|Enter a Full Description for this code type.|  
+   |**Description**|Enter a short description for this code type.|
+   |**Salary**|A checkmark in this field indicates if this code is a salaried type.  This field can be used for reporting purposes, it is not used for any other purpose within the system.|
+   |**Employment Basis**|This field indicates the code is either: Full Time, Part Time, Casual, Labour Hire, Voluntary Agreement, Personal Services or an Incorporated Company.  This field also determines the type of Payment Summary the employee receives.  (See Period Activities for more information) The Employment Basis is also used for the Employee Declaration using the Magnetic Media for the ATO.|
+   |**Basis of Payment Type**|This field indicates the code is either: Full Time, Part Time, Casual, Labour Hire, and Incorporated Company.  This field also determines the type of Payment Summary the employee receives.|
+   |**Payment Summary Type**|This field identifies what type of Payment Summary the employee will receive.  The options available are; **Individual Non Business, Labour Hire, Voluntary Agreement, Personal Services, Other Specified Payments, Incorporated Company**.|
+   |**Income Type**|This field identifies whether the employee is a Holiday Maker employee.  The options available are; **S** – Salary or Wages, **H** – Holiday Maker.|
+   |**Exclude from Integration**|A checkmark in this field indicates that this Employee Type information will not be transferred across to AXiOM. An example of where you might use this is if the Employee Type is no longer in use or is used to identify internal employees.|
    
-   Field Name
+ [GoToTop](#how-to-setup-payroll) 
+ 
+ ## To setup Branches
+Branches and Divisions are assigned to Payroll Employee. They are used:
+
+- In the setup of Payroll Posting Groups to determine the General Ledger accounts for posting.
+- To determine the state for Payroll Tax calculationsIn the relationship between Branch and Division for dimensions 
+- Determining Public HolidaysUsed to default L.S.L Types and L.S.L Codes
+- In reporting to filter informationIn payroll security to restrict access to employee data. 
+
+1. In the **Search** box, enter **Branches**, and then choose the related link.
+2. Fill the fields in the following table.
+
+   |Field|Description|  
+   |---------------------------------|---------------------------------------|  
+   |**Code**|This field is used to uniquely identify a Branch.  At least one Branch must be setup.|  
+   |**Description**|This field is used to name the Branch.|  
+   |**Payroll Tax Code**|This field defines the Payroll Tax code for this branch. Select the **ArrowDown** to the right of the field and select the Code (For more information see: [Payroll Tax](#to-setup-payroll-tax).|
+   |**Public Holiday Calendar Code**|This field is used to attach a default Public Holiday calendar to a specific branch.  Employee attached to the branch will be assigned the Public Holidays specified in the calendar in the Award Interpreter module.|
+   |**Default L.S.L. Leave Type**|This field is used to attach a default Long Service Leave (LSL) Leave Type.|
+   |**Default L.S.L. Leave Code**|This field is used to attach a default Long Service Leave (LSL) Leave Code.|
+      
+ [GoToTop](#how-to-setup-payroll) 
+
+## To setup Branch Divisions
+
+1. On the *Navigate* ribbon, choose the **Divisions** icon. 
+2. Fill the fields in the following table.
+
+   |Field|Description|  
+   |---------------------------------|---------------------------------------|  
+   |**Code**|This field is used to uniquely identify this Division.|  
+   |**Description**|This field is used to name the Division.|  
+  
+      
+ [GoToTop](#how-to-setup-payroll) 
+
+## To setup Pay Bank State Branches
+Pay Bank State Branches are used by your employees to receive their payment by EFT.  You select the employee bank when you set up the net pay dissections in payroll employee setup.  Each Employee who has a payment type of EFT will use one or more of these banks.
+
+A file containing the Australian banks is delivered with the system.  This file must be imported during setup of the Payroll Granule.
+
+For further information on importing this file refer to: [Import Employee BSB Numbers](au-labour-import-employee-bsb-numbers.md)
+
+You can maintain the bank information and add additional bank details if required.
+
+1. In the **Search** box, enter **Pay Bank State Branches**, and then choose the related link.
+2. On the **General** FastTab, fill the fields in the following table.
+
+   |Field|Description|  
+   |---------------------------------|---------------------------------------|  
+   |**No**|This field is used to enter the BSB number of the bank.|  
+   |**Name**|This field is used to enter the name and branch of the bank.|  
+   |**Address**|Enter in the street address for the Bank if known.|
+   |**Address 2**|Continue the address if required.|
+   |**Post Code/City**|Select the Post code and the corresponding city.|
+   |**Country Code**|Select the Country.|
+   |**Contact**|Enter the contact for the bank if known.|
+   |**Bank Branch No.**|The value in this field is used in the EFT file and therefore must be valid.|
+   |**Exclude from Integration**|A checkmark in this field indicates that this Employee Banks information will not be transferred across to AXiOM. An example of where you might use this is if the BSB number is no longer in use.|
    
+ [GoToTop](#how-to-setup-payroll) 
+
+## To setup Pay Transaction Types
+Default Pay Transactions are automatically created when the Codeunit 16000400 Payroll-Initialise is run when the system is installed.  
+
+Pay Transaction Types are used to calculate pays, superannuation, leave accruals, payroll tax and to determine the output for Payment Summaries, identify taxable and non-taxable transactions, identify vendors and to determine General Ledger posting etc.  Additional Pay Transaction types must be set up to cater for each Superannuation Company and individual company requirements
+
+Examples of Pay Transaction Types are Normal Time, Overtime, Net Pay, Superannuation, Allowances, Deductions, and Leave Payments.
+
+1. In the **Search** box, enter **Pay Transaction Types**, and then choose the related link.
+2. On the **General** FastTab, fill the fields in the following table.
+
+   |Field|Description|  
+   |---------------------------------|---------------------------------------|  
+   |**Code**|This field is used to identify the Pay Transaction Type and is used in Journal lines.|  
+   |**Brief Description**|This field is used to provide a short description for the **Pay Transaction Type**.|  
+   |**Description**|Enter in the street address for the Bank if known.|
+   |**Accumulation Type**|Continue the address if required.|
+   |**Accumulation Summary Type**|Select the Post code and the corresponding city.|
+   |**Country Code**|Select the Country.|
+   |**Contact**|Enter the contact for the bank if known.|
+   |**Bank Branch No.**|The value in this field is used in the EFT file and therefore must be valid.|
+   |**Exclude from Integration**|A checkmark in this field indicates that this Employee Banks information will not be transferred across to AXiOM. An example of where you might use this is if the BSB number is no longer in use.|
    
-   Description
-   
-  
- 
- 
-  
-  To create a new record, click on the “New” button.
-  
- 
- 
-  
-  Code
-  
-  
-  This field is used to
-  enter a unique Code to identify the Employee Type.
-  
- 
- 
-  
-  Full Description
-  
-  
-  Enter a Full Description for this code type.
-  
- 
- 
-  
-  Description
-  
-  
-  Enter a short description for this code type.
-  
- 
- 
-  
-  Salary
-  
-  
-  A checkmark in this field indicates if this
-  code is a salaried type.  
-  This field can be used for reporting purposes,
-  it is not used for any other purpose within the system.
-  
- 
- 
-  
-  Employment Basis
-  
-  
-  This field indicates the code is either: 
-  Full Time, Part Time, Casual, Labour Hire, Voluntary
-  Agreement, Personal Services or an Incorporated Company.  
-  This field also determines the type of Payment
-  Summary the employee receives.  (See
-  Period Activities for more information)
-  The Employment Basis is also used for the
-  Employee Declaration using the Magnetic Media for the ATO.  
-  
- 
- 
-  
-  Basis of Payment Type
-  
-  
-  This field indicates the code is either: 
-  Full Time, Part Time, Casual, Labour Hire, and
-  Incorporated Company.  
-  This field also determines the type of Payment
-  Summary the employee receives.  (See
-  Period Activities for more information)
-  
- 
- 
-  
-  Payment Summary Type
-  
-  
-  This field identifies what type of Payment
-  Summary the employee will receive.  
-  The options available are;
-  ·        
-  Individual Non
-  Business
-  ·        
-  Labour Hire 
-  ·        
-  Voluntary
-  Agreement
-  ·        
-  Personal
-  Services
-  ·        
-  Other Specified
-  Payments
-  ·        
-  Incorporated
-  Company
-  
- 
- 
-  
-  Income Type
-  
-  
-  This field identifies whether the employee is a
-  Holiday Maker employee.  
-  The options available are;
-  ·        
-  S – Salary or
-  Wages
-  ·        
-  H – Holiday
-  Maker
-  
- 
- 
-  
-  Exclude from Integration
-  
-  
-  A checkmark in this field indicates that this
-  Employee Type information will not be transferred across to AXiOM.
-  An example of where you might use this is if
-  the Employee Type is no longer in use or is used to identify internal
-  employees.
-  
- 
- 
-  
-  Click on the “OK”
-  button after you have completed your selection.
-  
- 
-
-
- 
-
-2.6      
-Branch
-
-Branches and Divisions are assigned to Payroll
-Employee.  
-
-They are used:
-
-In the setup of
-Payroll Posting Groups to determine the General Ledger accounts for posting.To determine the
-state for Payroll Tax calculationsIn the
-relationship between Branch and Division for dimensions Determining
-Public HolidaysUsed to default
-L.S.L Types and L.S.L CodesIn reporting to
-filter informationIn payroll
-security to restrict access to employee data. To access the Branches, go to the following menu:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Departments/Payroll/Setup/Payroll Setup/ General/Branches
-
-
-
-2.6.1    
-“Edit – Branches” window
-
- 
-
-
- 
-  
-   
-   Field Name
-   
-   
-   Description
-   
-  
- 
- 
-  
-  To create a new record, click on the “New” button.
-  
- 
- 
-  
-  Code
-  
-  
-  This field is used to
-  uniquely identify a Branch.  At least
-  one Branch must be setup.
-  
- 
- 
-  
-  Description
-  
-  
-  This field is used to name the Branch.
-  
- 
- 
-  
-  Payroll Tax Code
-  
-  
-  This field defines the Payroll Tax code for
-  this branch. Select the “ArrowDown” to the
-  right of the field and select the Code 
-  (For more information see: Payroll Tax).
-  
- 
- 
-  
-  Public Holiday Calendar Code
-  
-  
-  This field is used to attach a default Public
-  Holiday calendar to a specific branch. 
-  Employee attached to the branch will be assigned the Public Holidays
-  specified in the calendar in the Award Interpreter module.
-  
- 
- 
-  
-  Default L.S.L Leave Type
-  
-  
-  This field is used to attach a default Long
-  Service Leave (LSL) Leave Type.
-  
- 
- 
-  
-  Default L.S.L. Leave Code
-  
-  
-  This field is used to attach a default Long
-  Service Leave (LSL) Leave Code.
-  
- 
- 
-  
-  Click on the “OK”
-  button after you have completed your selection.
-  
- 
-
-
- 
-
-2.7      
-Branch Division
-
-To access the Branch Division, select the “Divisions” icon on the
-Navigate ribbon. 
-
-
-
-2.7.1    
-“Edit – Branch Division” window
-
- 
-
-
- 
-  
-   
-   Field Name
-   
-   
-   Description
-   
-  
- 
- 
-  
-  To create a new record, click on the “New” button.
-  
- 
- 
-  
-  Code
-  
-  
-  This field is used to
-  uniquely identify this Division.
-  
- 
- 
-  
-  Description
-  
-  
-  The “Description” is used to name the Division.
-  
- 
- 
-  
-  Click on the “OK”
-  button after you have completed your selection.
-  
- 
-
-
- 
-
-2.8      
-Pay Bank State Branches
-
-Pay Bank State Branches are used by your
-employees to receive their payment by EFT. 
-You select the employee bank when you set up the net pay dissections in
-payroll employee setup.  Each Employee
-who has a payment type of EFT will use one or more of these banks.
-
-A file containing the Australian banks is
-delivered with the system.  This file
-must be imported during setup of the Payroll Granule. 
-
-For further information on importing this file
-refer to:  “Import Employee BSB Numbers”
-
-You can maintain the bank information and add
-additional bank details if required. 
-
-To access the Employee Banks, go to the following
-menu:
-
-Departments/Payroll/Setup/Payroll Setup/ General/Pay Bank
-State Branches
-
-
-
-2.8.1    
-“New – Pay Bank State Branch Card” window
-
- 
-
-
- 
-  
-   
-   Field Name
-   
-   
-   Description
-   
-  
- 
- 
-  
-  To create a new record, click on the “New” button.
-  
- 
- 
-  
-  GENERAL FASTTAB
-  
- 
- 
-  
-  No
-  
-  
-  This field is used to
-  enter the BSB number of the bank.
-  
- 
- 
-  
-  Name
-  
-  
-  This field is used to enter the name and branch of the
-  bank
-  
- 
- 
-  
-  Address
-  
-  
-  Enter in the street address for the Bank if
-  known.
-  
- 
- 
-  
-  Address 2 
-  
-  
-  Continue the address if required
-  
- 
- 
-  
-  Post Code/City
-  
-  
-  Select the Post code and the corresponding city
-  
- 
- 
-  
-  Country Code
-  
-  
-  Select the Country
-  
- 
- 
-  
-  Contact
-  
-  
-  Enter the contact for the bank if known.
-  
- 
- 
-  
-  Search Name
-  
-  
-  This field will default from the Name.
-  
- 
- 
-  
-  Bank Branch No.
-  
-  
-  This number must be the same as the BSB number.
-  
- 
- 
-  
-  Transit No
-  
-  
-  This field is not used in Australia.
-  
- 
- 
-  
-  File Transfer Type
-  
-  
-  This field is not used in Australia.
-  
- 
- 
-  
-  Last Date Modified
-  
-  
-  This field is automatically updated by the
-  system after changes are applied to the record.
-  
- 
- 
-  
-  Exclude from Integration
-  
-  
-  A checkmark in this field indicates that this
-  Employee Banks information will not be transferred across to AXiOM.
-  An example of where you might use this is if
-  the BSB number is no longer in use.
-  
- 
- 
-  
-  COMMUNICATION FASTTAB
-  
- 
- 
-  
-  Phone No.
-  
-  
-  Enter in the phone number for the bank.
-  
- 
- 
-  
-  Fax No.
-  
-  
-  Enter the fax number for the bank.
-  
- 
- 
-  
-  Email
-  
-  
-  Enter the email contact for the bank.
-  
- 
- 
-  
-  Home Page
-  
-  
-  Enter the banks home page for the web.
-  
- 
- 
-  
-  FOREIGN TRADE FASTTAB
-  
- 
- 
-  
-  Currency Code
-  
-  
-  This field is used to define the currency code
-  for the bank if it is not in local currency.
-  
- 
- 
-  
-  Language Code
-  
-  
-   This
-  field is used to define the language used for the foreign bank if different
-  from the local language.
-  
- 
- 
-  
-  Click on the “OK”
-  button after you have completed your selection
-  OR
-  Click on the “OK &
-  New” button to create a new record.
-  
- 
-
+ [GoToTop](#how-to-setup-payroll) 
 
 2.9      
 Pay Transaction Types
