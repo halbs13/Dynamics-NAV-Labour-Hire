@@ -86,7 +86,7 @@ The Fee Types window is used to establish the Fee Types that are used within you
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**Code**|Select the “Fee Type” Code from the **ArrowDown**.|  
+    |**Code**|Select the **Fee Type** Code from the **ArrowDown**.|  
     |**Description**|Enter in a Description to describe the Fee Type.| 
     |**Fee Type**|Enter in the Fee Type. The options available are; **Placement**, **Requirement.**|
     |**G/L Account No.**|Enter in the GL account number where the placement fee type value will post to in the General Ledger.|
