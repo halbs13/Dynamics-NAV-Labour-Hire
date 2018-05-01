@@ -26,33 +26,19 @@ This section will discuss the setting up General Ledger areas required to operat
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**No.**|Enter in a No. for the Bank Account.|  
-    |**Name**|Enter in a Name for the Bank Account.|  
-    |**Address**|If your bank account has an Address, make sure that the **Country/Region Code** field is filled.|  
-    |**Address2**|If the Bank Account Address doesn't fit into the first field, then this field can be used to record additonal information.|
-    |**Post Code & City**|Complete the Post Code & City.|
-    |**State**|Complete the State.|
-    |**Country/Region Code**|Complete the Country & Region Code.|
-    |**Phone No.**|Complete the Phone No. field, if known.|
-    |**Contact**|Complete the Contact field, if known.|
-    |**Bank Branch No.**|Complete the Bank Branch No. of where the Bank Account is held.|
-    |**Bank Account No.**|Complete the Bank Account No. of the Bank Account.|
+    |**Allow Posting From**|You can restrict posting to the General Ledger at a global level or at a user level. 
+Dates you enter in here will be used at a global level.|  
+    |**Allow Posting To**|You can restrict posting to the General Ledger at a global level or at a user level.  Dates you enter n here will be used at a global level.|  
+    |**Local Address Format**|.|  
+    |**LCY Code**|.|
+    |**Local Currency Symbol**|.|
+    |**GST Rounding**|.|
     
-3. On the **Posting** FastTab, fill the fields as described in the following table.
+[GoToTop](#how-to-setup-general-ledger)
 
-    |Field|Description|  
-    |---------------------------------|---------------------------------------|  
-    |**Bank Acc. Posting Group**|The **Bank Account Posting Group** field is used to identify where the entries will post to in the General Ledger.  Complete the Bank Acc. Posting Group that relates to this Bank Account.|  
-    
- 4. On the **Transfer** FastTab, fill the fields as described in the following table.
-
-    |Field|Description|  
-    |---------------------------------|---------------------------------------|  
-    |**EFT Bank Code**|Complete the Bank Code of your Banking Institution.|
-    |**EFT BSB No.**|The value in this field will populate with information entered on the **General** FastTab.|
-    |**EFT Security No.**| Complete the EFT Security No.  This information is exported into the EFT file you generated.  It is usually known as the **User ID No.** in the EFT file.|
-    |**EFT Bank Code**|Enter in the EFT Bank Code for the file being produced.  **53** is the number that is required on the file to the bank as this indentifies to the Bank that the file is a **Salary & Wages** file and will therefore be released accordingly.|
-    |**EFT Balancing Record Required**|Select this field if a Balancing Record is required on the EFT file.  Confirmation from your Banking Institution may be required.|
- 
+## To set up Dimensions
+A dimensions is a data that you can add to an entry as a kind of marker so that the program can group entries with similar characteristics and easily retrieve these groups for analysis purposes.  Dimensions can be used throughout the programs on entries in journals and documents, as well as budgets.
 
 
+1. In the **Search** box, enter **Dimension**, and then choose the related link.
+2. Fill the fields as described in the following table.
