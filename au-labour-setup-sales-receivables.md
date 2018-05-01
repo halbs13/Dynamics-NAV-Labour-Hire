@@ -17,7 +17,7 @@ This section will discuss the following setup areas within Sales & Receivables;
 - [Sales & Receivables Setup](#to-setup-sales-&-receivables)
 - [Customer Posting Groups](#to-setup-customer-posting-groups)
 - [Payment Terms](#to-setup-payment-terms)
-- [Payment Method](#to-setup-payment-method)
+- [Payment Method](#to-setup-payment-methods)
 
 ## To setup Sales & Receivables
 You use the Sales & Receivables Setup to set up certain basic rules to be used in the Sales & Receivables application area. 
@@ -51,7 +51,7 @@ The Customer Posting Groups window is used to setup one or more customer posting
 
 After you have set up the posting groups, you assign them to the relevant customer accounts.  When you post to a customer account, the program will post to the G/L account that is specified by the customer posting group that is linked to the customer account. 
 
-1. In the **Search** box, enter **Cusotmer Posting Groups**, and then choose the related link.  
+1. In the **Search** box, enter **Customer Posting Groups**, and then choose the related link.  
 2. Complete the fields as described in the following table;
 
     |Field|Description|  
