@@ -81,7 +81,7 @@ The Grounds for Termination table is used to set up grounds for termination code
     |**Term. Lump Sum A Type**|For each of the Termination codes, you will need to specify the Term. Lump Sum A type accordingly as these will print on the INB Payment Summary.  The options available are: **R** – where payment for a genuine redundancy, invalidity or under an approved early retirement scheme.  **T** – where payment was not a payment for a genuine redundancy, invalidity or under an approved early retirement scheme.|  
     |**ETP Applicable**|The ETP field is used to identify how the termination payment will be treated.  If the employee is terminated with a code and this field has been selected, the Termination payment is then taxed and treated differently.|
 
-[GoToTop](#how-to-setup-human resources)
+[GoToTop](#how-to-setup-human-resources)
 
 ## To setup Qualifications
 The Qualifications table is used to set up qualification codes for your employees.  These codes can be used for various employee qualifications: job titles, employee computer skills, education, course, etc.   The table enables you to effectively register and update your employees’ qualifications in other parts of the program.  
@@ -108,7 +108,7 @@ The Relatives table is used to set up relative codes for your employees’ relat
     |**Code**|Enter in the relatives code.  You can enter in a maximum of 10 characters, both numbers and letters.|  
     |**Description**|Enter in a description for the relative.|  
  
- [GoToTop](#how-to-setup-human resources)
+ [GoToTop](#how-to-setup-human-resources)
  
  ## To setup Misc Articles
 The Misc. Articles table is used to set up codes for the benefits that you employees receive any other articles that are in your employees’ possession (keys, computers, company cars, etc.) The table enables you to effectively register and update your company’s articles in other parts of the program.   
