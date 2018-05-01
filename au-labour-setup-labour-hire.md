@@ -31,7 +31,7 @@ You use the Labour Hire Setup to establish certain basic rules to be used in the
     |---------------------------------|---------------------------------------|  
     |**Job Contract Posting Method**|This option defines when invoices can be generated once timesheets are processed.  The options available are; **Payroll** – if this option is selected then sales invoices will be available for generation once Payroll has been processed and posted. **Timesheet** – if this option is selected then sales invoices will be available for generation once Timesheets have processed to payroll.|  
     |**Placement No.s**|The Placement No.s are used to allocate Placement No.s when using the Placement Entry screen. Select the Placement No.s from the **ArrowDown**. This option is not used if there is integration to Axiom.|  
-    |**Use Interface**|The **Use Interface** field if selected, can be used to restrict fields being updated in various tables within NAV as defined in the Interface Options table.|  
+    |**Use Interface**|The **Use Interface** field if selected, can be used to restrict fields being updated in various tables within NAV as defined in the [Interface Options table](#to-setup-interface-options).|  
     |**Escalation Time**|This field is used to determine the duration of the initial escalation time used for notifications when using the TimeKeeper application.| 
    
 3. On the **Permanent Placement** FastTab, fill the fields as described in the following table. 
