@@ -76,6 +76,8 @@ The Rate Frequency Conversion factors are generally used when Placement Entry is
     |**Maximum**|Enter in the maximum number of units.|  
     |**Unit of Measure Code**|You can select the Unit of Measure code from the **ArrowDown**.| 
  
+ [GoToTop](#how-to-setup-labour-hire)
+ 
 ## To setup Fee Types
 The Fee Types window is used to establish the Fee Types that are used within your organisation. An example of how this might be used is where you have Permanent Placement Fee overhead charges such as setup fees which can be mapped through to a relevant General Ledger account.
 
@@ -84,10 +86,12 @@ The Fee Types window is used to establish the Fee Types that are used within you
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**Code**|Select the “Fee Type” Code from the “ArrowDown”.|  
+    |**Code**|Select the “Fee Type” Code from the **ArrowDown**.|  
     |**Description**|Enter in a Description to describe the Fee Type.| 
     |**Fee Type**|Enter in the Fee Type. The options available are; **Placement**, **Requirement.**|
     |**G/L Account No.**|Enter in the GL account number where the placement fee type value will post to in the General Ledger.|
+
+[GoToTop](#how-to-setup-labour-hire)
 
 ## To setup Placement Types
 The Placement Types window is used to set up codes for each set of Placement Types you process within your organisation.
@@ -99,9 +103,11 @@ The Placement Types window is used to set up codes for each set of Placement Typ
     |---------------------------------|---------------------------------------|  
     |**Code**|Enter in a Placement Type. You can enter a maximum of 10 characters, both numbers and letters.|  
     |**Description**|Enter in the text that describes the Placement Type.|  
-    |**Placement Category**|Enter in the Placement Category which describes the Placement Type. The options available are; **Permanent, **Contractor.**|  
+    |**Placement Category**|Enter in the Placement Category which describes the Placement Type. The options available are; **Permanent**, **Contractor.**|  
     |**Exclude from Integration**|The **Exclude from Integration** field is used to identify whether this transaction will be excluded from the integration to Axiom.|
-    
+
+[GoToTop](#how-to-setup-labour-hire)
+
 ## To setup Interface Options
 The Interface Options window is used to specify the integration behavior between NAV and Axiom and NAV and TimeKeeper.  
 
