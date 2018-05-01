@@ -23,14 +23,13 @@ This section will discuss the setting up General Ledger areas required to operat
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**Allow Posting From**|You can restrict posting to the General Ledger at a global level or at a user level. 
-Dates you enter in here will be used at a global level.|  
-    |**Allow Posting To**|You can restrict posting to the General Ledger at a global level or at a user level.  Dates you enter n here will be used at a global level.|  
+    |**Allow Posting From**|You can restrict posting to the General Ledger at a global level or at a user level. Dates you enter in here will be used at a global level.|  
+    |**Allow Posting To**|You can restrict posting to the General Ledger at a global level or at a user level.  Dates you enter in here will be used at a global level.|  
     |**Local Address Format**|.|  
-    |**LCY Code**|Enter in the **Local Currency Symbol** for this field.|
+    |**LCY Code**|Enter in the **LCY Code** for this field.|
     |**Local Currency Symbol**|Enter in the **Local Currency Symbol** for this field.|
     |**GST Rounding**|From the **Options**, select **Nearest**.|
-    |**Bank Account No.s**|Click on the **ArrowDown** to select the No. Series used to allocate Bank Account No.s|
+    |**Bank Account No.s**|Click on the **ArrowDown** to select the No. Series used to allocate Bank Account No.s.|
     
 [GoToTop](#how-to-setup-general-ledger)
 
