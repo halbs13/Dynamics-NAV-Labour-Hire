@@ -54,7 +54,7 @@ Job Posting Groups are used through the Labour Hire module to set defaults such 
     |**Code**|Enter in a Code that uniquely identifies the Job Posting Group.  The Code field allows for up to 10 characters but if you are using AXiOM then you must enter in 4 characters.|  
     |**Description**|Enter in a Description which accurately describes the Job Posting Group. The description field will be transferred into Cost Centre field within AXiOM.|  
     |**Payroll No.**|Select the **Payroll No.** from the **ArrowDown** which this Job Posting Group transaction belongs to.  The Payroll No. is restricted to 6 characters. |  
-    |**Payroll Group**|The Payroll Group field is used to group the Cost Centre codes for selection in AXiOM by transferring to the “*Ledger Code*.    Enter in a Code with a maximum of 6 characters.| 
+    |**Payroll Group**|The Payroll Group field is used to group the Cost Centre codes for selection in AXiOM by transferring to the *Ledger Code*.    Enter in a Code with a maximum of 6 characters.| 
     |**Branch Code**|Select the Branch Code from the **ArrowDown** for this Job Posting Group transaction.|
     |**Division Code**|Select the Division Code from the **ArrowDown** for this Job Posting Group transaction.|
     |**Global Dimensions 1**|Select the Dimension Code from the **ArrowDown** for this Job Posting Group transaction.|
