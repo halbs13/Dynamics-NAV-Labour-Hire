@@ -85,7 +85,7 @@ The Qualifications table is used to set up qualification codes for your employee
     |---------------------------------|---------------------------------------|  
     |**Code**|Enter in the qualifications code.  You can enter in a maximum of 10 characters, both numbers and letters.|  
     |**Description**|Enter in a description for the qualification.|  
-    |**Qualified Employees**|This field shows whether there are any employees with the qualification specified on the line. A yes indicates that the company has employees with this qualification. To see the employees that have this qualification, click the AssistButton to the right of the field.|  
+    |**Qualified Employees**|This field shows whether there are any employees with the qualification specified on the line. A yes indicates that the company has employees with this qualification. To see the employees that have this qualification, click the **ArrowDown**.|  
   
   ## To setup Relatives
 The Relatives table is used to set up relative codes for your employees’ relatives.   You can also use this table to set up codes for close contacts to the employee if the employee does not have any family.   
