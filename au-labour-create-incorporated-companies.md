@@ -47,7 +47,7 @@ includes Policy Number, Insurer and Expiration Date.
 
 Access is via the Payroll Employee card under the Work Cover Tab.
 
-To access the Employee Maintenance task go to the following menu: 
+To access the Employee Maintenance task go to the following menu:
 
 *Departments/Payroll/Employee Maintenance/Payroll Employees*
 
