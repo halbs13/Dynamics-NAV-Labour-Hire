@@ -1,4 +1,4 @@
-# How to: Setup Sales & Receivables
+# How to setup Sales and Receivables
 
 The Dynamics NAV Labour Hire module comprises and requires various areas within Dynamics NAV
 to be configured in order for it to operate. 
@@ -45,6 +45,7 @@ A number series must be setup for the records, regardless of whether the number 
     |**Cr/Adj Note Nos**|Complete the code for the Number series which will be used for Cr/Adj Notes.|
     |**Posted Cr/Adj Notes Nos**|Complete the code for the Number series which will be used for Posted Credit/Adj Notes.|
  
+ [GoToTop](#how-to-setup-sales-and-receivables)
  
 ## To setup Customer Posting Groups
 The Customer Posting Groups window is used to setup one or more customer posting groups.  For each posting group you setup, you must create links to the relevant G/L accounts.  You can use the same G/L account numbers or different account number for each posting group.
@@ -71,7 +72,8 @@ After you have set up the posting groups, you assign them to the relevant custom
     |**Payment Tolerance Debit Acc.**|Enter in the **G/L account** to which you want the program to post payment tolerance when you post payments for sales with this particular combination of business group and product group. Complete this field only if the **Adjust for Payment Disc.** field in the **General Ledger Setup** table has been activated.|
     |**Payment Tolerance Credit Acc.**|Enter in the **G/L account** to which you want the program to post payment tolerance when you post payments for sales with this particular combination of business group and product group. Complete this field only if the **Adjust for Payment Disc** field in the **General Ledger Setup** table has not been activated.|
        
-
+ [GoToTop](#how-to-setup-sales-and-receivables)
+ 
  ## To setup Payment Terms
 The Payment Terms window is used to set up codes for each set of payment terms. 
 
@@ -87,7 +89,8 @@ The Payment Terms window is used to set up codes for each set of payment terms.
     |**Calc. Pmt. Disc. On Cr/Adj N.**|A checkmark in this field indicates that the program will calculate a payment discount on CR/Adj notes with these payment terms.|
     |**Description**|Enter an explanation of the payment terms.|
     
-
+ [GoToTop](#how-to-setup-sales-and-receivables)
+ 
 ## To setup Payment Methods
 The Payment Methods window is used to set up codes for each set of payment method you use.
 
@@ -102,4 +105,4 @@ The Payment Methods window is used to set up codes for each set of payment metho
     |**Bal. Account No.**|Enter in the number of the balancing account that will be used in connection with this payment method.| 
     |**Payment Processor**|This field identifies the “Dynamics Online” will be used as the payment processor. Leave this option blank.|
    
- 
+  [GoToTop](#how-to-setup-sales-and-receivables)
