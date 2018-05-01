@@ -1,4 +1,4 @@
-# How to: Setup Payroll
+# How to setup Payroll
 
 The Dynamics NAV Labour Hire module comprises and requires various areas within Dynamics NAV
 to be configured in order for it to operate. 
@@ -150,7 +150,7 @@ The Payroll Setup defines global settings and rules within the payroll.  Many of
     
  9. On the **ETP Tax** FastTab, fill the fields as described in the following table.
     
-  |Field|Description|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**ETP Preservation Age**|This field is used to indicate the ETP Preservation age.  This information is supplied by the ATO, annually.|         
     |**ETP Preservation Age Birth Year Threshold**|This field is used to indicate the ETP Preservation age birth year threshold.  This information is supplied by the ATO, annually.|  
@@ -162,7 +162,9 @@ The Payroll Setup defines global settings and rules within the payroll.  Many of
     |**ETP Tax Rate Under Preservation Age Below Cap**|This field is used to indicate the ETP Tax Rate Under Preservation Age below cap.  This information is supplied by the ATO, annually.|  
     |**ETP Tax Rate Under Preservation Age Above Cap**|This field is used to indicate the ETP Tax Rate Under Preservation Age above cap.  This information is supplied by the ATO, annually.|  
     |**ETP Tax Rate Over Whole of Income Cap**|This field is used to indicate the ETP Tax Rate Over Whole of Income Cap.  This information is supplied by the ATO, annually.|
-    
+
+[GoToTop](#how-to-setup-payroll)
+
 ## To setup Payroll Users
 Payroll access is granted using the standard Microsoft Dynamics NAV User Security authorising the tables, forms, reports, and functions the user is allowed to access.   The Standard Security Groups for payroll are installed with the Payroll module when the Code Unit 16000401 Payroll Initialise Permissions is run.
 
@@ -192,6 +194,8 @@ Note:  This security is not replicated in the Human Resources granule.
     |---------------------------------|---------------------------------------|  
     |**Current User Payroll**|This form displays a list of all Payroll User IDs and their current Payrolls.  The same payroll may be associated with many User IDs.  The associations setup here act as filters.  The Current Payroll for a User ID is the default Payroll for many activities, including Pay Journals, Bulk Generation, and running specific payroll reports,etc.  It may be set and altered here or in the Payroll Selection menu option.|  
 
+[GoToTop](#how-to-setup-payroll)
+
 ## To setup Superannuation Funds
 Superannuation Funds are used to define the different type of Superannuation funds available to your employees.. 
 
@@ -220,7 +224,7 @@ Superannuation Funds are used to define the different type of Superannuation fun
     |**Remittance IP Address**|The Remittance IP Address is used to record the IP address of the Superannuation Fund.   Enter in the Remittance IP Address (up to 30 characters).  E.g. 255.255.363.|
     
     
-    
+[GoToTop](#how-to-setup-payroll)    
     
     
 ## To setup Qualifications
