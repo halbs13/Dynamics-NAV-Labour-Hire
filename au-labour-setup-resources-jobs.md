@@ -69,5 +69,5 @@ Job Posting Groups are used through the Labour Hire module to set defaults such 
     |---------------------------------|---------------------------------------|  
     |**Dimension Code**|Select the additional dimension you wish to add from the **ArrowDown**.|  
     |**Dimension Value Code**|Select the additional dimension value you wish to add from the **ArrowDown**.|  
-    |**Value Posting**|This option is not required at this level and is generally setup and maintained on G/L Accounts. |  
+    |**Value Posting**|This option is not required at this level and is generally setup and maintained on G/L Accounts.|  
    
