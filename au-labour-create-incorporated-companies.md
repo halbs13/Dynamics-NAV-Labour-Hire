@@ -3,13 +3,13 @@
 This document will contain information relating to the setup of Incorporated Companies and contains the
 following sections:
 
-- Incorporated Company Overview
-- Incorporated Company Flag Identification
-- Company Details
-- Workers Compensation Policies
-- Goods & Services Tax (GST) Overview
-- GST Transaction Type Setup
-- GST Calculation 
+- [Incorporated Company Overview] (#Incorporated-Company-Overview)
+- [Incorporated Company Flag Identification] (#Incorporated-Company-Flag-Identification)
+- [Company Details] (#Company-Details)
+- [Workers Compensation Policies] (#Workers-Compensation-Policies)
+- [Goods & Services Tax (GST) Overview] (#Goods-&-Services-Tax-(GST)-Overview)
+- [GST Transaction Type Setup] (#GST-Transaction-Type-Setup)
+- [GST Calculation] (#GST-Calculation)
 
 ## 1. Incorporated Company Overview
 
