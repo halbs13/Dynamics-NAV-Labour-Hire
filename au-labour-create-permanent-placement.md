@@ -56,8 +56,7 @@ To create a new record, select the “New” icon on the Home ribbon.
 |Field Name|Description|
 |-------------------------|----------------------------------------------------------------------------------------|
 |**CLIENT FASTTAB ** |
-|**Customer No.** |From the “ArrowDown” button, select the customer No. from the Customer List.
-If the Customer exists within the list, then the following fields will be available for editing, otherwise to create a new customer you will need to complete the following fields.|
+|**Customer No.** |From the “ArrowDown” button, select the customer No. from the Customer List. If the Customer exists within the list, then the following fields will be available for editing, otherwise to create a new customer you will need to complete the following fields.|
 |**Name** |This field is used to record the Customer’s name.  
 |**Name 2** |This field is used to record the Customer’s Name if the first field is not long enough to record the Customer’s full name.
 |**A.B.N** |This field is used to record the Customer’s Australian Business Number (A.B.N)
@@ -81,7 +80,7 @@ An example of where this is implemented is when a Customer has multiple location
 ·         Fortnightly
 ·         Semi-Monthly
 ·         Calendar Month
-·         4 Week Month
+·         4 Week Month|
 |**Invoice/Cr. Format Code** |From the “ArrowDown” button, select the Invoice/Cr. Format Code
 |**Job Invoice Consolidation Type** |This field determines how the Job transactional lines are consolidated on an invoice for this Customer.  The options available are;
 ·         Bill-to Customer No. + Sell-to Customer No.
