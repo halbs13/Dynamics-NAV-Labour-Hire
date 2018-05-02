@@ -96,7 +96,7 @@ To create a new record, select the “New” icon on the Home ribbon.
 
 |Field|Description|
 |------------------------------------------|--------------------------------------------------------------------|
-|**CLIENT FASTTAB **||
+|**CLIENT FASTTAB**||
 |**Customer No.**|From the “ArrowDown” button, select the customer No. from the Customer List.|
 ||If the Customer exists within the list, then the following fields will be available for editing, otherwise to create a new customer you will need to complete the following fields.|
 |**Name**|This field is used to record the Customer’s name.  |
@@ -134,7 +134,7 @@ To create a new record, select the “New” icon on the Home ribbon.
  
 |Field|Description|
 |------------------------------------------|--------------------------------------------------------------------|  
-|**PLACEMENT FASTTAB **||
+|**PLACEMENT FASTTAB**||
 |**Job Details**||
 |**Placement Type**|This field is used to identify the placement being created.  The options available are;|
 ||·         Contractor – Temporary Placement|
