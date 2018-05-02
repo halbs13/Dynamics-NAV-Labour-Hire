@@ -2,14 +2,15 @@
 
 # Introduction
 
-Superannuation processing within the Dynamics NAV Payroll and Labour Hire modules encompasses the following functions:  
- Setup
-     Superannuation SGC, NON SGC, Salary Sacrifice and Post Tax Deductions Pay Transaction Types 
-     Superannuation Funds
-     SGC rules as per the ATO Legislation defined on the Payroll Setup Card
-     Allocating SGC and NON SGC transactions to the Rate Set or Payroll Employee Card
-     Allocating a Superannuation Fund to an employee
-   Superannuation Calculation and Reporting
+Superannuation processing within the Dynamics NAV Payroll and Labour Hire modules encompasses the following functions: 
+
+Setup. 
+Superannuation SGC,NON SGC, Salary Sacrifice and Post Tax Deductions Pay Transaction Types 
+Superannuation Funds
+SGC rules as per the ATO Legislation defined on the Payroll Setup Card
+Allocating SGC and NON SGC transactions to the Rate Set or Payroll Employee Card
+Allocating a Superannuation Fund to an employee
+Superannuation Calculation and Reporting
 
 This document will specifically discuss how to use the Superannuation Processing function within Dynamics NAV.
 For further information relating to the setup of each of these areas, please refer to the Dialog – Training – LH –
