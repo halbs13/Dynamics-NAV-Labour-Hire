@@ -187,7 +187,7 @@ To create a new record, select the “New” icon on the Home ribbon.
 |Field|Description|
 |------------------------------------------|--------------------------------------------------------------------| 
 |**Field Name**|Description|
-|**SALESPERSON FASTTAB *||
+|**SALESPERSON FASTTAB*||
 |**Salespeople**||
 |**Salesperson Code 1**|This field is used to record the Salesperson for this placement.  |
 ||Select the Salesperson from the “ArrowDown” button.|
@@ -199,7 +199,7 @@ To create a new record, select the “New” icon on the Home ribbon.
 |**Once you have completed the two FastTab, click “Transfer” icon on the Home ribbon.**||
 
 
-
+[GoToTop](#how-to-create-placements-in-placement-entry)
 
 ## RECORD MAINTENANCE
 Placement Entry is used to update information relating to the Job and the Ratesets associated to the Job, otherwise maintenance should occur in the following areas:
@@ -571,6 +571,8 @@ To access the Customer Card, go to the following menu:
 |**USER DEFINED FASTTAB**||
 |**Field No. 1 Required..Field No. 10 Required**|This field is used to record whether additional reporting is being captured from the Employee/Contractor’s timesheet. |
 ||If one of the fields are selected, then a heading must be entered in the Field 1 Label, etc.|
+
+[GoToTop](#how-to-create-placements-in-placement-entry)
 
 
 ## EXAMPLES OF UPDATES
