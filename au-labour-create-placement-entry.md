@@ -20,8 +20,8 @@ To access Placement Entry, go to the following menu;
 
 ## Creating a New Temporary Placement
 All new placements are entered into the Placement Entry page.  Follow the steps below to correctly setup the Person (Employee/Contractor), Client (Customer) and Placement (Job and Resource Allocation).
- 
-### Edit – Placement Entry window 
+
+### Edit – Placement Entry window 
 To create a new record, select the “New” icon on the Home ribbon.
 
 |Field|Description|
@@ -29,15 +29,15 @@ To create a new record, select the “New” icon on the Home ribbon.
 |**PERSON FASTTAB**||
 |**Contractor Details**||
 |**Placement Type**|This is a mandatory field.|
-|****|From the “ArrowDown” field, select one of the following options;|
-|****|·         Contractor – Temporary Placement|
-|****|·         Permanent – Permanent Placement|
+||From the “ArrowDown” field, select one of the following options;|
+||·         Contractor – Temporary Placement|
+||·         Permanent – Permanent Placement|
 |**Candidate No.**|The Candidate No. will be the Employee/Contractor’s number.|
-|****|This number should be created based on the number allocated from the front-end system, otherwise this number can be generated automatically from Dynamics NAV.|
+||This number should be created based on the number allocated from the front-end system, otherwise this number can be generated automatically from Dynamics NAV.|
 |**Employment Date**|This is a mandatory field.|
-|****|This field is used to record the Employee/Contractor’s start date with your organisation.|
+||This field is used to record the Employee/Contractor’s start date with your organisation.|
 |**Title**|This field is used to record the Employee/Contractor’s Title.|
-|****|e.g. Miss, Mrs, Mr|
+||e.g. Miss, Mrs, Mr|
 |**First Name**|This field is used to record the First Name of the Employee/Contractor.|
 |**Last Name**|This field is used to record the Last Name of the Employee/Contractor.|
 |**Middle Name**|This field is used to record the Middle Name of the Employee/Contractor.|
@@ -46,42 +46,42 @@ To create a new record, select the “New” icon on the Home ribbon.
 |**Address 2**|This field is used to record the extended address of the Employee/Contractor.|
 |**City**|This field is used to record the City/Suburb of the Employee/Contractor’s address.|
 |**Post Code**|This field is used to record the Post Code of the Employee/Contractor’s address.|
-|****|If the City/Suburb has been selected, the Post Code will default from the selection.|
+||If the City/Suburb has been selected, the Post Code will default from the selection.|
 |**County**|This field is used to record the County/State of the Employee/Contractor’s address.|
-|****|If the City or Post Code has been selected, the County will default from the selection.|
+||If the City or Post Code has been selected, the County will default from the selection.|
 |**Phone No.**|This field is used to record the Phone No. of the Employee/Contractor.|
 |**Work Phone No.**|This field is used to record the Work Phone No. of the Employee/Contractor.|
 |**Mobile No.**|This field is used to record the Address of the Employee/Contractor.|
 |**Home E-Mail Address**|This field is used to record an external E-Mail Address of the Employee/Contractor.|
-|****|The information entered into this field will be used as the Primary E-Mail address to distribute Payment Summaries and Pay Advices.|
+||The information entered into this field will be used as the Primary E-Mail address to distribute Payment Summaries and Pay Advices.|
 |**SMS**|This field is used to record the SMS Contact Address for messages to be sent to the Employee/Contractor.|
 |**Company E-Mail**|This field is used to record the Company E-Mail of the Employee/Contractor.|
 |**Other**|This field is used to record Other Contact information for the Employee/Contractor.|
 |**Employee Type Code**|This is a mandatory field.|
-|****|This field is used to identify in what capacity the Employee/Contractor is employed.|
-|****|The value selected within the field also determines that type of Payment Summary the Employee/Contractor will receive.|
+||This field is used to identify in what capacity the Employee/Contractor is employed.|
+||The value selected within the field also determines that type of Payment Summary the Employee/Contractor will receive.|
 |**Timesheet Reminder**|This field is used to identify if a Timesheet Reminder is required for this Employee/Contractor.|
 |**E-Mail Pay Advice**|This field is used to identify if Pay Advices are to be E-Mailed to the Employee/Contractor.|
 |**Tax Details**||
 |**Tax Scale No.**|This field is used to record the Tax Scale No. of the Employee/Contractor.|
 |**Tax File No.**|This field is used to record the Tax File Number of the Employee/Contractor.|
 |**Birth Date**|This is a mandatory field.|
-|****|This field is used to record the Birth Date of the Employee/Contractor.|
+||This field is used to record the Birth Date of the Employee/Contractor.|
 |**HELP Debt**|This field is used to record if the Employee/Contractor has a HELP debt.|
 |**Student Loan (SFSS)**|This field is used to record if the Employee/Contractor has a Student Loan debt. |
 |**Include for Payroll Tax**|This field is used to record if Payroll Tax is not applicable for this Employee/Contractor.|
-|****|An example of where this might be used is if the employee is an Apprentice or trading as an Incorporated Company.|
+||An example of where this might be used is if the employee is an Apprentice or trading as an Incorporated Company.|
 |**Superannuation Details**||
 |**Superannuation Company Code**|This field is used to record the nominated Superannuation Fund of the Employee/Contractor.|
 |**Membership No.**|This field is used to record the Employee/Contractor’s Superannuation Membership No.|
 |**Date Joined Fund**|This field is used to record the Date the Employee/Contractor joined the Superannuation Fund.|
 |**Financial Details**||
 |**Employee Job Posting Group**|This field is used to determine the Employee/Contractor’s Dimensions on the Payroll Employee Card.|
-|****|The information entered here can be different to the Job Posting Group which is entered against the Placement.  However, there are also settings which will allow for the Dimensions to be sourced from the Job.|
+||The information entered here can be different to the Job Posting Group which is entered against the Placement.  However, there are also settings which will allow for the Dimensions to be sourced from the Job.|
 |**Payroll No.**|This is a mandatory field.|
-|****|This field is used to record the Payroll No. the Employee/Contractor’s pays will be processed in.|
+||This field is used to record the Payroll No. the Employee/Contractor’s pays will be processed in.|
 |**Payment Method**|This is a mandatory field.|
-|****|This field is used to record the Payment Method of which the Employee/Contractor will be paid.|
+||This field is used to record the Payment Method of which the Employee/Contractor will be paid.|
 |**Incorporated Company**||
 |**A.B.N.**|This field is used to record the A.B.N. of the Employee/Contractor if they are trading as an Incorporated Company.|
 |**Company Name**|This field is used to record the Company Name of the Employee/Contractor if they are trading as an Incorporated Company.|
@@ -98,7 +98,7 @@ To create a new record, select the “New” icon on the Home ribbon.
 |------------------------------------------|--------------------------------------------------------------------|
 |**CLIENT FASTTAB **||
 |**Customer No.**|From the “ArrowDown” button, select the customer No. from the Customer List.|
-|****|If the Customer exists within the list, then the following fields will be available for editing, otherwise to create a new customer you will need to complete the following fields.|
+||If the Customer exists within the list, then the following fields will be available for editing, otherwise to create a new customer you will need to complete the following fields.|
 |**Name**|This field is used to record the Customer’s name.  |
 |**Name 2**|This field is used to record the Customer’s Name if the first field is not long enough to record the Customer’s full name.|
 |**A.B.N**|This field is used to record the Customer’s Australian Business Number (A.B.N)|
@@ -106,7 +106,7 @@ To create a new record, select the “New” icon on the Home ribbon.
 |**Address 2**|This field is used to record the additional address information for the Customer if the first field is not long enough to record the Customer’s address.|
 |**City**|From the “ArrowDown” button, select the City.|
 |**Post Code**|From the “ArrowDown” button, select the Post Code.|
-|****|If you select the “City” first, the Post Code will populate from the Post Code table.|
+||If you select the “City” first, the Post Code will populate from the Post Code table.|
 |**Country**|From the “ArrowDown” button, select the Country code.|
 |**Contact No.**|This field is used to record the phone number of the Contact of the Customer.|
 |**Contact**|This field is used to record the Contact’s Name of the Customer.|
@@ -115,18 +115,18 @@ To create a new record, select the “New” icon on the Home ribbon.
 |**E-Mail:**|This field is used to record the Customer’s E-Mail address.|
 |**Contract Invoice Details**||
 |**Bill-to-Customer No.**|This field is populated if this customer transactions are being billed to another Customer.|
-|****|An example of where this is implemented is when a Customer has multiple locations and they are setup as separate customers, however their invoicing and other statements are sent to a Head Office.|
+||An example of where this is implemented is when a Customer has multiple locations and they are setup as separate customers, however their invoicing and other statements are sent to a Head Office.|
 |**Payment Terms Code**|This field is used to record the Payment Terms.|
 |**Customer Invoicing Frequency**|This field is used to record the frequency in which the customer is invoiced.  The following options are available;|
-|****|·         Weekly |
-|****|·         Fortnightly|
-|****|·         Semi-Monthly|
-|****|·         Calendar Month|
-|****|·         4 Week Month|
+||·         Weekly |
+||·         Fortnightly|
+||·         Semi-Monthly|
+||·         Calendar Month|
+||·         4 Week Month|
 |**Invoice/Cr. Format Code**|From the “ArrowDown” button, select the Invoice/Cr. Format Code|
 |**Job Invoice Consolidation Type**|This field determines how the Job transactional lines are consolidated on an invoice for this Customer.  The options available are;|
-|****|·         Bill-to Customer No. + Sell-to Customer No.|
-|****|·         Bill-to Customer No.|
+||·         Bill-to Customer No. + Sell-to Customer No.|
+||·         Bill-to Customer No.|
 |**Cust. Contact Job Title**|This field is used to record the Job Title of the Customer Contact|
 |**Perm. Invoice/Cr. Format Code**|This field is used to record the Permanent Placement Invoice format.  From the “ArrowDown” button, select the appropriate code.|
 |**Perm Placement Payment Terms**|This field is used to record the Permanent Placement Payment Terms.  From the “ArrowDown” button, select the appropriate code.|
@@ -137,8 +137,8 @@ To create a new record, select the “New” icon on the Home ribbon.
 |**PLACEMENT FASTTAB **||
 |**Job Details**||
 |**Placement Type**|This field is used to identify the placement being created.  The options available are;|
-|****|·         Contractor – Temporary Placement|
-|****|·         Permanent – Permanent Placement|
+||·         Contractor – Temporary Placement|
+||·         Permanent – Permanent Placement|
 |**Job No.**|This field is used to record the Job. No. for the Placement record.|
 |**Job Task No.**|This field is used to record the Job Task No. for the Placement record.|
 |**Job Description**|This field is used to record the description of the Job.|
@@ -148,7 +148,7 @@ To create a new record, select the “New” icon on the Home ribbon.
 |**Job Revenue Type**|This field is used to record the Revenue Type or where the value of the revenue will be posted to within the General Ledger.|
 |**Hiring Manager Name**|This field is used to record the name of the Hiring Manager|
 |**Payroll Tax Code**|This field is used to record the Payroll Tax Code against the Job.  |
-|****|If this field is populated with a Payroll Tax Code then the Payroll Tax Code will be taken from the Job No. for Employee transactions, otherwise it will be sourced from the Branch attached to the Employee.|
+||If this field is populated with a Payroll Tax Code then the Payroll Tax Code will be taken from the Job No. for Employee transactions, otherwise it will be sourced from the Branch attached to the Employee.|
 |**Financial Details**||
 |**Job Posting Group for Job**|This field is used to record the Posting Group for the Job which will determine the Dimensions for reporting purposes.|
 |**Award Details**||
@@ -159,11 +159,11 @@ To create a new record, select the “New” icon on the Home ribbon.
 |**Pay Rate**|This field is the Pay Rate to the Employee/Contractor.|
 |**Charge Rate**|This field is the Charge Rate to the Client/Customer.|
 |**Frequency**|This field is the Unit Rate Frequency of the Transaction Type.  The options are;|
-|****|·         Hour|
-|****|·         Day|
-|****|·         Week|
-|****|·         Month|
-|****|·         Unit|
+||·         Hour|
+||·         Day|
+||·         Week|
+||·         Month|
+||·         Unit|
 |**Date Effective**|This field is the Date the Rateset is effective.|
 |**Job Invoice Details**||
 |**Job Bill-To Contact**|This field is used to record the Contact’s Name for the Job.  |
