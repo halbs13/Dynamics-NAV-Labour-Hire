@@ -372,7 +372,7 @@ To access the Integrations FastTab on the Interface Options card, go to the foll
 ### Customer Card – Invoicing FastTab
 Requirements invoices will have a specific invoice format to present the information back to the client.  
 The Requirements Invoice format is maintained on the Invoicing FastTab in the “Req. Inv./Cr. Format Code” field.
- 
+
 [GoToTop](#how-to-create-permanent-placements)
 
 ## Generating Requirements Invoices Requirements Invoices are generated from the following menu: 
