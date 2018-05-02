@@ -201,6 +201,7 @@ To create a new record, select the “New” icon on the Home ribbon.
 
 [GoToTop](#how-to-create-placements-in-placement-entry)
 
+
 ## RECORD MAINTENANCE
 Placement Entry is used to update information relating to the Job and the Ratesets associated to the Job, otherwise maintenance should occur in the following areas:
 
