@@ -184,10 +184,7 @@ To access the Permanent Placement Card, go to the following menu:
 |**Percentage** |This is the Commission % value as entered in Placement Entry.|
 |**Amount** |This is the Amount field which is a system calculated field.|
 |**E-Mail** |This is the E-Mail address of the Salesperson as selected in Placement Entry.|
-|**Initials** |This is the Initials of the Salesperson as selected in Placement Entry.|
-
- 
- 
+|**Initials** |This is the Initials of the Salesperson as selected in Placement Entry.| 
 
 |Field Name|Description|
 |-------------------------|----------------------------------------------------------------------------------------|
