@@ -1,5 +1,6 @@
 # How to process timesheets
 
+
 ## Introduction
 
 Timesheet lines are used to generate invoices and pay contractors/employees for work that
@@ -62,8 +63,6 @@ Departments/Payroll/setup/Labour Hire/Administration/Labour Hire Setup
 
 ### “Edit – Labour Hire Setup” window
 
-  
-   
 |Field Name | Description
 |---------------------------------------------------------------|--------------------------------------------------------------|
 |**TIMESHEET FASTTAB**
@@ -95,6 +94,7 @@ Departments/Labour Hire/Timesheets Processing/Generate Timesheets
 
 In the Payroll list, Select the required Payroll No. to generate the Timesheets, then click “OK”
 One the Generate Timesheet window opens, select the pay period you wish to generate the timesheets for and then select “Generate Timesheets Current” icon on the Home ribbon.  
+
 
 ## Timesheet Entry
 
@@ -150,7 +150,7 @@ Once you have completed your selection, click ‘OK’ to be returned to the mai
 |**Pay Amount**|This will be calculated as Units * the Pay Rate.|
 |**Charge Rate**|Rate at which the Client is charged for this Job.| 
 
-## Entering or Adding Another Timesheet Line
+### Entering or Adding Another Timesheet Line
 
 A user can add a new line by positioning the cursor on the Employee ‘No’ and selecting “Copy Employee”
 icon from the Home ribbon.
@@ -158,7 +158,7 @@ icon from the Home ribbon.
 Depending on the sorting sequence of the Time Sheet Entry table, the new line will appear at the bottom
 of the screen.
 
-## Customer Specific Fields
+### Customer Specific Fields
 
 Customer Specific Fields is designed to allow you to capture other information which can be reported back to a client on an invoice. 
 
@@ -174,7 +174,7 @@ If information has been entered on the Payroll Employee card, then this will def
 This screen will be launched automatically once units have been entered if this customer has specified that certain fields
 are mandatory during data entry.
 
-## Purchase Order Budgets
+### Purchase Order Budgets
 
 Purchase Order Budgets is designed to allow you to manage Purchase Orders for a client. 
 
@@ -190,7 +190,7 @@ If this contractor/employee has been assigned to a purchase order that has enoug
 charge amount of this transaction, then the screen will not be launched, otherwise if the value of this 
 transaction exceeds the value of the purchase order then a warning message will appear.
 
-## “Edit – Budget Pop Up Box” window
+### “Edit – Budget Pop Up Box” window
 
 |**Field Name**|**Description**|
 |---------------------------------------------------------------------------|----------------------------------------------------------|
@@ -204,10 +204,10 @@ transaction exceeds the value of the purchase order then a warning message will 
 |**Budgeted Value**|This field will display the Budgeted Value of the Purchase Order Budget.|
 |**Amount Remaining**|This field will display the Amount Remaining of the Purchase Order Budget.|
 
-## Show Missing Timesheets
+### Show Missing Timesheets
 The Show Missing Timesheets function is designed to allow you to manage missing timesheets for the Payroll. 
 
-## “Edit – Missing Timesheets” window
+### “Edit – Missing Timesheets” window
    
 |**Field Name**|**Description**|
 |-----------------------------------------------------------|-----------------------------------------------------------------|
@@ -225,8 +225,7 @@ The Show Missing Timesheets function is designed to allow you to manage missing 
 |**Timesheet Submitted**|This field will default to “No” until such time that the Timesheet has been submitted.|
 ||**Click “OK” after you have completed your selection.**|
   
-     
-## Totals Summary Report
+### Totals Summary Report
 
 The Total Summary Report will provide you with a summary of the hours which have been entered for the timesheets and is
 available on the Actions ribbon of the Time Sheet Entry page.  
@@ -235,8 +234,7 @@ There are a number of different filters that can be applied to produce a report 
 An explanation of the filters shown in the screenshot is provided below.  To produce a report with unfiltered
 information, it is recommended that the fields on the FastTabs are left blank.  
 
-    
-## “Edit – Totals – Time Sheet Line Summ.” window
+### “Edit – Totals – Time Sheet Line Summ.” window
    
 |**Field Name**|**Description**|
 ||**PAY TRANSACTION TYPE FASTTAB**|
@@ -244,7 +242,7 @@ information, it is recommended that the fields on the FastTabs are left blank. 
 ||**LABOUR HIRE TIME SHEET LINE FASTTAB**|
 |**Employee No.**|This field is used to filter the report information by Employee No.|
   
-## Timesheet Report
+### Timesheet Report
 
 The Timesheet Report is used to verify the Pay and Charge Rates for each of the Time Sheet lines and is available on the
 Actions ribbon of the Time Sheet Entry page.
@@ -253,15 +251,14 @@ There are a number of different filters that can be applied to produce a report 
 An explanation of the filters shown in the screenshot is provided below. To produce a report with
 unfiltered information, it is recommended that the fields on the FastTabs are left blank.  
 
-## “Edit – Totals – Time Sheet Line Summ.” window
+### “Edit – Totals – Time Sheet Line Summ.” window
    
 |**Field Name**|**Description**|
 |---------------------------------------------------------------------|----------------------------------------------------------------|
 ||**LABOUR HIRE TIME SHEET LINE FASTTAB**|
 |**Employee No.**|This field is used to filter the report information by Employee No.|
   
- 
-## Process Timesheets
+### Process Timesheets
 
 Once timesheets have been entered and verified, the next step is to process the timesheets.  
 
@@ -276,8 +273,7 @@ There are a number of different filters that can be applied to process the times
 explanation of the filters shown in the screenshot is provided below.  To process all timesheet information, it is
 recommended that the fields on the FastTabs are left blank.  
 
- 
-## “Edit – Process Timesheets” window
+### “Edit – Process Timesheets” window
    
 |**Field Name**|**Description**|
 |-----------------------------------------------------------------------------|---------------------------------------------------------|
@@ -305,8 +301,7 @@ To access the Order Sheet Entry, go to the following menu:
 
 Departments/Labour Hire/Timesheets Processing/Order Sheet Entry
 
- 
-## “Edit – Time Sheet Order” window
+### “Edit – Time Sheet Order” window
 
 |**Field Name**|**Description**|
 |---------------------------------------------------------------|----------------------------------------------------------------|   
@@ -327,8 +322,7 @@ Departments/Labour Hire/Timesheets Processing/Order Sheet Entry
 |**Units**|Enter in the no. of Units for the transactional line.|
 ||**Click “OK” after you have completed your selection.**|
   
- 
-## Pro-Forma Timesheet Report
+### Pro-Forma Timesheet Report
 
 The Pro-Forma Timesheet Report will provide you with a summary of the hours which have been entered for the timesheets and
 is available on the Actions ribbon of the Time Sheet Entry page.  
@@ -337,7 +331,6 @@ There are a number of different filters that can be applied to produce a report 
 An explanation of the filters shown in the screenshot is provided below.  To produce a report with
 unfiltered information, it is recommended that the fields on the FastTabs are left blank.  
 
-    
 ## “Edit – Pro-Forma Time Sheet” window
    
 |**Field Name**|**Description**|
