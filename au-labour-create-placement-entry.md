@@ -6,11 +6,10 @@ Placement Entry allows for both Temporary and Permanent Placements to be entered
 
 This document will contain information relating to how to use Placement Entry and contains the following sections:
 
-- Placement Entry
-- Creating a New Temporary Placement
+- Placement Entry
+- Creating a New Temporary Placement
 - Record Maintenance
-- Example of Updates
-
+- Example of Updates
 
 ## PLACEMENT ENTRY
 Placement Entry is designed to be used as an interface into Dynamics NAV where integration from the front-end system into Dynamics NAV is not operational.
