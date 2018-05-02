@@ -157,7 +157,7 @@ To access the Permanent Placement Card, go to the following menu:
 
 
 
-###Edit – Permanent Placement Card window  
+### Edit – Permanent Placement Card window  
 
 |Field Name|Description|
 |-------------------------|----------------------------------------------------------------------------------------|
@@ -263,18 +263,18 @@ To access the Permanent Placement FastTab on the Labour Hire Setup card, go to t
 
 
 
-###Customer Card – Invoicing FastTab
+### Customer Card – Invoicing FastTab
 Permanent Placement invoices will have a specific invoice format to present the information back to the client.  
 The Permanent Placement Invoice format is maintained on the Invoicing FastTab in the “Perm. Invoice/Cr. Format Code” field.
  
-###Customer Card – Payments FastTab
+### Customer Card – Payments FastTab
 Permanent Placement invoices may have different payment terms to the general invoicing.  
 The Permanent Placement Payment Terms code is maintained on the Payments FastTab in the “Perm. Placement Payment Terms” field. 
  
-##Generating Permanent Placement Invoices Permanent Placement Invoices are generated from the following menu; 
+## Generating Permanent Placement Invoices Permanent Placement Invoices are generated from the following menu; 
 Departments/Labour Hire/Invoice Processing/Generate Invoice/ Generate Permanent Invoices 
 
-##Edit – Generate Permanent Invoices window
+## Edit – Generate Permanent Invoices window
 
 
 Field Name DescriptionOPTIONS FASTTAB From Date This field allows you to specify a date range to allow for the invoices to be generated.  To Date This field allows you to specify a date range to allow for the invoices to be generated.Click on the “OK” button after you have completed your selection.
@@ -285,20 +285,20 @@ This feature is only available where integration with third party “front end�
 Fee Types for Requirements are setup as described in section 2.1 - Fee Types which allows for the different types of expenses to be posted to the appropriate General Ledger account.
 When these types of expenses are created within the Recruitment system, a line item will be created and setup similar to a Permanent Placement record where the fees will be available from within the Job card.
  
-##Requirements Invoice Setup
+## Requirements Invoice Setup
 Requirements are created as Jobs within the Labour Hire module where 3rd party integration exists.    
 To review a Requirements record, go to the following menu:
 Departments/Labour Hire/Candidate Processing/Jobs
  
-###Edit – Job Card” window The Requirement Fees area is available on the Home ribbon. 
+### Edit – Job Card” window The Requirement Fees area is available on the Home ribbon. 
 Field Name DescriptionJob Task No. This field will reflect the Job Task No. as transferred from the front end system.Fee Type Code This field will contain the Fee Type Code as specified within the setup.Fee Description This field will contain a description of the Fee Type Code.Amount This field will contain the amount of the fee.Ready to Post This field will be checked to mark that the invoice is ready to generate.
 
-##Requirements Invoice Parameters
+## Requirements Invoice Parameters
 Requirement Invoice parameters are maintained within the following areas of the Labour Hire module:
 - Interface Options - Integration
 - Customer Card – Invoice Formats
 
-###Interface Options – Integration FastTab
+### Interface Options – Integration FastTab
 To access the Integrations FastTab on the Interface Options card, go to the following menu:
 
 *Departments/Payroll/Setup/Labour Hire/Interface Integration/Interface Options*
@@ -306,13 +306,13 @@ To access the Integrations FastTab on the Interface Options card, go to the foll
 Field Name DescriptionINTEGRATION FASTTAB Perm. Bill. Expense Code This field is used to identify the Fee Type for this type of expense.Perm. Bill. Shortlist Fee Code This field is used to identify the Fee Type for shortlist fees.Perm. Bill. Retainer Fee Code This field is used to identify the Fee Type for the retainer fees.
 
 
-###Customer Card – Invoicing FastTab
+### Customer Card – Invoicing FastTab
 Requirements invoices will have a specific invoice format to present the information back to the client.  
 The Requirements Invoice format is maintained on the Invoicing FastTab in the “Req. Inv./Cr. Format Code” field.
  
-##Generating Requirements Invoices Requirements Invoices are generated from the following menu: 
+## Generating Requirements Invoices Requirements Invoices are generated from the following menu: 
 
 Departments/Labour Hire/Invoice Processing/Generate Invoice/ Generate Perm. Req. Invoice 
 
-###Edit – Generate Perm. Req. Invoice window
+### Edit – Generate Perm. Req. Invoice window
 Field Name DescriptionJOB FASTTAB Bill-to Customer No. This field allows you to nominate a specific customer you wish to generate invoices for, otherwise this field can be left blank to generate all outstanding Requirements invoices.Click on the “OK” button after you have completed your selection.
