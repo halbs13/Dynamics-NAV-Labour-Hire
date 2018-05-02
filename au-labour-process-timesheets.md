@@ -284,329 +284,73 @@ recommended that the fields on the FastTabs are left blank. 
 ||**LABOUR HIRE TIME SHEET LINE FASTTAB**|
 |**Employee No.**|This field is used to filter processed timesheets by Employee No.|
 |**Job No.**|This field is used to filter processed timesheets by Job No.|
- 
-  Department Code (Global Dimension 1)
+|**Department Code (Global Dimension 1)**|This field is used to filter processed timesheets by Dimension 1.|
+|**Project Code (Global Dimension 2)**|This field is used to filter processed timesheets by Dimension 2.|
+|**Branch Code**|This field is used to filter processed timesheets by Branch Code.|
+|**Division Code**|This field is used to filter processed timesheets by Division Code.|
+|**Placement No.**|This field is used to filter processed timesheets by Placement No.|
+|**Sell-to Customer No.**|This field is used to filter processed timesheets by Sell-to Customer No.|
+|**Alternate Date**|This field is used to filter processed timesheets by Alternate Date.|
+||**Click “OK” when you have completed your selection to process timesheet lines.|
   
-  
-  This field is used to filter processed timesheets by
-  Dimension 1.
-  
- 
- 
-  
-  Project Code (Global Dimension 2)
-  
-  
-  This field is used to filter processed timesheets by
-  Dimension 2.
-  
- 
- 
-  
-  Branch Code
-  
-  
-  This field is used to filter processed timesheets by
-  Branch Code.
-  
- 
- 
-  
-  Division Code
-  
-  
-  This field is used to filter processed timesheets by
-  Division Code.
-  
- 
- 
-  
-  Placement No.
-  
-  
-  This field is used to filter processed timesheets by
-  Placement No.
-  
- 
- 
-  
-  Sell-to Customer No.
-  
-  
-  This field is used to filter processed timesheets by
-  Sell-to Customer No.
-  
- 
- 
-  
-  Alternate Date
-  
-  
-  This field is used to filter processed timesheets by Alternate
-  Date.
-  
- 
- 
-  
-  Click “OK” when you have completed your selection to process timesheet lines.
-  
- 
+This process sends the timesheet transaction to both the Jobs module and the Payroll module. The Job Ledger
+Entry records now await processing into Invoices and the Pay Journal Lines now await processing as payments to contractors.
 
+     
+## Order Sheet Entry
 
-This process sends the timesheet
-transaction to both the Jobs module and the Payroll module. The Job Ledger
-Entry records now await processing into Invoices and the Pay Journal Lines now
-await processing as payments to contractors.
+Order Sheet Entry allows you to enter timesheets in by Job No.  Users will manually enter the timesheets in by Job No.
+
+To access the Order Sheet Entry, go to the following menu:
+
+Departments/Labour Hire/Timesheets Processing/Order Sheet Entry
 
  
+## “Edit – Time Sheet Order” window
 
-6     
-Order Sheet Entry
+|**Field Name**|**Description**|
+|---------------------------------------------------------------|----------------------------------------------------------------|   
+|**Payroll No.**|This field will default to the Payroll No. you select when you initially access this page.|
+|**Job No.**|This field is the Job No. which is used to filter the information in this screen. Click on the “ArrowDown” to select a Job No. or otherwise key this information.|
+|**Customer Name**|This field displays the Customer Name linked to the Job No. you select.|
+|**Alternate Date**|This field displays the “Alternate Date” or “Week Ending Date”.  Click on the “ArrowDown” button to select a date.|
+|**Time Sheet Total Hours**|This field displays the Total Hours for the Timesheet.|
+|**Display Sequence**|This field displays how the data will be displayed in the page.|  
+||The options available are;|
+||· As Entered|
+||· Employee No.|
+|**Job No.**|You enter the Job No. into this field or click on the “ArrowDown” button to select the Job No. from the Job List.|
+|**Job Task No.**|The Job Task No. should default from the Job No. you will have selected in the Job No. field.|
+|**Work Date**|If you are recording hours on a daily basis youcan update the Work Date field to reflect the date that the transaction relates to.|
+|**Alternate Date**|If the Timesheet relates to a prior period, you can enter in the Alternate Date/Week Ending Date specific to the timesheet.|
+|**Transaction Type Code**|Enter in the Transaction Type code for the Rate Type.|
+|**Units**|Enter in the no. of Units for the transactional line.|
+||**Click “OK” after you have completed your selection.|
+  
+ 
+## Pro-Forma Timesheet Report
 
-Order Sheet Entry allows you to enter
-timesheets in by Job No.  Users will
-manually enter the timesheets in by Job No.
-
-To access the Order Sheet Entry, go to the
-following menu:
-
-Departments/Labour Hire/Timesheets
-Processing/Order Sheet Entry
-
- 
-
-
-
- 
-
-6.1.1    
-“Edit – Time Sheet Order” window
-
- 
-
-
- 
-  
-   
-   Field Name
-   
-   
-   Description
-   
-  
- 
- 
-  
-  Payroll No.
-  
-  
-  This field will default to the Payroll No. you
-  select when you initially access this page.
-  
- 
- 
-  
-  Job No.
-  
-  
-  This field is the Job No. which is used to
-  filter the information in this screen. Click on the “ArrowDown”
-  to select a Job No. or otherwise key this information.
-  
- 
- 
-  
-  Customer Name
-  
-  
-  This field displays the Customer Name linked to
-  the Job No. you select.
-  
- 
- 
-  
-  Alternate Date
-  
-  
-  This field displays the “Alternate Date” or
-  “Week Ending Date”.  Click on the “ArrowDown” button to select a date.
-  
- 
- 
-  
-  Time Sheet Total Hours
-  
-  
-  This field displays the Total Hours for the
-  Timesheet.
-  
- 
- 
-  
-  Display Sequence
-  
-  
-  This field displays how the data will be displayed
-  in the page.  
-  The options available are;
-  ·        
-  As Entered
-  ·        
-  Employee No.
-  
- 
- 
-  
-  Job No.
-  
-  
-  You enter the Job No. into this field or click
-  on the “ArrowDown” button to select the Job No. from the Job List.
-  
- 
- 
-  
-  Job Task No.
-  
-  
-  The Job Task No. should default from the Job No.
-  you will have selected in the Job No. field.
-  
- 
- 
-  
-  Work Date
-  
-  
-  If you are recording hours on a daily basis you
-  can update the Work Date field to reflect the date that the transaction
-  relates to.
-  
- 
- 
-  
-  Alternate Date
-  
-  
-  If the Timesheet relates to a prior period, you
-  can enter in the Alternate Date/Week Ending Date specific to the timesheet.
-  
- 
- 
-  
-  Transaction Type Code
-  
-  
-  Enter in the Transaction Type code for the Rate
-  Type.
-  
- 
- 
-  
-  Units
-  
-  
-  Enter in the no. of Units for the transactional
-  line.
-  
- 
- 
-  
-  Click “OK” after
-  you have completed your selection.
-  
- 
-
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-6.2      
-Pro-Forma Timesheet Report
-
-The Pro-Forma Timesheet Report will provide
-you with a summary of the hours which have been entered for the timesheets and
+The Pro-Forma Timesheet Report will provide you with a summary of the hours which have been entered for the timesheets and
 is available on the Actions ribbon of the Time Sheet Entry page.  
 
- 
+There are a number of different filters that can be applied to produce a report with filtered information. 
+An explanation of the filters shown in the screenshot is provided below.  To produce a report with
+unfiltered information, it is recommended that the fields on the FastTabs are left blank.  
 
- 
-
- 
-
-
-
- 
-
-There are a number of different filters that can be applied
-to produce a report with filtered information. 
-An explanation of the filters shown in the screenshot is provided
-below.  To produce a report with
-unfiltered information, it is recommended that the fields on the FastTabs are
-left blank.  
-
-6.2.1    
-“Edit – Pro-Forma Time Sheet” window
-
-
- 
-  
+    
+## “Edit – Pro-Forma Time Sheet” window
    
-   Field Name
-   
-   
-   Description
-   
-  
- 
- 
-  
-  LABOUR HIRE TIME SHEET LINE FASTTAB
-  
- 
- 
-  
-  Job No.
-  
-  
-  This field is used to filter the report information by Job
-  No.
-  
- 
- 
-  
-  Employee No.
-  
-  
-  This field is used to filter the report information by
-  Employee No.
-  
- 
-
-
+|**Field Name**|**Description**|
+|-----------------------------------------------------|--------------------------------------------------------------------------|
+||**LABOUR HIRE TIME SHEET LINE FASTTAB**|
+|**Job No.**|This field is used to filter the report information by Job No.|
+|**Employee No.**|This field is used to filter the report information by Employee No.|
  
 
-6.3      
-Process Timesheets
+## Process Timesheets
 
-Once timesheets have been entered and verified, the next
-step is to process the timesheets.  
+Once timesheets have been entered and verified, the next step is to process the timesheets.  
 
- 
+Processing of these timesheets is performed within the Pay Journal and will be discussed in the Payroll Processing document.
 
-Processing of these timesheets is performed within the Pay
-Journal and will be discussed in the Payroll Processing document.
-
+[GoToTop](#how-to-process-timesheets)
