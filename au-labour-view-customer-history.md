@@ -28,8 +28,7 @@ Departments/Financial/Management/Receivables/Customers
 Select the customer and then click Ledger Entries. 
 
 This screen shows a summary record for each transaction for the customer. Each Invoice or 
-Credit Note generated and each Payment made will produce 1 customer ledger entry record.
-
+Credit Note generated and each Payment made will produce 1 customer ledger entry reco
 If the document is still Open, a remaining amount will be displayed. Once the invoice has
 been fully paid it will be flagged as closed and the remaining amount will be zero.
 
