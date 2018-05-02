@@ -180,52 +180,53 @@ To create a new record, select the “New” icon on the Home ribbon.
 
 |Field|Description|
 |------------------------------------------|--------------------------------------------------------------------|  
-|**PLACEMENT FASTTAB ||
-|**Job Details||
-|**Placement Type|This field is used to identify the placement being created.  The options available are;|
-|**|·         Contractor – Temporary Placement|
-|**|·         Permanent – Permanent Placement|
-|**Job No.|This field is used to record the Job. No. for the Placement record.|
-|**Job Task No.|This field is used to record the Job Task No. for the Placement record.|
-|**Job Description|This field is used to record the description of the Job.|
-|**Job Starting Date|This field is used to record the starting date of the Job.|
-|**Job Ending Date|This field is used to record the ending date of the Job.|
-|**Job Purchase Order No.|This field is used to record the purchase order no. for the Job.|
-|**Job Revenue Type|This field is used to record the Revenue Type or where the value of the revenue will be posted to within the General Ledger.|
-|**Hiring Manager Name|This field is used to record the name of the Hiring Manager|
-|**Payroll Tax Code|This field is used to record the Payroll Tax Code against the Job.  |
-|**|If this field is populated with a Payroll Tax Code then the Payroll Tax Code will be taken from the Job No. for Employee transactions, otherwise it will be sourced from the Branch attached to the Employee.|
-|**Financial Details||
-|**Job Posting Group for Job|This field is used to record the Posting Group for the Job which will determine the Dimensions for reporting purposes.|
-|**Award Details||
-|**Classification Code|This field is used to record the Classification Code for the Rateset information.|
-|**Rateset Details – Placement Entry Rates||
-|**Transaction Type|From the “ArrowDown” select the Transaction Type |
-|**Description|This field will default to the Description of the Transaction Type that you select.|
-|**Pay Rate|This field is the Pay Rate to the Employee/Contractor.|
-|**Charge Rate|This field is the Charge Rate to the Client/Customer.|
-|**Frequency|This field is the Unit Rate Frequency of the Transaction Type.  The options are;|
-|**|·         Hour|
-|**|·         Day|
-|**|·         Week|
-|**|·         Month|
-|**|·         Unit|
-|**Date Effective|This field is the Date the Rateset is effective.|
-|**Job Invoice Details||
-|**Job Bill-To Contact|This field is used to record the Contact’s Name for the Job.  |
-|**Job Bill-to Contact No.|This field is used to record the contact number for the Contact of this Job.|
-|**Job Bill-to Name|This field is used to record the Bill-to Name.  This will default from the Customer Card.|
-|**Job Bill-to Address|This field is used to record the Bill-to Address.  This will default from the Customer Card.|
-|**Job Bill-to Address 2|This field is used to record the Bill-to Address 2.  This will default from the Customer Card.|
-|**Job Bill-to City|This field is used to record the Bill-to City.  This will default from the Customer Card.|
-|**Job Bill-to Post Code|This field is used to record the Bill-to Post Code.  This will default from the Customer Card.|
-|**Job Bill-to Country Code|This field is used to record the Bill-to Country.  This will default from the Customer Card.|
-|**Job Bill-to Contact Job Title|This field is used to record the Bill-to Contact Job Title.  This will default from the Customer Card.|
-|**Work Site||
-|**Work Site Code|This field is used to record the Work Site Code for the Job if this information is being reported to the Client/Customer.|
-|**Work Site Address|This field is used to record the Work Site Address for the Job if this information is being reported to the Client/Customer.|
-|**Work Site Country/Region Code|This field is used to record the Work Site Country/Region Code for the Job if this information is being reported to the Client/Customer.|
-|**Work Site Post Code|This field is used to record the Work Site Post Code for the Job if this information is being reported to the Client/Customer.|
+|**PLACEMENT FASTTAB **||
+|**Job Details**||
+|**Placement Type**|This field is used to identify the placement being created.  The options available are;|
+|****|·         Contractor – Temporary Placement|
+|****|·         Permanent – Permanent Placement|
+|**Job No.**|This field is used to record the Job. No. for the Placement record.|
+|**Job Task No.**|This field is used to record the Job Task No. for the Placement record.|
+|**Job Description**|This field is used to record the description of the Job.|
+|**Job Starting Date**|This field is used to record the starting date of the Job.|
+|**Job Ending Date**|This field is used to record the ending date of the Job.|
+|**Job Purchase Order No.**|This field is used to record the purchase order no. for the Job.|
+|**Job Revenue Type**|This field is used to record the Revenue Type or where the value of the revenue will be posted to within the General Ledger.|
+|**Hiring Manager Name**|This field is used to record the name of the Hiring Manager|
+|**Payroll Tax Code**|This field is used to record the Payroll Tax Code against the Job.  |
+|****|If this field is populated with a Payroll Tax Code then the Payroll Tax Code will be taken from the Job No. for Employee transactions, otherwise it will be sourced from the Branch attached to the Employee.|
+|**Financial Details**||
+|**Job Posting Group for Job**|This field is used to record the Posting Group for the Job which will determine the Dimensions for reporting purposes.|
+|**Award Details**||
+|**Classification Code**|This field is used to record the Classification Code for the Rateset information.|
+|**Rateset Details – Placement Entry Rates**||
+|**Transaction Type**|From the “ArrowDown” select the Transaction Type |
+|**Description**|This field will default to the Description of the Transaction Type that you select.|
+|**Pay Rate**|This field is the Pay Rate to the Employee/Contractor.|
+|**Charge Rate**|This field is the Charge Rate to the Client/Customer.|
+|**Frequency**|This field is the Unit Rate Frequency of the Transaction Type.  The options are;|
+|****|·         Hour|
+|****|·         Day|
+|****|·         Week|
+|****|·         Month|
+|****|·         Unit|
+|**Date Effective**|This field is the Date the Rateset is effective.|
+|**Job Invoice Details**||
+|**Job Bill-To Contact**|This field is used to record the Contact’s Name for the Job.  |
+|**Job Bill-to Contact No.**|This field is used to record the contact number for the Contact of this Job.|
+|**Job Bill-to Name**|This field is used to record the Bill-to Name.  This will default from the Customer Card.|
+|**Job Bill-to Address**|This field is used to record the Bill-to Address.  This will default from the Customer Card.|
+|**Job Bill-to Address 2**|This field is used to record the Bill-to Address 2.  This will default from the Customer Card.|
+|**Job Bill-to City**|This field is used to record the Bill-to City.  This will default from the Customer Card.|
+|**Job Bill-to Post Code**|This field is used to record the Bill-to Post Code.  This will default from the Customer Card.|
+|**Job Bill-to Country Code**|This field is used to record the Bill-to Country.  This will default from the Customer Card.|
+|**Job Bill-to Contact Job Title**|This field is used to record the Bill-to Contact Job Title.  This will default from the Customer Card.|
+|**Work Site**||
+|**Work Site Code**|This field is used to record the Work Site Code for the Job if this information is being reported to the Client/Customer.|
+|**Work Site Address**|This field is used to record the Work Site Address for the Job if this information is being reported to the Client/Customer.|
+|**Work Site Country/Region Code**|This field is used to record the Work Site Country/Region Code for the Job if this information is being reported to the Client/Customer.|
+|**Work Site Post Code**|This field is used to record the Work Site Post Code for the Job if this information is being reported to the Client/Customer.|
+
 
 
 
