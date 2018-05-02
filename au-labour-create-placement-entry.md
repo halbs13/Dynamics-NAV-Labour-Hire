@@ -375,7 +375,8 @@ To access the Payroll Employee Card, go to the following menu:
 |**Payee Signature**|This field is used to identify if the Employment Declaration form was signed by the Employee/Contractor.|
 |**Declaration Lodged**|This field is used to identify that the Declaration was extracted to be lodged with the Australian Taxation Office.|
  
-  |Field|Description|
+
+|Field|Description|
 |------------------------------------------|--------------------------------------------------------------------|
 |**WORK COVER FASTTAB**||
 |**Work Cover Code**|This field is used to record if the Work Cover Code for the Employee/Contractor.|
@@ -385,8 +386,10 @@ To access the Payroll Employee Card, go to the following menu:
 |**Workers Comp Policy No.**|This field is used to record the Workers Comp Policy No. for the Employee/Contractor if they are operating as an Incorporated Company.|
 |**Workers Comp Insurer**|This field is used to record the Workers Comp Insurer for the Employee/Contractor if they are operating as an Incorporated Company.|
 |**Policy Expiration Date**|This field is used to record the Workers Comp Policy Expiration Date for the Employee/Contractor if they are operating as an Incorporated Company.|
+  
+## Payroll Employee – Pay Dissections
+You can update the Employee/Contractor’s bank details from the Pay Dissections menu on the Payroll Employee Card.
 
-## Payroll Employee – Pay DissectionsYou can update the Employee/Contractor’s bank details from the Pay Dissections menu on the Payroll Employee Card.
 To access the Pay Dissections, go to the following menu:
 
 *Departments/Labour Hire/Candidate Processing/Payroll Employees/Pay Dissections*
