@@ -5,11 +5,11 @@ following sections:
 
 - [Incorporated Company Overview](#incorporated-company-overview)
 - [Incorporated Company Flag Identification](#incorporated-company-flag-identification)
-- [Company Details](#Company-Details)
-- [Workers Compensation Policies](#Workers-Compensation-Policies)
-- [Goods & Services Tax (GST) Overview](#Goods-&-Services-Tax-(GST)-Overview)
-- [GST Transaction Type Setup](#GST-Transaction-Type-Setup)
-- [GST Calculation](#GST-Calculation)
+- [Company Details](#company-details)
+- [Workers Compensation Policies](#workers-compensation-policies)
+- [Goods & Services Tax (GST) Overview](#goods-&-services-tax-(gst)-overview)
+- [GST Transaction Type Setup](#gst-transaction-type-setup)
+- [GST Calculation](#gst-calculation)
 
 ## Incorporated Company Overview
 
@@ -30,7 +30,7 @@ To access the Employee Types task, go to thefollowing menu:
 
 When setting up a new contractor that operates through an Incorporated Company, you must select Employee Type “INCORP” or “Incorporated Company”.
      
-## 3. Company Details
+## Company Details
 
 The Contractor Company Name and A.B.N fields are located on the Declaration Tab of the Payroll Employee card.
 
@@ -38,7 +38,7 @@ To access the Employee Maintenance task go to the following menu:
 
 *Departments/Payroll/Employee Maintenance/Payroll Employees*
       
-## 4. Workers Compensation Policies
+## Workers Compensation Policies
 
 Contractors operating through Incorporated Companies are required to provide details of their workers compensation policy.
 
@@ -59,7 +59,7 @@ The following fields need to be entered:
  |**Workers Comp Insurer** | The “Workers Comp Insurer” is used to record the name of the Contractors Workers Comp Insurer.|
 |**Policy Expiration Policy**|The “Policy Expiration Date” is used to record the expiry date of the policy.|
        
-## 5. Goods & Services Tax ( GST ) Overview
+## Goods & Services Tax ( GST ) Overview
 
 Where contractors are operating through Incorporated Companies they will not have PAYG Tax deducted but will instead
 have GST calculated and added to their payment.
@@ -70,7 +70,7 @@ To access the Employee Maintenance task go to the following menu:
 
 *Departments/Payroll/Employee Maintenance/Payroll Employees*
       
-## 6. GST Transaction Type Setup
+## GST Transaction Type Setup
 
 A Transaction Code must be setup to represent GST. This code will be used in conjunction with the GST Tax scale when
 calculating contractor pays.
@@ -85,7 +85,7 @@ To access the Pay Transaction Types task go to the following menu:
 The GST Product Posting Group field is used to reconcile the General Ledger Account used for GST. This is the only
 transaction type that will be setup with a GST Product Posting Group instead of a transaction posting group.
      
-## 7. GST Calculation
+## GST Calculation
 
 On the Pay Transaction Type setup card on the Parameters Tab, there is a GST applicable box that should be ticked for every code that should have GST applied. For wages type code, GST would apply, whereas for a reimbursement type code, GST may not apply.
 
