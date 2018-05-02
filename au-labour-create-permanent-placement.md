@@ -54,10 +54,8 @@ To create a new record, select the “New” icon on the Home ribbon.
 
 
 |Field Name|Description|
-|-----------------------------------------------------------------------------------------------------------------|
-|**CLIENT FASTTAB**|
 |-------------------------|----------------------------------------------------------------------------------------|
-
+|**CLIENT FASTTAB**|
 |**Customer No.** |From the “ArrowDown” button, select the customer No. from the Customer List.
 ||If the Customer exists within the list, then the following fields will be available for editing, otherwise to create a new customer you will need to complete the following fields.|
 |**Name** |This field is used to record the Customer’s name.  |
@@ -97,6 +95,54 @@ Once the Client FastTab is completed, select the Perm Placement FastTab.
  
 |Field Name|Description|
 |-------------------------|----------------------------------------------------------------------------------------|
+|**PERM PLACEMENT FASTTAB **|
+|**Candidate Details** |
+|**Placement Type** |This field is used to identify the placement being created.  To create the Permanent Placement, select “Permanent”.|
+|**Employee No.** |This field is used to create an Employee No. on the Resource Card.  Enter in a unique number for the Candidate.|
+|**First Name** |This field is used to record the First Name of the Candidate.|
+|**Last Name** |This field is used to record the Last Name of the Candidate.|
+|**Job Details** ||
+|**Job No.** |This field is used to record the Job. No. for the Permanent Placement record.|
+|**Job Task No.** |This field is used to record the Job Task No. for the Permanent Placement record.|
+|**Job Description** |This field is used to record the description of the Job.|
+|**Job Starting Date** |This field is used to record the starting date of the Job.|
+|**Job Purchase Order No.** |This field is used to record the purchase order no. for the Job.|
+|**Job Revenue Type** |This field is used to record the Revenue Type or where the value of the Permanent Placement will be posted to within the General Ledger.|
+|**Job Posting Group for Job** |This field is used to record the Posting Group for the Job which will determine the Dimensions for reporting purposes.|
+|**Job Invoice Details** ||
+|**Job Bill-To Contact** |This field is used to record the Contact’s Name for the Job.  |
+|**Job Bill-to Contact No.** |This field is used to record the contact number for the Contact of this Job.|
+|**Job Bill-to Name** |This field is used to record the Bill-to Name.  This will default from the Customer Card.|
+|**Job Bill-to Address** |This field is used to record the Bill-to Address.  This will default from the Customer Card.|
+|**Job Bill-to Address 2** |This field is used to record the Bill-to Address 2.  This will default from the Customer Card.|
+|**Job Bill-to City** |This field is used to record the Bill-to City.  This will default from the Customer Card.|
+|**Job Bill-to Post Code** |This field is used to record the Bill-to Post Code.  This will default from the Customer Card.|
+|**Job Bill-to Country Code** |This field is used to record the Bill-to Country.  This will default from the Customer Card.|
+|**Job Bill-to Contact Job Title** |This field is used to record the Bill-to Contact Job Title.  This will default from the Customer Card.|
+|**Perm Placement Details** ||
+|**Candidate Source** |This field identifies how the Candidate was sourced for this Permanent Placement and can be used for reporting purposes.  The options available are;|
+||·         Newspaper/Magazine|
+||·         Internet|
+||·         Database|
+||·         Referral|
+|**Agreed Salary** |This field is used to record the Agreed Salary for this placement.|
+|**Superannuation** |This field is used to record the Superannuation component of the package for this placement.|
+|**Benefits** |This field is used to record if there are any other monetary benefit components of the package for this placement.|
+|**Total Package** |This field is populated with the sum of “Agreed Salary”, “Superannuation” and “Benefits”.|
+|**Placement Fee** |This field is used to record the Placement Fee for this placement.|
+|**Fee Rate (%) ** |This field is populated when the Placement Fee field is updated for this placement.  The formula of this field is “Total Package”/”Placement Fee”.|
+|**Perm. Placement Payment Terms** |This field is populated from the Customer Card.|
+|**Guarantee Period Days** |This field is used to record the no. of days for Guarantee Period for this placement.|
+|**Guarantee Period Expiry** |This field is used to record the expiry date of the Guarantee Period for this placement.|
+|**Salespeople** |
+|**Salesperson Code 1** |This field is used to record the Salesperson for this placement.  |
+|**** |Select the Salesperson from the “ArrowDown” button.|
+|**Name** |This field will populate from the Salesperson record you have selected for this placement.|
+|**Initials** |This field will populate from the Salesperson record you have selected for this placement.|
+|**E-Mail** |This field will populated from the Salesperson record you have selected for this placement.|
+|**Commission** |This field is used to record the percentage value which can be later used to calculate Commission payments for Sales people within your organisation.|
+|**Salesperson Code 2.. Salesperson Code 3** |You can record up to 3 Sales people commission payment percentages on this placement.|
+|**Once you have completed the two FastTab, click “Transfer” icon on the Home ribbon.** |
 
 
 
