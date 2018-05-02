@@ -653,6 +653,7 @@ If an Employee/Contractor terminates employment then the updates should occur as
 
 If an Employee/Contractor transfers from being a PAYG Contractor to an Incorporated Company, then the updates should occur as follows.  As a general rule, these updates should not occur part way throuhg a pay period and should be effective as at the first day of the next pay period if at all possible.
 
+
 1. Update the following FastTabs on the Payroll Employee Card:
    * General FastTab – Employee Type Code – update this from PAYG to Incorporated Company.
    * Tax FastTab – Tax Scale – update the Tax Scale value to be GST.
