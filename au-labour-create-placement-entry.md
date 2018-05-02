@@ -5,6 +5,7 @@ Placement Entry is designed to be used as interface to Dynamics NAV for Recruitm
 Placement Entry allows for both Temporary and Permanent Placements to be entered and creates various records within Dynamics NAV to facilitate the Payroll and Billing processes associated with the Labour Hire module.  
 
 This document will contain information relating to how to use Placement Entry and contains the following sections:
+
 - Placement Entry
 - Creating a New Temporary Placement
 - Record Maintenance
