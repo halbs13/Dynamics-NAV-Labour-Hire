@@ -57,7 +57,7 @@ To create a new record, select the “New” icon on the Home ribbon.
 [GoToTop](#how-to-create-permanent-placements)
 
 ### New – Placement Entry window 
- 
+
 |Field Name|Description|
 |-------------------------|----------------------------------------------------------------------------------------|
 |**CLIENT FASTTAB**|
