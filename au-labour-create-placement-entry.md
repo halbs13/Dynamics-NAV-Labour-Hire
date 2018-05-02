@@ -558,7 +558,6 @@ To access the Customer Card, go to the following menu:
 ||·         Job No. |
 ||·         Job Task No.|
  
- 
 |Field|Description|
 |------------------------------------------|--------------------------------------------------------------------| 
 |**PAYMENTS FASTTAB**||
@@ -567,7 +566,8 @@ To access the Customer Card, go to the following menu:
 |**Perm. Placement Payment Terms**|This field is used to record the Customer’s Permanent Placement Payment Terms.|
 ||Click on the “ArrowDown” button to select an appropriate code.|
 
- |Field|Description|
+
+|Field|Description|
 |------------------------------------------|--------------------------------------------------------------------| 
 |**USER DEFINED FASTTAB**||
 |**Field No. 1 Required..Field No. 10 Required**|This field is used to record whether additional reporting is being captured from the Employee/Contractor’s timesheet. |
