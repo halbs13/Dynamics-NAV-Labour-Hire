@@ -562,7 +562,9 @@ To access the Customer Card, go to the following menu:
 ## EXAMPLES OF UPDATES
 This section will outline examples of when information is updated and where these updates should occur.
 
-### Placement EntryPlacement Entry is used to update information relating to the Job and the Ratesets.  These areas are;
+### Placement Entry
+
+Placement Entry is used to update information relating to the Job and the Ratesets.  These areas are;
 - Extending a Contract
 - Updating the Ratesets
 
@@ -571,11 +573,6 @@ This section will outline examples of when information is updated and where thes
 To access Placement Entry, go to the following menu:
 
 *Departments/Labour Hire/Candidate Processing/Placement Entry*
-
-
-
-
-
 
  Use the following steps to perform this process:
 
