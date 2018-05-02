@@ -1,4 +1,4 @@
-# How to: view Customer History
+# How to view Customer History
 
 ## Introduction
 
@@ -94,5 +94,5 @@ Type:  Resource identifies what type of Cost or Sale transaction it is. 
 Open: A check will be displayed when the amount in the Remaining Amount field is not zero.
 
 
- 
+[GoToTop](#how-to-view-customer-history) 
 
