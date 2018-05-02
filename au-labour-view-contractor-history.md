@@ -44,7 +44,6 @@ To view the Employee Ledger Entries for a contractor:
 
 Click Ledger Entries from the Navigate Tab  
 
- 
 ### Employee Ledger Entries
 
 Detailed records for each contractor can be viewed by accessing the Employee Ledger Entry screen. 
@@ -58,7 +57,7 @@ Filters can be used to change the contractor being viewed, to only display recor
 date or to only display records for a particular transaction type code.
 
  
-[GpToTop](#how-to-view-contractor-history)
+[GoToTop](#how-to-view-contractor-history)
  
 
  
