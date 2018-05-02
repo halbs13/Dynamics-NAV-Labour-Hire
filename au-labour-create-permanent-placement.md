@@ -12,12 +12,16 @@ This document will contain information relating to Permanent Placements/Requirem
   - Requirements Invoicing Setup 
   - Generating Requirements Invoices
 
-2 PERMANENT PLACEMENT OVERVIEWPermanent Placements are candidates who apply for positions advertised by recruitment agencies on behalf of their clients with the intention of being permanently placed.
-Permanent Placement records can be setup from within the Placement Entry area of the Labour Hire module with information such as the expected salary the candidate will receive, placement fees, the guarantee period and placement fee information.  2.1 Fee TypesFee Types are setup to identify where the revenue for the fees will post to within the General Ledger.
-To setup the Fee Types go to the following menu;
-Departments/Payroll/Setup/Labour Hire/Administration/Fee Types 
+##1. PERMANENT PLACEMENT OVERVIEW
+Permanent Placements are candidates who apply for positions advertised by recruitment agencies on behalf of their clients with the intention of being permanently placed.
+Permanent Placement records can be setup from within the Placement Entry area of the Labour Hire module with information such as the expected salary the candidate will receive, placement fees, the guarantee period and placement fee information. 
+ 
+###1.1 Fee Types
+Fee Types are setup to identify where the revenue for the fees will post to within the General Ledger.
+To setup the Fee Types go to the following menu:
+*Departments/Payroll/Setup/Labour Hire/Administration/Fee Types* 
  
-2.1.1 “Edit – Fee Types” window 
+###1.2 “Edit – Fee Types” window 
 Field Name DescriptionCode This field is used to setup a unique code for the Fee Type.Description This field is used to describe the Fee Type.Fee Type This field is used to identify whether the Fee Type is a Placement Fee or Requirement Fee.G/L Account No. This field is used to specify the General Ledger Account 2.2 Permanent Placement SetupPermanent Placement records are setup within the Placement Entry area of the Labour Hire module.  The following FastTabs are used when creating a new Permanent Placement record;
 • Client (Customer) FastTab• Perm Placement FastTab
  
