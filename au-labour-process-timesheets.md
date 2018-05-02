@@ -188,7 +188,7 @@ purchase order belongs to, Total Value of Purchase Order and remaining value lef
 If there is a purchase order set up for this customer then entry into this screen will be mandatory. 
 If this contractor/employee has been assigned to a purchase order that has enough dollars left to cover the
 charge amount of this transaction, then the screen will not be launched, otherwise if the value of this 
-transaction exceeds the value of the purchase order then a warning message will appear. 
+transaction exceeds the value of the purchase order then a warning message will appear.
 
 ## “Edit – Budget Pop Up Box” window
 
@@ -207,7 +207,7 @@ transaction exceeds the value of the purchase order then a warning message will 
 ## Show Missing Timesheets
 The Show Missing Timesheets function is designed to allow you to manage missing timesheets for the Payroll. 
 
- ## “Edit – Missing Timesheets” window
+## “Edit – Missing Timesheets” window
    
 |**Field Name**|**Description**|
 |-----------------------------------------------------------|-----------------------------------------------------------------|
@@ -291,7 +291,7 @@ recommended that the fields on the FastTabs are left blank. 
 |**Placement No.**|This field is used to filter processed timesheets by Placement No.|
 |**Sell-to Customer No.**|This field is used to filter processed timesheets by Sell-to Customer No.|
 |**Alternate Date**|This field is used to filter processed timesheets by Alternate Date.|
-||**Click “OK” when you have completed your selection to process timesheet lines.|
+||**Click “OK” when you have completed your selection to process timesheet lines.**|
   
 This process sends the timesheet transaction to both the Jobs module and the Payroll module. The Job Ledger
 Entry records now await processing into Invoices and the Pay Journal Lines now await processing as payments to contractors.
@@ -325,7 +325,7 @@ Departments/Labour Hire/Timesheets Processing/Order Sheet Entry
 |**Alternate Date**|If the Timesheet relates to a prior period, you can enter in the Alternate Date/Week Ending Date specific to the timesheet.|
 |**Transaction Type Code**|Enter in the Transaction Type code for the Rate Type.|
 |**Units**|Enter in the no. of Units for the transactional line.|
-||**Click “OK” after you have completed your selection.|
+||**Click “OK” after you have completed your selection.**|
   
  
 ## Pro-Forma Timesheet Report
