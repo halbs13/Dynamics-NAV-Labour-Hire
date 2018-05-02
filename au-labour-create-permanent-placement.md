@@ -1,16 +1,16 @@
 # How to create Permanent Placements
 
 This document will contain information relating to Permanent Placements/Requirements Billing and contains the following sections:
-- Permanent Placement Overview 
-  - Fee Types
-  - Permanent Placement Setup 
-  - Permanent Placement Card 
-  - Permanent Placement Invoice Parameters 
-  - Generating Permanent Placement Invoices
+- [Permanent Placement Overview] 
+  - [Fee Types]
+  - [Permanent Placement Setup] 
+  - [Permanent Placement Card] 
+  - [Permanent Placement Invoice Parameters] 
+  - [Generating Permanent Placement Invoices]
 
-- Requirements Invoicing Overview 
-  - Requirements Invoicing Setup 
-  - Generating Requirements Invoices
+- [Requirements Invoicing Overview] 
+  - [Requirements Invoicing Setup] 
+  - [Generating Requirements Invoices]
 
 ## PERMANENT PLACEMENT OVERVIEW
 Permanent Placements are candidates who apply for positions advertised by recruitment agencies on behalf of their clients with the intention of being permanently placed.
