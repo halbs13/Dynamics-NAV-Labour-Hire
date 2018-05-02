@@ -36,6 +36,7 @@ To setup the Fee Types go to the following menu:
 
 [GoToTop](#how-to-create-permanent-placements)
 
+
 ## Permanent Placement Setup
 Permanent Placement records are setup within the Placement Entry area of the Labour Hire module.  The following FastTabs are used when creating a new Permanent Placement record:
 - Client (Customer) FastTab
