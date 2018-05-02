@@ -72,13 +72,11 @@ Departments/Payroll/setup/Labour Hire/Administration/Labour Hire Setup
 ||  · If the Actual Units entered is greater than 38 hours or 5 days or 1 week, a warning message will be displayed.|
 ||  · If the Pay Units entered is greater than 38 hours or 5 days or 1 week, a warning message will be displayed.|
 ||  · If the Charge Units entered is greater than 38 hours or 5 days or 1 week, a warning message will be displayed.|
-|**Timesheet Auto-fill Method**|This field determines how you can search for timesheet lines within Time Sheet Entry. 
-  The options are;|
+|**Timesheet Auto-fill Method**|This field determines how you can search for timesheet lines within Time Sheet Entry. The options are;|
 ||  · Order – this is where there is an overarching Order/Blanket Order for multiple requirements. This selection is only
   applicable if you have integration to Axiom.|
 ||  · Requirement – This selection is only applicable if you have integration to Axiom.||
-||  · Placement – this selection is only applicable if there is no integration and you are using Placement Entry to create
-  your records.| 
+||  · Placement – this selection is only applicable if there is no integration and you are using Placement Entry to create your records.| 
   |**Dup. Timesheet Check Frequency**|The options available in this field are;|
  || · Daily – this can be used where timesheets are entered or received on a daily basis|
  || · Weekly – this option is used to check if you receive duplicate timesheets based on the Alternate (Week End Date),
