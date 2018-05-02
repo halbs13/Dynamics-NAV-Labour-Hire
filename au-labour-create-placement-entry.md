@@ -187,7 +187,7 @@ To create a new record, select the “New” icon on the Home ribbon.
 |Field|Description|
 |------------------------------------------|--------------------------------------------------------------------| 
 |**Field Name**|Description|
-|**SALESPERSON FASTTAB*||
+|**SALESPERSON FASTTAB**||
 |**Salespeople**||
 |**Salesperson Code 1**|This field is used to record the Salesperson for this placement.  |
 ||Select the Salesperson from the “ArrowDown” button.|
@@ -203,11 +203,13 @@ To create a new record, select the “New” icon on the Home ribbon.
 
 ## RECORD MAINTENANCE
 Placement Entry is used to update information relating to the Job and the Ratesets associated to the Job, otherwise maintenance should occur in the following areas:
-- Resources – Resource Card
-- Human Resources – Employee Card
-- Payroll – Payroll Employee Card
-- Jobs – Job Card
-- Customer – Customer Card
+
+- Resources – Resource Card
+- Human Resources – Employee Card
+- Payroll – Payroll Employee Card
+- Jobs – Job Card
+- Customer – Customer Card
+
 
 ## Resources
 The types of information you will update on the Resource Card will be discussed in this section.  It will not contain an explanation of all fields only those relative to the Labour Hire module.
