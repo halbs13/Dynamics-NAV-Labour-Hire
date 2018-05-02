@@ -6,10 +6,10 @@ Placement Entry allows for both Temporary and Permanent Placements to be entered
 
 This document will contain information relating to how to use Placement Entry and contains the following sections:
 
-- Placement Entry
-- Creating a New Temporary Placement
-- Record Maintenance
-- Example of Updates
+- [Placement Entry](#placement-entry)
+- [Creating a New Temporary Placement](#creating-a-new-temporary-placement)
+- [Record Maintenance](#record-maintenance)
+- [Example of Updates](#example-of-updates)
 
 ## PLACEMENT ENTRY
 Placement Entry is designed to be used as an interface into Dynamics NAV where integration from the front-end system into Dynamics NAV is not operational.
@@ -17,6 +17,7 @@ To access Placement Entry, go to the following menu;
 
 *Departments/Labour Hire/Candidate Processing/Placement Entry*
 
+[GoToTop](#how-to-create-placements-in-placement-entry 
 
 ## Creating a New Temporary Placement
 All new placements are entered into the Placement Entry page.  Follow the steps below to correctly setup the Person (Employee/Contractor), Client (Customer) and Placement (Job and Resource Allocation).
@@ -131,7 +132,6 @@ To create a new record, select the “New” icon on the Home ribbon.
 |**Perm. Invoice/Cr. Format Code**|This field is used to record the Permanent Placement Invoice format.  From the “ArrowDown” button, select the appropriate code.|
 |**Perm Placement Payment Terms**|This field is used to record the Permanent Placement Payment Terms.  From the “ArrowDown” button, select the appropriate code.|
 
- 
 |Field|Description|
 |------------------------------------------|--------------------------------------------------------------------|  
 |**PLACEMENT FASTTAB**||
