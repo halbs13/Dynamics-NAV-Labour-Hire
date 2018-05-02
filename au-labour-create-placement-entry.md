@@ -631,8 +631,8 @@ If an Employee/Contractor transfers from being a PAYG Contractor to an Incorpora
    - General FastTab – Employee Type Code – update this from PAYG to Incorporated Company.
    - Tax FastTab – Tax Scale – update the Tax Scale value to be GST.
    - Declaration FastTab
-     - A.B.N – update the A.B.N accordingly,
-     - Incorporated Company Name – update the Incorporated Company Name.
+     * A.B.N – update the A.B.N accordingly,
+     * Incorporated Company Name – update the Incorporated Company Name.
    - Work Cover FastTab – Enter in the Workers Comp Insurer, Policy No. and Policy Expiration Date
 
 2. You may also need to update the Rateset details on the Job so you will need to perform this via Placement Entry using the same process as described in the previous section.
