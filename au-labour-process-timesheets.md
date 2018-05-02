@@ -286,6 +286,7 @@ recommended that the fields on the FastTabs are left blank. 
 |**Division Code**|This field is used to filter processed timesheets by Division Code.|
 |**Placement No.**|This field is used to filter processed timesheets by Placement No.|
 |**Sell-to Customer No.**|This field is used to filter processed timesheets by Sell-to Customer No.|
+
 |**Alternate Date**|This field is used to filter processed timesheets by Alternate Date.|
 ||**Click “OK” when you have completed your selection to process timesheet lines.**|
   
