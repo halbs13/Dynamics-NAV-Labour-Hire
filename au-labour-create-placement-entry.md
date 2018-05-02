@@ -636,3 +636,5 @@ If an Employee/Contractor transfers from being a PAYG Contractor to an Incorpora
    - Work Cover FastTab – Enter in the Workers Comp Insurer, Policy No. and Policy Expiration Date
 
 2. You may also need to update the Rateset details on the Job so you will need to perform this via Placement Entry using the same process as described in the previous section.
+
+[GoToTop](#how-to-create-placements-in-placement-entry)
