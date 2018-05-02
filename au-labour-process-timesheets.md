@@ -54,7 +54,7 @@ Job Contract Posting Method – Select the required field :
 ## Timesheet Parameters
 
 There are a number of parameters which will define how timesheets are generated, duplicate 
-timesheets, etc. Timesheet settings are configured on the Labour Hire Setup card.
+Timesheets, etc. Timesheet settings are configured on the Labour Hire Setup card.
 
 To access the Labour Hire Setup, go to the following menu:
 
@@ -73,14 +73,12 @@ Departments/Payroll/setup/Labour Hire/Administration/Labour Hire Setup
 ||  · If the Pay Units entered is greater than 38 hours or 5 days or 1 week, a warning message will be displayed.|
 ||  · If the Charge Units entered is greater than 38 hours or 5 days or 1 week, a warning message will be displayed.|
 |**Timesheet Auto-fill Method**|This field determines how you can search for timesheet lines within Time Sheet Entry. The options are;|
-||  · Order – this is where there is an overarching Order/Blanket Order for multiple requirements. This selection is only
-  applicable if you have integration to Axiom.|
+||  · Order – this is where there is an overarching Order/Blanket Order for multiple requirements. This selection is only applicable if you have integration to Axiom.|
 ||  · Requirement – This selection is only applicable if you have integration to Axiom.||
 ||  · Placement – this selection is only applicable if there is no integration and you are using Placement Entry to create your records.| 
   |**Dup. Timesheet Check Frequency**|The options available in this field are;|
  || · Daily – this can be used where timesheets are entered or received on a daily basis|
- || · Weekly – this option is used to check if you receive duplicate timesheets based on the Alternate (Week End Date),
-  Rate Type|
+ || · Weekly – this option is used to check if you receive duplicate timesheets based on the Alternate (Week End Date), Rate Type|
   
  |Click “OK” after you have completed your selection.|
   
