@@ -96,7 +96,7 @@ To create a new record, select the “New” icon on the Home ribbon.
 |**Perm Placement Payment Terms** |This field is used to record the Permanent Placement Payment Terms.  From the “ArrowDown” button, select the appropriate code.|
 
 Once the Client FastTab is completed, select the Perm Placement FastTab.
- 
+
 |Field Name|Description|
 |-------------------------|----------------------------------------------------------------------------------------|
 |**PERM PLACEMENT FASTTAB** |
