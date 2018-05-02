@@ -505,8 +505,8 @@ To access the Jobs Card, go to the following menu:
 
 *Departments/Labour Hire/Candidate Processing/Jobs*
  
+## Customers
 
-## Customers
 The types of information you will update on the Customer Card will be discussed in this section.  It will not contain an explanation of all fields only those relative to the Labour Hire module.  
 
 The types of information you may update on the Customer Card are:
@@ -539,8 +539,8 @@ To access the Customer Card, go to the following menu:
 |**Phone No.**|The Customer Phone Number is stored on the Contact Card.|
 
 
- |Field|Description|
-|------------------------------------------|--------------------------------------------------------------------| 
+|Field|Description|
+|------------------------------------------|--------------------------------------------------------------------| 
 |**INVOICING FASTTAB**||
 |**Invoice/Cr. Memo Format Code**|This field is used to record the Customer’s Invoice/Cr. Memo Format.|
 ||Click on the “ArrowDown” button to select an appropriate code.|
@@ -549,14 +549,14 @@ To access the Customer Card, go to the following menu:
 |**Req. Inv./Cr. Format Code**|This field is used to record the Customer’s Invoice/Cr. Memo Format.|
 ||Click on the “ArrowDown” button to select an appropriate code.|
 |**Job Invoice Consolidation Type**|This field is used to record the Job Invoice Consolidation Type.  The options are;|
-||·         Bill-To Customer No.|
-||·         Bill-To Customer No. + Sell-to Customer No.|
+||·         Bill-To Customer No.|
+||·         Bill-To Customer No. + Sell-to Customer No.|
 |**Job Invoice Grouping**|This field is used to identify how the invoices will group.  The following options are;|
-||·         Alternate Date|
-||·         Job Posting Group|
-||·         Job Bill-To Contact|
-||·         Job No. |
-||·         Job Task No.|
+||·         Alternate Date|
+||·         Job Posting Group|
+||·         Job Bill-To Contact|
+||·         Job No. |
+||·         Job Task No.|
  
  
 |Field|Description|
