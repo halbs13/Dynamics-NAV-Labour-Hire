@@ -55,9 +55,9 @@ To create a new record, select the “New” icon on the Home ribbon.
 
 |Field Name|Description|
 |-------------------------|----------------------------------------------------------------------------------------|
-|**CLIENT FASTTAB** |
+|**CLIENT FASTTAB**|
 |**Customer No.** |From the “ArrowDown” button, select the customer No. from the Customer List.
-If the Customer exists within the list, then the following fields will be available for editing, otherwise to create a new customer you will need to complete the following fields.|
+||If the Customer exists within the list, then the following fields will be available for editing, otherwise to create a new customer you will need to complete the following fields.|
 |**Name** |This field is used to record the Customer’s name.  |
 |**Name 2** |This field is used to record the Customer’s Name if the first field is not long enough to record the Customer’s full name.|
 |**A.B.N** |This field is used to record the Customer’s Australian Business Number (A.B.N)|
@@ -65,7 +65,7 @@ If the Customer exists within the list, then the following fields will be availa
 |**Address 2** |This field is used to record the additional address information for the Customer if the first field is not long enough to record the Customer’s address.|
 |**City** |From the “ArrowDown” button, select the City.|
 |**Post Code** |From the “ArrowDown” button, select the Post Code.|
-|**** |If you select the “City” first, the Post Code will populate from the Post Code table.|
+||If you select the “City” first, the Post Code will populate from the Post Code table.|
 |**Country** |From the “ArrowDown” button, select the Country code.|
 |**Contact No.** |This field is used to record the phone number of the Contact of the Customer.|
 |**Contact** |This field is used to record the Contact’s Name of the Customer.|
@@ -74,14 +74,14 @@ If the Customer exists within the list, then the following fields will be availa
 |**E-Mail:** |This field is used to record the Customer’s E-Mail address.|
 |**Contract Invoice Details** ||
 |**Bill-to-Customer No.** |This field is populated if this customer transactions are being billed to another Customer.|
-|**** |An example of where this is implemented is when a Customer has multiple locations and they are setup as separate customers, however their invoicing and other statements are sent to a Head Office.|
+||An example of where this is implemented is when a Customer has multiple locations and they are setup as separate customers, however their invoicing and other statements are sent to a Head Office.|
 |**Payment Terms Code** |This field is used to record the Payment Terms.|
 |**Customer Invoicing Frequency** |This field is used to record the frequency in which the customer is invoiced.  The following options are available;|
-|**** |·         Weekly |
-|**** |·         Fortnightly|
-|**** |·         Semi-Monthly|
-|**** |·         Calendar Month|
-|**** |·         4 Week Month|
+||*         Weekly |
+||·         Fortnightly|
+||·         Semi-Monthly|
+||·         Calendar Month|
+||·         4 Week Month|
 |**Invoice/Cr. Format Code** |From the “ArrowDown” button, select the Invoice/Cr. Format Code|
 |**Job Invoice Consolidation Type** |This field determines how the Job transactional lines are consolidated on an invoice for this Customer.  The options available are;|
 |**** |·         Bill-to Customer No. + Sell-to Customer No.|
