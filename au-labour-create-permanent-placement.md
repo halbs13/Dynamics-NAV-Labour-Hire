@@ -34,8 +34,6 @@ To setup the Fee Types go to the following menu:
 |**Fee Type**| This field is used to identify whether the Fee Type is a Placement Fee or Requirement Fee.|
 |**G/L Account No.**| This field is used to specify the General Ledger Account|
 
-
-
 [GoToTop](#how-to-create-permanent-placements)
 
 ## Permanent Placement Setup
@@ -59,8 +57,6 @@ To create a new record, select the “New” icon on the Home ribbon.
 
 ### New – Placement Entry window 
  
-
-
 |Field Name|Description|
 |-------------------------|----------------------------------------------------------------------------------------|
 |**CLIENT FASTTAB**|
@@ -98,11 +94,8 @@ To create a new record, select the “New” icon on the Home ribbon.
 |**Perm. Invoice/Cr. Format Code** |This field is used to record the Permanent Placement Invoice format.  From the “ArrowDown” button, select the appropriate code.|
 |**Perm Placement Payment Terms** |This field is used to record the Permanent Placement Payment Terms.  From the “ArrowDown” button, select the appropriate code.|
 
-
 Once the Client FastTab is completed, select the Perm Placement FastTab.
  
-
-
 |Field Name|Description|
 |-------------------------|----------------------------------------------------------------------------------------|
 |**PERM PLACEMENT FASTTAB** |
@@ -154,8 +147,6 @@ Once the Client FastTab is completed, select the Perm Placement FastTab.
 |**Salesperson Code 2.. Salesperson Code 3** |You can record up to 3 Sales people commission payment percentages on this placement.|
 |**Once you have completed the two FastTab, click “Transfer” icon on the Home ribbon.** |
 
- 
-
 [GoToTop](#how-to-create-permanent-placements)
 
 ## Permanent Placement Cards
@@ -164,8 +155,6 @@ Permanent Placements are created once the transactions entered into Placement En
 To access the Permanent Placement Card, go to the following menu:
 
 *Departments/Labour Hire/Candidate Processing/Permanent Placements* 
-
-
 
 [GoToTop](#how-to-create-permanent-placements)
 
@@ -184,8 +173,6 @@ To access the Permanent Placement Card, go to the following menu:
 |**Customer Contact Title** |This field is the Customer Contact Title as entered in Placement Entry.|
 |**Placement Type** |This field is the Placement Type as entered in Placement Entry.|
 |**Job Posting Group** |This field is the Job Posting Group as entered in Placement Entry.|
-
-
 
 |Field Name|Description|
 |-------------------------|----------------------------------------------------------------------------------------|
@@ -225,8 +212,6 @@ To access the Permanent Placement Card, go to the following menu:
 |**Project Code (Global Dimension 2)** |This field will represent the Global Dimension 2 setup in your Dynamics NAV Company. |
 ||This information is populated from the Job Posting Group.|
 
-
-
  |Field Name|Description|
 |-------------------------|----------------------------------------------------------------------------------------|
 |**INVOICE/CREDIT FASTTAB** ||
@@ -240,7 +225,6 @@ To access the Permanent Placement Card, go to the following menu:
 |**Credit Generation Date** |This field is updated with the date the Credit Memo is generated.|
 |**Credit Memo No.** |This field displays the Credit Memo No. if one has been generated.|
 |**Credit Amount** |This field displays the value of the amount credited.|
-
 
 [GoToTop](#how-to-create-permanent-placements)
 
@@ -261,8 +245,6 @@ To access the Permanent Placement FastTab on the Labour Hire Setup card, go to t
 
 *Departments/Payroll/Setup/Labour Hire/Administration/Labour Hire Setup* 
  
-
-
 |Field Name|Description|
 |-------------------------|----------------------------------------------------------------------------------------|
 |**PERMANENT PLACEMENT FASTTAB** ||
@@ -278,7 +260,6 @@ To access the Permanent Placement FastTab on the Labour Hire Setup card, go to t
 ||From the “ArrowDown” button, select the appropriate code.|
 |**Plcmt. Salary % Fee Type Code** |This field determines where the revenue for the Permanent Placement Fees will be posted to within the General Leger.|
 ||From the “ArrowDown” button, select the appropriate code.|
-
 
 [GoToTop](#how-to-create-permanent-placements)
 
@@ -308,8 +289,6 @@ Departments/Labour Hire/Invoice Processing/Generate Invoice/ Generate Permanent 
 |**To Date** |This field allows you to specify a date range to allow for the invoices to be generated.|
 |**Click on the “OK” button after you have completed your selection.** |
 
-
-
 [GoToTop](#how-to-create-permanent-placements)
 
 ## REQUIREMENTS INVOICING OVERVIEW
@@ -338,9 +317,6 @@ To review a Requirements record, go to the following menu:
 |**Amount** |This field will contain the amount of the fee.|
 |**Ready to Post** |This field will be checked to mark that the invoice is ready to generate.|
 
-
-
-
 [GoToTop](#how-to-create-permanent-placements)
 
 ## Requirements Invoice Parameters
@@ -361,11 +337,6 @@ To access the Integrations FastTab on the Interface Options card, go to the foll
 |**Perm. Bill. Expense Code** |This field is used to identify the Fee Type for this type of expense.|
 |**Perm. Bill. Shortlist Fee Code** |This field is used to identify the Fee Type for shortlist fees.|
 |**Perm. Bill. Retainer Fee Code** |This field is used to identify the Fee Type for the retainer fees.|
-
-
-
-
-
 
 [GoToTop](#how-to-create-permanent-placements)
 
@@ -390,4 +361,3 @@ The Requirements Invoice format is maintained on the Invoicing FastTab in the �
 |**Click on the “OK” button after you have completed your selection.**| 
 
 [GoToTop](#how-to-create-permanent-placements)
-
