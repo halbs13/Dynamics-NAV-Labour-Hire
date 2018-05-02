@@ -178,13 +178,17 @@ To create a new record, select the “New” icon on the Home ribbon.
 |**Work Site Country/Region Code|This field is used to record the Work Site Country/Region Code for the Job if this information is being reported to the Client/Customer.|
 |**Work Site Post Code|This field is used to record the Work Site Post Code for the Job if this information is being reported to the Client/Customer.|
 
+
+
+
+
 |Field|Description|
-|------------------------------------------|--------------------------------------------------------------------|  
+|------------------------------------------|--------------------------------------------------------------------|  
 |**PLACEMENT FASTTAB **||
 |**Job Details**||
 |**Placement Type**|This field is used to identify the placement being created.  The options available are;|
-|****|·         Contractor – Temporary Placement|
-|****|·         Permanent – Permanent Placement|
+|****|·         Contractor – Temporary Placement|
+|****|·         Permanent – Permanent Placement|
 |**Job No.**|This field is used to record the Job. No. for the Placement record.|
 |**Job Task No.**|This field is used to record the Job Task No. for the Placement record.|
 |**Job Description**|This field is used to record the description of the Job.|
@@ -205,11 +209,11 @@ To create a new record, select the “New” icon on the Home ribbon.
 |**Pay Rate**|This field is the Pay Rate to the Employee/Contractor.|
 |**Charge Rate**|This field is the Charge Rate to the Client/Customer.|
 |**Frequency**|This field is the Unit Rate Frequency of the Transaction Type.  The options are;|
-|****|·         Hour|
-|****|·         Day|
-|****|·         Week|
-|****|·         Month|
-|****|·         Unit|
+|****|·         Hour|
+|****|·         Day|
+|****|·         Week|
+|****|·         Month|
+|****|·         Unit|
 |**Date Effective**|This field is the Date the Rateset is effective.|
 |**Job Invoice Details**||
 |**Job Bill-To Contact**|This field is used to record the Contact’s Name for the Job.  |
@@ -226,9 +230,6 @@ To create a new record, select the “New” icon on the Home ribbon.
 |**Work Site Address**|This field is used to record the Work Site Address for the Job if this information is being reported to the Client/Customer.|
 |**Work Site Country/Region Code**|This field is used to record the Work Site Country/Region Code for the Job if this information is being reported to the Client/Customer.|
 |**Work Site Post Code**|This field is used to record the Work Site Post Code for the Job if this information is being reported to the Client/Customer.|
-
-
-
 
  3 RECORD MAINTENANCEPlacement Entry is used to update information relating to the Job and the Ratesets associated to the Job, otherwise maintenance should occur in the following areas.  • Resources – Resource Card• Human Resources – Employee Card• Payroll – Payroll Employee Card• Jobs – Job Card• Customer – Customer Card3.1 ResourcesThe types of information you will update on the Resource Card will be discussed in this section.  It will not contain an explanation of all fields only those relative to the Labour Hire module.
 To access the Resources Card, go to the following menu:Departments/Labour Hire/Candidate Processing/Resources 
