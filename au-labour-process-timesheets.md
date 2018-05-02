@@ -210,6 +210,7 @@ The Show Missing Timesheets function is designed to allow you to manage missing 
  ## “Edit – Missing Timesheets” window
    
 |**Field Name**|**Description**|
+|-----------------------------------------------------------|-----------------------------------------------------------------|
 ||**DETAILS FASTTAB**|
 |**E-Mail Message**|This field is used to identify a template message for Timesheet reminders can be issued.|
 |**Select**|You can nominate individual lines so that Timesheet reminders can be issued.| 
@@ -282,19 +283,8 @@ recommended that the fields on the FastTabs are left blank. 
 |-----------------------------------------------------------------------------|---------------------------------------------------------|
 ||**LABOUR HIRE TIME SHEET LINE FASTTAB**|
 |**Employee No.**|This field is used to filter processed timesheets by Employee No.|
-  
+|**Job No.**|This field is used to filter processed timesheets by Job No.|
  
- 
-  
-  Job No.
-  
-  
-  This field is used to filter processed timesheets by Job
-  No.
-  
- 
- 
-  
   Department Code (Global Dimension 1)
   
   
