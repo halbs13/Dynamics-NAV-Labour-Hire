@@ -95,6 +95,7 @@ To create a new record, select the “New” icon on the Home ribbon.
 |**Bank Account Name**|This field is used to record the Bank Account Name of the Employee/Contractor.|
 
 
+
 |Field|Description|
 |------------------------------------------|--------------------------------------------------------------------|
 |**CLIENT FASTTAB**||
