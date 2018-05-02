@@ -150,6 +150,7 @@ Once the Client FastTab is completed, select the Perm Placement FastTab.
 
 [GoToTop](#how-to-create-permanent-placements)
 
+
 ## Permanent Placement Cards
 
 Permanent Placements are created once the transactions entered into Placement Entry are transferred.
