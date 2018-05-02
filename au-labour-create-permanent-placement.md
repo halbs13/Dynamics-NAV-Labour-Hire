@@ -23,7 +23,7 @@ Fee Types are setup to identify where the revenue for the fees will post to with
 To setup the Fee Types go to the following menu:
 
 *Departments/Payroll/Setup/Labour Hire/Administration/Fee Types* 
- 
+
 [GoToTop](#how-to-create-permanent-placements)
 
 ### “Edit – Fee Types” window 
@@ -317,7 +317,7 @@ Requirements invoicing is a term used to describe invoices generated for expense
 This feature is only available where integration with third party “front end” systems are established, however Requirement invoices can be manually generated and posted against the appropriate General Ledger account if there is no integration with a front end Recruitment system.
 Fee Types for Requirements are setup as described in section 2.1 - Fee Types which allows for the different types of expenses to be posted to the appropriate General Ledger account.
 When these types of expenses are created within the Recruitment system, a line item will be created and setup similar to a Permanent Placement record where the fees will be available from within the Job card.
- 
+
 [GoToTop](#how-to-create-permanent-placements)
 
 ## Requirements Invoice Setup
@@ -325,7 +325,7 @@ Requirements are created as Jobs within the Labour Hire module where 3rd party i
 To review a Requirements record, go to the following menu:
 
 *Departments/Labour Hire/Candidate Processing/Jobs*
- 
+
 [GoToTop](#how-to-create-permanent-placements)
 
 ### Edit – Job Card” window The Requirement Fees area is available on the Home ribbon. 
