@@ -3,7 +3,7 @@
 This document will contain information relating to the setup of Incorporated Companies and contains the
 following sections:
 
-- [Incorporated Company Overview](#Incorporated-Company-Overview)
+- [Incorporated Company Overview](#incorporated-company-overview)
 - [Incorporated Company Flag Identification](#Incorporated-Company-Flag-Identification)
 - [Company Details](#Company-Details)
 - [Workers Compensation Policies](#Workers-Compensation-Policies)
@@ -100,6 +100,6 @@ To access the Payroll Control Setup task go to the following menu:
 *Departments/Payroll/Setup/Payroll Setup/Payroll Controls/Payroll Setup*
 
 
- [GoToTop](#How-to-setup-Incorporated-Companies)
+ [GoToTop](#how-to-setup-incorporated-companies)
 
 
