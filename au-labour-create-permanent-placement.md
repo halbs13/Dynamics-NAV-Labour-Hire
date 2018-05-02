@@ -76,7 +76,8 @@ To create a new record, select the “New” icon on the Home ribbon.
 |**Bill-to-Customer No.** |This field is populated if this customer transactions are being billed to another Customer.
 |**** |An example of where this is implemented is when a Customer has multiple locations and they are setup as separate customers, however their invoicing and other statements are sent to a Head Office.
 |**Payment Terms Code** |This field is used to record the Payment Terms.
-|**Customer Invoicing Frequency** |This field is used to record the frequency in which the customer is invoiced.  The following options are available;
+|**Customer Invoicing Frequency** |This field is used to record the frequency in which the customer is invoiced.  The following options are available; ·         Weekly ·         Fortnightly ·         Semi-Monthly ·         Calendar Month  ·         4 Week Month
+
 ||- Weekly 
 |**** |·         Fortnightly
 |**** |·         Semi-Monthly
