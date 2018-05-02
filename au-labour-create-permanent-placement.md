@@ -93,6 +93,8 @@ To create a new record, select the “New” icon on the Home ribbon.
 
 Once the Client FastTab is completed, select the Perm Placement FastTab.
  
+
+
 |Field Name|Description|
 |-------------------------|----------------------------------------------------------------------------------------|
 |**PERM PLACEMENT FASTTAB** |
@@ -121,10 +123,10 @@ Once the Client FastTab is completed, select the Perm Placement FastTab.
 |**Job Bill-to Contact Job Title** |This field is used to record the Bill-to Contact Job Title.  This will default from the Customer Card.|
 |**Perm Placement Details** ||
 |**Candidate Source** |This field identifies how the Candidate was sourced for this Permanent Placement and can be used for reporting purposes.  The options available are;|
-||·         Newspaper/Magazine|
-||·         Internet|
-||·         Database|
-||·         Referral|
+||·         Newspaper/Magazine|
+||·         Internet|
+||·         Database|
+||·         Referral|
 |**Agreed Salary** |This field is used to record the Agreed Salary for this placement.|
 |**Superannuation** |This field is used to record the Superannuation component of the package for this placement.|
 |**Benefits** |This field is used to record if there are any other monetary benefit components of the package for this placement.|
@@ -143,8 +145,6 @@ Once the Client FastTab is completed, select the Perm Placement FastTab.
 |**Commission** |This field is used to record the percentage value which can be later used to calculate Commission payments for Sales people within your organisation.|
 |**Salesperson Code 2.. Salesperson Code 3** |You can record up to 3 Sales people commission payment percentages on this placement.|
 |**Once you have completed the two FastTab, click “Transfer” icon on the Home ribbon.** |
-
-
 
  
 
