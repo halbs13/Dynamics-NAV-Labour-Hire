@@ -5,10 +5,12 @@
 Dynamics NAV Labour Hire’s Sales Invoice and Sales CR/Adj Note generation function has been designed to automatically generate invoice  for customers using data transferred from the Time Sheet Line table.  The data entered and processed from the Time Sheet Line table will update the Job Planning Lines ready for customer invoices and credit notes to be generated.  
 
 The Invoice and CR/Adj Note Generation function has been designed to cater for the following requirements:
-
   - Generation Selection: Ability to select which customers to generate invoices for.
+  
   - Invoice Frequency: Generate invoices at different intervals depending on customer choice.
-  - Invoice Consolidation: Different levels of consolidation can be selected for customers.  
+  
+  - Invoice Consolidation: Different levels of consolidation can be selected for customers.
+  
     Examples of consolidation are one invoice for   each sell to customer or one invoice for just the bill to customer, which represents     a parent or umbrella type company.
 
 These features allow users to set up all of the required parameters at a customer level.  When it comes time to generate invoices, they will simply have to select an option and filter on some choices if required and the invoices and credit notes will automatically be generated correctly for each customer.
@@ -19,6 +21,7 @@ The document is designed to specifically discuss the process for generating invo
  # INVOICE PROCESSING OVERVIEW # 
  This section will discuss two (2) methods in which invoices can be generated:
   - Generate Invoice 
+  
   - Manually generating Invoices from the Customer and Job Cards
 
 ## Generate Invoice ## 
