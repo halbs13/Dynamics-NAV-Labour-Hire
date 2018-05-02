@@ -65,6 +65,7 @@ The following fields need to be entered:
  |**Workers Comp Insurer** | The “Workers Comp Insurer” is used to record the name of the Contractors Workers Comp Insurer.|
 |**Policy Expiration Policy**|The “Policy Expiration Date” is used to record the expiry date of the policy.|
    
+
 [GoToTop](#how-to-setup-incorporated-companies)
     
 ## Goods & Services Tax ( GST ) Overview
