@@ -216,7 +216,7 @@ To access the Resources Card, go to the following menu:
 ### Edit – Resource Card window
 |Field|Description|
 |------------------------------------------|--------------------------------------------------------------------| 
-|**GENERAL FASTTAB **||
+|**GENERAL FASTTAB**||
 |**Name**|The name field appears on the Customer Invoice.|
 |**Type**|The value in the Type field should be setup as “Person”|
 |**Base Unit of Measure**|The value in the Base Unit of Measure field should be setup as “Hour”|
@@ -224,13 +224,13 @@ To access the Resources Card, go to the following menu:
 
 |Field|Description|
 |------------------------------------------|--------------------------------------------------------------------| 
-|**INVOICING FASTTAB **||
+|**INVOICING FASTTAB**||
 |**Gen. Prod. Posting Group**|This field is used to determine what type of Product the Resource is for posting purposes.|
 |**VAT/GST Prod. Posting Group**|This field is used to determine what type of Product the Resource is for GST purposes.|
 
 |Field|Description|
 |------------------------------------------|--------------------------------------------------------------------| 
-|**PERSONAL FASTTAB **||
+|**PERSONAL FASTTAB**||
 |**Address**|It is not necessary to update this field in the Resource Card as it is not currently used in the Labour Hire module.|
 |**Post Code**|It is not necessary to update this field in the Resource Card as it is not currently used in the Labour Hire module.|
 |**City**|It is not necessary to update this field in the Resource Card as it is not currently used in the Labour Hire module.|
@@ -248,7 +248,7 @@ To access the Employee Card, go to the following menu:
 
 |Field|Description|
 |------------------------------------------|--------------------------------------------------------------------| 
-|**GENERAL FASTTAB **||
+|**GENERAL FASTTAB**||
 |**Title**|The Title field is used to specify the title of the Employee. E.g. Miss, Mrs, Mr, etc|
 |**First Name**|The First Name field displays on all Payroll and Employee related reports for the Employee/Contractor.|
 ||If you update the Employee Card, the relevant fields will also be updated in the Payroll Employee card and vice versa.|
@@ -289,7 +289,7 @@ To access the Payroll Employee Card, go to the following menu:
 
 |Field|Description|
 |------------------------------------------|--------------------------------------------------------------------|
-|**GENERAL FASTTAB **||
+|**GENERAL FASTTAB**||
 |**First Name**|The First Name field displays on all Payroll and Employee related reports for the Employee/Contractor.|
 ||If you update the Employee Card, the relevant fields will also be updated in the Payroll Employee card and vice versa.|
 |**Last Name**|The Last Name field displays on all Payroll and Employee related reports for the Employee/Contractor.|
@@ -310,13 +310,13 @@ To access the Payroll Employee Card, go to the following menu:
 
 |Field|Description|
 |------------------------------------------|--------------------------------------------------------------------|
-|**POSTING FASTTAB **||
+|**POSTING FASTTAB**||
 |**Branch**|This field is used to record the Branch that the Employee/Contractor is employed it.|
 |**Division**|This field is used to record the Division that the Employee/Contractor is employed it.|
 
 |Field|Description|
 |------------------------------------------|--------------------------------------------------------------------|
-|**TAX FASTTAB **||
+|**TAX FASTTAB**||
 |**Tax Scale No.**|This field is used to record the Tax Scale No. as nominated by the Employee/Contractor.|
 ||Click on the “ArrowDown” button to select the appropriate Tax Scale.|
 |**HELP Debt**|This field is used to record if the Employee/Contractor has a HELP Debt.|
@@ -337,7 +337,7 @@ To access the Payroll Employee Card, go to the following menu:
 
 |Field|Description|
 |------------------------------------------|--------------------------------------------------------------------|
-|**DECLARATION FASTTAB **||
+|**DECLARATION FASTTAB**||
 |**Resident**|This field is used to record if the Employee/Contractor is a resident for taxation purposes.|
 |**Tax Status**|This field is used to identify whether the Employee/Contractor is;|
 ||·         Australian Resident|
@@ -363,7 +363,7 @@ To access the Payroll Employee Card, go to the following menu:
  
  |Field|Description|
 |------------------------------------------|--------------------------------------------------------------------|
-|**WORK COVER FASTTAB **||
+|**WORK COVER FASTTAB**||
 |**Work Cover Code**|This field is used to record if the Work Cover Code for the Employee/Contractor.|
 ||It is used to calculate a Work Cover provision.|
 |**Work Cover Location Code**|This field is used to record the Work Cover Location Code for the Employee/Contractor.|
@@ -620,8 +620,6 @@ If an Employee/Contractor terminates employment then the updates should occur as
    * Status – update to Terminated
    * Terminated Date – enter in the Termination Date
    * Grounds for Term. Code – click on the “ArrowDown” button and select the Termination Reason code.
-
-
 
 ### Transfer from PAYG to Company
 
