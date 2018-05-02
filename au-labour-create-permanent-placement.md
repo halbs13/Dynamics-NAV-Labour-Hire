@@ -345,8 +345,7 @@ The Requirements Invoice format is maintained on the Invoicing FastTab in the �
 |-------------------------|----------------------------------------------------------------------------------------|
 |**JOB FASTTAB** |
 |**Bill-to Customer No.** |This field allows you to nominate a specific customer you wish to generate invoices for, otherwise this field can be left blank to generate all outstanding Requirements invoices.|
-|---|
-|**Click on the “OK” button after you have completed your selection.** |
+**Click on the “OK” button after you have completed your selection.** 
 
 
 
