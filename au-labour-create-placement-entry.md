@@ -582,7 +582,7 @@ Placement Entry is used to update information relating to the Job and the Ratese
 - Extending a Contract
 - Updating the Ratesets
 
-### Extending a Contract
+### Extending a Contract
 
 Extending Contracts is performed in Placement Entry.  You will also need to know the Employee/Contractor, the Customer No. and the Job and Job Task No. to update the information successfully.
 
