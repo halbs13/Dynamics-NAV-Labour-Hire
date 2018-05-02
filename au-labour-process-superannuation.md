@@ -1,140 +1,64 @@
 
 
-1.         
-Introduction
+# Introduction
 
-This document has been prepared
-as a training manual for users of the Dynamics NAV2017 Labour Hire Suite
-module.
+Superannuation processing within the Dynamics NAV Payroll and Labour Hire modules encompasses the following functions:  
+ Setup
+     Superannuation SGC, NON SGC, Salary Sacrifice and Post Tax Deductions Pay Transaction Types 
+     Superannuation Funds
+     SGC rules as per the ATO Legislation defined on the Payroll Setup Card
+     Allocating SGC and NON SGC transactions to the Rate Set or Payroll Employee Card
+     Allocating a Superannuation Fund to an employee
+   Superannuation Calculation and Reporting
 
- 
+This document will specifically discuss how to use the Superannuation Processing function within Dynamics NAV.
+For further information relating to the setup of each of these areas, please refer to the Dialog – Training – LH –
+Payroll Setup Configuration document. 
 
-Superannuation processing within
-the Dynamics NAV Payroll and Labour Hire modules encompasses the following
-functions:  
+The activities discussed are: 
+   Bulk Adjustments
+   Calculate Monthly Superannuation
+   Calculate and Post Superannuation
+   Superannuation Report
+   Superannuation Adjustments 
 
- 
+      
+## Superannuation Overview
 
-SetupSuperannuation
-SGC, NON SGC, Salary Sacrifice and Post Tax Deductions Pay Transaction Types Superannuation
-FundsSGC
-rules as per the ATO Legislation defined on the Payroll Setup CardAllocating
-SGC and NON SGC transactions to the Rate Set or Payroll Employee Card Allocating
-a Superannuation Fund to an employee Superannuation Calculation and Reporting This document will specifically
-discuss how to use the Superannuation Processing function within Dynamics
-NAV.  For further information relating to
-the setup of each of these areas, please refer to the Dialog – Training – LH –
-Payroll Setup Configuration document. The activities discussed are: Bulk AdjustmentsCalculate Monthly SuperannuationCalculate and Post SuperannuationSuperannuation ReportSuperannuation Adjustments 
+There are two (2) options available in relation to setting up Superannuation within Dynamics
+NAV Payroll and Labour Hire module and this will depend upon whether the rate that you pay your 
+candidates is inclusive or exclusive of the SGC component. This section will summarise where 
+superannuation is treated as an On cost (SGC is exclusive of the pay rate).
 
+Within the Dynamics NAV Payroll and Labour Hire module, Superannuation is accrued as an On
+Cost transaction to facilitate itinerant staff hired within the Recruitment industry.  
 
+The Superannuation On Cost transaction will either be stored on the Rate Set of a Job whereby
+the cost of the superannuation will be allocated back to a Job No. or otherwise stored on the Payroll Employee. 
 
+Salary Sacrifice and Post Tax deductions are entered via the Employee Deductions area of the Payroll Employee card and will be generated on a pay-by-pay basis when the candidate’s pay is processed.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1.1      
-Superannuation Overview
-
-There are two
-(2) options available in relation to setting up Superannuation within Dynamics
-NAV Payroll and Labour Hire module and this will depend upon whether the rate
-that you pay your candidates is inclusive or exclusive of the SGC
-component.  This section will summarise
-where superannuation is treated as an On cost (SGC is exclusive of the pay
-rate).
-
- 
-
-Within the
-Dynamics NAV Payroll and Labour Hire module, Superannuation is accrued as an On
-Cost transaction to facilitate itinerant staff hired within the Recruitment
-industry.  
-
- 
-
-The
-Superannuation On Cost transaction will either be stored on the Rate Set of a
-Job whereby the cost of the superannuation will be allocated back to a Job No.
-or otherwise stored on the Payroll Employee. 
-
-
- 
-
-Salary
-Sacrifice and Post Tax deductions are entered via the Employee Deductions area
-of the Payroll Employee card and will be generated on a pay-by-pay basis when
-the candidate’s pay is processed.
-
- 
-
-When the pays
-are calculated, the superannuation on cost transaction is generated within the
-pay journal based upon the transactions contained in the journal and if the
-candidate has any superannuation deductions, these are also generated at this during
+When the pays are calculated, the superannuation on cost transaction is generated within the pay journal based upon the transactions
+contained in the journal and if the candidate has any superannuation deductions, these are also generated at this during
 this process.    
 
- 
+After the journal has been validated, posting the pay journal will update the General Ledger and 
+Employee Ledger Entry tables and if a Job No. is specified against the on cost transaction, the Job Ledger Entry 
+is also updated. The General Ledger is updated with an expense and provisional transaction when the pays are posted 
+and this is automatically re-adjusted when the superannuation is posted at the end of the month.
 
-After the
-journal has been validated, posting the pay journal will update the General
-Ledger and Employee Ledger Entry tables and if a Job No. is specified against
-the on cost transaction, the Job Ledger Entry is also updated.  The General Ledger is updated with an expense
-and provisional transaction when the pays are posted and this is automatically
-re-adjusted when the superannuation is posted at the end of the month.
+The Calculate Monthly Superannuation report is designed to be processed at the end of each calendar
+month whereby a recalculation will occur to see if the candidate hasmet the SGC rules setup on the 
+Payroll Setup card.  The transactions are sourced from the Employee Ledger Entry table where the pays 
+were previously posted to and if the candidate meets the requirements, a superannuation ledger entry will be
+generated with the employee’s nominated fund, otherwise a threshold transaction is generated and will be 
+posted to the Employee Ledger Entry and General Ledgers as a “Threshold Adjustment”.  
 
- 
+When you have completed generating your superannuation ledger entries, the next step is to perform the
+“Calculate & Post Superannuation” function which will post any threshold adjustments to the General 
+Ledger and if you’ve opted for Vendor integration, an Invoice transaction will post to the Vendor Ledger Entry.
 
-The Calculate
-Monthly Superannuation report is designed to be processed at the end of each
-calendar month whereby a recalculation will occur to see if the candidate has
-met the SGC rules setup on the Payroll Setup card.  The transactions are sourced from the
-Employee Ledger Entry table where the pays were previously posted to and if the
-candidate meets the requirements, a superannuation ledger entry will be
-generated with the employee’s nominated fund, otherwise a threshold transaction
-is generated and will be posted to the Employee Ledger Entry and General
-Ledgers as a “Threshold Adjustment”.  
-
- 
-
-When you have
-completed generating your superannuation ledger entries, the next step is to
-perform the “Calculate & Post Superannuation” function which will post any
-threshold adjustments to the General Ledger and if you’ve opted for Vendor
-integration, an Invoice transaction will post to the Vendor Ledger Entry.
-
- 
-
- 
-
-2.      
+      
 Superannuation Processing
 
 2   
