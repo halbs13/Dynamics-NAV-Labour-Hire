@@ -78,7 +78,7 @@ On the TaxTab in the Employee Card – the Tax Scale No. should be changed to GS
 To access the Employee Maintenance task go to the following menu: 
 
 *Departments/Payroll/Employee Maintenance/Payroll Employees*
-    
+
 [GoToTop](#how-to-setup-incorporated-companies)
 
 ## GST Transaction Type Setup
