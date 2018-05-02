@@ -11,7 +11,7 @@ following sections:
 - [GST Transaction Type Setup](#GST-Transaction-Type-Setup)
 - [GST Calculation](#GST-Calculation)
 
-## 1. Incorporated Company Overview
+## Incorporated Company Overview
 
 Contractors that operate through Incorporated
 Companies can be processed through the Labour Hire Suite. These contractors are
