@@ -599,10 +599,6 @@ Once you retrieve the Customer record, there will be some “greyed” out field
 4. If you are extending a Contract, update the End Date of the record.  Do not update the Starting Date as this will create a new record.4.1.2 Update the Rateset
 
 
-
-
-
-
 1. New Ratesets are entred in the “Placement Entry Rates” window.
 
 2. Enter you in the Transaction Type Code.
@@ -610,13 +606,14 @@ Once you retrieve the Customer record, there will be some “greyed” out field
 4. Go to the Frequency field and click on the “ArrowDown” and select the frequency.
 5. Go to the Date Effective field and enter in the a new effective date.After you have updated this information, then click on the “Transfer” icon to update the various tables within Dynamics NAV.
 
-## Non-Placement Entry
+## Non-Placement Entry
+
 There is other maintenance which are performed directly on the card.  Some of the examples of these updates are:
 - Employee/Contractor Terminates
 - Transfer from PAYG Contractor to Company
 
+### Contractor Terminates
 
-### Contractor Terminates
 If an Employee/Contractor terminates employment then the updates should occur as follows:
 
 1. Update the Ending Date on the Job via Placement Entry.  This will ensure that no timesheets will generate for the Employee/Contractor.
@@ -626,16 +623,16 @@ If an Employee/Contractor terminates employment then the updates should occur as
    b. Terminated Date – enter in the Termination Date
    c. Grounds for Term. Code – click on the “ArrowDown” button and select the Termination Reason code.
 
+### Transfer from PAYG to Company
 
-### Transfer from PAYG to Company
 If an Employee/Contractor transfers from being a PAYG Contractor to an Incorporated Company, then the updates should occur as follows.  As a general rule, these updates should not occur part way throuhg a pay period and should be effective as at the first day of the next pay period if at all possible.
 
-1. Update the following FastTabs on the Payroll Employee Card:
-   a. General FastTab – Employee Type Code – update this from PAYG to Incorporated Company.
-   b. Tax FastTab – Tax Scale – update the Tax Scale value to be GST.
-   c. Declaration FastTab
-      i. A.B.N – update the A.B.N accordingly,
-      ii. Incorporated Company Name – update the Incorporated Company Name.
-   d.  Work Cover FastTab – Enter in the Workers Comp Insurer, Policy No. and Policy Expiration Date
+- 1. Update the following FastTabs on the Payroll Employee Card:
+   - a. General FastTab – Employee Type Code – update this from PAYG to Incorporated Company.
+   - b. Tax FastTab – Tax Scale – update the Tax Scale value to be GST.
+   - c. Declaration FastTab
+      - i. A.B.N – update the A.B.N accordingly,
+      - ii. Incorporated Company Name – update the Incorporated Company Name.
+   - d.  Work Cover FastTab – Enter in the Workers Comp Insurer, Policy No. and Policy Expiration Date
 
-2. You may also need to update the Rateset details on the Job so you will need to perform this via Placement Entry using the same process as described in the previous section.
+- 2. You may also need to update the Rateset details on the Job so you will need to perform this via Placement Entry using the same process as described in the previous section.
