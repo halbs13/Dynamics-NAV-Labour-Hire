@@ -177,7 +177,7 @@ To access the Permanent Placement Card, go to the following menu:
 
 |Field Name|Description|
 |-------------------------|----------------------------------------------------------------------------------------|
-|**PERMANENT PLACEMENT SUBFORM FASTTAB ** ||
+|**PERMANENT PLACEMENT SUBFORM FASTTAB** ||
 |**Salesperson Code** |This is the Salesperson Code as entered in Placement Entry.|
 |**Placement No.** |This is the Placement No. as allocated when the records were transferred from Placement Entry.|
 |**Salesperson Name** |This is the Salesperson Name as selected in Placement Entry.|
@@ -187,9 +187,10 @@ To access the Permanent Placement Card, go to the following menu:
 |**Initials** |This is the Initials of the Salesperson as selected in Placement Entry.|
 
  
- |Field Name|Description|
+ 
+|Field Name|Description|
 |-------------------------|----------------------------------------------------------------------------------------|
-|**PLACEMENT DETAILS FASTTAB ** ||
+|**PLACEMENT DETAILS FASTTAB** ||
 |**Creation Date** |This field records the date the Permanent Placement record was created.|
 |**Start Date** |This field is the Start Date as entered in Placement Entry.|
 |**Candidate Source** |This field is the Candidate Source as entered in Placement Entry.|
@@ -203,9 +204,10 @@ To access the Permanent Placement Card, go to the following menu:
 |**Candidate Source Text** |This field is used to record the Candidate Source Text information relating to the Permanent Placement record.|
 |**Perm Placement Type** |This field is used to record the Perm Placement Type information relating to the Permanent Placement record.|
 
+
  |Field Name|Description|
 |-------------------------|----------------------------------------------------------------------------------------|
-|**POSTING FASTTAB ** ||
+|**POSTING FASTTAB** ||
 |**Purchase Order No.** |This field is the Purchase Order No. as entered in Placement Entry. |
 |**Placement Fee** |This field is the Placement Fee as entered in Placement Entry.|
 |**Fee Package Percentage Rate** |This field is the Fee Package Percentage rate as calculated in Placement Entry.|
@@ -218,7 +220,7 @@ To access the Permanent Placement Card, go to the following menu:
 
  |Field Name|Description|
 |-------------------------|----------------------------------------------------------------------------------------|
-|**INVOICE/CREDIT FASTTAB ** ||
+|**INVOICE/CREDIT FASTTAB** ||
 |**Date to Generate Invoice** |This field is a calculated field to identify when the invoice should be generated.  This value is determined by other setup within Dynamics NAV.|
 |**Invoice Generated** |This field is updated when the Invoice has been generated.|
 |**Invoice Generate Date** |This field is updated with the date the Invoice is generated.|
@@ -246,7 +248,7 @@ To access the Permanent Placement FastTab on the Labour Hire Setup card, go to t
  
  |Field Name|Description|
 |-------------------------|----------------------------------------------------------------------------------------|
-|**PERMANENT PLACEMENT FASTTAB ** ||
+|**PERMANENT PLACEMENT FASTTAB** ||
 |**No. Days/Weeks To Calculate Invoice Generation Date** |This field is used to determine the number of days or weeks when Permanent Placement invoices should be generated after the placement.|
 ||If Permanent Placement invoices are generated 1 day after the placement date, then you would enter 1.00 in this field.|
 |**Days/Weeks** |This field is used to identify whether part of the invoice generation formula is based on Days or Weeks.|
@@ -276,8 +278,14 @@ Departments/Labour Hire/Invoice Processing/Generate Invoice/ Generate Permanent 
 
 ## Edit – Generate Permanent Invoices window
 
+ |Field Name|Description|
+|-------------------------|----------------------------------------------------------------------------------------|
+|**OPTIONS FASTTAB** ||
+|**From Date** |This field allows you to specify a date range to allow for the invoices to be generated.  |
+|**To Date** |This field allows you to specify a date range to allow for the invoices to be generated.|
+|**Click on the “OK” button after you have completed your selection.** |
 
-Field Name DescriptionOPTIONS FASTTAB From Date This field allows you to specify a date range to allow for the invoices to be generated.  To Date This field allows you to specify a date range to allow for the invoices to be generated.Click on the “OK” button after you have completed your selection.
+
 
 ## REQUIREMENTS INVOICING OVERVIEW
 Requirements invoicing is a term used to describe invoices generated for expenses incurred when positions are advertised prior to candidates being selected.
@@ -288,10 +296,21 @@ When these types of expenses are created within the Recruitment system, a line i
 ## Requirements Invoice Setup
 Requirements are created as Jobs within the Labour Hire module where 3rd party integration exists.    
 To review a Requirements record, go to the following menu:
-Departments/Labour Hire/Candidate Processing/Jobs
+
+*Departments/Labour Hire/Candidate Processing/Jobs*
  
 ### Edit – Job Card” window The Requirement Fees area is available on the Home ribbon. 
-Field Name DescriptionJob Task No. This field will reflect the Job Task No. as transferred from the front end system.Fee Type Code This field will contain the Fee Type Code as specified within the setup.Fee Description This field will contain a description of the Fee Type Code.Amount This field will contain the amount of the fee.Ready to Post This field will be checked to mark that the invoice is ready to generate.
+
+|Field Name|Description|
+|-------------------------|----------------------------------------------------------------------------------------|
+|**Job Task No.** |This field will reflect the Job Task No. as transferred from the front end system.|
+|**Fee Type Code** |This field will contain the Fee Type Code as specified within the setup.|
+|**Fee Description** |This field will contain a description of the Fee Type Code.|
+|**Amount** |This field will contain the amount of the fee.|
+|**Ready to Post** |This field will be checked to mark that the invoice is ready to generate.|
+
+
+
 
 ## Requirements Invoice Parameters
 Requirement Invoice parameters are maintained within the following areas of the Labour Hire module:
@@ -302,8 +321,17 @@ Requirement Invoice parameters are maintained within the following areas of the 
 To access the Integrations FastTab on the Interface Options card, go to the following menu:
 
 *Departments/Payroll/Setup/Labour Hire/Interface Integration/Interface Options*
- 
-Field Name DescriptionINTEGRATION FASTTAB Perm. Bill. Expense Code This field is used to identify the Fee Type for this type of expense.Perm. Bill. Shortlist Fee Code This field is used to identify the Fee Type for shortlist fees.Perm. Bill. Retainer Fee Code This field is used to identify the Fee Type for the retainer fees.
+
+|Field Name|Description|
+|-------------------------|----------------------------------------------------------------------------------------|
+|**INTEGRATION FASTTAB** |
+|**Perm. Bill. Expense Code** |This field is used to identify the Fee Type for this type of expense.|
+|**Perm. Bill. Shortlist Fee Code** |This field is used to identify the Fee Type for shortlist fees.|
+|**Perm. Bill. Retainer Fee Code** |This field is used to identify the Fee Type for the retainer fees.|
+
+
+
+
 
 
 ### Customer Card – Invoicing FastTab
@@ -315,4 +343,12 @@ The Requirements Invoice format is maintained on the Invoicing FastTab in the �
 Departments/Labour Hire/Invoice Processing/Generate Invoice/ Generate Perm. Req. Invoice 
 
 ### Edit – Generate Perm. Req. Invoice window
-Field Name DescriptionJOB FASTTAB Bill-to Customer No. This field allows you to nominate a specific customer you wish to generate invoices for, otherwise this field can be left blank to generate all outstanding Requirements invoices.Click on the “OK” button after you have completed your selection.
+
+|Field Name|Description|
+|-------------------------|----------------------------------------------------------------------------------------|
+|**JOB FASTTAB** ||
+|**Bill-to Customer No.** |This field allows you to nominate a specific customer you wish to generate invoices for, otherwise this field can be left blank to generate all outstanding Requirements invoices.|
+|**Click on the “OK” button after you have completed your selection.** |
+
+
+
