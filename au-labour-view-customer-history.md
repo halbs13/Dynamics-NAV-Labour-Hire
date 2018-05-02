@@ -8,7 +8,6 @@ the regularly used methods.
 
 ## Customer Sales History
 
-
 ### Customer Statistics
 
 To view Customer Statistics, go to:
@@ -39,7 +38,6 @@ and view the related invoice card, reprint the invoice, view the General Ledger 
 view the related Job Ledger Entries by clicking on the Navigate button and choosing to
 show the required entry.
 
-    
 ### Customer Sales
 
 A summary view of Customer activity can be viewed in the Customer Sales screen.
