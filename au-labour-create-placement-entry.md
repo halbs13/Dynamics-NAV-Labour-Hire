@@ -18,7 +18,8 @@ To access Placement Entry, go to the following menu;
 *Departments/Labour Hire/Candidate Processing/Placement Entry*
 
 
-## Creating a New Temporary PlacementAll new placements are entered into the Placement Entry page.  Follow the steps below to correctly setup the Person (Employee/Contractor), Client (Customer) and Placement (Job and Resource Allocation).
+## Creating a New Temporary Placement
+All new placements are entered into the Placement Entry page.  Follow the steps below to correctly setup the Person (Employee/Contractor), Client (Customer) and Placement (Job and Resource Allocation).
  
 ### Edit – Placement Entry window 
 To create a new record, select the “New” icon on the Home ribbon.
