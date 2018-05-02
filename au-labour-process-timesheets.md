@@ -78,9 +78,8 @@ Departments/Payroll/setup/Labour Hire/Administration/Labour Hire Setup
 ||  · Placement – this selection is only applicable if there is no integration and you are using Placement Entry to create your records.| 
   |**Dup. Timesheet Check Frequency**|The options available in this field are;|
  || · Daily – this can be used where timesheets are entered or received on a daily basis|
- || · Weekly – this option is used to check if you receive duplicate timesheets based on the Alternate (Week End Date), Rate Type|
-  
- |Click “OK” after you have completed your selection.|
+ || · Weekly – this option is used to check if you receive duplicate timesheets based on the Alternate (Week End Date), Rate Type| 
+ ||**Click “OK” after you have completed your selection.**||
   
  
 
