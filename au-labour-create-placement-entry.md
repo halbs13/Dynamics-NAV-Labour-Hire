@@ -9,7 +9,7 @@ This document will contain information relating to how to use Placement Entry an
 - [Placement Entry](#placement-entry)
 - [Creating a New Temporary Placement](#creating-a-new-temporary-placement)
 - [Record Maintenance](#record-maintenance)
-- [Example of Updates](#example-of-updates)
+- [Examples of Updates](#examples-of-updates)
 
 ## PLACEMENT ENTRY
 Placement Entry is designed to be used as an interface into Dynamics NAV where integration from the front-end system into Dynamics NAV is not operational.
@@ -132,6 +132,7 @@ To create a new record, select the “New” icon on the Home ribbon.
 |**Perm. Invoice/Cr. Format Code**|This field is used to record the Permanent Placement Invoice format.  From the “ArrowDown” button, select the appropriate code.|
 |**Perm Placement Payment Terms**|This field is used to record the Permanent Placement Payment Terms.  From the “ArrowDown” button, select the appropriate code.|
 
+
 |Field|Description|
 |------------------------------------------|--------------------------------------------------------------------|  
 |**PLACEMENT FASTTAB**||
@@ -181,10 +182,11 @@ To create a new record, select the “New” icon on the Home ribbon.
 |**Work Site Country/Region Code**|This field is used to record the Work Site Country/Region Code for the Job if this information is being reported to the Client/Customer.|
 |**Work Site Post Code**|This field is used to record the Work Site Post Code for the Job if this information is being reported to the Client/Customer.|
 
+
 |Field|Description|
 |------------------------------------------|--------------------------------------------------------------------| 
 |**Field Name**|Description|
-|**SALESPERSON FASTTAB **||
+|**SALESPERSON FASTTAB *||
 |**Salespeople**||
 |**Salesperson Code 1**|This field is used to record the Salesperson for this placement.  |
 ||Select the Salesperson from the “ArrowDown” button.|
@@ -222,11 +224,13 @@ To access the Resources Card, go to the following menu:
 |**Base Unit of Measure**|The value in the Base Unit of Measure field should be setup as “Hour”|
 |**Job Posting Group**|This field is the Job Posting Group as entered in Placement Entry.|
 
+
 |Field|Description|
 |------------------------------------------|--------------------------------------------------------------------| 
 |**INVOICING FASTTAB**||
 |**Gen. Prod. Posting Group**|This field is used to determine what type of Product the Resource is for posting purposes.|
 |**VAT/GST Prod. Posting Group**|This field is used to determine what type of Product the Resource is for GST purposes.|
+
 
 |Field|Description|
 |------------------------------------------|--------------------------------------------------------------------| 
@@ -259,6 +263,7 @@ To access the Employee Card, go to the following menu:
 |**Post Code, City, County, Country/Region Code**|These fields display on all relevant Payroll and Employee reports for the Employee/Contractor.|
 ||If you update the Employee Card, the relevant fields will also be updated in the Payroll Employee card and vice versa.|
 
+
 |Field|Description|
 |------------------------------------------|--------------------------------------------------------------------| 
 |**COMMUNICATION FASTTAB**||
@@ -266,10 +271,12 @@ To access the Employee Card, go to the following menu:
 ||If you update the Employee Card, the relevant fields will also be updated in the Payroll Employee card and vice versa.|
 |**E-Mail**|This field is used to distribute pay advices and payment summaries via E-Mail.|
 
+
 |Field|Description|
 |------------------------------------------|--------------------------------------------------------------------| 
 |**ADMINISTRATION FASTTAB**||
 |**Status**|This field can be updated to Terminated should the Employee/Contractor leave your organisation.|
+
 
 |Field|Description|
 |------------------------------------------|--------------------------------------------------------------------|
@@ -286,6 +293,7 @@ To access the Payroll Employee Card, go to the following menu:
 *Departments/Labour Hire/Candidate Processing/Payroll Employees*
  
 ### Edit – Payroll Employee Card window 
+
 
 |Field|Description|
 |------------------------------------------|--------------------------------------------------------------------|
@@ -308,11 +316,13 @@ To access the Payroll Employee Card, go to the following menu:
 |**E-Mail Pay Advice/E-Mail Payment Summaries**|These fields determine if the Employee/Contractor will receive their pay advices and payment summaries by E-Mail.|
 ||If you are selecting this field for the first time, you must ensure that the E-Mail address is populated on the Employee Card.|
 
+
 |Field|Description|
 |------------------------------------------|--------------------------------------------------------------------|
 |**POSTING FASTTAB**||
 |**Branch**|This field is used to record the Branch that the Employee/Contractor is employed it.|
 |**Division**|This field is used to record the Division that the Employee/Contractor is employed it.|
+
 
 |Field|Description|
 |------------------------------------------|--------------------------------------------------------------------|
@@ -334,6 +344,7 @@ To access the Payroll Employee Card, go to the following menu:
 ||This information is only applicable for Employee/Contractor’s who operate as Incorporated Companies.|
 |**Inc. Company Tax Inv. Not Req**|This field is used to record if a Tax Invoice is not required from the Employee/Contractor.|
 ||This information is only applicable for Employee/Contractor’s who operate as Incorporated Companies.|
+
 
 |Field|Description|
 |------------------------------------------|--------------------------------------------------------------------|
@@ -361,6 +372,7 @@ To access the Payroll Employee Card, go to the following menu:
 |**Payee Signature**|This field is used to identify if the Employment Declaration form was signed by the Employee/Contractor.|
 |**Declaration Lodged**|This field is used to identify that the Declaration was extracted to be lodged with the Australian Taxation Office.|
  
+
  |Field|Description|
 |------------------------------------------|--------------------------------------------------------------------|
 |**WORK COVER FASTTAB**||
@@ -382,6 +394,7 @@ To access the Pay Dissections, go to the following menu:
  
 ### Edit – Employee Pay Dissections Card window
 
+
  |Field|Description|
 |------------------------------------------|--------------------------------------------------------------------|
 |**Pay Transaction Type**|Select the Pay Transaction Type code from the “ArrowDown” button.|
@@ -399,8 +412,6 @@ To access the Pay Dissections, go to the following menu:
 ||When the pay period is closed, the check mark is removed making it available again in the next pay.|
 
 
-
- 
 ## Payroll Employee – Deductions
 You can update the Employee/Contractor’s deduction details from the Deductions menu on the Payroll Employee Card.
 
@@ -408,10 +419,9 @@ To access the Deductions, go to the following menu:
 
 *Departments/Labour Hire/Candidate Processing/Payroll Employees/Deductions*
 
-
- 
 ### Edit – Employee Deductions Card window
- |Field|Description|
+ 
+|Field|Description|
 |------------------------------------------|--------------------------------------------------------------------|
 |**Transaction Type Code**|Select the Pay Transaction Type code from the “ArrowDown” button.|
 |**Shift Code**|This field is used to identify if this deduction is to generate when a certain Shift Code is selected.|
@@ -457,7 +467,6 @@ To access the Superannuation, go to the following menu:
 |**Employee Salary Sacrifice %**|This field is used to record the Employee Salary Sacrifice % value as nominated by the Employee/Contractor.|
 |**Employee Post-Tax Std. Amt.**|This field is used to record the Employee Post-Tax Standard Amount as nominated by the Employee/Contractor.|
 |**Employee Post-Tax Standard %**|This field is used to record the Employee Post-Tax Standard % as nominated by the Employee/Contractor.|
-
 
 
 ## Payroll Employee – Employer On Costs
@@ -519,11 +528,13 @@ To access the Customer Card, go to the following menu:
 |**GENERAL FASTTAB**||
 |**Name**|This field is used to store the name of the Customer.|
 
+
  |Field|Description|
 |------------------------------------------|--------------------------------------------------------------------|
 |**ADDRESS & CONTACT FASTTAB**||
 |**Address**|This field is used to record the Address of the Customer.|
 |**Phone No.**|The Customer Phone Number is stored on the Contact Card.|
+
 
  |Field|Description|
 |------------------------------------------|--------------------------------------------------------------------| 
@@ -543,7 +554,8 @@ To access the Customer Card, go to the following menu:
 ||·         Job Bill-To Contact|
 ||·         Job No. |
 ||·         Job Task No.|
-  
+ 
+ 
 |Field|Description|
 |------------------------------------------|--------------------------------------------------------------------| 
 |**PAYMENTS FASTTAB**||
@@ -551,6 +563,7 @@ To access the Customer Card, go to the following menu:
 ||Click on the “ArrowDown” button to select an appropriate code.|
 |**Perm. Placement Payment Terms**|This field is used to record the Customer’s Permanent Placement Payment Terms.|
 ||Click on the “ArrowDown” button to select an appropriate code.|
+
 
  |Field|Description|
 |------------------------------------------|--------------------------------------------------------------------| 
