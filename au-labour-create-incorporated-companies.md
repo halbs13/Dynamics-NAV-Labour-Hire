@@ -116,4 +116,3 @@ To access the Payroll Control Setup task go to the following menu:
  [GoToTop](#how-to-setup-incorporated-companies)
 
 
-
