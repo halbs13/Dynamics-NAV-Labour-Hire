@@ -337,14 +337,15 @@ The Requirements Invoice format is maintained on the Invoicing FastTab in the �
  
 ## Generating Requirements Invoices Requirements Invoices are generated from the following menu: 
 
-Departments/Labour Hire/Invoice Processing/Generate Invoice/ Generate Perm. Req. Invoice 
+*Departments/Labour Hire/Invoice Processing/Generate Invoice/ Generate Perm. Req. Invoice* 
 
 ### Edit – Generate Perm. Req. Invoice window
 
 |Field Name|Description|
 |-------------------------|----------------------------------------------------------------------------------------|
-|-**JOB FASTTAB**- |
+|**JOB FASTTAB** |
 |**Bill-to Customer No.** |This field allows you to nominate a specific customer you wish to generate invoices for, otherwise this field can be left blank to generate all outstanding Requirements invoices.|
+|---|
 |**Click on the “OK” button after you have completed your selection.** |
 
 
