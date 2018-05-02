@@ -243,7 +243,9 @@ To access the Permanent Placement FastTab on the Labour Hire Setup card, go to t
 
 *Departments/Payroll/Setup/Labour Hire/Administration/Labour Hire Setup* 
  
- |Field Name|Description|
+
+
+|Field Name|Description|
 |-------------------------|----------------------------------------------------------------------------------------|
 |**PERMANENT PLACEMENT FASTTAB** ||
 |**No. Days/Weeks To Calculate Invoice Generation Date** |This field is used to determine the number of days or weeks when Permanent Placement invoices should be generated after the placement.|
@@ -258,8 +260,6 @@ To access the Permanent Placement FastTab on the Labour Hire Setup card, go to t
 ||From the “ArrowDown” button, select the appropriate code.|
 |**Plcmt. Salary % Fee Type Code** |This field determines where the revenue for the Permanent Placement Fees will be posted to within the General Leger.|
 ||From the “ArrowDown” button, select the appropriate code.|
-
-
 
 
 ### Customer Card – Invoicing FastTab
