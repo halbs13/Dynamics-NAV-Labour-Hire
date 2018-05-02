@@ -2,15 +2,15 @@
 
 This document will contain information relating to Permanent Placements/Requirements Billing and contains the following sections:
 - Permanent Placement Overview 
--- Fee Types
--- Permanent Placement Setup 
--- Permanent Placement Card 
--- Permanent Placement Invoice Parameters 
--- Generating Permanent Placement Invoices
+ - Fee Types
+ - Permanent Placement Setup 
+ - Permanent Placement Card 
+ - Permanent Placement Invoice Parameters 
+ - Generating Permanent Placement Invoices
 
 - Requirements Invoicing Overview 
--- Requirements Invoicing Setup 
--- Generating Requirements Invoices
+ - Requirements Invoicing Setup 
+ - Generating Requirements Invoices
 
 2 PERMANENT PLACEMENT OVERVIEWPermanent Placements are candidates who apply for positions advertised by recruitment agencies on behalf of their clients with the intention of being permanently placed.
 Permanent Placement records can be setup from within the Placement Entry area of the Labour Hire module with information such as the expected salary the candidate will receive, placement fees, the guarantee period and placement fee information.  2.1 Fee TypesFee Types are setup to identify where the revenue for the fees will post to within the General Ledger.
