@@ -42,7 +42,7 @@ with this pay advice. This will display the detailed transactions that make up t
 
 To view the Employee Ledger Entries for a contractor:
 
-Click Ledger Entries from the Navigate Tab  
+Click Ledger Entries from the Navigate Tab 
 
 ### Employee Ledger Entries
 
