@@ -95,7 +95,7 @@ Once the Client FastTab is completed, select the Perm Placement FastTab.
  
 |Field Name|Description|
 |-------------------------|----------------------------------------------------------------------------------------|
-|**PERM PLACEMENT FASTTAB **|
+|**PERM PLACEMENT FASTTAB** |
 |**Candidate Details** |
 |**Placement Type** |This field is used to identify the placement being created.  To create the Permanent Placement, select “Permanent”.|
 |**Employee No.** |This field is used to create an Employee No. on the Resource Card.  Enter in a unique number for the Candidate.|
