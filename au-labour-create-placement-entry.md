@@ -578,10 +578,13 @@ This section will outline examples of when information is updated and where thes
 ### Placement Entry
 
 Placement Entry is used to update information relating to the Job and the Ratesets.  These areas are;
-- Extending a Contract
-- Updating the Ratesets
 
-### Extending a ContractExtending Contracts is performed in Placement Entry.  You will also need to know the Employee/Contractor, the Customer No. and the Job and Job Task No. to update the information successfully.
+- Extending a Contract
+- Updating the Ratesets
+
+### Extending a Contract
+
+Extending Contracts is performed in Placement Entry.  You will also need to know the Employee/Contractor, the Customer No. and the Job and Job Task No. to update the information successfully.
 
 To access Placement Entry, go to the following menu:
 
@@ -590,7 +593,9 @@ To access Placement Entry, go to the following menu:
  Use the following steps to perform this process:
 
 1. Click on the “New” icon on the Home ribbon.
+
 2. Go the Person FastTab, select the Placement Type in the “Placement Type” field.
+
 3. Go the “Candidate No.” field and click on the “ArrowDown” and select the Employee.
 
 
@@ -604,8 +609,11 @@ Once you retrieve the Customer record, there will be some “greyed” out field
 
 
 1. Go to the Job No. field, click on the “ArrowDown” and select the Job No.
+
 2. Go to the Job Task No. field, click on the “ArrowDown” and select the Job Task No. for this Job.
+
 3. Once you select the first two fields, other fields will be populated accordingly.
+
 4. If you are extending a Contract, update the End Date of the record.  Do not update the Starting Date as this will create a new record.4.1.2 Update the Rateset
 
 
