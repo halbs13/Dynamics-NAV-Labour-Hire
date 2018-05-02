@@ -132,7 +132,7 @@ Once the Client FastTab is completed, select the Perm Placement FastTab.
 |**Benefits** |This field is used to record if there are any other monetary benefit components of the package for this placement.|
 |**Total Package** |This field is populated with the sum of “Agreed Salary”, “Superannuation” and “Benefits”.|
 |**Placement Fee** |This field is used to record the Placement Fee for this placement.|
-|**Fee Rate (%) ** |This field is populated when the Placement Fee field is updated for this placement.  The formula of this field is “Total Package”/”Placement Fee”.|
+|**Fee Rate (%)** |This field is populated when the Placement Fee field is updated for this placement.  The formula of this field is “Total Package”/”Placement Fee”.|
 |**Perm. Placement Payment Terms** |This field is populated from the Customer Card.|
 |**Guarantee Period Days** |This field is used to record the no. of days for Guarantee Period for this placement.|
 |**Guarantee Period Expiry** |This field is used to record the expiry date of the Guarantee Period for this placement.|
