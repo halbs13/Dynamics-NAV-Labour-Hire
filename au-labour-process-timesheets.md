@@ -131,8 +131,7 @@ Select from theavailable columns, then press “Add” this will transfer to the
 
 Once you have completed your selection, click ‘OK’ to be returned to the main Timesheet Entry Screen.
 
- 
- |**Field Name**|**Description**|
+|**Field Name**|**Description**|
 |------------------------------------------------------------------------------|-------------------------------------------------------|
 |**Employee Number**|Employee Number.|
 |**Placement ID**|The unique placement ID number used in the Resource Allocation.|
