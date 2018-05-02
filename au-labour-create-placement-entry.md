@@ -619,20 +619,20 @@ If an Employee/Contractor terminates employment then the updates should occur as
 1. Update the Ending Date on the Job via Placement Entry.  This will ensure that no timesheets will generate for the Employee/Contractor.
 
 2. Update the following fields on the Administration FastTab of the Employee Card;
-   a. Status – update to Terminated
-   b. Terminated Date – enter in the Termination Date
-   c. Grounds for Term. Code – click on the “ArrowDown” button and select the Termination Reason code.
+   - Status – update to Terminated
+   - Terminated Date – enter in the Termination Date
+   - Grounds for Term. Code – click on the “ArrowDown” button and select the Termination Reason code.
 
 ### Transfer from PAYG to Company
 
 If an Employee/Contractor transfers from being a PAYG Contractor to an Incorporated Company, then the updates should occur as follows.  As a general rule, these updates should not occur part way throuhg a pay period and should be effective as at the first day of the next pay period if at all possible.
 
 1. Update the following FastTabs on the Payroll Employee Card:
-   -  General FastTab – Employee Type Code – update this from PAYG to Incorporated Company.
-   -  Tax FastTab – Tax Scale – update the Tax Scale value to be GST.
-   -  Declaration FastTab
-      - A.B.N – update the A.B.N accordingly,
-      - Incorporated Company Name – update the Incorporated Company Name.
-   -  Work Cover FastTab – Enter in the Workers Comp Insurer, Policy No. and Policy Expiration Date
+   - General FastTab – Employee Type Code – update this from PAYG to Incorporated Company.
+   - Tax FastTab – Tax Scale – update the Tax Scale value to be GST.
+   - Declaration FastTab
+     - A.B.N – update the A.B.N accordingly,
+     - Incorporated Company Name – update the Incorporated Company Name.
+   - Work Cover FastTab – Enter in the Workers Comp Insurer, Policy No. and Policy Expiration Date
 
 2. You may also need to update the Rateset details on the Job so you will need to perform this via Placement Entry using the same process as described in the previous section.
