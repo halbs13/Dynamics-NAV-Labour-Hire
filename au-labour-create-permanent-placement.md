@@ -1,7 +1,17 @@
 # How to create Permanent Placements
 
-1 INTRODUCTIONThis document has been prepared as a training manual for users of the Dynamics NAV2017 Labour Hire Suite module.  
-This document will contain information relating to Permanent Placements/Requirements Billing and contains the following sections:• Permanent Placement Overviewo Fee Typeso Permanent Placement Setupo Permanent Placement Cardo Permanent Placement Invoice Parameterso Generating Permanent Placement Invoices• Requirements Invoicing Overviewo Requirements Invoicing Setupo Generating Requirements Invoices
+This document will contain information relating to Permanent Placements/Requirements Billing and contains the following sections:
+-Permanent Placement Overviewo 
+--Fee Types
+--Permanent Placement Setupo 
+--Permanent Placement Cardo 
+--Permanent Placement Invoice Parameterso 
+--Generating Permanent Placement Invoices
+
+-Requirements Invoicing Overviewo 
+--Requirements Invoicing Setupo 
+--Generating Requirements Invoices
+
 2 PERMANENT PLACEMENT OVERVIEWPermanent Placements are candidates who apply for positions advertised by recruitment agencies on behalf of their clients with the intention of being permanently placed.
 Permanent Placement records can be setup from within the Placement Entry area of the Labour Hire module with information such as the expected salary the candidate will receive, placement fees, the guarantee period and placement fee information.  2.1 Fee TypesFee Types are setup to identify where the revenue for the fees will post to within the General Ledger.
 To setup the Fee Types go to the following menu;
