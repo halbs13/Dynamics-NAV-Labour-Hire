@@ -16,12 +16,16 @@ This document will contain information relating to Permanent Placements/Requirem
 Permanent Placements are candidates who apply for positions advertised by recruitment agencies on behalf of their clients with the intention of being permanently placed.
 Permanent Placement records can be setup from within the Placement Entry area of the Labour Hire module with information such as the expected salary the candidate will receive, placement fees, the guarantee period and placement fee information. 
  
+[GoToTop](#how-to-create-permanent-placements)
+
 ## Fee Types
 Fee Types are setup to identify where the revenue for the fees will post to within the General Ledger.
 To setup the Fee Types go to the following menu:
 
 *Departments/Payroll/Setup/Labour Hire/Administration/Fee Types* 
  
+[GoToTop](#how-to-create-permanent-placements)
+
 ### “Edit – Fee Types” window 
 |Field Name |Description|
 |----------------------------------------|--------------------------------------------------------------------|
@@ -31,6 +35,8 @@ To setup the Fee Types go to the following menu:
 |**G/L Account No.**| This field is used to specify the General Ledger Account|
 
 
+
+[GoToTop](#how-to-create-permanent-placements)
 
 ## Permanent Placement Setup
 Permanent Placement records are setup within the Placement Entry area of the Labour Hire module.  The following FastTabs are used when creating a new Permanent Placement record:
@@ -48,6 +54,8 @@ To setup a Permanent Placement record within Placement Entry, go to the followin
 *Departments/Labour Hire/Candidate Processing/Placement Entry* 
 
 To create a new record, select the “New” icon on the Home ribbon.
+
+[GoToTop](#how-to-create-permanent-placements)
 
 ### New – Placement Entry window 
  
@@ -148,6 +156,8 @@ Once the Client FastTab is completed, select the Perm Placement FastTab.
 
  
 
+[GoToTop](#how-to-create-permanent-placements)
+
 ## Permanent Placement Cards
 
 Permanent Placements are created once the transactions entered into Placement Entry are transferred.
@@ -156,6 +166,8 @@ To access the Permanent Placement Card, go to the following menu:
 *Departments/Labour Hire/Candidate Processing/Permanent Placements* 
 
 
+
+[GoToTop](#how-to-create-permanent-placements)
 
 ### Edit – Permanent Placement Card window  
 
@@ -230,13 +242,19 @@ To access the Permanent Placement Card, go to the following menu:
 |**Credit Amount** |This field displays the value of the amount credited.|
 
 
+[GoToTop](#how-to-create-permanent-placements)
+
 ## PERMANENT PLACEMENT INVOICNG
 Permanent Placement invoices can be generated once the Permanent Placement record has been created.   Various parameters are established to determine when invoices are generated, invoice formats and payment terms if they are different to normal payment terms.
+
+[GoToTop](#how-to-create-permanent-placements)
 
 ## Permanent Placement Invoice ParametersPermanent Placement Invoice parameters are maintained within the following areas of the Labour Hire module:
 - Labour Hire Setup – Permanent Placement FastTab
 - Customer Card – Invoice Formats
 - Customer Card – Payment Terms
+
+[GoToTop](#how-to-create-permanent-placements)
 
 ### Labour Hire Setup – Permanent Placement FastTab
 To access the Permanent Placement FastTab on the Labour Hire Setup card, go to the following menu;
@@ -262,16 +280,24 @@ To access the Permanent Placement FastTab on the Labour Hire Setup card, go to t
 ||From the “ArrowDown” button, select the appropriate code.|
 
 
+[GoToTop](#how-to-create-permanent-placements)
+
 ### Customer Card – Invoicing FastTab
 Permanent Placement invoices will have a specific invoice format to present the information back to the client.  
 The Permanent Placement Invoice format is maintained on the Invoicing FastTab in the “Perm. Invoice/Cr. Format Code” field.
  
+[GoToTop](#how-to-create-permanent-placements)
+
 ### Customer Card – Payments FastTab
 Permanent Placement invoices may have different payment terms to the general invoicing.  
 The Permanent Placement Payment Terms code is maintained on the Payments FastTab in the “Perm. Placement Payment Terms” field. 
  
+[GoToTop](#how-to-create-permanent-placements)
+
 ## Generating Permanent Placement Invoices Permanent Placement Invoices are generated from the following menu; 
 Departments/Labour Hire/Invoice Processing/Generate Invoice/ Generate Permanent Invoices 
+
+[GoToTop](#how-to-create-permanent-placements)
 
 ## Edit – Generate Permanent Invoices window
 
@@ -284,18 +310,24 @@ Departments/Labour Hire/Invoice Processing/Generate Invoice/ Generate Permanent 
 
 
 
+[GoToTop](#how-to-create-permanent-placements)
+
 ## REQUIREMENTS INVOICING OVERVIEW
 Requirements invoicing is a term used to describe invoices generated for expenses incurred when positions are advertised prior to candidates being selected.
 This feature is only available where integration with third party “front end” systems are established, however Requirement invoices can be manually generated and posted against the appropriate General Ledger account if there is no integration with a front end Recruitment system.
 Fee Types for Requirements are setup as described in section 2.1 - Fee Types which allows for the different types of expenses to be posted to the appropriate General Ledger account.
 When these types of expenses are created within the Recruitment system, a line item will be created and setup similar to a Permanent Placement record where the fees will be available from within the Job card.
  
+[GoToTop](#how-to-create-permanent-placements)
+
 ## Requirements Invoice Setup
 Requirements are created as Jobs within the Labour Hire module where 3rd party integration exists.    
 To review a Requirements record, go to the following menu:
 
 *Departments/Labour Hire/Candidate Processing/Jobs*
  
+[GoToTop](#how-to-create-permanent-placements)
+
 ### Edit – Job Card” window The Requirement Fees area is available on the Home ribbon. 
 
 |Field Name|Description|
@@ -309,10 +341,14 @@ To review a Requirements record, go to the following menu:
 
 
 
+[GoToTop](#how-to-create-permanent-placements)
+
 ## Requirements Invoice Parameters
 Requirement Invoice parameters are maintained within the following areas of the Labour Hire module:
 - Interface Options - Integration
 - Customer Card – Invoice Formats
+
+[GoToTop](#how-to-create-permanent-placements)
 
 ### Interface Options – Integration FastTab
 To access the Integrations FastTab on the Interface Options card, go to the following menu:
@@ -331,13 +367,19 @@ To access the Integrations FastTab on the Interface Options card, go to the foll
 
 
 
+[GoToTop](#how-to-create-permanent-placements)
+
 ### Customer Card – Invoicing FastTab
 Requirements invoices will have a specific invoice format to present the information back to the client.  
 The Requirements Invoice format is maintained on the Invoicing FastTab in the “Req. Inv./Cr. Format Code” field.
  
+[GoToTop](#how-to-create-permanent-placements)
+
 ## Generating Requirements Invoices Requirements Invoices are generated from the following menu: 
 
 *Departments/Labour Hire/Invoice Processing/Generate Invoice/ Generate Perm. Req. Invoice* 
+
+[GoToTop](#how-to-create-permanent-placements)
 
 ### Edit – Generate Perm. Req. Invoice window
 
