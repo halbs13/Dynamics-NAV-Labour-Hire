@@ -618,10 +618,13 @@ If an Employee/Contractor terminates employment then the updates should occur as
 
 1. Update the Ending Date on the Job via Placement Entry.  This will ensure that no timesheets will generate for the Employee/Contractor.
 
-2. Update the following fields on the Administration FastTab of the Employee Card;
-   * Status – update to Terminated
-   * Terminated Date – enter in the Termination Date
-   * Grounds for Term. Code – click on the “ArrowDown” button and select the Termination Reason code.
+2. Update the following fields on the Administration FastTab of the Employee Card:
+ 
+   * Status – update to Terminated
+   * Terminated Date – enter in the Termination Date
+   * Grounds for Term. Code – click on the “ArrowDown” button and select the Termination Reason code.
+
+
 
 ### Transfer from PAYG to Company
 
