@@ -4,7 +4,7 @@ This document will contain information relating to the setup of Incorporated Com
 following sections:
 
 - [Incorporated Company Overview](#incorporated-company-overview)
-- [Incorporated Company Flag Identification](#Incorporated-Company-Flag-Identification)
+- [Incorporated Company Flag Identification](#incorporated-company-flag-identification)
 - [Company Details](#Company-Details)
 - [Workers Compensation Policies](#Workers-Compensation-Policies)
 - [Goods & Services Tax (GST) Overview](#Goods-&-Services-Tax-(GST)-Overview)
@@ -18,7 +18,7 @@ Companies can be processed through the Labour Hire Suite. These contractors are
 maintained and paid using the Payroll system and are setup as per PAYG type
 contractors with some differences which will be outlined in this document.
 
-## 2. Incorporated Company Flag Identifications
+## Incorporated Company Flag Identifications
 
 An “Incorporated Company” option is available as an Employment Basis from within the Employee Type. 
 
