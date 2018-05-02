@@ -1,6 +1,7 @@
 # How to process an internal payroll in Labour Hire
 
 1 INTRODUCTION
+
 This document has been prepared as a training manual for users of the Dynamics NAV 2017 Labour Hire Suite module.
 This document will contain information relating to Internal Payroll Processing encompassing the following sections:
 • Entering New Employeeso Employee Cardo Payroll Employee Card• Processing Payso Pay Journalso Enter Leave Adjustmentso Calculating Payso Entry Validation Reportso Un-calculating Payso Creating a Bank Transfer Fileo Post and Print Pay Advices o Close Pay Period2 INTERNAL PAYROLL PROCESSING OVERVIEW
