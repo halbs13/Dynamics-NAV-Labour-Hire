@@ -42,8 +42,9 @@ To access the Employee Maintenance task go to the following menu:
 
 *Departments/Payroll/Employee Maintenance/Payroll Employees*
  
-[GoToTop](#how-to-setup-incorporated-companies)
      
+[GoToTop](#how-to-setup-incorporated-companies)
+
 ## Workers Compensation Policies
 
 Contractors operating through Incorporated Companies are required to provide details of their workers compensation policy.
@@ -79,8 +80,9 @@ To access the Employee Maintenance task go to the following menu:
 
 *Departments/Payroll/Employee Maintenance/Payroll Employees*
  
-[GoToTop](#how-to-setup-incorporated-companies)
      
+[GoToTop](#how-to-setup-incorporated-companies)
+
 ## GST Transaction Type Setup
 
 A Transaction Code must be setup to represent GST. This code will be used in conjunction with the GST Tax scale when
@@ -97,7 +99,7 @@ The GST Product Posting Group field is used to reconcile the General Ledger Acco
 transaction type that will be setup with a GST Product Posting Group instead of a transaction posting group.
     
 [GoToTop](#how-to-setup-incorporated-companies)
- 
+
 ## GST Calculation
 
 On the Pay Transaction Type setup card on the Parameters Tab, there is a GST applicable box that should be ticked for every code that should have GST applied. For wages type code, GST would apply, whereas for a reimbursement type code, GST may not apply.
