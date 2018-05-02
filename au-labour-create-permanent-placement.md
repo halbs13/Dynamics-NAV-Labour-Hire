@@ -246,7 +246,7 @@ Permanent Placement invoices can be generated once the Permanent Placement recor
 To access the Permanent Placement FastTab on the Labour Hire Setup card, go to the following menu;
 
 *Departments/Payroll/Setup/Labour Hire/Administration/Labour Hire Setup* 
- 
+
 |Field Name|Description|
 |-------------------------|----------------------------------------------------------------------------------------|
 |**PERMANENT PLACEMENT FASTTAB** ||
