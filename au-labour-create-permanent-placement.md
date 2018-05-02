@@ -188,6 +188,7 @@ To access the Permanent Placement Card, go to the following menu:
 
  
  
+
 |Field Name|Description|
 |-------------------------|----------------------------------------------------------------------------------------|
 |**PLACEMENT DETAILS FASTTAB** ||
@@ -203,7 +204,6 @@ To access the Permanent Placement Card, go to the following menu:
 |**Guarantee Period Expiry** |This field is the Guarantee Period Expiry date as entered in Placement Entry.|
 |**Candidate Source Text** |This field is used to record the Candidate Source Text information relating to the Permanent Placement record.|
 |**Perm Placement Type** |This field is used to record the Perm Placement Type information relating to the Permanent Placement record.|
-
 
  |Field Name|Description|
 |-------------------------|----------------------------------------------------------------------------------------|
