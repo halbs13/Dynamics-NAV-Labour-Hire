@@ -79,7 +79,8 @@ To access the Employee Maintenance task go to the following menu:
 
 *Departments/Payroll/Employee Maintenance/Payroll Employees*
  
-     
+ [GoToTop](#how-to-setup-incorporated-companies)
+    
 ## GST Transaction Type Setup
 
 A Transaction Code must be setup to represent GST. This code will be used in conjunction with the GST Tax scale when
@@ -95,6 +96,7 @@ To access the Pay Transaction Types task go to the following menu:
 The GST Product Posting Group field is used to reconcile the General Ledger Account used for GST. This is the only
 transaction type that will be setup with a GST Product Posting Group instead of a transaction posting group.
     
+[GoToTop](#how-to-setup-incorporated-companies)
 
 ## GST Calculation
 
