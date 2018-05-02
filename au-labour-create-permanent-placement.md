@@ -82,15 +82,15 @@ To create a new record, select the “New” icon on the Home ribbon.
 ||An example of where this is implemented is when a Customer has multiple locations and they are setup as separate customers, however their invoicing and other statements are sent to a Head Office.|
 |**Payment Terms Code** |This field is used to record the Payment Terms.|
 |**Customer Invoicing Frequency** |This field is used to record the frequency in which the customer is invoiced.  The following options are available;|
-||·         Weekly |
-||·         Fortnightly|
-||·         Semi-Monthly|
-||·         Calendar Month|
-||·         4 Week Month|
+||·         Weekly |
+||·         Fortnightly|
+||·         Semi-Monthly|
+||·         Calendar Month|
+||·         4 Week Month|
 |**Invoice/Cr. Format Code** |From the “ArrowDown” button, select the Invoice/Cr. Format Code|
 |**Job Invoice Consolidation Type** |This field determines how the Job transactional lines are consolidated on an invoice for this Customer.  The options available are;|
-||·         Bill-to Customer No. + Sell-to Customer No.|
-||·         Bill-to Customer No.|
+||·         Bill-to Customer No. + Sell-to Customer No.|
+||·         Bill-to Customer No.|
 |**Cust. Contact Job Title** |This field is used to record the Job Title of the Customer Contact|
 |**Perm. Invoice/Cr. Format Code** |This field is used to record the Permanent Placement Invoice format.  From the “ArrowDown” button, select the appropriate code.|
 |**Perm Placement Payment Terms** |This field is used to record the Permanent Placement Payment Terms.  From the “ArrowDown” button, select the appropriate code.|
