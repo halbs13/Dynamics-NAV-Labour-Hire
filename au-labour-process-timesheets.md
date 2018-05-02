@@ -1,143 +1,67 @@
-# How to: process timesheets
+# How to process timesheets
 
-1     
-Introduction
+## Introduction
 
-This document
-has been prepared as a training manual for users of the Dynamics NAV2017 Labour
-Hire Suite module.
-
- 
-
-Timesheet
-lines are used to generate invoices and pay contractors/employees for work that
+Timesheet lines are used to generate invoices and pay contractors/employees for work that
 has been performed on a Job.
 
- 
+The Labour Hire Timesheet module is unique where it can be configured so that the timesheet
+lines once processed, can be invoiced prior to paying contractors/employees.  
 
-The Labour
-Hire Timesheet module is unique where it can be configured so that the
-timesheet lines once processed, can be invoiced prior to paying
-contractors/employees.  
+Timesheets can generated on a pay-by-pay basis using the Automatic Timesheet Generation
+process and are only generated where the placement date falls within that particular 
+pay period.  
 
- 
-
-Timesheets can
-generated on a pay-by-pay basis using the Automatic Timesheet Generation
-process and are only generated where the placement date falls within that
-particular pay period.  
-
- 
-
-This document
-describes the various activities relating to Timesheets and contains the
+This document describes the various activities relating to Timesheets and contains the
 following sections;
 
- 
-
-Labour Hire Setup – establishing the Timesheet
-Processing MethodGenerate TimesheetsTimesheet Entry Order Sheet EntryProcess Timesheets         
-
-
-
+Labour Hire Setup – establishing the Timesheet Processing Method
+Generate Timesheets
+Timesheet Entry 
+ Order Sheet Entry
+Process Timesheets         
 
 
+## Timesheet Processing Method
 
+The Timesheet processing method allows you todefine when the Timesheet lines are posted
+against a job and ready for invoicing. There are 2 processing methods;
 
+Timesheet – this method transfers the timesheet lines to the Job Planning Lines to allow
+for invoices to be generated.  At the same time it also transfers the timesheet lines to
+the Pay Journal Lines to allow for pays to be processed for contractors/employees. 
+Implementing this method however prevents the timesheet lines in the pay journal lines 
+from being modified.
 
+Payroll – the method requires the user to import the timesheets into the Pay Journal. Once
+the pays are calculated and posted, the Job Planning Lines are populated with the lines to
+generate invoices.  Implementing this method allows for the timesheet lines to be modified
+in the pay journal.  
 
+The Timesheet Processing Method is updated via the “Job Contract Posting Method”.
 
+To access this field, go to the following menu:
 
+Departments/Payroll/Setup/Labour Hire/Administration/Labour Hire Setup
 
+Job Contract Posting Method – Select the required field :
 
+  Timesheets  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-2     
-Timesheet Processing Method
-
-The Timesheet processing method allows you to
-define when the Timesheet lines are posted against a job and ready for
-invoicing.  There are 2 processing
-methods;
-
-Timesheet – this
-method transfers the timesheet lines to the Job Planning Lines to allow for
-invoices to be generated.  At the same
-time it also transfers the timesheet lines to the Pay Journal Lines to allow
-for pays to be processed for contractors/employees.  Implementing this method however prevents the
-timesheet lines in the pay journal lines from being modified.Payroll – the
-method requires the user to import the timesheets into the Pay Journal.  Once the pays are calculated and posted, the
-Job Planning Lines are populated with the lines to generate invoices.  Implementing this method allows for the
-timesheet lines to be modified in the pay journal.  The Timesheet Processing Method is updated via
-the “Job Contract Posting Method”.To access this field, go to the following menu:
-
-
-
-
-
-
-
-1. 
-
-Departments/Payroll/Setup/Labour
-Hire/Administration/Labour Hire Setup
-
-
-
- 
-
-Job Contract Posting Method –
-Select the required field :
-
- 
-
-Timesheets  Payroll      
+  Payroll       
   
 
+## Timesheet Parameters
 
-
-
-
-
-
-
-
-3     
-Timesheet Parameters
-
-There are a number of parameters which will define how
-timesheets are generated, duplicate timesheets, etc.  Timesheet settings are configured on the
-Labour Hire Setup card.
-
- 
+There are a number of parameters which will define how timesheets are generated, duplicate 
+timesheets, etc. Timesheet settings are configured on the Labour Hire Setup card.
 
 To access the Labour Hire Setup, go to the following menu:
 
- 
+Departments/Payroll/setup/Labour Hire/Administration/Labour Hire Setup
 
-Departments/Payroll/setup/Labour
-Hire/Administration/Labour Hire Setup
+### “Edit – Labour Hire Setup” window
 
-
-
-3.1.1    
- “Edit – Labour
-Hire Setup” window
-
-
- 
   
    
    Field Name
