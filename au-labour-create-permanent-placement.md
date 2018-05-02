@@ -354,7 +354,7 @@ The Requirements Invoice format is maintained on the Invoicing FastTab in the �
 
 [GoToTop](#how-to-create-permanent-placements)
 
-### Edit – Generate Perm. Req. Invoice window
+### Edit – Generate Perm. Req. Invoice window.
 
 |Field Name|Description|
 |-------------------------|----------------------------------------------------------------------------------------|
