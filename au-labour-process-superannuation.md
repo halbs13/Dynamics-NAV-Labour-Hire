@@ -78,12 +78,13 @@ Departments/Payroll/EOM Processing/Superannuation Processing/Bulk Adjustment
 |**New Employer SGC %**|Enter the new percentage for the selected Superannuation records.|
 |**New Employer SGC amount**|Enter the new amount for the selected Superannuation records.|
 |**New Employer Factor**|Enter the new amount for the selected Superannuation records.|
-|**New Employee Post Tax Standard %**|Enter the new standard percentage for the selected Superannuation records.||**New Employee Post Tax Amount**|Enter the new standard amount for the selected Superannuation records.|
+|**New Employee Post Tax Standard %**|Enter the new standard percentage for the selected Superannuation records.|
+|**New Employee Post Tax Amount**|Enter the new standard amount for the selected Superannuation records.|
 |**Update Employees**|Tick this field to update the records. Leave this field un-ticked not to update the employee records.|
-||**SUPERANNUATION FUND PRODUCT FASTTAB - Only the standard fields are covered. A full list of fields available as filters can be used by selecting the add filter.**|
+||**SUPERANNUATION FUND PRODUCT FASTTAB** - Only the standard fields are covered. A full list of fields available as filters can be used by selecting the add filter.|
 |**Transaction Type Code**|Select the Transaction Type Code for the Superannuation records you wish to adjust. If left blank all Superannuation Pay Transaction Type codes are selected.|
 |**Employer SGC %**|To filter the records you wish to change enter the Employee Standard Percentage to select for adjustment.|
-||**SUPERANNUATION EMPLOYEE FASTTAB - Only the standard fields are covered. A full list of fields available as filters can be used by selecting the add filter.**| 
+||**SUPERANNUATION EMPLOYEE FASTTAB** - Only the standard fields are covered. A full list of fields available as filters can be used by selecting the add filter.| 
 |**Employee No**|Enter or Select the Employee’s you wish to adjust the superannuation records. If left blank all employees are selected.|
 ||**Click “OK” once you have completed your selection.**|
 
@@ -166,9 +167,9 @@ Departments/Payroll/EOM Processing/Superannuation Processing/Superannuation Repo
 |---------------------------------------|---------------------------------------------------------------------------------------|   
 ||**OPTIONS FASTTAB**|
 |**Payroll No.**|Type in or select from the ArrowDown button, the Payroll which you wish to report on.| 
-||**SUPERANNUATION FUND PRODUCT FASTTAB - Only the standard fields are covered. A full list of fields available as filters can be used by selecting the add filter.**|
+||**SUPERANNUATION FUND PRODUCT FASTTAB** - Only the standard fields are covered. A full list of fields available as filters can be used by selecting the add filter.|
 |**Code**|Select the Transaction Type Code for the Superannuation records you wish to adjust. If left blank all Superannuation Pay Transaction Type codes are selected.| 
-||**SUPERANNUATION LEDGER ENTRY FASTTAB - Only the standard fields are covered. A full list of fields available as filters can be used by selecting the add filter.**|
+||**SUPERANNUATION LEDGER ENTRY FASTTAB** - Only the standard fields are covered. A full list of fields available as filters can be used by selecting the add filter.|
 |**Posting Date**|Enter the date of which you wish to generate transactions for.|
 ||You can enter in date filters as follows:| 
 ||01/09/2012..30/09/2012 and this will retrieve information with a posting date within this range.|
@@ -243,281 +244,76 @@ Employee file is rectified prior to producing a file. 
 
 ## Superannuation Payment Reporting
 
- 
-
 Employers have an obligation to
 report superannuation contributions to their employees: 
 
- 
-
-The amount of each superannuation
-contribution made for the employee during the period to which the pay slip
+The amount of each superannuation contribution made for the employee during the period to which the pay slip
 relates and the name of any fund to which the contribution was made.
 
- 
+The Super. Payment Export & Notification Report flags the Employee Superannuation Ledger Entry records to
+report to the employee by either Letter or Pay Advice.  When the report is run you must enter parameters for processing.  
 
-The Super. Payment Export &
-Notification Report flags the Employee Superannuation Ledger Entry records to
-report to the employee by either Letter or Pay Advice.  When the report is
-run you must enter parameters for processing.  
+## New Member Registration Export
 
- 
+The New Member Registration Export produces a file which may be used to send to the Superannuation Fund.  
 
-
-
-
-2.5.2     New
-Member Registration Export
-
- 
-
-The New Member Registration
-Export produces a file which may be used to send to the Superannuation
-Fund.  
-
- 
-
-It is recommended that you
-preview the report first as it will highlight potential issues with the file
+It is recommended that you preview the report first as it will highlight potential issues with the file
 such as invalid tax file numbers and missing information.
 
- 
+To access the New Member Registration Export,
 
-To access the New Member
-Registration Export,
+Departments/Payroll/EOM Processing/Superannuation Processing
 
- 
-
-Departments/Payroll/EOM
-Processing/Superannuation Processing
-
- 
-
-
-
- 
-
-
-
-
- 
+|**Field**|**Comments**|
+||**OPTIONS FASTTAB**|
+|**Run Type**|Select the process from the list.|  
+||**Preview no export**  – This option previews the report and allows you to verify the data before reporting.  This option can be run multiple times.|  
+||**Export new member file** – Used to create a “.CSV” file.|  
+|**Member File Export Location**|Click on the “ArrowDown” to specify where to save the file.|
+||**PAYROLL EMPLOYEE FASTTAB** – Payroll Employee information can be filtered by entering information in this tab. Otherwise it can be left blank.| 
+||**EMPLOYEE SUPERANNUATION FASTTAB** – Employee Superannuation information can be
+  filtered by entering information in this tab. Otherwise it can be left blank.|
+||**SUPERANNUATION FUND PRODUCT FASTTAB** – Superannuation Fund Product information can be filtered by entering information in this tab. Otherwise it can be left blank.|
+||**When you have finished entering your information, click on “Preview” or “Print” to produce the file and report.|
   
-   
-   Field
-   
-   
-   Comments
-   
-  
- 
- 
-  
-  OPTIONS FASTTAB
-   
-  
- 
- 
-  
-  Run Type
-  
-  
-  Select the process from the list.  
-  
-  
-  Preview no export
-  – This option previews the report and allows you to verify the data before
-  reporting.  This option can be run multiple times.  
-  
-  
-  Export new member
-  file – Used to create a “.CSV” file.  
-  
- 
- 
-  
-  Member File Export Location
-  
-  
-  Click on the “ArrowDown”
-  to specify where to save the file.
-  
- 
- 
-  
-  PAYROLL EMPLOYEE FASTTAB – Payroll Employee information can be
-  filtered by entering information in this tab. 
-  Otherwise it can be left blank. 
-  
- 
- 
-  
-  EMPLOYEE SUPERANNUATION FASTTAB – Employee Superannuation information can be
-  filtered by entering information in this tab. Otherwise it can be left blank.
-  
- 
- 
-  
-  SUPERANNUATION FUND PRODUCT FASTTAB– Superannuation Fund Product information
-  can be filtered by entering information in this tab.  Otherwise it can be left blank.
-  
- 
- 
-  
-  When you have finished entering your
-  information, click on “Preview” or “Print” to
-  produce the file and report.
-  
- 
+### New Member Registration Export Report Sample
 
+The report fields contained on the New Member Registration Report are:
 
+ - Employee No.
+ - Employee First Name
+ - Employee Last Name
+ - Membership No.
+ - Employee Product Code
+ - Product Name
 
+Missing information will appear in the report and you should update the information accordingly. 
 
- 
+### Possible Error Messages
 
-2.5.2.1    
-New Member Registration Export Report Sample
-
- 
-
-
-
- 
-
-The
-report fields contained on the New Member Registration Report are:
-
- 
-
-
- Employee No.
- Employee First Name
- Employee Last Name
- Membership No.
- Employee Product Code
- Product Name
-
-
- 
-
-Missing
-information will appear in the report and you should update the information
-accordingly.  Please refer to the Error! Reference source not found. in Section 2.5.6.1 as to the location of
-where the data is stored with Dynamics NAV Payroll.
-
- 
-
-2.5.2.2    
-Possible Error Messages
-
- 
-
-Each of the Payment File Options will have their own
-mandatory requirements.  If the files are
+Each of the Payment File Options will have their own mandatory requirements.  If the files are
 rejected, please refer to the Error! Reference source not found. in Section 2.5.6
 of this document.
 
- 
+## Super Payment Export & Notification
+Employers have an obligation to report superannuation contributions to their employees:
 
-2.5.3    
-Super Payment Export & Notification
+- The amount of each superannuation contribution made for the employee during the period to which the pay slip relates, the name of any fund to which the contribution was made and the date the contribution was paid.
 
- 
+The Super Payment Export &Notification Report flags the Employee Superannuation Ledger Entry records to
+report to the employee by either Letter or Pay Advice.  When the report is run you must enter parameters for processing.  
 
-Employers have an obligation to
-report superannuation contributions to their employees:
+To access the Super Payment Export & Notification, 
 
- 
+Departments/Payroll/EOM Processing/Superannuation Processing/Super.Payment Export & Notification Report
 
-
- The amount of each superannuation contribution made
-     for the employee during the period to which the pay slip relates, the name
-     of any fund to which the contribution was made and the date the
-     contribution was paid.
-
-
- 
-
-The Super Payment Export &
-Notification Report flags the Employee Superannuation Ledger Entry records to
-report to the employee by either Letter or Pay Advice.  When the report is
-run you must enter parameters for processing.  
-
- 
-
-To access the Super Payment
-Export & Notification, 
-
- 
-
-Departments/Payroll/EOM
-Processing/Superannuation Processing/Super.Payment Export & Notification
-Report
-
-
-
- 
-
-
-
-
- 
-  
-   
-   Field
-   
-   
-   Comments
-   
-  
- 
- 
-  
-  Payroll No.
-  
-  
-  The Payroll No. can be selected from the “ArrowDown”. 
-   
-  If left blank all Payrolls are processed. 
-  
- 
- 
-  
-  Start Posting Date
-  
-  
-  Enter the Start Posting Date of the period you want to
-  include.  This will filter transactions
-  in the Superannuation Ledger Entry table based on the date that you enter in
-  this field.
-  
- 
- 
-  
-  End Posting Date
-  
-  
-  Enter the End Posting Date of the period you want to
-  include.  This will filter transactions
-  in the Superannuation Ledger Entry table based on the date that you enter in
-  this field.
-  
- 
- 
-  
-  Contribution Period Start Date
-  
-  
-  This date will default to the date that you have entered
-  in the “Start Posting Date” field.
-  
- 
- 
-  
-  Contribution End Date
-  
-  
-  This date will default to the end date that you have
-  entered in the “End Posting Date” field.
+|**Field**|**Comments**|
+|**Payroll No.**|The Payroll No. can be selected from the “ArrowDown”. |
+||If left blank all Payrolls are processed. |
+|**Start Posting Date**|Enter the Start Posting Date of the period you want to include. This will filter transactions in the Superannuation Ledger Entry table based on the date that you enter in this field.|
+|**End Posting Date**|Enter the End Posting Date of the period you want to include. This will filter transactions in the Superannuation Ledger Entry table based on the date that you enter in this field.|
+|**Contribution Period Start Date**|This date will default to the date that you have entered in the “Start Posting Date” field.|
+|**Contribution End Date**|This date will default to the end date that you have entered in the “End Posting Date” field.|
   
  
  
