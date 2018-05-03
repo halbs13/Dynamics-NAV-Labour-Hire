@@ -1,43 +1,24 @@
-
+# How to Setup Commissions
 
 This document will contain
 information relating to the setup of Commissions and contains the following
 sections:
 
- 
-
-Account Manager SetupCommission PlansCommission CalculationCommission ReportsAccount Manager Summary Report – Section 1Account Manager Summary Report – Section 2     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1     
-Account Manager Setup
+- Account Manager Setup
+- Commission Plans
+- Commission Calculation
+- Commission Reports
+  - Account Manager Summary Report – Section 1
+  - Account Manager Summary Report – Section 2     
+     
+# Account Manager Setup
 
 Account Managers must be set up in the Sales
 & Marketing granule. 
 
 To access the salespeople records go to:
 
-Departments/Sales &
-Marketing/Sales/Salespeople
+*Departments/Sales & Marketing/Sales/Salespeople*
 
 
 
