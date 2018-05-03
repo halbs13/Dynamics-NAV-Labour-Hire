@@ -148,8 +148,8 @@ Access this task by clicking the “Pay Dissections” task icon.
 
 Enter in Pay Rates in as an hourly rate. To access the Employee Pay Rates task, click the “Pay Rates” task icon. 
 
- |Field Name|Description|
- |-----------------------------------------|-------------------------------------------------------------------------------| 
+|Field Name|Description|
+|-----------------------------------------|-------------------------------------------------------------------------------| 
 |**Employee start Date**|This field should default to the Employee’s Start Date|
 |**Classification Code**|Click on the Arrow Up Button and select from the list – system created. | 
 |**Employee Rate**|Enter in the Employee’s rate as an hourly amount.|
