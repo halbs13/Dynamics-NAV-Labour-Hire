@@ -80,18 +80,9 @@ Processing/Commission Processing/Commission Summary Report*
 |-------------------------------------|---------------------------------------------------|
 |SALESPERSON/PURCHASE FASTTAB|
 |Code|Select and Account Manager or leave it blank to run for all Account Managers|  
-|When you have completed your selection, you can
-  either click “Print” to send the report to a
-  printer or “Preview” to view the report to the
-  screen.|
-  
- 
-
-
- 
-
-4     
-Commission Reports
+|When you have completed your selection, you can either click “Print” to send the report to a printer or “Preview” to view the report to the screen.|
+    
+# Commission Reports
 
  
 
