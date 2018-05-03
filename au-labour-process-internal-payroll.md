@@ -3,13 +3,16 @@
 This document will contain information relating to Internal Payroll Processing encompassing the following sections:
 
 
-- Entering New Employeeso Employee Cardo Payroll Employee Card
-- Processing Payso Pay Journals  
-- Enter Leave Adjustmentso Calculating Pays  
-- Entry Validation Reports  
-- Un-calculating Payso Creating a Bank Transfer File  
-- Post and Print Pay Advices  
-- Close Pay Period
+- Entering New Employees
+  - Employee Card
+  - Payroll Employee Card
+- Processing Pays
+  - Pay Journals  
+  - Enter Leave Adjustmentso Calculating Pays  
+  - Entry Validation Reports  
+  - Un-calculating Payso Creating a Bank Transfer File  
+  - Post and Print Pay Advices  
+  - Close Pay Period
 
 ## INTERNAL PAYROLL PROCESSING OVERVIEW
 All internal staff will be entered into the Human Resources and Payroll modules of Dynamics NAV.
