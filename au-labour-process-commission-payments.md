@@ -52,23 +52,23 @@ calculate commission for this Account Manager.
 To access the Commission Plans table, go to:
 *Departments/Labour Hire/End of Period Processing/Commission Processing/Commission Plans*
  
-|Field Name|Description|  
-|----------------------------------------------|----------------------------------|   
-  |**Commission Type**|This calculation method applies to which commission type.  An Account Manager may have several entries that specify how to calculate commission on Permanent Placements and have different entries that specify how to calculate commission of Contractor/Temp Placements.  The options available are Perm and Temp.| 
- |**Account Manager Code**|Code used to identify the Account Manager.|  
- |**Account Manager Name**|The Account Managers full name|  
- |**Perm Placement Fee Range Begin**|If Perm Placement fees are used to determine the commission percentage for this Account Manager then enter the starting range here.  For example, if a parameter is $0 - $6000 then $0 is entered here.|  
- |**Perm Placement Fee Range End**|If Perm Placement fees are used to determine commission percentage for this Account Manager then enter the ending range here.  For example, if a parameter is $0 - $6000 then $6000 is entered here.| 
- |**No. Contractors Range End**|If number of contractors paid this period is used to determine the commission percentage, then enter the ending range.  For example, if a parameter is 0 – 9 contractors, then enter 9 here.|  
- |**Temp Margin Range Begin**|If Temporary Contractors Margin is used to determine the commission percentage, enter the starting range here.|  
-  |**Temp Margin Range End**|If Temporary Contractors Margin is used to determine the commission percentage, enter the ending range here.| 
-  |**Total Perm/Margin Range Begin**|If Perm Fees plus Temporary Margins added together are used to determine commission percentage, enter the starting range here.|
- |**Total Perm/Margin Range End**|If Perm Fees plus Temporary Margins added together are used to determine the commission percentage, enter the ending range here.|
+|Field Name|Description|
+|----------------------------------------------|----------------------------------| 
+|**Commission Type**|This calculation method applies to which commission type.  An Account Manager may have several entries that specify how to calculate commission on Permanent Placements and have different entries that specify how to calculate commission of Contractor/Temp Placements.  The options available are Perm and Temp.| 
+|**Account Manager Code**|Code used to identify the Account Manager.| 
+|**Account Manager Name**|The Account Managers full name| 
+|**Perm Placement Fee Range Begin**|If Perm Placement fees are used to determine the commission percentage for this Account Manager then enter the starting range here.  For example, if a parameter is $0 - $6000 then $0 is entered here.| 
+|**Perm Placement Fee Range End**|If Perm Placement fees are used to determine commission percentage for this Account Manager then enter the ending range here.  For example, if a parameter is $0 - $6000 then $6000 is entered here.|
+|**No. Contractors Range Begin**|If number of contractors paid this period is used to determine the commission percentage, then enter the starting range here.  For example, if a parameter is 0 – 9 contractors, then enter 0 here.|
+|**No. Contractors Range End**|If number of contractors paid this period is used to determine the commission percentage, then enter the ending range.  For example, if a parameter is 0 – 9 contractors, then enter 9 here.| 
+|**Temp Margin Range Begin**|If Temporary Contractors Margin is used to determine the commission percentage, enter the starting range here.| 
+|**Temp Margin Range End**|If Temporary Contractors Margin is used to determine the commission percentage, enter the ending range here.|
+|**Total Perm/Margin Range Begin**|If Perm Fees plus Temporary Margins added together are used to determine commission percentage, enter the starting range here.| 
+|**Total Perm/Margin Range End**|If Perm Fees plus Temporary Margins added together are used to determine the commission percentage, enter the ending range here.|
 |**Commission Percentage**|Enter the commission percentage value that applies to this record.|
 |**Deduction Amount**|If the Account Manager gets salary deducted from the calculated commission then enter the salary amount per calculation period.  (Enter on each line for that Account Manager).|
 |**Prorate Temp/Perm**|If a Total Perm/Margin Range is used to calculate the percentage but the calculated amounts need to be split into separate Temp and Perm values then tick the Prorate field.|
 |**Accrual Rate**|This is a Boolean field, which is used to indicate which line will be used to determine the highest rate for this Account Manager for commission accrual purposes.  There will be one perm line ticked and one Temp line ticked.|
-
  
 
 # Commission Calculation
