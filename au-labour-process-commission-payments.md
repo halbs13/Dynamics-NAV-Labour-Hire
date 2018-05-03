@@ -64,41 +64,6 @@ To access the Commission Plans table, go to:*Departments/Labour Hire/End of Peri
 |**Accrual Rate**|This is a Boolean field, which is used to indicate which line will be used to determine the highest rate for this Account Manager for commission accrual purposes.  There will be one perm line ticked and one Temp line ticked.|
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
- 
-
 # Commission Calculation
 
        
@@ -111,47 +76,14 @@ To run the Commission Summary Report go to:
 *Departments/Labour Hire/End of Period
 Processing/Commission Processing/Commission Summary Report*
 
- 
-
-
-
- 
-
- 
-
-
- 
-  
-   
-   Field Name
-   
-   
-   Description
-   
-  
- 
- 
-  
-  SALESPERSON/PURCHASE
-  FASTTAB
-  
- 
- 
-  
-  Code
-  
-  
-  Select and Account Manager or leave it
-  blank to run for all Account Managers. 
-  
-  
- 
- 
-  
-  When you have completed your selection, you can
+|Field Name|Description|
+|-------------------------------------|---------------------------------------------------|
+|SALESPERSON/PURCHASE FASTTAB|
+|Code|Select and Account Manager or leave it blank to run for all Account Managers|  
+|When you have completed your selection, you can
   either click “Print” to send the report to a
   printer or “Preview” to view the report to the
-  screen.
+  screen.|
   
  
 
