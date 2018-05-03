@@ -78,8 +78,8 @@ Processing/Commission Processing/Commission Summary Report*
 
 |Field Name|Description|
 |-------------------------------------|---------------------------------------------------|
-|SALESPERSON/PURCHASE FASTTAB|
-|Code|Select and Account Manager or leave it blank to run for all Account Managers|  
+|**SALESPERSON/PURCHASE FASTTAB**|
+|**Code**|Select and Account Manager or leave it blank to run for all Account Managers|  
 |When you have completed your selection, you can either click “Print” to send the report to a printer or “Preview” to view the report to the screen.|
     
 # Commission Reports
@@ -89,9 +89,8 @@ Processing/Commission Processing/Commission Summary Report*
 There are 2 reports that are produced by this
 process.
 
-Account
-Manager Summary ReportAccount
-Manager Audit Report
+- Account Manager Summary Report
+- Account Manager Audit Report
 
 
 
