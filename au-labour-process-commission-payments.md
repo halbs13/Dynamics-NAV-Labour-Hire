@@ -37,7 +37,7 @@ To add a new record, click on the “New” icon.
 ||Select the Global Dimension 1 Code from the “ArrowDown”.|
 |**Global Dimension 2**|This field is used to select the Global Dimension 2 Code.|
 ||Select the Global Dimension 2 Code from the “ArrowDown”.|
- 
+
 |Field Name|Description|
 |----------------------------------------------|----------------------------------|
 |**Commission Type**|This calculation method applies to which commission type.  An Account Manager may have several entries that specify how to calculate commission on Permanent Placements and have different entries that specify how to calculate commission of Contractor/Temp Placements.  The options available are Perm and Temp.|
