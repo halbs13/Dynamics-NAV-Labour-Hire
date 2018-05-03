@@ -146,28 +146,10 @@ in the Pay Dissections area.
 Access this task by clicking the “Pay Dissections”
 task icon. 
 
-
-
- 
-
-
- 
-  
-   
-   Field Name
-   
-   
-   Description
-   
-  
- 
- 
-  
-  Transaction Type Code
-  
-  
-  Transaction Type Code 9999 will default in this
-  field.
+|Field Name|Description|
+|-----------------------------------------|-------------------------------------------------------------------------------|
+|**Transaction Type Code**|Transaction Type Code 9999 will default in this
+  field.|
   
  
  
