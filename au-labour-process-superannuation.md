@@ -78,8 +78,7 @@ Departments/Payroll/EOM Processing/Superannuation Processing/Bulk Adjustment
 |**New Employer SGC %**|Enter the new percentage for the selected Superannuation records.|
 |**New Employer SGC amount**|Enter the new amount for the selected Superannuation records.|
 |**New Employer Factor**|Enter the new amount for the selected Superannuation records.|
-|**New Employee Post Tax Standard %**|Enter the new standard percentage for the selected Superannuation records.|
-|**New Employee Post Tax Amount**|Enter the new standard amount for the selected Superannuation records.|
+|**New Employee Post Tax Standard %**|Enter the new standard percentage for the selected Superannuation records.||**New Employee Post Tax Amount**|Enter the new standard amount for the selected Superannuation records.|
 |**Update Employees**|Tick this field to update the records. Leave this field un-ticked not to update the employee records.|
 ||**SUPERANNUATION FUND PRODUCT FASTTAB - Only the standard fields are covered. A full list of fields available as filters can be used by selecting the add filter.**|
 |**Transaction Type Code**|Select the Transaction Type Code for the Superannuation records you wish to adjust. If left blank all Superannuation Pay Transaction Type codes are selected.|
@@ -113,329 +112,75 @@ Departments/Payroll/EOM Processing/Superannuation Processing/Calculate Monthly S
 |**Month Start Date**|This field displays the 1st date of the above month after the date has been entered.|
 |**Month End Date**|This field displays the last date of the above month after the date has been entered.|
 |**Report Only**|Tick this flag to produce a report without updating the Employee Superannuation Ledger records. Leave this field blank to update the Employee Superannuation Ledger records.|
-||**If you wish to preview the report to screen, you should ensure that you click “Report Only” and then click “Preview”.**| 
-||**If you wish to create Superannuation Ledger Entries, you should ensure that “Report Only” is NOT TICKED and print the**|
-||**report.   You can send the report to a printer or save as a pdf, click “Print” and select the relevant option.**|
-  
- 
+||**If you wish to preview the report to screen, you should ensure that you click “Report Only” and then click “Preview”. If you wish to create Superannuation Ledger Entries, you should ensure that “Report Only” is NOT TICKED and print the report. You can send the report to a printer or save as a pdf, click “Print” and select the relevant option.**|
 
+## Calculate & Post Superannuation
 
-2.3       Calculate
-& Post Superannuation
+This option is used to calculate and post superannuation transactions to the General Ledger. This 
+option can be run after each pay period to pick up Superannuation Transactions that were calculated 
+during the pay process.
 
-This option is
-used to calculate and post superannuation transactions to the General Ledger.
-This option can be run after each pay period to pick up Superannuation
-Transactions that were calculated during the pay process.
-
-This process must
-be run after the “Calculate Monthly Superannuation” process has run when you
+This process must be run after the “Calculate Monthly Superannuation” process has run when you
 use the On Costing method to calculate Superannuation.
 
-To access the Calculate Monthly Superannuation,
-go to the following menu:
+To access the Calculate Monthly Superannuation, go to the following menu:
 
-Departments/Payroll/EOM
-Processing/Superannuation Processing/Calculate & Post Superannuation  
+Departments/Payroll/EOM Processing/Superannuation Processing/Calculate & Post Superannuation  
 
+### Edit: Calculate & Post Super.Exp
 
+|**Field Name**|**Description**|
+|------------------------------------------|---------------------------------------------------------------------------------------| 
+|**Payroll No.**|This field displays the payroll number for the selected payroll.|
+|**Posting date**|This field is used to enter the date you want the Superannuation transactions posted.|
+|**Month Start Date**|This field displays the 1st date of the above month after the date has been entered.| 
+|**Month End Date**|This field displays the last date of the above month after the date has been entered.|
+|**Document No.**|Enter a meaningful document number to identify the transactions in the General Ledger.|
+|**Report Only**|Tick this flag to produce a report without updating the General Ledger. Leave this field blank to update the General Ledger. When the “Report Only” is ticked no posting will occur even if Post to G/L is ticked.|
+|**Post to General Ledger**|Tick this flag to post to the General ledger. If left un-ticked the report is produced without updating the General Ledger.|
+|**Create Vendor Invoices**|Tick this option to create Vendor Invoices for the Superannuation Pay Transaction Type with Vendor Number setups.|
+|**Consolidate Vendor Invoices**|Tick this option to create one invoice per Vendor. If left un-ticked a separate vendor invoice is created for each employee Superannuation record.| 
+|**Skip SGC Employees**|If you run this process more than once per month (i.e. after each payroll for non-monthly pay frequencies then) you must tick this option. The flag must be left blank for the last Calculate & Post Superannuation process for the month. SGC Employee transactions are Employer contributions.|
+||**If you wish to preview the report to screen, you should ensure that you click “Report Only” and then click “Preview”.**|
+||**If you wish to create Superannuation Ledger Entries, you should ensure that “Report Only” is NOT TICKED and print the report. You can send the report to a printer or save as a pdf, click “Print” and select the relevant option.**|
 
-2.3.1    
-Edit: Calculate & Post Super.Exp
+## Superannuation Report
 
- 
+After you have finalised the EOM Superannuation use this report to remit your payments to the funds.
 
-
- 
-  
-   
-   Field Name
-   
-   
-   Description
-   
-  
- 
- 
-  
-  Payroll No.
-  
-  
-  This field displays the payroll number for
-  the selected payroll.
-  
- 
- 
-  
-  Posting date
-  
-  
-  This field is used to enter the date you
-  want the Superannuation transactions posted.
-  
- 
- 
-  
-  Month Start Date
-  
-  
-  This field displays the 1st date
-  of the above month after the date has been entered. 
-  
- 
- 
-  
-  Month End Date
-  
-  
-  This field displays the last date of the
-  above month after the date has been entered.
-  
- 
- 
-  
-  Document No.
-  
-  
-  Enter a meaningful document number to
-  identify the transactions in the General Ledger.
-  
- 
- 
-  
-  Report Only
-  
-  
-  Tick this flag to produce a report without
-  updating the General Ledger. Leave this field blank to update the General
-  Ledger. When the “Report Only” is ticked no posting will occur even if Post
-  to G/L is ticked.
-  
- 
- 
-  
-  Post to General Ledger
-  
-  
-  Tick this flag to post to the General
-  ledger. If left un-ticked the report is produced without updating the General
-  Ledger.
-  
- 
- 
-  
-  Create Vendor Invoices
-  
-  
-  Tick this option to create Vendor Invoices
-  for the Superannuation Pay Transaction Type with Vendor Number setups.
-  
- 
- 
-  
-  Consolidate Vendor
-  Invoices
-  
-  
-  Tick this option to create one invoice per
-  Vendor. If left un-ticked a separate vendor invoice is created for each
-  employee Superannuation record. 
-  
- 
- 
-  
-  Skip SGC Employees
-  
-  
-  If you run this process more than once per
-  month ( i.e. after each payroll for non-monthly pay frequencies then ) you
-  must tick this option. The flag must be left blank for the last Calculate
-  & Post Superannuation process for the month. SGC Employee transactions
-  are Employer contributions.
-  
- 
- 
-  
-  If
-  you wish to preview the report to screen, you should ensure that you click “Report Only” and then click “Preview”.
-  If you wish to create Superannuation Ledger Entries, you should
-  ensure that “Report Only” is NOT
-  TICKED and print the
-  report.   You can send the report to a
-  printer or save as a pdf, click “Print” and select the relevant option.
-  
- 
-
-
- 
-
- 
-
-2.4       Superannuation
-Report
-
-After you have finalised the EOM Superannuation
-use this report to remit your payments to the funds.
-
-This report lists the detailed superannuation
-transaction types (Employee, Membership No and Amount) for the selected
+This report lists the detailed superannuation transaction types (Employee, Membership No and Amount) for the selected
 criteria.
 
-The report is sorted by Superannuation Company
-and then transaction type with a transaction total for both Employee and
+The report is sorted by Superannuation Company and then transaction type with a transaction total for both Employee and
 Employer contributions.
 
-You can select to run this report using a total
-per Employee with a Fund total instead.
+You can select to run this report using a total per Employee with a Fund total instead.
 
-To access the Superannuation Report, go to the
-following menu:
+To access the Superannuation Report, go to the following menu:
 
-Departments/Payroll/EOM
-Processing/Superannuation Processing/Superannuation Report  
+Departments/Payroll/EOM Processing/Superannuation Processing/Superannuation Report  
 
-
-
-2.4.1    
-Edit: Superannuation Report 
-
-
- 
-  
+### Edit: Superannuation Report 
    
-   Field Name
-   
-   
-   Description
-   
+|**Field Name**|**Description**|
+|---------------------------------------|---------------------------------------------------------------------------------------|   
+||**OPTIONS FASTTAB**|
+|**Payroll No.**|Type in or select from the ArrowDown button, the Payroll which you wish to report on.| 
+||**SUPERANNUATION FUND PRODUCT FASTTAB - Only the standard fields are covered. A full list of fields available as filters can be used by selecting the add filter.**|
+|**Code**|Select the Transaction Type Code for the Superannuation records you wish to adjust. If left blank all Superannuation Pay Transaction Type codes are selected.| 
+||**SUPERANNUATION LEDGER ENTRY FASTTAB - Only the standard fields are covered. A full list of fields available as filters can be used by selecting the add filter.**|
+|**Posting Date**|Enter the date of which you wish to generate transactions for.|
+||You can enter in date filters as follows:| 
+||01/09/2012..30/09/2012 and this will retrieve information with a posting date within this range.|
+||If you wish to preview the report to screen, click “Preview”. If you wish to print the report to a printer or save as a pdf, click “Print” and select the relevant option.|
   
- 
- 
-  
-  OPTIONS
-  FASTTAB
-  
- 
- 
-  
-  Payroll No.
-  
-  
-  Type in or select from the ArrowDown button,
-  the Payroll which you wish to report on. 
-  
-  
- 
- 
-  
-  SUPERANNUATION
-  FUND PRODUCT FASTTAB - Only the standard fields are covered. A full list of
-  fields available as filters can be used by selecting the add filter.
-  
- 
- 
-  
-  Code
-  
-  
-  Select the Transaction Type Code for the
-  Superannuation records you wish to adjust. If left blank all Superannuation
-  Pay Transaction Type codes are selected. 
-  
- 
- 
-  
-  SUPERANNUATION
-  LEDGER ENTRY FASTTAB - Only the standard fields are covered. A full list of
-  fields available as filters can be used by selecting the add filter.
-  
- 
- 
-  
-  Posting Date
-  
-  
-  Enter the date of which you wish to generate
-  transactions for.
-  You can enter in date filters as follows:
-  01/09/2012..30/09/2012 and this will
-  retrieve information with a posting date within this range.
-  
- 
- 
-  
-  If
-  you wish to preview the report to screen, click “Preview”. 
-  If you wish to print the report to a printer or save as a pdf, click “Print” and select the relevant option.
-  
- 
-
-
- 
-
- 
-
-
-
- 
-
-
-
-
 The fields on the Superannuation Report are:
 
- 
-
-
-
-
- 
-  
-   
-   Report Field
-   
-   
-   Field No.
-   
-   
-   Obtained from
-   
-  
- 
- 
-  
-  Transaction Type Code
-  
-  
-  (1)
-  
-  
-  This identifies the Transaction Type code for the
-  contribution.  This information will be
-  available on each of the Superannuation Products.
-  
- 
- 
-  
-  Tran. Type Description
-  
-  
-  (2)
-  
-  
-  This field identifies the description of the Transaction
-  Type code for the contribution.
-  
- 
- 
-  
-  Employee No.
-  
-  
-  (3)
-  
-  
-  This is the Employee No.
+|**Report Field**|**Field No.**|**Obtained from**|
+|---------------------------------|---------|----------------------------------------------------------------------------------| 
+|**Transaction Type Code**|(1)|This identifies the Transaction Type code for the contribution. This information will be available on each of the Superannuation Products.|
+|**Tran. Type Description**|(2)|This field identifies the description of the Transaction Type code for the contribution.|
+|**Employee No.**|(3)|This is the Employee No.|
   
  
  
