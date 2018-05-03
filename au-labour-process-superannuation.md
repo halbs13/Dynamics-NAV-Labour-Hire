@@ -181,177 +181,67 @@ The fields on the Superannuation Report are:
 |**Transaction Type Code**|(1)|This identifies the Transaction Type code for the contribution. This information will be available on each of the Superannuation Products.|
 |**Tran. Type Description**|(2)|This field identifies the description of the Transaction Type code for the contribution.|
 |**Employee No.**|(3)|This is the Employee No.|
-  
- 
- 
-  
-  Employee Name
-  
-  
-  (4)
-  
-  
-  This is the Employee Name.
-  
- 
- 
-  
-  Membership No.
-  
-  
-  (5)
-  
-  
-  This is the Employee’s Superannuation Membership No.
-  
- 
- 
-  
-  Amount
-  
-  
-  (6)
-  
-  
-  This is the contribution amount of the employee. 
-  
- 
- 
-  
-  Fund Total
-  
-  
-  (7)
-  
-  
-  This will be the Fund Total Amount.
-  
- 
+|**Employee Name**|(4)|This is the Employee Name.|
+|**Membership No.**|(5)|This is the Employee’s Superannuation Membership No.|
+|**Amount**|(6)|This is the contribution amount of the employee.| 
+|**Fund Total**|(7)|This will be the Fund Total Amount.|
 
+## SuperStream Payment Requirements
 
+Under the Superannuation Guarantee you must pay superannuation contributions to the correct superannuation 
+fund, by the cut off dates, for all your eligible employees.  
 
+You may also be required to offer a choice of superannuation fund to your eligible employees.
 
- 
+The superannuation guarantee is administered on a self-assessing basis and there are laws requiring you to meet
+your superannuation obligations. It is your responsibility as an employer to ensure arrangements you have in 
+place for your employees satisfy the government’s superannuation guarantee requirements.  
 
-2.5      
-SuperStream Payment Requirements
+More information can be found on at the Australian Taxation Office website: http://www.ATO.gov.au.
 
+Dialog Pty Ltd has developed the “Superannuation Payments” Module.  The module will allow you to produce a
+mail merge (.CSV) file or print the Superannuation payments on the employees next Pay Advice after you pay the fund.  
 
-
- 
-
-Under the Superannuation
-Guarantee you must pay superannuation contributions to the correct
-superannuation fund, by the cut off dates, for all your eligible
-employees.  
-
- 
-
-You may also be required to offer
-a choice of superannuation fund to your eligible employees.
-
- 
-
-The superannuation guarantee is
-administered on a self-assessing basis and there are laws requiring you to meet
-your superannuation obligations.  It is your responsibility as an employer
-to ensure arrangements you have in place for your employees satisfy the
-government’s superannuation guarantee requirements.  
-
- 
-
-More information can be found on
-at the Australian Taxation Office website: http://www.ATO.gov.au.
-
- 
-
-Dialog Pty Ltd has developed the
-“Superannuation Payments” Module.  The module will allow you to produce a
-mail merge (.CSV) file or print the Superannuation payments on the employees
-next Pay Advice after you pay the fund.  
-
- 
-
-When an employee is not paid in
-the next pay run the module will allow you to produce a mail merge (.CSV) file
+When an employee is not paid in the next pay run the module will allow you to produce a mail merge (.CSV) file
 to create a letter for the employee.
 
- 
-
-An export has been created to allow for New Member information to be
-remitted to the fund electronically which can be produced for an employee or a
-Payroll, Superannuation Fund Product. 
-The export can be revised in preview mode which will highlight any
-missing information such as Membership and Address information.
-
- 
+An export has been created to allow for New Member information to be remitted to the fund electronically 
+which can be produced for an employee or a Payroll, Superannuation Fund Product. The export can be revised 
+in preview mode which will highlight any missing information such as Membership and Address information.
 
 There are 5 Superannuation Payment File options:
 
- 
+- Generic
+- ClickSuper
+- SuperChoice
+- SunSuper
+- SuperStream Alternative
+- Quick Super
 
-
- Generic
- ClickSuper
- SuperChoice
- SunSuper
- SuperStream Alternative
- Quick Super
-
-
- 
-
-It is recommended
-that you review the requirements of the file layouts as contained in section 2.5.6- 
-Superannuation File Layouts to ensure that you have the necessary mandatory
-information completed.
-
- 
+It is recommended that you review the requirements of the file layouts as contained in section 2.5.6- 
+Superannuation File Layouts to ensure that you have the necessary mandatory information completed.
 
 To open the Superannuation Payments module, 
 
- 
+Department/Payroll/Periodic Activities/Superannuation/Superannuation Payments
 
-Department/Payroll/Periodic Activities/Superannuation/Superannuation
-Payments
+The Superannuation Payment Module contains the following Menu Options: 
 
+Super. Payment Export & Notification – this report flags the Employee Superannuation Ledger Entry
+records for reporting to the employee by either Letter or Pay Advice. When the report is run you 
+select the parameters for processing, to control how the update is processed.  As a default the 
+report runs as “Preview no Post” to be used to reconcile the reportable amounts.  After you have reconciled 
+the amounts; re-run the report selecting the reporting method you wish to report the amounts to your employees.
 
+Super. Payment Export Reversal – This option is used to reverse the reporting flags when an error was made
+before the amounts have been physically reported to your employees. If the Payment Advice has been reported
+to your employees you cannot use this option.
 
-The Superannuation Payment Module
-contains the following Menu Options: 
+New Member Registration Export – This report is used to provide the Employee information to the
+Superannuation Fund.  The report can be previewed so that any errors or information missing on the 
+Employee file is rectified prior to producing a file.  
 
- 
-
-Super. Payment Export &
-Notification – this report flags the Employee Superannuation Ledger Entry
-records for reporting to the employee by either Letter or Pay Advice. 
-When the report is run you select the parameters for processing, to control how
-the update is processed.  As a default the report runs as “Preview no
-Post” to be used to reconcile the reportable amounts.  After you have
-reconciled the amounts; re-run the report selecting the reporting method you
-wish to report the amounts to your employees.
-
- 
-
-Super. Payment Export Reversal
-– This option is used to reverse the reporting flags when an error was made
-before the amounts have been physically reported to your employees.  If
-the Payment Advice has been reported to your employees you cannot use this
-option.
-
- 
-
-New Member Registration Export
-– This report is used to provide the Employee information to the
-Superannuation Fund.  The report can be
-previewed so that any errors or information missing on the Employee file is
-rectified prior to producing a file.  
-
- 
-
-2.5.1    
-Superannuation Payment
-Reporting
+## Superannuation Payment Reporting
 
  
 
