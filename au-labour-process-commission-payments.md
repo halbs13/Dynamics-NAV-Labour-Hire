@@ -43,7 +43,9 @@ To add a new record, click on the “New” icon.
 # Commission Plans
  
 When Account Managers are set up duringinitial implementation or as new Account Managers are hired they will need tohave a Commission Plan selected.  Thevalues found in this table will tell the Commission calculation program how tocalculate commission for this Account Manager.
-To access the Commission Plans table, go to:*Departments/Labour Hire/End of Period Processing/Commission Processing/Commission Plans*
+To access the Commission Plans table, go to:
+
+*Departments/Labour Hire/End of Period Processing/Commission Processing/Commission Plans*
 
 |Field Name|Description|
 |----------------------------------------------|----------------------------------|
@@ -65,11 +67,8 @@ To access the Commission Plans table, go to:*Departments/Labour Hire/End of Peri
 
 
 # Commission Calculation
-
        
 ## Report Selection Criteria
-
- 
 
 To run the Commission Summary Report go to:
 
@@ -82,9 +81,7 @@ Processing/Commission Processing/Commission Summary Report*
 |**Code**|Select and Account Manager or leave it blank to run for all Account Managers|  
 |When you have completed your selection, you can either click “Print” to send the report to a printer or “Preview” to view the report to the screen.|
     
-# Commission Reports
-
- 
+# Commission Reports 
 
 There are 2 reports that are produced by this
 process.
@@ -92,15 +89,10 @@ process.
 - Account Manager Summary Report
 - Account Manager Audit Report
 
-
-
 This first report is a summary report broken
 into 2 sections that shows the following information in section 1
 
-4.1      
-Account Manager Summary Report – Section 1
-
-
+## Account Manager Summary Report – Section 1
 
 COMMISSION SUMMARY REPORT
 
@@ -114,9 +106,7 @@ Commission for -                                �
 
 Contracting Period -                                            01/04/01 – 29/04/01
 
-Permanent Placement Period -                           01/04/01 – 29/04/01
-
- 
+Permanent Placement Period -                                    01/04/01 – 29/04/01
 
  
 
