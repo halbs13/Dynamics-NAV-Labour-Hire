@@ -247,20 +247,10 @@ Commission Payable                               
 The information contained in the lower
 section is as follows:
 
-4.2      
-Account Manager Summary Report – Section 2
+  Account Manager Summary Report – Section 2
 
  
 
-
-
- 
-
- 
-
-
-
-4.2.1.1    
 Administration Section
 
 
