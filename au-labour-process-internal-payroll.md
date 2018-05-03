@@ -74,10 +74,10 @@ Click on the “New” button. The cursor will be on the ‘Employee No’ on th
 |**Phone No.**|The employee’s phone number will default if entered on the General Tab|
 |**E-mail**|Enter the employee’s email address. This will be required if intending on emailing the employee’s pay advice| 
 |**ADMINISTRATION FASTTAB**|| 
-|**Employment date**||
-|**Status**|| 
+|**Employment date**|Enter the employee’s employment or start date. This field is a mandatory field, if nothing is entered will cause issues when calculating pays.|
+|**Status**|This will default to ‘Active’| 
 |**PERSONAL FASTTAB**||
-|**Birth Date**||
+|**Birth Date**|Enter the employee’s birth date|
 |**Click “OK” once you have completed all fields required.**||
 
 
