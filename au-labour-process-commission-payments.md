@@ -38,6 +38,13 @@ To add a new record, click on the “New” icon.
 |**Global Dimension 2**|This field is used to select the Global Dimension 2 Code.|
 ||Select the Global Dimension 2 Code from the “ArrowDown”.|
 
+
+
+# Commission Plans
+ 
+When Account Managers are set up duringinitial implementation or as new Account Managers are hired they will need tohave a Commission Plan selected.  Thevalues found in this table will tell the Commission calculation program how tocalculate commission for this Account Manager.
+To access the Commission Plans table, go to:*Departments/Labour Hire/End of Period Processing/Commission Processing/Commission Plans*
+
 |Field Name|Description|
 |----------------------------------------------|----------------------------------|
 |**Commission Type**|This calculation method applies to which commission type.  An Account Manager may have several entries that specify how to calculate commission on Permanent Placements and have different entries that specify how to calculate commission of Contractor/Temp Placements.  The options available are Perm and Temp.|
@@ -87,18 +94,7 @@ To add a new record, click on the “New” icon.
 
 
 
-# Commission Plans
 
- 
-
-When Account Managers are set up during
-initial implementation or as new Account Managers are hired they will need to
-have a Commission Plan selected.  The
-values found in this table will tell the Commission calculation program how to
-calculate commission for this Account Manager.
-
-To access the Commission Plans table, go to:
-*Departments/Labour Hire/End of Period Processing/Commission Processing/Commission Plans*
  
 
  
