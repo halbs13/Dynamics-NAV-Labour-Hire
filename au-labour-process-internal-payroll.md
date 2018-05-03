@@ -28,15 +28,15 @@ To access the Employee Maintenance task, go to the following menu:
 
 *Departments/Payroll/Employee Maintenance/Employees* 
 
-- Enter the new employee into the Payroll module. To access the Employee Maintenance task Click the “Payroll Employee Card” button or go to the following menu: *Departments/Payroll/Employee Maintenance/Payroll Employees* 
-- Enter in Bank Details. To access the Bank Details task, Click the “Pay Dissections” task icon. 
-- Enter in Pay Rates in as an hourly rate. To access the Bank Details task, Click the “Pay Rates” task icon. 
-- Enter in Permanent Pay and Allowances. To access the Pay and Allowances task, Click the “Gross & Allowances” task icon. 
-- Enter in Permanent Deductions. To access the Deductions task, Click the “Deductions” task icon. 
-- Enter in Superannuation Fund. To access the Superannuation task, Click the “Superannuation” task icon. 
-- Enter in Employer On Costs such as Payroll Tax. To access the Employer On Costs task, Click the “Accumulation Calculations” and select the “Employer On Costs” task icon. 
-- Review and Add new leave accrual types such as Annual Leave , Sick Leave and Long Service Leave. To access the Leave Accrual task, Click the “Accruals” task icon.  
-- After you have completed these steps, you are then ready to process pays.
+- Enter the new employee into the Payroll module. To access the Employee Maintenance task Click the “Payroll Employee Card” button or go to the following menu: *Departments/Payroll/Employee Maintenance/Payroll Employees* 
+- Enter in Bank Details. To access the Bank Details task, Click the “Pay Dissections” task icon. 
+- Enter in Pay Rates in as an hourly rate. To access the Bank Details task, Click the “Pay Rates” task icon. 
+- Enter in Permanent Pay and Allowances. To access the Pay and Allowances task, Click the “Gross & Allowances” task icon. 
+- Enter in Permanent Deductions. To access the Deductions task, Click the “Deductions” task icon. 
+- Enter in Superannuation Fund. To access the Superannuation task, Click the “Superannuation” task icon. 
+- Enter in Employer On Costs such as Payroll Tax. To access the Employer On Costs task, Click the “Accumulation Calculations” and select the “Employer On Costs” task icon. 
+- Review and Add new leave accrual types such as Annual Leave , Sick Leave and Long Service Leave. To access the Leave Accrual task, Click the “Accruals” task icon.  
+- After you have completed these steps, you are then ready to process pays.
 
 ### Processing Pays
 
@@ -96,7 +96,7 @@ Click on the “New” button.
  
 On the Payroll Employee Card go to the Employee No and from the Employee List select the employee you wish to continue entering on Payroll and proceed to complete the following details:Once the New Employee has been selected ‘Press Enter’ and the information that was entered into the Human Resources Employee Card will default to the relevant fields in the Payroll Employee Card. 
   
-###  Edit: Payroll Employee Card 
+### Edit: Payroll Employee Card 
  
  
  
