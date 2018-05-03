@@ -499,7 +499,6 @@ The fields contained in the New Member Registration Export file are:
 |**Suburb**|The “Suburb” is sourced from the Employee card.
 |**Post Code**|The “Post Code” field is sourced from the Employee card.|
 |**State**|The “State” field is sourced from the Employee card.|
-|**Country**|The “Country” field is sourced from the Employee card.|
 |**E-Mail**|The “E-Mail” field is sourced from the Employee card.|
 |**Phone No.**|The “Phone No.” field is sourced from the Employee card.|
 |**Membership No.**|The “Membership No.” field is sourced from the Employee Superannuation card.|
@@ -509,515 +508,56 @@ The fields contained in the New Member Registration Export file are:
 |**Termination Date**|The “Termination Date” field is sourced from the Payroll Employee card.|
 |**Termination Reason**|The “Termination Reason” field is sourced from the Employee card.|
 |**Annual Salary**|The Annual Salary information is sourced from the Employee Pay Rates card.|
-|**Hours worked per Week**|The “Hours worked per Week” information is sourced from the Payroll Employee card.|
 |**Date Joined Fund**|The “Date Joined Fund” field is populated from the Employee Superannuation card.|
 
 ## Generic Payment Format
 
 The fields contained in the Generic Payment file are:
    
-   Field Name
-   
-   
-   Mandatory
-   
-   
-   Description
-   
-  
- 
- 
-  
-  Reference
-  
-  
-  Mandatory
-  
-  
-  This is the Reference ID for the file and is system
-  generated.
-  
- 
- 
-  
-  Contribution Start Date
-  
-  
-  Mandatory
-  
-  
-  The “Contribution Start Date” field is populated from the
-  data that you enter into the Super Payment Export & Notification Form. 
-  
- 
- 
-  
-  Contribution End Date
-  
-  
-  Mandatory
-  
-  
-  The “Contribution End Date” field is populated from the
-  data that you enter into the Super Payment Export & Notification Form. 
-  
- 
- 
-  
-  Organisation Name
-  
-  
-  Mandatory
-  
-  
-  The “Organisation Name” is sourced from the Payroll
-  Company Name field.
-  
- 
- 
-  
-  Organisation ABN
-  
-  
-  Mandatory
-  
-  
-  The “Organisation ABN” is sourced from the Payroll Company
-  ABN field.
-  
- 
- 
-  
-  Superannuation Fund Employer ID
-  
-  
-  Mandatory
-  
-  
-  The “Superannuation Fund Employer ID” is sourced from the
-  Fund Employer ID on the Superannuation Fund.
-  
- 
- 
-  
-  Superannuation Fund ABN
-  
-  
-  Mandatory
-  
-  
-  The “Superannuation Fund ABN” is sourced from the Fund ABN
-  on the Superannuation Fund.
-  
- 
- 
-  
-  Superannuation Fund Banking Institution Name
-  
-  
-  Mandatory
-  
-  
-  The “Superannuation Fund Banking Institution Name” is
-  sourced from the Banking Institution Name on the Superannuation Fund.
-  
- 
- 
-  
-  Superannuation Fund Bank Account Name
-  
-  
-  Mandatory
-  
-  
-  The “Superannuation Fund Bank Account Name” is sourced
-  from the Bank Account Name on the Superannuation Fund.
-  
- 
- 
-  
-  Superannuation Fund Bank Account Number
-  
-  
-  Mandatory
-  
-  
-  The “Superannuation Fund Bank Account Number” is sourced
-  from the Bank Account Number on the Superannuation Fund.
-  
- 
- 
-  
-  Superannuation Fund Bank Branch No.
-  
-  
-  Mandatory
-  
-  
-  The “Superannuation Fund Bank Branch No.” is sourced from
-  the Bank Branch No. on the Superannuation Fund.
-  
- 
- 
-  
-  Remittance E-Mail
-  
-  
-  Mandatory
-  
-  
-  The “Remittance E-Mail” is sourced from the Remittance
-  E-Mail Address on the Superannuation Fund. 
-  (This will be replaced by IP address from 1 July 2014)
-  
- 
- 
-  
-  Electronic Service Address
-  
-  
-  Mandatory
-  
-  
-  The “Electronic Service Address” is sourced from the
-  Electronic Service Address on the Superannuation Fund.
-  
- 
- 
-  
-  Product ID No. (SPIN)
-  
-  
-  Mandatory
-  
-  
-  The “Product ID No.” is sourced from the Product ID No. on
-  the Superannuation Product.
-  
- 
- 
-  
-  Unique Identifier (USI)
-  
-  
-  Mandatory
-  
-  
-  The “Unique Identifier (USI)” is sourced from the Unique
-  Identifier on the Superannuation Product.
-  
- 
- 
-  
-  Employee Membership No.
-  
-  
-  Mandatory
-  
-  
-  The “Employee Membership No.” is sourced from the
-  Membership No. on the Employee Superannuation table.
-  
- 
- 
-  
-  Employee No.
-  
-  
-  Optional
-  
-  
-  The “Employee No.” is sourced from the Employee No. on the
-  Payroll Employee table.
-  
- 
- 
-  
-  Tax File Number
-  
-  
-  Mandatory
-  
-  
-  The “Tax File Number” is sourced from the Tax File Number
-  on the Payroll Employee table.
-  
- 
- 
-  
-  Tax File Number Not Provided Indicator
-  
-  
-  Mandatory
-  
-  
-  The “Tax File Number” field is updated is an employee does
-  not provide a Tax File Number.
-  
- 
- 
-  
-  Title
-  
-  
-  Optional
-  
-  
-  The “Title” is sourced from the Title field on the
-  Employee table.
-  
- 
- 
-  
-  Employee Last Name
-  
-  
-  Mandatory
-  
-  
-  The “Employee Last Name” is sourced from the Last Name on
-  the Employee table.
-  
- 
- 
-  
-  Employee First Name
-  
-  
-  Mandatory
-  
-  
-  The “Employee First Name” is sourced from the First Name
-  on the Employee table.
-  
- 
- 
-  
-  Employee Middle Name
-  
-  
-  Optional
-  
-  
-  The “Employee Middle Name” is sourced from the Middle Name
-  on the Employee table.
-  
- 
- 
-  
-  Employee Gender
-  
-  
-  Optional
-  
-  
-  The “Employee Gender” is sourced from the Gender on the
-  Employee table.
-  
- 
- 
-  
-  Employee Birth Date
-  
-  
-  Optional
-  
-  
-  The “Employee Birth Date” is sourced from the Birth Date
-  on the Employee table.
-  
- 
- 
-  
-  Employment Start Date
-  
-  
-  Mandatory
-  
-  
-  The “Employment Start Date” is sourced from the Start Date
-  on the Employee table.
-  
- 
- 
-  
-  Employee Termination Date
-  
-  
-  Optional
-  
-  
-  The “Employee Termination Date” is sourced from the
-  Termination Date on the Payroll Employee table.
-  
- 
- 
-  
-  Employee Address
-  
-  
-  Optional
-  
-  
-  The “Employee Address” is sourced from the Address on the
-  Employee table.
-  
- 
- 
-  
-  Employee Address 2 
-  
-  
-  Optional
-  
-  
-  The “Employee Address 2” is sourced from the Address 2 on
-  the Employee table.
-  
- 
- 
-  
-  Employee Suburb
-  
-  
-  Optional
-  
-  
-  The “Employee Suburb” is sourced from the City on the
-  Employee table.
-  
- 
- 
-  
-  Employee Post Code
-  
-  
-  Optional
-  
-  
-  The “Employee Post Code” is sourced from the Post Code on
-  the Employee table.
-  
- 
- 
-  
-  Employee State
-  
-  
-  Optional
-  
-  
-  The “Employee State” is sourced from the State on the
-  Employee table.
-  
- 
- 
-  
-  Employee Country Name
-  
-  
-  Optional
-  
-  
-  The “Employee Country” is sourced from the Country on the
-  Employee table.
-  
- 
- 
-  
-  Employee E-Mail
-  
-  
-  Optional
-  
-  
-  The “Employee E-Mail” is sourced from the E-Mail on the
-  Employee table.
-  
- 
- 
-  
-  Employee Phone No
-  
-  
-  Optional
-  
-  
-  The “Employee Phone No.” is sourced from the Phone No. on
-  the Employee table.
-  
- 
- 
-  
-  Employee Mobile No.
-  
-  
-  Optional
-  
-  
-  The “Employee Mobile No.” is sourced from the Mobile No.
-  on the Employee table.
-  
- 
- 
-  
-  Employer SGC Amount
-  
-  
-  Mandatory
-  
-  
-  The “Employer SGC Amount” is sourced from the Employer SGC
-  contributions on the Superannuation Ledger Entry table.
-  
- 
- 
-  
-  Employee Post Tax Contribution – Personal Contributions
-  
-  
-  Optional
-  
-  
-  The “Employee Post Tax Contribution” is sourced from the
-  Employee Post Tax on the Superannuation Ledger Entry table.
-  
- 
- 
-  
-  Employee Salary Sacrifice Amount
-  
-  
-  Optional
-  
-  
-  The “Employee Salary Sacrifice Amount” is sourced from the
-  Employee Salary Sacrifice contributions on the Superannuation Ledger Entry
-  table.
-  
- 
- 
-  
-  Employee Non SGC Amount – Employer Contributions Voluntary
-  
-  
-  Optional
-  
-  
-  The “Employer Non SGC Amount” is sourced from the Employer
-  Non SGC contributions on the Superannuation Ledger Entry table.
-  
- 
-
-
-
-
- 
-
- 
-
-2.5.6.3    
-ClickSuper Payment Format
+|**Field Name**|**Mandatory**|**Description**|
+|---------------------------|------------|--------------------------------------------------------------------------------------------|
+|**Reference**|Mandatory|This is the Reference ID for the file and is system generated.|
+|**Contribution Start Date**|Mandatory|The “Contribution Start Date” field is populated from the data that you enter into the Super Payment Export & Notification Form.| 
+|**Contribution End Date**|Mandatory|The “Contribution End Date” field is populated from the data that you enter into the Super Payment Export & Notification Form.| 
+|**Organisation Name**|Mandatory|The “Organisation Name” is sourced from the Payroll Company Name field.|
+|**Organisation ABN**|Mandatory|The “Organisation ABN” is sourced from the Payroll Company ABN field.|
+|**Superannuation Fund Employer ID**|Mandatory|The “Superannuation Fund Employer ID” is sourced from the Fund Employer ID on the Superannuation Fund.|
+|**Superannuation Fund ABN**|Mandatory|The “Superannuation Fund ABN” is sourced from the Fund ABN on the Superannuation Fund.|
+|**Superannuation Fund Banking Institution Name**|Mandatory|The “Superannuation Fund Banking Institution Name” is sourced from the Banking Institution Name on the Superannuation Fund.|
+|**Superannuation Fund Bank Account Name**|Mandatory|The “Superannuation Fund Bank Account Name” is sourced from the Bank Account Name on the Superannuation Fund.|
+|**Superannuation Fund Bank Account Number**|Mandatory|The “Superannuation Fund Bank Account Number” is sourced from the Bank Account Number on the Superannuation Fund.|
+|**Superannuation Fund Bank Branch No.**|Mandatory|The “Superannuation Fund Bank Branch No.” is sourced from the Bank Branch No. on the Superannuation Fund.|
+|**Remittance E-Mail**|Mandatory|The “Remittance E-Mail” is sourced from the Remittance E-Mail Address on the Superannuation Fund. (This will be replaced by IP address from 1 July 2014).|
+|**Electronic Service Address**|Mandatory|The “Electronic Service Address” is sourced from the Electronic Service Address on the Superannuation Fund.|
+|**Product ID No. (SPIN)**|Mandatory|The “Product ID No.” is sourced from the Product ID No. on the Superannuation Product.|
+|**Unique Identifier (USI)**|Mandatory|The “Unique Identifier (USI)” is sourced from the Unique Identifier on the Superannuation Product.|
+|**Employee Membership No.**|Mandatory|The “Employee Membership No.” is sourced from the Membership No. on the Employee Superannuation table.|
+|**Employee No.**|Optional|The “Employee No.” is sourced from the Employee No. on the Payroll Employee table.|
+|**Tax File Number**|Mandatory|The “Tax File Number” is sourced from the Tax File Number on the Payroll Employee table.|
+|**Tax File Number Not Provided Indicator**|Mandatory|The “Tax File Number” field is updated is an employee does not provide a Tax File Number.|
+|**Title**|Optional|The “Title” is sourced from the Title field on the Employee table.|
+|**Employee Last Name**|Mandatory|The “Employee Last Name” is sourced from the Last Name on the Employee table.|
+|**Employee First Name**|Mandatory|The “Employee First Name” is sourced from the First Name on the Employee table.|
+|**Employee Middle Name**|Optional|The “Employee Middle Name” is sourced from the Middle Name on the Employee table.|
+|**Employee Gender**|Optional|The “Employee Gender” is sourced from the Gender on the Employee table.|
+|**Employee Birth Date**|Optional|The “Employee Birth Date” is sourced from the Birth Date on the Employee table.|
+|**Employment Start Date**|Mandatory|The “Employment Start Date” is sourced from the Start Date on the Employee table.|
+|**Employee Termination Date**|Optional|The “Employee Termination Date” is sourced from the Termination Date on the Payroll Employee table.|
+|**Employee Address**|Optional|The “Employee Address” is sourced from the Address on the Employee table.|
+|**Employee Address 2**|Optional|The “Employee Address 2” is sourced from the Address 2 on the Employee table.|
+|**Employee Suburb**|Optional|The “Employee Suburb” is sourced from the City on the Employee table.|
+|**Employee Post Code**|Optional|The “Employee Post Code” is sourced from the Post Code on the Employee table.|
+|**Employee State**|Optional|The “Employee State” is sourced from the State on the Employee table.|
+|**Employee Country Name**|Optional|The “Employee Country” is sourced from the Country on the Employee table.|
+|**Employee E-Mail**|Optional|The “Employee E-Mail” is sourced from the E-Mail on the Employee table.|
+|**Employee Phone No**|Optional|The “Employee Phone No.” is sourced from the Phone No. on the Employee table.|
+|**Employee Mobile No.**|Optional|The “Employee Mobile No.” is sourced from the Mobile No. on the Employee table.|
+|**Employer SGC Amount**|Mandatory|The “Employer SGC Amount” is sourced from the Employer SGC contributions on the Superannuation Ledger Entry table.|
+|**Employee Post Tax Contribution – Personal Contributions**|Optional|The “Employee Post Tax Contribution” is sourced from the Employee Post Tax on the Superannuation Ledger Entry table.|
+|**Employee Salary Sacrifice Amount**|Optional|The “Employee Salary Sacrifice Amount” is sourced from the Employee Salary Sacrifice contributions on the Superannuation Ledger Entry table.|
+|**Employee Non SGC Amount - Employer Contributions Voluntary**|Optional|The "Employer Non SGC Amount" is sourced from the Employer Non SGC contributions on the Superannuation Ledger Entry table.|  
+ 
+## ClickSuper Payment Format
 
 The fields contained in the
 ClickSuper Payment file are:
