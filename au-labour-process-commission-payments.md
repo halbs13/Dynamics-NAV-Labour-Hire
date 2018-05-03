@@ -20,123 +20,23 @@ To access the salespeople records go to:
 
 *Departments/Sales & Marketing/Sales/Salespeople*
 
-
-
- 
-
 To add a new record, click on the “New” icon.
 
- 
-
-
- 
-  
-   
-   Field Name
-   
-   
-   Description
-   
-  
- 
- 
-  
-  GENERAL FASTTAB
-  
- 
- 
-  
-  Code
-  
-  
-  Enter in a
-  unique identifier.  The format can be
-  alpha or numeric, or a combination of both.
-  
- 
- 
-  
-  Name
-  
-  
-  Enter in the
-  name of the Account Manager
-  
- 
- 
-  
-  Initials
-  
-  
-  Enter in the
-  Initials of the Account Manager
-  
- 
- 
-  
-  Job Title
-  
-  
-  Enter in the Job
-  Title of the Account Manager
-  
- 
- 
-  
-  Commission %
-  
-  
-  The commission
-  percentage is not used at this level
-  
- 
- 
-  
-  Phone No.
-  
-  
-  Record the phone
-  number if applicable
-  
- 
- 
-  
-  Email
-  
-  
-  Record the Email
-  address if applicable
-  
- 
- 
-  
-  INVOICING FASTTAB
-  
- 
- 
-  
-  Global Dimension 1
-  
-  
-  This field is used to select the Global
-  Dimension 1 Code. 
-  Select the Global Dimension 1 Code from the “ArrowDown”.
-  
- 
- 
-  
-  Global Dimension 2
-  
-  
-  This field is used to select the Global
-  Dimension 2 Code.
-  Select the Global Dimension 2 Code from the “ArrowDown”.
-  
- 
-
-
- 
-
+|Field Name|Description|
+|----------------------------------------------|----------------------------------|
+|**GENERAL FASTTAB**||
+|**Code**|Enter in a unique identifier.  The format can be alpha or numeric, or a combination of both.|
+|**Name**|Enter in the name of the Account Manager|
+|**Initials**|Enter in the Initials of the Account Manager|
+|**Job Title**|Enter in the Job Title of the Account Manager|
+|**Commission %**|The commission percentage is not used at this level|
+|**Phone No.**|Record the phone number if applicable|
+|**Email**|Record the Email address if applicable|  
+|**INVOICING FASTTAB**|| 
+|**Global Dimension 1**|This field is used to select the Global Dimension 1 Code. |
+||Select the Global Dimension 1 Code from the “ArrowDown”.|
+|**Global Dimension 2**|This field is used to select the Global Dimension 2 Code.|
+||Select the Global Dimension 2 Code from the “ArrowDown”.|
  
 
 
