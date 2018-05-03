@@ -24,7 +24,7 @@ Frequency: Generate invoices at different intervals depending on customer
 choice.Invoice
 Consolidation: Different levels of consolidation can be selected for
 customers.  Examples of consolidation are
-one invoice for each sell to customer or one invoice for just the bill to
+one invoice for each sell to customer or one invoice for just the bill to,
 customer, which represents a parent or umbrella type company.
 
 
