@@ -1,8 +1,5 @@
 # How to process an internal payroll in Labour Hire
 
-1 INTRODUCTION
-
-This document has been prepared as a training manual for users of the Dynamics NAV 2017 Labour Hire Suite module.
 This document will contain information relating to Internal Payroll Processing encompassing the following sections:
 
 
@@ -17,10 +14,10 @@ This document will contain information relating to Internal Payroll Processing e
 ## INTERNAL PAYROLL PROCESSING OVERVIEW
 All internal staff will be entered into the Human Resources and Payroll modules of Dynamics NAV.
  
-
 ## PROCESS SUMMARY
 
 ### Entering New Employees
+
 1. Receive employee application and relevant details to enter into Dynamics NAV. 
 2. Enter new employee information into the Human Resources module. 
 
@@ -43,8 +40,7 @@ To access the Employee Maintenance task, go to the following menu:
 - Receive timesheets including Leave and /or pay adjustments for employees.
 - Go into Departments/Payroll/Payroll Processing/Payroll Selection and select the payroll you wish to work in (note this is optional). 
 - Go into Departments/Pay Journal/Pay Processing/Pay Journal and enter in the leave adjustments. After completing entering adjustments, select the “Calculate Pays” function. 
-- In the Pay Journal - Select “Calculate Pays” to calculate your pays and “Enter the Pay Date“ and select “OK”. 
-- Then run the “Entry Validation Report” , select print preview to check for errors and warnings on the screen, when all clear, Print. - Then select “Create Bank Transfer File” to create an EFT file. This can be saved to a file path. A “Bank Transfer Listing” report will print automatically at this stage. This should be filed with the “Entry Validation Report”.
+- In the Pay Journal - Select “Calculate Pays” toer File” to create an EFT file. This can be saved to a file path. A “Bank Transfer Listing” report will print automatically at this stage. This should be filed with the “Entry Validation Report”.
 - Then select “Post”. This will post the pays into the payroll history areas and print payslips. 
 
 After posting of the journal has occurred, you will be asked if you want to close the pay period. You can leave this open if there are and additional adjustments that may need to be processed in this period, otherwise, you can close the period, ready for the next period.
@@ -60,6 +56,74 @@ To access the Employee Maintenance task, go to the following menu:
 Click on the “New” button. The cursor will be on the ‘Employee No’ on the General Tab. Press ‘OK’, NAV will allocate the New Employee number. Proceed to complete the following details.
 
 ### Edit: Employee Card
+|Field Name|Description|
+|-----------------------------------------|-------------------------------------------------------------------------------|
+|**GENERAL FASTTAB**||
+|**Job Title**|Enter the Person’s Job Title| 
+|**First Name**|Enter the Employee’s First Name| 
+|**Last Name**|Enter the Employee’s Last Name|
+|**Address**|Enter in the Employee’s Address Details.| 
+|**Post Code / City**|Enter in the Employee’s Post Code e.g. 2000.|
+|**Sate / Country Code**|Enter in ‘AUS’|
+|**Phone Number**|Enter in the employee’s home phone number if known.|
+|**Gender**|Select ‘Male’ or ‘Female’|
+|**Marital Status**|If the Marital Status is known, select the appropriate code from the drop down arrow.|
+|**COMMUNICATION FASTTAB**||
+|**Extension**|Enter the employee’s work extension number if applicable.|
+|**Mobile Phone No**|Enter the employee’s mobile phone number if applicable|
+|**Phone No.**|The employee’s phone number will default if entered on the General Tab|
+|**E-mail**|Enter the employee’s email address. This will be required if intending on emailing the employee’s pay advice| 
+|**ADMINISTRATION FASTTAB**|| 
+|**Employment date**||
+|**Status**|| 
+|**PERSONAL FASTTAB**||
+|**Birth Date**||
+|**Click “OK” once you have completed all fields required.**||
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+er File” to create an EFT file. This can be saved to a file path. A “Bank Transfer Listing” report will print automatically at this stage. This should be filed with the “Entry Validation Report”.- Then select “Post”. This will post the pays into the payroll history areas and print payslips. 
+
+After posting of the journal has occurred, you will be asked if you want to close the pay period. You can leave this open if there are and additional adjustments that may need to be processed in this period, otherwise, you can close the period, ready for the next period.
+
+## PAY PROCESS DETAIL
+
+### Entering New Employees – Human Resources Module
+
+To access the Employee Maintenance task, go to the following menu:
+
+*Departments/Payroll/Employee Maintenance/Employees*  
+
+Click on the “New” button. The cursor will be on the ‘Employee No’ on the General Tab. Press ‘OK’, NAV will allocate the New Employee number. Proceed to complete the following details.
+
+### Edit: Employee Card
+|Field Name|Description|
+|-----------------------------------------|-------------------------------------------------------------------------------|
+|**Phone No.**|The employee’s phone number will default if entered on the General Tab|
+ calculate your pays and “Enter the Pay Date“ and select “OK”. 
+- Then run the “Entry Validation Report” , select print preview to check for errors and warnings on the screen, when all clear, Print. - Then select “Create Bank Transf
+ 
+ 
+  
+ 
+
+
+
+
+
 Field Name DescriptionGENERAL FASTTABJob Title Enter the Person’s Job TitleFirst Name Enter the Employee’s First NameLast Name Enter the Employee’s Last NameAddress Enter in the Employee’s Address Details.Post Code / City Enter in the Employee’s Post Code e.g. 2000.Sate / Country Code Enter in ‘AUS’Phone Number Enter in the employee’s home phone number if known.Gender Select ‘Male’ or ‘Female’Marital Status If the Marital Status is known, select the appropriate code from the drop down arrow.COMMUNICATION FASTTABExtension Enter the employee’s work extension number if applicable.Mobile Phone No Enter the employee’s mobile phone number if applicablePhone No. The employee’s phone number will default if entered on the General TabE-mail Enter the employee’s email address. This will be required if intending on emailing the employee’s pay adviceADMINISTRATION FASTTABEmployment date Enter the employee’s employment or start date. This field is a mandatory field, if nothing is entered will cause issues when calculating pays.Status This will default to ‘Active’PERSONAL FASTTABBirth Date Enter the employee’s birth dateClick “OK” once you have completed all fields required.
 
 
