@@ -117,189 +117,48 @@ On the Payroll Employee Card go to the Employee No and from the Employee List se
 |**Fixed Tax Rate Applicable**|This Field needs to be selected and ticked.|
 |**Fixed Tax Rate Valid Until Date**|The Valid Until Date will be supplied from the ATO and needs to be entered in this field.|
 |**Fixed Tax Rate**|The ATO will supply a letter detailing the fixed Tax rate amount.|
-|**G.S.T. Exempt**|This relates to the setup of an Incorporated Company and if this is required, it needs to be ticked.|
-|**Fringe Benefits Amount**|This field needs to be entered for reporting on the PAYG Payment Summary.|
-|**Inc. Company Tax Inv.Not Req**|This relates to the setupof an Incorporated Company and if this is required, it needs to be ticked.|
-|**DECLARATION FASTTAB - If you have an Employment Declaration form for your employee, check the fields as per this form if you intend on remitting your employment declarations electronically to the ATO.**||
-|**Resident**|Select this field if advised on the Declaration Form.|
-|**Tax Free Threshold Claimed**|Select this field if advised on the Declaration Form.|
-|**HELP Debt**|Select this field if advised on the Declaration Form.|
-|**Student Loan**|Select this field if advised on the Declaration Form.|
-|**Claim Pension Rebate**|Select this field if advised on the Declaration Form.|
-|**Use TFN for Superannuation**|Select this field if advised on the Declaration Form.|
-|**Rebate Amount Claimed**|Select this field if advised on the Declaration Form.|
-|**A.B.N.**|This relates to the setup of an Incorporated Company and needs to be entered – the format of this field is 11 characters.|
-|**Incorporated Company Name**|This relates to the setup of an Incorporated Company and will need to be entered.|
-|**Tax.File No**|Enter the employee’s Tax File No. the format for this field is a maximum of 9 characters.|
-|**Birth Date**|This field will populate from the HR Employee card.|
-|**Date Declaration Signed**|Enter in the Date Declaration Signed from the Employment Declaration form.|
-|**Payee Signature**|If the employee has signed the Employment Declaration form, check this field.|
-|**Declaration Lodged**|This field will be populated with a date once the Declaration File Generation has been processed. |
-|**PAY DETAILS FASTTAB - There is nothing that needs to be completed on this tab, as the pay details are populated from the history ledgers.**||
-|**WORK COVER FASTTAB - This tab is only required if the employee has been setup as an Incorporated Company.**||
-|**Workers Comp Policy No.**|The “Workers Comp Policy No” is used to record a Contractors policy number.|
+|**G.S.T. Exempt**|This relates to the setup of an Incor Comp Policy No” is used to record a Contractors policy number.|
 |**Workers Comp Insurer**|The “Workers Comp Insurer” is used to record the name of the Contractors Workers Comp Insurer.|
 |**Policy Expiration Policy**|The “Policy Expiration Date” is used to record the expiry date of the policy.|
 
+    
+### Payroll Employee Card  – Pay Dissections
 
+Employee Bank accounts are entered in the Pay Dissections area.
 
-
-
-
-
-
-
-
-
-
-1.1.2    
-Payroll Employee Card  – Pay Dissections
-
- 
-
-Employee Bank accounts are entered
-in the Pay Dissections area.
-
-Access this task by clicking the “Pay Dissections”
-task icon. 
+Access this task by clicking the “Pay Dissections” task icon. 
 
 |Field Name|Description|
 |-----------------------------------------|-------------------------------------------------------------------------------|
 |**Transaction Type Code**|Transaction Type Code 9999 will default in this field.|
-  
- 
- 
-  
-  Pay Dissection Type
-  
-  
-  There are 2 types of dissections:
-  ·        
-  Main – Used to
-  identify the main bank account
-  ·        
-  Part – Used to
-  identify additional bank accounts 
-  
- 
- 
-  
-  Bank Account No.
-  
-  
-  Enter the employee’s bank account number. This
-  field has a limit of 9 characters which should be entered as follows:
-  123456789
-  
- 
- 
-  
-  Bank Name
-  
-  
-  This will default to the employee’s name and
-  can be overridden accordingly 
-  
- 
- 
-  
-  EFT Bank No.
-  
-  
-  Enter in the employee’s BSB no. This field has
-  a limit of 7 characters which should be entered as follows: 032-170
-  
- 
- 
-  
-  Standard Amount / Standard %
-  
-  
-  If the employee has nominated an additional
-  account, enter in the Amount or the Percentage as nominated by the employee.
-  
- 
- 
-  
-  Click “OK” once you
-  have completed all fields required.
-  
- 
+|**Standard Amount / Standard %**|If the employee has nominated an additional account, enter in the Amount or the Percentage as nominated by the employee.|
+|**Standard Amount / Standard %**|If the employee has nominated an additional account, enter in the Amount or the Percentage as nominated by the employee.|
+|**Standard Amount / Standard %**|If the employee has nominated an additional account, enter in the Amount or the Percentage as nominated by the employee.|
+|**Standard Amount / Standard %**|If the employee has nominated an additional account, enter in the Amount or the Percentage as nominated by the employee.| 
+|**Standard Amount / Standard %**|If the employee has nominated an additional account, enter in the Amount or the Percentage as nominated by the employee.| 
+|**Standard Amount / Standard %**|If the employee has nominated an additional account, enter in the Amount or the Percentage as nominated by the employee.| 
+|**Standard Amount / Standard %**|If the employee has nominated an additional account, enter in the Amount or the Percentage as nominated by the employee.|
+|**Standard Amount / Standard %**|If the employee has nominated an additional account, enter in the Amount or the Percentage as nominated by the employee.|  
+|**Click "ok" once you have completed all fields required|
 
+    
+### Payroll Employee Card  – Pay Rates
 
  
 
-1.1.3    
-Payroll Employee Card  – Pay Rates
+Enter in Pay Rates in as an hourly rate. To access the Employee Pay Rates task, click the “Pay Rates” task icon. 
 
- 
-
-Enter in Pay Rates in as an hourly rate. To access the Employee
-Pay Rates task, click the “Pay
-Rates” task
-icon. 
-
- 
-
-
-
- 
-
-
- 
-  
-   
-   Field Name
-   
-   
-   Description
-   
-  
- 
- 
-  
-  Employee start Date
-  
-  
-  This field should default to the Employee’s
-  Start Date
-  
- 
- 
-  
-  Classification Code
-  
-  
-  Click on the Arrow Up Button and select from
-  the list – system created. 
-  
- 
- 
-  
-  Employee Rate
-  
-  
-  Enter in the Employee’s rate as an hourly
-  amount.
-  
- 
- 
-  
-  Click “OK” once you
-  have completed all fields required.
-  
+ |Field Name|Description|
+ |-----------------------------------------|-------------------------------------------------------------------------------| 
+|**Employee start Date**|This field should default to the Employee’s Start Date|
+|**Classification Code**|Click on the Arrow Up Button and select from the list – system created. | 
+|**Employee Rate**|Enter in the Employee’s rate as an hourly amount.|
+|**Click “OK” once you have completed all fields required.**||
  
 
+After you have updated the rate and you click on the Rate Tab, the rate should be updated accordingly. ( This will only be updated if the Pay Period is after the Employee’s Start Date).
 
- 
-
-After
-you have updated the rate and you click on the Rate Tab, the rate should be
-updated accordingly. ( This will only be updated if the Pay Period is after the
-Employee’s Start Date ).
-
-1.1.4    
-Payroll Employee Card  – Gross / Allowances
+### Payroll Employee Card  – Gross / Allowances
 
 It is assumed that Internal Employees are ‘Auto Paid’. To
 automatically generate hours, Ordinary / Normal Time should be set up as a
