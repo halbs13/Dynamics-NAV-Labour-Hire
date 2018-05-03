@@ -447,564 +447,74 @@ The fields on the Employee SGC Reporting History (Super.Payment History) report 
 |**Report Field**|**Field No.**|**Obtained from**|
 |-------------------------------|----------|-----------------------------------------------------------------------------------|   
 |**Fund Name**|(1)|This field identifies the Superannuation Fund Code for the employee.|
+|**Superannuation Code**|(2)|This field identifies the Superannuation Product Code for the employee.|
+|**Membership No.**|(3)|This field is the Employee’s Superannuation Membership No.|
+|**Date Paid To Super Fund**|(4)|This field is the Date the Superannuation was paid to the Superannuation Fund.|
+|**Amount paid on Date**|(5)|This is the amount that as paid to the Superannuation Fund.|
+|**Fund Total**|(6)|This is the Fund Total for the Employee.|
+|**Employee Total**|(7)|This is the Employee Total for the Employee.|
+|**Employee No.**|(8)|This is the Employee No.|
+|**Employee Name**|(9)|This is the Employee Name.|
 
-  
- 
- 
-  
-  Superannuation Code
-  
-  
-  (2)
-  
-  
-  This field identifies the Superannuation Product Code for
-  the employee.
-  
- 
- 
-  
-  Membership No.
-  
-  
-  (3)
-  
-  
-  This field is the Employee’s Superannuation Membership No.
-  
- 
- 
-  
-  Date Paid To Super Fund
-  
-  
-  (4)
-  
-  
-  This field is the Date the Superannuation was paid to the
-  Superannuation Fund.
-  
- 
- 
-  
-  Amount paid on Date
-  
-  
-  (5)
-  
-  
-  This is the amount that as paid to the Superannuation
-  Fund.
-  
- 
- 
-  
-  Fund Total
-  
-  
-  (6)
-  
-  
-  This is the Fund Total for the Employee.
-  
- 
- 
-  
-  Employee Total
-  
-  
-  (7)
-  
-  
-  This is the Employee Total for the Employee.
-  
- 
- 
-  
-  Employee No.
-  
-  
-  (8)
-  
-  
-  This is the Employee No.
-  
- 
- 
-  
-  Employee Name
-  
-  
-  (9)
-  
-  
-  This is the Employee Name.
-  
- 
+Employee SGC Reporting History (Super.Payment History Report) – Summary
 
-
-
-
- 
-
-2.5.5.2    
-Employee SGC Reporting History (Super.Payment
-History Report) – Summary
-
- 
-
-
-
- 
-
-The fields on the Employee SGC Reporting History (Super.
-Payment History) report are:
-
- 
-
-
-
-
- 
-  
+The fields on the Employee SGC Reporting History (Super.Payment History) report are:
    
-   Report Field
-   
-   
-   Field No.
-   
-   
-   Obtained from
-   
-  
- 
- 
-  
-  Fund Name
-  
-  
-  (1)
-  
-  
-  This field identifies the Superannuation Fund Code for the
-  employee.
-  
- 
- 
-  
-  Superannuation Code
-  
-  
-  (2)
-  
-  
-  This field identifies the Superannuation Product Code for
-  the employee.
-  
- 
- 
-  
-  Membership No.
-  
-  
-  (3)
-  
-  
-  This field is the Employee’s Superannuation Membership No.
-  
- 
- 
-  
-  Date Paid To Super Fund
-  
-  
-  (4)
-  
-  
-  This field is the Date the Superannuation was paid to the
-  Superannuation Fund.
-  
- 
- 
-  
-  Amount paid on Date
-  
-  
-  (5)
-  
-  
-  This is the amount that as paid to the Superannuation
-  Fund.
-  
- 
- 
-  
-  Fund Total
-  
-  
-  (6)
-  
-  
-  This is the Fund Total for the Employee.
-  
- 
- 
-  
-  Employee Total
-  
-  
-  (7)
-  
-  
-  This is the Employee Total for the Employee.
-  
- 
- 
-  
-  Employee No.
-  
-  
-  (8)
-  
-  
-  This is the Employee No.
-  
- 
- 
-  
-  Employee Name
-  
-  
-  (9)
-  
-  
-  This is the Employee Name.
-  
- 
+|**Report Field**|**Field No.**|**Obtained from**|
+|--------------------------|----------------|---------------------------------------------------------------------------------|
+|**Fund Name**|(1)|This field identifies the Superannuation Fund Code for the employee.|
+|**Superannuation Code**|(2)|This field identifies the Superannuation Product Code for the employee.|
+|**Membership No.**|(3)|This field is the Employee’s Superannuation Membership No.|
+|**Date Paid To Super Fund**|(4)|This field is the Date the Superannuation was paid to the Superannuation Fund.|
+|**Amount paid on Date**|(5)|This is the amount that as paid to the Superannuation Fund.|
+|**Fund Total**|(6)|This is the Fund Total for the Employee.|
+|**Employee Total**|(7)|This is the Employee Total for the Employee.|
+|**Employee No.**|(8)|This is the Employee No.|
+|**Employee Name**|(9)|This is the Employee Name.|
 
+## Superannuation File Layouts
 
+### New Member Registration Export
 
+The fields contained in the New Member Registration Export file are:
+ 
+|**Field Name**|**Description**|
+|------------------------------------------|-----------------------------------------------------------------------------------------|
+|**Company Name**|The “Company Name” is sourced from the Company Name field on the Payroll card the employee is assigned to.|
+|**Company ABN**|The “Company ABN” is sourced from the Company ABN field on the Payroll card the employee is assigned to|
+|**Fund Assigned Employer No.**|The “Fund Assigned Employer No.” is sourced from the Superannuation Fund the employee is assigned to.|
+|**Fund ABN**|The “Fund ABN” is sourced from the Superannuation Fund the employee is assigned to.|
+|**Superannuation Fund No. (SFN)**|The “Superannuation Fund No. (SFN)” is sourced from the Superannuation Fund the employee is assigned to.|
+|**Product ID No. (SPIN)**|The “Product ID No. (SPIN)” is sourced from the Superannuation Product assigned on the Employee Superannuation card.| 
+|**Unique Identifier (USI)**|The “Unique Identifier (USI)” is sourced from the Superannuation Product the employee is assigned to.|
+|**Title**|The “Title” field is sourced from the Employee card.|
+|**Surname**|The “Surname” field is sourced from the Employee card.|
+|**First Name**|The “First Name” field is sourced from the Employee card.|
+|**Middle Name**|The “Middle Name” field is sourced from the Employee card.|
+|**Gender**|The “Gender” field is sourced from the Employee card.|
+|**Birth Date**|The “Birth Date” field is sourced from the Employee card.|
+|**Job Title**|The “Job Title” field is sourced from the Payroll Employee card.|
+|**Address Line 1**|The “Address Line 1” field is sourced from the Employee card.|
+|**Address Line 2**|The “Address Line 2” field is sourced from the Employee card.|
+|**Suburb**|The “Suburb” is sourced from the Employee card.
+|**Post Code**|The “Post Code” field is sourced from the Employee card.|
+|**State**|The “State” field is sourced from the Employee card.|
+|**Country**|The “Country” field is sourced from the Employee card.|
+|**E-Mail**|The “E-Mail” field is sourced from the Employee card.|
+|**Phone No.**|The “Phone No.” field is sourced from the Employee card.|
+|**Membership No.**|The “Membership No.” field is sourced from the Employee Superannuation card.|
+|**Tax File No.**|The “Tax File No.” field is sourced from the Payroll Employee card.|
+|**Payroll ID**|The “Payroll ID” field is the Employee No. and is sourced from the Employee card.|
+|**Employment Date**|The “Employment Date” field is sourced from the Payroll Employee card.|
+|**Termination Date**|The “Termination Date” field is sourced from the Payroll Employee card.|
+|**Termination Reason**|The “Termination Reason” field is sourced from the Employee card.|
+|**Annual Salary**|The Annual Salary information is sourced from the Employee Pay Rates card.|
+|**Hours worked per Week**|The “Hours worked per Week” information is sourced from the Payroll Employee card.|
+|**Date Joined Fund**|The “Date Joined Fund” field is populated from the Employee Superannuation card.|
 
- 
+## Generic Payment Format
 
-
-
-
-2.5.6    
-Superannuation File Layouts
-
- 
-
-2.5.6.1    
-New Member Registration Export
-
-The fields contained in the New
-Member Registration Export file are:
-
- 
-
-
-
-
- 
-  
-   
-   Field Name
-   
-   
-   Description
-   
-  
- 
- 
-  
-  Company Name
-  
-  
-  The “Company Name” is sourced from the Company Name field
-  on the Payroll card the employee is assigned to.
-  
- 
- 
-  
-  Company ABN
-  
-  
-  The “Company ABN” is sourced from the Company ABN field on
-  the Payroll card the employee is assigned to
-  
- 
- 
-  
-  Fund Assigned Employer No.
-  
-  
-  The “Fund Assigned Employer No.” is sourced from the
-  Superannuation Fund the employee is assigned to.
-  
- 
- 
-  
-  Fund ABN
-  
-  
-  The “Fund ABN” is sourced from the Superannuation Fund the
-  employee is assigned to.
-  
- 
- 
-  
-  Superannuation Fund No. (SFN)
-  
-  
-  The “Superannuation Fund No. (SFN)” is sourced from the
-  Superannuation Fund the employee is assigned to.
-  
- 
- 
-  
-  Product ID No. (SPIN)
-  
-  
-  The “Product ID No. (SPIN)” is sourced from the
-  Superannuation Product assigned on the Employee Superannuation card. 
-  
- 
- 
-  
-  Unique Identifier (USI)
-  
-  
-  The “Unique Identifier (USI)” is sourced from the
-  Superannuation Product the employee is assigned to.
-  
- 
- 
-  
-  Title
-  
-  
-  The “Title” field is sourced from the Employee card.
-  
- 
- 
-  
-  Surname
-  
-  
-  The “Surname” field is sourced from the Employee card.
-  
- 
- 
-  
-  First Name
-  
-  
-  The “First Name” field is sourced from the Employee card.
-  
- 
- 
-  
-  Middle Name
-  
-  
-  The “Middle Name” field is sourced from the Employee card.
-  
- 
- 
-  
-  Gender
-  
-  
-  The “Gender” field is sourced from the Employee card.
-  
- 
- 
-  
-  Birth Date
-  
-  
-  The “Birth Date” field is sourced from the Employee card.
-  
- 
- 
-  
-  Job Title
-  
-  
-  The “Job Title” field is sourced from the Payroll Employee
-  card.
-  
- 
- 
-  
-  Address Line 1
-  
-  
-  The “Address Line 1” field is sourced from the Employee
-  card.
-  
- 
- 
-  
-  Address Line 2
-  
-  
-  The “Address Line 2” field is sourced from the Employee
-  card.
-  
- 
- 
-  
-  Suburb
-  
-  
-  The “Suburb” is sourced from the Employee card.
-  
- 
- 
-  
-  Post Code
-  
-  
-  The “Post Code” field is sourced from the Employee card.
-  
- 
- 
-  
-  State 
-  
-  
-  The “State” field is sourced from the Employee card.
-  
- 
- 
-  
-  Country
-  
-  
-  The “Country” field is sourced from the Employee card.
-  
- 
- 
-  
-  E-Mail 
-  
-  
-  The “E-Mail” field is sourced from the Employee card.
-  
- 
- 
-  
-  Phone No.
-  
-  
-  The “Phone No.” field is sourced from the Employee card.
-  
- 
- 
-  
-  Membership No.
-  
-  
-  The “Membership No.” field is sourced from the Employee
-  Superannuation card.
-  
- 
- 
-  
-  Tax File No.
-  
-  
-  The “Tax File No.” field is sourced from the Payroll
-  Employee card.
-  
- 
- 
-  
-  Payroll ID
-  
-  
-  The “Payroll ID” field is the Employee No. and is sourced
-  from the Employee card.
-  
- 
- 
-  
-  Employment Date
-  
-  
-  The “Employment Date” field is sourced from the Payroll
-  Employee card.
-  
- 
- 
-  
-  Termination Date
-  
-  
-  The “Termination Date” field is sourced from the Payroll
-  Employee card.
-  
- 
- 
-  
-  Termination Reason
-  
-  
-  The “Termination Reason” field is sourced from the
-  Employee card.
-  
- 
- 
-  
-  Annual Salary
-  
-  
-  The Annual Salary information is sourced from the Employee
-  Pay Rates card.
-   
-  
- 
- 
-  
-  Hours worked per Week
-  
-  
-  The “Hours worked per Week” information is sourced from
-  the Payroll Employee card.
-  
- 
- 
-  
-  Date Joined Fund
-  
-  
-  The “Date Joined Fund” field is populated from the
-  Employee Superannuation card.
-  
- 
-
-
-
-
- 
-
- 
-
-2.5.6.2    
-Generic Payment Format
-
-The fields contained in the
-Generic Payment file are:
-
- 
-
-
-
-
- 
-  
+The fields contained in the Generic Payment file are:
    
    Field Name
    
