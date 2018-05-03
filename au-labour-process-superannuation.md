@@ -227,7 +227,6 @@ To open the Superannuation Payments module,
 Department/Payroll/Periodic Activities/Superannuation/Superannuation Payments
 
 The Superannuation Payment Module contains the following Menu Options: 
-
 Super. Payment Export & Notification – this report flags the Employee Superannuation Ledger Entry
 records for reporting to the employee by either Letter or Pay Advice. When the report is run you 
 select the parameters for processing, to control how the update is processed.  As a default the 
@@ -272,8 +271,7 @@ Departments/Payroll/EOM Processing/Superannuation Processing
 ||**Export new member file** – Used to create a “.CSV” file.|  
 |**Member File Export Location**|Click on the “ArrowDown” to specify where to save the file.|
 ||**PAYROLL EMPLOYEE FASTTAB** – Payroll Employee information can be filtered by entering information in this tab. Otherwise it can be left blank.| 
-||**EMPLOYEE SUPERANNUATION FASTTAB** – Employee Superannuation information can be
-  filtered by entering information in this tab. Otherwise it can be left blank.|
+||**EMPLOYEE SUPERANNUATION FASTTAB** – Employee Superannuation information can be filtered by entering information in this tab. Otherwise it can be left blank.|
 ||**SUPERANNUATION FUND PRODUCT FASTTAB** – Superannuation Fund Product information can be filtered by entering information in this tab. Otherwise it can be left blank.|
 ||**When you have finished entering your information, click on “Preview” or “Print” to produce the file and report.|
   
