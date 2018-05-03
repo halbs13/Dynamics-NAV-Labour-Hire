@@ -304,9 +304,7 @@ Employers have an obligation to report superannuation contributions to their emp
 The Super Payment Export &Notification Report flags the Employee Superannuation Ledger Entry records to
 report to the employee by either Letter or Pay Advice.  When the report is run you must enter parameters for processing.  
 
-To access the Super Payment Export & Notification, 
-
-Departments/Payroll/EOM Processing/Superannuation Processing/Super.Payment Export & Notification Report
+To access the Super Payment Export & Notification,Departments/Payroll/EOM Processing/Superannuation Processing/Super.Payment Export & Notification Report
 
 |**Field**|**Comments**|
 |------------------------------------|----------------------------------------------------------------------------------------|
@@ -344,12 +342,9 @@ The fields on the Superannuation Payment Export & Notification report are:
 
 |**Report Field**|**Field No.**|**Obtained from**|
 |---------------------------|----------|----------------------------------------------------------------------------------------|
-|**Run ID**|(1)|This identifies the Run ID of the Superannuation Export & Notification.|
-||If you need to reverse the report, you will use this record  no.|
-|**Run Type**|(2)|This identifies the run type of the report.  The run type values are:|
-|| - “Export Payment and create notification letter”|
-|| - “Export Payment and create pay advice notification”|
-||**Contribution Date**|(3)|This is the Contribution End date of the records.|
+|**Run ID**|(1)|This identifies the Run ID of the Superannuation Export & Notification. If you need to reverse the report, you will use this record  no.|
+|**Run Type**|(2)|This identifies the run type of the report. The run type values are:                                                 - “Export Payment and create notification letter”                                                                                      - “Export Payment and create pay advice notification”|
+|**Contribution Date**|(3)|This is the Contribution End date of the records.|
 |**Date Paid To Fund**|(4)|This is the Date Paid To Fund.|
 |**Letter File Export Location**|(5)|This is the location of where the Letter export will be saved.|
 |**Payment File Export Location**|(6)| This is the location of where the Payment File export will be saved.|
