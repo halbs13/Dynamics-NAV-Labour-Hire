@@ -38,27 +38,28 @@ To access the Employee Maintenance task, go to the following menu:
 - Review and Add new leave accrual types such as Annual Leave , Sick Leave and Long Service Leave. To access the Leave Accrual task, Click the “Accruals” task icon.  
 - After you have completed these steps, you are then ready to process pays.
 
-### Processing Pays
+### Processing Pays
 
-- Receive timesheets including Leave and /or pay adjustments for employees.
-- Go into Departments/Payroll/Payroll Processing/Payroll Selection and select the payroll you wish to work in (note this is optional). 
-- Go into Departments/Pay Journal/Pay Processing/Pay Journal and enter in the leave adjustments. After completing entering adjustments, select the “Calculate Pays” function. 
-- In the Pay Journal - Select “Calculate Pays” to calculate your pays and “Enter the Pay Date“ and select “OK”. 
-- Then run the “Entry Validation Report” , select print preview to check for errors and warnings on the screen, when all clear, Print. - Then select “Create Bank Transfer File” to create an EFT file. This can be saved to a file path. A “Bank Transfer Listing” report will print automatically at this stage. This should be filed with the “Entry Validation Report”.
-- Then select “Post”. This will post the pays into the payroll history areas and print payslips. 
+- Receive timesheets including Leave and /or pay adjustments for employees.
+- Go into Departments/Payroll/Payroll Processing/Payroll Selection and select the payroll you wish to work in (note this is optional). 
+- Go into Departments/Pay Journal/Pay Processing/Pay Journal and enter in the leave adjustments. After completing entering adjustments, select the “Calculate Pays” function. 
+- In the Pay Journal - Select “Calculate Pays” to calculate your pays and “Enter the Pay Date“ and select “OK”. 
+- Then run the “Entry Validation Report” , select print preview to check for errors and warnings on the screen, when all clear, Print. - Then select “Create Bank Transfer File” to create an EFT file. This can be saved to a file path. A “Bank Transfer Listing” report will print automatically at this stage. This should be filed with the “Entry Validation Report”.
+- Then select “Post”. This will post the pays into the payroll history areas and print payslips. 
 
 After posting of the journal has occurred, you will be asked if you want to close the pay period. You can leave this open if there are and additional adjustments that may need to be processed in this period, otherwise, you can close the period, ready for the next period.
 
-## PAY PROCESS DETAIL
+## PAY PROCESS DETAIL
 
-### Entering New Employees – Human Resources Module
+### Entering New Employees – Human Resources Module
 
 To access the Employee Maintenance task, go to the following menu:
 
 *Departments/Payroll/Employee Maintenance/Employees*  
+
 Click on the “New” button. The cursor will be on the ‘Employee No’ on the General Tab. Press ‘OK’, NAV will allocate the New Employee number. Proceed to complete the following details.
 
-### Edit: Employee Card
+### Edit: Employee Card
 Field Name DescriptionGENERAL FASTTABJob Title Enter the Person’s Job TitleFirst Name Enter the Employee’s First NameLast Name Enter the Employee’s Last NameAddress Enter in the Employee’s Address Details.Post Code / City Enter in the Employee’s Post Code e.g. 2000.Sate / Country Code Enter in ‘AUS’Phone Number Enter in the employee’s home phone number if known.Gender Select ‘Male’ or ‘Female’Marital Status If the Marital Status is known, select the appropriate code from the drop down arrow.COMMUNICATION FASTTABExtension Enter the employee’s work extension number if applicable.Mobile Phone No Enter the employee’s mobile phone number if applicablePhone No. The employee’s phone number will default if entered on the General TabE-mail Enter the employee’s email address. This will be required if intending on emailing the employee’s pay adviceADMINISTRATION FASTTABEmployment date Enter the employee’s employment or start date. This field is a mandatory field, if nothing is entered will cause issues when calculating pays.Status This will default to ‘Active’PERSONAL FASTTABBirth Date Enter the employee’s birth dateClick “OK” once you have completed all fields required.
 
 
