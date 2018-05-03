@@ -98,22 +98,41 @@ On the Payroll Employee Card go to the Employee No and from the Employee List se
   
 ### Edit: Payroll Employee Card 
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+|Field Name|Description|
+|-----------------------------------------|-------------------------------------------------------------------------------|
+|**GENERAL FASTTAB**||  
+|**Payroll No**|Select the appropriate Payroll No. from the “ArrowDown”.  You will receive a message requesting whether you want to change the Employee to the Payroll No. you have selected. Click ‘Yes’|  
+|**Emp Type Code**|Select the Employee Type Code from “ArrowDown”.| 
+|**Email Pay Advice**|If Pay advices will be sent via email, check this field. The employee’s email address must be entered in the Human Resources field, otherwise you will not be able to email the pay advice.| |**Email Pay Advice**|If Pay advices will be sent via email, check this field. The employee’s email address must be entered in the Human Resources field, otherwise you will not be able to email the pay advice.| 
+|**Email Payment Summaries**|If Payment Summaries will be sent via email, check this field. The employee’s email address must be entered in the Human Resources field, otherwise you will not be able to email the pay advice.| 
+|**Timesheet Reminder**|The Timesheet Reminder field will default to ‘Yes’. Uncheck this field. | 
+|**POSTING FASTTAB - The Posting Tab determines where and what information will be posted to the GL Accounts.**|| 
+|**Branch Code**|Select the relevant Branch Code from the “ArrowDown”.| 
+|**Global Dimension 1 &2**|Select the relevant Dimension Codes from the “ArrowDown”. This will usually be the same as the Branch Code. |
+|**RATE FASTTAB - There is nothing that needs to be completed on this tab, as the pay rates are later entered in the Pay Rates area.**|| 
+|**TAX FASTTAB **|| 
+|**Tax Scale No**|The Tax Scale No. will default from the Payroll setup card and can be overridden.| 
+|**HELP Debt**|Select this field if advised on the declaration form.| 
+|**Student Loan ( SFSS )**|Select his field if advised on the declaration form.|
+|**Fixed Tax Rate Applicable**|This Field needs to be selected and ticked.|
+|**Fixed Tax Rate Valid Until Date**|The Valid Until Date will be supplied from the ATO and needs to be entered in this field.|
+|**Fixed Tax Rate**|The ATO will supply a letter detailing the fixed Tax rate amount.|
+|**G.S.T. Exempt**|This relates to the setup of an Incorporated Company and if this is required, it needs to be ticked.|
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 1.1.2    
