@@ -10,19 +10,18 @@ Superannuation processing within the Dynamics NAV Payroll and Labour Hire module
    - SGC rules as per the ATO Legislation defined on the Payroll Setup Card
    - Allocating SGC and NON SGC transactions to the Rate Set or Payroll Employee Card
    - Allocating a Superannuation Fund to an employee
-   - Superannuation Calculation and Reporting
+- Superannuation Calculation and Reporting
 
 This document will specifically discuss how to use the Superannuation Processing function within Dynamics NAV.
 For further information relating to the setup of each of these areas, please refer to the Dialog – Training – LH –
 Payroll Setup Configuration document. 
 
 The activities discussed are: 
-   Bulk Adjustments
-   Calculate Monthly Superannuation
-   Calculate and Post Superannuation
-   Superannuation Report
-   Superannuation Adjustments 
-
+   - Bulk Adjustments
+   - Calculate Monthly Superannuation
+   - Calculate and Post Superannuation
+   - Superannuation Report
+   - Superannuation Adjustments 
       
 ## Superannuation Overview
 
@@ -62,17 +61,10 @@ Ledger and if you’ve opted for Vendor integration, an Invoice transaction will
       
 ## Superannuation Processing
 
- ### Bulk Adjustments
+### Bulk Adjustments
 
- 
-
-1. 
-
-This option is used to create bulk
-Superannuation changes to the Payroll Employee – superannuation cards when the
+This option is used to create bulk Superannuation changes to the Payroll Employee – superannuation cards when the
 SGC % changes.
-
- 
 
 To access the Bulk Adjustments task, go to the following menu:
 
@@ -94,127 +86,36 @@ Departments/Payroll/EOM Processing/Superannuation Processing/Bulk Adjustment
 |**Employer SGC %**|To filter the records you wish to change enter the Employee Standard Percentage to select for adjustment.|
 ||**SUPERANNUATION EMPLOYEE FASTTAB - Only the standard fields are covered. A full list of fields available as filters can be used by selecting the add filter.**| 
 |**Employee No**|Enter or Select the Employee’s you wish to adjust the superannuation records. If left blank all employees are selected.|
-  
- 
- 
-  
-  Click “OK” once you have
-  completed your selection.
-  
- 
+||**Click “OK” once you have completed your selection.**|
 
+**Calculate Monthly Superannuation**
 
- 
+This option isused to create monthly superannuation transactions to post to the General Ledger. 
+This option is used where the “Calc. Superannuation Monthly” flag isticked on the “Payroll” card 
+in the “Options Tab”. It is also used when you arecalculating employee on-cost superannuation.
 
- 
+**Note:** You only need to run this report when the On Costing Method is used for calculating superannuation.
 
-2.2       Calculate
-Monthly Superannuation
+This process updates the Employee’s superannuation Ledger Entry with on-cost superannuation transaction 
+details ready for Posting to the General Ledger using the “Calculate & Post Superannuation” process. You must 
+print the report for the process to move the on-cost transactions to the Superannuation LedgerEntries table.
 
- 
+To access the Calculate Monthly Superannuation, go to the following menu:
 
-This option is
-used to create monthly superannuation transactions to post to the General
-Ledger. This option is used where the “Calc. Superannuation Monthly” flag is
-ticked on the “Payroll” card in the “Options Tab”. It is also used when you are
-calculating employee on-cost superannuation.
+Departments/Payroll/EOM Processing/Superannuation Processing/Calculate Monthly Superannuation
 
-Note: You only need to run
-this report when the On Costing Method is used for calculating superannuation.
-
-This process
-updates the Employee’s superannuation Ledger Entry with on-cost superannuation
-transaction details ready for Posting to the General Ledger using the
-“Calculate & Post Superannuation” process. You must print the report for
-the process to move the on-cost transactions to the Superannuation Ledger
-Entries table.
-
- 
-
-To access the Calculate Monthly Superannuation,
-go to the following menu:
-
- 
-
-Departments/Payroll/EOM Processing/Superannuation
-Processing/Calculate Monthly Superannuation
-
- 
-
-
-
- 
-
-2.2.1    
-Edit: Calc. Monthly Superannuation 
-
-
- 
-  
+### Edit: Calc. Monthly Superannuation 
    
-   Field Name
-   
-   
-   Description
-   
-  
- 
- 
-  
-  Calculation Date
-  
-  
-  Enter the date you want the Monthly
-  Superannuation transactions calculated. The last date of the month must be
-  entered to ensure all pays for the month are picked up for the calculations.
-  
- 
- 
-  
-  Month to Calculate
-  
-  
-  This field displays the month automatically
-  after you enter the Calculation Date.
-  
- 
- 
-  
-  Month Start Date
-  
-  
-  This field displays the 1st date
-  of the above month after the date has been entered.
-  
- 
- 
-  
-  Month End Date
-  
-  
-  This field displays the last date of the
-  above month after the date has been entered.
-  
- 
- 
-  
-  Report Only
-  
-  
-  Tick this flag to produce a report without
-  updating the Employee Superannuation Ledger records. Leave this field blank
-  to update the Employee Superannuation Ledger records.
-  
- 
- 
-  
-  If
-  you wish to preview the report to screen, you should ensure that you click “Report Only” and then click “Preview”. 
-  If you wish to create Superannuation Ledger Entries, you should
-  ensure that “Report Only” is NOT
-  TICKED and print the
-  report.   You can send the report to a
-  printer or save as a pdf, click “Print” and select the relevant option.
+|**Field Name**|**Description**|
+|------------------------------------------------|----------------------------------------------------------------------------------|
+|**Calculation Date**|Enter the date you want the Monthly Superannuation transactions calculated. The last date of the month must be entered to ensure all pays for the month are picked up for the calculations.|
+|**Month to Calculate**|This field displays the month automatically after you enter the Calculation Date.|
+|**Month Start Date**|This field displays the 1st date of the above month after the date has been entered.|
+|**Month End Date**|This field displays the last date of the above month after the date has been entered.|
+|**Report Only**|Tick this flag to produce a report without updating the Employee Superannuation Ledger records. Leave this field blank to update the Employee Superannuation Ledger records.|
+||**If you wish to preview the report to screen, you should ensure that you click “Report Only” and then click “Preview”.**| 
+||**If you wish to create Superannuation Ledger Entries, you should ensure that “Report Only” is NOT TICKED and print the**|
+||**report.   You can send the report to a printer or save as a pdf, click “Print” and select the relevant option.**|
   
  
 
