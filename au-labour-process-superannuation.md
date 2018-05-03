@@ -265,6 +265,7 @@ To access the New Member Registration Export,
 Departments/Payroll/EOM Processing/Superannuation Processing
 
 |**Field**|**Comments**|
+|--------------------------|----------------------------------------------------------------------------------------------------|
 ||**OPTIONS FASTTAB**|
 |**Run Type**|Select the process from the list.|  
 ||**Preview no export**  – This option previews the report and allows you to verify the data before reporting.  This option can be run multiple times.|  
@@ -308,699 +309,152 @@ To access the Super Payment Export & Notification,
 Departments/Payroll/EOM Processing/Superannuation Processing/Super.Payment Export & Notification Report
 
 |**Field**|**Comments**|
+|------------------------------------|----------------------------------------------------------------------------------------|
 |**Payroll No.**|The Payroll No. can be selected from the “ArrowDown”. |
 ||If left blank all Payrolls are processed. |
 |**Start Posting Date**|Enter the Start Posting Date of the period you want to include. This will filter transactions in the Superannuation Ledger Entry table based on the date that you enter in this field.|
 |**End Posting Date**|Enter the End Posting Date of the period you want to include. This will filter transactions in the Superannuation Ledger Entry table based on the date that you enter in this field.|
 |**Contribution Period Start Date**|This date will default to the date that you have entered in the “Start Posting Date” field.|
 |**Contribution End Date**|This date will default to the end date that you have entered in the “End Posting Date” field.|
-  
- 
- 
-  
-  Run Type
-  
-  
-  Select the process from the list. 
-   
-  Preview no post – This option
-  previews the report without flagging the amounts as reported to the
-  Employee.  Use this option to verify the amounts remitted to the fund
-  before reporting.  This option can be run multiple times.  
-   
-  Post and create
-  letter file – Used to create a “.CSV” file to produce letters to the
-  employee and flag the employee records as advised of Superannuation
-  contributions.  
-  
-  Post and Create Pay Advice record–
-  This option is similar to the previous option but instead of creating a
-  “.CSV” file the Employee Superannuation Ledger Entries are flagged to print
-  on the next Employee Pay Advice.
-  
-  Employees with no pay next period
-  – This option must be used after your Next Pay is posted to general
-  Ledger.  The option selects all employees who did not receive a Pay
-  Advice in the “next pay” after “Post and create Pay Advice record” are
-  run.  A “.CSV” file is then created that you can use to produce a letter
-  for these employees.
-   
-  Note: If your
-  Company has multiple Payrolls and you select all Payrolls you must ensure
-  that you have completed processing all payrolls before you run this
-  process.  If you don’t the employees
-  contributions not yet paid and posted to the GL will go to the “.CSV” file
-  and the message will not print on their Pay Advice.  Or run this process
-  separately for each payroll.
-  
- 
- 
-  
-  Payment Export Format
-  
-  
-  There are currently 5 options for you to select from:
-   
-  Generic:  The Generic payment file layout is
-  described in Section 2.5.6.2
-  Generic Payment Format.
-    
-  ClickSuper:  The ClickSuper payment file layout is
-  described in Section 2.5.6.3
-  ClickSuper Payment Format.
-   
-  SuperChoice:
-  The SuperChoice payment file layout is described in Section 2.5.6.4
-  SuperChoice Payment Format.
-   
-  SunSuper: The
-  SunSuper payment file layout is described in Section 2.5.6.4
-  SunSuper Payment Format.
-   
-  SuperStream
-  Alternative: The SuperStream Alternative payment file layout is described
-  in Section 2.5.6.6
-  SuperStream Alternative Payment Format.
-   
-  QuickSuper: The
-  QuickSuper payment file layout is described in Section 2.5.6.7
-  QuickSuper Payment Format.
-   
-   
-  
- 
- 
-  
-  Date Paid to Fund
-  
-  
-  Enter the date you paid the SGC amounts to the fund.
-  
- 
- 
-  
-  Notification Letter File Export Location
-  
-  
-  This field is only used for “Post and create letter file”
-  and “Employees with no pay next period”.  
-  Enter the path and file name location where you want to create the “.CSV”
-  file.  This field remains greyed out for the other “Run Type” options 
-  
- 
- 
-  
-  Payment File Export Location
-  
-  
-  This field is used to identify the Payment File Export
-  Location.  
-  Enter the path and file name location where you want to create the “.CSV”
-  file.  
-  
- 
- 
-  
-  Sunsuper USI
-  
-  
-  Enter in the Sun Super USI no. so this may be added to the
-  Sun Super file on generation.
-  
- 
- 
-  
-  SUPERANNUATION FUND PRODUCT FASTTAB – Superannuation Fund Product information
-  can be filtered by entering information in this tab.  Otherwise it can be left blank. 
-  
- 
- 
-  
-  SUPERANNUATION LEDGER ENTRY FASTTAB – Superannuation Ledger Entry information
-  can be filtered by entering information in this tab.  Otherwise it can be left blank. 
-  
- 
- 
-  
-  When you have finished entering your
-  information, click on “Preview” or “Print” to
-  produce the file and report.
-  
- 
-
-
-
-
+|**Run Type**|Select the process from the list.| 
+||**Preview no post** – This option previews the report without flagging the amounts as reported to the Employee.  Use this option to verify the amounts remitted to the fund before reporting.  This option can be run multiple times.|  
+||**Post and create letter file** – Used to create a “.CSV” file to produce letters to the employee and flag the employee records as advised of Superannuation contributions.|  
+||**Post and Create Pay Advice record**– This option is similar to the previous option but instead of creating a “.CSV” file the Employee Superannuation Ledger Entries are flagged to print on the next Employee Pay Advice.|
+||**Employees with no pay next period** – This option must be used after your Next Pay is posted to general Ledger. The option selects all employees who did not receive a Pay Advice in the “next pay” after “Post and create Pay Advice record” are run. A “.CSV” file is then created that you can use to produce a letter for these employees.|
+||**Note:** If your Company has multiple Payrolls and you select all Payrolls you must ensure that you have completed processing all payrolls before you run this process.  If you don’t the employees contributions not yet paid and posted to the GL will go to the “.CSV” file and the message will not print on their Pay Advice.  Or run this process separately for each payroll.|
+|**Payment Export Format**|There are currently 5 options for you to select from:|
+||**Generic:** The Generic payment file layout is described in Section 2.5.6.2 Generic Payment Format.|
+||**ClickSuper:** The ClickSuper payment file layout is described in Section 2.5.6.3 ClickSuper Payment Format.|
+||**SuperChoice:** The SuperChoice payment file layout is described in Section 2.5.6.4 SuperChoice Payment Format.|
+||**SunSuper:** The SunSuper payment file layout is described in Section 2.5.6.4 SunSuper Payment Format.|
+||**SuperStream Alternative:** The SuperStream Alternative payment file layout is described in Section 2.5.6.6 SuperStream Alternative Payment Format.|
+||**QuickSuper:** The QuickSuper payment file layout is described in Section 2.5.6.7 QuickSuper Payment Format.|
+|**Date Paid to Fund**|Enter the date you paid the SGC amounts to the fund.|
+|**Notification Letter File Export Location**|This field is only used for “Post and create letter file” and “Employees with no pay next period”. Enter the path and file name location where you want to create the “.CSV” file.  This field remains greyed out for the other “Run Type” options.|
+|**Payment File Export Location**|This field is used to identify the Payment File Export Location.|
+||Enter the path and file name location where you want to create the “.CSV” file.|  
+|**Sunsuper USI**|Enter in the Sun Super USI no. so this may be added to the Sun Super file on generation.|
+||**SUPERANNUATION FUND PRODUCT FASTTAB –** Superannuation Fund Product information can be filtered by entering information in this tab.  Otherwise it can be left blank.| 
+||**SUPERANNUATION LEDGER ENTRY FASTTAB –** Superannuation Ledger Entry information can be filtered by entering information in this tab.  Otherwise it can be left blank.| 
+||**When you have finished entering your information, click on “Preview” or “Print” to produce the file and report.**|
  
+## Superannuation Payment Export and Notification Report
+ 
+The fields on the Superannuation Payment Export & Notification report are:
 
- 
+|**Report Field**|**Field No.**|**Obtained from**|
+|---------------------------|----------|----------------------------------------------------------------------------------------|
+|**Run ID**|(1)|This identifies the Run ID of the Superannuation Export & Notification.|
+||If you need to reverse the report, you will use this record  no.|
+|**Run Type**|(2)|This identifies the run type of the report.  The run type values are:|
+|| - “Export Payment and create notification letter”|
+|| - “Export Payment and create pay advice notification”|
+||**Contribution Date**|(3)|This is the Contribution End date of the records.|
+|**Date Paid To Fund**|(4)|This is the Date Paid To Fund.|
+|**Letter File Export Location**|(5)|This is the location of where the Letter export will be saved.|
+|**Payment File Export Location**|(6)| This is the location of where the Payment File export will be saved.|
+|**Code**|(7)|This is the Superannuation Product Code|
+|**Product Name**|(8)|This is the Product Name|
+|**Employee No.**|(9)|This is the Employee No.|
+|**Employee Name**|(10)|This is the Employee name|
+|**Membership No.**|(11)|This is the Employee’s Superannuation Membership No.|
+|**Employee Amount**|(12)|An amount will appear in this column if the employee has made contributions.|
+|**Employer Amount**|(13)|An amount will appear in this column if the employer has made contributions for the employee.|  
+  
+### Pay Advice Notification 
 
-2.5.3.1    
-Superannuation Payment Export and Notification
-Report
-
-
-
- 
-
- 
-
-The fields on the Superannuation Payment Export &
-Notification report are:
-
- 
-
-
-
-
- 
-  
-   
-   Report Field
-   
-   
-   Field No.
-   
-   
-   Obtained from
-   
-  
- 
- 
-  
-  Run ID
-  
-  
-  (1)
-  
-  
-  This identifies the Run ID of the Superannuation Export
-  & Notification.  
-   
-  If you need to reverse the report, you will use this record
-  no.
-  
- 
- 
-  
-  Run Type
-  
-  
-  (2)
-  
-  
-  This identifies the run type of the report.  The run type values are:
-  
-   “Export
-       Payment and create notification letter”
-   “Export
-       Payment and create pay advice notification”
-  
-  
- 
- 
-  
-  Contribution Date
-  
-  
-  (3)
-  
-  
-  This is the Contribution End date of the records.
-  
- 
- 
-  
-  Date Paid To Fund
-  
-  
-  (4)
-  
-  
-  This is the Date Paid To Fund.
-  
- 
- 
-  
-  Letter File Export Location
-  
-  
-  (5)
-  
-  
-  This is the location of where the Letter export will be
-  saved.
-  
- 
- 
-  
-  Payment File Export Location
-  
-  
-  (6)
-  
-  
-  This is the location of where the Payment File export will
-  be saved.
-  
- 
- 
-  
-  Code
-  
-  
-  (7)
-  
-  
-  This is the Superannuation Product Code
-  
- 
- 
-  
-  Product Name
-  
-  
-  (8)
-  
-  
-  This is the Product Name
-  
- 
- 
-  
-  Employee No.
-  
-  
-  (9)
-  
-  
-  This is the Employee No.
-  
- 
- 
-  
-  Employee Name
-  
-  
-  (10)
-  
-  
-  This is the Employee name
-  
- 
- 
-  
-  Membership No.
-  
-  
-  (11)
-  
-  
-  This is the Employee’s Superannuation Membership No.
-  
- 
- 
-  
-  Employee Amount
-  
-  
-  (12)
-  
-  
-  An amount will appear in this column if the employee has
-  made contributions.
-  
- 
- 
-  
-  Employer Amount
-  
-  
-  (13)
-  
-  
-  An amount will appear in this column if the employer has
-  made contributions for the employee.
-  
- 
-
-
-
-
- 
-
- 
-
- 
-
-2.5.3.2    
-Pay Advice Notification 
-
- 
-
-The Pay Advice Notification
-Report flags the Employee Superannuation Ledger entry records as reported to
+The Pay Advice Notification Report flags the Employee Superannuation Ledger entry records as reported to
 your employees.  The following steps outline the process:
 
- 
+ - Select the Pay Advice Notification Report.
+ - Select the Employees or Groups of Employees on the “Superannuation Ledger Entry” tab.
+ - Select the “Payroll No.” you wish to process.
+ - Enter either the “Pay Period End” or “Contribution” date.  If a Payroll is not selected the “Pay Period End” date field is greyed out.
+ - Select the “Run Type”.  It is recommended that the “Run Type” option “Preview no post” is run initially to reconcile the fund amounts before running the report and committing the amounts reported to employees. When selecting this option a report is produced.  
+ - Enter the “Date Paid to Fund”.  This is the date that the payments were made to the Superannuation Fund.
+ - Enter the “File Export Location”.  Enter the path you wish the “.CSV” file to be placed. This field is greyed out except for Run Type “Post and create letter file” or “Employees with no pay next period”
+ - Select either the “Print” or “Preview” button to run the process.
+ - If you have selected the Run Type “Post and create Pay Advice record” then you must run the “Employees with no pay next period” after you have processed your payrolls for the next pay period.  This option will create a .CSV file so that you can use Word and Mail Merge to produce a letter to your employees who were not paid.
+ 
+### Example of the Pay Advice message:
 
+"The Superannuation payment of $9999.99 for the period of dd/mm/yyyy to dd/mm/yyyy 
+was paid into xxxxxxxxxxxxxx for credit to your account 99999999 on dd/mm/yyyy.”
 
- Select
-     the Pay Advice Notification Report.
- Select
-     the Employees or Groups of Employees on the “Superannuation Ledger Entry”
-     tab.
- Select
-     the “Payroll No.” you wish to process.
- Enter
-     either the “Pay Period End” or “Contribution” date.  If a Payroll is
-     not selected the “Pay Period End” date field is greyed out.
- Select
-     the “Run Type”.  It is recommended that the “Run Type” option
-     “Preview no post” is run initially to reconcile the fund amounts before
-     running the report and committing the amounts reported to employees.
-      When selecting this option a report is produced.  
- Enter
-     the “Date Paid to Fund”.  This is the date that the payments were
-     made to the Superannuation Fund.
- Enter
-     the “File Export Location”.  Enter the path you wish the “.CSV” file
-     to be placed.  This field is greyed out except for Run Type
-      “Post and create letter file” or “Employees with no pay next period”
- Select
-     either the “Print” or “Preview” button to run the process.
- If
-     you have selected the Run Type “Post and create Pay Advice record” then
-     you must run the “Employees with no pay next period” after you have
-     processed your payrolls for the next pay period.  This option will
-     create a .CSV file so that you can use Word and Mail Merge to produce a
-     letter to your employees who were not paid.
-
-
- 
-
-2.5.3.3    
-Example of the Pay Advice message:
-
- 
-
-“The Superannuation payment of $9999.99 for the period of dd/mm/yyyy to
-dd/mm/yyyy was paid into xxxxxxxxxxxxxx for credit to your account 99999999 on
-dd/mm/yyyy.”
-
- 
-
-This message will be printed on
-the Pay Advice for each Superannuation fund the employee has used within the
+This message will be printed on the Pay Advice for each Superannuation fund the employee has used within the
 Superannuation reporting period.
 
- 
+**Note:** Each company has subtle setup differences to meet their business requirements.  It is recommended that the values on the report are verified prior to distribution. 
 
-Note: Each company has
-subtle setup differences to meet their business requirements.  It is recommended that the values on the
-report are verified prior to distribution. 
+### Possible Error Messages
 
- 
-
-2.5.3.4    
-Possible Error Messages
-
- 
-
-The employee’s Superannuation
-record for the Superannuation Product Code has been changed or deleted after
+The employee’s Superannuation record for the Superannuation Product Code has been changed or deleted after
 payments have been made to the fund during the Superannuation Reporting period.
 
- 
+In the Payroll Employee card/Navigate ribbon/Superannuation add the deleted Superannuation Product
+Code.  Change the amounts and percentage value to zero to prevent the deduction from processing in future pay journals.
 
-In the Payroll Employee
-card/Navigate ribbon/Superannuation add the deleted Superannuation Product
-Code.  Change the amounts and percentage value to zero to prevent the
-deduction from processing in future pay journals.
+## Super. Payment Export Reversal 
 
- 
+You may use this process to reverse the Superannuation Notification Report by entering the “SGC Extract
+Report Run Id” for the current processing month.  The “SGC Extract Report Run Id” is located on the 
+Superannuation Payment Export and Notification Report towards the top left hand corner of the report.  
+You can only reverse the Payment process in the following conditions:
 
-2.5.4    
-Super. Payment
-Export Reversal 
-
- 
-
-You may use this process to
-reverse the Superannuation Notification Report by entering the “SGC Extract
-Report Run Id” for the current processing month.  The “SGC Extract Report
-Run Id” is located on the Superannuation Payment Export and
-Notification Report
-towards the top left hand corner of the report.  You can only reverse the
-Payment process in the following conditions:
-
- 
-
-
- When
-     you have used the Letter (.CSV) file.  You can reverse the process up
-     to one month after the file has been produced.  If you have already
-     issued the letters a letter explaining the changes you have made must be
-     issued to the employees.
- When
-     you have used the Pay Advice option.  You can only reverse the
-     process up until you print the Pay Advices in the next pay run.
-
-
- 
+ - When you have used the Letter (.CSV) file.  You can reverse the process up to one month after the file has been produced. If you have already issued the letters a letter explaining the changes you have made must be issued to the employees.
+ - When you have used the Pay Advice option. You can only reverse the process up until you print the Pay Advices in the next pay run.
 
 To access the Super. Payment Export Reversal report, 
 
- 
+Departments/Payroll/EOM Processing/Superannuation Processing/Super. Payment Export Reversal
 
-Departments/Payroll/EOM
-Processing/Superannuation Processing/Super. Payment Export Reversal 
-
-
-
- 
-
-
-
-
- 
+|**Field**|**Comments**|   
+|-----------------------------------|------------------------------------------------------------------------------------|
+|**SGC Extract Report Run ID**|Enter the SGC Extract Report Run Id for the Run Id you wish to reverse.|
+||The Run Id is found at the top left corner of the Superannuation Payment & Notification Report.|
+||**When you have finished entering your information, click on “OK”.**|
   
-   
-   Field
-   
-   
-   Comments
-   
-  
- 
- 
-  
-  SGC Extract Report Run ID 
-  
-  
-  Enter the SGC Extract Report Run Id for the Run Id you
-  wish to reverse.
-  
-  The Run Id is found at the top left corner of the Superannuation Payment
-  & Notification Report.
-  
- 
- 
-  
-  When you have finished entering your
-  information, click on “OK”.
-  
-   
- 
- 
- 
-  
-  
-  
- 
- 
+### Running Super. Export & Notification Reversal
 
-
-
-
- 
-
-2.5.4.1    
-Running Super. Export & Notification
-Reversal
-
- 
-
-The Reversing process is used to
-reset the reporting flags where after you have processed the transactions for
-reporting and wish to make changes.  You can only reverse the transactions
-if you have not reported the payments to your employees by producing Pay
-Advices for the next payroll run or created the letter file (.CSV).  The
+The Reversing process is used to reset the reporting flags where after you have processed the transactions for
+reporting and wish to make changes. You can only reverse the transactions if you have not reported the payments 
+to your employees by producing Pay Advices for the next payroll run or created the letter file (.CSV). The
 following steps outline the Reversal process.
 
- 
+- Select the Super.Payment Export Reversal Report.
+- Enter the “SGC Extract Report Run Id”.
+- Select OK.
+- A message will display the number of records reversed when the process is completed.
+- Make any required corrections and repeat your “Super.Payment Export & Notification” process again. 
 
-Select the Super.Payment Export Reversal Report.Enter the “SGC Extract Report Run Id”.Select OK.A message will display the number of records
-reversed when the process is completed.Make any required corrections and repeat your
-“Super.Payment Export & Notification” process again. 
+### Super. Payment History
 
+The Super. Payment History report will provide you with information by fund on each of the payments made to an employee.
 
-
-
-
-
-
-
-
-
-
-
-
-
-2.5.5    
-Super. Payment History
-
- 
-
-The Super. Payment History report will provide you with
-information by fund on each of the payments made to an employee.
-
- 
-
-You enter in the Payroll No., Contribution Date, Date Paid
-to Fund and whether you want to display the information in detail.
-
- 
+You enter in the Payroll No., Contribution Date, Date Paid to Fund and whether you want to display the information in detail.
 
 To access the Super. Payment History report, 
 
- 
-
-Departments/Payroll/EOM
-Processing/Superannuation Processing/Super. Payment History
-
-
-
- 
-
- 
-
-
-
-
- 
-  
+Departments/Payroll/EOM Processing/Superannuation Processing/Super. Payment History
    
-   Field
+|**Field**|**Comments**|
+|-----------------------------------|----------------------------------------------------------------------------------------|
+|**Payroll No.**|Select the Payroll No. from the “ArrowDown”.|
+||If left blank all Payrolls are processed.| 
+|**Contribution Date**|Enter in the Contribution Date or the Ending Posting Date that you entered when producing the Super. Payment Export & Notification report.|
+|**Date Paid to Fund**|Enter the date you paid the SGC amounts to the fund.|
+|**Show Detail**|If you wish to preview the information in Detail, select this field.|
+||**SUPERANNUATION LEDGER ENTRY FASTTAB –** Superannuation Ledger Entry information can be filtered by entering information in this tab.  Otherwise it can be left blank. 
+||**When you have finished entering your information, select “Preview” or “Print” to produce the file and report.**|
+  
+### Employee SGC Reporting History (Super.Payment History Report) – Detail
+
+The fields on the Employee SGC Reporting History (Super.Payment History) report are:
    
-   
-   Comments
-   
-  
- 
- 
-  
-  Payroll No.
-  
-  
-  Select the Payroll No. from the “ArrowDown”.  
-   
-  If left blank all Payrolls are processed. 
-  
- 
- 
-  
-  Contribution Date
-  
-  
-  Enter in the Contribution Date or the Ending Posting Date
-  that you entered when producing the Super. Payment Export & Notification
-  report.  
-  
- 
- 
-  
-  Date Paid to Fund
-  
-  
-  Enter the date you paid the SGC amounts to the fund.
-  
- 
- 
-  
-  Show Detail
-  
-  
-  If you wish to preview the information in Detail, select
-  this field.
-  
- 
- 
-  
-  SUPERANNUATION LEDGER ENTRY FASTTAB – Superannuation Ledger Entry information
-  can be filtered by entering information in this tab.  Otherwise it can be left blank. 
-  
- 
- 
-  
-  When you have finished entering your
-  information, select “Preview” or “Print” to
-  produce the file and report.
-  
- 
+|**Report Field**|**Field No.**|**Obtained from**|
+|-------------------------------|----------|-----------------------------------------------------------------------------------|   
+|**Fund Name**|(1)|This field identifies the Superannuation Fund Code for the employee.|
 
-
-
-
- 
-
- 
-
- 
-
-2.5.5.1    
-Employee SGC Reporting History (Super.Payment
-History Report) – Detail
-
- 
-
-
-
- 
-
- 
-
-The fields on the Employee SGC Reporting History (Super.
-Payment History) report are:
-
- 
-
-
-
-
- 
-  
-   
-   Report Field
-   
-   
-   Field No.
-   
-   
-   Obtained from
-   
-  
- 
- 
-  
-  Fund Name
-  
-  
-  (1)
-  
-  
-  This field identifies the Superannuation Fund Code for the
-  employee.
   
  
  
