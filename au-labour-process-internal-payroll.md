@@ -5,21 +5,22 @@
 This document has been prepared as a training manual for users of the Dynamics NAV 2017 Labour Hire Suite module.
 This document will contain information relating to Internal Payroll Processing encompassing the following sections:
 
-- Entering New Employeeso Employee Cardo Payroll Employee Card
-- Processing Payso Pay Journals
-  - Enter Leave Adjustmentso Calculating Pays
-  - Entry Validation Reports
-  - Un-calculating Payso Creating a Bank Transfer File
-  - Post and Print Pay Advices
-  - Close Pay Period
 
-## INTERNAL PAYROLL PROCESSING OVERVIEW
+- Entering New Employeeso Employee Cardo Payroll Employee Card
+- Processing Payso Pay Journals  
+- Enter Leave Adjustmentso Calculating Pays  
+- Entry Validation Reports  
+- Un-calculating Payso Creating a Bank Transfer File  
+- Post and Print Pay Advices  
+- Close Pay Period
+
+## INTERNAL PAYROLL PROCESSING OVERVIEW
 All internal staff will be entered into the Human Resources and Payroll modules of Dynamics NAV.
  
 
-## PROCESS SUMMARY
+## PROCESS SUMMARY
 
-### Entering New Employees
+### Entering New Employees
 1. Receive employee application and relevant details to enter into Dynamics NAV. 
 2. Enter new employee information into the Human Resources module. 
 
