@@ -4,13 +4,13 @@
 
 Superannuation processing within the Dynamics NAV Payroll and Labour Hire modules encompasses the following functions: 
 
-Setup. 
-Superannuation SGC,NON SGC, Salary Sacrifice and Post Tax Deductions Pay Transaction Types 
-Superannuation Funds
-SGC rules as per the ATO Legislation defined on the Payroll Setup Card
-Allocating SGC and NON SGC transactions to the Rate Set or Payroll Employee Card
-Allocating a Superannuation Fund to an employee
-Superannuation Calculation and Reporting
+ - Setup. 
+   - Superannuation SGC,NON SGC, Salary Sacrifice and Post Tax Deductions Pay Transaction Types 
+   - Superannuation Funds
+   - SGC rules as per the ATO Legislation defined on the Payroll Setup Card
+   - Allocating SGC and NON SGC transactions to the Rate Set or Payroll Employee Card
+   - Allocating a Superannuation Fund to an employee
+   - Superannuation Calculation and Reporting
 
 This document will specifically discuss how to use the Superannuation Processing function within Dynamics NAV.
 For further information relating to the setup of each of these areas, please refer to the Dialog – Training – LH –
@@ -60,13 +60,9 @@ When you have completed generating your superannuation ledger entries, the next 
 Ledger and if you’ve opted for Vendor integration, an Invoice transaction will post to the Vendor Ledger Entry.
 
       
-Superannuation Processing
+## Superannuation Processing
 
-2   
- 
-
-2.1   
-Bulk Adjustments
+ ### Bulk Adjustments
 
  
 
@@ -78,129 +74,26 @@ SGC % changes.
 
  
 
-To access the Bulk Adjustments task, go to the
-following menu:
+To access the Bulk Adjustments task, go to the following menu:
 
-Departments/Payroll/EOM
-Processing/Superannuation Processing/Bulk Adjustment
+Departments/Payroll/EOM Processing/Superannuation Processing/Bulk Adjustment
+   
+### Edit: Bulk Update Superannuation 
 
-
-
- 
-
-2.1.1    
-Edit: Bulk Update Superannuation 
-
-
- 
-  
-   
-   Field Name
-   
-   
-   Description
-   
-  
- 
- 
-  
-  OPTIONS FASTTAB 
-  
- 
- 
-  
-  New Employer SGC %
-  
-  
-  Enter the new percentage for the selected
-  Superannuation records.
-  
- 
- 
-  
-  New Employer SGC amount
-  
-  
-  Enter the new amount for the selected
-  Superannuation records.
-  
- 
- 
-  
-  New Employer Factor
-  
-  
-  Enter the new amount for the selected
-  Superannuation records.
-  
- 
- 
-  
-  New Employee Post Tax
-  Standard %
-  
-  
-  Enter the new standard percentage for the
-  selected Superannuation records.
-  
- 
- 
-  
-  New Employee Post Tax
-  Amount
-  
-  
-  Enter the new standard amount for the
-  selected Superannuation records.
-  
- 
- 
-  
-  Update Employees
-  
-  
-  Tick this field to update the records. Leave
-  this field un-ticked not to update the employee records.
-  
- 
- 
-  
-  SUPERANNUATION FUND PRODUCT FASTTAB - Only the standard fields are covered. A full
-  list of fields available as filters can be used by selecting the add filter.
-  
- 
- 
-  
-  Transaction Type Code
-  
-  
-  Select the Transaction Type Code for the
-  Superannuation records you wish to adjust. If left blank all Superannuation
-  Pay Transaction Type codes are selected.
-  
- 
- 
-  
-  Employer SGC %
-  
-  
-  To filter the records you wish to change
-  enter the Employee Standard Percentage to select for adjustment.
-  
- 
- 
-  
-  SUPERANNUATION EMPLOYEE FASTTAB - Only the standard fields are covered. A full
-  list of fields available as filters can be used by selecting the add filter.
-  
- 
- 
-  
-  Employee No
-  
-  
-  Enter or Select the Employee’s you wish to
-  adjust the superannuation records. If left blank all employees are selected.
+|**Field Name**|**Description**|
+|-------------------------------------------|------------------------------------------------------------------------------------|
+||**OPTIONS FASTTAB**| 
+|**New Employer SGC %**|Enter the new percentage for the selected Superannuation records.|
+|**New Employer SGC amount**|Enter the new amount for the selected Superannuation records.|
+|**New Employer Factor**|Enter the new amount for the selected Superannuation records.|
+|**New Employee Post Tax Standard %**|Enter the new standard percentage for the selected Superannuation records.|
+|**New Employee Post Tax Amount**|Enter the new standard amount for the selected Superannuation records.|
+|**Update Employees**|Tick this field to update the records. Leave this field un-ticked not to update the employee records.|
+||**SUPERANNUATION FUND PRODUCT FASTTAB - Only the standard fields are covered. A full list of fields available as filters can be used by selecting the add filter.**|
+|**Transaction Type Code**|Select the Transaction Type Code for the Superannuation records you wish to adjust. If left blank all Superannuation Pay Transaction Type codes are selected.|
+|**Employer SGC %**|To filter the records you wish to change enter the Employee Standard Percentage to select for adjustment.|
+||**SUPERANNUATION EMPLOYEE FASTTAB - Only the standard fields are covered. A full list of fields available as filters can be used by selecting the add filter.**| 
+|**Employee No**|Enter or Select the Employee’s you wish to adjust the superannuation records. If left blank all employees are selected.|
   
  
  
