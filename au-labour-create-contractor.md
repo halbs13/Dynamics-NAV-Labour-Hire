@@ -9,8 +9,8 @@ This document will contain information relating to Contractor setup and contains
     - [Gross & Allowances](#gross-&-allowances)
     - [Deductions](#deductions)
     - [Superannuation](#superannuation)
-    - [On Costs](#on-costs)
-  - [Resource Allocations]
+    - [On Costs](#accumulation-calculations)
+  - [Resource Allocations](#resource-placement-allocations)
     - [Job Card](#resource-allocations-job-card)
     - [Customer Card](#resource-allocations-customer-card)
     - [Rate Sets](#resource-allocations-rate-sets)
