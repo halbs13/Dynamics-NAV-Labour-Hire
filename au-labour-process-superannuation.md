@@ -877,549 +877,70 @@ The fields contained in the SuperStream Alternative file are:
 |**Employee Location Identifier Start Date**|Optional|The “Employee Location Identifier Start Date” is not exported.|
 |**Employee Location Identifier End Date**|Optional|The “Employee Location Identifier End Date” is not exported.|
 
+### QuickSuper Payment Format
 
-2.5.6.7    
-QuickSuper Payment Format
+The fields contained in the Quick Super file are:
 
-The fields contained in the Quick
-Super file are:
-
- 
-
-
-
-
- 
-  
-   
-   Field Name
-   
-   
-   Mandatory
-   
-   
-   Description
-   
-  
- 
- 
-  
-  Your File Reference
-  
-  
-  Mandatory
-  
-  
-  This is your file reference, it needs to be different for
-  each file you upload to QuickSuper.
-   
-  Most employers base their file reference on the date.
-   
-  It will be sourced from the Contribution End date when the
-  file is generated.
-  
- 
- 
-  
-  Your File Date
-  
-  
-  Mandatory
-  
-  
-  This is the date you upload your file to QuickSuper.  The date you enter must be the same for
-  every employee.
-  
- 
- 
-  
-  Contribution Period Start Date
-  
-  
-  Mandatory
-  
-  
-  This is the start date of your contribution period.  
-  
- 
- 
-  
-  Contribution Period End Date
-  
-  
-  Mandatory
-  
-  
-  This is the end date of your contribution period.  
-  
- 
- 
-  
-  Employer ID
-  
-  
-  Mandatory
-  
-  
-  Your employer ID as registered within QuickSuper.
-  
- 
- 
-  
-  Payroll ID
-  
-  
-  Mandatory
-  
-  
-  Your Payroll ID is the number you use to identify your
-  employees.
-  
- 
- 
-  
-  Name Title
-  
-  
-  Mandatory
-  
-  
-  Titles must be entered in UPPERCASE.  The “Name Title” will be sourced from the
-  “Title” field on the Employee card.
-  
- 
- 
-  
-  Family Name
-  
-  
-  Mandatory
-  
-  
-  Family name is known as Last Name or Surname.  The “Family Name” field will be sourced
-  from the “Last Name” field on the Employee card.
-  
- 
- 
-  
-  Given Name
-  
-  
-  Mandatory
-  
-  
-  Enter the full name of your employee, not just the first
-  initial.  
-  The “Given Name” field will be sourced from the “First
-  Name” field on the Employee card.
-  
- 
- 
-  
-  Name Suffix
-  
-  
-  Optional
-  
-  
-  This information is relevant to very few employees, and
-  the field can be left blank.
-  
- 
- 
-  
-  Date of Birth
-  
-  
-  Mandatory
-  
-  
-  This field must be completed for every employee, in every
-  upload file.
-   
-  The “Date of Birth” information will be sourced from the
-  Birth Date field on the Employee card.
-  
- 
- 
-  
-   Gender
-  
-  
-  Mandatory
-  
-  
-  The “Gender” information will be sourced from the Gender
-  field on the Employee card.
-  
- 
- 
-  
-  Tax File Number
-  
-  
-  Mandatory
-  
-  
-  You employee’s TFN will be passed to AustralianSuper by
-  secure file delivery or by post to other funds.  TFNs will only be sent on the first time
-  they are provided for an employee.
-   
-  The “TFN” information will be sourced from the “Tax File
-  Number” field on the Payroll Employee card.
-  
- 
- 
-  
-  Phone Number
-  
-  
-  Optional
-  
-  
-  It is not necessary to provide and employee phone number,
-  but if you do it must be entered in the following format;
-    [Area code] [Phone
-  number]
-   
-  The “Phone Number” information will be sourced from the
-  “Phone Number” field on the Employee card.
-  
- 
- 
-  
-  Mobile Number
-  
-  
-  Optional
-  
-  
-  Mobile numbers must be entered in this format (with
-  spaces):
-  xxx xxx xxx.
-   
-  The “Mobile Number” information will be sourced from the “Mobile
-  Number” field on the Employee card.
-  
- 
- 
-  
-  Email Address
-  
-  
-  Optional
-  
-  
-  You can enter an employee’s email address. 
-   
-  The “Email Address” information will be sourced from the
-  Employee card.
-  
- 
- 
-  
-  Address 1
-  
-  
-  Mandatory
-  
-  
-  The “Address 1” is sourced from the Address field on the
-  Employee card for the employee.
-  
- 
- 
-  
-  Address 2 
-  
-  
-  Optional
-  
-  
-  The “Address 2” is sourced from the Address 2 field on the
-  Employee card for the employee.
-  
- 
- 
-  
-  Address 3
-  
-  
-  Optional
-  
-  
-  The “Address 3” is not exported.
-  
- 
- 
-  
-  Address 4
-  
-  
-  Optional
-  
-  
-  The “Address 4” is not exported.
-  
- 
- 
-  
-  Suburb
-  
-  
-  Mandatory
-  
-  
-  You must complete this field for employees with Australian
-  addresses.  For international
-  addresses, leave this field blank. 
-   
-  The “Suburb” is sourced from the City field on the
-  Employee card for the employee.
-  
- 
- 
-  
-  State
-  
-  
-  Mandatory
-  
-  
-  You must complete this field for employees with Australian
-  addresses.  For international
-  addresses, leave this field blank. 
-   
-  The “State” is sourced from the County field on the
-  Employee card for the employee.
-  
- 
- 
-  
-  Post Code
-  
-  
-  Mandatory
-  
-  
-  You must complete this field for employees with Australian
-  addresses.  For international
-  addresses, leave this field blank.
-   
-  The “Post Code” is sourced from the Post Code field on the
-  Employee card for the employee.
-  
- 
- 
-  
-  Country
-  
-  
-  Mandatory
-  
-  
-  Complete this field for both Australian or international addresses.
-   
-  The “Country” is sourced from the Country field on the
-  Employee card for the employee.
-  
- 
- 
-  
-  Employment Start Date
-  
-  
-  Mandatory
-  
-  
-  Enter the date your employee started working for your
-  company.
-   
-  The “Employment Start Date” information will be sourced
-  from the Employment Date field on the Employee card.
-  
- 
- 
-  
-  Employment End Date
-  
-  
-  Optional
-  
-  
-  Enter the date your employee finished working for you.
-   
-  The “Employment End Date” is sourced from the Termination
-  Date on the Employee card for the employee.
-  
- 
- 
-  
-  Employment End Reason
-  
-  
-  Optional
-  
-  
-  Enter in the general reason why your employee stopped
-  working with your company.
-   
-  The “Employment End Reason” information will be sourced
-  from the Grounds of Termination Reason code on the Employee card.
-  
- 
- 
-  
-  Fund ID
-  
-  
-  Mandatory
-  
-  
-  The Fund ID is the SPIN for the employee’s super fund,
-  this will be provided on your employee’s Standard Choice form.  
-   
-  The “Fund ID” information will be sourced from the SPIN
-  number contained on the Employee Superannuation card.
-  
- 
- 
-  
-  Fund Name
-  
-  
-  Mandatory
-  
-  
-  Enter the full name of the Fund you are paying to.
-   
-  The “Fund Name” information will be sourced from the
-  Superannuation Fund Name on the Employee Superannuation card.
-  
- 
- 
-  
-  Fund Employer ID
-  
-  
-  Optional
-  
-  
-  This field can be populated if you’ve been given an
-  Employer Number from the Fund that you are paying to.
-   
-  The “Fund Employer ID” information will be soured from the
-  Employer ID field on the Employee’s Superannuation Fund card.
-  
- 
- 
-  
-  Member ID
-  
-  
-  Mandatory
-  
-  
-  You must complete this field for every employee, in every
-  file you upload.  This is the member
-  number given to your employee by their super fund.
-   
-  The “Member ID” information will be sourced from the
-  Member No. field on the Employee Superannuation card.
-  
- 
- 
-  
-  Employer Super Guarantee Amount
-  
-  
-  Mandatory
-  
-  
-  The field contains the Super Guarantee (SG) amount being
-  paid for each employee.
-   
-  
- 
- 
-  
-  Employer Additional Amount
-  
-  
-  Optional
-  
-  
-  This field contains the employer contribution amount being
-  paid above the minimum SG amount for each employee (excluding salary
-  sacrifice amounts).
-  
- 
- 
-  
-  Member Salary Sacrifice
-  
-  
-  Optional
-  
-  
-  This field contains the salary sacrifice (before-tax)
-  amount being paid on behalf of an employee.
-  
- 
- 
-  
-  Member Additional Amount
-  
-  
-  Optional
-  
-  
-  This field contains any voluntary after-tax amount being
-  paid by an employee.
-  
- 
- 
-  
-  Other Contribution Type
-  
-  
-  Optional
-  
-  
-  Enter SPOUSE into this field to indicate that the amount
-  entered under the Member Additional Amount column is a spouse contribution.
-   
-  If the Member Additional Amount column is left blank, or
-  the amount entered is not a spouse contribution, leave this field blank.
-  
- 
- 
-  
-  Other Contributor Name
-  
-  
-  Optional
-  
-  
-  If a Spouse contribution is being made, please provide the
-  full name of the spouse.  If there is
-  no spouse contribution, leave this field blank.
-  
- 
- 
-  
-  Your Contribution Reference
-  
-  
-  Optional.
-  
-  
-  Your Contribution Reference will help you to identify each
-  of the funds you are paying into.  This
-  field can be left blank.
-  
- 
-
+|**Field Name**|**Mandatory**|**Description**|
+|-------------------------|-------------------|-----------------------------------------------------------------------------------|
+|**Your File Reference**|Mandatory|This is your file reference, it needs to be different for each file you upload to QuickSuper.|
+||Most employers base their file reference on the date.|
+||It will be sourced from the Contribution End date when the file is generated.|
+|**Your File Date**|Mandatory|This is the date you upload your file to QuickSuper.  The date you enter must be the same for every employee.|
+|**Contribution Period Start Date**|Mandatory|This is the start date of your contribution period.|
+|**Contribution Period End Date**|Mandatory|This is the end date of your contribution period.|  
+|**Employer ID**|Mandatory|Your employer ID as registered within QuickSuper.|
+|**Payroll ID**|Mandatory|Your Payroll ID is the number you use to identify your employees|
+|**Name Title**|Mandatory|Titles must be entered in UPPERCASE.  The “Name Title” will be sourced from the “Title” field on the Employee card.|
+|**Family Name**|Mandatory|Family name is known as Last Name or Surname.  The “Family Name” field will be sourced from the “Last Name” field on the Employee card.|
+|**Given Name**|Mandatory|Enter the full name of your employee, not just the first initial.The “Given Name” field will be sourced from the “First Name” field on the Employee card.|
+|**Name Suffix**|Optional|This information is relevant to very few employees, and the field can be left blank.|
+|**Date of Birth**|Mandatory|This field must be completed for every employee, in every upload file.The “Date of Birth” information will be sourced from the Birth Date field on the Employee card.|
+|**Gender**|Mandatory|The “Gender” information will be sourced from the Gender field on the Employee card.|
+|**Tax File Number**|Mandatory|You employee’s TFN will be passed to AustralianSuper by secure file delivery or by post to other funds.  TFNs will only be sent on the first time they are provided for an employee.|
+||The “TFN” information will be sourced from the “Tax File Number” field on the Payroll Employee card.|
+|**Phone Number**|Optional|It is not necessary to provide and employee phone number, but if you do it must be entered in the following format;[Area code] [Phone number]|
+||The “Phone Number” information will be sourced from the “Phone Number” field on the Employee card.|
+|**Mobile Number**|Optional|Mobile numbers must be entered in this format (with spaces): xxx xxx xxx.|
+||The “Mobile Number” information will be sourced from the “Mobile Number” field on the Employee card.|
+|**Email Address**|Optional|You can enter an employee’s email address.|
+||The “Email Address” information will be sourced from the Employee card.|
+|**Address 1**|Mandatory|The “Address 1” is sourced from the Address field on the Employee card for the employee.|
+|**Address 2**|Optional|The “Address 2” is sourced from the Address 2 field on the Employee card for the employee.|
+|**Address 3**|Optional|The “Address 3” is not exported.|
+|**Address 4**|Optional|The “Address 4” is not exported.|
+|**Suburb**|Mandatory|You must complete this field for employees with Australian addresses. For international addresses, leave this field blank.| 
+||The “Suburb” is sourced from the City field on the Employee card for the employee.|
+|**State**|Mandatory|You must complete this field for employees with Australian addresses. For international addresses, leave this field blank.| 
+||The “State” is sourced from the County field on the Employee card for the employee.|
+|**Post Code**|Mandatory|You must complete this field for employees with Australian addresses. For international addresses, leave this field blank.|
+||The “Post Code” is sourced from the Post Code field on the Employee card for the employee.|
+|**Country**|Mandatory|Complete this field for both Australian or international addresses.|
+||The “Country” is sourced from the Country field on the Employee card for the employee.|
+|**Employment Start Date**|Mandatory|Enter the date your employee started working for your company.|
+||The “Employment Start Date” information will be sourced from the Employment Date field on the Employee card.|
+|**Employment End Date**|Optional|Enter the date your employee finished working for you.
+||The “Employment End Date” is sourced from the Termination Date on the Employee card for the employee.|
+|**Employment End Reason**|Optional|Enter in the general reason why your employee stopped working with your company.|
+||The “Employment End Reason” information will be sourced from the Grounds of Termination Reason code on the Employee card.|
+|**Fund ID**|Mandatory|The Fund ID is the SPIN for the employee’s super fund, this will be provided on your employee’s Standard Choice form.|  
+||The “Fund ID” information will be sourced from the SPIN number contained on the Employee Superannuation card.|
+|**Fund Name**|Mandatory|Enter the full name of the Fund you are paying to.|
+||The “Fund Name” information will be sourced from the Superannuation Fund Name on the Employee Superannuation card.|
+|**Fund Employer ID**|Optional|This field can be populated if you’ve been given an Employer Number from the Fund that you are paying to.|
+||The “Fund Employer ID” information will be soured from the Employer ID field on the Employee’s Superannuation Fund card.|
+|**Member ID**|Mandatory|You must complete this field for every employee, in every file you upload.  This is the member number given to your employee by their super fund.|
+||The “Member ID” information will be sourced from the Member No. field on the Employee Superannuation card.|
+|**Employer Super Guarantee Amount**|Mandatory|The field contains the Super Guarantee (SG) amount being paid for each employee.|
+|**Employer Additional Amount**|Optional|This field contains the employer contribution amount being paid above the minimum SG amount for each employee (excluding salary sacrifice amounts).|
+|**Member Salary Sacrifice**|Optional|This field contains the salary sacrifice (before-tax) amount being paid on behalf of an employee.|
+|**Member Additional Amount**|Optional|This field contains any voluntary after-tax amount being paid by an employee.| 
+|**Other Contribution Type**|Optional|Enter SPOUSE into this field to indicate that the amount entered under the Member Additional Amount column is a spouse contribution. If the Member Additional Amount column is left blank, or the amount entered is not a spouse contribution, leave this field blank.|
+|**Other Contributor Name**|Optional|If a Spouse contribution is being made, please provide the full name of the spouse. If there is no spouse contribution, leave this field blank.|
+|**Your Contribution Reference**|Optional.|Your Contribution Reference will help you to identify each of the funds you are paying into.  This field can be left blank.|
+  
+ 
+[GoToTop}(#Introduction)
 
 
 
