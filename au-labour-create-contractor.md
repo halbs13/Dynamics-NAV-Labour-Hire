@@ -413,3 +413,4 @@ To access the Rate Sets via the Resource Allocations Card click “Rate Sets” 
 
 
 [GoToTop](#how-to-setup-a-contractor)
+
