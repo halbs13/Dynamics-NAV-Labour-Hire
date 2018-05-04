@@ -69,3 +69,6 @@ The Find window appears:
 4. Click Find Next.
 5. Your record is highlighted and marked as the current record in the Chart of Accounts window (The line will be highlighted).
 6. Click Find Next to find another occurrence.
+
+
+[GoToTop](#how-to-view-general-ledger-records)
