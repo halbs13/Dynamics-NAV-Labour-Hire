@@ -555,7 +555,7 @@ The fields contained in the Generic Payment file are:
 
 The fields contained in the ClickSuper Payment file are:
    
-|**Field Name**|Mandatory|Description|
+|**Field Name**|**Mandatory**|**Description**|
 |----------------------------|-------------------------|----------------------------------------------------------------------------|
 |**Reference**|Mandatory|This is the Reference ID for the file and is system generated.|
 |**Total Payment**|Optional|This is the Total Payment for the Employee sourced from the Superannuation Ledger Entry table.|  
@@ -648,7 +648,7 @@ The fields contained in the ClickSuper Payment file are:
 
 ### SuperChoice Payment Format
 
-The fields contained in theSuperChoice Payment file are:
+The fields contained in the SuperChoice Payment file are:
  
 |**Field Name**|**Mandatory**|**Description**|
 |---------------------------|------------------|-------------------------------------------------------------------------------|
