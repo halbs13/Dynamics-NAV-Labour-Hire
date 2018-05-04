@@ -20,7 +20,8 @@ This document will contain information relating to Contractor setup and contains
 ## Resources Card
 Prior to setting up a contractor on the HR and Payroll Employee cards, the contractor must be created as a Resource so that he can be assigned to a job.  The Jobs module will use Resource details when generating Job Ledger Entries which are in turn used for invoicing.
 To access the Resource Card, go to the following menu:
-Departments/Labour Hire/Candidate Processing/Resources
+
+*Departments/Labour Hire/Candidate Processing/Resources*
 
 [GoToTop](#how-to-setup-a-contractor)
 
@@ -130,9 +131,7 @@ The following fields will be populated by the interface and will only discuss th
 |**Payment Method**|The “Payment Method” allows a code to be assigned to each contractor specifying the method of payment.  The options are “Cash, Cheque or EFT”.|
 |**E-Mail Pay Advice**|The “Email Pay Advice” field should be ticked if pay advices are to be emailed to the employee/contractor.|
 |**E-Mail Payment Summary**|The “Email Payment Summary” field should be ticked if payment summaries are to be emailed to the employee/contractor.|
-|**POSTING FASTTAB – The Posting Tab is used to assign the employee to a Branch, Division and the Global Dimensions.  **||
-|**The Branch is attached to a State which is used to determine the state when calculating the Payroll Tax.**||
-|**The Branch and Division can be used to determine the GL accounts to post transactions against.  Global Dimensions are used in conjunction with the GL accounts in the General Ledger.**||
+|**POSTING FASTTAB – The Posting Tab is used to assign the employee to a Branch, Division and the Global Dimensions.The Branch is attached to a State which is used to determine the state when calculating the Payroll Tax.The Branch and Division can be used to determine the GL accounts to post transactions against.  Global Dimensions are used in conjunction with the GL accounts in the General Ledger.**||
 |**Branch Code**|The “Branch Code” is selected from the Branches Codes in the Branch window, accessed “ArrowDown” in the field.|
 ||Branch is one of the parameters used in resolving GL accounts for cost transactions.|
 |**Division Code**|The “Division Code” is selected from the Division Codes in the Division window, accessed from the “ArrowDown” in the field.|
@@ -141,16 +140,14 @@ The following fields will be populated by the interface and will only discuss th
 ||Global Dimension 1 is used to allow breakup of values in the General Ledger.|
 |**Global Dimension 2**|The “Global Dimension 2 Code” is selected from the Global Dimension Codes in the General Ledger, accessed from the “ArrowDown” in the field.|
 ||Global Dimension 2 is used to allow breakup of values in the General Ledger.|
-|**RATE FASTTAB – The Rate Tab is used to determine the standard hours worked and can be used to calculate Ordinary Time and Leave Accruals.**||
-|**The first three fields are used to calculate the hourly rate for each Employee and Accrue Time In Lieu hours.**||
+|**RATE FASTTAB – The Rate Tab is used to determine the standard hours worked and can be used to calculate Ordinary Time and Leave Accruals.The first three fields are used to calculate the hourly rate for each Employee and Accrue Time In Lieu hours.**||
 |**Hours in a Full Week**|This field is used to determine the standard hours worked for Ordinary pay and for accruals.|
 |**Hours Worked for TIL**|This field is used to calculate the value accrued to Time In Lieu.  The hours worked in excess of this value are accrued to the employee’s TIL entitlement.|
 |**Days Per Week**|Enter the standard number of days in a week the employee works.  This field is used for the calculation and processing of leave.|
-|**Flextime Applicable **|Tick this field is you wish to calculate an Employee’s entitlement based on hours worked.|
+|**Flextime Applicable**|Tick this field is you wish to calculate an Employee’s entitlement based on hours worked.|
 ||If an Employee is not entitled to flexi-time, the “Flexitime Applicable” field should be left blank.|
 |**The other fields contained on this Fast Tab are for display purpose only and are not used within the Labour Hire environment as rates are typically assigned to a Job.**||
-|**TAX FASTTAB – The information entered on this tab is obtained from the Employees Tax File Number/Employment Declaration form.  The information entered is used with the Declaration Tab to calculate PAYG Tax withholding amounts for the employee each pay run.**||
-|**The FBT field is used to add the Employee’s Fringe Benefit Tax each year.  This entry prints on the Payment Summary.**||
+|**TAX FASTTAB – The information entered on this tab is obtained from the Employees Tax File Number/Employment Declaration form.  The information entered is used with the Declaration Tab to calculate PAYG Tax withholding amounts for the employee each pay run.The FBT field is used to add the Employee’s Fringe Benefit Tax each year.  This entry prints on the Payment Summary.**||
 |**Tax Scale No.**|This code defines the Tax Scale for this employee.|
 ||Tax Scales are provided by the ATO to calculate PAYG withholding tax for Employees.|
 ||Select the Tax Scale No, from the “ArrowDown”.|
