@@ -2,7 +2,7 @@
 
 This document will contain information relating to Contractor setup and contains the following sections:
 - [Contractor Overview](#contractor-overview)
-  - [Resource Setup](#resource-card)
+  - [Resource Setup](#resources-card)
   - [Human Resource Setup](#employee-card)
   - [Payroll Employee Setup](#payroll-employee-card)
     - [Pay Dissections](#pay-dissections)
@@ -11,9 +11,9 @@ This document will contain information relating to Contractor setup and contains
     - [Superannuation](#superannuation)
     - [On Costs](#accumulation-calculations)
   - [Resource Allocations](#resource-placement-allocations)
-    - [Job Card](#resource-allocations-job-card)
-    - [Customer Card](#resource-allocations-customer-card)
-    - [Rate Sets](#resource-allocations-rate-sets)
+    - [Job Card](#resource-allocations---job-card)
+    - [Customer Card](#resource-allocations---customer-card)
+    - [Rate Sets](#resource-allocations---rate-sets)
 
 # CONTRACTOR OVERVIEW
 
@@ -21,7 +21,8 @@ This document will contain information relating to Contractor setup and contains
 Prior to setting up a contractor on the HR and Payroll Employee cards, the contractor must be created as a Resource so that he can be assigned to a job.  The Jobs module will use Resource details when generating Job Ledger Entries which are in turn used for invoicing.
 To access the Resource Card, go to the following menu:
 Departments/Labour Hire/Candidate Processing/Resources
- 
+
+[GoToTop](#how-to-setup-a-contractor)
 
 ### Edit - Resource Card”window 
 
@@ -49,6 +50,8 @@ The following fields will be populated by the interface and will only discuss th
 |**Social Security No.**|This field is used to specify the person’s social security no. or the machine’s serial number.|
 |**Employment Date**|This field is used to specify the date on which the person began working for you or the date on which the machine was placed in service.|
 |**Click “OK” after you have completed your selection.**||
+
+[GoToTop](#how-to-setup-a-contractor)
 
 ## Employee Card
 
@@ -100,6 +103,7 @@ The following fields will be populated by the interface and will only discuss th
 |**Date Name Changed**|This field is used to record the date the contractor’s name changed.|
 |**Click “OK” after you have completed your selection.**||
 
+[GoToTop](#how-to-setup-a-contractor)
 
 ## Payroll Employee Card
 
@@ -210,7 +214,7 @@ The following fields will be populated by the interface and will only discuss th
 |**User Defined Fields 1 to 10**|Enter information in here if required during Data Entry. Such information includes Telstra Codes. Check customer setup to determine which fields apply for this contractor.|
 |**Click “OK” after you have completed your selection.**||
 
-
+[GoToTop](#how-to-setup-a-contractor)
 
 ### Pay Dissections 
 Contractors can have multiple bank accounts within Dynamics NAV Payroll & Labour Hire and are available via the Pay Dissections area.
@@ -240,6 +244,8 @@ This form is used to set up the bank accounts and spilt the employees’ Net pay
 |**Not Used**|Tick this field to indicate this Bank Account Dissection is not used for one pay period.|
 |**Click “OK” after you have completed your selection.**||
 
+
+[GoToTop](#how-to-setup-a-contractor)
 
 ### Gross and Allowances
  
@@ -275,6 +281,7 @@ This option is used to set up the Gross Pay Transaction Type and Allowances for 
 |**Not Used**|If this field is ticked the Pay Transaction Type is not applied to the “current” pay period only.  The flag will be reset for the next pay period.|
 |**Click “OK” after you have completed your selection.**||
 
+[GoToTop](#how-to-setup-a-contractor)
 
 ### Deductions 
 This option is used to setup any Deductions for this contractor.  An example of a Deduction would either be a Child Support or Superannuation Salary Sacrifice transaction.  
@@ -301,6 +308,7 @@ on the “Navigate” ribbon.
 |**Not Used**|If this field is ticked the Pay Transaction Type is not applied to the “current” pay period only.  The flag will be reset for the next pay period.|
 |**Click “OK” after you have completed your selection.**||
 
+[GoToTop](#how-to-setup-a-contractor)
 
 ### Superannuation 
 
@@ -330,6 +338,7 @@ You access Superannuation from the Payroll Employee Card by clicking on the “S
 |**Base Salary**|This field is used to calculate the Employee SGC % on the value entered instead of on the Pay Transaction Types ticked "Apply to Super".  The amount is entered as the annual salary of the employee. If the "Base Salary" field is zero then the employee’s actual earnings are used to calculate the Amount.|
 |**Click “OK” after you have completed your selection.**||
  
+[GoToTop](#how-to-setup-a-contractor)
 
 ### Accumulation Calculations 
 
@@ -347,6 +356,7 @@ You access Employer On Costs from the Payroll Employee Card by clicking on the �
 |**Not Used**|If this field is ticked the Pay Transaction Type is not applied to the “current” pay period only.  The flag will be reset for the next pay period.|
 |**Click “OK” after you have completed your selection.**||
 
+[GoToTop](#how-to-setup-a-contractor)
 
 ### Resource Placement Allocations 
 
@@ -369,6 +379,7 @@ You access the Resource Allocations from the Payroll Employee Card via the “Re
 |**Required Monday to Required Sunday**|These fields identify what days the contractor is required for this allocation.|
 |**Click “OK” after you have completed your selection.**||
 
+[GoToTop](#how-to-setup-a-contractor)
 
 ### Resource Placement Allocations – Customer Card
 
