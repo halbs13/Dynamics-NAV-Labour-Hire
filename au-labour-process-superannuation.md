@@ -692,6 +692,7 @@ The fields contained in the SunSuper Payment file are:
 |**Member ID**|Mandatory|The “Member ID” is sourced from the Membership No. field on the Employee Superannuation card for the employee.|
 |**Family Name**|Mandatory|The “Family Name” is sourced from the Last Name field on the Employee card for the employee.|
 |**Given Names**|Mandatory|The “Given Names” is sourced from the First Name field on the Employee card for the employee.|
+
 |**Other Given Names**|Optional|The “Other Given Names” is sourced from the Middle Name field on the Employee card for the employee.|
 |**Title**|Mandatory|The “Title” is sourced from the Title field on the Employee card for the employee.|
 |**Name Suffix**|Optional|The “Name Suffix” field is not exported.|
@@ -719,6 +720,7 @@ The fields contained in the SunSuper Payment file are:
 |**Email**|Optional|The “Email” is sourced from the E-mail field on the Employee card for the employee.|
 |**Mobile**|Optional|The “Mobile” is sourced from the Mobile Phone No. field on the Employee card for the employee.|
 |**Landline**|Optional|The “Landline” is sourced from the Phone No. field on the Employee card for the employee.|
+
 ### SuperStream Alternative Payment Format
 
 The fields contained in the SuperStream Alternative file are:
@@ -728,13 +730,13 @@ The fields contained in the SuperStream Alternative file are:
 |||**Header section**|
 |**Version**|Mandatory|The “Version” will default to 1.0|
 |**Negatives Supported**|Mandatory|The “Negatives Supported” field will default. These are the guidelines as provided by the ATO.|
-||* Mandatory data field. If this field is not populated, the value 'false' should be assumed.|
-||* Boolean data field: value must be 'true' or 'false' only.|
-||* This field is an indicator. - true: this indicates that negative amounts are able to be provided in fields and can be processed - false: this indicates that negative amounts in fields must not be used and should not be processed.|
-||* Principles governing use - The default position is that negative values are NOT supported.|
-|| - A choice can be made to support negative values in fields on an opt-in basis, to suit special, known requirements. This choice is exercised on the Fund side.
-|| - Where a Fund opts to allow negatives, the Fund is responsible for specifying the rules governing where and how negative amounts can be added, and the implications for associated payments.
-|| - Where a Fund opts to allow negatives, the Fund is also responsible for working with their stakeholders - employers and other service providers (for example payroll software companies) - to implement that choice.|
+|||* Mandatory data field. If this field is not populated, the value 'false' should be assumed.|
+|||* Boolean data field: value must be 'true' or 'false' only.|
+|||* This field is an indicator. - true: this indicates that negative amounts are able to be provided in fields and can be processed - false: this indicates that negative amounts in fields must not be used and should not be processed.|
+|||* Principles governing use - The default position is that negative values are NOT supported.|
+||| - A choice can be made to support negative values in fields on an opt-in basis, to suit special, known requirements. This choice is exercised on the Fund side.
+||| - Where a Fund opts to allow negatives, the Fund is responsible for specifying the rules governing where and how negative amounts can be added, and the implications for associated payments.
+|||- Where a Fund opts to allow negatives, the Fund is also responsible for working with their stakeholders - employers and other service providers (for example payroll software companies) - to implement that choice.|
 |**File ID**|Optional|The “File ID” is populated by what is entered into the file name.|
 ||**Header Section**|
 |**ID**|Mandatory|The “ID” field is defaulted from within the export.|
