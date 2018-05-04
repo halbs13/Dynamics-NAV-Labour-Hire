@@ -2,8 +2,8 @@
 
 This document will contain information relating to Contractor setup and contains the following sections:
 - [Contractor Overview](#contractor-overview)
-  - [Resource Setup](#resource-setup)
-  - [Human Resource Setup](#human-resource-setup)
+  - [Resource Setup](#resource-card)
+  - [Human Resource Setup](#employee-card)
   - [Payroll Employee Setup](#payroll-employee-setup)
     - [Pay Dissections](#pay-dissections)
     - [Gross & Allowances](#gross-&-allowances)
