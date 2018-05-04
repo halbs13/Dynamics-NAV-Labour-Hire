@@ -1,4 +1,4 @@
-# How to: setup and process leave 
+# How to setup and process leave 
 
 Leave processing within the Dynamics NAV Payroll and Labour Hire modules encompasses the following functions:  
 
@@ -10,9 +10,9 @@ This document will specifically discuss how to use the Leave Processing function
 
 The activities discussed are:
 
-- Mass Adjust Leave Balances
-- Calculate & Post Provision
-- Employee Leave Entitlement Report
+- [Mass Adjust Leave Balances](#mass-adjust-leave-balance)
+- [Calculate & Post Provision](#calculate-&-post-provision)
+- [Employee Leave Entitlement Report](#employee-leave-entitlement-report)
 
 
 # LEAVE  PROCESSING
@@ -43,6 +43,7 @@ To access the Mass Adjust Leave Balance task, go to the following menu:
 |**Un-tick Data Take-On Column**|Select this option to post the provision to the General ledger.|
 |**On  completion of the above fields then press the “Post” button – this option posts the Leave adjustment to the Employee Leave Sub-Ledger and General Ledger Leave Provision accounts.**||
 
+[GoToTop](#how-to-setup-and-process-leave)
 
 ## Calculate and Post Provision
 
@@ -70,6 +71,8 @@ To access the Calculate and Post Provision task, go to the following menu:
 |**Tick Data Take-On Column**|Tick this option to only affect the Payroll leave balances and not to post the adjustment to the General Ledger. This option is used to enter leave balances for a payroll implementation. Leave this option blank to post the provision to the General Ledger.|
 |**Un-tick Data Take-On Column**|Select this option to post the provision to the General ledger.|
 |**On  completion of the above fields then press the “Post” button – this option posts the Leave adjustment to the Employee Leave Sub-Ledger and General Ledger Leave Provision accounts.**||
+ 
+ [GoToTop](#how-to-setup-and-process-leave)
  
 ## Employee Leave Entitlement Report
 
@@ -100,5 +103,9 @@ To access the Employee Leave Entitlement Report, go to the following menu:
 |**Employee No.**|Enter in the Employee No. you wish to report on, otherwise leave blank for all.|
 |**Branch Code**|Enter in the Payroll Branch Code you wish to report on, otherwise leave blank for all.|
 |**Division Code**|Enter in the Payroll Division Code you wish to report on, otherwise leave blank for all.|
-|**If you wish to preview the report to screen, click “Preview”. **||
+|**If you wish to preview the report to screen, click “Preview”.**||
 |**If you wish to print the report to a printer or save as a pdf, click “Print” and select the relevant option.**||
+
+
+[GoToTop](#how-to-setup-and-process-leave)
+
