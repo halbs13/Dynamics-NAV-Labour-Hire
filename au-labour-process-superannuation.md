@@ -724,126 +724,26 @@ The fields contained in the SunSuper Payment file are:
 
 The fields contained in the SuperStream Alternative file are:
 
- |**Field Name**|**Mandatory**|**Description**|
- |--------------------------------|-----------------------|-----------------------------------------------------------------------|
- |||**Header section**|
- |**Version**|Mandatory|The “Version” will default to 1.0|
-  
- 
- 
-  
-  Negatives Supported
-  
-  
-  Mandatory
-  
-  
-  The “Negatives Supported” field will default.  These are the guidelines as provided by the
-  ATO.
-   
-  * Mandatory data field. If this field is not populated,
-  the value 'false' should be assumed.
-  * Boolean data field: value must be 'true' or 'false'
-  only.
-  * This field is an indicator. 
-  - true: this indicates that negative amounts are able to
-  be provided in fields and can be processed
-  - false: this indicates that negative amounts in fields
-  must not be used and should not be processed.
-   
-  * Principles governing use
-  - The default position is that negative values are NOT
-  supported.
-  - A choice can be made to support negative values in
-  fields on an opt-in basis, to suit special, known requirements. This choice
-  is exercised on the Fund side.
-  - Where a Fund opts to allow negatives, the Fund is
-  responsible for specifying the rules governing where and how negative amounts
-  can be added, and the implications for associated payments.
-  - Where a Fund opts to allow negatives, the Fund is also
-  responsible for working with their stakeholders - employers and other service
-  providers (for example payroll software companies) - to implement that
-  choice.
-  
- 
- 
-  
-  File ID
-  
-  
-  Optional
-  
-  
-  The “File ID” is populated by what is entered into the
-  file name.
-  
- 
- 
-  
-  Header Section
-   
-  
- 
- 
-  
-  ID
-  
-  
-  Mandatory
-  
-  
-  The “ID” field is defaulted from within the export.
-  
- 
- 
-  
-  Source Entity ID
-  
-  
-   
-  
-  
-  The “Source Entity ID” field is sourced from the Company
-  ABN field on the Payroll card.
-  
- 
- 
-  
-  Source Entity ID Type
-  
-  
-   
-  
-  
-  The “Source Entity ID Type” field is defaulted to
-  http://www.abr.gov.au/abn
-  
- 
- 
-  
-  Source Electronic Service Address
-  
-  
-   
-  
-  
-  This information is not exported.
-  
- 
- 
-  
-  Electronic Error Messaging
-  
-  
-   
-  
-  
-  This information is not exported.
-  
- 
- 
-  
-  Sender Section
+|**Field Name**|**Mandatory**|**Description**|
+|--------------------------------|-----------------------|-----------------------------------------------------------------------|
+|||**Header section**|
+|**Version**|Mandatory|The “Version” will default to 1.0|
+|**Negatives Supported**|Mandatory|The “Negatives Supported” field will default. These are the guidelines as provided by the ATO.|
+||* Mandatory data field. If this field is not populated, the value 'false' should be assumed.|
+||* Boolean data field: value must be 'true' or 'false' only.|
+||* This field is an indicator. - true: this indicates that negative amounts are able to be provided in fields and can be processed - false: this indicates that negative amounts in fields must not be used and should not be processed.|
+||* Principles governing use - The default position is that negative values are NOT supported.|
+|| - A choice can be made to support negative values in fields on an opt-in basis, to suit special, known requirements. This choice is exercised on the Fund side.
+|| - Where a Fund opts to allow negatives, the Fund is responsible for specifying the rules governing where and how negative amounts can be added, and the implications for associated payments.
+|| - Where a Fund opts to allow negatives, the Fund is also responsible for working with their stakeholders - employers and other service providers (for example payroll software companies) - to implement that choice.|
+|**File ID**|Optional|The “File ID” is populated by what is entered into the file name.|
+||**Header Section**|
+|**ID**|Mandatory|The “ID” field is defaulted from within the export.|
+|**Source Entity ID**||The “Source Entity ID” field is sourced from the Company ABN field on the Payroll card.|
+|**Source Entity ID Type**||The “Source Entity ID Type” field is defaulted to http://www.abr.gov.au/abn|
+|**Source Electronic Service Address**||This information is not exported.|
+|**Electronic Error Messaging**||This information is not exported.|
+||**Sender Section**|
    
   
  
