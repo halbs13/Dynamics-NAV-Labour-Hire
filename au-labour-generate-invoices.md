@@ -460,7 +460,7 @@ The CR/Adj note and lines will be populated with various information from the sa
 
 |**Field Name**|**Description**|
 |--------------------------------------|----------------------------------------------------------------------------------------|
-|**GENERAL FASTTAB – The General FastTab contains information such as CR/Adj Note No., Customer Contact, Salesperson and Address information generated from the Copy Document Process**| 
+||**GENERAL FASTTAB – The General FastTab contains information such as CR/Adj Note No., Customer Contact, Salesperson and Address information generated from the Copy Document Process**| 
 |**Posting Date**|This is the Posting Date entered used to generate the CR/Adj note from the Copy Document process|
 |Document Date|This is the Document Date entered used to generate the CR/Adj note from the Copy Document process
 |**External Document**No.|This will be left blank but can be used as reference number for the customer>
