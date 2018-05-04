@@ -652,375 +652,42 @@ The fields contained in theSuperChoice Payment file are:
  
 |**Field Name**|**Mandatory**|**Description**|
 |---------------------------|------------------|-------------------------------------------------------------------------------|
+|**Employee ID**|Optional|The “Employee ID” is sourced from the Employee No. on the Employee Superannuation table.|
+|**Super Fund Member No.**|Mandatory|The “Super Fund Member No.” is sourced from the Membership No. on the Employee Superannuation table.|
+|**Title**|Optional|The “Title” is sourced from the Title on the Employee table.|
+|**Employee First Name**|Mandatory|The “Employee First Name” is sourced from the First Name and Middle on the Payroll Employee table.|
+|**Employee Surname**|Mandatory|The “Employee Surname” is sourced from the Last Name on the Payroll Employee table.|
+|**Employee Date of Birth**|Mandatory|The “Birth Date” is sourced from the Birth Date on the Employee table.|
+|**Gender**|Mandatory|The “Gender” is sourced from the Gender on the Employee table.|
+|**Employee Address Line 1**|Mandatory|The “Employee Address Line 1” is sourced from the Address Line 1 on the Employee table.|
+|**Employee Address Line 2**|Optional|The “Employee Address Line 2” is sourced from the Address Line 2 on the Employee table.|
+|**Suburb**| Mandatory|The “Suburb” is sourced from the City on the Employee table.|
+|**State**|Mandatory|The “State” is sourced from the State on the Employee table.|
+|**Post Code**|Mandatory|The “Postcode” is sourced from the Postcode on the Employee table.|
+|**Mobile Phone No.**|Optional|The “Mobile Phone No.” is sourced from the Mobile Phone No. on the Employee table.|
+|**Employee Email Address**|Optional|The “Employee Email Address” is sourced from the Email on the Employee table.|
+|**Tax File Number**|Mandatory|The “Tax File Number” is sourced from the Tax File Number on the Payroll Employee table.|
+|**Fund Name**|Mandatory|The “Fund Name” is sourced from the Product Name of the Superannuation Product for the employee.|
+|**Unique Superannuation Identifier (USI)**|Mandatory from 1 July| The “Unique Superannuation Identifier (USI)” is sourced from the Unique Superannuation Identifier (USI) of the Superannuation Product for the employee.|
+|**Product ID No. (SPIN)**|Mandatory for APRA funds|The “Product ID No.” is sourced from the Product ID No. of the Superannuation Product for the employee. If the fund has no SPIN the ABN must be provided.|
+|**Fund Employer No.**|Mandatory|The “Fund Employer No.” is sourced from the Fund Employer No. of the Superannuation Fund for the employee.|
+|**Superannuation Fund ABN**|Mandatory (for SMSF Funds and some APRA)|The “Superannuation Fund ABN” is sourced from the Superannuation Fund ABN of the Superannuation Fund for the employee.| 
+|**Superannuation Fund Bank Name**|Optional|The “Superannuation Fund Bank Name” is sourced from the Bank Name on the Superannuation Fund for the employee.|
+|**Superannuation Bank Account Number**|Mandatory|The “Superannuation Bank Account Number” is sourced from the Bank Account Number on the Superannuation Fund for the employee.|
+|**Superannuation BSB**|Mandatory|The “Superannuation BSB” is sourced from the Bank Branch No. on the Superannuation Fund for the employee.|
+|**Target Electronic Service Address**|Mandatory|The “Target Electronic Service Address is sourced from the Electronic Service Address on the Superannuation Fund for the employee.|
+|**SGC Amount**||Mandatory|The “SGC Amount” is sourced from the Employer SGC contributions on the Superannuation Ledger Entry table.|
+|**Employer Additional Amount**|Optional|The “Employer Additional Amount” is sourced from the Employer Non SGC contributions on the Superannuation Ledger Entry table.|
+|**Salary Sacrifice Amount**|Optional|The “Salary Sacrifice Amount” is sourced from the Employee Salary Sacrifice contributions on the Superannuation Ledger Entry table.|
+|**Member Voluntary Amount**|Optional|The “Member Voluntary Amount” is sourced from the Employee Post Tax on the Superannuation Ledger Entry table.|
 
-  Employee ID
-  
-  
-  Optional
-  
-  
-  The “Employee ID” is sourced from the Employee No. on the
-  Employee Superannuation table.
-  
- 
- 
-  
-  Super Fund Member No.
-  
-  
-  Mandatory
-  
-  
-  The “Super Fund Member No.” is sourced from the Membership
-  No. on the Employee Superannuation table.
-  
- 
- 
-  
-  Title
-  
-  
-  Optional
-  
-  
-  The “Title” is sourced from the Title on the Employee
-  table.
-  
- 
- 
-  
-  Employee First Name
-  
-  
-  Mandatory
-  
-  
-  The “Employee First Name” is sourced from the First Name
-  and Middle on the Payroll Employee table.
-  
- 
- 
-  
-  Employee Surname
-  
-  
-  Mandatory
-  
-  
-  The “Employee Surname” is sourced from the Last Name on
-  the Payroll Employee table.
-  
- 
- 
-  
-  Employee Date of Birth
-  
-  
-  Mandatory
-  
-  
-  The “Birth Date” is sourced from the Birth Date on the
-  Employee table.
-  
- 
- 
-  
-  Gender
-  
-  
-  Mandatory
-  
-  
-  The “Gender” is sourced from the Gender on the Employee
-  table.
-  
- 
- 
-  
-  Employee Address Line 1
-  
-  
-  Mandatory
-  
-  
-  The “Employee Address Line 1” is sourced from the Address
-  Line 1 on the Employee table.
-  
- 
- 
-  
-  Employee Address Line 2
-  
-  
-  Optional
-  
-  
-  The “Employee Address Line 2” is sourced from the Address
-  Line 2 on the Employee table.
-  
- 
- 
-  
-  Suburb
-  
-  
-  Mandatory
-  
-  
-  The “Suburb” is sourced from the City on the Employee
-  table.
-  
- 
- 
-  
-  State
-  
-  
-  Mandatory
-  
-  
-  The “State” is sourced from the State on the Employee
-  table.
-  
- 
- 
-  
-  Post Code
-  
-  
-  Mandatory
-  
-  
-  The “Postcode” is sourced from the Postcode on the
-  Employee table.
-  
- 
- 
-  
-  Mobile Phone No.
-  
-  
-  Optional
-  
-  
-  The “Mobile Phone No.” is sourced from the Mobile Phone
-  No. on the Employee table.
-  
- 
- 
-  
-  Employee Email Address 
-  
-  
-  Optional
-  
-  
-  The “Employee Email Address” is sourced from the Email on
-  the Employee table.
-  
- 
- 
-  
-  Tax File Number
-  
-  
-  Mandatory
-  
-  
-  The “Tax File Number” is sourced from the Tax File Number
-  on the Payroll Employee table.
-  
- 
- 
-  
-  Fund Name
-  
-  
-  Mandatory
-  
-  
-  The “Fund Name” is sourced from the Product Name of the
-  Superannuation Product for the employee. 
-  
- 
- 
-  
-  Unique Superannuation Identifier (USI)
-  
-  
-  Mandatory from 1 July
-  
-  
-  The “Unique Superannuation Identifier (USI)” is sourced
-  from the Unique Superannuation Identifier (USI) of the Superannuation Product
-  for the employee.
-  
- 
- 
-  
-  Product ID No. (SPIN)
-  
-  
-  Mandatory for APRA funds
-  
-  
-  The “Product ID No.” is sourced from the Product ID No. of
-  the Superannuation Product for the employee.
-   
-  If the fund has no SPIN the ABN must be provided.
-  
- 
- 
-  
-  Fund Employer No.
-  
-  
-  Mandatory
-  
-  
-  The “Fund Employer No.” is sourced from the Fund Employer
-  No. of the Superannuation Fund for the employee.
-  
- 
- 
-  
-  Superannuation Fund ABN
-  
-  
-  Mandatory (for SMSF Funds and some APRA)
-  
-  
-  The “Superannuation Fund ABN” is sourced from the
-  Superannuation Fund ABN of the Superannuation Fund for the employee. 
-  
- 
- 
-  
-  Superannuation Fund Bank Name
-  
-  
-  Optional
-  
-  
-  The “Superannuation Fund Bank Name” is sourced from the
-  Bank Name on the Superannuation Fund for the employee.
-  
- 
- 
-  
-  Superannuation Bank Account Number
-  
-  
-  Mandatory
-  
-  
-  The “Superannuation Bank Account Number” is sourced from
-  the Bank Account Number on the Superannuation Fund for the employee.
-  
- 
- 
-  
-  Superannuation BSB
-  
-  
-  Mandatory
-  
-  
-  The “Superannuation BSB” is sourced from the Bank Branch
-  No. on the Superannuation Fund for the employee.
-  
- 
- 
-  
-  Target Electronic Service Address
-  
-  
-  Mandatory
-  
-  
-  The “Target Electronic Service Address is sourced from the
-  Electronic Service Address on the Superannuation Fund for the employee.
-  
- 
- 
-  
-  SGC Amount
-  
-  
-  Mandatory
-  
-  
-  The “SGC Amount” is sourced from the Employer SGC
-  contributions on the Superannuation Ledger Entry table.
-  
- 
- 
-  
-  Employer Additional Amount
-  
-  
-  Optional
-  
-  
-  The “Employer Additional Amount” is sourced from the
-  Employer Non SGC contributions on the Superannuation Ledger Entry table.
-  
- 
- 
-  
-  Salary Sacrifice Amount
-  
-  
-  Optional
-  
-  
-  The “Salary Sacrifice Amount” is sourced from the Employee
-  Salary Sacrifice contributions on the Superannuation Ledger Entry table.
-  
- 
- 
-  
-  Member Voluntary Amount
-  
-  
-  Optional
-  
-  
-  The “Member Voluntary Amount” is sourced from the Employee
-  Post Tax on the Superannuation Ledger Entry table.
-  
- 
+### SunSuper Payment Format
 
+The fields contained in the SunSuper Payment file are:
 
+|**Field Name**|**Mandatory**|**Description**|
+|----------------------------|----------------------|--------------------------------------------------------------------------------|
 
-
- 
-
- 
-
- 
-
-2.5.6.5    
-SunSuper Payment Format
-
-The fields contained in the
-SunSuper Payment file are:
-
- 
-
-
-
-
- 
-  
-   
-   Field Name
-   
-   
-   Mandatory
-   
-   
-   Description
    
   
  
