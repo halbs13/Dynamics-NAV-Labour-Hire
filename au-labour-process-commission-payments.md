@@ -143,111 +143,28 @@ Total Permanent Commission                           
 Total
 Commission Payable                                                                                                                 $8,350.96
 
+|Field Name|Description|
+|-------------------------------------|---------------------------------------------------|
+|**Commission For**|This is the Account Manager’s Name.|
+|**Contracting Period**|Date range selected when the report is run.|
+|**Permanent Placement Period**|Date range selected when the report is run.|
+|**Total Contracting Margin**|Shows Total Margin Amounts for Temp placements for the period with the Account Manager’ s Commission percentages applied.|
+|**Total Contracting Commission Value**|Total of Contracting Margin amounts.|
+|**Total Perm Placement Fees**|Total amount of Permanent Placement fees for the period with the Account Manager’s Commission percentages applied.|
+|**Total Permanent Commission Value**|Total of Perm Placement amounts.|
+|**Total Commission Payable**|Total of Permanent and Contracting Commission totals.|
+|**When you have completed your selection, you can either click “Print” to send the report to a printer or “Preview” to view the report to the screen.**||
 
 
- 
-
- 
-
-
-
- 
-
-
- 
-  
-   
-   Field Name
-   
-   
-   Description
-   
-  
- 
- 
-  
- ##  Commission For
-  
-  
-  This is the Account Manager’s Name.
-  
- 
- 
-  
-  Contracting Period
-  
-  
-  Date range selected when the report is run.
-  
- 
- 
-  
-  Permanent Placement Period
-  
-  
-  Date range selected when the report is run.
-  
- 
- 
-  
-  Total Contracting Margin
-  
-  
-  Shows Total Margin Amounts for Temp
-  placements for the period with the Account Manager’ s Commission percentages
-  applied.
-  
- 
- 
-  
-  Total Contracting Commission Value
-  
-  
-  Total of Contracting Margin amounts.
-  
- 
- 
-  
-  Total Perm Placement Fees
-  
-  
-  Total amount of Permanent Placement fees
-  for the period with the Account Manager’s Commission percentages applied.
-  
- 
- 
-  
-  Total Permanent Commission Value
-  
-  
-  Total of Perm Placement amounts.
-  
- 
- 
-  
-  Total Commission Payable
-  
-  
-  Total of Permanent and Contracting
-  Commission totals.
-  
- 
- 
-  
-  When you have completed your selection, you can
-  either click “Print” to send the report to a
-  printer or “Preview” to view the report to the
-  screen.
   
  
 
 
  
 
-The information contained in the lower
-section is as follows:
+The information contained in the lower section is as follows:
 
-  Account Manager Summary Report – Section 2
+## Account Manager Summary Report – Section 2
 
  
 
@@ -259,20 +176,18 @@ Administration Section
 
  
 
-Department           Project                                    Permanent                             Contract          
-      Totals
+Department              Project                       Permanent                               Contract                      Total
+ 
+
+NSW                       IBM                                                                                                                                                                                                             2389.03                   2389.03
+
+NSW                       GENERAL                      1000.00                                   1864.31                   2864.31
+
+NSW                       OPTUS                        3046.40                                     51.22                   3097.62
 
  
 
-NSW                       IBM                                                                                          2389.03                   2389.03
-
-NSW                       GENERAL                               1000.00                                   1864.31                   2864.31
-
-NSW                       OPTUS                                   3046.40                                       51.22                   3097.62
-
- 
-
-Totals                                                                     4046.40                                   4304.56                   8350.96
+Totals                                                  4046.40                                  4304.56                   8350.96
 
  
 
