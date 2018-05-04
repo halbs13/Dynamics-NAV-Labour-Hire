@@ -146,12 +146,13 @@ Total Permanent Commission                           
 
  
 
- 
-
-
-
 Total
 Commission Payable                                                                                                                 $8,350.96
+
+
+
+
+
 
 |Field Name|Description|
 |-------------------------------------|---------------------------------------------------|
