@@ -155,21 +155,6 @@ Commission Payable                               
 |**Total Commission Payable**|Total of Permanent and Contracting Commission totals.|
 |**When you have completed your selection, you can either click “Print” to send the report to a printer or “Preview” to view the report to the screen.**||
 
-|Department|Project|Permanent|Contract|Total|
-|--------------|---------------|----------------|-------------------|------------------|
-|NSW|IMB||2389.03|2389.03|
-|NSW|GERNERAL|1000.00|1864.31|2864.31|
-|NSW|OPTUS|3046.40|51.22|3097.62|
-|Totals||4046.40|4304.56|8350.96|
-
-
-
-
-
- 
-
-
- 
 
 The information contained in the lower section is as follows:
 
@@ -177,25 +162,16 @@ The information contained in the lower section is as follows:
 
  
 
-Administration Section
+#### Administration Section
 
-
-
- 
-
- 
-
-
-
-
-
+|Department|Project|Permanent|Contract|Total|
+|--------------|---------------|----------------|-------------------|------------------|
+|NSW|IMB||2389.03|2389.03|
+|NSW|GERNERAL|1000.00|1864.31|2864.31|
+|NSW|OPTUS|3046.40|51.22|3097.62|
+|Totals||4046.40|4304.56|8350.96|
 
  
-
-
-
- 
-
 To enable the breakup of amounts required in
 the second section of the report above, we will need to capture department and
 project for each transaction being included in the calculation and then split
@@ -209,10 +185,7 @@ projects.
 
  
 
-
-
-
-Account Manager Audit Report
+### Account Manager Audit Report
 
 The second report that is printed for each
 Account Manager is the audit or detailed report that shows all of the
@@ -225,57 +198,42 @@ details.
 The following information will be shown for
 the Contractor Details section:
 
-Period of CalculationAccount Manager NameClient Code/NameContractor Code Contractor NamePeriod EndingUnits Paid/WorkedUnit FrequencyPay RateGross PayCharge RateInvoiced AmountWorkers CompPayroll TaxSuperannuationCommission PercentageMargin (Invoiced – Gross – On
-Costs)Subtotals for each Global
-Dimension combination   The Permanent
-Placement Section includes the following:
+- Period of Calculation
+- Account Manager Name
+- Client Code/Name
+- Contractor Code Contractor Name
+- Period Ending
+- Units Paid/Worked
+- Unit Frequency
+- Pay Rate
+- Gross Pay
+- Charge Rate
+- Invoiced Amount
+- Workers Comp
+- Payroll Tax
+- Superannuation
+- Commission Percentage
+- Margin (Invoiced – Gross – On Costs)
+- Subtotals for each Global Dimension combination   
 
+The Permanent Placement Section includes the following:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Period Of CalculationAccount Manager NameClient Code/NamePlacement NumberResource NameStart DateCreation DatePackage ValueFee RatePlacement FeeAccount Manager ownership percentageAccount Manager Fee (Placement
-Fee * Account Manager %)Credit AmountDate CreditedCommission AmountAccount Managers (If others
-exist, code will be shown only)Subtotals for each Global
-Dimension combination
+- Period Of Calculation
+- Account Manager Name
+- Client Code/Name
+- Placement Number
+- Resource Name
+- Start Date
+- Creation Date
+- Package Value
+- Fee Rate
+- Placement Fee
+- Account Manager ownership percentage
+- Account Manager Fee (Placement Fee * Account Manager %)
+- Credit AmountDate Credited
+- Commission Amount
+- Account Managers (If others exist, code will be shown only)
+- Subtotals for each Global Dimension combination
 
 
 
