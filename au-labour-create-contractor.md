@@ -11,9 +11,9 @@ This document will contain information relating to Contractor setup and contains
     - [Superannuation](#superannuation)
     - [On Costs](#accumulation-calculations)
   - [Resource Allocations](#resource-placement-allocations)
-    - [Job Card](#resource-allocations---job-card)
-    - [Customer Card](#resource-allocations---customer-card)
-    - [Rate Sets](#resource-allocations---rate-sets)
+    - [Job Card](#resource-allocations-job-card)
+    - [Customer Card](#resource-allocations-customer-card)
+    - [Rate Sets](#resource-allocations-rate-sets)
 
 # CONTRACTOR OVERVIEW
 
@@ -381,21 +381,21 @@ You access the Resource Allocations from the Payroll Employee Card via the “Re
 
 [GoToTop](#how-to-setup-a-contractor)
 
-### Resource Placement Allocations – Customer Card
+### Resource Placement Allocations Customer Card
 
 You can access the Customer Card associated to each of the Resource Placement Allocations. 
 
 To access the Customer Card via the Resource Allocations Card click “Customer Card” on the “Navigate” ribbon.  
  
 
-### Resource Placement Allocations – Job Card
+### Resource Placement Allocations Job Card
 
 You can access the Job Card associated to each of the Resource Placement Allocations. 
 
 To access the Job Card via the Resource Allocations Card click “Job Card” on the “Navigate” ribbon.  
 
   
-### Resource Placement Allocations – Rate Sets
+### Resource Placement Allocations Rate Sets
 
 You can access the Rate Sets associated to each of the Resource Placement Allocations. 
 
