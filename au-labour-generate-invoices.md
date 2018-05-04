@@ -458,13 +458,11 @@ Departments/Labour Hire/Invoice Processing/Lists/Sales CR/Adj Notes
 
 The CR/Adj note and lines will be populated with various information from the sales invoice or document you selected in the Copy Document process.  The following information will have been generated from a Contractor invoice. 
 
-Field Name
- Description
-   
-GENERAL FASTTAB – The General FastTab contains information such as CR/Adj Note No., Customer Contact, Salesperson and Address information generated from the Copy Document Process Posting Date
-  This is the Posting Date entered used to generate the CR/Adj note from the Copy Document process
+|**Field Name**|**Description**|
+|**GENERAL FASTTAB – The General FastTab contains information such as CR/Adj Note No., Customer Contact, Salesperson and Address information generated from the Copy Document Process**| 
+|**Posting  Date**|This is the Posting Date entered used to generate the CR/Adj note from the Copy Document process
   Document Date. This is the Document Date entered used to  generate the CR/Adj note from the Copy Document process
-  External Document No.This will be left blank but can be used as reference number for the customer
+  External Document** No.This will be left blank but can be used as reference number for the customer
   Invoice/Cr. Memo Format Code This is the Sales CR/Adj Note Format code  sourced from the Customer Card
   LINES FASTTAB – The Lines FastTab contains the  invoice lines generated from the document nominated in the Copy Document Process
   Type.   This will default to “Resource”
