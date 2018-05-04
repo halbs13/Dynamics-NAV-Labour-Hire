@@ -38,7 +38,7 @@ To add a new record, click on the “New” icon.
 |**Global Dimension 2**|This field is used to select the Global Dimension 2 Code.|
 ||Select the Global Dimension 2 Code from the “ArrowDown”.|
 
-
+[GoToTop](#how_to_setup_commissions)
 
 # Commission Plans
  
@@ -65,6 +65,7 @@ To access the Commission Plans table, go to:
 |**Prorate Temp/Perm**|If a Total Perm/Margin Range is used to calculate the percentage but the calculated amounts need to be split into separate Temp and Perm values then tick the Prorate field.|
 |**Accrual Rate**|This is a Boolean field, which is used to indicate which line will be used to determine the highest rate for this Account Manager for commission accrual purposes.  There will be one perm line ticked and one Temp line ticked.|
 
+[GoToTop](#how_to_setup_commissions)
 
 # Commission Calculation
        
@@ -80,7 +81,11 @@ Processing/Commission Processing/Commission Summary Report*
 |**SALESPERSON/PURCHASE FASTTAB**|
 |**Code**|Select and Account Manager or leave it blank to run for all Account Managers|  
 |When you have completed your selection, you can either click “Print” to send the report to a printer or “Preview” to view the report to the screen.|
-    
+ 
+ [GoToTop](#how_to_setup_commissions)
+ 
+ 
+ 
 # Commission Reports 
 
 There are 2 reports that are produced by this
@@ -91,6 +96,9 @@ process.
 
 This first report is a summary report broken
 into 2 sections that shows the following information in section 1
+
+[GoToTop](#how_to_setup_commissions)
+
 
 ## Account Manager Summary Report – Section 1
 
@@ -158,6 +166,9 @@ Commission Payable                               
 |**When you have completed your selection, you can either click “Print” to send the report to a printer or “Preview” to view the report to the screen.**||
 
 
+[GoToTop](#how_to_setup_commissions)
+
+
 The information contained in the lower section is as follows:
 
 ## Account Manager Summary Report – Section 2
@@ -184,7 +195,7 @@ and the commission calculated for an account manager for contract transactions
 was $5000 then this total amount will be split accordingly between the three
 projects.
 
- 
+[GoToTop](#how_to_setup_commissions) 
 
 ### Account Manager Audit Report
 
