@@ -8,8 +8,8 @@ sections:
 - [Commission Plans](#commission-plans)
 - [Commission Calculation](#commission-calculation)
 - [Commission Reports](#commission-reports)
-  - [ Account Manager Summary Report – Section 1](#account-manager-summary-report---section_1)
-  - [Account Manager Summary Report – Section 2](#account-manager-summary-report---section_2) 
+  - [ Account Manager Summary Report – Section 1](#account-manager-summary-report-section_1)
+  - [Account Manager Summary Report – Section 2](#account-manager-summary-report-section_2) 
      
 # Account Manager Setup
 
@@ -100,7 +100,7 @@ into 2 sections that shows the following information in section 1
 [GoToTop](#how-to-setup-commissions)
 
 
-## Account Manager Summary Report – Section 1
+## Account Manager Summary Report Section 1
 
 
 
@@ -171,7 +171,7 @@ Commission Payable                               
 
 The information contained in the lower section is as follows:
 
-## Account Manager Summary Report – Section 2
+## Account Manager Summary Report Section 2
 
  
 
