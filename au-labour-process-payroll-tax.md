@@ -76,3 +76,5 @@ The lower section of the first page will contain a breakdown of the calculated i
 The second page of the report contains a breakdown of the Gross Taxable Wages and Payroll Tax Payable by Payroll Branch and Division.
 
 The last page of the report will contain a breakdown of the Gross Taxable Wages and Payroll Tax Payable by Dimension.
+
+[GoToTop](#how-to-process-payroll-tax)
