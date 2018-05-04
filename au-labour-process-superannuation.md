@@ -649,7 +649,7 @@ The fields contained in the ClickSuper Payment file are:
 ### SuperChoice Payment Format
 
 The fields contained in the SuperChoice Payment file are:
- 
+
 |**Field Name**|**Mandatory**|**Description**|
 |---------------------------|------------------|-------------------------------------------------------------------------------|
 |**Employee ID**|Optional|The “Employee ID” is sourced from the Employee No. on the Employee Superannuation table.|
