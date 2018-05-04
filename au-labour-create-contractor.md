@@ -4,9 +4,9 @@ This document will contain information relating to Contractor setup and contains
 - [Contractor Overview](#contractor-overview)
   - [Resource Setup](#resource-card)
   - [Human Resource Setup](#employee-card)
-  - [Payroll Employee Setup](#payroll-employee-setup)
+  - [Payroll Employee Setup](#payroll-employee-card)
     - [Pay Dissections](#pay-dissections)
-    - [Gross & Allowances](#gross-&-allowances)
+    - [Gross and Allowances](#gross-and-allowances)
     - [Deductions](#deductions)
     - [Superannuation](#superannuation)
     - [On Costs](#accumulation-calculations)
@@ -241,7 +241,7 @@ This form is used to set up the bank accounts and spilt the employees’ Net pay
 |**Click “OK” after you have completed your selection.**||
 
 
-### Gross & Allowances
+### Gross and Allowances
  
 This option is used to setup any Gross Pay Transaction Types or Allowances for employee to be automatically paid.  
 
