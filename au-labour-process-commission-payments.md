@@ -36,7 +36,7 @@ To add a new record, click on the “New” icon.
 |**Global Dimension 1**|This field is used to select the Global Dimension 1 Code. |
 ||Select the Global Dimension 1 Code from the “ArrowDown”.|
 |**Global Dimension 2**|This field is used to select the Global Dimension 2 Code.|
-||Select the Global Dimension 2 Code from the “ArrowDown”.|
+||Select the Global Dimension 2 Code from the “ArrowDown”.| 
 
 [GoToTop](#how_to_setup_commissions)
 
