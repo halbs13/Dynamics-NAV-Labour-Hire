@@ -4,12 +4,12 @@ This document will contain
 information relating to the setup of Commissions and contains the following
 sections:
 
-- [Account Manager Setup](#account_manager_setup)
-- [Commission Plans](#commission_plans)
-- [Commission Calculation](#commission_calculation)
-- [Commission Reports](#commission_reports)
-  - [ Account Manager Summary Report – Section 1](#account_manager_summary_report_-_section_1)
-  - [Account Manager Summary Report – Section 2](#account_manager_summary_report_-_section_2)   
+- [Account Manager Setup](#account-manager-setup)
+- [Commission Plans](#commission-plans)
+- [Commission Calculation](#commission-calculation)
+- [Commission Reports](#commission-reports)
+  - [ Account Manager Summary Report – Section 1](#account-manager-summary-report---section_1)
+  - [Account Manager Summary Report – Section 2](#account-manager-summary-report---section_2) 
      
 # Account Manager Setup
 
@@ -38,7 +38,7 @@ To add a new record, click on the “New” icon.
 |**Global Dimension 2**|This field is used to select the Global Dimension 2 Code.|
 ||Select the Global Dimension 2 Code from the “ArrowDown”.| 
 
-[GoToTop](#how_to_setup_commissions)
+[GoToTop](#how-to-setup-commissions)
 
 # Commission Plans
  
@@ -65,7 +65,7 @@ To access the Commission Plans table, go to:
 |**Prorate Temp/Perm**|If a Total Perm/Margin Range is used to calculate the percentage but the calculated amounts need to be split into separate Temp and Perm values then tick the Prorate field.|
 |**Accrual Rate**|This is a Boolean field, which is used to indicate which line will be used to determine the highest rate for this Account Manager for commission accrual purposes.  There will be one perm line ticked and one Temp line ticked.|
 
-[GoToTop](#how_to_setup_commissions)
+[GoToTop](#how-to-setup-commissions)
 
 # Commission Calculation
        
@@ -82,7 +82,7 @@ Processing/Commission Processing/Commission Summary Report*
 |**Code**|Select and Account Manager or leave it blank to run for all Account Managers|  
 |When you have completed your selection, you can either click “Print” to send the report to a printer or “Preview” to view the report to the screen.|
  
- [GoToTop](#how_to_setup_commissions)
+ [GoToTop](#how-to-setup-commissions)
  
  
  
@@ -97,7 +97,7 @@ process.
 This first report is a summary report broken
 into 2 sections that shows the following information in section 1
 
-[GoToTop](#how_to_setup_commissions)
+[GoToTop](#how-to-setup-commissions)
 
 
 ## Account Manager Summary Report – Section 1
@@ -166,7 +166,7 @@ Commission Payable                               
 |**When you have completed your selection, you can either click “Print” to send the report to a printer or “Preview” to view the report to the screen.**||
 
 
-[GoToTop](#how_to_setup_commissions)
+[GoToTop](#how-to-setup-commissions)
 
 
 The information contained in the lower section is as follows:
@@ -195,7 +195,7 @@ and the commission calculated for an account manager for contract transactions
 was $5000 then this total amount will be split accordingly between the three
 projects.
 
-[GoToTop](#how_to_setup_commissions) 
+[GoToTop](#how-to-setup-commissions) 
 
 ### Account Manager Audit Report
 
@@ -248,7 +248,7 @@ The Permanent Placement Section includes the following:
 - Subtotals for each Global Dimension combination
 
 
-[GoToTop](#how_to_setup_commissions)
+[GoToTop](#how-to-setup-commissions)
 
 
 
