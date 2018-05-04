@@ -1,19 +1,19 @@
-# How to: Setup a Contractor 
+# How to Setup a Contractor 
 
 This document will contain information relating to Contractor setup and contains the following sections:
-- Contractor Overview
-  - Resource Setup
-  - Human Resource Setup
-  - Payroll Employee Setup
-    - Pay Dissections
-    - Gross & Allowances
-    - Deductions
-    - Superannuation
-    - On Costs
-  - Resource Allocations
-    - Job Card
-    - Customer Card
-    - Rate Sets
+- [Contractor Overview](#contractor-overview)
+  - [Resource Setup](#resource-setup)
+  - [Human Resource Setup](#human-resource-setup)
+  - [Payroll Employee Setup](#payroll-employee-setup)
+    - [Pay Dissections](#pay-dissections)
+    - [Gross & Allowances](#gross-&-allowances)
+    - [Deductions](#deductions)
+    - [Superannuation](#superannuation)
+    - [On Costs](#on-costs)
+  - [Resource Allocations]
+    - [Job Card](#resource-allocations-job-card)
+    - [Customer Card](#resource-allocations-customer-card)
+    - [Rate Sets](#resource-allocations-rate-sets)
 
 # CONTRACTOR OVERVIEW
 
@@ -302,7 +302,7 @@ on the “Navigate” ribbon.
 |**Click “OK” after you have completed your selection.**||
 
 
-2.3.5	Superannuation 
+### Superannuation 
 
 The Superannuation area is used to identify the Superannuation fund nominated by the contractor.  
 
@@ -407,10 +407,4 @@ To access the Rate Sets via the Resource Allocations Card click “Rate Sets” 
 |**Click “OK” after you have completed your selection.**||
 
 
-
-
-
-
-
-
-
+[GoToTop](#how-to-setup-a-contractor)
