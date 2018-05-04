@@ -64,8 +64,7 @@ To access the Calculate and Post Provision task, go to the following menu:
 |**Code**|Select the Leave Type you wish to process. If left blank then all leave types are processed.|
 |**PAYROLL EMPLOYEE FASTTAB – Only the standard fields are covered. A full list of fields available as filters can be used by selecting the first blank line and clicking the “ArrowDown”.**||
 |**Employee No.**|Select the Employee No. from the “ArrowDown”. If left blank all employees are selected.|
-|**If you wish to preview the report to screen, you should ensure that you un-click “Post to GL” and then click “Preview”.**||
-|**If you wish to post the Leave Accruals to the General Ledger, you should ensure that “Post to GL” is TICKED and print the report.   You can send the report to a printer or save as a pdf, click “Print” and select the relevant option.**||
+|**If you wish to preview the report to screen, you should ensure that you un-click “Post to GL” and then click “Preview”. If you wish to post the Leave Accruals to the General Ledger, you should ensure that “Post to GL” is TICKED and print the report.   You can send the report to a printer or save as a pdf, click “Print” and select the relevant option.**||
 |**Value**|This field will populate automatically from the No. of Hours / Days entered.|
 |**Adjustment Description**|Enter a “Description” of the leave adjustment. |
 |**Tick Data Take-On Column**|Tick this option to only affect the Payroll leave balances and not to post the adjustment to the General Ledger. This option is used to enter leave balances for a payroll implementation. Leave this option blank to post the provision to the General Ledger.|
@@ -86,13 +85,13 @@ To access the Employee Leave Entitlement Report, go to the following menu:
 |-----------------------------------------------|-----------------------------------------|
 |**OPTIONS FASTTAB**||
 |**As At Date**|Enter in the date you wish to generate the report.  |
-|****|You can only enter in a date where transactions have been posted to the Leave Accrual Ledger Entry.  |
+||You can only enter in a date where transactions have been posted to the Leave Accrual Ledger Entry.  |
 |**Exclude Zero Accruals**|Select this field if you wish to exclude accruals with a zero balance.|
 |**Group by Global Dimension 1**|Select this field if you wish to group employees by Global Dimension 1.|
 |**Print Leave As:**|You can nominate how you wish the leave accruals to appear in the report.  The options you have available are:|
-|****|·         Decimal Hours|
-|****|·         Hours & Minutes|
-|****|·         Days|
+||·         Decimal Hours|
+||·         Hours & Minutes|
+||·         Days|
 |**Exclude LSL not Provisioned**|Select this field if you wish to exclude LSL not yet provisioned.|
 |**LEAVE TYPE FASTTAB - Only the standard fields are covered. A full list of fields available as filters can be used by selecting the add filter.**||
 |**Code**|·         Select the Leave Code for the Leave Types you wish to report on. If left blank all Leave Type codes are selected. |
