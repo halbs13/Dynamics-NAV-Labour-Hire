@@ -24,7 +24,7 @@ Departments/Labour Hire/Candidate Processing/Resources
 
 [GoToTop](#how-to-setup-a-contractor)
 
-### Edit - Resource Card”window 
+### Edit - Resource Card window 
 
 The following fields will be populated by the interface and will only discuss those fields which are specific to standard Labour Hire:
 
@@ -39,7 +39,7 @@ The following fields will be populated by the interface and will only discuss th
 |**INVOICING FASTTAB**||
 |**Gen. Prod. Posting Group**|This field is used to specify the general ledger accounts that are posted in combination with the general business posting groups when sales are posted.|
 |**GST. Prod. Posting Group**|This field is used to specify the GST product posting groups to which this resource belongs.|
-|****|When you post transactions that involved this resource, this code is used in combination with a GST business posting group code in the GST Posting Setup window.  The GST Posting Setup window specifies the GST accounts that are posted to.|
+||When you post transactions that involved this resource, this code is used in combination with a GST business posting group code in the GST Posting Setup window.  The GST Posting Setup window specifies the GST accounts that are posted to.|
 |**PERSONAL DATA FASTTAB**||
 |**Job Title**|This field is used to specify the person’s job title.  |
 |**Address**|This field is used to specify the address or location of the resource.|
@@ -65,7 +65,7 @@ The following fields will be populated by the interface and will only discuss th
 
 |Field Name|Description|
 |-------------------------|-------------------------------------------------|
-|**GENERAL FASTTAB **||
+|**GENERAL FASTTAB**||
 |**No.**|The Contractor is identified with this number throughout the Human Resources and Payroll granules.|
 |**Job Title**|This field is used to specify the person’s job title.|
 |**Title**|This field is used to retain the employee’s title.  An example of the Title is Mr, Miss, Ms, Mrs, etc.|
@@ -134,30 +134,30 @@ The following fields will be populated by the interface and will only discuss th
 |**The Branch is attached to a State which is used to determine the state when calculating the Payroll Tax.**||
 |**The Branch and Division can be used to determine the GL accounts to post transactions against.  Global Dimensions are used in conjunction with the GL accounts in the General Ledger.**||
 |**Branch Code**|The “Branch Code” is selected from the Branches Codes in the Branch window, accessed “ArrowDown” in the field.|
-|****|Branch is one of the parameters used in resolving GL accounts for cost transactions.|
+||Branch is one of the parameters used in resolving GL accounts for cost transactions.|
 |**Division Code**|The “Division Code” is selected from the Division Codes in the Division window, accessed from the “ArrowDown” in the field.|
-|****|Division is one of the parameters used in resolving GL accounts for cost transactions.|
+||Division is one of the parameters used in resolving GL accounts for cost transactions.|
 |**Global Dimension 1**|The “Global Dimension 1 Code” is selected from the Global Dimension Codes in the General Ledger, accessed from the “ArrowDown” in the field.|
-|****|Global Dimension 1 is used to allow breakup of values in the General Ledger.|
+||Global Dimension 1 is used to allow breakup of values in the General Ledger.|
 |**Global Dimension 2**|The “Global Dimension 2 Code” is selected from the Global Dimension Codes in the General Ledger, accessed from the “ArrowDown” in the field.|
-|****|Global Dimension 2 is used to allow breakup of values in the General Ledger.|
+||Global Dimension 2 is used to allow breakup of values in the General Ledger.|
 |**RATE FASTTAB – The Rate Tab is used to determine the standard hours worked and can be used to calculate Ordinary Time and Leave Accruals.**||
 |**The first three fields are used to calculate the hourly rate for each Employee and Accrue Time In Lieu hours.**||
 |**Hours in a Full Week**|This field is used to determine the standard hours worked for Ordinary pay and for accruals.|
 |**Hours Worked for TIL**|This field is used to calculate the value accrued to Time In Lieu.  The hours worked in excess of this value are accrued to the employee’s TIL entitlement.|
 |**Days Per Week**|Enter the standard number of days in a week the employee works.  This field is used for the calculation and processing of leave.|
 |**Flextime Applicable **|Tick this field is you wish to calculate an Employee’s entitlement based on hours worked.|
-|****|If an Employee is not entitled to flexi-time, the “Flexitime Applicable” field should be left blank.|
+||If an Employee is not entitled to flexi-time, the “Flexitime Applicable” field should be left blank.|
 |**The other fields contained on this Fast Tab are for display purpose only and are not used within the Labour Hire environment as rates are typically assigned to a Job.**||
 |**TAX FASTTAB – The information entered on this tab is obtained from the Employees Tax File Number/Employment Declaration form.  The information entered is used with the Declaration Tab to calculate PAYG Tax withholding amounts for the employee each pay run.**||
 |**The FBT field is used to add the Employee’s Fringe Benefit Tax each year.  This entry prints on the Payment Summary.**||
 |**Tax Scale No.**|This code defines the Tax Scale for this employee.|
-|****|Tax Scales are provided by the ATO to calculate PAYG withholding tax for Employees.|
-|****|Select the Tax Scale No, from the “ArrowDown”.|
+||Tax Scales are provided by the ATO to calculate PAYG withholding tax for Employees.|
+||Select the Tax Scale No, from the “ArrowDown”.|
 |**HELP Debt**|This field Indicates the employee has a Higher Education Loan Program.  |
-|****|If ticked the employee will pay extra tax.|
+||If ticked the employee will pay extra tax.|
 |**Student Loan (SFSS)**|This field Indicates the employee has a student loan |
-|****|If ticked the employee will pay extra tax.|
+||If ticked the employee will pay extra tax.|
 |**Fixed Tax Rate Applicable**|Tick this field if the employee has applied for and has been granted a variance to their normal tax rate.  A separate letter from the Australian Taxation Office must be provided to the employer before this variation can occur.|
 |**Fixed Tax Rate Valid Until Date**|Enter the date the Fixed Tax rate expires.  Once this date has been reached standard taxation according to the Tax Scale outlined above will occur.|
 |**Fixed Tax Rate**|Enter the percentage value of the fixed tax rate.  The value is entered as a percentage e.g. 25%|
@@ -167,7 +167,7 @@ The following fields will be populated by the interface and will only discuss th
 |**G.S.T. Exempt**|This field is reserved for future development.|
 |**Payment Summary Raised**|This field is used to indicate the Payment Summary has been issued to the employee.  This field is automatically ticked by the system after Payment Summaries have been printed for this employee and is reset when the first pay is run for the new taxation year.|
 |**Fringe Benefit Amount**|This field is used to access the Employee FBT Amount List.  |
-|****|Enter the total taxable amount of fringe benefit received by the employee for the corresponding tax year.  The value in these fields print on the Employee’s Payment Summary for the corresponding year.|
+||Enter the total taxable amount of fringe benefit received by the employee for the corresponding tax year.  The value in these fields print on the Employee’s Payment Summary for the corresponding year.|
 |**Inc. Company Tax Inv. Not Req.**|The “Inc. Company Tax Invoice Not Required” field should be ticked when the contractor who is operating under an incorporated Company provides their own Tax Invoice.|
 |**DECLARATION FASTTAB – The information entered on this tab is obtained from the Employees Tax File Number/Employment Declaration form.  The information entered is used to work out how much PAYG tax to withhold from payments made to the employee and  are used when producing the electronic lodgment file for employment declarations to the ATO.**||
 |**Resident**|Tick this field if the employee has indicated they have residential status.|
@@ -202,11 +202,10 @@ The following fields will be populated by the interface and will only discuss th
 |**Termination Date**|The “Termination Date” can only be entered on the Employee card.|
 |**WORK COVER FASTTAB – The information on this tab is used to record and assign Worker Cover information details for this employee.**||
 |**Work Cover Code**|Select the “Work Cover Code” for the Employee.|
-|****||
-|****|Work Cover is set up as a percentage of Gross Wages calculated as the Work Cover Levy.  |
-|****|This field is generally used for base employees only.|
+||Work Cover is set up as a percentage of Gross Wages calculated as the Work Cover Levy.  |
+||This field is generally used for base employees only.|
 |**Work Cover Location Code**|Select the “Work Cover Levy” Location.|
-|****|This field is generally used for base employees only.|
+||This field is generally used for base employees only.|
 |**Workers Comp Policy No.**|The “Workers Comp Policy No.” is used to record a Contractors policy number.|
 |**Workers Comp Insurer**|The “Workers Comp Insurer” is used to record the name of the Contractors Workers Comp Insurer.|
 |**Policy Expiration Date**|The “Policy Expiration Date” is used to record the expiry date of the policy.|
@@ -229,16 +228,14 @@ This form is used to set up the bank accounts and spilt the employees’ Net pay
 |Field Name|Description|
 |-------------------------|-------------------------------------------------|
 |**Transaction Type Code**|This field identifies the Pay Transaction Type assigned to the Net Pay |
-|****||
-|****|The “Transaction Type Code” is selected from the Pay Transaction Type table; accessed by the “ArrowDown” in the field.|
+||The “Transaction Type Code” is selected from the Pay Transaction Type table; accessed by the “ArrowDown” in the field.|
 |**Pay Dissection Type**|This field is used to select the dissection type used for this bank account:|
-|****|Main – The Main Pay Dissection is used to pay the balance of net pay.  You must setup 1 “Main” Pay Dissection.|
-|****|Part – The Part Pay Dissection is used to define where specific amounts or a percentage of the employee net pay is banked.  An employee can have unlimited Part pay dissections.|
+||Main – The Main Pay Dissection is used to pay the balance of net pay.  You must setup 1 “Main” Pay Dissection.|
+||Part – The Part Pay Dissection is used to define where specific amounts or a percentage of the employee net pay is banked.  An employee can have unlimited Part pay dissections.|
 |**Bank Account No.**|This field is used to enter the bank account number for the EFT payment.|
 |**Bank Account Name**|This field is used to enter the account name corresponding to the Bank Account no.|
 |**Pay Bank State Branch No.**|This field is used to select the Bank BSB number associated with the Bank Account.|
-|****||
-|****|You can select the BSB number from the Employee Bank table by selecting the “ArrowDown”.|
+||You can select the BSB number from the Employee Bank table by selecting the “ArrowDown”.|
 |**Standard Amount**|This field is used in conjunction with “Part” pay dissection types to enter a specific amount for this bank account each pay period. |
 |**Standard %**|This field is used in conjunction with “Part” pay dissection types to enter a percentage of net for this bank account each pay period.|
 |**Not Used**|Tick this field to indicate this Bank Account Dissection is not used for one pay period.|
@@ -261,22 +258,22 @@ This option is used to set up the Gross Pay Transaction Type and Allowances for 
 |-------------------------|-------------------------------------------------|
 |**Transaction Type Code**|The “Transaction Type Code” is selected from the Pay Transaction Type table; accessed from the “ArrowDown” in the field.|
 |**Shift Code**|If the employee works a “Shift” enter the shift code (for shifts where an allowance is paid)|
-|****|E.g. When the employees work the midnights to dawn shift they will receive the Pay Transaction Type allowance for sleep deprivation automatically.  If the employee does not work this shift then they will not receive this allowance.|
+||E.g. When the employees work the midnights to dawn shift they will receive the Pay Transaction Type allowance for sleep deprivation automatically.  If the employee does not work this shift then they will not receive this allowance.|
 |**Start Date**|This field is used to enter the date from which this Pay Transaction Type applies.|
 |**End Date**|This field is used to enter the date this Pay Transaction Type ceases.  This field is left blank if the Pay Transaction Type is to apply for an indefinite period.|
 |**Description**|This field displays the Pay Transaction Type description.|
 |**Use Full Week Hours**|Tick this flag if the employee is to be paid the standard number of hours each pay period against this Pay Transaction Type.  This type of payment is usually setup for Automatically paid (Auto-pay) employees.|
 |**Units**|This field is used to enter the number of units to pay the employee each pay period on a permanent basis.|
-|****|Generally, units are hours, but units can also be kilometres, etc.|
-|****|If the Pay Transaction Type is not a unit’s type leave this field zero.|
+||Generally, units are hours, but units can also be kilometres, etc.|
+||If the Pay Transaction Type is not a unit’s type leave this field zero.|
 |**Fixed Value**|Use this field to enter the fixed amount the employee is paid each pay period.|
-|****|This field is left zero if a fixed amount is not to be paid.|
+||This field is left zero if a fixed amount is not to be paid.|
 |**Classification**|If the Pay Transaction Type is paid at a different Classification Pay Rate to the employee’s normal Classification Pay Rate enter the Classification for the different pay rate in this field.|
 |**Hourly Rate**|This field is used to display the “Hourly Rate” from either the employee Pay Rate or the Classification card for this Pay Transaction Type (for Pay Transaction Types that have the “Rate Calculation Method” field set to “Employee Pay Rate”). |
-|****|The “Use Full Week Hours” flag must also be ticked.  The value in this field cannot be changed.|
+||The “Use Full Week Hours” flag must also be ticked.  The value in this field cannot be changed.|
 |**Pay Value**|This field is calculated using the Employee’s Hours in Full Week, Hourly Rate, Number of Days per week and their Pay Frequency.  The value in this field cannot be changed.|
 |**Apportion Cost**|This field indicates if the Allowance paid is apportioned to Jobs by the same ratio of hours worked on a job by the employee.|
-|****|An Allowance in this case is referring to a Pay Transactions Type with the Accumulation Type of "Allowance".|
+||An Allowance in this case is referring to a Pay Transactions Type with the Accumulation Type of "Allowance".|
 |**Associated Transactions**|This field indicates if this Pay Transaction Type has associated transactions linked to it.|
 |**Not Used**|If this field is ticked the Pay Transaction Type is not applied to the “current” pay period only.  The flag will be reset for the next pay period.|
 |**Click “OK” after you have completed your selection.**||
@@ -301,10 +298,10 @@ on the “Navigate” ribbon.
 |**Standard %**|This field is used to enter a percentage of the employee's salary that is deducted.|
 |**Details**|This field is an additional description for the purpose of the deduction.|
 |**Total Deduction**|When the “LTD” amount equals the "Total Deduction" amount the deduction will stop.|
-|****|When you wish to continue deducting the deduction enter zero in this field or increase the amount in this field by the amount you wish the deduction to be deducted|
-|****|This type of deduction is used for Pay Transaction Types such as employee loans.|
+||When you wish to continue deducting the deduction enter zero in this field or increase the amount in this field by the amount you wish the deduction to be deducted|
+||This type of deduction is used for Pay Transaction Types such as employee loans.|
 |**LTD Amount**|This field is used to display the Life to Date amount deducted for this deduction|
-|****|The life to date amount also controls the Total Deduction amount.|
+||The life to date amount also controls the Total Deduction amount.|
 |**Not Used**|If this field is ticked the Pay Transaction Type is not applied to the “current” pay period only.  The flag will be reset for the next pay period.|
 |**Click “OK” after you have completed your selection.**||
 
@@ -326,7 +323,7 @@ You access Superannuation from the Payroll Employee Card by clicking on the “S
 |**Employer SGC Amt.**|The standard amount the employer will contribute.|
 |**Employer SGC %**|This field is used to determine the percentage the employer contributes calculated on the Employees Earnings or the amount Entered in the Base Salary field if not zero.  |
 |**Employer Factor**|The employer contributes a percentage of any employee contribution entered in the fields. |
-|****|For example, if the Employer Factor is set to 0.50 then the Employer will contribute in addition half the contribution amount/percentage the employee contributes.|
+||For example, if the Employer Factor is set to 0.50 then the Employer will contribute in addition half the contribution amount/percentage the employee contributes.|
 |**Employer Non-SGC Amt.**|This field is used when the Employer contributes an amount in addition to the Super Guarantee|
 |**Employer Non-SGC %**|This field is used when the Employer contributes a percentage in addition to the Super Guarantee|
 |**Employer Pre-Tax Standard Amt**|This field is used to enter the Pre Tax Employee Contribution amount|
