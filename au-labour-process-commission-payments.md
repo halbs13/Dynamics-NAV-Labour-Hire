@@ -237,7 +237,7 @@ The Permanent Placement Section includes the following:
 - Subtotals for each Global Dimension combination
 
 
-
+[GoToTop](#how_to_setup_commissions)
 
 
 
