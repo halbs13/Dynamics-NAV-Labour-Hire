@@ -8,7 +8,7 @@ sections:
 - [Commission Plans](#commission_plans)
 - [Commission Calculation](#commission_calculation)
 - [Commission Reports](#commission_reports)
-  -[ Account Manager Summary Report – Section 1](#account_manager_summary_report_-_section_1)
+  - [ Account Manager Summary Report – Section 1](#account_manager_summary_report_-_section_1)
   - [Account Manager Summary Report – Section 2](#account_manager_summary_report_-_section_2)   
      
 # Account Manager Setup
