@@ -15,6 +15,8 @@ The Print Payment Summary menu option is used to run the following functions:
 - Print Eligible Termination Summaries
 - Produce the ATO electronic file.
 
+[GoToTop](#how-to-process-payment-summaries)
+
 # END OF FINANCIAL YEAR PROCESSING
 
 ## Update YTD Accumulation Codes
@@ -34,6 +36,8 @@ To access the YTD Accumulation Code Update, go to the following menu:
 |------------------------------------|-------------------------------------------------------|
 |**Tax Year**|Enter or select the Tax Year you wish to update the YTD Accumulator code values and then click the “OK” button. Note: This process does not need to run if there have been no changes to the “P.S. YTD Accumulation” codes on the Pay Transaction Types.|
 
+
+[GoToTop](#how-to-process-payment-summaries)
 
 ## Payment Summary Proof List
 
@@ -67,6 +71,7 @@ Select End of Tax Year processing and click “OK”
 ||If this field is ticked the Employee PAYG Payment Summaries are printed and the rest of the fields are displayed. The Employee and their transactions are flagged as “PAYG Payment Summaries printed”.|
 |**Click “OK” once you have completed your selection.**|
 
+[GoToTop](#how-to-process-payment-summaries)
 
 ## Printing PAYG Summaries
 
@@ -90,8 +95,6 @@ A “Payment Summary Proof List” is always printed, by default. This is used t
 The format of the ATO Electronic file name is defaulted. You must indicate the path where the file is to be placed by entering the path location or navigating to the required directory. If no Path is present then the file will be written to the Navision client directory on your PC.
 
 **Note: Eligible Termination Payment ( ETP ) summaries are produced automatically during the PAYG Payment Summary process if you have entered the employees ETP details using the Eligible Termination Pay task accessed via the button  from the Payroll Employee Card.**
-
-
 
 To print the PAYG Payment Summary, go to the following menu:
 
@@ -119,3 +122,6 @@ Select Either Normal Processing or End of Tax Year processing and click “OK”
 |**Run Type**|This field must be “Production”. Select “Test” only to send a test file to the ATO for clarification before creating the production file. Dialog has received confirmation for the layout from the ATO therefore Test should be used only if required.|
 |**Supplier File Reference**|This field is used by the ATO to further identify the file for enquiries from the ATO to you.|
 |**Click “OK” once you have completed your selection.**|
+
+
+[GoToTop](#how-to-process-payment-summaries)
