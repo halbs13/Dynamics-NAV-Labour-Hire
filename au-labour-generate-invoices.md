@@ -22,7 +22,7 @@ This section will discuss two (2) methods in which invoices can be generated:
 
 This function generates both Invoices and CR/Adj Notes.  To generate invoices and CR/Adj notes, go to the following menu:
 To generate invoices, go to the following menu:
-Departments/Labour Hire/Invoice Processing/Generate Invoice/Generate Invoice
+*Departments/Labour Hire/Invoice Processing/Generate Invoice/Generate Invoice*
 
 ##  “Invoice/Credit Generate” window
 
@@ -66,36 +66,27 @@ The “Sales Invoice” contains the following tabs and information:
     Posting Date
   
   
-  This is the Posting Date entered used to
-  generate the invoice
+  This is the Posting Date entered used to generate the invoice
   
   Document Date
   
-  This is the date the invoice is generated and
-  is used to determine the “Due Date” on the invoice
+  This is the date the invoice is generated and is used to determine the “Due Date” on the invoice
     
   External Document No.
   
   
-  This will be left blank but can be used as a
-  reference number for the customer
+  This will be left blank but can be used as a reference number for the customer
   
  
 
-  Invoice/Cr. Memo Format Code
-  
-  
-  This is the Sales Invoice Format code sourced
-  from the Customer Card
+  Invoice/Cr. Memo Format Code  This is the Sales Invoice Format code sourced from the Customer Card
   
   LINES FASTTAB – The Lines FastTab contains the
   invoice lines generated from the Job Planning Lines
  
   Type
   
-  This will default to “Resource”
-    No.
-    This is the “Resource No.”
+  This will default to “Resource”  No This is the “Resource No.”
   
   Description
  This field will populate from the Pay
@@ -213,7 +204,7 @@ Departments/Labour Hire/Invoice Processing/Lists/Posted Invoices
 Within Dynamics NAV you have the ability to email invoices to customers.  The “E-Mail
 Invoice/Cr. Memo” flag must be set and “Invoice Customer E-Mail List” must be updated.  
 To email the invoice, go to the following menu:
-Departments/Labour Hire/Invoice Processing/Tasks/E-Mail Invoice List
+*Departments/Labour Hire/Invoice Processing/Tasks/E-Mail Invoice List*
 
 
 ### “Edit – E-Mail Invoice List” window
@@ -239,9 +230,10 @@ Invoices can be generated manually either from the Customer Card or directly fro
 
 You can create a manual invoice directly from the Customer card.  First go to the Customer
 Card by accessing the following menu:
-Departments/Labour Hire/Candidate Processing/Customers
+*Departments/Labour Hire/Candidate Processing/Customers*
+
 -	 Select the Customer record from the Customer List by searching and clicking on the record. 
--	 Once you have selected your customer record, click on the “Sales Invoice” button to create a blank invoice and click “Enter” to create a new invoice.   When you click “Enter” the information on the “General” Tab will populate with various information from the Customer Card.  The Posting and Document Date will default from today’s date.
+-	 Once you have selected your customer record, click on the “Sales Invoice” button to create a blank invoice and click “Enter” Customer Card.  The Posting and Document Date will default from today’s date.
 -	In the “Lines” Tab complete the following information at a minimum.
  Field Name
   Description
@@ -267,7 +259,7 @@ You can create a manual invoice directly from the Job card.  First go to the Job
 Departments/Labour Hire/Candidate Processing/Jobs
 
 -	 Select the Job record from the Job List by searching and clicking on the record. 
--	 Once you have selected your job record, click on the Home ribbon, and “Create Job Sales   Invoice” button to create an invoice for the Job. 
+-	 Once you have selected your job record, click on the Home ribbon, and “Create Job Sales   Invoice” button to create an invoice 	 for the Job. 
    -     In the “Edit – Job Create Sales Invoice” window complete the following information.
  Field Name
    Description
@@ -293,7 +285,7 @@ This section will discuss two (2) methods in which Sales CR/Adj Notes can be gen
 
 This function generates both Invoices and CR/Adj Notes.  To generate invoices and CR/Adj notes, go to the following menu:
 
-Departments/Labour Hire/Invoice Processing/Generate Invoice/Generate Invoice
+*Departments/Labour Hire/Invoice Processing/Generate Invoice/Generate Invoice*
 
 ### “Invoice/Credit Generate” window
 
@@ -326,7 +318,7 @@ Field Name
 ## Generated Sales CR/Adj Notes
 
 To view generated Sales CR/Adj Notes, go to the following menu:
-Departments/Labour Hire/Invoice Processing/Lists/Sales CR/Adj Notes
+*Departments/Labour Hire/Invoice Processing/Lists/Sales CR/Adj Notes*
 
 A list of all the sales CR/Adj notes generated will appear from which you can select to view each CR/Adj note individually.  
 To check CR/Adj notes, double-click on a Sales CR/Adj and the “Edit – Sales Invoice” window will appear.
