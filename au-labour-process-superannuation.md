@@ -726,19 +726,8 @@ The fields contained in the SuperStream Alternative file are:
 
  |**Field Name**|**Mandatory**|**Description**|
  |--------------------------------|-----------------------|-----------------------------------------------------------------------|
- |Header section
-   
-  
- 
- 
-  
-  Version
-  
-  
-  Mandatory
-  
-  
-  The “Version” will default to 1.0
+ |||**Header section**|
+ |**Version**|Mandatory|The “Version” will default to 1.0|
   
  
  
