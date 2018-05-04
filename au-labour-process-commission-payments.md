@@ -112,9 +112,9 @@ Permanent Placement Period -                               
 
 Total Contracting Margin                                                                    $33,697.10
 
-Calculated at 10%                                                                                 $15,000.00                              $1,500.00
+Calculated at 10%                                                                                $15,000.00                              $1,500.00
 
-Calculated at 15%                                                                                 $18,697.10                              $2,804.56
+Calculated at 15%                                                                                $18,697.10                              $2,804.56
 
  
 
@@ -126,9 +126,9 @@ Total Contracting Commission                          
 
 Total Permanent Placement Fees                                                      $20,000.00                              
 
-Calculated at X%                                                                                  $10,000.00                              $2,000.00
+Calculated at X%                                                                                 $10,000.00                              $2,000.00
 
-Calculated at X%                                                                                  $10,000.00                              $2,046.40
+Calculated at X%                                                                                 $10,000.00                              $2,046.40
 
  
 
@@ -171,7 +171,6 @@ The information contained in the lower section is as follows:
 |NSW|OPTUS|3046.40|51.22|3097.62|
 |Totals||4046.40|4304.56|8350.96|
 
- 
 To enable the breakup of amounts required in
 the second section of the report above, we will need to capture department and
 project for each transaction being included in the calculation and then split
