@@ -34,7 +34,7 @@ to printing the Payment Summaries.
  
 
 The Print Payment Summary menu
-option is used to run the following functions:
+option is used to run the following functions: 
 
 Print the “Payment Summary Proof List”,Print the Payment SummariesPrint Eligible Termination SummariesProduce the ATO electronic file. 
 
