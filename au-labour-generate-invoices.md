@@ -29,11 +29,10 @@ To generate invoices, go to the following menu:
 |**Field Name**|**Description*
 |------------------------------------|---------------------------------------------------------------------------------------|
 |Posting Date|This date will be used as the “Posting Date on all generated Invoices and Credit Notes and sales records will be posted to the relevant ledger using this date.|
-   Generate
-  From the “Generate” field, select your option. Each customer will have set up with an Invoice
+|Generate|From the “Generate” field, select your option. Each customer will have set up with an Invoice
   Frequency, so this should be selected depending on which batch of invoices you are generating.  All customers with a matching frequency will have invoices generated if they have trainings waiting to be invoiced.
-  The Adhoc option allows you to generate invoices for all customers regardless of frequency.
-  Click on the “Generate” button after you have completed your selection.
+  The Adhoc option allows you to generate invoices for all customers regardless of frequency.|
+ |**Click on the “Generate” button after you have completed your selection.|
   
  ### “Edit – Sales Invoice/Credit Note Generation Customer FastTab” window
 There are a number of filters which you can enter to further filter information:
