@@ -11,7 +11,7 @@ This document will specifically discuss how to use the Leave Processing function
 The activities discussed are:
 
 - [Mass Adjust Leave Balances](#mass-adjust-leave-balance)
-- [Calculate & Post Provision](#calculate-&-post-provision)
+- [Calculate and Post Provision](#calculate-and-post-provision)
 - [Employee Leave Entitlement Report](#employee-leave-entitlement-report)
 
 
