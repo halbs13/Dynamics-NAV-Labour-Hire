@@ -155,8 +155,17 @@ Commission Payable                               
 |**Total Commission Payable**|Total of Permanent and Contracting Commission totals.|
 |**When you have completed your selection, you can either click “Print” to send the report to a printer or “Preview” to view the report to the screen.**||
 
+|Department|Project|Permanent|Contract|Total|
+|--------------|---------------|----------------|-------------------|------------------|
+|NSW|IMB||2389.03|2389.03|
+|NSW|GERNERAL|1000.00|1864.31|2864.31|
+|NSW|OPTUS|3046.40|51.22|3097.62|
+|Totals||4046.40|4304.56|8350.96|
 
-  
+
+
+
+
  
 
 
@@ -176,18 +185,10 @@ Administration Section
 
  
 
-Department              Project                       Permanent                               Contract                      Total
- 
 
-NSW                       IBM                                                                                                                                                                                                             2389.03                   2389.03
 
-NSW                       GENERAL                      1000.00                                   1864.31                   2864.31
 
-NSW                       OPTUS                        3046.40                                     51.22                   3097.62
 
- 
-
-Totals                                                  4046.40                                  4304.56                   8350.96
 
  
 
