@@ -692,7 +692,6 @@ The fields contained in the SunSuper Payment file are:
 |**Member ID**|Mandatory|The “Member ID” is sourced from the Membership No. field on the Employee Superannuation card for the employee.|
 |**Family Name**|Mandatory|The “Family Name” is sourced from the Last Name field on the Employee card for the employee.|
 |**Given Names**|Mandatory|The “Given Names” is sourced from the First Name field on the Employee card for the employee.|
-
 |**Other Given Names**|Optional|The “Other Given Names” is sourced from the Middle Name field on the Employee card for the employee.|
 |**Title**|Mandatory|The “Title” is sourced from the Title field on the Employee card for the employee.|
 |**Name Suffix**|Optional|The “Name Suffix” field is not exported.|
