@@ -3,10 +3,10 @@
 This document will contain information relating to Internal Payroll Processing encompassing the following sections:
 
 - [Entering New Employees](#entering-new-employees)
-  - [Employee Card](#employee-card)
-  - [Payroll Employee Card](#payroll-employee-card)
-- [Processing Pays](#processing-pays)
-  - [Pay Journals](#pay-journals)
+  - [Employee Card](#edit:-employee-card)
+  - [Payroll Employee Card](#edit:-payroll-employee-card)
+- [Processing Pays](#payroll-processing)
+  - [Pay Journals](#payroll-processing---pay-journals)
   - [Enter Leave Adjustments](#enter-leave-adjustments)
   - [Calculating Pays](#calculating-pays)
   - [Entry Validation Reports](#entry-validation-reports)
