@@ -33,10 +33,10 @@ To access the Employee Maintenance task, go to the following menu:
 *Departments/Payroll/Employee Maintenance/Employees*
  
 
-•	Enter the new employee into the Payroll module. To access the Employee Maintenance task Click the “Payroll Employee Card” button or go to the following menu: 
+_ Enter the new employee into the Payroll module. To access the Employee Maintenance task Click the “Payroll Employee Card” button or go to the following menu: 
+
 Departments/Payroll/Employee Maintenance/Payroll Employees
  
-
 - Enter in Bank Details. To access the Bank Details task, Click the “Pay Dissections” task icon. 
 - Enter in Pay Rates in as an hourly rate. To access the Bank Details task, Click the “Pay Rates” task icon. 
 - Enter in Permanent Pay and Allowances. To access the Pay and Allowances task, Click the “Gross & Allowances” task icon. 
@@ -127,7 +127,7 @@ Once the New Employee has been selected ‘Press Enter’ and the information th
 |**Branch Code**|Select the relevant Branch Code from the “ArrowDown”.|
 |**Global Dimension 1 &2**|Select the relevant Dimension Codes from the “ArrowDown”. This will usually be the same as the Branch Code. |
 |**RATE FASTTAB - There is nothing that needs to be completed on this tab, as the pay rates are later entered in the Pay Rates area.**||
-|**TAX FASTTAB **||
+|**TAX FASTTAB**||
 |**Tax Scale No**|The Tax Scale No. will default from the Payroll setup card and can be overridden.|
 |**HELP Debt**|Select this field if advised on the declaration form.|
 |**Student Loan ( SFSS )**|Select his field if advised on the declaration form.|
@@ -252,7 +252,7 @@ Changing Superannuation funds - enter an end date on the old fund and change the
 
 Then on the next line Add the new fund with the current month in the start date, then add the employer standard 9.5%.
 
-If you are updating the employee’s Superannuation fund and your organisation is calculating Employer liabilities using On Costs, you must ensure that you update the Superannuation Code on the Superannuation On Cost transaction type.  (Reference 4.2.8 - Payroll Employee Card  – On Cost Transactions.
+If you are updating the employee’s Superannuation fund and your organisation is calculating Employer liabilities using On Costs, you must ensure that you update the Superannuation Code on the Superannuation On Cost transaction type.  (Reference Payroll Employee Card  – On Cost Transactions).
 
 
 ### Payroll Employee Card  – Leave Accruals
@@ -269,7 +269,7 @@ If you wish to create or add a new Leave Accrual, click on the “New” icon.
 |**Leave Type**|Select the Leave Type code from the “ArrowDown”.|
 |**Leave Code**|Select the appropriate Leave Code from the “ArrowDown”.|
 |**Start Date**|The ‘Starting Date’ will default to the employees start date. This date is the Employee leave Accrual Start Date.|
-|**Click “OK” once you have completed all fields required.|
+|**Click “OK” once you have completed all fields required.**|
  
 
 ### Payroll Employee Card  – On Cost Transactions
@@ -281,7 +281,7 @@ You access Employer On Costs from the Payroll Employee Card by clicking on the �
 |Field Name|Description|
 |----------------------------------------|---------------------------------------------------------------------|
 |**Transaction Type Code**|Select the Transaction Type code from the “ArrowDown”.|
-|**Start Date **|The “Start Date” field is used to specify the date at which the On Cost transaction is to commence.|
+|**Start Date**|The “Start Date” field is used to specify the date at which the On Cost transaction is to commence.|
 |**End Date**|The “End Date” field is used to specify the date at which the On Cost transaction is to end.|
 |**Pay Rate**|The “Pay Rate” field is used to retain the calculation rate of the On Cost transaction.  This amount entered into this field should be expressed in decimal format.  E.g. If the value is 9%, it should be entered as 0.09.|
 |**Superannuation Code**|The “Superannuation Code” field is used to nominate the Contractor’s Superannuation code.  This is only applicable if this On Cost transaction relates to the SGC accrual.|
@@ -313,8 +313,8 @@ To enter leave against a specific employee, at a minimum the following fields sh
 |**To Date**|Enter in the End Date of the absence in this field.  (**You will need to update your display settings if this field is not displaying)|
 |**Units**|Enter in the No. of Hours in this field.|
 |**Subtract From Permanent Hours**|This field will automatically default from the setup of the Pay Transaction Type card.|
-|****|If the field is ticked, the value of this leave transaction will be deducted from the Employee’s standard auto-pay.|
-|****|If the field is not ticked, the value of this leave transaction will be paid in addition to the Employee’s standard auto-pay.|
+||If the field is ticked, the value of this leave transaction will be deducted from the Employee’s standard auto-pay.|
+||If the field is not ticked, the value of this leave transaction will be paid in addition to the Employee’s standard auto-pay.|
 |**After entering your leave/temporary adjustments, the auto-pays can be calculated.**|
 
 
