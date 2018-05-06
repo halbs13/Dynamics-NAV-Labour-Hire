@@ -2,18 +2,18 @@
 
 This document will contain information relating to Internal Payroll Processing encompassing the following sections:
 
-- Entering New Employees
-  - Employee Card
-  - Payroll Employee Card
-- Processing Pays
-  - Pay Journals
-  - Enter Leave Adjustments
-  - Calculating Pays
-  - Entry Validation Reports
-  - Un-calculating Pays
-  - Creating a Bank Transfer File
-  - Post and Print Pay Advices 
-  - Close Pay Period
+- [Entering New Employees](#entering-new-employees)
+  - [Employee Card](#employee-card)
+  - [Payroll Employee Card](#payroll-employee-card)
+- [Processing Pays](#processing-pays)
+  - [Pay Journals](#pay-journals)
+  - [Enter Leave Adjustments](#enter-leave-adjustments)
+  - [Calculating Pays](#calculating-pays)
+  - [Entry Validation Reports](#entry-validation-reports)
+  - [Un-calculating Pays](#un-calculating-pays)
+  - [Creating a Bank Transfer File](#creating-a-bank-transfer-file)
+  - [Post and Print Pay Advices](#post-and-print-pay-advices)
+  - [Close Pay Period](#close-pay-period)
 
 
 # INTERNAL PAYROLL PROCESSING OVERVIEW
@@ -407,3 +407,6 @@ You can close the pay period independently if you choose not to close the pay pe
  
 
 Select the Payroll No and press “OK’. Then select the Pay Period by the ticking the ‘Closed and Date Locked’ columns to close the pay period.
+
+
+[GoToTop](#how-to-process-an-internal-payroll-in-labour-hire)
