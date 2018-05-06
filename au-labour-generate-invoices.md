@@ -6,7 +6,7 @@ Dynamics NAV Labour Hire’s Sales Invoice and Sales CR/Adj Note generation func
 
 The Invoice and CR/Adj Note Generation function has been designed to cater for the following requirements:
 -	Generation Selection: Ability to select which customers to generate invoices for.
--	Invoice Frequency: Generate invoices at different intervals depending on customer    choice.
+-	Invoice Frequency: Generate invoices at different intervals depending on customer choice.
 -	Invoice Consolidation: Different levels of consolidation can be selected for customers.  Examples of consolidation are one invoice for each sell to customer or one invoice for just the bill to customer, which represents a parent or umbrella type company.
 
 These features allow users to set up all of the required parameters at a customer level.  When it comes time to generate invoices, they will simply have to select an option and filter on some choices if required and the invoices and credit notes will automatically be generated correctly for each customer.
@@ -27,27 +27,29 @@ To generate invoices, go to the following menu:
 ##  “Invoice/Credit Generate” window
 
 |**Field Name**|**Description*
-|------------------------------------|---------------------------------------------------------------------------------------|
+|------------------------------------|----------------------------------------------------------------------------------------|
 |Posting Date|This date will be used as the “Posting Date on all generated Invoices and Credit Notes and sales records will be posted to the relevant ledger using this date.|
-|Generate|From the “Generate” field, select your option. Each customer will have set up with an Invoice
-  Frequency, so this should be selected depending on which batch of invoices you are generating.  All customers with a matching frequency will have invoices generated if they have trainings waiting to be invoiced.
-  The Adhoc option allows you to generate invoices for all customers regardless of frequency.|
- |**Click on the “Generate” button after you have completed your selection.|
+|Generate|From the “Generate” field, select your option. Each customer will have set up with an Invoice Frequency, so this should be selected depending on which batch of invoices you are generating.  All customers with a matching frequency will have invoices generated if they have trainings waiting to be invoiced.|
+The Adhoc option allows you to generate invoices for all customers regardless of frequency.|
+|-----------------------------------------------------------------------------------------------------------------------------|
+|**Click on the “Generate” button after you have completed your selection.*
+
   
  ### “Edit – Sales Invoice/Credit Note Generation Customer FastTab” window
 There are a number of filters which you can enter to further filter information:
 
-Field Name
-Description
-   Customer No.
-  
- Select a   “Customer No.” or leave blank for all customers with the same frequency.
-  Click the “OK” button.
+|**Field Name**|**Description*
+|-------------------------------------|-------------------------------------------------------------------------------=-------|
+|Customer No.|Select a “Customer No.” or leave blank for all customers with the same frequency.|
+|**Click the “OK” button.*
+
   
 # Generated Invoices
 
 To view generated Invoices, go to the following menu:
-Departments/Labour Hire/Invoice Processing/Lists/Sales Invoice
+
+**Departments/Labour Hire/Invoice Processing/Lists/Sales Invoice**
+
 A list of all the sales invoices generated will appear from which you can select to view each invoice individually.  Alternatively you can post the batch of invoices by selecting the “Post Batch” or post individually by nominating the “Post” button.
 To check invoices individually, double-click on a Sales Invoice and the “Edit – Sales Invoice” window will appear.
 
@@ -55,93 +57,63 @@ To check invoices individually, double-click on a Sales Invoice and the “Edit 
 
 The “Sales Invoice” contains the following tabs and information:
 
- Field Name
- Description
-   GENERAL FASTTAB – The General FastTab contains
-  information such as Invoice No., Customer Contact, Salesperson and Address
-  information
-    Posting Date
-  
-  
-  This is the Posting Date entered used to generate the invoice
-  
-  Document Date
-  
-  This is the date the invoice is generated and is used to determine the “Due Date” on the invoice
-    
-  External Document No.
-  
-  
-  This will be left blank but can be used as a reference number for the customer
-  
- 
+|**Field Name**|**Description*
+|-----------------------------------|---------------------------------------------------------------------------------------------|
+|**GENERAL FASTTAB- The General FastTab contains information such as Invoice No.,Customer Contact, Salesperson and Address information*
+|-----------------------------------|---------------------------------------------------------------------------------------------|
+|Posting Date|This is the Posting Date entered used to generate the invoice
+|Document Date|This is the date the invoice is generated and is used to determine the “Due Date” on the invoice
+|External Document No.|This will be left blank but can be used as a reference number for the customer
+|Invoice/Cr. Memo Format Code|This is the Sales Invoice Format code sourced from the Customer Card
+|**LINES FASTTAB – The Lines FastTab contains the invoice lines generated from the Job Planning Lines**
+|Type|This will default to “Resource”  No This is the “Resource No.”
+|Description|This field will populate from the Pay Transaction Type code as a description
+|Quantity|This field will contain the quantity or number of hours
+|Unit of Measure Code|This field contains the Unit of Measure Code 
+|Unit Price Excl. GST|This field contains the “Charge Rate” 
+|Line Amount Excl. GST|This field contains the Line Amount (Quantity *“Unit Price Excl. GST)
+|**INVOICING FASTTAB – The Invoicing FastTab contains information of where the invoice will be sent to*
+|Invoice Type|This option will default to “Times”
+|Payment Terms Code|The Payment Terms code will be sourced from the Customer Card
+|Due Date|This field is populated calculated from the “Document Date”
+|Payment Method Code|The Payment Method code will be sourced from the Customer Card
+|GST Bus. Posting Group|The GST Bus. Posting Group will be sourced from the Customer Card
+|**APPLICATION FASTTAB- The application Fasttab copntains information of the invoice the CR/Adj Notye will be applied against*
+|Applies to Doc.Type|This option will default to "Invoice" if it has been applied at the time of entering the adjustment via Timesheet Entry|
+|**ADJUSTMENT DETAILS FASTTAB - The Adjustment Details FastTab contains information, adjustment details and the reason why the CR/Adj Note has been created*
+|Adjustment|This option will be automatically flagged to highlight the CR/Adj Note will be applied as an adjustment
+|Bas Adjustment| This filed will automatically be flagged to highlight the CR/ADJ Note will be applied as a BAS adjustment
+|**Field Name**|**Description*
+|Adjustment Applies-to| This field will contain the sales invoice no. the CR/Adj Note will be applied to if entered via timesheet entry
+|Reason Code|This field will only be completed if a "Reason Code" has been filled in the Labour Hire Setup.  If theis field is blank, click on the "ArrowDown" and select the reason why the CR/Adj Note is being generated
 
-  Invoice/Cr. Memo Format Code  This is the Sales Invoice Format code sourced from the Customer Card
-  
-  LINES FASTTAB – The Lines FastTab contains the
-  invoice lines generated from the Job Planning Lines
- 
-  Type
-  
-  This will default to “Resource”  No This is the “Resource No.”
-  
-  Description
- This field will populate from the Pay
- Transaction Type code as a description
-    Quantity
-    This field will contain the quantity or number of hours
-  Unit of Measure Code
-  This field contains the Unit of Measure Code 
-  
-  Unit Price Excl. GST
-  This field contains the “Charge Rate” 
-  Line Amount Excl. GST  
-  This field contains the Line Amount (Quantity *
-  “Unit Price Excl. GST)
-  INVOICING FASTTAB – The Invoicing FastTab
-  contains information of where the invoice will be sent to
-  Invoice Type
-  This option will default to “Times”
-  Payment Terms Code  
-  The Payment Terms code will be sourced from the
-  Customer Card 
-  Due Date 
-  This field is populated calculated from the
-  “Document Date” 
-  Payment Method Code
-  
-  The Payment Method code will be sourced from the Customer Card
-  
- GST Bus. Posting Group
-   The GST Bus. Posting Group will be sourced from the Customer Card
-  
- 
 ## Printing a Test Report 
 
-You can print a test report to preview invoice information prior to posting the invoice. 
+You can print a test report to preview invoice information prior to posting the CR/Adj Note. 
+
 To print a Test Report from the Sales Invoice,
 Click on the “Actions ribbon> Posting> Test Report”.
 
-If the report indicates any errors or lack of information, you can correct the problem and then reprint the test report again before posting the invoice.
+If the report indicates any errors or lack of information, you can correct the problem and then reprint the test report again before posting the CR/Adj Note.
 
-## Posting the Invoice 
+## Posting the CR\ADJ Note 
 
-The Invoice lines have been generated from the information that is processed from the Timesheets.  If there are any adjustments to be made, then adjusting timesheet entries should be made rather than making adjustment to the invoice lines.  The system will however permit adjustment to entries directly on an invoice line prior to posting.
-Invoices can be checked via the Test Report and should be posted once checking is complete.  
+The CR/Adj lines have been generated from the information that is processed from the Timesheets.  If there are any adjustments to be made, then adjusting timesheet entries should be made rather than making adjustment to the CR/Adj lines.  The system will however permit adjustment to entries directly on a CR/Adj Note line prior to posting.
+
 If the posting routine finds any errors while posting, the process will be interrupted by an error message and can be restarted once the error has been rectified.
-To post the invoice from within the Sales Invoice, Click on “Post” or “Post and Print” buttons.
+
+To post the CR/Adj Note from within the Sales CR/Adj Note, Click on "Post" Or "Post and Print" buttons.
 
 ## Post Button
 
-Click on the “Post” button if you want to post the invoices individually without printing the Sales Invoice.
-Once you select this option, a response window will appear “Do you want to post the Invoice?”.  Select “Yes” to post the invoice.
-Upon completion, the “Posted Invoice List” will print.
+Click on the “Post” button to post the CR/Adj Notes.
+Once you select this option, a response window will appear “Do you want to post the CR/Adj Note?”.  Select “Yes” to post the CR/Adj Note.
 
 ### Post and Print Button
 
 Click on the “Post and Print” button if you want to post the invoices individually.
-Once you select this option, a response window will appear “Do you want to post and print the Invoice?” .Select “Yes” to post and print the invoice.
-Upon completion, the “Sales Invoice” and “Posted Invoice List” will print.
+Once you select this option, a response window will appear “Do you want to post and print the CR/Adj Note?” .Select “Yes” to post and print the CR/Adj Note.
+Upon completion, the “Sales CR/Adj Note” will print.
 
 ### Post Batch
 
