@@ -91,8 +91,8 @@ Departments/Payroll/EOM Processing/Superannuation Processing/Bulk Adjustment
 **Calculate Monthly Superannuation**
 
 This option isused to create monthly superannuation transactions to post to the General Ledger. 
-This option is used where the “Calc. Superannuation Monthly” flag isticked on the “Payroll” card 
-in the “Options Tab”. It is also used when you arecalculating employee on-cost superannuation.
+This option is used where the “Calc. Superannuation Monthly” flag is ticked on the “Payroll” card 
+in the “Options Tab”. It is also used when you are calculating employee on-cost superannuation.
 
 **Note:** You only need to run this report when the On Costing Method is used for calculating superannuation.
 
