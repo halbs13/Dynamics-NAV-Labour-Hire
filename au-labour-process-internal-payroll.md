@@ -430,4 +430,5 @@ You can close the pay period independently if you choose not to close the pay pe
 Select the Payroll No and press “OK’. Then select the Pay Period by the ticking the ‘Closed and Date Locked’ columns to close the pay period.
 
 
+
 [GoToTop](#how-to-process-an-internal-payroll-in-labour-hire)
