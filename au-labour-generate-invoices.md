@@ -1,6 +1,6 @@
 # Invoice Processing Overview
 
-ynamics NAV Labour Hire’s  Sales Invoice and Sales CR/Adj Note generation function has been designed to automatically generate invoice  for customers using data transferred from the Time Sheet Line table.  The data entered and processed from the Time Sheet Line table will update the Job Planning Lines ready for customer invoices and credit notes to be generated.  
+Dynamics NAV Labour Hire’s  Sales Invoice and Sales CR/Adj Note generation function has been designed to automatically generate invoice  for customers using data transferred from the Time Sheet Line table.  The data entered and processed from the Time Sheet Line table will update the Job Planning Lines ready for customer invoices and credit notes to be generated.  
 
 The Invoice and CR/Adj Note Generation function has been designed to cater for the following requirements:
 
@@ -125,7 +125,7 @@ Once you select this option, the “Edit – Batch Post Sales Invoices” window
 |**Replace Posting Date**|Tick this field if you wish to replace the Posting Date on the invoices generated. |
 |**Replace Document Date**|Tick this field if you wish to replace the Document Date on the invoices generated.|
 |**SALES INVOICE FASTTAB – This is where you can enter in additional filters to select the sales invoices you wish to post**||
-|**No.**|Enter in the Invoice No. range you wish to post.  ** Note – you may have to make note of this prior to selection|
+|**No.**|Enter in the Invoice No. range you wish to post. Note – you may have to make note of this prior to selection|
 |**Click “OK” once you have completed your selection.**||
  
 Upon completion, the “Posted Invoice List” window will appear where you can print, preview or cancel the report. 
@@ -180,10 +180,10 @@ To email the invoice, go to the following menu:
 
 |Field Name|Descritpion|
 |-----------------------------|---------------------------------------------------------|
-|**OPTIONS FASTTAB**||
-|**Message **|You can enter in a message to print out on the invoice.|
+|**OPTIONS FASTTAB**|
+|**Message**|You can enter in a message to print out on the invoice.|
 ||**Note: you must have a “Message” section on your invoice for this information to print.|
-|**SALES INVOICE HEADER FASTTAB**||
+|**SALES INVOICE HEADER FASTTAB**|
 |**Sell-to Customer No.**|From the ArrowDown button, select or enter in the Customer No. you wish to email to|
 |**No.**|From the ArrowDown button, select or enter in the Invoice No. you wish to |
 |**You can also enter in other filters as necessary, otherwise click on the “OK” after you have completed your selection.**|
@@ -206,7 +206,7 @@ You can create a manual invoice directly from the Customer card.  First go to th
  
 |Field Name|Descritpion|
 |-----------------------------|---------------------------------------------------------|
-|**LINES FASTTAB**||
+|**LINES FASTTAB**|
 |**Type**|If you are producing a manual invoice for a contractor, select from the options “Resource”|
 |**No.**|If you have selected “Resource” as the Type, in this field you will be able to select the appropriate Contractor Number from the Lookup button.|
 |**Description**|Enter in the Description which will appear in the Invoice Description.  This will default to the Resources Name but can be overwritten|
@@ -230,18 +230,18 @@ You can create a manual invoice directly from the Job card.  First go to the Job
  
 |Field Name|Descritpion|
 |-----------------------------|---------------------------------------------------------|
-|**OPTIONS FASTTAB**||
+|**OPTIONS FASTTAB**|
 |**Posting Date**|The date will default to today’s date but can be changed where applicable.|
 |**Create Invoice Per**|You can nominate to create the invoice by Job or Job Task |
-|**JOB TASK FASTTAB**||
+|**JOB TASK FASTTAB**|
 |**Job No.**|If you wish to create an invoice by Job No., enter or select the Job No. from the ArrowDown button.|
 |**Job Task No.**|If you wish to create an invoice for a particular Job Task No. of a Job, enter in the Job Task No. by clicking on the ArrowDown button.|
 |**You can also enter in other filters as necessary**||
 
 4.	When completed, click “OK”.  If there are no invoice lines to generate then a message will appear “There is nothing to invoice”, otherwise you will receive a message “1 invoice is created”.
 5.	To review the Job created invoice, go to the following menu:  *Departments/Labour Hire/Invoice Processing/Lists/Sales Invoice*
-6.	To finalise and post the invoice refer to 2.4 - Posting the Invoice
-3	SALES CR/ADJ NOTES PROCESSING OVERVIEW
+6.	To finalise and post the invoice refer to "Posting the Invoice
+3	SALES CR/ADJ NOTES PROCESSING OVERVIEW"
 
 
 This section will discuss two (2) methods in which Sales CR/Adj Notes can be generated:
@@ -260,7 +260,7 @@ This function generates both Invoices and CR/Adj Notes.  To generate invoices an
 
 |Field Name|Descritpion|
 |-----------------------------|---------------------------------------------------------|
-|**Posting Date **|Fill in the “Posting Date” field with the posting date.  |
+|**Posting Date**|Fill in the “Posting Date” field with the posting date.  |
 ||This date will be used as the “Posting Date on all generated Invoices and Credit Notes and sales records will be posted to the relevant ledger using this date.|
 |**Generate**|From the “Generate” field, select your option.|
 ||Each customer will have set up with an Invoice Frequency, so this should be selected depending on which batch of invoices you are generating.  All customers with a matching frequency will have invoices generated if they have trainings waiting to be invoiced.|
@@ -271,11 +271,11 @@ This function generates both Invoices and CR/Adj Notes.  To generate invoices an
 ### Edit – Sales Invoice/Credit Note Generation Customer FastTab window
 
 There are a number of filters which you can enter to further filter information:
+
 |Field Name|Descritpion|
-|-----------------------------|---------------------------------------------------------|
+|------------------|---------------------------------------------------------|
 |**Customer No.**|Select a  “Customer No.” or leave blank for all customers with the same frequency.|
 |**Click the “OK” button.**|
-
 
 ## Generated Sales CR/Adj Notes
 
@@ -293,7 +293,7 @@ To check CR/Adj notes, double-click on a Sales CR/Adj and the “Edit – Sales 
 The “Sales CR/Adj Note” contains the following tabs and information:
 
 |Field Name|Descritpion|
-|-----------------------------|---------------------------------------------------------|
+|------------|---------------------------------------------------------|
 |**GENERAL FASTTAB – The General FastTab contains information such as CR/Adj Note No., Customer Contact, Salesperson and Address information**|
 |**Posting Date**|This is the Posting Date entered used to generate the invoice|
 |**Document Date**|This is the date the invoice is generated and is used to determine the “Due Date” on the invoice|
@@ -408,7 +408,7 @@ You can create a manual CR/Adj note from the Sales CR/Adj Notes menu.
 4.	The “Edit – Copy Sales Document” window will open.  It should be updated as follows:  
 
 |Field Name|Descritpion|
-|-----------------------------|---------------------------------------------------------|
+|----------------------|---------------------------------------------------------|
 |**OPTIONS FASTTAB**||
 |**Document Type**|You can select the information to be copied from an invoice which has not yet been posted or from the posted invoice.|
 ||From the ArrowDown button, click on “Invoice” or “Posted Invoice”|
@@ -423,7 +423,8 @@ You can create a manual CR/Adj note from the Sales CR/Adj Notes menu.
 |**Replace Document Date**|If you enter in a new Posting Date, this field will automatically be ticked.  |
 |**Click the “OK” button.**||
 |**If you changed the Posting Date as part of your selection, you will receive the following message:**|
-|** “You have changed Posting Date on the sales header, but it has not been changed on the existing sales lines.  The change may affect the exchange rate used in the price calculation of the sales lines.”  **||
+|** “You have changed Posting Date on the sales header, but it has not been changed on the existing sales lines.  The change may affect the exchange rate used in the price calculation of the sales lines.”
+**||
 |**Click “OK” to continue.**|
 
 
