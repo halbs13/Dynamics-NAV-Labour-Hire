@@ -3,17 +3,17 @@
 This document will contain information relating to Internal Payroll Processing encompassing the following sections:
 
 - [Entering New Employees](#entering-new-employees)
-  - [Employee Card](#edit:-employee-card)
-  - [Payroll Employee Card](#edit:-payroll-employee-card)
+  - [Employee Card](#edit-employee-card)
+  - [Payroll Employee Card](#edit-payroll-employee-card)
 - [Processing Pays](#payroll-processing)
-  - [Pay Journals](#payroll-processing---pay-journals)
-  - [Enter Leave Adjustments](#enter-leave-adjustments)
-  - [Calculating Pays](#calculating-pays)
-  - [Entry Validation Reports](#entry-validation-reports)
-  - [Un-calculating Pays](#un-calculating-pays)
-  - [Creating a Bank Transfer File](#creating-a-bank-transfer-file)
-  - [Post and Print Pay Advices](#post-and-print-pay-advices)
-  - [Close Pay Period](#close-pay-period)
+  - [Pay Journals](#payroll-processing-pay-journals)
+  - [Enter Leave Adjustments](#payroll-processing-enter-leave-adjustments)
+  - [Calculating Pays](#payroll-processing-calculating-pays)
+  - [Entry Validation Reports](#payroll-processing-entry-validation-reports)
+  - [Uncalculating Pays](#payroll-processing-uncalculating-pays)
+  - [Creating a Bank Transfer File](#payroll-processing-creating-a-bank-transfer-file)
+  - [Post and Print Pay Advices](#payroll-processing-post-and-print-pay-advices)
+  - [Close Pay Period](#payroll-processing-close-pay-period)
 
 
 # INTERNAL PAYROLL PROCESSING OVERVIEW
@@ -73,7 +73,7 @@ Click on the “New” button. The cursor will be on the ‘Employee No’ on th
 
 
 
-### Edit: Employee Card
+### Edit Employee Card
 
 |Field Name|Description|
 |----------------------------------------|---------------------------------------------------------------------|
@@ -112,7 +112,7 @@ Click on the “New” button.
 On the Payroll Employee Card go to the Employee No and from the Employee List select the employee you wish to continue entering on Payroll and proceed to complete the following details:
 Once the New Employee has been selected ‘Press Enter’ and the information that was entered into the Human Resources Employee Card will default to the relevant fields in the Payroll Employee Card.
  
-### Edit: Payroll Employee Card
+### Edit Payroll Employee Card
 
 |Field Name|Description|
 |----------------------------------------|---------------------------------------------------------------------|
@@ -159,7 +159,7 @@ Once the New Employee has been selected ‘Press Enter’ and the information th
 |**Policy Expiration Policy**|The “Policy Expiration Date” is used to record the expiry date of the policy.|
 
 
-### Payroll Employee Card  – Pay Dissections
+### Payroll Employee Card Pay Dissections
 
 Employee Bank accounts are entered in the Pay Dissections area.
 
@@ -177,7 +177,7 @@ Access this task by clicking the “Pay Dissections” task icon.
 |**Standard Amount / Standard %**|If the employee has nominated an additional account, enter in the Amount or the Percentage as nominated by the employee.|
 |**Click “OK” once you have completed all fields required.**||
 
-### Payroll Employee Card  – Pay Rates
+### Payroll Employee Card Pay Rates
 
 Enter in Pay Rates in as an hourly rate. To access the Employee Pay Rates task, click the “Pay Rates” task icon. 
 
@@ -192,7 +192,7 @@ Enter in Pay Rates in as an hourly rate. To access the Employee Pay Rates task, 
 After you have updated the rate and you click on the Rate Tab, the rate should be updated accordingly. ( This will only be updated if the Pay Period is after the Employee’s Start Date ).
 
 
-### Payroll Employee Card  – Gross / Allowances
+### Payroll Employee Card Gross / Allowances
 
 It is assumed that Internal Employees are ‘Auto Paid’. To automatically generate hours, Ordinary / Normal Time should be set up as a permanent occurrence. The same applies if the employee is to receive an allowance on a permanent basis.
 
@@ -211,7 +211,7 @@ To access the Pay and Allowances task, Click the “Gross & Allowances” task i
 |**Click “OK” once you have completed all fields required.**|
 
 
-### Payroll Employee Card  – Deductions
+### Payroll Employee Card Deductions
 
 The Deductions Area is used to setup permanent deductions.
 
@@ -232,7 +232,7 @@ To access the Deductions task, Click the “Deductions” task icon.
 |**Click “OK” once you have completed all fields required.**|
 
 
-### Payroll Employee Card  – Superannuation 
+### Payroll Employee Card Superannuation 
 
 To access the Superannuation task, Click the “Superannuation” task icon. 
 
@@ -246,7 +246,7 @@ To access the Superannuation task, Click the “Superannuation” task icon.
 |**Click “OK” once you have completed all fields required.**|
 
 
-#### Superannuation - Employee Choice ( Changing Superannuation Funds )
+#### Superannuation Employee Choice ( Changing Superannuation Funds )
 
 Changing Superannuation funds - enter an end date on the old fund and change the 9.5% to zero amount.
 
@@ -255,7 +255,7 @@ Then on the next line Add the new fund with the current month in the start date,
 If you are updating the employee’s Superannuation fund and your organisation is calculating Employer liabilities using On Costs, you must ensure that you update the Superannuation Code on the Superannuation On Cost transaction type.  (Reference Payroll Employee Card  – On Cost Transactions).
 
 
-### Payroll Employee Card  – Leave Accruals
+### Payroll Employee Card Leave Accruals
 
 Dependent upon what is setup on the Payroll (Pay Cycles) card, will depend upon whether the leave accruals will default to the Payroll Employee card when the employee is assigned to the Payroll.
 
@@ -272,7 +272,7 @@ If you wish to create or add a new Leave Accrual, click on the “New” icon.
 |**Click “OK” once you have completed all fields required.**|
  
 
-### Payroll Employee Card  – On Cost Transactions
+### Payroll Employee Card On Cost Transactions
 
 If your organisation has chosen to calculate On Cost transactions, you will need to add in the relevant On Cost Transactions so that they are generated during the calculation of pays.  
 
@@ -292,14 +292,14 @@ You access Employer On Costs from the Payroll Employee Card by clicking on the �
 # PAYROLL PROCESSING
 
 
-## Payroll Processing   – Pay Journals
+## Payroll Processing Pay Journals
 
 To access the Pay Journals task, go to the following menu:
 
 *Departments/Pay Journal/Pay Processing/Pay Journal*
  
 
-## Payroll Processing   – Enter any leave adjustments
+## Payroll Processing Enter any leave adjustments
 
 In the “Pay Journal” section enter in any leave taken for auto paid employee. 
  
@@ -318,7 +318,7 @@ To enter leave against a specific employee, at a minimum the following fields sh
 |**After entering your leave/temporary adjustments, the auto-pays can be calculated.**|
 
 
-## Payroll Processing   – Calculate Pays
+## Payroll Processing Calculate Pays
 
 In the Pay Journal - Select “Calculate Pays” to calculate your pays and “Enter the Pay Date“ and select “OK”. 
  
@@ -327,7 +327,7 @@ During this process any permanent hours and deductions, leave accruals, tax and 
 Please note : Pays can be calculated by individual or by all employees.
 
 
-## Payroll Processing   – Entry Validation Reports
+## Payroll Processing Entry Validation Reports
 
 Once pays have been calculated, the Entry Validation report has to be printed. You can  preview the report online first for any errors or warnings which need to be fixed before proceeding to the next step. To run click on the  “Entry Validation report” task. 
 
@@ -336,12 +336,12 @@ Select Print Preview to check for errors and warnings on the screen, when all cl
 If errors are found on the Entry Validation Report, the individual’s pay can be fixed by uncalculating the pay. Please see the next step for “uncalculating Pays”.
  
 
-## Payroll Processing   – Uncalculating Pays
+## Payroll Processing Uncalculating Pays
 
 Pays can be uncalculated for individual employees or for all employees within the Pay Journal. To “uncalculate” the pays, open the Actions Tab and click on “Cancel Calculated Pays”
  
  
-## Payroll Processing  - Create Bank Transfer File
+## Payroll Processing Create Bank Transfer File
 
 When the Entry Validation report has been checked and found to be correct, run the create bank transfer file process. To run the process click on the “Create Bank Transfer File” icon. The file can be saved to a network.
  
@@ -365,7 +365,7 @@ Click “OK” once you have completed all fields required.
 Pay advices are automatically flagged as paid. If for any reason you need to re-run the transfer again, run the “Cancel Bank Transfer” process and redo. 
   
 
-## Payroll Processing  - Post and Print Pay Advices
+## Payroll Processing Post and Print Pay Advices
 
 When each batch of pays has been processed, they should be posted. This clears them from the Pay Journal area and writes the data to the employee pay history ledgers.
  
@@ -399,7 +399,7 @@ To email payslips, go to the following menu:
 |**Click “OK” once you have completed all fields required.**||
 
 
-## Payroll Processing  - Close Pay Periods
+## Payroll Processing Close Pay Periods
 
 You can close the pay period independently if you choose not to close the pay period at the time of posting the payroll.  To Close Pay periods, go to the following menu:
 
