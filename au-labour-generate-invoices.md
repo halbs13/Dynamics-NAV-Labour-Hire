@@ -251,7 +251,7 @@ You can create a manual invoice directly from the Job card.  First go to the Job
 This section will discuss two (2) methods in which Sales CR/Adj Notes can be generated:
 
 1.	[Generate Invoice](#generate-invoices) 
-2.	[Manually generating CR/Adj notes](#generated-sales-cr/adj-notes) 
+2.	[Manually generating CR/Adj notes](#generated-sales-cr-adj-notes) 
 
 [GoToTop](#invoice-processing-overview)
 
@@ -283,7 +283,7 @@ There are a number of filters which you can enter to further filter information:
 |**Customer No.**|Select a  “Customer No.” or leave blank for all customers with the same frequency.|
 |**Click the “OK” button.**|
 
-## Generated Sales CR/Adj Notes
+## Generated Sales CR Adj Notes
 
 To view generated Sales CR/Adj Notes, go to the following menu:
 
