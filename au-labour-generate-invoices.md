@@ -468,7 +468,7 @@ You can create a manual CR/Adj note from the Sales CR/Adj Notes menu.
 |**Reason Code**|Select the reason from the “ArrowDown” why the CR/Adj Note is being generated|
 
 
-6.	To finalise and post the CR/Adj note refer to 3.4 - Posting the CR/Adj Note
+6.	To finalise and post the CR/Adj note refer to Posting the CR/Adj Note.
 
 
 [GoToTop](#invoice-processing-overview)
