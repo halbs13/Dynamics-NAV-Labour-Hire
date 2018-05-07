@@ -408,7 +408,7 @@ You can create a manual CR/Adj note from the Sales CR/Adj Notes menu.
 4.	The “Edit – Copy Sales Document” window will open.  It should be updated as follows:  
 
 |Field Name|Descritpion|
-|----------------------|---------------------------------------------------------|
+|----------------------|-------------------------------------------------------------------------------------------------------|
 |**OPTIONS FASTTAB**||
 |**Document Type**|You can select the information to be copied from an invoice which has not yet been posted or from the posted invoice.|
 ||From the ArrowDown button, click on “Invoice” or “Posted Invoice”|
@@ -423,8 +423,7 @@ You can create a manual CR/Adj note from the Sales CR/Adj Notes menu.
 |**Replace Document Date**|If you enter in a new Posting Date, this field will automatically be ticked.  |
 |**Click the “OK” button.**||
 |**If you changed the Posting Date as part of your selection, you will receive the following message:**|
-|** “You have changed Posting Date on the sales header, but it has not been changed on the existing sales lines.  The change may affect the exchange rate used in the price calculation of the sales lines.”
-**||
+|**“You have changed Posting Date on the sales header, but it has not been changed on the existing sales lines.  The change may affect the exchange rate used in the price calculation of the sales lines.”**|
 |**Click “OK” to continue.**|
 
 
