@@ -33,7 +33,7 @@ To access the Employee Maintenance task, go to the following menu:
 *Departments/Payroll/Employee Maintenance/Employees*
  
 
-_ Enter the new employee into the Payroll module. To access the Employee Maintenance task Click the “Payroll Employee Card” button or go to the following menu: 
+- Enter the new employee into the Payroll module. To access the Employee Maintenance task Click the “Payroll Employee Card” button or go to the following menu: 
 
 Departments/Payroll/Employee Maintenance/Payroll Employees
  
@@ -42,8 +42,8 @@ Departments/Payroll/Employee Maintenance/Payroll Employees
 - Enter in Permanent Pay and Allowances. To access the Pay and Allowances task, Click the “Gross & Allowances” task icon. 
 - Enter in Permanent Deductions. To access the Deductions task, Click the “Deductions” task icon. 
 - Enter in Superannuation Fund. To access the Superannuation task, Click the “Superannuation” task icon. 
-- Enter in Employer On Costs such as Payroll Tax. To access the Employer On Costs task, Click the “Accumulation Calculations” and select the “Employer On Costs” task icon. 
-- Review and Add new leave accrual types such as Annual Leave , Sick Leave and Long Service Leave. To access the Leave Accrual task, Click the “Accruals” task icon.  
+- Enter in Employer On Costs such as Payroll Tax. To access the Employer On Costs task, Click the “Accumulation Calculations” and select   the “Employer On Costs” task icon. 
+- Review and Add new leave accrual types such as Annual Leave , Sick Leave and Long Service Leave. To access the Leave Accrual task,       Click the “Accruals” task icon.  
 - After you have completed these steps, you are then ready to process pays.
 
 [GoToTop](#how-to-process-an-internal-payroll-in-labour-hire)
@@ -52,10 +52,10 @@ Departments/Payroll/Employee Maintenance/Payroll Employees
 
 - Receive timesheets including Leave and /or pay adjustments for employees.
 - Go into *Departments/Payroll/Payroll Processing/Payroll Selection* and select the payroll you wish to work in (note this is optional).
-- Go into *Departments/Pay Journal/Pay Processing/Pay Journal* and enter in the leave adjustments. After completing entering adjustments, select the “Calculate Pays” function.
+- Go into *Departments/Pay Journal/Pay Processing/Pay Journal* and enter in the leave adjustments. After completing entering               adjustments, select the “Calculate Pays” function.
 - In the Pay Journal - Select “Calculate Pays” to calculate your pays and “Enter the Pay Date“ and select “OK”. 
 - Then run the “Entry Validation Report” , select print preview to check for errors and warnings on the screen, when all clear, Print. 
-- Then select “Create Bank Transfer File” to create an EFT file. This can be saved to a file path. A “Bank Transfer Listing” report will print automatically at this stage. This should be filed with the “Entry Validation Report”.
+- Then select “Create Bank Transfer File” to create an EFT file. This can be saved to a file path. A “Bank Transfer Listing” report will   print automatically at this stage. This should be filed with the “Entry Validation Report”.
 - Then select “Post”. This will post the pays into the payroll history areas and print payslips. 
 
 
