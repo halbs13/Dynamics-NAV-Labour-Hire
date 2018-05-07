@@ -42,7 +42,7 @@ To add a new record, click on the “New” icon.
 
 # Commission Plans
  
-When Account Managers are set up duringinitial implementation or as new Account Managers are hired they will need tohave a Commission Plan selected.  Thevalues found in this table will tell the Commission calculation program how tocalculate commission for this Account Manager.
+When Account Managers are set up during initial implementation or as new Account Managers are hired they will need to have a Commission Plan selected.  The values found in this table will tell the Commission calculation program how to calculate commission for this Account Manager.
 To access the Commission Plans table, go to:
 
 *Departments/Labour Hire/End of Period Processing/Commission Processing/Commission Plans*
@@ -88,14 +88,12 @@ Processing/Commission Processing/Commission Summary Report*
  
 # Commission Reports 
 
-There are 2 reports that are produced by this
-process.
+There are 2 reports that are produced by this process.
 
 - Account Manager Summary Report
 - Account Manager Audit Report
 
-This first report is a summary report broken
-into 2 sections that shows the following information in section 1
+This first report is a summary report broken into 2 sections that shows the following information in section 1
 
 [GoToTop](#how-to-setup-commissions)
 
