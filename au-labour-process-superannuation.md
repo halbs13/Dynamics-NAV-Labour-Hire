@@ -17,11 +17,11 @@ For further information relating to the setup of each of these areas, please ref
 Payroll Setup Configuration document. 
 
 The activities discussed are: 
-   - Bulk Adjustments
-   - Calculate Monthly Superannuation
-   - Calculate and Post Superannuation
-   - Superannuation Report
-   - Superannuation Adjustments 
+   - [Bulk Adjustments](#bulk-adjustments)
+   - [Calculate Monthly Superannuation](#calculate-monthly-superannuation)
+   - [Calculate and Post Superannuation](#calculate-and-post-superannuation)
+   - [Superannuation Report](#superannuation-report)
+   - [Superannuation Adjustments](#superannuation-adjustments) 
       
 ## Superannuation Overview
 
@@ -88,7 +88,7 @@ Departments/Payroll/EOM Processing/Superannuation Processing/Bulk Adjustment
 |**Employee No**|Enter or Select the Employee’s you wish to adjust the superannuation records. If left blank all employees are selected.|
 ||**Click “OK” once you have completed your selection.**|
 
-**Calculate Monthly Superannuation**
+## Calculate Monthly Superannuation
 
 This option isused to create monthly superannuation transactions to post to the General Ledger. 
 This option is used where the “Calc. Superannuation Monthly” flag is ticked on the “Payroll” card 
@@ -115,7 +115,7 @@ Departments/Payroll/EOM Processing/Superannuation Processing/Calculate Monthly S
 |**Report Only**|Tick this flag to produce a report without updating the Employee Superannuation Ledger records. Leave this field blank to update the Employee Superannuation Ledger records.|
 ||**If you wish to preview the report to screen, you should ensure that you click “Report Only” and then click “Preview”. If you wish to create Superannuation Ledger Entries, you should ensure that “Report Only” is NOT TICKED and print the report. You can send the report to a printer or save as a pdf, click “Print” and select the relevant option.**|
 
-## Calculate & Post Superannuation
+## Calculate and Post Superannuation
 
 This option is used to calculate and post superannuation transactions to the General Ledger. This 
 option can be run after each pay period to pick up Superannuation Transactions that were calculated 
@@ -940,7 +940,7 @@ The fields contained in the Quick Super file are:
 |**Your Contribution Reference**|Optional.|Your Contribution Reference will help you to identify each of the funds you are paying into.  This field can be left blank.|
   
  
-[GoToTop}(#Introduction)
+[GoToTop](#introduction)
 
 
 
