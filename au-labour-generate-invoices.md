@@ -16,8 +16,8 @@ The document is designed to specifically discuss the process for generating invo
 
 This section will discuss two (2) methods in which invoices can be generated:
 
-1.	Generate Invoice 
-2.	Manually generating Invoices from the Customer and Job Cards
+1.	[Generate Invoice](#generate-invoice) 
+2.	[Manually generating Invoices from the Customer and Job Cards](#generated-invoices)
 
 ## Generate Invoice
 
@@ -48,6 +48,7 @@ To generate invoices and CR/Adj notes, go to the following menu:
 |**Customer No.**|	Select a  “Customer No.” or leave blank for all customers with the same frequency.|
 |**Click the “OK” button.**|
 
+[GoToTop](#invoice-processing-overview)
 
 ## Generated Invoices
 
@@ -90,7 +91,8 @@ The “Sales Invoice” contains the following tabs and information:
 You can print a test report to preview invoice information prior to posting the invoice. 
 To print a Test Report from the Sales Invoice, click on the “Actions ribbon> Posting> Test Report”.
 If the report indicates any errors or lack of information, you can correct the problem and then reprint the test report again before posting the invoice.
- 
+
+[GoToTop](#invoice-processing-overview)
 
 ## Posting the Invoice 
 
@@ -130,6 +132,7 @@ Once you select this option, the “Edit – Batch Post Sales Invoices” window
  
 Upon completion, the “Posted Invoice List” window will appear where you can print, preview or cancel the report. 
 
+[GoToTop](#invoice-processing-overview)
  
 ## Reviewing Posted Invoices
  
@@ -165,7 +168,7 @@ You can preview posted invoices from within the Posted Invoices area.  You can a
 1.	Select the Invoice No. by searching and clicking on the record.
 2.	Click on “Print”. 
 
-
+[GoToTop](#invoice-processing-overview)
 
 ## Emailing Invoices
 
@@ -188,6 +191,7 @@ To email the invoice, go to the following menu:
 |**No.**|From the ArrowDown button, select or enter in the Invoice No. you wish to |
 |**You can also enter in other filters as necessary, otherwise click on the “OK” after you have completed your selection.**|
 
+[GoToTop](#invoice-processing-overview)
 
 ## Generating Manual Invoices  
 
@@ -246,11 +250,12 @@ You can create a manual invoice directly from the Job card.  First go to the Job
 
 This section will discuss two (2) methods in which Sales CR/Adj Notes can be generated:
 
-1.	Generate Invoice 
-2.	Manually generating CR/Adj notes 
+1.	[Generate Invoice](#generate-invoices) 
+2.	[Manually generating CR/Adj notes](#generated-sales-cr/adj-notes) 
 
+[GoToTop](#invoice-processing-overview)
 
-## Generate Invoice
+## Generate Invoices
 
 This function generates both Invoices and CR/Adj Notes.  To generate invoices and CR/Adj notes, go to the following menu:
 
@@ -267,6 +272,7 @@ This function generates both Invoices and CR/Adj Notes.  To generate invoices an
 ||The Adhoc option allows you to generate invoices for all customers regardless of frequency.|
 |**Click on the “Generate” button after you have completed your selection.**||
 
+[GoToTop](#invoice-processing-overview)
 
 ### Edit – Sales Invoice/Credit Note Generation Customer FastTab window
 
@@ -322,6 +328,7 @@ The “Sales CR/Adj Note” contains the following tabs and information:
 |**Reason Code**|This field will only be completed if a “Reason Code” has been filled in the Labour Hire Setup.  |
 ||If this field is blank, click on the “ArrowDown” and select the reason why the CR/Adj Note is being generated|
 
+[GoToTop](#invoice-processing-overview)
 
 ## Printing a Test Report
  
@@ -356,6 +363,7 @@ Once you select this option, a response window will appear “Do you want to pos
 
 Upon completion, the “Sales CR/Adj Note” will print.
 
+ [GoToTop](#invoice-processing-overview)
  
 ## Reviewing Posted CR/Adj Notes
 
@@ -390,6 +398,7 @@ You can preview posted CR/Adj notes from within the Posted CR/Adj Notes area.  Y
 1.	Select the CR/Adj No. by searching and clicking on the record.
 2.	Click on “Print”. 
 
+[GoToTop](#invoice-processing-overview)
 
 ## Generating Manual CR/Adj Notes  
 
@@ -460,3 +469,6 @@ You can create a manual CR/Adj note from the Sales CR/Adj Notes menu.
 
 
 6.	To finalise and post the CR/Adj note refer to 3.4 - Posting the CR/Adj Note
+
+
+[GoToTop](#invoice-processing-overview)
