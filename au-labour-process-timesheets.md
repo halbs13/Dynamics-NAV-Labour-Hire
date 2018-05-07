@@ -235,13 +235,14 @@ An explanation of the filters shown in the screenshot is provided below.  To pr
 information, it is recommended that the fields on the FastTabs are left blank.  
 
 ### “Edit – Totals – Time Sheet Line Summ.” window
-   
+  
 |**Field Name**|**Description**|
-||**PAY TRANSACTION TYPE FASTTAB**|
+|**PAY TRANSACTION TYPE FASTTAB**|
 |**Accumulation Type**|This field is used to filter the report information by Accumulation Type.|
-||**LABOUR HIRE TIME SHEET LINE FASTTAB**|
+|**LABOUR HIRE TIME SHEET LINE FASTTAB**|
 |**Employee No.**|This field is used to filter the report information by Employee No.|
-  
+
+
 ### Timesheet Report
 
 The Timesheet Report is used to verify the Pay and Charge Rates for each of the Time Sheet lines and is available on the
