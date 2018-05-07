@@ -587,7 +587,7 @@ This section will outline examples of when information is updated and where thes
 Placement Entry is used to update information relating to the Job and the Ratesets.  These areas are;
 
 - Extending a Contract
-- Updating the Ratesets
+- Updating the Rate sets
 
 ### Extending a Contract
 
@@ -651,7 +651,7 @@ If an Employee/Contractor terminates employment then the updates should occur as
 
 ### Transfer from PAYG to Company
 
-If an Employee/Contractor transfers from being a PAYG Contractor to an Incorporated Company, then the updates should occur as follows.  As a general rule, these updates should not occur part way throuhg a pay period and should be effective as at the first day of the next pay period if at all possible.
+If an Employee/Contractor transfers from being a PAYG Contractor to an Incorporated Company, then the updates should occur as follows.  As a general rule, these updates should not occur part way through a pay period and should be effective as at the first day of the next pay period if at all possible.
 
 
 1. Update the following FastTabs on the Payroll Employee Card:
