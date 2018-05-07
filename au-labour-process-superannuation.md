@@ -58,7 +58,8 @@ When you have completed generating your superannuation ledger entries, the next 
 “Calculate & Post Superannuation” function which will post any threshold adjustments to the General 
 Ledger and if you’ve opted for Vendor integration, an Invoice transaction will post to the Vendor Ledger Entry.
 
-      
+[GoToTop](#introduction)
+
 ## Superannuation Processing
 
 ### Bulk Adjustments
@@ -114,6 +115,8 @@ Departments/Payroll/EOM Processing/Superannuation Processing/Calculate Monthly S
 |**Month End Date**|This field displays the last date of the above month after the date has been entered.|
 |**Report Only**|Tick this flag to produce a report without updating the Employee Superannuation Ledger records. Leave this field blank to update the Employee Superannuation Ledger records.|
 ||**If you wish to preview the report to screen, you should ensure that you click “Report Only” and then click “Preview”. If you wish to create Superannuation Ledger Entries, you should ensure that “Report Only” is NOT TICKED and print the report. You can send the report to a printer or save as a pdf, click “Print” and select the relevant option.**|
+
+[GoToTop](#introduction)
 
 ## Calculate and Post Superannuation
 
@@ -187,6 +190,8 @@ The fields on the Superannuation Report are:
 |**Amount**|(6)|This is the contribution amount of the employee.| 
 |**Fund Total**|(7)|This will be the Fund Total Amount.|
 
+[GoToTop](#introduction)
+
 ## SuperStream Payment Requirements
 
 Under the Superannuation Guarantee you must pay superannuation contributions to the correct superannuation 
@@ -251,6 +256,8 @@ relates and the name of any fund to which the contribution was made.
 
 The Super. Payment Export & Notification Report flags the Employee Superannuation Ledger Entry records to
 report to the employee by either Letter or Pay Advice.  When the report is run you must enter parameters for processing.  
+
+[GoToTop](#introduction)
 
 ## New Member Registration Export
 
@@ -328,6 +335,8 @@ To access the Super Payment Export & Notification,Departments/Payroll/EOM Proces
 ||**SUPERANNUATION LEDGER ENTRY FASTTAB –** Superannuation Ledger Entry information can be filtered by entering information in this tab.  Otherwise it can be left blank.| 
 ||**When you have finished entering your information, click on “Preview” or “Print” to produce the file and report.**|
  
+[GoToTop](#introduction)
+
 ## Superannuation Payment Export and Notification Report
  
 The fields on the Superannuation Payment Export & Notification report are:
@@ -400,7 +409,9 @@ Departments/Payroll/EOM Processing/Superannuation Processing/Super. Payment Expo
 |**SGC Extract Report Run ID**|Enter the SGC Extract Report Run Id for the Run Id you wish to reverse.|
 ||The Run Id is found at the top left corner of the Superannuation Payment & Notification Report.|
 ||**When you have finished entering your information, click on “OK”.**|
-  
+  
+[GoToTop](#introduction)
+
 ### Running Super. Export & Notification Reversal
 
 The Reversing process is used to reset the reporting flags where after you have processed the transactions for
@@ -450,7 +461,7 @@ The fields on the Employee SGC Reporting History (Super.Payment History) report 
 |**Employee No.**|(8)|This is the Employee No.|
 |**Employee Name**|(9)|This is the Employee Name.|
 
-Employee SGC Reporting History (Super.Payment History Report) – Summary
+## Employee SGC Reporting History (Super.Payment History Report) – Summary
 
 The fields on the Employee SGC Reporting History (Super.Payment History) report are:
    
@@ -504,6 +515,8 @@ The fields contained in the New Member Registration Export file are:
 |**Annual Salary**|The Annual Salary information is sourced from the Employee Pay Rates card.|
 |**Date Joined Fund**|The “Date Joined Fund” field is populated from the Employee Superannuation card.|
 
+[GoToTop](#introduction)
+
 ## Generic Payment Format
 
 The fields contained in the Generic Payment file are:
@@ -551,6 +564,8 @@ The fields contained in the Generic Payment file are:
 |**Employee Salary Sacrifice Amount**|Optional|The “Employee Salary Sacrifice Amount” is sourced from the Employee Salary Sacrifice contributions on the Superannuation Ledger Entry table.|
 |**Employee Non SGC Amount - Employer Contributions Voluntary**|Optional|The "Employer Non SGC Amount" is sourced from the Employer Non SGC contributions on the Superannuation Ledger Entry table.|  
  
+[GoToTop](#introduction)
+
 ## ClickSuper Payment Format
 
 The fields contained in the ClickSuper Payment file are:
@@ -646,6 +661,8 @@ The fields contained in the ClickSuper Payment file are:
 |**Member Deducted**|Optional|The “Member Deducted” is not exported|
 |**Drug and Alcoholism Contributions**|Optional|The “Drug and Alcoholism Contributions” is not exported|
 
+[GoToTop](#introduction)
+
 ### SuperChoice Payment Format
 
 The fields contained in the SuperChoice Payment file are:
@@ -680,6 +697,8 @@ The fields contained in the SuperChoice Payment file are:
 |**Employer Additional Amount**|Optional|The “Employer Additional Amount” is sourced from the Employer Non SGC contributions on the Superannuation Ledger Entry table.|
 |**Salary Sacrifice Amount**|Optional|The “Salary Sacrifice Amount” is sourced from the Employee Salary Sacrifice contributions on the Superannuation Ledger Entry table.|
 |**Member Voluntary Amount**|Optional|The “Member Voluntary Amount” is sourced from the Employee Post Tax on the Superannuation Ledger Entry table.|
+
+[GoToTop](#introduction)
 
 ### SunSuper Payment Format
 
@@ -719,6 +738,8 @@ The fields contained in the SunSuper Payment file are:
 |**Email**|Optional|The “Email” is sourced from the E-mail field on the Employee card for the employee.|
 |**Mobile**|Optional|The “Mobile” is sourced from the Mobile Phone No. field on the Employee card for the employee.|
 |**Landline**|Optional|The “Landline” is sourced from the Phone No. field on the Employee card for the employee.|
+
+[GoToTop](#introduction)
 
 ### SuperStream Alternative Payment Format
 
@@ -830,52 +851,8 @@ The fields contained in the SuperStream Alternative file are:
 |**Member Registration Amendment Reason**|Optional|The “Member Registration Amendment Reason” is not exported.|
 ||**Defined Benefits Contributions Section**|
 |**Defined Benefit Member Pre Tax Contribution**|Optional|The “Defined Benefit Member Pre Tax Contribution” is not exported.|
-|**Defined Benefit Post Tax Contribution**|Optional|The “Defined Benefit Post Tax Contribution” is not exported.|
-|**Defined Benefit Notional Employer Contribution**|Optional|The “Defined Benefit Notional Employer Contribution” is not exported.|
-|**Ordinary Time Earnings**|Optional|The “Ordinary Time Earnings” is not exported.|
-|**Actual Periodic Salary or Wages Earned**|Optional|The “Actual Periodic Salary or Wages Earned” is not exported.|
-|**Superannuable Allowances Paid**|Optional|The “Superannuable Allowances Paid” is not exported.|
-|**Notional Superannuable Allowances**|Optional|The “Notional Superannuable Allowances” is not exported.|
-|**Service Fraction**|Optional|The “Service Fraction” is not exported.|
-|**Service Fraction Effective Date**|Optional|The “Service Fraction Effective Date” is not exported.|
-|**Full Time Hours**|Optional|The “Full Time Hours” is not exported.|
-|**Contracted Hours**|Optional|The “Contracted Hours” is not exported.|
-|**Actual Hours Paid**|Optional|The “Actual Hours Paid” is not exported.|  
-|**Employee Location Identifier**|Optional|The “Employee Location Identifier” is not exported.|
-||**Defined Benefits Registration Section|
-|**Service Fraction**|Optional|The “Service Fraction” is not exported.|
-|**Service Fraction Start Date**|Optional|The “Service Fraction Start Date” is not exported.|
-|**Service Fraction End Date**|Optional|The “Service Fraction End Date” is not exported.|
-|**Defined Benefit Employer Rate**|Optional|The “Defined Benefit Employer Rate” is not exported.|
-|**Defined Benefit Employer Rate Start Date**|Optional|The “Defined Benefit Employer Rate Start Date” is not exported.|
-|**Defined Benefit Employer Rate End Date**|Optional|The “Defined Benefit Employer Rate End Date” is not exported.|
-|**Defined Benefit Member Rate**|Optional|The “Defined Benefit Member Rate” is not exported.|
-|**Defined Benefit Member Rate Start Date**|Optional|The “Defined Benefit Member Rate Start Date” is not exported.|
-|**Defined Member Rate End Date**|Optional|The “Defined Member Rate End Date” is not exported.|
-|**Defined Benefit Annual Salary 1**|Optional|The “Defined Benefit Annual Salary 1” is not exported.|
-|**Defined Benefit Annual Salary 1 Start Date**|Optional|The “Defined Benefit Annual Salary 1 Start Date” is not exported.|
-|**Defined Benefit Annual Salary 1 End Date**|Optional|The “Defined Benefit Annual Salary 1 End Date” is not exported.|
-|**Defined Benefit Annual Salary 2**|Optional|The “Defined Benefit Annual Salary 2” is not exported.|
-|**Defined Benefit Annual Salary 2 Start Date**|Optional|The “Defined Benefit Annual Salary 2 Start Date” is not exported.|
-|**Defined Benefit Annual Salary 2 End Date**|Optional|The “Defined Benefit Annual Salary 2 End Date” is not exported.|
-|**Defined Benefit Annual Salary 3**|Optional|The “Defined Benefit Annual Salary 3” is not exported.|
-|**Defined Benefit Annual Salary 3 Start Date**|Optional|The “Defined Benefit Annual Salary 3 Start Date” is not exported.|
-|**Defined Benefit Annual Salary 3 End Date**|Optional|The “Defined Benefit Annual Salary 3 End Date” is not exported.|
-|**Defined Benefit Annual Salary 4**|Optional|The “Defined Benefit Annual Salary 4” is not exported.|
-|**Defined Benefit Annual Salary 4 Start Date**|Optional|The “Defined Benefit Annual Salary 4 Start Date” is not exported.|
-|**Defined Benefit Annual Salary 4 End Date**|Optional|The “Defined Benefit Annual Salary 4 End Date” is not exported.|  
-|**Defined Benefit Annual Salary 5**|Optional|The “Defined Benefit Annual Salary 5” is not exported.|
-|**Defined Benefit Annual Salary 5 Start Date**|Optional|The “Defined Benefit Annual Salary 5 Start Date” is not exported.|  
-|**Defined Benefit Annual Salary 5 End Date**|Optional|The “Defined Benefit Annual Salary 5 End Date” is not exported.|
-|**Leave Without Pay Code**|Optional|The “Leave Without Pay Code” is not exported.|
-|**Leave Without Pay Code Start Date**|Optional|The “Leave Without Pay Code Start Date” is not exported.|
-|**Annual Salary for Insurance Effective Date**|Optional|The “Annual Salary for Insurance Effective Date” is not exported.|
-|**Annual Salary for Benefits Effective Date**|Optional|The “Annual Salary for Benefits Effective Date” is not exported.|
-|**Employee Status Effective Date**|Optional|The “Employee Status Effective Date” is not exported.|
-|**Employee Benefit Category Effective Date**|Optional|The “Employee Benefit Category Effective Date” is not exported.|
-|**Employee Location Identifier**|Optional|The “Employee Location Identifier” is not exported.|
-|**Employee Location Identifier Start Date**|Optional|The “Employee Location Identifier Start Date” is not exported.|
-|**Employee Location Identifier End Date**|Optional|The “Employee Location Identifier End Date” is not exported.|
+
+[GoToTop](#introduction)
 
 ### QuickSuper Payment Format
 
