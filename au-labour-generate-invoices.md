@@ -26,7 +26,7 @@ To generate invoices, go to the following menu:
 
 ##  “Invoice/Credit Generate” window
 
-|**Field Name**|**Description*
+|**Field Name**|**Description**
 |------------------------------------|----------------------------------------------------------------------------------------|
 |Posting Date|This date will be used as the “Posting Date on all generated Invoices and Credit Notes and sales records will be posted to the relevant ledger using this date.|
 |Generate|From the “Generate” field, select your option. Each customer will have set up with an Invoice Frequency, so this should be selected depending on which batch of invoices you are generating.  All customers with a matching frequency will have invoices generated if they have trainings waiting to be invoiced.|
@@ -38,10 +38,10 @@ The Adhoc option allows you to generate invoices for all customers regardless of
  ### “Edit – Sales Invoice/Credit Note Generation Customer FastTab” window
 There are a number of filters which you can enter to further filter information:
 
-|**Field Name**|**Description*
-|-------------------------------------|-------------------------------------------------------------------------------=-------|
+|**Field Name**|**Description**
+|-------------------------------------|---------------------------------------------------------------------------------------|
 |Customer No.|Select a “Customer No.” or leave blank for all customers with the same frequency.|
-|**Click the “OK” button.*
+|**Click the “OK” button.**
 
   
 # Generated Invoices
@@ -57,7 +57,7 @@ To check invoices individually, double-click on a Sales Invoice and the “Edit 
 
 The “Sales Invoice” contains the following tabs and information:
 
-|**Field Name**|**Description*
+|**Field Name**|**Description**
 |-----------------------------------|---------------------------------------------------------------------------------------------|
 |**GENERAL FASTTAB- The General FastTab contains information such as Invoice No.,Customer Contact, Salesperson and Address information*
 |-----------------------------------|---------------------------------------------------------------------------------------------|
@@ -144,29 +144,62 @@ Field Name
   
 Upon completion, the “Posted Invoice List” window will appear where you can print, preview or cancel the report.  
 
-## Reviewing Posted Invoices 
+## Reviewing Posted CR/ADJ Notes 
 
-Once invoices are posted they can be accessed from within the following areas:
+Once CR/Adj notes are posted they can be accessed from within the following areas:
 -	Using the Navigation function from within the Customer Ledger Entries on the Customer Card
--	From the Posted Invoices Menu
+-	From the Posted CR/Adj notes
 
 ### Using the Navigation Function from Customer Ledger Entries
 
 You can preview posted invoices from within the Customer Ledger Entries area of the Customer card.
-First go to the Customer Card by accessing the following menu:
-Departments/Labour Hire/Candidate Processing/Customers 
--	  Select the Customer record from the Customer List by searching and clicking on the record.
--	  Once you have selected your customer record, click on the “Navigate ribbon/Ledger Entries”       and select the invoice you wish to preview.
--	  Click on the “Navigate” Button and select “Posted Sales Invoice”
--	  If you wish to Preview the record click on “Show Posted Document”. 
- 
-### Posted Invoices
 
-You can preview posted invoices from within the
-Posted Invoices area.  You can access the Posted Invoices from:
+First go to the Customer Card by accessing the following menu:
+
+Departments/Labour Hire/Candidate Processing/Customers 
+
+-	  Select the Customer record from the Customer List by searching and clicking on the record.
+-	  Once you have selected your customer record, click on the “Navigate ribbon/Ledger Entries” and select the invoice you wish to           preview.
+-	  Click on the “Navigate” Button and select “Posted Sales CR/Adj notes”
+-	  If you wish to Preview the record click on “Show" otherwise click on "Print". 
+ 
+### Posted CR/Adj notes
+
+You can preview posted CR/Adj notes from within the Posted CR/Adj notes area.  You can access the Posted CR/Adj notes from:
+
 Departments/Labour Hire/Invoice Processing/Lists/Posted Invoices
--	  Select the Invoice No. by searching and clicking on the record,
-.  -       Click on “Print”. 
+
+-	  Select the CR/Adj notes No. by searching and clicking on the record,
+.         Click on “Print”.
+
+## Generating Manual CR/Adj Notes
+There are a number if ways to create a CR/Adj note within the Dynamics NAV.  This section will discuss manually creating CR/Adj notes from the Sales CR/Adj areas using the Copy Document function.
+
+### Sales CR/Adj Notes
+
+You can generate a manual CR/Adj notes from the Sales CR/Adj Notes menu.
+
+*Departments/Labour Hire/Invoice Processing/Lists/Sales CR/Adj Notes*
+
+-         Click on the "New" button and click "Enter" to create a new CR/Adj Note.  When you click "Enter" the information on the                 "General" Tab will populate the Posting and Document Date with today's date. 
+-         Click on the ArrowDown button in the "Sell-to-Customer No." field and select the Customer No. you wish to create a CR/Adj Note  	    for and the click "Enter".  When you click "Enter" the information on the "General" Tab will populate with various information           from the Customer Card.
+-         If you are crediting an invoice which has been posted to the Customer Ledger entry, you can use the "Copy Document" function 		  to retrieve the previously posted lines.  To do this, click on the "Copy Document" button.
+-         the "Edit - Copy Sales Document" window will open> It should be updated as follows:
+
+|**Field Name**|**Description**
+|----------------------------------|------------------------------------------------------------------------------------------------|
+|**OPTIONS FASTTAB**
+|Document Type|You can select the information to be copied from an invoice which has not yet been posted or from the posted invoice. From the ArrowDown button on "Invoice" or "Posted Invoice"
+|Document No.|From the ArrowDown button, you can nominate which Invoice or Posted Invoice you wish to copy the information from. Once you have made your selection, click on "OK".
+|Sell-to-Customer No.|This is a non-editable field and will default from the record information you have selected.
+|Sell-to-Customer Name.|This is a non-editable field and will default from the record information you have selected.
+|Include Header|This will be automatically ticked and will include the header information from the record you have selected.
+|Recalculate Lines|If you wish to have the lines recalculated then you can tick this field, otherwise leave it blank.
+|Posting Date|If the CR/Adj note is to have a new Posting Date, then enter in the new posting date into this field.
+|Replace Posting Date|If you enter in a new Posting Date, this field will automatically be ticked.
+|Replace Document Date|If you enter in a new Posting Date, this field will automatically be ticked
+|**Click the "OK" button**
+
 
 ## Emailing Invoices
 
@@ -430,13 +463,13 @@ Departments/Labour Hire/Invoice Processing/Lists/Sales CR/Adj Notes
 
 The CR/Adj note and lines will be populated with various information from the sales invoice or document you selected in the Copy Document process.  The following information will have been generated from a Contractor invoice. 
 
-|**Field Name**|**Description**|
-|--------------------------------------|----------------------------------------------------------------------------------------|
-||**GENERAL FASTTAB – The General FastTab contains information such as CR/Adj Note No., Customer Contact, Salesperson and Address information generated from the Copy Document Process**| 
-|**Posting Date**|This is the Posting Date entered used to generate the CR/Adj note from the Copy Document process|
+|**Field Name**|**Description**
+|----------------------------------------------|--------------------------------------------------------------------------------|
+|**GENERAL FASTTAB – The General FastTab contains information such as CR/Adj Note No., Customer Contact, Salesperson and Address information generated from the Copy Document Process** 
+|**Posting Date**|This is the Posting Date entered used to generate the CR/Adj note from the Copy Document process
 |Document Date|This is the Document Date entered used to generate the CR/Adj note from the Copy Document process
-|**External Document**No.|This will be left blank but can be used as reference number for the customer>
-|**Invoice/Cr. Memo Format Code**|This is the Sales CR/Adj Note Format code  sourced from the Customer Card|
+|**External Document**No.|This will be left blank but can be used as reference number for the customer.
+|**Invoice/Cr. Memo Format Code**|This is the Sales CR/Adj Note Format code  sourced from the Customer Card
   
   LINES FASTTAB – The Lines FastTab contains the  invoice lines generated from the document nominated in the Copy Document Process
   Type.   This will default to “Resource”
