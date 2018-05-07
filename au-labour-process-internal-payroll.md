@@ -7,13 +7,13 @@ This document will contain information relating to Internal Payroll Processing e
   - [Payroll Employee Card](#edit-payroll-employee-card)
 - [Processing Pays](#payroll-processing)
   - [Pay Journals](#payroll-processing-pay-journals)
-  - [Enter Leave Adjustments](#payroll-processing-enter-leave-adjustments)
-  - [Calculating Pays](#payroll-processing-calculating-pays)
+  - [Enter Leave Adjustments](#payroll-processing-enter-any-leave-adjustments)
+  - [Calculating Pays](#payroll-processing-calculate-pays)
   - [Entry Validation Reports](#payroll-processing-entry-validation-reports)
   - [Uncalculating Pays](#payroll-processing-uncalculating-pays)
-  - [Creating a Bank Transfer File](#payroll-processing-creating-a-bank-transfer-file)
+  - [Creating a Bank Transfer File](#payroll-processing-create-bank-transfer-file)
   - [Post and Print Pay Advices](#payroll-processing-post-and-print-pay-advices)
-  - [Close Pay Period](#payroll-processing-close-pay-period)
+  - [Close Pay Periods](#payroll-processing-close-pay-periods)
 
 
 # INTERNAL PAYROLL PROCESSING OVERVIEW
@@ -46,6 +46,7 @@ Departments/Payroll/Employee Maintenance/Payroll Employees
 - Review and Add new leave accrual types such as Annual Leave , Sick Leave and Long Service Leave. To access the Leave Accrual task, Click the “Accruals” task icon.  
 - After you have completed these steps, you are then ready to process pays.
 
+[GoToTop](#how-to-process-an-internal-payroll-in-labour-hire)
 
 ## Processing Pays
 
@@ -60,6 +61,7 @@ Departments/Payroll/Employee Maintenance/Payroll Employees
 
 After posting of the journal has occurred, you will be asked if you want to close the pay period. You can leave this open if there are and additional adjustments that may need to be processed in this period, otherwise, you can close the period, ready for the next period. 
 
+[GoToTop](#how-to-process-an-internal-payroll-in-labour-hire)
 
 # PAY PROCESS DETAIL
 
@@ -71,7 +73,7 @@ To access the Employee Maintenance task, go to the following menu:
  
 Click on the “New” button. The cursor will be on the ‘Employee No’ on the General Tab. Press ‘OK’, NAV will allocate the New Employee number. Proceed to complete the following details.
 
-
+[GoToTop](#how-to-process-an-internal-payroll-in-labour-hire)
 
 ### Edit Employee Card
 
@@ -98,6 +100,7 @@ Click on the “New” button. The cursor will be on the ‘Employee No’ on th
 |**Birth Date**|Enter the employee’s birth date|
 |**Click “OK” once you have completed all fields required.**||
 
+[GoToTop](#how-to-process-an-internal-payroll-in-labour-hire)
 
 ## Entering New Employees – Payroll Module
 
@@ -111,6 +114,8 @@ Click on the “New” button.
 
 On the Payroll Employee Card go to the Employee No and from the Employee List select the employee you wish to continue entering on Payroll and proceed to complete the following details:
 Once the New Employee has been selected ‘Press Enter’ and the information that was entered into the Human Resources Employee Card will default to the relevant fields in the Payroll Employee Card.
+ 
+ [GoToTop](#how-to-process-an-internal-payroll-in-labour-hire)
  
 ### Edit Payroll Employee Card
 
@@ -158,6 +163,7 @@ Once the New Employee has been selected ‘Press Enter’ and the information th
 |**Workers Comp Insurer**|The “Workers Comp Insurer” is used to record the name of the Contractors Workers Comp Insurer.|
 |**Policy Expiration Policy**|The “Policy Expiration Date” is used to record the expiry date of the policy.|
 
+[GoToTop](#how-to-process-an-internal-payroll-in-labour-hire)
 
 ### Payroll Employee Card Pay Dissections
 
@@ -177,6 +183,8 @@ Access this task by clicking the “Pay Dissections” task icon.
 |**Standard Amount / Standard %**|If the employee has nominated an additional account, enter in the Amount or the Percentage as nominated by the employee.|
 |**Click “OK” once you have completed all fields required.**||
 
+[GoToTop](#how-to-process-an-internal-payroll-in-labour-hire)
+
 ### Payroll Employee Card Pay Rates
 
 Enter in Pay Rates in as an hourly rate. To access the Employee Pay Rates task, click the “Pay Rates” task icon. 
@@ -191,6 +199,7 @@ Enter in Pay Rates in as an hourly rate. To access the Employee Pay Rates task, 
 
 After you have updated the rate and you click on the Rate Tab, the rate should be updated accordingly. ( This will only be updated if the Pay Period is after the Employee’s Start Date ).
 
+[GoToTop](#how-to-process-an-internal-payroll-in-labour-hire)
 
 ### Payroll Employee Card Gross / Allowances
 
@@ -210,6 +219,7 @@ To access the Pay and Allowances task, Click the “Gross & Allowances” task i
 |**Not Used**|The Not Used field is used to suppress the permanent transaction for a single pay only. When the pay period is closed on a payroll, this flag is then removed and ready to be generated for the next period.|
 |**Click “OK” once you have completed all fields required.**|
 
+[GoToTop](#how-to-process-an-internal-payroll-in-labour-hire)
 
 ### Payroll Employee Card Deductions
 
@@ -231,6 +241,7 @@ To access the Deductions task, Click the “Deductions” task icon.
 |**Not Used**|The Not Used field is used to suppress the permanent transaction for a single pay only. When the pay period is closed on a payroll, this flag is then removed and ready to be generated for the next period.|
 |**Click “OK” once you have completed all fields required.**|
 
+[GoToTop](#how-to-process-an-internal-payroll-in-labour-hire)
 
 ### Payroll Employee Card Superannuation 
 
@@ -245,6 +256,7 @@ To access the Superannuation task, Click the “Superannuation” task icon.
 |**Employer Standard %**|The employer standard percentage will default to the value setup on the Superannuation Company card.|
 |**Click “OK” once you have completed all fields required.**|
 
+[GoToTop](#how-to-process-an-internal-payroll-in-labour-hire)
 
 #### Superannuation Employee Choice ( Changing Superannuation Funds )
 
@@ -254,6 +266,7 @@ Then on the next line Add the new fund with the current month in the start date,
 
 If you are updating the employee’s Superannuation fund and your organisation is calculating Employer liabilities using On Costs, you must ensure that you update the Superannuation Code on the Superannuation On Cost transaction type.  (Reference Payroll Employee Card  – On Cost Transactions).
 
+[GoToTop](#how-to-process-an-internal-payroll-in-labour-hire)
 
 ### Payroll Employee Card Leave Accruals
 
@@ -271,6 +284,7 @@ If you wish to create or add a new Leave Accrual, click on the “New” icon.
 |**Start Date**|The ‘Starting Date’ will default to the employees start date. This date is the Employee leave Accrual Start Date.|
 |**Click “OK” once you have completed all fields required.**|
  
+[GoToTop](#how-to-process-an-internal-payroll-in-labour-hire)
 
 ### Payroll Employee Card On Cost Transactions
 
@@ -288,6 +302,7 @@ You access Employer On Costs from the Payroll Employee Card by clicking on the �
 |**Not Used**|If this field is ticked the Pay Transaction Type is not applied to the “current” pay period only.  The flag will be reset for the next pay period.|
 |**Click “OK” after you have completed your selection.**|
 
+[GoToTop](#how-to-process-an-internal-payroll-in-labour-hire)
 
 # PAYROLL PROCESSING
 
@@ -317,6 +332,7 @@ To enter leave against a specific employee, at a minimum the following fields sh
 ||If the field is not ticked, the value of this leave transaction will be paid in addition to the Employee’s standard auto-pay.|
 |**After entering your leave/temporary adjustments, the auto-pays can be calculated.**|
 
+[GoToTop](#how-to-process-an-internal-payroll-in-labour-hire)
 
 ## Payroll Processing Calculate Pays
 
@@ -326,6 +342,7 @@ During this process any permanent hours and deductions, leave accruals, tax and 
 
 Please note : Pays can be calculated by individual or by all employees.
 
+[GoToTop](#how-to-process-an-internal-payroll-in-labour-hire)
 
 ## Payroll Processing Entry Validation Reports
 
@@ -335,11 +352,13 @@ Select Print Preview to check for errors and warnings on the screen, when all cl
 
 If errors are found on the Entry Validation Report, the individual’s pay can be fixed by uncalculating the pay. Please see the next step for “uncalculating Pays”.
  
+[GoToTop](#how-to-process-an-internal-payroll-in-labour-hire)
 
 ## Payroll Processing Uncalculating Pays
 
 Pays can be uncalculated for individual employees or for all employees within the Pay Journal. To “uncalculate” the pays, open the Actions Tab and click on “Cancel Calculated Pays”
  
+ [GoToTop](#how-to-process-an-internal-payroll-in-labour-hire)
  
 ## Payroll Processing Create Bank Transfer File
 
@@ -364,6 +383,7 @@ Click “OK” once you have completed all fields required.
 
 Pay advices are automatically flagged as paid. If for any reason you need to re-run the transfer again, run the “Cancel Bank Transfer” process and redo. 
   
+[GoToTop](#how-to-process-an-internal-payroll-in-labour-hire)
 
 ## Payroll Processing Post and Print Pay Advices
 
@@ -398,6 +418,7 @@ To email payslips, go to the following menu:
 |**No.**|From the AssistButton, select the No. (which relates to the Pay Advice No.) otherwise leave this blank to generate email pay advices for all.|
 |**Click “OK” once you have completed all fields required.**||
 
+[GoToTop](#how-to-process-an-internal-payroll-in-labour-hire)
 
 ## Payroll Processing Close Pay Periods
 
