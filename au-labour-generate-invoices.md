@@ -31,7 +31,7 @@ To generate invoices and CR/Adj notes, go to the following menu:
 
 |Field Name|Descritpion|
 |-----------------------------|---------------------------------------------------------|
-|**Posting Date **|Fill in the “Posting Date” field with the posting date.  |
+|**Posting Date**|Fill in the “Posting Date” field with the posting date.  |
 ||This date will be used as the “Posting Date on all generated Invoices and Credit Notes and sales records will be posted to the relevant ledger using this date.|
 |**Generate**|From the “Generate” field, select your option.|
 ||Each customer will have set up with an Invoice Frequency, so this should be selected depending on which batch of invoices you are generating.  All customers with a matching frequency will have invoices generated if they have trainings waiting to be invoiced.|
