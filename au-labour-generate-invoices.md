@@ -29,7 +29,7 @@ To generate invoices and CR/Adj notes, go to the following menu:
  
 ### Invoice/Credit Generate window
 
-|Field Name|Descritpion|
+|Field Name|Description|
 |-----------------------------|---------------------------------------------------------|
 |**Posting Date**|Fill in the “Posting Date” field with the posting date.  |
 ||This date will be used as the “Posting Date on all generated Invoices and Credit Notes and sales records will be posted to the relevant ledger using this date.|
@@ -43,7 +43,7 @@ To generate invoices and CR/Adj notes, go to the following menu:
 
  There are a number of filters which you can enter to further filter information:
 
-|Field Name|Descritpion|
+|Field Name|Description|
 |-----------------------------|---------------------------------------------------------|
 |**Customer No.**|	Select a  “Customer No.” or leave blank for all customers with the same frequency.|
 |**Click the “OK” button.**|
@@ -63,7 +63,7 @@ To check invoices individually, double-click on a Sales Invoice and the “Edit 
 
 The “Sales Invoice” contains the following tabs and information:
 
-|Field Name|Descritpion|
+|Field Name|Description|
 |-----------------------------|---------------------------------------------------------|
 |**GENERAL FASTTAB – The General FastTab contains information such as Invoice No., Customer Contact, Salesperson and Address information**||
 |**Posting Date**|This is the Posting Date entered used to generate the invoice|
@@ -120,7 +120,7 @@ Click on the “Post Batch” button if you want to post a batch of invoices.
  
 Once you select this option, the “Edit – Batch Post Sales Invoices” window will appear:
 
-|Field Name|Descritpion|
+|Field Name|Description|
 |-----------------------------|---------------------------------------------------------|
 |**OPTIONS FASTTAB**||
 |**Posting Date**|Enter in a Posting Date if you wish to override the Posting Date used to generate the invoice, otherwise leave this blank.|
@@ -181,7 +181,7 @@ To email the invoice, go to the following menu:
  
 ### Edit – E-Mail Invoice List window
 
-|Field Name|Descritpion|
+|Field Name|Description|
 |-----------------------------|---------------------------------------------------------|
 |**OPTIONS FASTTAB**|
 |**Message**|You can enter in a message to print out on the invoice.|
@@ -208,7 +208,7 @@ You can create a manual invoice directly from the Customer card.  First go to th
  
 3.	In the “Lines” Tab complete the following information at a minimum.
  
-|Field Name|Descritpion|
+|Field Name|Description|
 |-----------------------------|---------------------------------------------------------|
 |**LINES FASTTAB**|
 |**Type**|If you are producing a manual invoice for a contractor, select from the options “Resource”|
@@ -232,7 +232,7 @@ You can create a manual invoice directly from the Job card.  First go to the Job
 2.	Once you have selected your job record, click on the Home ribbon, and  “Create Job Sales Invoice” button to create an invoice for the Job.  
 3.	In the “Edit – Job Create Sales Invoice” window complete the following information.
  
-|Field Name|Descritpion|
+|Field Name|Description|
 |-----------------------------|---------------------------------------------------------|
 |**OPTIONS FASTTAB**|
 |**Posting Date**|The date will default to today’s date but can be changed where applicable.|
@@ -263,7 +263,7 @@ This function generates both Invoices and CR/Adj Notes.  To generate invoices an
  
 ### Invoice/Credit Generate window
 
-|Field Name|Descritpion|
+|Field Name|Description|
 |-----------------------------|---------------------------------------------------------|
 |**Posting Date**|Fill in the “Posting Date” field with the posting date.  |
 ||This date will be used as the “Posting Date on all generated Invoices and Credit Notes and sales records will be posted to the relevant ledger using this date.|
@@ -278,7 +278,7 @@ This function generates both Invoices and CR/Adj Notes.  To generate invoices an
 
 There are a number of filters which you can enter to further filter information:
 
-|Field Name|Descritpion|
+|Field Name|Description|
 |------------------|---------------------------------------------------------|
 |**Customer No.**|Select a  “Customer No.” or leave blank for all customers with the same frequency.|
 |**Click the “OK” button.**|
@@ -298,7 +298,7 @@ To check CR/Adj notes, double-click on a Sales CR/Adj and the “Edit – Sales 
 
 The “Sales CR/Adj Note” contains the following tabs and information:
 
-|Field Name|Descritpion|
+|Field Name|Description|
 |------------|---------------------------------------------------------|
 |**GENERAL FASTTAB – The General FastTab contains information such as CR/Adj Note No., Customer Contact, Salesperson and Address information**|
 |**Posting Date**|This is the Posting Date entered used to generate the invoice|
@@ -416,7 +416,7 @@ You can create a manual CR/Adj note from the Sales CR/Adj Notes menu.
 3.	If you are crediting an invoice which has been posted to the Customer Ledger entry, you can use the “Copy Document” function to retrieve the previously posted lines.  To do this, click on the “Copy Document” button.  
 4.	The “Edit – Copy Sales Document” window will open.  It should be updated as follows:  
 
-|Field Name|Descritpion|
+|Field Name|Description|
 |----------------------|-------------------------------------------------------------------------------------------------------|
 |**OPTIONS FASTTAB**||
 |**Document Type**|You can select the information to be copied from an invoice which has not yet been posted or from the posted invoice.|
@@ -438,7 +438,7 @@ You can create a manual CR/Adj note from the Sales CR/Adj Notes menu.
 
 5.	The CR/Adj note and lines will be populated with various information from the sales invoice or document you selected in the Copy Document process.  The following information will have been generated from a Contractor invoice.  
 
-|Field Name|Descritpion|
+|Field Name|Description|
 |-----------------------------|---------------------------------------------------------|
 |**GENERAL FASTTAB – The General FastTab contains information such as CR/Adj Note No., Customer Contact, Salesperson and Address information generated from the Copy Document Process**|
 |**Posting Date**|This is the Posting Date entered used to generate the CR/Adj note from the Copy Document process|
