@@ -21,7 +21,7 @@ The activities discussed are: 
    - [Calculate Monthly Superannuation](#calculate-monthly-superannuation)
    - [Calculate and Post Superannuation](#calculate-and-post-superannuation)
    - [Superannuation Report](#superannuation-report)
-   - [Superannuation Adjustments](#superannuation-adjustments) 
+   - Superannuation Adjustments
       
 ## Superannuation Overview
 
