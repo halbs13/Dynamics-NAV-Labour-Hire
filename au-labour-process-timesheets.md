@@ -78,7 +78,7 @@ Departments/Payroll/setup/Labour Hire/Administration/Labour Hire Setup
   |**Dup. Timesheet Check Frequency**|The options available in this field are;|
  || · Daily – this can be used where timesheets are entered or received on a daily basis|
  || · Weekly – this option is used to check if you receive duplicate timesheets based on the Alternate (Week End Date), Rate Type| 
- ||**Click “OK” after you have completed your selection.**||
+ |**Click “OK” after you have completed your selection.**||
   
  
 ## Generate Timesheets
@@ -119,7 +119,7 @@ An example of the Timesheet Entry filters available :
 |**Payroll No**|Users can specify which Payroll No. to select from.|
 |**Units**|Select only those timesheets where Units = 0, which effectively displays those timesheets that have yet to be entered.| 
 |**Other**|Many filters are available in Navision, the user can specify other fields to filter on if they desire.|  
-||**Click “OK” after you have completed your selection.**|
+|**Click “OK” after you have completed your selection.**|
   
 When the Timesheet Entry screen first opens, timesheets within the defined filter will be
 displayed. If there are previously entered values, these will be displayed otherwise the Units, 
@@ -223,7 +223,7 @@ The Show Missing Timesheets function is designed to allow you to manage missing 
 |**Phone No.**|This field is the Employee’s Phone No. in case they haven’t provided an E-Mail address.|
 |**Timesheet Expected**|This field will be selected if there is a Timesheet Expected.|
 |**Timesheet Submitted**|This field will default to “No” until such time that the Timesheet has been submitted.|
-||**Click “OK” after you have completed your selection.**|
+|**Click “OK” after you have completed your selection.**|
   
 ### Totals Summary Report
 
@@ -235,13 +235,13 @@ An explanation of the filters shown in the screenshot is provided below.  To pr
 information, it is recommended that the fields on the FastTabs are left blank.  
 
 ### “Edit – Totals – Time Sheet Line Summ.” window
-  
+
 |**Field Name**|**Description**|
+|----------------------------|------------------------------------------------------|
 |**PAY TRANSACTION TYPE FASTTAB**|
 |**Accumulation Type**|This field is used to filter the report information by Accumulation Type.|
 |**LABOUR HIRE TIME SHEET LINE FASTTAB**|
 |**Employee No.**|This field is used to filter the report information by Employee No.|
-
 
 ### Timesheet Report
 
@@ -256,7 +256,7 @@ unfiltered information, it is recommended that the fields on the FastTabs are le
    
 |**Field Name**|**Description**|
 |---------------------------------------------------------------------|----------------------------------------------------------------|
-||**LABOUR HIRE TIME SHEET LINE FASTTAB**|
+|**LABOUR HIRE TIME SHEET LINE FASTTAB**|
 |**Employee No.**|This field is used to filter the report information by Employee No.|
   
 ### Process Timesheets
@@ -287,9 +287,8 @@ recommended that the fields on the FastTabs are left blank. 
 |**Division Code**|This field is used to filter processed timesheets by Division Code.|
 |**Placement No.**|This field is used to filter processed timesheets by Placement No.|
 |**Sell-to Customer No.**|This field is used to filter processed timesheets by Sell-to Customer No.|
-
 |**Alternate Date**|This field is used to filter processed timesheets by Alternate Date.|
-||**Click “OK” when you have completed your selection to process timesheet lines.**|
+|**Click “OK” when you have completed your selection to process timesheet lines.**|
   
 This process sends the timesheet transaction to both the Jobs module and the Payroll module. The Job Ledger
 Entry records now await processing into Invoices and the Pay Journal Lines now await processing as payments to contractors.
