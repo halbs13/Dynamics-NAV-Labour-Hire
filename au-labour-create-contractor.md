@@ -20,11 +20,11 @@ This document will contain information relating to Contractor setup and contains
 ## Resources Card
 Prior to setting up a contractor's record within Human Resources and Payroll, the contractor must be created as a Resource so that he can be assigned to a job.  The Jobs module will use Resource details when generating **Job Ledger Entries** which are in turn used for invoicing.
 
-1. In the **Searh** box, enter in **Resources**, and then choose the related link.  Or go to the following menu: *Departments/Labour Hire/Candidate Processing/Resources*
+1.  In the **Search** box, enter in **Resources**, and then choose the related link.  Or go to the following menu:  *Departments/Labour Hire/Candidate Processing/Resources*
 
-2. On the **General** FastTab, fill the fields as described in the following table.
+2.  On the **General** FastTab, fill the fields as described in the following table.
 
-The following fields will be populated by Placement Entry or the Interface.  This section will only discuss those fields which are specific to standard Labour Hire:
+*The following fields will be populated by Placement Entry or the Interface.  This section will only discuss those fields which are specific to standard Labour Hire.*
 
 |Field Name|Description|
 |----------------------------------|-------------------------------------------------------------|
@@ -40,7 +40,6 @@ The following fields will be populated by Placement Entry or the Interface.  Thi
 |----------------------------------|-------------------------------------------------------------|
 |**Gen. Prod. Posting Group**|This field is used to specify the general ledger accounts that are posted in combination with the general business posting groups when sales are posted.|
 |**GST. Prod. Posting Group**|This field is used to specify the GST product posting groups to which this resource belongs.|
-||When you post transactions that involved this resource, this code is used in combination with a GST business posting group code in the GST Posting Setup window.  The GST Posting Setup window specifies the GST accounts that are posted to.|
 
 4. On the **Personal Data** FastTab, fill the fields as described in the following table.
 
@@ -59,11 +58,11 @@ The following fields will be populated by Placement Entry or the Interface.  Thi
 
 ## Employee Card
 
-1. In the **Searh** box, enter in **Employees**, and then choose the related link.  Or go to the following menu: *Departments/Labour Hire/Candidate Processing/Employees*
+1.  In the **Search** box, enter in **Employees**, and then choose the related link.  Or go to the following menu: *Departments/Labour Hire/Candidate Processing/Employees*
 
 2. On the **General** FastTab, fill the fields as described in the following table.
  
-The following fields will be populated by Placement Entry or the Interface.   This section will only discuss those fields which are specific to standard Labour Hire:	
+*The following fields will be populated by Placement Entry or the Interface.   This section will only discuss those fields which are specific to standard Labour Hire.*	
 
 |Field Name|Description|
 |-------------------------|-------------------------------------------------|
@@ -119,11 +118,11 @@ The following fields will be populated by Placement Entry or the Interface.   Th
 
 ## Payroll Employee Card
 
-1. In the **Searh** box, enter in **Payroll Employee**, and then choose the related link.  Or go to the following menu: *Departments/Labour Hire/Candidate Processing/Payroll Employees*
+1.  In the **Search** box, enter in **Payroll Employee**, and then choose the related link.  Or go to the following menu: *Departments/Labour Hire/Candidate Processing/Payroll Employees*
 
 2. On the **General** FastTab, fill the fields as described in the following table.
  
-The following fields will be populated by Placement Entry or the Interface.   This section will only discuss those fields which are specific to standard Labour Hire:	
+*The following fields will be populated by Placement Entry or the Interface.   This section will only discuss those fields which are specific to standard Labour Hire*	
 	
 |Field Name|Description|
 |-------------------------|-------------------------------------------------|
@@ -149,7 +148,7 @@ The following fields will be populated by Placement Entry or the Interface.   Th
 |**Global Dimension 1**|The **Global Dimension 1 Code** is selected from the Global Dimension Codes in the General Ledger, accessed from the **ArrowDown** in the field.|
 |**Global Dimension 2**|The **Global Dimension 2 Code** is selected from the Global Dimension Codes in the General Ledger, accessed from the **ArrowDown** in the field.|
 
-4.  On the **Rate** FastTab, review the fields as described in the following table. Fields on this FastTab are for display purposes only and are not used within the Labour Hire environment as rates are typically attached to the Resource Allocation via the Order Rate Sets. 
+4.  On the **Rate** FastTab, review the fields as described in the following table. *Some information contained on this FastTab are for display purposes only and are not used within the Labour Hire environment as rates are typically attached to the Resource Allocation via the Order Rate Sets.* 
 
 |Field Name|Description|
 |-------------------------|-------------------------------------------------|	
@@ -172,11 +171,14 @@ The following fields will be populated by Placement Entry or the Interface.   Th
 |**Number of Dependents**|This field is used to enter the Number of Dependents if you also ticked the Medicare Reduction Applicable checkbox.  The value entered is used to calculate the Medicare surcharge reduction.|
 |**Payroll Tax Exempt**|Tick this box if this employee’s earnings are deemed exempt from Payroll Tax (E.g. Apprentice, Registered Trainees)|
 |**G.S.T. Exempt**|This field is reserved for future development.|
-|**Payment Summary Raised**|This field is used to indicate the Payment Summary has been issued to the employee.  This field is automatically ticked by the system after Payment Summaries have been printed for this employee and is reset when the first pay is run for the new taxation year.|
-|**Fringe Benefit Amount**|This field is used to access the Employee FBT Amount List.  |
-||Enter the total taxable amount of fringe benefit received by the employee for the corresponding tax year.  The value in these fields print on the Employee’s Payment Summary for the corresponding year.|
+|**Payment Summary Raised**|This field is used to indicate the Payment Summary has been issued to the employee.  This field is automatically updated by the system after Payment Summaries have been printed for this employee and is reset when the first pay is run for the new taxation year.|
+|**Fringe Benefit Amount**|This field is used to access the Employee FBT Amount List.|
 |**Inc. Company Tax Inv. Not Req.**|The “Inc. Company Tax Invoice Not Required” field should be ticked when the contractor who is operating under an incorporated Company provides their own Tax Invoice.|
-|**DECLARATION FASTTAB – The information entered on this tab is obtained from the Employees Tax File Number/Employment Declaration form.  The information entered is used to work out how much PAYG tax to withhold from payments made to the employee and  are used when producing the electronic lodgment file for employment declarations to the ATO.**||
+
+6.  On the **Declaration** FastTab, fill the fields as described in the following table.
+
+|Field Name|Description|
+|-------------------------|-------------------------------------------------|
 |**Resident**|Tick this field if the employee has indicated they have residential status.|
 |**Tax Free Threshold Claimed**|Tick this field if the employee has is claiming the Tax Free Threshold.|
 |**Claim FTB**|Tick this field if the employee is claiming the Family Tax Benefit.|
@@ -196,31 +198,37 @@ The following fields will be populated by Placement Entry or the Interface.   Th
 |**Payee Signature**|Tick this field if the employee has signed their declaration.|
 |**Declaration Lodged**|Tick this field if the employee has signed their declaration.|
 
+7.  On the **Pay Details** FastTab, fill the fields as described in the following table.
 
-|**PAY DETAILS FASTTAB – This tab is used to display pay details for the employees.  The fields on this tab are calculated and are for viewing purposes only.**||
+|Field Name|Description|
+|-------------------------|-------------------------------------------------|
 |**Minimum Net Salary**|If your organisation guarantees your employees a minimum net salaries enter the amount here.  If you have previously entered the amount in the Payroll setup the amount will default from there and you can override the amount.|
 |**Forward Paid Periods**|This field indicates the number of pay periods that the Employee has been paid in advance.|
 |**Date Paid Up Until**|This field displays the date to which an Employee has been paid.|
 |**Last Period Pad**|This field is used to display the last period in which an Employee was paid.|
-|**Gross Pay**|The “Gross Pay” is the sum of the amounts from Payroll Ledger Entries for gross pay  The default value is year to date, but can be changed using flow filters.|
-|**Net Pay**|The “Net Pay” is the sum of the amounts from Payroll Ledger Entries for net pay.  The default value is year to date, but can be changed using flow filters.|
-|**On Cost Total**|The “On Cost Total” is the sum of the amounts from Payroll Ledger Entries for On Cost pay transaction types.  The default value is year to date, but can be changed using flow filters|
+|**Gross Pay**|The **Gross Pay** is the sum of the amounts from Payroll Ledger Entries for gross pay  The default value is year to date, but can be changed using flow filters.|
+|**Net Pay**|The **Net Pay** is the sum of the amounts from Payroll Ledger Entries for net pay.  The default value is year to date, but can be changed using flow filters.|
+|**On Cost Total**|The **On Cost Total** is the sum of the amounts from Payroll Ledger Entries for On Cost pay transaction types.  The default value is year to date, but can be changed using flow filters|
 |**Employment Date**|This field is populated from the Employee card - Employment Date field.  The date cannot be changed|
-|**Status**|The default “Status” is Active.  You can Inactivate or Terminate an employee by selecting the value from the look up.|
-|**Inactive Date**|Enter the date the employee was made “Inactive”.|
-|**Termination Date**|The “Termination Date” can only be entered on the Employee card.|
-|**WORK COVER FASTTAB – The information on this tab is used to record and assign Worker Cover information details for this employee.**||
-|**Work Cover Code**|Select the “Work Cover Code” for the Employee.|
-||Work Cover is set up as a percentage of Gross Wages calculated as the Work Cover Levy.  |
-||This field is generally used for base employees only.|
-|**Work Cover Location Code**|Select the “Work Cover Levy” Location.|
-||This field is generally used for base employees only.|
-|**Workers Comp Policy No.**|The “Workers Comp Policy No.” is used to record a Contractors policy number.|
-|**Workers Comp Insurer**|The “Workers Comp Insurer” is used to record the name of the Contractors Workers Comp Insurer.|
-|**Policy Expiration Date**|The “Policy Expiration Date” is used to record the expiry date of the policy.|
-|**USER DEFINED FASTTAB – This tab is used to allow the user to record other information for a contractor that may need to be included on invoices or just general information purposes.  Information contained in these fields will default into identical fields during data entry.**||
+|**Status**|The default **Status** is Active.  You can Inactivate or Terminate an employee by selecting the value from the **ArrowDown**.|
+|**Inactive Date**|Enter the date the employee was made inactive if the Status of the contractor is being updated to **Inactive**.|
+|**Termination Date**|The **Termination Date** can only be entered on the Employee card.|
+
+8.  On the **Work Cover** FastTab, fill the fields as described in the following table.
+
+|Field Name|Description|
+|-------------------------|-------------------------------------------------|
+|**Work Cover Code**|Select the **Work Cover Code** for the Employee. Work Cover is set up as a percentage of Gross Wages calculated as the Work Cover Levy. This field is generally used for internal employees only.|
+|**Work Cover Location Code**|Select the **Work Cover Levy** Location.This field is generally used for internal employees only.|
+|**Workers Comp Policy No.**|The **Workers Comp Policy No.** is used to record a Contractors policy number.|
+|**Workers Comp Insurer**|The **Workers Comp Insurer** is used to record the name of the Contractors Workers Comp Insurer.|
+|**Policy Expiration Date**|The **Policy Expiration Date** is used to record the expiry date of the policy.|
+
+9.  On the **User Defined** FastTab, fill the fields as described in the following table.
+
+|Field Name|Description|
+|-------------------------|-------------------------------------------------|
 |**User Defined Fields 1 to 10**|Enter information in here if required during Data Entry. Such information includes Telstra Codes. Check customer setup to determine which fields apply for this contractor.|
-|**Click “OK” after you have completed your selection.**||
 
 [GoToTop](#how-to-setup-a-contractor)
 
