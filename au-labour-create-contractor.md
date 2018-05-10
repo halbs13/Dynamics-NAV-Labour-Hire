@@ -18,7 +18,7 @@ This document will contain information relating to Contractor setup and contains
 # CONTRACTOR OVERVIEW
 
 ## Resources Card
-Prior to setting up a contractor on the HR and Payroll Employee cards, the contractor must be created as a Resource so that he can be assigned to a job.  The Jobs module will use Resource details when generating **Job Ledger Entries** which are in turn used for invoicing.
+Prior to setting up a contractor's record within Human Resources and Payroll, the contractor must be created as a Resource so that he can be assigned to a job.  The Jobs module will use Resource details when generating **Job Ledger Entries** which are in turn used for invoicing.
 
 1. In the **Searh** box, enter in **Resources**, and then choose the related link.  Or go to the following menu: *Departments/Labour Hire/Candidate Processing/Resources*
 
