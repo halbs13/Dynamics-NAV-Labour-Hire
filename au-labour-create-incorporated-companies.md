@@ -34,7 +34,7 @@ When setting up a new contractor that operates through an Incorporated Company, 
 
 The Contractor Company Name and A.B.N fields are located on the **Declaration** FastTab of the **Payroll Employee card**.
 
-To access the Employee Maintenance task, go to the following menu: *Departments/Payroll/Employee Maintenance/Payroll Employees*
+To update this information on the Payroll Employee Card, go to the following menu: *Departments/Payroll/Employee Maintenance/Payroll Employees*
 
 [GoToTop](#how-to-setup-incorporated-companies)
 
@@ -74,7 +74,7 @@ A Transaction Code must be setup to represent **GST**. This code will be used in
 
 **GST Accumulation Type** and **Accumulation Summary Type** options are used when setting up the GST transaction code to separate it from PAYG Tax.
 
-To access the Pay Transaction Types task go to the following menu: *Departments/Payroll/Setup/Payroll Setup/General/Pay Transaction Types*
+To access the Pay Transaction Types, go to the following menu: *Departments/Payroll/Setup/Payroll Setup/General/Pay Transaction Types*
 
 The **GST Product Posting Group** field is used to reconcile the General Ledger Account used for **GST**. This is the only transaction type that will be setup with a **GST Product Posting Group** instead of a transaction posting group.
 
@@ -84,7 +84,7 @@ The **GST Product Posting Group** field is used to reconcile the General Ledger 
 
 On the **Parameters** FastTab on the **Pay Transaction Type** card, there is a **GST applicable** box that should be ticked for every code that should have GST applied. For wages type code, GST would apply, whereas for a reimbursement type code, GST may not apply.
 
-To access the Pay Transaction Types task go to the following menu: *Departments/Payroll/Setup/Payroll Setup/General/Pay Transaction Types*
+To access the Pay Transaction Types, go to the following menu: *Departments/Payroll/Setup/Payroll Setup/General/Pay Transaction Types*
 
 GST needs to be setup on the **General** FastTab on the **Payroll Setup**card and mapped to **GST Tax Tran Type**.  
  
