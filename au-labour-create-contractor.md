@@ -3,7 +3,7 @@
 This document will contain information relating to Contractor setup and contains the following sections:
 - [Contractor Overview](#contractor-overview)
   - [Resource Card Setup](#resources-card)
-  - [Human Resource Card Setup](#employee-card)
+  - [Employee Card Setup](#employee-card)
   - [Payroll Employee Card Setup](#payroll-employee-card)
     - [Pay Dissections](#pay-dissections)
     - [Gross and Allowances](#gross-and-allowances)
@@ -148,7 +148,9 @@ Prior to setting up a contractor's record within Human Resources and Payroll, th
 |**Global Dimension 1**|The **Global Dimension 1 Code** is selected from the Global Dimension Codes in the General Ledger, accessed from the **ArrowDown** in the field.|
 |**Global Dimension 2**|The **Global Dimension 2 Code** is selected from the Global Dimension Codes in the General Ledger, accessed from the **ArrowDown** in the field.|
 
-4.  On the **Rate** FastTab, review the fields as described in the following table. *Some information contained on this FastTab are for display purposes only and are not used within the Labour Hire environment as rates are typically attached to the Resource Allocation via the Order Rate Sets.* 
+4.  On the **Rate** FastTab, review the fields as described in the following table. 
+
+*Some information contained on this FastTab are for display purposes only and are not used within the Labour Hire environment as rates are typically attached to the Resource Allocation via the Order Rate Sets.* 
 
 |Field Name|Description|
 |-------------------------|-------------------------------------------------|	
@@ -173,7 +175,7 @@ Prior to setting up a contractor's record within Human Resources and Payroll, th
 |**G.S.T. Exempt**|This field is reserved for future development.|
 |**Payment Summary Raised**|This field is used to indicate the Payment Summary has been issued to the employee.  This field is automatically updated by the system after Payment Summaries have been printed for this employee and is reset when the first pay is run for the new taxation year.|
 |**Fringe Benefit Amount**|This field is used to access the Employee FBT Amount List.|
-|**Inc. Company Tax Inv. Not Req.**|The “Inc. Company Tax Invoice Not Required” field should be ticked when the contractor who is operating under an incorporated Company provides their own Tax Invoice.|
+|**Inc. Company Tax Inv. Not Req.**|The **Inc. Company Tax Invoice Not Required** field should be ticked when the contractor who is operating under an incorporated Company provides their own Tax Invoice.|
 
 6.  On the **Declaration** FastTab, fill the fields as described in the following table.
 
@@ -191,7 +193,7 @@ Prior to setting up a contractor's record within Human Resources and Payroll, th
 |**Senior Australians tax offset claimed**|Tick this field if the employee has identified that they are claiming the Senior Australians tax offset.|
 |**Rebates Amt. Claimed**|Enter the value of rebates the employee has claimed.  The employee’s annual tax will be reduced by this amount.|
 |**A.B.N**|Enter the employee’s A.B.N. if supplied.|
-|**Incorporated Company Name**|The “Incorporated Company” field is used when a contractor is operating an incorporated company.|
+|**Incorporated Company Name**|The **Incorporated Company** field is used when a contractor is operating an incorporated company.|
 |**Tax File No.**|Enter the employee’s Tax File Number.  If you do not have Payroll Supervisor privileges the TFN will not be shown.|
 |**Birth Date**|Enter the employee’s birth date|
 |**Date Declaration Signed**|Enter the date the employee signed the declaration.|
@@ -235,29 +237,22 @@ Prior to setting up a contractor's record within Human Resources and Payroll, th
 ### Pay Dissections 
 Contractors can have multiple bank accounts within Dynamics NAV Payroll & Labour Hire and are available via the Pay Dissections area.
 
-You access the Pay Dissections from the Payroll Employee Card by clicking on the “Pay Dissections” on the “Navigate” ribbon.  
+You access the Pay Dissections from the Payroll Employee Card by clicking on the **Pay Dissections** icon on the **Navigate** ribbon.  
  
-
 This form is used to set up the bank accounts and spilt the employees’ Net pay.  You must complete the following fields for each employee who is to be paid by the EFT Payment Method indicated on the Payroll Employee General Tab card:
 
-**Note:** The Main dissection type pays the balance of the employee net pay to the specified bank account and each employee paid by EFT must have a Pay Dissection Type of “Main”.  Other bank accounts (dissections) such as an employee’s savings account must be defined as Pay Dissection Type “Part”.  The employee can have unlimited “Part” bank accounts.
+**Note:** The Main dissection type pays the balance of the employee net pay to the specified bank account and each employee paid by EFT must have a Pay Dissection Type of **Main**.  Other bank accounts (dissections) such as an employee’s savings account must be defined as Pay Dissection Type **Part**.  The employee can have unlimited **Part** bank accounts.
 
 |Field Name|Description|
 |-------------------------|-------------------------------------------------|
-|**Transaction Type Code**|This field identifies the Pay Transaction Type assigned to the Net Pay |
-||The “Transaction Type Code” is selected from the Pay Transaction Type table; accessed by the “ArrowDown” in the field.|
-|**Pay Dissection Type**|This field is used to select the dissection type used for this bank account:|
-||Main – The Main Pay Dissection is used to pay the balance of net pay.  You must setup 1 “Main” Pay Dissection.|
-||Part – The Part Pay Dissection is used to define where specific amounts or a percentage of the employee net pay is banked.  An employee can have unlimited Part pay dissections.|
+|**Transaction Type Code**|This field identifies the Pay Transaction Type assigned to the Net Pay.  The **Transaction Type Code** is selected from the Pay Transaction Type table; accessed by the **ArrowDown** in the field.|
+|**Pay Dissection Type**|This field is used to select the dissection type used for this bank account: **Main** – The Main Pay Dissection is used to pay the balance of net pay.  You must setup 1 **Main** Pay Dissection.  **Part** – The Part Pay Dissection is used to define where specific amounts or a percentage of the employee net pay is banked.  An employee can have unlimited Part pay dissections.|
 |**Bank Account No.**|This field is used to enter the bank account number for the EFT payment.|
 |**Bank Account Name**|This field is used to enter the account name corresponding to the Bank Account no.|
-|**Pay Bank State Branch No.**|This field is used to select the Bank BSB number associated with the Bank Account.|
-||You can select the BSB number from the Employee Bank table by selecting the “ArrowDown”.|
-|**Standard Amount**|This field is used in conjunction with “Part” pay dissection types to enter a specific amount for this bank account each pay period. |
-|**Standard %**|This field is used in conjunction with “Part” pay dissection types to enter a percentage of net for this bank account each pay period.|
+|**Pay Bank State Branch No.**|This field is used to select the Bank BSB number associated with the Bank Account.  You can select the BSB number from the Employee Bank table by selecting the **ArrowDown**.|
+|**Standard Amount**|This field is used in conjunction with **Part** pay dissection types to enter a specific amount for this bank account each pay period. |
+|**Standard %**|This field is used in conjunction with **Part** pay dissection types to enter a percentage of net for this bank account each pay period.|
 |**Not Used**|Tick this field to indicate this Bank Account Dissection is not used for one pay period.|
-|**Click “OK” after you have completed your selection.**||
-
 
 [GoToTop](#how-to-setup-a-contractor)
 
@@ -265,62 +260,48 @@ This form is used to set up the bank accounts and spilt the employees’ Net pay
  
 This option is used to setup any Gross Pay Transaction Types or Allowances for employee to be automatically paid.  
 
-You access the Gross & Allowances from the Payroll Employee Card by clicking on the “Gross & Allowances” on the “Navigate” ribbon.  
- 
-
- 
+You access the Gross & Allowances from the Payroll Employee Card by clicking on the **Gross & Allowances** icon on the **Navigate** ribbon.  
+  
 This option is used to set up the Gross Pay Transaction Type and Allowances for contractors who are automatically paid an Allowance.  An example of this might be a Car Allowance which is paid by your organisation but not charged to a Job. 
 
 |Field Name|Description|
 |-------------------------|-------------------------------------------------|
-|**Transaction Type Code**|The “Transaction Type Code” is selected from the Pay Transaction Type table; accessed from the “ArrowDown” in the field.|
-|**Shift Code**|If the employee works a “Shift” enter the shift code (for shifts where an allowance is paid)|
-||E.g. When the employees work the midnights to dawn shift they will receive the Pay Transaction Type allowance for sleep deprivation automatically.  If the employee does not work this shift then they will not receive this allowance.|
+|**Transaction Type Code**|The **Transaction Type Code** is selected from the Pay Transaction Type table; accessed from the **ArrowDown** in the field.|
+|**Shift Code**|If the employee works a **Shift** enter the shift code (for shifts where an allowance is paid).  E.g. When the employees work the midnights to dawn shift they will receive the Pay Transaction Type allowance for sleep deprivation automatically.  If the employee does not work this shift then they will not receive this allowance.|
 |**Start Date**|This field is used to enter the date from which this Pay Transaction Type applies.|
 |**End Date**|This field is used to enter the date this Pay Transaction Type ceases.  This field is left blank if the Pay Transaction Type is to apply for an indefinite period.|
 |**Description**|This field displays the Pay Transaction Type description.|
 |**Use Full Week Hours**|Tick this flag if the employee is to be paid the standard number of hours each pay period against this Pay Transaction Type.  This type of payment is usually setup for Automatically paid (Auto-pay) employees.|
-|**Units**|This field is used to enter the number of units to pay the employee each pay period on a permanent basis.|
-||Generally, units are hours, but units can also be kilometres, etc.|
-||If the Pay Transaction Type is not a unit’s type leave this field zero.|
-|**Fixed Value**|Use this field to enter the fixed amount the employee is paid each pay period.|
-||This field is left zero if a fixed amount is not to be paid.|
+|**Units**|This field is used to enter the number of units to pay the employee each pay period on a permanent basis.  Generally, units are hours, but units can also be kilometres, etc. If the Pay Transaction Type is not a unit’s type leave this field zero.|
+|**Fixed Value**|Use this field to enter the fixed amount the employee is paid each pay period. This field is left zero if a fixed amount is not to be paid.|
 |**Classification**|If the Pay Transaction Type is paid at a different Classification Pay Rate to the employee’s normal Classification Pay Rate enter the Classification for the different pay rate in this field.|
-|**Hourly Rate**|This field is used to display the “Hourly Rate” from either the employee Pay Rate or the Classification card for this Pay Transaction Type (for Pay Transaction Types that have the “Rate Calculation Method” field set to “Employee Pay Rate”). |
-||The “Use Full Week Hours” flag must also be ticked.  The value in this field cannot be changed.|
+|**Hourly Rate**|This field is used to display the **Hourly Rate** from either the employee Pay Rate or the Classification card for this Pay Transaction Type (for Pay Transaction Types that have the **Rate Calculation Method** field set to **Employee Pay Rate**). The **Use Full Week Hours** flag must also be ticked.  The value in this field cannot be changed.|
 |**Pay Value**|This field is calculated using the Employee’s Hours in Full Week, Hourly Rate, Number of Days per week and their Pay Frequency.  The value in this field cannot be changed.|
-|**Apportion Cost**|This field indicates if the Allowance paid is apportioned to Jobs by the same ratio of hours worked on a job by the employee.|
-||An Allowance in this case is referring to a Pay Transactions Type with the Accumulation Type of "Allowance".|
+|**Apportion Cost**|This field indicates if the Allowance paid is apportioned to Jobs by the same ratio of hours worked on a job by the employee. An Allowance in this case is referring to a Pay Transactions Type with the Accumulation Type of **Allowance**.|
 |**Associated Transactions**|This field indicates if this Pay Transaction Type has associated transactions linked to it.|
 |**Not Used**|If this field is ticked the Pay Transaction Type is not applied to the “current” pay period only.  The flag will be reset for the next pay period.|
-|**Click “OK” after you have completed your selection.**||
 
 [GoToTop](#how-to-setup-a-contractor)
 
 ### Deductions 
 This option is used to setup any Deductions for this contractor.  An example of a Deduction would either be a Child Support or Superannuation Salary Sacrifice transaction.  
 
-You access the Deductions from the Payroll Employee Card by clicking on the “Deductions” 
-on the “Navigate” ribbon.  
+You access the Deductions from the Payroll Employee Card by clicking on the **Deductions** icon on the **Navigate** ribbon.  
 
 |Field Name|Description|
 |-------------------------|-------------------------------------------------| 
-|**Transaction Type Code**|The “Transaction Type Code” is selected from the Pay Transaction Type table; accessed by from the “ArrowDown” in the field.|
-|**Shift Code**|If a “Shift Code” is selected the deduction will only apply when the employee is paid the particular shift.|
-|**Priority**|This field is used to set the “Priority” this deduction is taken from an employees pay.  If the employee does not have enough net pay to deduct all deductions; the deduction with the lowest priority will not be deducted.  The priority can be set to any value, the lower the number the higher priority the deduction has i.e. a deduction with priority 1will be taken before a deduction with priority 6.  If two deductions have the same priority the deduction will be taken in alphabetical order of the Pay Transaction Type and or amount of net pay that is still available.|
-|**Start Date**|This field is used to enter the “Start Date” from which this Deduction Pay Transaction Type applies.|
+|**Transaction Type Code**|The **Transaction Type Code** is selected from the Pay Transaction Type table; accessed by from the **ArrowDown** in the field.|
+|**Shift Code**|If a **Shift Code** is selected the deduction will only apply when the employee is paid the particular shift.|
+|**Priority**|This field is used to set the **Priority** this deduction is taken from an employees pay.  If the employee does not have enough net pay to deduct all deductions; the deduction with the lowest priority will not be deducted.  The priority can be set to any value, the lower the number the higher priority the deduction has i.e. a deduction with priority 1will be taken before a deduction with priority 6.  If two deductions have the same priority the deduction will be taken in alphabetical order of the Pay Transaction Type and or amount of net pay that is still available.|
+|**Start Date**|This field is used to enter the **Start Date** from which this Deduction Pay Transaction Type applies.|
 |**End Date**|This field is used to enter the End Date this Deduction Pay Transaction Type ceases.  This field is left blank if the Deduction Pay Transaction Type is to apply for an ongoing period of time.|
-|**Description**|The "Description" of the Deduction Pay Transaction Type.|
+|**Description**|The **Description** of the Deduction Pay Transaction Type.|
 |**Standard Amount**|This field is used to enter the standard amount deducted from the employee's pay.|
 |**Standard %**|This field is used to enter a percentage of the employee's salary that is deducted.|
 |**Details**|This field is an additional description for the purpose of the deduction.|
-|**Total Deduction**|When the “LTD” amount equals the "Total Deduction" amount the deduction will stop.|
-||When you wish to continue deducting the deduction enter zero in this field or increase the amount in this field by the amount you wish the deduction to be deducted|
-||This type of deduction is used for Pay Transaction Types such as employee loans.|
-|**LTD Amount**|This field is used to display the Life to Date amount deducted for this deduction|
-||The life to date amount also controls the Total Deduction amount.|
-|**Not Used**|If this field is ticked the Pay Transaction Type is not applied to the “current” pay period only.  The flag will be reset for the next pay period.|
-|**Click “OK” after you have completed your selection.**||
+|**Total Deduction**|When the **LTD** amount equals the "Total Deduction" amount the deduction will stop.  When you wish to continue deducting the deduction enter zero in this field or increase the amount in this field by the amount you wish the deduction to be deducted.  This type of deduction is used for Pay Transaction Types such as employee loans.|
+|**LTD Amount**|This field is used to display the Life to Date amount deducted for this deduction.  The life to date amount also controls the Total Deduction amount.|
+|**Not Used**|If this field is ticked the Pay Transaction Type is not applied to the **current** pay period only.  The flag will be reset for the next pay period.|
 
 [GoToTop](#how-to-setup-a-contractor)
 
@@ -328,7 +309,7 @@ on the “Navigate” ribbon.
 
 The Superannuation area is used to identify the Superannuation fund nominated by the contractor.  
 
-You access Superannuation from the Payroll Employee Card by clicking on the “Superannuation” on the “Navigate” ribbon.  
+You access Superannuation from the Payroll Employee Card by clicking on the **Superannuation** icon on the **Navigate** ribbon.  
  
 |Field Name|Description|
 |-------------------------|-------------------------------------------------| 
