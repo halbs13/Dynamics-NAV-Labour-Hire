@@ -24,17 +24,15 @@ Prior to setting up a contractor's record within Human Resources and Payroll, th
 
 2. On the **General** FastTab, fill the fields as described in the following table.
 
-### Resource Card 
-
 The following fields will be populated by Placement Entry or the Interface.  This section will only discuss those fields which are specific to standard Labour Hire:
 
 |Field Name|Description|
 |----------------------------------|-------------------------------------------------------------|
 |**Resource No.**|The Contractor is identified with this number throughout the Human Resources and Payroll granules.|
 |**Name**|This field is used to retain the Contractor’s First and Last names.  This name will appear on the invoices.|
-|**Type**|This field identifies what type of Resource it is.  The options available are “Person” or “Machine”|
+|**Type**|This field identifies what type of Resource it is.  The options available are **“Person”** or **“Machine”**.|
 |**Base Unit of Measure**|This field specifies the base unit that is used to measure the resource.  The entry appears on the sales line or the journal lines when you enter the resource number in the No. field.|
-|**Search Name**|The “Search Name: is not a mandatory field and required for searching purposes only.|
+|**Search Name**|The **“Search Name"** is not a mandatory field and required for searching purposes only.|
 
 3. On the **Invoicing** FastTab, fill the fields as described in the following table.
 
@@ -61,17 +59,14 @@ The following fields will be populated by Placement Entry or the Interface.  Thi
 
 ## Employee Card
 
-To access the Employee Card, go to the following menu: 
+1. In the **Searh** box, enter in **Employees**, and then choose the related link.  Or go to the following menu: *Departments/Labour Hire/Candidate Processing/Employees*
 
-*Departments/Labour Hire/Candidate Processing/Employees*
+2. On the **General** FastTab, fill the fields as described in the following table.
  
-### Edit - Employee Card window 
-
-The following fields will be populated by the interface and will only discuss those fields which are specific to standard Labour Hire:	
+The following fields will be populated by Placement Entry or the Interface.   This section will only discuss those fields which are specific to standard Labour Hire:	
 
 |Field Name|Description|
 |-------------------------|-------------------------------------------------|
-|**GENERAL FASTTAB**||
 |**No.**|The Contractor is identified with this number throughout the Human Resources and Payroll granules.|
 |**Job Title**|This field is used to specify the person’s job title.|
 |**Title**|This field is used to retain the employee’s title.  An example of the Title is Mr, Miss, Ms, Mrs, etc.|
@@ -85,45 +80,53 @@ The following fields will be populated by the interface and will only discuss th
 |**Search Name**|This field is used to specify the contractor’s Search Name.|
 |**Gender**|This field is used to specify the contractor’s Gender.|
 |**Marital Status**|This field is used to specify the contractor’s Marital status.|
-|**COMMUNICATION FASTTAB**||
+
+3. On the **Communication** FastTab, fill the fields as described below in the following table.
+
+|Field Name|Description|
+|-------------------------|-------------------------------------------------|
 |**Mobile Phone No.**|This field is used to specify the contractor’s mobile phone number.|
 |**Phone No.**|This field is used to specify the contractor’s phone number.|
 |**Work Phone No.**|This field is used to specify the contractor’s work phone number|
 |**E-Mail**|This field is used to specify the contractor’s e-mail address.  This email address will be used if emailing of pay advices or payment summaries is being used.|
 |**Company E-Mail**|This field is used to specify the contractor’s company email address. |
 |**SMS**|This field is used to specify the contractor’s sms mail address.|
-|**ADMINISTRATION FASTTAB**||
+
+4.  On the **Administration** FastTab, fill the fields as described below in the following table.
+
+|Field Name|Description|
+|-------------------------|-------------------------------------------------|
 |**Employment Date**|This field is used to specify the date which the contractor commenced employment with your organisation.|
-|**Status**|The “Status” should be set to “Active” unless he contractor has been terminated or is inactive.|
+|**Status**|The **“Status”** should be set to **“Active”** unless he contractor has been terminated or is inactive.|
 |**Inactive Date**|This field is used to record the contractor’s Inactive date.|
 |**Cause of Inactivity Code**|This field is used to record the reason why the contractor is inactive.|
 |**Termination Date**|This field is used to record the contractor’s Termination date.|
 |**Grounds for Term. Code**|This field is used to record the reason the contractor has Terminated.|
 |**Resource No.**|This field is used to identify and link the Employee to the Resource record.  These numbers are usually the same throughout the system.|
-|**PERSONAL FASTTAB**||
+
+5.  On the **Personal** FastTab, fille the fields as described below in the following table.
+
+|Field Name|Description|
+|-------------------------|-------------------------------------------------|
 |**Birth Date**|This field will contain the contractor’s date of birth.|
 |**Tax File No.**|This field is used to store the employee’s Tax File number, however it will be encrypted within this area of the product.|
 |**Previous Surname**|This field is used to record the contractor’s Previous Surname.|
 |**Previous First Name**|This field is used to record the contractor’s Previous First Name.|
 |**Previous Middle Name**|This field is used to record the contractor’s Previous Middle Name.|
 |**Date Name Changed**|This field is used to record the date the contractor’s name changed.|
-|**Click “OK” after you have completed your selection.**||
 
 [GoToTop](#how-to-setup-a-contractor)
 
 ## Payroll Employee Card
 
-To access the Payroll Employee Card, go to the following menu: 
+1. In the **Searh** box, enter in **Payroll Employee**, and then choose the related link.  Or go to the following menu: *Departments/Labour Hire/Candidate Processing/Payroll Employees*
 
-*Departments/Labour Hire/Candidate Processing/Payroll Employees*
+2. On the **General** FastTab, fill the fields as described in the following table.
  
-### Edit – Payroll Employee Card window 
-
-The following fields will be populated by the interface and will only discuss those fields which are specific to standard Labour Hire:	
-
+The following fields will be populated by Placement Entry or the Interface.   This section will only discuss those fields which are specific to standard Labour Hire:	
+	
 |Field Name|Description|
 |-------------------------|-------------------------------------------------|
-|**GENERAL FASTTAB – The General Tab is used to edit the employee name and address details used for Payment Summary production.  You must assign the employee to a payroll which determines the frequency of payment.  You can define the employee’s location, position and payment method.  You must select the Employee Type code to determine the type of Payment Summary issued.**||
 |**Employee No.**|The Contractor is identified with this number throughout the Human Resources and Payroll granules.|
 |**Job Title**|This field is used to specify the person’s job title.|
 |**First Name**|This field is used to specify the contractor’s First name.|
@@ -132,34 +135,36 @@ The following fields will be populated by the interface and will only discuss th
 |**Initials**|This field is used to specify the contractor’s Initials.|
 |**Address**|This field is used to specify the contractor’s address.|
 |**Payroll No.**|This field is used to specify the Payroll the contractor is assigned to.|
-|**Employee Type Code**|The “Employee Type Code” indicates the employment basis of the employee.  The standard codes are Full time, Part-time, Casual, PAYG Contractor, Incorporated Company, etc.  Choosing the correct code is important as many reports such as Payment Summaries are based on this code.|
-|**Payment Method**|The “Payment Method” allows a code to be assigned to each contractor specifying the method of payment.  The options are “Cash, Cheque or EFT”.|
-|**E-Mail Pay Advice**|The “Email Pay Advice” field should be ticked if pay advices are to be emailed to the employee/contractor.|
-|**E-Mail Payment Summary**|The “Email Payment Summary” field should be ticked if payment summaries are to be emailed to the employee/contractor.|
-|**POSTING FASTTAB – The Posting Tab is used to assign the employee to a Branch, Division and the Global Dimensions.The Branch is attached to a State which is used to determine the state when calculating the Payroll Tax.The Branch and Division can be used to determine the GL accounts to post transactions against.  Global Dimensions are used in conjunction with the GL accounts in the General Ledger.**||
-|**Branch Code**|The “Branch Code” is selected from the Branches Codes in the Branch window, accessed “ArrowDown” in the field.|
-||Branch is one of the parameters used in resolving GL accounts for cost transactions.|
-|**Division Code**|The “Division Code” is selected from the Division Codes in the Division window, accessed from the “ArrowDown” in the field.|
-||Division is one of the parameters used in resolving GL accounts for cost transactions.|
-|**Global Dimension 1**|The “Global Dimension 1 Code” is selected from the Global Dimension Codes in the General Ledger, accessed from the “ArrowDown” in the field.|
-||Global Dimension 1 is used to allow breakup of values in the General Ledger.|
-|**Global Dimension 2**|The “Global Dimension 2 Code” is selected from the Global Dimension Codes in the General Ledger, accessed from the “ArrowDown” in the field.|
-||Global Dimension 2 is used to allow breakup of values in the General Ledger.|
-|**RATE FASTTAB – The Rate Tab is used to determine the standard hours worked and can be used to calculate Ordinary Time and Leave Accruals.The first three fields are used to calculate the hourly rate for each Employee and Accrue Time In Lieu hours.**||
+|**Employee Type Code**|The **Employee Type Code** indicates the employment basis of the employee.  The standard codes are Full time, Part-time, Casual, PAYG Contractor, Incorporated Company, etc.  Choosing the correct code is important as many reports such as Payment Summaries are based on this code.|
+|**Payment Method**|The **Payment Method** allows a code to be assigned to each contractor specifying the method of payment.  The options are **Cash, Cheque or EFT**.|
+|**E-Mail Pay Advice**|The **Email Pay Advice** field should be ticked if pay advices are to be emailed to the employee/contractor.|
+|**E-Mail Payment Summary**|The **Email Payment Summary** field should be ticked if payment summaries are to be emailed to the employee/contractor.|
+
+3.  On the **Posting** FastTab, fill the fields as described in the following table.
+
+|Field Name|Description|
+|-------------------------|-------------------------------------------------|	
+|**Branch Code**|The **Branch Code** is selected from the Branches Codes in the Branch window, accessed **ArrowDown** in the field.|
+|**Division Code**|The **Division Code** is selected from the Division Codes in the Division window, accessed from the **ArrowDown** in the field.|
+|**Global Dimension 1**|The **Global Dimension 1 Code** is selected from the Global Dimension Codes in the General Ledger, accessed from the **ArrowDown** in the field.|
+|**Global Dimension 2**|The **Global Dimension 2 Code** is selected from the Global Dimension Codes in the General Ledger, accessed from the **ArrowDown** in the field.|
+
+4.  On the **Rate** FastTab, review the fields as described in the following table. Fields on this FastTab are for display purposes only and are not used within the Labour Hire environment as rates are typically attached to the Resource Allocation via the Order Rate Sets. 
+
+|Field Name|Description|
+|-------------------------|-------------------------------------------------|	
 |**Hours in a Full Week**|This field is used to determine the standard hours worked for Ordinary pay and for accruals.|
 |**Hours Worked for TIL**|This field is used to calculate the value accrued to Time In Lieu.  The hours worked in excess of this value are accrued to the employee’s TIL entitlement.|
 |**Days Per Week**|Enter the standard number of days in a week the employee works.  This field is used for the calculation and processing of leave.|
 |**Flextime Applicable**|Tick this field is you wish to calculate an Employee’s entitlement based on hours worked.|
-||If an Employee is not entitled to flexi-time, the “Flexitime Applicable” field should be left blank.|
-|**The other fields contained on this Fast Tab are for display purpose only and are not used within the Labour Hire environment as rates are typically assigned to a Job.**||
-|**TAX FASTTAB – The information entered on this tab is obtained from the Employees Tax File Number/Employment Declaration form.  The information entered is used with the Declaration Tab to calculate PAYG Tax withholding amounts for the employee each pay run.The FBT field is used to add the Employee’s Fringe Benefit Tax each year.  This entry prints on the Payment Summary.**||
+
+5.  On the **Tax Scale** FastTab, fill the fields as described in the following table.
+
+|Field Name|Description|
+|-------------------------|-------------------------------------------------|	
 |**Tax Scale No.**|This code defines the Tax Scale for this employee.|
-||Tax Scales are provided by the ATO to calculate PAYG withholding tax for Employees.|
-||Select the Tax Scale No, from the “ArrowDown”.|
 |**HELP Debt**|This field Indicates the employee has a Higher Education Loan Program.  |
-||If ticked the employee will pay extra tax.|
 |**Student Loan (SFSS)**|This field Indicates the employee has a student loan |
-||If ticked the employee will pay extra tax.|
 |**Fixed Tax Rate Applicable**|Tick this field if the employee has applied for and has been granted a variance to their normal tax rate.  A separate letter from the Australian Taxation Office must be provided to the employer before this variation can occur.|
 |**Fixed Tax Rate Valid Until Date**|Enter the date the Fixed Tax rate expires.  Once this date has been reached standard taxation according to the Tax Scale outlined above will occur.|
 |**Fixed Tax Rate**|Enter the percentage value of the fixed tax rate.  The value is entered as a percentage e.g. 25%|
@@ -190,6 +195,8 @@ The following fields will be populated by the interface and will only discuss th
 |**Date Declaration Signed**|Enter the date the employee signed the declaration.|
 |**Payee Signature**|Tick this field if the employee has signed their declaration.|
 |**Declaration Lodged**|Tick this field if the employee has signed their declaration.|
+
+
 |**PAY DETAILS FASTTAB – This tab is used to display pay details for the employees.  The fields on this tab are calculated and are for viewing purposes only.**||
 |**Minimum Net Salary**|If your organisation guarantees your employees a minimum net salaries enter the amount here.  If you have previously entered the amount in the Payroll setup the amount will default from there and you can override the amount.|
 |**Forward Paid Periods**|This field indicates the number of pay periods that the Employee has been paid in advance.|
