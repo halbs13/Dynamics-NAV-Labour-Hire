@@ -150,7 +150,7 @@ Prior to setting up a contractor's record within Human Resources and Payroll, th
 
 4.  On the **Rate** FastTab, review the fields as described in the following table. 
 
-*Some information contained on this FastTab are for display purposes only and are not used within the Labour Hire environment as rates are typically attached to the Resource Allocation via the Rate Sets (#resource-placement-allocation-rate-sets).* 
+*Some information contained on this FastTab are for display purposes only and are not used within the Labour Hire environment as rates are typically attached to the [Resource Allocations](#resource-placement-allocations) via the [Rate Sets](#resource-placement-allocations-rate-sets).* 
 
 |Field Name|Description|
 |-------------------------|-------------------------------------------------|	
