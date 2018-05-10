@@ -7,7 +7,7 @@ following sections:
 - [Incorporated Company Flag Identification](#incorporated-company-flag-identification)
 - [Company Details](#company-details)
 - [Workers Compensation Policies](#workers-compensation-policies)
-- [Goods & Services Tax (GST) Overview](#goods-&-services-tax-(gst)-overview)
+- [Goods & Services Tax (GST) Overview](#gst-overview)
 - [GST Transaction Type Setup](#gst-transaction-type-setup)
 - [GST Calculation](#gst-calculation)
 
@@ -40,40 +40,36 @@ To access the Employee Maintenance task, go to the following menu: *Departments/
 
 ## Workers Compensation Policies
 
-Contractors operating through Incorporated Companies are required to provide details of their workers compensation policy.
+Contractors operating through Incorporated Companies are required to provide details of their workers compensation policy and is entered on the **Work Cover** FastTab on the Payroll Employee card.
 
-The information that needs to be recorded includes 
+The information that needs to be recorded includes; 
 - Policy Number, 
 - Insurer and
 - Expiration Date.
 
-Access is via the Payroll Employee card under the Work Cover Tab.
+To enter this information, go to the following menu: *Departments/Payroll/Employee Maintenance/Payroll Employees*
 
-To access the Employee Maintenance task go to the following menu: *Departments/Payroll/Employee Maintenance/Payroll Employees*
-
-The following fields need to be entered:
-
-  |Field Name|Description|  
-  |---------------------------------|---------------------------------------|  
-  |**Workers Comp Policy No.**|The **Workers Comp Policy No.** is used to  record a Contractors policy number.|
-  |**Workers Comp Insurer**| The **Workers Comp Insurer** is used to record the name of the Contractors Workers Comp Insurer.|
-  |**Policy Expiration Policy**|The **Policy Expiration Date** is used to record the expiry date of the policy.|
-   
+   |Field Name|Description|  
+   |---------------------------------|---------------------------------------|  
+   |**Workers Comp Policy No.**|The **Workers Comp Policy No.** is used to record a Contractors policy number.|
+   |**Workers Comp Insurer**|The **Workers Comp Insurer** is used to record the name of the Contractors Workers Comp Insurer.|
+   |**Policy Expiration Date**|The **Policy Expiration Date** is used to record the expiry date of the policy.|
+     
 [GoToTop](#how-to-setup-incorporated-companies)
     
-## Goods & Services Tax ( GST ) Overview
+## GST Overview
 
-Where contractors are operating through Incorporated Companies they will not have PAYG Tax deducted but will instead have GST calculated and added to their payment.
+Where contractors are operating through **Incorporated Companies** they will not have PAYG Tax deducted but will instead have **GST** calculated and added to their payment.
 
 On the **Tax** FastTab on the Payroll Employee Card, the Tax Scale No. should be changed to **GST**.
 
-To access the Employee Maintenance task go to the following menu: *Departments/Payroll/Employee Maintenance/Payroll Employees*
+To enter this information, go to the following menu: *Departments/Payroll/Employee Maintenance/Payroll Employees*
 
 [GoToTop](#how-to-setup-incorporated-companies)
 
 ## GST Transaction Type Setup
 
-A Transaction Code must be setup to represent GST. This code will be used in conjunction with the GST Tax scale when calculating contractor pays.
+A Transaction Code must be setup to represent **GST**. This code will be used in conjunction with the GST Tax scale when calculating contractor pays.
 
 **GST Accumulation Type** and **Accumulation Summary Type** options are used when setting up the GST transaction code to separate it from PAYG Tax.
 
@@ -85,7 +81,7 @@ The **GST Product Posting Group** field is used to reconcile the General Ledger 
 
 ## GST Calculation
 
-On the Pay Transaction Type setup card on the Parameters Tab, there is a **GST applicable** box that should be ticked for every code that should have GST applied. For wages type code, GST would apply, whereas for a reimbursement type code, GST may not apply.
+On the **Parameters** FastTab on the **Pay Transaction Type** card, there is a **GST applicable** box that should be ticked for every code that should have GST applied. For wages type code, GST would apply, whereas for a reimbursement type code, GST may not apply.
 
 To access the Pay Transaction Types task go to the following menu: *Departments/Payroll/Setup/Payroll Setup/General/Pay Transaction Types*
 
