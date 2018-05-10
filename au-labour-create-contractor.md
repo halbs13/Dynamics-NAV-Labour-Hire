@@ -378,11 +378,15 @@ You can access the Customer Card associated to each of the Resource Placement Al
 
 To access the Customer Card via the Resource Allocations Card click **Customer Card** icon on the **Navigate** ribbon.  
 
+[GoToTop](#how-to-setup-a-contractor)
+
 ### Resource Placement Allocations Job Card
 
 You can access the Job Card associated to each of the Resource Placement Allocations. 
 
 To access the Job Card via the Resource Allocations Card click **Job Card** icon on the **Navigate** ribbon.  
+
+[GoToTop](#how-to-setup-a-contractor)
   
 ### Resource Placement Allocations Rate Sets
 
