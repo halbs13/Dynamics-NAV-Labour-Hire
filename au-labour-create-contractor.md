@@ -150,7 +150,7 @@ Prior to setting up a contractor's record within Human Resources and Payroll, th
 
 4.  On the **Rate** FastTab, review the fields as described in the following table. 
 
-*Some information contained on this FastTab are for display purposes only and are not used within the Labour Hire environment as rates are typically attached to the Resource Allocation via the Order Rate Sets.* 
+*Some information contained on this FastTab are for display purposes only and are not used within the Labour Hire environment as rates are typically attached to the Resource Allocation via the Rate Sets (#resource-placement-allocation-rate-sets).* 
 
 |Field Name|Description|
 |-------------------------|-------------------------------------------------|	
@@ -279,7 +279,7 @@ This option is used to set up the Gross Pay Transaction Type and Allowances for 
 |**Pay Value**|This field is calculated using the Employee’s Hours in Full Week, Hourly Rate, Number of Days per week and their Pay Frequency.  The value in this field cannot be changed.|
 |**Apportion Cost**|This field indicates if the Allowance paid is apportioned to Jobs by the same ratio of hours worked on a job by the employee. An Allowance in this case is referring to a Pay Transactions Type with the Accumulation Type of **Allowance**.|
 |**Associated Transactions**|This field indicates if this Pay Transaction Type has associated transactions linked to it.|
-|**Not Used**|If this field is ticked the Pay Transaction Type is not applied to the “current” pay period only.  The flag will be reset for the next pay period.|
+|**Not Used**|If this field is ticked the Pay Transaction Type is not applied to the **current** pay period only.  The flag will be reset for the next pay period.|
 
 [GoToTop](#how-to-setup-a-contractor)
 
@@ -299,7 +299,7 @@ You access the Deductions from the Payroll Employee Card by clicking on the **De
 |**Standard Amount**|This field is used to enter the standard amount deducted from the employee's pay.|
 |**Standard %**|This field is used to enter a percentage of the employee's salary that is deducted.|
 |**Details**|This field is an additional description for the purpose of the deduction.|
-|**Total Deduction**|When the **LTD** amount equals the "Total Deduction" amount the deduction will stop.  When you wish to continue deducting the deduction enter zero in this field or increase the amount in this field by the amount you wish the deduction to be deducted.  This type of deduction is used for Pay Transaction Types such as employee loans.|
+|**Total Deduction**|When the **LTD** amount equals the **Total Deduction** amount the deduction will stop.  When you wish to continue deducting the deduction enter zero in this field or increase the amount in this field by the amount you wish the deduction to be deducted.  This type of deduction is used for Pay Transaction Types such as employee loans.|
 |**LTD Amount**|This field is used to display the Life to Date amount deducted for this deduction.  The life to date amount also controls the Total Deduction amount.|
 |**Not Used**|If this field is ticked the Pay Transaction Type is not applied to the **current** pay period only.  The flag will be reset for the next pay period.|
 
@@ -314,24 +314,23 @@ You access Superannuation from the Payroll Employee Card by clicking on the **Su
 |Field Name|Description|
 |-------------------------|-------------------------------------------------| 
 |**Superannuation Company Code**|This field is used to select the Superannuation Company Code.|
-|**Membership No.**|Enter the employee superannuation fund "Membership No."|
+|**Membership No.**|Enter the employee superannuation fund **Membership No.**|
 |**Date Joined Fund**|This field is used to enter the date the employee joined the fund.|
-|**Starting Date**|This date is used as the date contributions starts to be contributed for this fund|
-|**Ending Date**|This date is used as the date contributions stop to be contributed for this fund|
+|**Starting Date**|This date is used as the date contributions starts to be contributed for this fund.|
+|**Ending Date**|This date is used as the date contributions stop to be contributed for this fund.|
 |**Employer SGC Amt.**|The standard amount the employer will contribute.|
 |**Employer SGC %**|This field is used to determine the percentage the employer contributes calculated on the Employees Earnings or the amount Entered in the Base Salary field if not zero.  |
 |**Employer Factor**|The employer contributes a percentage of any employee contribution entered in the fields. |
 ||For example, if the Employer Factor is set to 0.50 then the Employer will contribute in addition half the contribution amount/percentage the employee contributes.|
-|**Employer Non-SGC Amt.**|This field is used when the Employer contributes an amount in addition to the Super Guarantee|
-|**Employer Non-SGC %**|This field is used when the Employer contributes a percentage in addition to the Super Guarantee|
-|**Employer Pre-Tax Standard Amt**|This field is used to enter the Pre Tax Employee Contribution amount|
+|**Employer Non-SGC Amt.**|This field is used when the Employer contributes an amount in addition to the Super Guarantee.|
+|**Employer Non-SGC %**|This field is used when the Employer contributes a percentage in addition to the Super Guarantee.|
+|**Employer Pre-Tax Standard Amt**|This field is used to enter the Pre Tax Employee Contribution amount.|
 |**Employee Pre-Tax Standard %**|This field is used to enter the Pre Tax Employee Contribution percentage.|
-|**Employee Post-Tax Std. Amt**|This field is used to enter the Post Tax Employee Contribution amount|
-|**Employee Post-Tax Standard %**|This field is used to enter the Post Tax Employee Contribution percentage used to calculate against Earnings|
-|**Per Day Worked Amount**|Enter the amount of the contribution to be made for each day the employee works|
+|**Employee Post-Tax Std. Amt**|This field is used to enter the Post Tax Employee Contribution amount.|
+|**Employee Post-Tax Standard %**|This field is used to enter the Post Tax Employee Contribution percentage used to calculate against Earnings.|
+|**Per Day Worked Amount**|Enter the amount of the contribution to be made for each day the employee works.|
 |**Minimum Salary Check**|If ticked the system checks the minimum salary earned for the month by the employee before contributions are made by the employee.|
-|**Base Salary**|This field is used to calculate the Employee SGC % on the value entered instead of on the Pay Transaction Types ticked "Apply to Super".  The amount is entered as the annual salary of the employee. If the "Base Salary" field is zero then the employee’s actual earnings are used to calculate the Amount.|
-|**Click “OK” after you have completed your selection.**||
+|**Base Salary**|This field is used to calculate the Employee SGC % on the value entered instead of on the Pay Transaction Types ticked **Apply to Super**.  The amount is entered as the annual salary of the employee. If the **Base Salary** field is zero then the employee’s actual earnings are used to calculate the Amount.|
  
 [GoToTop](#how-to-setup-a-contractor)
 
@@ -339,17 +338,16 @@ You access Superannuation from the Payroll Employee Card by clicking on the **Su
 
 The Accumulation Calculations area is where you can add or maintain any On Cost transactions used by your organisation if they are not already included on the Rate Set of a job.  
 
-You access Employer On Costs from the Payroll Employee Card by clicking on the “Accumulation Calculations/” on the “Navigate” ribbon.  
+You access Employer On Costs from the Payroll Employee Card by clicking on the **Accumulation Calculations** icon on the **Navigate** ribbon.  
  
 |Field Name|Description|
 |-------------------------|-------------------------------------------------| 
-|**Transaction Type Code**|Select the appropriate transaction type code from the “ArrowDown” in the field.|
-|**Start Date **|The “Start Date” field is used to specify the date at which the On Cost transaction is to commence.|
-|**End Date**|The “End Date” field is used to specify the date at which the On Cost transaction is to end.|
-|**Pay Rate**|The “Pay Rate” field is used to retain the calculation rate of the On Cost transaction.  This amount entered into this field should be expressed in decimal format.  E.g. If the value is 9.5%, it should be entered as 0.095.|
-|**Superannuation Code**|The “Superannuation Code” field is used to nominate the Contractor’s Superannuation code.  This is only applicable if this On Cost transaction relates to the SGC accrual.|
-|**Not Used**|If this field is ticked the Pay Transaction Type is not applied to the “current” pay period only.  The flag will be reset for the next pay period.|
-|**Click “OK” after you have completed your selection.**||
+|**Transaction Type Code**|Select the appropriate transaction type code from the **ArrowDown** in the field.|
+|**Start Date**|The **Start Date** field is used to specify the date at which the On Cost transaction is to commence.|
+|**End Date**|The **End Date** field is used to specify the date at which the On Cost transaction is to end.|
+|**Pay Rate**|The **Pay Rate** field is used to retain the calculation rate of the On Cost transaction.  This amount entered into this field should be expressed in decimal format.  E.g. If the value is 9.5%, it should be entered as 0.095.|
+|**Superannuation Code**|The **Superannuation Code** field is used to nominate the Contractor’s Superannuation code.  This is only applicable if this On Cost transaction relates to the SGC accrual.|
+|**Not Used**|If this field is ticked the Pay Transaction Type is not applied to the **current** pay period only.  The flag will be reset for the next pay period.|
 
 [GoToTop](#how-to-setup-a-contractor)
 
@@ -357,12 +355,12 @@ You access Employer On Costs from the Payroll Employee Card by clicking on the �
 
 The Resource Placement Allocations section of the Payroll Employee Card is used to view Job Allocations for the Contractor.
 
-You access the Resource Allocations from the Payroll Employee Card via the “Resource Allocations” on the “Navigate” ribbon.  
+You access the Resource Allocations from the Payroll Employee Card via the **Resource Allocations** icon on the **Navigate** ribbon.  
  
 |Field Name|Description|
 |-------------------------|-------------------------------------------------| 
 |**Placement No.**|This field displays the unique Placement No. for this allocation.  The Placement No. is used to link the contractor to the job and customer for a period of time.|
-|**Job No.**|This field displays the Job No. for this allocation.  |
+|**Job No.**|This field displays the Job No. for this allocation.|
 |**Job Task No.**|This field displays the Job Task. No. for this allocation.|
 |**Bill-to Customer No.**|This field displays the Customer No. for this allocation.|
 |**Bill-to Customer Name**|This field displays the Customer Name for this allocation.|
@@ -372,7 +370,6 @@ You access the Resource Allocations from the Payroll Employee Card via the “Re
 |**Contract Manager**|This field displays the Contract Manager of this allocation.|
 |**Contract Placer**|This field displays the Contract Placer of this allocation.|
 |**Required Monday to Required Sunday**|These fields identify what days the contractor is required for this allocation.|
-|**Click “OK” after you have completed your selection.**||
 
 [GoToTop](#how-to-setup-a-contractor)
 
@@ -380,22 +377,19 @@ You access the Resource Allocations from the Payroll Employee Card via the “Re
 
 You can access the Customer Card associated to each of the Resource Placement Allocations. 
 
-To access the Customer Card via the Resource Allocations Card click “Customer Card” on the “Navigate” ribbon.  
- 
+To access the Customer Card via the Resource Allocations Card click **Customer Card** icon on the **Navigate** ribbon.  
 
 ### Resource Placement Allocations Job Card
 
 You can access the Job Card associated to each of the Resource Placement Allocations. 
 
-To access the Job Card via the Resource Allocations Card click “Job Card” on the “Navigate” ribbon.  
-
+To access the Job Card via the Resource Allocations Card click **Job Card** icon on the **Navigate** ribbon.  
   
 ### Resource Placement Allocations Rate Sets
 
 You can access the Rate Sets associated to each of the Resource Placement Allocations. 
 
-To access the Rate Sets via the Resource Allocations Card click “Rate Sets” on the “Navigate” ribbon.
-
+To access the Rate Sets via the Resource Allocations Card click **Rate Sets** icon on the **Navigate** ribbon.
  
 |Field Name|Description|
 |-------------------------|-------------------------------------------------| 
@@ -410,8 +404,6 @@ To access the Rate Sets via the Resource Allocations Card click “Rate Sets” 
 |**Contract Manager**|This field displays the Contract Manager of this allocation.|
 |**Contract Placer**|This field displays the Contract Placer of this allocation.|
 |**Required Monday to Required Sunday**|These fields identify what days the contractor is required for this allocation.|
-|**Click “OK” after you have completed your selection.**||
-
 
 [GoToTop](#how-to-setup-a-contractor)
 
