@@ -40,7 +40,7 @@ A number series must be setup for Job records, regardless of whether the number 
 2. On the **Numbering** FastTab, fill the fields as described in the following table.  
 
     |Field|Description|  
-    |---------------------------------|---------------------------------------|  
+    |----------------------------------------|-------------------------------------------------------|  
     |**Job No.s**|Select the Job No. series from the **ArrowDown**.  If there is integration with AXiOM, the Job Numbers will be generated from within AXiOM and transfer into NAV, however this field should still be configured. **Note: The No. Series should be setup first.  You will need to create a new No. series if one does not exist.|  
        
 [GoToTop](#how-to-setup-resources-and-jobs)
