@@ -53,8 +53,8 @@ To access the Employee Maintenance task go to the following menu: *Departments/P
 
 The following fields need to be entered:
 
- |Field Name |Description|
- |---------------------------------|---------------------------------------------|
+ |Field Name|Description|  
+ |---------------------------------|---------------------------------------|  
  |**Workers Comp Policy No.** |The **Workers Comp Policy No.** is used to  record a Contractors policy number.|
  |**Workers Comp Insurer** | The **Workers Comp Insurer** is used to record the name of the Contractors Workers Comp Insurer.|
  |**Policy Expiration Policy**|The **Policy Expiration Date** is used to record the expiry date of the policy.|
@@ -79,7 +79,7 @@ A Transaction Code must be setup to represent GST. This code will be used in con
 
 To access the Pay Transaction Types task go to the following menu: *Departments/Payroll/Setup/Payroll Setup/General/Pay Transaction Types*
 
-The GST Product Posting Group field is used to reconcile the General Ledger Account used for GST. This is the only transaction type that will be setup with a GST Product Posting Group instead of a transaction posting group.
+The **GST Product Posting Group** field is used to reconcile the General Ledger Account used for **GST**. This is the only transaction type that will be setup with a **GST Product Posting Group** instead of a transaction posting group.
 
 [GoToTop](#how-to-setup-incorporated-companies)
 
@@ -89,7 +89,7 @@ On the Pay Transaction Type setup card on the Parameters Tab, there is a **GST a
 
 To access the Pay Transaction Types task go to the following menu: *Departments/Payroll/Setup/Payroll Setup/General/Pay Transaction Types*
 
-GST needs to be setup on the **Payroll Setup**card and mapped to **GST Tax Tran Type**.
+GST needs to be setup on the **General** FastTab on the **Payroll Setup**card and mapped to **GST Tax Tran Type**.  
  
 To access the Payroll Control Setup task go to the following menu: *Departments/Payroll/Setup/Payroll Setup/Payroll Controls/Payroll Setup*
 
