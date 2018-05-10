@@ -14,72 +14,67 @@ This document will contain information relating to Permanent Placements/Requirem
 
 ## PERMANENT PLACEMENT OVERVIEW
 Permanent Placements are candidates who apply for positions advertised by recruitment agencies on behalf of their clients with the intention of being permanently placed.
+
 Permanent Placement records can be setup from within the Placement Entry area of the Labour Hire module with information such as the expected salary the candidate will receive, placement fees, the guarantee period and placement fee information. 
  
 [GoToTop](#how-to-create-permanent-placements)
 
 ## Fee Types
 Fee Types are setup to identify where the revenue for the fees will post to within the General Ledger.
-To setup the Fee Types go to the following menu:
 
-*Departments/Payroll/Setup/Labour Hire/Administration/Fee Types* 
+1. In the **Search** box, enter **Fee Types**, and then choose the related link. Or go to the following menu: *Departments/Payroll/Setup/Labour Hire/Administration/Fee Types*  
 
-[GoToTop](#how-to-create-permanent-placements)
+2. On the **General** FastTab, fill the fields as described in the following table.
 
-### “Edit – Fee Types” window 
 |Field Name |Description|
 |----------------------------------------|--------------------------------------------------------------------|
-|**Code** | This field is used to setup a unique code for the Fee Type.|
-|**Description**| This field is used to describe the Fee Type.|
-|**Fee Type**| This field is used to identify whether the Fee Type is a Placement Fee or Requirement Fee.|
-|**G/L Account No.**| This field is used to specify the General Ledger Account|
+|**Code** |This field is used to setup a unique code for the Fee Type.|
+|**Description**|This field is used to describe the Fee Type.|
+|**Fee Type**|This field is used to identify whether the Fee Type is a Placement Fee or Requirement Fee.|
+|**G/L Account No.**|This field is used to specify the General Ledger Account.|
 
 [GoToTop](#how-to-create-permanent-placements)
-
 
 ## Permanent Placement Setup
 Permanent Placement records are setup within the Placement Entry area of the Labour Hire module.  The following FastTabs are used when creating a new Permanent Placement record:
+
 - Client (Customer) FastTab
 - Perm Placement FastTab
  
 Upon transferring data from this area, the following records are created within various areas of Dynamics NAV:
+
 - Resource Card
 - Job Card
 - Job Placement Fee
 - Customer Card 
 
-To setup a Permanent Placement record within Placement Entry, go to the following menu:
+1. In the **Search** box, enter in **Placement Entry**, and then choose the related link.  Or go to the following menu: *Departments/Labour Hire/Candidate Processing/Placement Entry* 
 
-*Departments/Labour Hire/Candidate Processing/Placement Entry* 
+To create a new record, select the **New** icon on the **Home** ribbon.
 
-To create a new record, select the “New” icon on the Home ribbon.
-
-[GoToTop](#how-to-create-permanent-placements)
-
-### New – Placement Entry window 
+2.  On the **Client** FastTab, fill the fields as described int he following table.
 
 |Field Name|Description|
 |-------------------------|----------------------------------------------------------------------------------------|
-|**CLIENT FASTTAB**|
-|**Customer No.** |From the “ArrowDown” button, select the customer No. from the Customer List.
-||If the Customer exists within the list, then the following fields will be available for editing, otherwise to create a new customer you will need to complete the following fields.|
-|**Name** |This field is used to record the Customer’s name.  |
+|**Customer No.** |From the **ArrowDown** button, select the customer No. from the Customer List.  If the Customer exists within the list, then the following fields will be available for editing, otherwise to create a new customer you will need to complete the following fields.|
+|**Name** |This field is used to record the Customer’s name.|
 |**Name 2** |This field is used to record the Customer’s Name if the first field is not long enough to record the Customer’s full name.|
 |**A.B.N** |This field is used to record the Customer’s Australian Business Number (A.B.N)|
 |**Address** |This field is used to record the physical address of the Customer.|
 |**Address 2** |This field is used to record the additional address information for the Customer if the first field is not long enough to record the Customer’s address.|
-|**City** |From the “ArrowDown” button, select the City.|
-|**Post Code** |From the “ArrowDown” button, select the Post Code.|
-||If you select the “City” first, the Post Code will populate from the Post Code table.|
-|**Country** |From the “ArrowDown” button, select the Country code.|
+|**City** |From the **ArrowDown** button, select the City.|
+|**Post Code** |From the **ArrowDown** button, select the Post Code. If you select the **City** first, the Post Code will populate from the Post Code table.|
+|**Country** |From the **ArrowDown** button, select the Country code.|
 |**Contact No.** |This field is used to record the phone number of the Contact of the Customer.|
 |**Contact** |This field is used to record the Contact’s Name of the Customer.|
 |**Phone No.** |This field is used to record the Customer’s Phone No.|
 |**Fax No.** |This field is used to record the Customer’s Fax No.|
 |**E-Mail:** |This field is used to record the Customer’s E-Mail address.|
-|**Contract Invoice Details** ||
-|**Bill-to-Customer No.** |This field is populated if this customer transactions are being billed to another Customer.|
-||An example of where this is implemented is when a Customer has multiple locations and they are setup as separate customers, however their invoicing and other statements are sent to a Head Office.|
+
+3.  In the **Contract Invoice Details Section** of the **Clients*** FastTab, fill the fields as described int he following table.
+|Field Name|Description|
+|-------------------------|----------------------------------------------------------------------------------------|
+|**Bill-to-Customer No.** |This field is populated if this customer transactions are being billed to another Customer.  An example of where this is implemented is when a Customer has multiple locations and they are setup as separate customers, however their invoicing and other statements are sent to a Head Office.|
 |**Payment Terms Code** |This field is used to record the Payment Terms.|
 |**Customer Invoicing Frequency** |This field is used to record the frequency in which the customer is invoiced.  The following options are available;|
 ||·         Weekly |
