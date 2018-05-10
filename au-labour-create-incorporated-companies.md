@@ -7,7 +7,7 @@ following sections:
 - [Incorporated Company Flag Identification](#incorporated-company-flag-identification)
 - [Company Details](#company-details)
 - [Workers Compensation Policies](#workers-compensation-policies)
-- [Goods & Services Tax (GST) Overview](#gst-overview)
+- [GST Overview](#gst-overview)
 - [GST Transaction Type Setup](#gst-transaction-type-setup)
 - [GST Calculation](#gst-calculation)
 
@@ -54,7 +54,8 @@ To enter this information, go to the following menu: *Departments/Payroll/Employ
    |**Workers Comp Policy No.**|The **Workers Comp Policy No.** is used to record a Contractors policy number.|
    |**Workers Comp Insurer**|The **Workers Comp Insurer** is used to record the name of the Contractors Workers Comp Insurer.|
    |**Policy Expiration Date**|The **Policy Expiration Date** is used to record the expiry date of the policy.|
-     
+
+
 [GoToTop](#how-to-setup-incorporated-companies)
     
 ## GST Overview
