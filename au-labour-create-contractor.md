@@ -18,30 +18,36 @@ This document will contain information relating to Contractor setup and contains
 # CONTRACTOR OVERVIEW
 
 ## Resources Card
-Prior to setting up a contractor on the HR and Payroll Employee cards, the contractor must be created as a Resource so that he can be assigned to a job.  The Jobs module will use Resource details when generating Job Ledger Entries which are in turn used for invoicing.
-To access the Resource Card, go to the following menu:
+Prior to setting up a contractor on the HR and Payroll Employee cards, the contractor must be created as a Resource so that he can be assigned to a job.  The Jobs module will use Resource details when generating **Job Ledger Entries** which are in turn used for invoicing.
 
-*Departments/Labour Hire/Candidate Processing/Resources*
+1. In the **Searh** box, enter in **Resources**, and then choose the related link.  Or go to the following menu: *Departments/Labour Hire/Candidate Processing/Resources*
 
-[GoToTop](#how-to-setup-a-contractor)
+2. On the **General** FastTab, fill the fields as described in the following table.
 
-### Edit - Resource Card window 
+### Resource Card 
 
-The following fields will be populated by the interface and will only discuss those fields which are specific to standard Labour Hire:
+The following fields will be populated by Placement Entry or the Interface.  This section will only discuss those fields which are specific to standard Labour Hire:
 
 |Field Name|Description|
 |----------------------------------|-------------------------------------------------------------|
-|**GENERAL FASTTAB**||
 |**Resource No.**|The Contractor is identified with this number throughout the Human Resources and Payroll granules.|
 |**Name**|This field is used to retain the Contractor’s First and Last names.  This name will appear on the invoices.|
 |**Type**|This field identifies what type of Resource it is.  The options available are “Person” or “Machine”|
 |**Base Unit of Measure**|This field specifies the base unit that is used to measure the resource.  The entry appears on the sales line or the journal lines when you enter the resource number in the No. field.|
 |**Search Name**|The “Search Name: is not a mandatory field and required for searching purposes only.|
-|**INVOICING FASTTAB**||
+
+3. On the **Invoicing** FastTab, fill the fields as described in the following table.
+
+|Field Name|Description|
+|----------------------------------|-------------------------------------------------------------|
 |**Gen. Prod. Posting Group**|This field is used to specify the general ledger accounts that are posted in combination with the general business posting groups when sales are posted.|
 |**GST. Prod. Posting Group**|This field is used to specify the GST product posting groups to which this resource belongs.|
 ||When you post transactions that involved this resource, this code is used in combination with a GST business posting group code in the GST Posting Setup window.  The GST Posting Setup window specifies the GST accounts that are posted to.|
-|**PERSONAL DATA FASTTAB**||
+
+4. On the **Personal Data** FastTab, fill the fields as described in the following table.
+
+|Field Name|Description|
+|----------------------------------|-------------------------------------------------------------|
 |**Job Title**|This field is used to specify the person’s job title.  |
 |**Address**|This field is used to specify the address or location of the resource.|
 |**Address 2**|Used if there is not enough space on the Address field.|
@@ -50,7 +56,6 @@ The following fields will be populated by the interface and will only discuss th
 |**County**|This field is used to specify the County of the address or location of the resource.|
 |**Social Security No.**|This field is used to specify the person’s social security no. or the machine’s serial number.|
 |**Employment Date**|This field is used to specify the date on which the person began working for you or the date on which the machine was placed in service.|
-|**Click “OK” after you have completed your selection.**||
 
 [GoToTop](#how-to-setup-a-contractor)
 
