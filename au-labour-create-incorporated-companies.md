@@ -14,7 +14,7 @@ following sections:
 ## Incorporated Company Overview
 
 Contractors that operate through Incorporated Companies can be processed through the Labour Hire module. These contractors are
-maintained and paid using the Payroll system and are setup as per PAYG type contractors with some differences which will be outlined in this document.
+maintained and paid using the Payroll system and are setup as per **PAYG** type contractors with some differences which will be outlined in this document.
 
 [GoToTop](#how-to-setup-incorporated-companies)
 
@@ -32,9 +32,9 @@ When setting up a new contractor that operates through an Incorporated Company, 
      
 ## Company Details
 
-The Contractor Company Name and A.B.N fields are located on the Declaration Tab of the Payroll Employee card.
+The Contractor Company Name and A.B.N fields are located on the **Declaration** FastTab of the **Payroll Employee card**.
 
-To access the Employee Maintenance task go to the following menu: *Departments/Payroll/Employee Maintenance/Payroll Employees*
+To access the Employee Maintenance task, go to the following menu: *Departments/Payroll/Employee Maintenance/Payroll Employees*
 
 [GoToTop](#how-to-setup-incorporated-companies)
 
