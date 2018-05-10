@@ -18,7 +18,7 @@ maintained and paid using the Payroll system and are setup as per PAYG type cont
 
 [GoToTop](#how-to-setup-incorporated-companies)
 
-## Incorporated Company Flag Identifications
+## Incorporated Company Flag Identification
 
 An **Incorporated Company** option is available as an Employment Basis from within the Employee Type. 
 
@@ -54,7 +54,7 @@ To access the Employee Maintenance task go to the following menu: *Departments/P
 The following fields need to be entered:
 
  |Field Name | Description
- |--------------------------------------------------------------- | --------------------------------------------------------------|
+ |------------------------------------------- | --------------------------------------------------------------|
  |**Workers Comp Policy No.** |The **Workers Comp Policy No.** is used to  record a Contractors policy number.|
  |**Workers Comp Insurer** | The **Workers Comp Insurer** is used to record the name of the Contractors Workers Comp Insurer.|
  |**Policy Expiration Policy**|The **Policy Expiration Date** is used to record the expiry date of the policy.|
