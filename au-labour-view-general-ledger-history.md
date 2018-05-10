@@ -5,18 +5,19 @@ General Ledger records can be viewed in various forms.  This section outlines so
 
 # GENERAL LEDGER RECORDS
 
-After Payroll and Invoice transactions have been posted, information can be viewed from within the General Ledger by Account, Date, Global Dimension 1 and 2.
+After Payroll and Invoice transactions have been posted, information can be viewed from within the General Ledger by;
+- Account, 
+- Date, 
+- Global Dimension 1 and 2.
 
 ## Viewing Balances by Dimensions
 
-To view balanced by Dimension for all G/L accounts for a single period, go to:
+To view balanced by Dimension for all G/L accounts for a single period, go to: *Departments/Financial Management/General Ledger/Chart of Accounts8
 
-Departments/Financial Management/General Ledger/Chart of Accounts
-
-*Click G/L Balance by Dimension   from the Navigate Tab*
+Select the **G/L Balance by Dimension** icon, from the Navigate Tab
 
 |Field Name|Description|
-|-----------------------------------------------------------|----------------------------------------------------------------------------------------|
+|--------------------------|----------------------------|
 |**GENERAL FASTTAB**||
 |**Show as Lines**|This field is used to select the rows that will be displayed on the matrix.  Select the appropriate option from the “ArrowDown”.  |
 |**Show As Columns**|This field is used to select the columns that will be displayed on the matrix. Select the appropriate option from the “ArrowDown”. |
