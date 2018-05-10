@@ -1,6 +1,6 @@
 # How to process an internal payroll in Labour Hire
 
-This document will contain information relating to Internal Payroll Processing encompassing the following sections:
+This section contains information relating to Internal Payroll Processing:
 
 - [Entering New Employees](#entering-new-employees)
   - [Employee Card](#edit-employee-card)
@@ -20,60 +20,44 @@ This document will contain information relating to Internal Payroll Processing e
 
 All internal staff will be entered into the Human Resources and Payroll modules of Dynamics NAV.
 
-
 # PROCESS SUMMARY:
 
 ## Entering New Employees
 
-1.	Receive employee application and relevant details to enter into Dynamics NAV. 
-2.	Enter new employee information into the Human Resources module. 
-
-To access the Employee Maintenance task, go to the following menu:
-
-*Departments/Payroll/Employee Maintenance/Employees*
- 
-
-- Enter the new employee into the Payroll module. To access the Employee Maintenance task Click the “Payroll Employee Card” button or go to the following menu: 
-
-Departments/Payroll/Employee Maintenance/Payroll Employees
- 
-- Enter in Bank Details. To access the Bank Details task, Click the “Pay Dissections” task icon. 
-- Enter in Pay Rates in as an hourly rate. To access the Bank Details task, Click the “Pay Rates” task icon. 
-- Enter in Permanent Pay and Allowances. To access the Pay and Allowances task, Click the “Gross & Allowances” task icon. 
-- Enter in Permanent Deductions. To access the Deductions task, Click the “Deductions” task icon. 
-- Enter in Superannuation Fund. To access the Superannuation task, Click the “Superannuation” task icon. 
-- Enter in Employer On Costs such as Payroll Tax. To access the Employer On Costs task, Click the “Accumulation Calculations” and select   the “Employer On Costs” task icon. 
-- Review and Add new leave accrual types such as Annual Leave , Sick Leave and Long Service Leave. To access the Leave Accrual task,       Click the “Accruals” task icon.  
-- After you have completed these steps, you are then ready to process pays.
+1.	Receive employee application and enter relevant details into Dynamics NAV. 
+2.	Enter new employee information into the Human Resources module.  Go to the following menu: *Departments/Payroll/Employee Maintenance/Employees*
+3.  Enter the new employee into the Payroll module. Go to the following menu: *Departments/Payroll/Employee Maintenance/Payroll Employees*
+4.  Enter in Bank Details. To access the Bank Details task, select the **Pay Dissections** icon. 
+5.  Enter in Pay Rates in as an hourly rate. To access the Bank Details task, select the **Pay Rates** icon. 
+6.  Enter in Permanent Pay and Allowances. To access the Pay and Allowances task, select the **Gross & Allowances** icon. 
+7.  Enter in Permanent Deductions. To access the Deductions task, select the **Deductions** icon. 
+8.  Enter in Superannuation Fund. To access the Superannuation task, select the **Superannuation** icon. 
+9.  Enter in Employer On Costs such as Payroll Tax. To access the Employer On Costs task, select the **Accumulation Calculations** and select the **Employer On Costs** icon. 
+10. Review and Add new leave accrual types such as Annual Leave , Sick Leave and Long Service Leave. To access the Leave Accrual task,       select the **Accruals** task icon.  
+11. After you have completed these steps, you are then ready to process pays.
 
 [GoToTop](#how-to-process-an-internal-payroll-in-labour-hire)
 
 ## Processing Pays
 
-- Receive timesheets including Leave and /or pay adjustments for employees.
-- Go into *Departments/Payroll/Payroll Processing/Payroll Selection* and select the payroll you wish to work in (note this is optional).
-- Go into *Departments/Pay Journal/Pay Processing/Pay Journal* and enter in the leave adjustments. After completing entering               adjustments, select the “Calculate Pays” function.
-- In the Pay Journal - Select “Calculate Pays” to calculate your pays and “Enter the Pay Date“ and select “OK”. 
-- Then run the “Entry Validation Report” , select print preview to check for errors and warnings on the screen, when all clear, Print. 
-- Then select “Create Bank Transfer File” to create an EFT file. This can be saved to a file path. A “Bank Transfer Listing” report will   print automatically at this stage. This should be filed with the “Entry Validation Report”.
-- Then select “Post”. This will post the pays into the payroll history areas and print payslips. 
+1.  Receive timesheets including Leave and /or pay adjustments for employees.
+2.  Go into *Departments/Payroll/Payroll Processing/Payroll Selection* and select the payroll you wish to work in (note this is optional).
+3.  Go into *Departments/Pay Journal/Pay Processing/Pay Journal* and enter in the leave adjustments. After completing entering               adjustments, select the **Calculate Pays** function.  Enter the **Pay Date** and select **OK**. 
+5.  Run the **Entry Validation Report** , select print preview to check for errors and warnings on the screen, when all clear, **Print the report**. 
+6.  Select **Create Bank Transfer File** to create an EFT file. This can be saved to a file path. The **Bank Transfer Listing** report will print automatically at this stage. This should be filed with the **Entry Validation Report**.
+7.  Select **Post**. This will post the pays into the payroll history areas and print payslips. 
 
-
-After posting of the journal has occurred, you will be asked if you want to close the pay period. You can leave this open if there are and additional adjustments that may need to be processed in this period, otherwise, you can close the period, ready for the next period. 
+After posting of the journal has occurred, you will be asked if you want to close the pay period. You can leave this open if there are any additional adjustments that may need to be processed in this period, otherwise, you can close the period, ready for the next period. 
 
 [GoToTop](#how-to-process-an-internal-payroll-in-labour-hire)
 
-# PAY PROCESS DETAIL
+# PROCESS DETAIL
 
 ## Entering New Employees – Human Resources Module
 
-To access the Employee Maintenance task, go to the following menu:
-
-*Departments/Payroll/Employee Maintenance/Employees* 
+1. To access the Employee Maintenance task, go to the following menu: *Departments/Payroll/Employee Maintenance/Employees* 
  
 Click on the “New” button. The cursor will be on the ‘Employee No’ on the General Tab. Press ‘OK’, NAV will allocate the New Employee number. Proceed to complete the following details.
-
-[GoToTop](#how-to-process-an-internal-payroll-in-labour-hire)
 
 ### Edit Employee Card
 
