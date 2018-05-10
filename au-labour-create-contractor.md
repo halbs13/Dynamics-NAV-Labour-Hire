@@ -31,7 +31,7 @@ Prior to setting up a contractor's record within Human Resources and Payroll, th
 |**Resource No.**|The Contractor is identified with this number throughout the Human Resources and Payroll granules.|
 |**Name**|This field is used to retain the Contractor’s First and Last names.  This name will appear on the invoices.|
 |**Type**|This field identifies what type of Resource it is.  The options available are **“Person”** or **“Machine”**.|
-|**Base Unit of Measure**|This field specifies the base unit that is used to measure the resource.  The entry appears on the sales line or the journal lines when you enter the resource number in the No. field.|
+|**Base Unit of Measure**|This field specifies the base unit that is used to measure for the resource.  The entry appears on the sales line or the journal lines when you enter the resource number in the No. field.|
 |**Search Name**|The **“Search Name"** is not a mandatory field and required for searching purposes only.|
 
 3. On the **Invoicing** FastTab, fill the fields as described in the following table.
