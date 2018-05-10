@@ -320,8 +320,7 @@ You access Superannuation from the Payroll Employee Card by clicking on the **Su
 |**Ending Date**|This date is used as the date contributions stop to be contributed for this fund.|
 |**Employer SGC Amt.**|The standard amount the employer will contribute.|
 |**Employer SGC %**|This field is used to determine the percentage the employer contributes calculated on the Employees Earnings or the amount Entered in the Base Salary field if not zero.  |
-|**Employer Factor**|The employer contributes a percentage of any employee contribution entered in the fields. |
-||For example, if the Employer Factor is set to 0.50 then the Employer will contribute in addition half the contribution amount/percentage the employee contributes.|
+|**Employer Factor**|The employer contributes a percentage of any employee contribution entered in the fields.  For example, if the Employer Factor is set to 0.50 then the Employer will contribute in addition half the contribution amount/percentage the employee contributes.|
 |**Employer Non-SGC Amt.**|This field is used when the Employer contributes an amount in addition to the Super Guarantee.|
 |**Employer Non-SGC %**|This field is used when the Employer contributes a percentage in addition to the Super Guarantee.|
 |**Employer Pre-Tax Standard Amt**|This field is used to enter the Pre Tax Employee Contribution amount.|
