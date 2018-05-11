@@ -553,11 +553,14 @@ The types of information you may update on the Customer Card are:
 This section outlines examples of where information should be updated based on the type of change it it.  
 
 - [Placement Entry](#placement-entry)
+  - [Extending a Contract](#extending-a-contract)
+  - [Updating Rateset](#updating-ratesets)
  
 - [Non Placement Entry](#non-placement-entry)
+  - [Employee/Contractor Terminates](#contractor-terminates)
+  - [Transfer from PAYG Contractor to Company](#transfer-from-payg-to-company)
 
-
-### Placement Entry
+## Placement Entry
 Placement Entry is used to update information relating to the Job and the Ratesets.  These areas are;
 
 - [Extending a Contract](#extending-a-contract)
@@ -608,7 +611,7 @@ Once you retrieve the Customer record, there will be some “greyed” out field
 There is other maintenance which are performed directly on the card.  Some of the examples of these updates are:
 
 - [Employee/Contractor Terminates](#contractor-terminates)
-- [Transfer from PAYG Contractor to Company](#transfer-from-payg-contractor-to-company)
+- [Transfer from PAYG Contractor to Company](#transfer-from-payg-to-company)
 
 ### Contractor Terminates
 If an Employee/Contractor terminates employment then the updates should occur as follows:
@@ -631,13 +634,13 @@ If an Employee/Contractor transfers from being a PAYG Contractor to an Incorpora
 
 
 1. Update the following FastTabs on the Payroll Employee Card:
-   * General FastTab – Employee Type Code – update this from PAYG to Incorporated Company.
-   * Tax FastTab – Tax Scale – update the Tax Scale value to be GST.
-   * Declaration FastTab
+   * **General** FastTab – Employee Type Code – update this from PAYG to Incorporated Company.
+   * **Tax** FastTab – Tax Scale – update the Tax Scale value to be GST.
+   * **Declaration** FastTab
      * A.B.N – update the A.B.N accordingly,
      * Incorporated Company Name – update the Incorporated Company Name.
-   * Work Cover FastTab – Enter in the Workers Comp Insurer, Policy No. and Policy Expiration Date   
+   * **Work Cover** FastTab – Enter in the Workers Comp Insurer, Policy No. and Policy Expiration Date   
 
-2. You may also need to update the Rateset details on the Job so you will need to perform this via Placement Entry using the same process as described in the previous section.
+2. You may also need to update the [Rateset](#updating-ratesets) details on the Job so you will need to perform this via Placement Entry using the same process as described in the previous section.
 
 [GoToTop](#how-to-create-placements-in-placement-entry)
