@@ -246,7 +246,9 @@ The types of information you will update on the Resource Card will be discussed 
 |**Post Code**|It is not necessary to update this field in the Resource Card as it is not currently used in the Labour Hire module.|
 |**City**|It is not necessary to update this field in the Resource Card as it is not currently used in the Labour Hire module.|
 |**Employment Date**|It is not necessary to update this field in the Resource Card as it is not currently used in the Labour Hire module.|
- 
+
+[GoToTop](#how-to-create-placements-in-placement-entry)
+[GoToRecordMaintenance](#record-maintenance) 
 
 ## Employee Card
 The types of information you will update on the Employee Card will be discussed in this section.  It will not contain an explanation of all fields only those relative to the Labour Hire module.
@@ -281,82 +283,63 @@ The types of information you will update on the Employee Card will be discussed 
 
 6.  On the **Personal** FastTab, update the fields as described in the following table.
 
-|Field|Description|
-|------------------------------------------|--------------------------------------------------------------------|
-|**PERSONAL FASTTAB**||
-|**Birth Date**|This is a mandatory field. |
-||The Birth Date is used in the calculation of Superannuation.  The Birth Date must be over 13 & 9 Months.|
- 
+|Field Name|Description|
+|---------------------------------------------|---------------------------------------------------------------------|
+|**Birth Date**|This is a mandatory field. The Birth Date is used in the calculation of Superannuation.  The Birth Date must be over 13 & 9 Months.|
+
+[GoToTop](#how-to-create-placements-in-placement-entry)
+[GoToRecordMaintenance](#record-maintenance) 
 
 ## Payroll Employee Card
 The types of information you will update on the Payroll Employee Card will be discussed in this section.  It will not contain an explanation of all fields only those relative to the Labour Hire module.
 
-To access the Payroll Employee Card, go to the following menu:
+1.  To access the Payroll Employee Card, go to the following menu: *Departments/Labour Hire/Candidate Processing/Payroll Employees*
 
-*Departments/Labour Hire/Candidate Processing/Payroll Employees*
- 
-### Edit – Payroll Employee Card window 
+2.  Search the Contractor's Employee No. on the **No.** field on the **Payroll Employee Card**.
 
+3.  On the **General** FastTab, update the fields as described in the following table.
 
-|Field|Description|
-|------------------------------------------|--------------------------------------------------------------------|
-|**GENERAL FASTTAB**||
-|**First Name**|The First Name field displays on all Payroll and Employee related reports for the Employee/Contractor.|
-||If you update the Employee Card, the relevant fields will also be updated in the Payroll Employee card and vice versa.|
-|**Last Name**|The Last Name field displays on all Payroll and Employee related reports for the Employee/Contractor.|
-||If you update the Employee Card, the relevant fields will also be updated in the Payroll Employee card and vice versa.|
-|**Address**|The Address field displays on all relevant Payroll and Employee reports for the Employee/Contractor.|
-||If you update the Employee Card, the relevant fields will also be updated in the Payroll Employee card and vice versa.|
-|**Post Code, City, County, Country/Region Code**|These fields display on all relevant Payroll and Employee reports for the Employee/Contractor.|
-||If you update the Employee Card, the relevant fields will also be updated in the Payroll Employee card and vice versa.|
-|**Employee Type Code**|The Employee Type code field determines what type of Payment Summary the Employee/Contractor will receive.|
-|****|An example of when you might update this field is if an employee is changing from a PAYG Contractor to Incorporated Company.|
-|**Payment Method**|The Payment Method field determines how the employee will be paid.|
-||An example of when you might update this field is if an employee has not supplied banking details.|
-|**Payroll No.**|The Payroll No. determines the frequency in which an employee is paid.|
-||An example of when you might update this field is when an employee is changed from being paid on a weekly basis to monthly.|
+|Field Name|Description|
+|---------------------------------------------|---------------------------------------------------------------------|
+|**First Name**|The First Name field displays on all Payroll and Employee related reports for the Employee/Contractor.  If you update the Employee Card, the relevant fields will also be updated in the Payroll Employee card and vice versa.|
+|**Last Name**|The Last Name field displays on all Payroll and Employee related reports for the Employee/Contractor.  If you update the Employee Card, the relevant fields will also be updated in the Payroll Employee card and vice versa.|
+|**Address**|The Address field displays on all relevant Payroll and Employee reports for the Employee/Contractor.  If you update the Employee Card, the relevant fields will also be updated in the Payroll Employee card and vice versa.|
+|**Post Code, City, County, Country/Region Code**|These fields display on all relevant Payroll and Employee reports for the Employee/Contractor.  If you update the Employee Card, the relevant fields will also be updated in the Payroll Employee card and vice versa.|
+|**Employee Type Code**|The Employee Type code field determines what type of Payment Summary the Employee/Contractor will receive.  An example of when you might update this field is if an employee is changing from a PAYG Contractor to Incorporated Company.|
+|**Payment Method**|The Payment Method field determines how the employee will be paid.  An example of when you might update this field is if an employee has not supplied banking details.|
+|**Payroll No.**|The Payroll No. determines the frequency in which an employee is paid.  An example of when you might update this field is when an employee is changed from being paid on a weekly basis to monthly.|
 |**Timesheet Reminders**|The Timesheet Reminders field identifies that this Employee/Contractor will receive timesheet reminders.|
-|**E-Mail Pay Advice/E-Mail Payment Summaries**|These fields determine if the Employee/Contractor will receive their pay advices and payment summaries by E-Mail.|
-||If you are selecting this field for the first time, you must ensure that the E-Mail address is populated on the Employee Card.|
+|**E-Mail Pay Advice/E-Mail Payment Summaries**|These fields determine if the Employee/Contractor will receive their pay advices and payment summaries by E-Mail.  If you are selecting this field for the first time, you must ensure that the E-Mail address is populated on the Employee Card.|
 
+4.  On the **Posting** FastTab, update the fields as described in the following table.
 
-|Field|Description|
-|------------------------------------------|--------------------------------------------------------------------|
-|**POSTING FASTTAB**||
+|Field Name|Description|
+|---------------------------------------------|---------------------------------------------------------------------|
 |**Branch**|This field is used to record the Branch that the Employee/Contractor is employed it.|
 |**Division**|This field is used to record the Division that the Employee/Contractor is employed it.|
 
+5.  On the **Tax** FastTab, update the fields as described in the following table.
 
-|Field|Description|
-|------------------------------------------|--------------------------------------------------------------------|
-|**TAX FASTTAB**||
-|**Tax Scale No.**|This field is used to record the Tax Scale No. as nominated by the Employee/Contractor.|
-||Click on the “ArrowDown” button to select the appropriate Tax Scale.|
+|Field Name|Description|
+|---------------------------------------------|---------------------------------------------------------------------|
+|**Tax Scale No.**|This field is used to record the Tax Scale No. as nominated by the Employee/Contractor.  Click on the **ArrowDown** button to select the appropriate Tax Scale.|
 |**HELP Debt**|This field is used to record if the Employee/Contractor has a HELP Debt.|
 |**Student Loan (SFSS)**|This field is used to record if the Employee/Contractor has a Student Loan.|
-|**Fixed Tax Rate Applicable**|This field is used to record if the Employee/Contractor has a Fixed Tax Rate.  |
-||If you check this box, you will be able to update the following fields;|
-||·         Fixed Tax Rate Valid Until Date|
-||·         Fixed Tax Rate|
+|**Fixed Tax Rate Applicable**|This field is used to record if the Employee/Contractor has a Fixed Tax Rate. If you check this box, you will be able to update the following fields; - Fixed Tax Rate Valid Until Date, - Fixed Tax Rate.|
 |**Fixed Tax Rate Valid Until Date**|This field is used to record the Date the Fixed Tax Rate is valid until.|
 |**Fixed Tax Rate**|This field is used to record the Fixed Tax Rate.  If it is 20%, then enter in 20.00.|
 |**Medicare Reduction Applicable**|This field is used to record if the Medicare Reduction is applicable for the  Employee/Contractor. |
 |**Number of Dependants**|This field is used to record the number of dependants the Employee/Contractor has.|
 |**Payroll Tax Exempt**|This field is used to record if the wages for this Employee/Contractor are exempt from Payroll Tax.|
-|**G.S.T Exempt**|This field is used to record if the wages for this Employee/Contractor are exempt from GST. |
-||This information is only applicable for Employee/Contractor’s who operate as Incorporated Companies.|
-|**Inc. Company Tax Inv. Not Req**|This field is used to record if a Tax Invoice is not required from the Employee/Contractor.|
-||This information is only applicable for Employee/Contractor’s who operate as Incorporated Companies.|
+|**G.S.T Exempt**|This field is used to record if the wages for this Employee/Contractor are exempt from GST. This information is only applicable for Employee/Contractor’s who operate as Incorporated Companies.|
+|**Inc. Company Tax Inv. Not Req**|This field is used to record if a Tax Invoice is not required from the Employee/Contractor.  This information is only applicable for Employee/Contractor’s who operate as Incorporated Companies.|
 
+6.  On the **Declaration** FastTab, update the fields as described in the following table.
 
-|Field|Description|
-|------------------------------------------|--------------------------------------------------------------------|
-|**DECLARATION FASTTAB**||
+|Field Name|Description|
+|---------------------------------------------|---------------------------------------------------------------------|
 |**Resident**|This field is used to record if the Employee/Contractor is a resident for taxation purposes.|
-|**Tax Status**|This field is used to identify whether the Employee/Contractor is;|
-||·         Australian Resident|
-||·         Foreign Resident|
-||·         Working Holiday Maker|
+|**Tax Status**|This field is used to identify whether the Employee/Contractor is; - Australian Resident, - Foreign Resident, - Working Holiday Maker.|
 |**Tax Free Threshold Claimed**|This field is used to identify if the Employee/Contractor is claiming the Tax Free threshold.|
 |**Claim FTB**|This field is used to identify if the Employee/Contractor is claiming the Family Tax Benefit.|
 |**Claim Zone Allowance**|This field is used to identify if the Employee/Contractor is claiming a Zone Allowance.|
@@ -375,88 +358,75 @@ To access the Payroll Employee Card, go to the following menu:
 |**Payee Signature**|This field is used to identify if the Employment Declaration form was signed by the Employee/Contractor.|
 |**Declaration Lodged**|This field is used to identify that the Declaration was extracted to be lodged with the Australian Taxation Office.|
  
+7.  On the **Work Cover** FastTab, update the fields as described in the following table.
 
-|Field|Description|
-|------------------------------------------|--------------------------------------------------------------------|
-|**WORK COVER FASTTAB**||
-|**Work Cover Code**|This field is used to record if the Work Cover Code for the Employee/Contractor.|
-||It is used to calculate a Work Cover provision.|
-|**Work Cover Location Code**|This field is used to record the Work Cover Location Code for the Employee/Contractor.|
-||It is used to calculate a Work Cover provision.|
+|Field Name|Description|
+|---------------------------------------------|---------------------------------------------------------------------|
+|**Work Cover Code**|This field is used to record if the Work Cover Code for the Employee/Contractor.  It is used to calculate a Work Cover provision.|
+|**Work Cover Location Code**|This field is used to record the Work Cover Location Code for the Employee/Contractor.  It is used to calculate a Work Cover provision.|
 |**Workers Comp Policy No.**|This field is used to record the Workers Comp Policy No. for the Employee/Contractor if they are operating as an Incorporated Company.|
 |**Workers Comp Insurer**|This field is used to record the Workers Comp Insurer for the Employee/Contractor if they are operating as an Incorporated Company.|
 |**Policy Expiration Date**|This field is used to record the Workers Comp Policy Expiration Date for the Employee/Contractor if they are operating as an Incorporated Company.|
+
+[GoToTop](#how-to-create-placements-in-placement-entry)
+[GoToRecordMaintenance](#record-maintenance) 
   
 ## Payroll Employee – Pay Dissections
 You can update the Employee/Contractor’s bank details from the Pay Dissections menu on the Payroll Employee Card.
 
-To access the Pay Dissections, go to the following menu:
+1.  To access the Pay Dissections, go to the following menu: *Departments/Labour Hire/Candidate Processing/Payroll Employees/Pay Dissections*
 
-*Departments/Labour Hire/Candidate Processing/Payroll Employees/Pay Dissections*
+2.  Update the fields as described in the following table.
 
- 
-### Edit – Employee Pay Dissections Card window
-
-
- |Field|Description|
-|------------------------------------------|--------------------------------------------------------------------|
-|**Pay Transaction Type**|Select the Pay Transaction Type code from the “ArrowDown” button.|
-||The Net Pay Transaction Type is setup on the Payroll Setup Card.|
+|Field Name|Description|
+|---------------------------------------------|---------------------------------------------------------------------|
+|**Pay Transaction Type**|Select the Pay Transaction Type code from the **ArrowDown** button.  The Net Pay Transaction Type is setup on the Payroll Setup Card.|
 |**Pay Dissection Type**|This field identifies whether the Bank Account details is the Main account or a Part account where a set amount of percentage of the net income can be disbursed to. |
-|**Bank Account No.**|This field is used to record the Employee/Contractor’s Bank Account No. |
-||It is restricted to 9 digits.|
+|**Bank Account No.**|This field is used to record the Employee/Contractor’s Bank Account No. It is restricted to 9 digits.|
 |**Bank Account Name**|This field is used to record the Employee/Contractor’s Bank Account Name.|
 |**Pay Bank State Branch No.**|This field is used to record the Employee/Contractor’s Pay Bank State Branch No. (BSB)|
-|**Standard Amount**|This field is used to record the value of monies to be disbursed into the account.|
-||Populate this field if you are adding an additional account which will have a “Pay Dissection Type” = “Part”.|
-|**Standard %**|This field is used to record the percentage of the net income to be disbursed into the account.|
-||Populate this field if you are adding an additional account which will have a “Pay Dissection Type” = “Part”.|
-|**Not Used**|This field is used to suspend the transaction for one pay period only.|
-||When the pay period is closed, the check mark is removed making it available again in the next pay.|
+|**Standard Amount**|This field is used to record the value of monies to be disbursed into the account. Populate this field if you are adding an additional account which will have a “Pay Dissection Type” = “Part”.|
+|**Standard %**|This field is used to record the percentage of the net income to be disbursed into the account.  Populate this field if you are adding an additional account which will have a “Pay Dissection Type” = “Part”.|
+|**Not Used**|This field is used to suspend the transaction for one pay period only.  When the pay period is closed, the check mark is removed making it available again in the next pay.|
 
+[GoToTop](#how-to-create-placements-in-placement-entry)
+[GoToRecordMaintenance](#record-maintenance) 
 
 ## Payroll Employee – Deductions
 You can update the Employee/Contractor’s deduction details from the Deductions menu on the Payroll Employee Card.
 
-To access the Deductions, go to the following menu:
+1.  To access the Deductions, go to the following menu: *Departments/Labour Hire/Candidate Processing/Payroll Employees/Deductions*
 
-*Departments/Labour Hire/Candidate Processing/Payroll Employees/Deductions*
+2.  Update the fields as described in the following table.
 
-### Edit – Employee Deductions Card window
- 
-|Field|Description|
-|------------------------------------------|--------------------------------------------------------------------|
+|Field Name|Description|
+|---------------------------------------------|---------------------------------------------------------------------|
 |**Transaction Type Code**|Select the Pay Transaction Type code from the “ArrowDown” button.|
-|**Shift Code**|This field is used to identify if this deduction is to generate when a certain Shift Code is selected.|
-||This field is optional and will be dependent upon the setup.|
-|**Priority**|This field is used to determine the priority in which the deduction will be deducted from the Employee/Contractor’s pay.|
-||This is useful when and Employee/Contractor has a schedule of deductions.|
+|**Shift Code**|This field is used to identify if this deduction is to generate when a certain Shift Code is selected. This field is optional and will be dependent upon the setup.|
+|**Priority**|This field is used to determine the priority in which the deduction will be deducted from the Employee/Contractor’s pay.  This is useful when and Employee/Contractor has a schedule of deductions.|
 |**Start Date**|This field is used to record the Start Date of when the Deduction should start.|
 |**End Date**|This field is used to record the End Date of when the Deduction should cease.|
-|**Description**|This field is used to describe the Deduction and will default from the Pay Transaction Type Code. |
-||You can update the description if required to something more meaningful as reference for the Employee/Contractor.|
+|**Description**|This field is used to describe the Deduction and will default from the Pay Transaction Type Code.  You can update the description if required to something more meaningful as reference for the Employee/Contractor.|
 |**Standard Amount**|This field is used to record the amount of the Deduction per pay period.|
 |**Standard %**|This field is used to record the standard percentage of the Deduction per pay period.|
 |**Details**|This field is used to record any reference information relating to the Deduction.|
-|**Total Deduction**|This field is used to record the Total Amount of the Deduction.|
-||This field is used to accommodate reducing balance deductions.|
+|**Total Deduction**|This field is used to record the Total Amount of the Deduction.  This field is used to accommodate reducing balance deductions.|
 |**LTD Amount**|This field will display the “Life-To-Date” amount of the Deduction.|
-|**Not Used**|This field is used to suspend the transaction for one pay period only.|
-||When the pay period is closed, the check mark is removed making it available again in the next pay.|
+|**Not Used**|This field is used to suspend the transaction for one pay period only.  When the pay period is closed, the check mark is removed making it available again in the next pay.|
 
- 
+[GoToTop](#how-to-create-placements-in-placement-entry)
+[GoToRecordMaintenance](#record-maintenance) 
+
 ## Payroll Employee – Superannuation
 You can update the Employee/Contractor’s Superannuation details from the Superannuation menu on the Payroll Employee Card.
 
-To access the Superannuation, go to the following menu:
+1.  To access the Superannuation, go to the following menu: *Departments/Labour Hire/Candidate Processing/Payroll Employees/Superannuation*
 
-*Departments/Labour Hire/Candidate Processing/Payroll Employees/Superannuation*
+2.  Update the fields as described in the following table.
 
- 
-### Edit – Employee Superannuation List window 
- |Field|Description|
-|------------------------------------------|--------------------------------------------------------------------|
-|**Superannuation Code**|Select the Pay Transaction Type code from the “ArrowDown” button.|
+|Field Name|Description|
+|---------------------------------------------|---------------------------------------------------------------------|
+|**Superannuation Code**|Select the Pay Transaction Type code from the **ArrowDown**.|
 |**Membership No.**|This field is used to record the Employee/Contractor’s Membership No. for their Superannuation fund.|
 |**Date Joined Fund**|This field is used to record the Date the Employee/Contractor’s Joined their fund.|
 |**Starting Date**|This field is used to record the Starting Date of the Superannuation fund.|
@@ -471,41 +441,40 @@ To access the Superannuation, go to the following menu:
 |**Employee Post-Tax Std. Amt.**|This field is used to record the Employee Post-Tax Standard Amount as nominated by the Employee/Contractor.|
 |**Employee Post-Tax Standard %**|This field is used to record the Employee Post-Tax Standard % as nominated by the Employee/Contractor.|
 
+[GoToTop](#how-to-create-placements-in-placement-entry)
+[GoToRecordMaintenance](#record-maintenance) 
 
-## Payroll Employee – Employer On Costs
+
+## Payroll Employee – Employer On Costs
 You can update the Employee/Contractor’s Employer On Cost details from the Accumulation Calculations menu on the Payroll Employee Card.
 
-To access the Employer On Costs, go to the following menu:
+1.  To access the Employer On Costs, go to the following menu: *Departments/Labour Hire/Candidate Processing/Payroll Employees/Accumulation Calculations/Employer On Costs*
 
-*Departments/Labour Hire/Candidate Processing/Payroll Employees/Accumulation Calculations/Employer On Costs*
+2.  Update the fields as described in the following table.
 
- 
-### Edit – Employee Accum. Calc. Rates window 
- |Field|Description|
-|------------------------------------------|--------------------------------------------------------------------|
-|**Transaction Type Code**|Select the Pay Transaction Type code from the “ArrowDown” button.|
+|Field Name|Description|
+|---------------------------------------------|---------------------------------------------------------------------| 
+|**Transaction Type Code**|Select the Pay Transaction Type code from the **ArrowDown**.|
 |**Start Date**|This field is used to record the Start Date of the Employer On Cost Transaction.|
 |**End Date**|This field is used to record the End Date of the Employer On Cost Transaction.|
-|**Pay Rate**|This field is used to record the Pay Rate as a % value and expressed in decimal format.|
-||If the value is 9.5%, then enter in 0.095.|
-|**Superannuation Code**|This field is used to record the Employee/Contractor’s Superannuation Code.  |
-||Click on the “ArrowDown” button to select the Superannuation Fund.|
-|**Not Used**|This field is used to suspend the transaction for one pay period only.|
-||When the pay period is closed, the check mark is removed making it available again in the next pay.|
+|**Pay Rate**|This field is used to record the Pay Rate as a % value and expressed in decimal format. If the value is 9.5%, then enter in 0.095.|
+|**Superannuation Code**|This field is used to record the Employee/Contractor’s Superannuation Code.  Click on the **ArrowDown** button to select the Superannuation Fund.|
+|**Not Used**|This field is used to suspend the transaction for one pay period only.  When the pay period is closed, the check mark is removed making it available again in the next pay.|
 
+[GoToTop](#how-to-create-placements-in-placement-entry)
+[GoToRecordMaintenance](#record-maintenance)
 
-## Jobs
+## Jobs Card
 The types of information you will update on the Jobs Card will be discussed in this section.  It will not contain an explanation of all fields only those relative to the Labour Hire module.  
 
 The types of information you may update on the Jobs Card are:
-• Hiring Manager via the Invoice FastTab
-• Account Managers/Salespeople via the Home ribbon
 
-To access the Jobs Card, go to the following menu:
+- Hiring Manager via the Invoice FastTab
+- Account Managers/Salespeople via the Home ribbon
 
-*Departments/Labour Hire/Candidate Processing/Jobs*
+1.  To access the Jobs Card, go to the following menu: *Departments/Labour Hire/Candidate Processing/Jobs*
  
-## Customers
+## Customer Card
 
 The types of information you will update on the Customer Card will be discussed in this section.  It will not contain an explanation of all fields only those relative to the Labour Hire module.  
 
@@ -577,6 +546,7 @@ To access the Customer Card, go to the following menu:
 ||If one of the fields are selected, then a heading must be entered in the Field 1 Label, etc.|
 
 [GoToTop](#how-to-create-placements-in-placement-entry)
+[GoToRecordMaintenance](#record-maintenance) 
 
 ## EXAMPLES OF UPDATES
 This section will outline examples of when information is updated and where these updates should occur.
