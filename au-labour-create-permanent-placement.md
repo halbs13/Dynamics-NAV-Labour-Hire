@@ -11,8 +11,9 @@ This section contains information relating to Permanent Placements/Requirements 
   - [Permanent Placement Invoice Parameters](#permanent-placement-invoice-parameters) 
   - [Generating Permanent Placement Invoices](#generating-permanent-placement-invoices)
 
-- [Requirements Invoicing Overview](#requirements-invoicing-overview) 
-  - [Requirements Invoicing Setup](#requirements-invoicing-setup) 
+- [Requirements Invoicing Overview](#requirements-invoicing-overview)
+  - [Requirements Invoicing Setup](#requirements-invoicing-setup)
+  - [Requirements Invoice Parameters](#requirements-invoice-parameters)
   - [Generating Requirements Invoices](#generating-requirements-invoices)
 
 ## PERMANENT PLACEMENT OVERVIEW
