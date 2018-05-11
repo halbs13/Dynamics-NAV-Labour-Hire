@@ -27,7 +27,7 @@ All internal staff will be entered into the Human Resources and Payroll modules 
 1.	Receive employee application and enter relevant details into Dynamics NAV. 
 2.	Enter new employee information into the Human Resources module.  Go to the following menu: *Departments/Payroll/Employee Maintenance/Employees*
 3.  Enter the new employee into the Payroll module. Go to the following menu: *Departments/Payroll/Employee Maintenance/Payroll Employees*
-4.  Enter in Bank Details.  To access the Bank Details task, select the **Pay Dissections** icon. 
+4.  Enter in Bank Details.  To access the Bank Details task, select the [Pay Dissections](#payroll-employee-pay-dissections) icon. 
 5.  Enter in Pay Rates in as an hourly rate.  To access the Bank Details task, select the **Pay Rates** icon. 
 6.  Enter in Permanent Pay and Allowances.  To access the Pay and Allowances task, select the **Gross & Allowances** icon. 
 7.  Enter in Permanent Deductions.  To access the Deductions task, select the **Deductions** icon. 
@@ -37,6 +37,7 @@ All internal staff will be entered into the Human Resources and Payroll modules 
 11. After you have completed these steps, you are ready to process pays.
 
 [Enter New Employee](#employee-card)
+
 [Enter New Payroll Employee](#payroll-employee-card)
 
 [GoToTop](#how-to-process-an-internal-payroll-in-labour-hire)
