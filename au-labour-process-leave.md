@@ -28,7 +28,7 @@ The Mass Adjust Leave Balance function is used to adjust leave entitlements or p
 |**Employee No**|Select the Employee No. from the **ArrowDown**.|
 |**Leave Type**|Select the Leave Type from the **ArrowDown**.|
 |**Leave Code**|Select the Leave Code from the **ArrowDown**.|
-|**Document Type**|Select the Document Type from the **ArrowDown**.  The Options are *Entitlement, Pro Rata, Pro Rata Value, or Value Only* ).|
+|**Document Type**|Select the Document Type from the **ArrowDown**.  The options are ***Entitlement, Pro Rata, Pro Rata Value, or Value Only***.|
 |**Leave Period Posting Date**|Enter the Leave Period Posting Date of the leave adjustment.  The Leave Period Posting Date identifies the Leave Anniversary period the transaction will appear in. |
 |**Posting Date**|Enter the Posting Date of the leave adjustment.|
 |**Document No.**|Enter the Document No of the leave adjustment.|
@@ -92,8 +92,7 @@ The Employee Leave Entitlement Report provides you with a list of employees who 
 
 |Field Name|Description|
 |---------------------------------------------|---------------------------------------------------------------------|
-|**As At Date**|Enter in the date you wish to generate the report.|
-||You can only enter in a date where transactions have been posted to the Leave Accrual Ledger Entry.|
+|**As At Date**|Enter in the date you wish to generate the report.  You can only enter in a date where transactions have been posted to the Leave Accrual Ledger Entry.|
 |**Exclude Zero Accruals**|Select this field if you wish to exclude accruals with a zero balance.|
 |**Group by Global Dimension 1**|Select this field if you wish to group employees by Global Dimension 1.|
 |**Print Leave As:**|You can nominate how you wish the leave accruals to appear in the report.  The options you have available are: *Decimal Hours, Hours & Minutes,Days*.|
