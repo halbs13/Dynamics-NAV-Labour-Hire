@@ -26,8 +26,8 @@ Fee Types are setup to identify where the revenue for the fees will post to with
 
 2. On the **General** FastTab, fill the fields as described in the following table.
 
-|Field Name |Description|
-|----------------------------------------|--------------------------------------------------------------------|
+|Field Name|Description|
+|---------------------------------------------|---------------------------------------------------------------------|
 |**Code** |This field is used to setup a unique code for the Fee Type.|
 |**Description**|This field is used to describe the Fee Type.|
 |**Fee Type**|This field is used to identify whether the Fee Type is a Placement Fee or Requirement Fee.|
@@ -55,7 +55,7 @@ To create a new record, select the **New** icon on the **Home** ribbon.
 2.  On the **Client** FastTab, fill the fields as described int he following table.
 
 |Field Name|Description|
-|-------------------------|----------------------------------------------------------------------------------------|
+|---------------------------------------------|---------------------------------------------------------------------|
 |**Customer No.** |From the **ArrowDown** button, select the customer No. from the Customer List.  If the Customer exists within the list, then the following fields will be available for editing, otherwise to create a new customer you will need to complete the following fields.|
 |**Name** |This field is used to record the Customer’s name.|
 |**Name 2** |This field is used to record the Customer’s Name if the first field is not long enough to record the Customer’s full name.|
@@ -73,19 +73,19 @@ To create a new record, select the **New** icon on the **Home** ribbon.
 
 3.  In the **Contract Invoice Details Section** of the **Clients*** FastTab, fill the fields as described int he following table.
 |Field Name|Description|
-|-------------------------|----------------------------------------------------------------------------------------|
+|---------------------------------------------|---------------------------------------------------------------------|
 |**Bill-to-Customer No.** |This field is populated if this customer transactions are being billed to another Customer.  An example of where this is implemented is when a Customer has multiple locations and they are setup as separate customers, however their invoicing and other statements are sent to a Head Office.|
 |**Payment Terms Code** |This field is used to record the Payment Terms.|
 |**Customer Invoicing Frequency** |This field is used to record the frequency in which the customer is invoiced.  The following options are available;|
-||·         Weekly |
-||·         Fortnightly|
-||·         Semi-Monthly|
-||·         Calendar Month|
-||·         4 Week Month|
+|||·         Weekly |
+|||·         Fortnightly|
+|||·         Semi-Monthly|
+|||·         Calendar Month|
+|||·         4 Week Month|
 |**Invoice/Cr. Format Code** |From the “ArrowDown” button, select the Invoice/Cr. Format Code|
 |**Job Invoice Consolidation Type** |This field determines how the Job transactional lines are consolidated on an invoice for this Customer.  The options available are;|
-||·         Bill-to Customer No. + Sell-to Customer No.|
-||·         Bill-to Customer No.|
+|||·         Bill-to Customer No. + Sell-to Customer No.|
+|||·         Bill-to Customer No.|
 |**Cust. Contact Job Title** |This field is used to record the Job Title of the Customer Contact|
 |**Perm. Invoice/Cr. Format Code** |This field is used to record the Permanent Placement Invoice format.  From the “ArrowDown” button, select the appropriate code.|
 |**Perm Placement Payment Terms** |This field is used to record the Permanent Placement Payment Terms.  From the “ArrowDown” button, select the appropriate code.|
