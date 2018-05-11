@@ -6,6 +6,8 @@ This section contains information relating to Permanent Placements/Requirements 
   - [Fee Types](#fee-types)
   - [Permanent Placement Setup](#permanent-placement-setup) 
   - [Permanent Placement Card](#permanent-placement-cards) 
+  
+ - [Permanent Placement Invoicing](#permanent-placement-invoicing)
   - [Permanent Placement Invoice Parameters](#permanent-placement-invoice-parameters) 
   - [Generating Permanent Placement Invoices](#generating-permanent-placement-invoices)
 
