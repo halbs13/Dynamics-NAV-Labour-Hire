@@ -27,25 +27,25 @@ All internal staff will be entered into the Human Resources and Payroll modules 
 1.	Receive employee application and enter relevant details into Dynamics NAV. 
 2.	Enter new employee information into the Human Resources module.  Go to the following menu: *Departments/Payroll/Employee Maintenance/Employees*
 3.  Enter the new employee into the Payroll module. Go to the following menu: *Departments/Payroll/Employee Maintenance/Payroll Employees*
-4.  Enter in Bank Details. To access the Bank Details task, select the **Pay Dissections** icon. 
-5.  Enter in Pay Rates in as an hourly rate. To access the Bank Details task, select the **Pay Rates** icon. 
-6.  Enter in Permanent Pay and Allowances. To access the Pay and Allowances task, select the **Gross & Allowances** icon. 
-7.  Enter in Permanent Deductions. To access the Deductions task, select the **Deductions** icon. 
-8.  Enter in Superannuation Fund. To access the Superannuation task, select the **Superannuation** icon. 
-9.  Enter in Employer On Costs such as Payroll Tax. To access the Employer On Costs task, select the **Accumulation Calculations** and select the **Employer On Costs** icon. 
-10. Review and Add new leave accrual types such as Annual Leave , Sick Leave and Long Service Leave. To access the Leave Accrual task,       select the **Accruals** task icon.  
-11. After you have completed these steps, you are then ready to process pays.
+4.  Enter in Bank Details.  To access the Bank Details task, select the **Pay Dissections** icon. 
+5.  Enter in Pay Rates in as an hourly rate.  To access the Bank Details task, select the **Pay Rates** icon. 
+6.  Enter in Permanent Pay and Allowances.  To access the Pay and Allowances task, select the **Gross & Allowances** icon. 
+7.  Enter in Permanent Deductions.  To access the Deductions task, select the **Deductions** icon. 
+8.  Enter in Superannuation Fund.  To access the Superannuation task, select the **Superannuation** icon. 
+9.  Enter in Employer On Costs such as Payroll Tax, Superannuation or Workers Compensation.  To access the Employer On Costs task, select the **Accumulation Calculations** and select the **Employer On Costs** icon. 
+10. Review or add new leave accrual types such as Annual Leave , Sick Leave and Long Service Leave.  To access the Leave Accrual task,       select the **Accruals** task icon.
+11. After you have completed these steps, you are ready to process pays.
 
 ## Processing Pays
 
 1.  Receive timesheets including Leave and /or pay adjustments for employees.
-2.  Go into *Departments/Payroll/Payroll Processing/Payroll Selection* and select the payroll you wish to work in (note this is optional).
-3.  Go into *Departments/Pay Journal/Pay Processing/Pay Journal* and enter in the leave adjustments. After completing entering               adjustments, select the **Calculate Pays** function.  Enter the **Pay Date** and select **OK**. 
-5.  Run the **Entry Validation Report** , select print preview to check for errors and warnings on the screen, when all clear, **Print the report**. 
+2.  As an optional task, you can specify a particular payroll to work in.  Go into *Departments/Payroll/Payroll Processing/Payroll Selection* and select the Payroll.  (**Note:** If you perform this task, you can release this filter by coming back into this area and selecting **Clear Selection** and this will release the filter and allow you to access all the Payrolls you will have User Access to.
+3.  Go into *Departments/Pay Journal/Pay Processing/Pay Journal* and enter in the leave adjustments. 
+4.  Once the adjustments are complete, select the **Calculate Pays** function.  Enter the **Pay Date** and select **OK**. 
+5.  Run the **Entry Validation Report** , select print preview to check for errors and warnings on the screen, when all clear, **Print the report** or save as a .PDF. 
 6.  Select **Create Bank Transfer File** to create an EFT file. This can be saved to a file path. The **Bank Transfer Listing** report will print automatically at this stage. This should be filed with the **Entry Validation Report**.
 7.  Select **Post**. This will post the pays into the payroll history areas and print payslips. 
-
-After posting of the journal has occurred, you will be asked if you want to close the pay period. You can leave this open if there are any additional adjustments that may need to be processed in this period, otherwise, you can close the period, ready for the next period. 
+8.  After journal has been successfully posted, you will receive a message about closing the pay period.  You can leave this open if there are any additional adjustments that may need to be processed in this period, otherwise, you can close the period, ready for the next period. 
 
 [GoToTop](#how-to-process-an-internal-payroll-in-labour-hire)
 
@@ -55,7 +55,7 @@ After posting of the journal has occurred, you will be asked if you want to clos
 
 1. In the **Search** box, enter in **Employees**, and then choose the related link.  Or go to the following menu:*Departments/Payroll/Employee Maintenance/Employees* 
  
-2. Click on the **New** button. The cursor will be in the **Employee No** field on the **General** FastTab. Press **OK**, NAV will allocate the New Employee number. 
+2. Click on the **New** button. The cursor will be in the **Employee No** field on the **General** FastTab. Press **OK** or tab to the next field and a New Employee number will be allocated.  Alternatively you can enter in a user specific number.
 
 3.  On the **General** FastTab, fill the fields as described in the following table.
 
