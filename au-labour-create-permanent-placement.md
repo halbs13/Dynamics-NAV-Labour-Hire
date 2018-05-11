@@ -5,15 +5,15 @@ This section contains information relating to Permanent Placements/Requirements 
 - [Permanent Placement Overview](#permanent-placement-overview) 
   - [Fee Types](#fee-types)
   - [Permanent Placement Setup](#permanent-placement-setup) 
-  - [Permanent Placement Card](#permanent-placement-cards) 
+  - [Permanent Placement Cards](#permanent-placement-cards) 
   
 - [Permanent Placement Invoicing](#permanent-placement-invoicing)
   - [Permanent Placement Invoice Parameters](#permanent-placement-invoice-parameters) 
   - [Generating Permanent Placement Invoices](#generating-permanent-placement-invoices)
 
-- [Requirements Invoicing Overview](#requirements-invoicing) 
-  - [Requirements Invoicing Setup](#requirements-invoicing) 
-  - [Generating Requirements Invoices](#generating-requirements)
+- [Requirements Invoicing Overview](#requirements-invoicing-overview) 
+  - [Requirements Invoicing Setup](#requirements-invoicing-setup) 
+  - [Generating Requirements Invoices](#generating-requirements-invoices)
 
 ## PERMANENT PLACEMENT OVERVIEW
 Permanent Placements are candidates who apply for positions advertised by recruitment agencies on behalf of their clients with the intention of being permanently placed.
@@ -239,8 +239,8 @@ Permanent Placement invoices can be generated once the Permanent Placement recor
 Permanent Placement Invoice parameters are maintained within the following areas of the Labour Hire module:
 
 - Labour Hire Setup – Permanent Placement FastTab
-- Customer Card – Invoice Formats
-- Customer Card – Payment Terms
+- Customer Card – Invoice Formats - Invoicing FastTab
+- Customer Card – Payment Terms - Payments FastTab
 
 [GoToTop](#how-to-create-permanent-placements)
 
@@ -267,6 +267,7 @@ Permanent Placement invoices will have a specific invoice format to present the 
 The Permanent Placement Invoice format is maintained on the **Invoicing** FastTab in the **Perm. Invoice/Cr. Format Code** field.
  
 [GoToTop](#how-to-create-permanent-placements)
+
 
 ### Customer Card – Payments FastTab
 Permanent Placement invoices may have different payment terms to the general invoicing.  
@@ -321,8 +322,8 @@ Requirements are created as Jobs within the Labour Hire module where 3rd party i
 ## Requirements Invoice Parameters
 Requirement Invoice parameters are maintained within the following areas of the Labour Hire module:
 
-- Interface Options - Integration
-- Customer Card – Invoice Formats
+- Interface Options - Integration FastTab
+- Customer Card – Invoice Formats - Invoicing FastTab
 
 ### Interface Options – Integration FastTab
 
