@@ -615,7 +615,9 @@ Once you retrieve the Customer record, there will be some “greyed” out field
 There is other maintenance which are performed directly on the card.  Some of the examples of these updates are:
 
 - [Employee/Contractor Terminates](#contractor-terminates)
+
 - [Transfer from PAYG Contractor to Company](#transfer-from-payg-to-company)
+
 
 ### Contractor Terminates
 If an Employee/Contractor terminates employment then the updates should occur as follows:
