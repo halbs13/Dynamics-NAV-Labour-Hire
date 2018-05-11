@@ -3,7 +3,8 @@
 Leave processing within the Dynamics NAV Payroll and Labour Hire modules encompasses the following functions:  
 
 - Setup Leave Types and Accruals
-- Employee Leave Entitlement Calculation and Reporting
+- Calculating & Posting Leave Provisions
+- Employee Leave Entitlement Reporting
 
 This section pecifically discusses how to use the Leave Processing function within Dynamics NAV.  
 
