@@ -50,9 +50,9 @@ Upon transferring data from this area, the following records are created within 
 
 1. In the **Search** box, enter in **Placement Entry**, and then choose the related link.  Or go to the following menu: *Departments/Labour Hire/Candidate Processing/Placement Entry* 
 
-To create a new record, select the **New** icon on the **Home** ribbon.
+2.  To create a new record, select the **New** icon on the **Home** ribbon.
 
-2.  On the **Client** FastTab, fill the fields as described int he following table.
+3.  On the **Client** FastTab, fill the fields as described in the following table.
 
 |Field Name|Description|
 |---------------------------------------------|---------------------------------------------------------------------|
@@ -71,7 +71,7 @@ To create a new record, select the **New** icon on the **Home** ribbon.
 |**Fax No.**|This field is used to record the Customer’s Fax No.|
 |**E-Mail:**|This field is used to record the Customer’s E-Mail address.|
 
-3.  In the **Contract Invoice Details Section** of the **Clients*** FastTab, fill the fields as described in the following table.
+4.  In the **Contract Invoice Details Section** of the **Clients*** FastTab, fill the fields as described in the following table.
 
 |Field Name|Description|
 |---------------------------------------------|---------------------------------------------------------------------|
@@ -84,7 +84,7 @@ To create a new record, select the **New** icon on the **Home** ribbon.
 |**Perm. Invoice/Cr. Format Code**|This field is used to record the Permanent Placement Invoice format.  From the **ArrowDown**, select the appropriate code.|
 |**Perm Placement Payment Terms**|This field is used to record the Permanent Placement Payment Terms.  From the **ArrowDown** button, select the appropriate code.|
 
-4.  On the **Candidate Details Section** of the **Perm Placement** FastTab, fill the fields as described in the following table.
+5.  On the **Candidate Details Section** of the **Perm Placement** FastTab, fill the fields as described in the following table.
 
 |Field Name|Description|
 |---------------------------------------------|---------------------------------------------------------------------|
@@ -93,7 +93,7 @@ To create a new record, select the **New** icon on the **Home** ribbon.
 |**First Name**|This field is used to record the First Name of the Candidate.|
 |**Last Name**|This field is used to record the Last Name of the Candidate.|
 
-5.  On the **Job Details Section** of the **Permanent Placement** FastTab, fill the fields as described in the following table.
+6.  On the **Job Details Section** of the **Permanent Placement** FastTab, fill the fields as described in the following table.
 
 |Field Name|Description|
 |---------------------------------------------|---------------------------------------------------------------------|
@@ -105,7 +105,7 @@ To create a new record, select the **New** icon on the **Home** ribbon.
 |**Job Revenue Type**|This field is used to record the Revenue Type or where the value of the Permanent Placement will be posted to within the General Ledger.|
 |**Job Posting Group for Job**|This field is used to record the Posting Group for the Job which will determine the Dimensions for reporting purposes.|
 
-6.  On the **Job Invoice Details Section** of the **Permanent Placement** FastTab, fill the fields as described in the following table.
+7.  On the **Job Invoice Details Section** of the **Permanent Placement** FastTab, fill the fields as described in the following table.
 
 |Field Name|Description|
 |---------------------------------------------|---------------------------------------------------------------------|
@@ -119,7 +119,7 @@ To create a new record, select the **New** icon on the **Home** ribbon.
 |**Job Bill-to Country Code**|This field is used to record the Bill-to Country.  This will default from the Customer Card.|
 |**Job Bill-to Contact Job Title**|This field is used to record the Bill-to Contact Job Title.  This will default from the Customer Card.|
 
-7.  On the **Permanent Placement Details Section** of the **Permanent Placement** FastTab, fill the fields as described in the following table.
+8.  On the **Permanent Placement Details Section** of the **Permanent Placement** FastTab, fill the fields as described in the following table.
 
 |Field Name|Description|
 |---------------------------------------------|---------------------------------------------------------------------|
@@ -134,7 +134,7 @@ To create a new record, select the **New** icon on the **Home** ribbon.
 |**Guarantee Period Days**|This field is used to record the no. of days for Guarantee Period for this placement.|
 |**Guarantee Period Expiry**|This field is used to record the expiry date of the Guarantee Period for this placement.|
 
-8.  On the **Salespeople Section** of the **Permanent Placement** FastTab, fill the fields as described in the following table.
+9.  On the **Salespeople Section** of the **Permanent Placement** FastTab, fill the fields as described in the following table.
 
 |Field Name|Description|
 |---------------------------------------------|---------------------------------------------------------------------|
@@ -145,7 +145,7 @@ To create a new record, select the **New** icon on the **Home** ribbon.
 |**Commission**|This field is used to record the percentage value which can be later used to calculate Commission payments for Sales people within your organisation.|
 |**Salesperson Code 2.. Salesperson Code 3**|You can record up to 3 Sales people commission payment percentages on this placement.|
 
-9.  Once you have completed the relevant information, click **Transfer** icon on the **Home** ribbon.
+10. Once you have completed the relevant information, click **Transfer** icon on the **Home** ribbon.
 
 [GoToTop](#how-to-create-permanent-placements)
 
