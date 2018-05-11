@@ -27,7 +27,7 @@ Prior to setting up a contractor's record within Human Resources and Payroll, th
 *The following fields will be populated by Placement Entry or the Interface.  This section will only discuss those fields which are specific to standard Labour Hire.*
 
 |Field Name|Description|
-|----------------------------------|-------------------------------------------------------------|
+|---------------------------------------------|---------------------------------------------------------------------|
 |**Resource No.**|The Contractor is identified with this number throughout the Human Resources and Payroll granules.|
 |**Name**|This field is used to retain the Contractor’s First and Last names.  This name will appear on the invoices.|
 |**Type**|This field identifies what type of Resource it is.  The options available are **“Person”** or **“Machine”**.|
@@ -37,14 +37,14 @@ Prior to setting up a contractor's record within Human Resources and Payroll, th
 3. On the **Invoicing** FastTab, fill the fields as described in the following table.
 
 |Field Name|Description|
-|----------------------------------|-------------------------------------------------------------|
+|---------------------------------------------|---------------------------------------------------------------------|
 |**Gen. Prod. Posting Group**|This field is used to specify the general ledger accounts that are posted in combination with the general business posting groups when sales are posted.|
 |**GST. Prod. Posting Group**|This field is used to specify the GST product posting groups to which this resource belongs.|
 
 4. On the **Personal Data** FastTab, fill the fields as described in the following table.
 
 |Field Name|Description|
-|----------------------------------|-------------------------------------------------------------|
+|---------------------------------------------|---------------------------------------------------------------------|
 |**Job Title**|This field is used to specify the person’s job title.  |
 |**Address**|This field is used to specify the address or location of the resource.|
 |**Address 2**|Used if there is not enough space on the Address field.|
@@ -65,7 +65,7 @@ Prior to setting up a contractor's record within Human Resources and Payroll, th
 *The following fields will be populated by Placement Entry or the Interface.   This section will only discuss those fields which are specific to standard Labour Hire.*	
 
 |Field Name|Description|
-|-------------------------|-------------------------------------------------|
+|---------------------------------------------|---------------------------------------------------------------------|
 |**No.**|The Contractor is identified with this number throughout the Human Resources and Payroll granules.|
 |**Job Title**|This field is used to specify the person’s job title.|
 |**Title**|This field is used to retain the employee’s title.  An example of the Title is Mr, Miss, Ms, Mrs, etc.|
@@ -83,7 +83,7 @@ Prior to setting up a contractor's record within Human Resources and Payroll, th
 3. On the **Communication** FastTab, fill the fields as described below in the following table.
 
 |Field Name|Description|
-|-------------------------|-------------------------------------------------|
+|---------------------------------------------|---------------------------------------------------------------------|
 |**Mobile Phone No.**|This field is used to specify the contractor’s mobile phone number.|
 |**Phone No.**|This field is used to specify the contractor’s phone number.|
 |**Work Phone No.**|This field is used to specify the contractor’s work phone number|
@@ -94,7 +94,7 @@ Prior to setting up a contractor's record within Human Resources and Payroll, th
 4.  On the **Administration** FastTab, fill the fields as described below in the following table.
 
 |Field Name|Description|
-|-------------------------|-------------------------------------------------|
+|---------------------------------------------|---------------------------------------------------------------------|
 |**Employment Date**|This field is used to specify the date which the contractor commenced employment with your organisation.|
 |**Status**|The **“Status”** should be set to **“Active”** unless he contractor has been terminated or is inactive.|
 |**Inactive Date**|This field is used to record the contractor’s Inactive date.|
@@ -106,7 +106,7 @@ Prior to setting up a contractor's record within Human Resources and Payroll, th
 5.  On the **Personal** FastTab, fille the fields as described below in the following table.
 
 |Field Name|Description|
-|-------------------------|-------------------------------------------------|
+|---------------------------------------------|---------------------------------------------------------------------|
 |**Birth Date**|This field will contain the contractor’s date of birth.|
 |**Tax File No.**|This field is used to store the employee’s Tax File number, however it will be encrypted within this area of the product.|
 |**Previous Surname**|This field is used to record the contractor’s Previous Surname.|
@@ -125,7 +125,7 @@ Prior to setting up a contractor's record within Human Resources and Payroll, th
 *The following fields will be populated by Placement Entry or the Interface.   This section will only discuss those fields which are specific to standard Labour Hire*	
 	
 |Field Name|Description|
-|-------------------------|-------------------------------------------------|
+|---------------------------------------------|---------------------------------------------------------------------|
 |**Employee No.**|The Contractor is identified with this number throughout the Human Resources and Payroll granules.|
 |**Job Title**|This field is used to specify the person’s job title.|
 |**First Name**|This field is used to specify the contractor’s First name.|
@@ -142,7 +142,7 @@ Prior to setting up a contractor's record within Human Resources and Payroll, th
 3.  On the **Posting** FastTab, fill the fields as described in the following table.
 
 |Field Name|Description|
-|-------------------------|-------------------------------------------------|	
+|---------------------------------------------|---------------------------------------------------------------------|	
 |**Branch Code**|The **Branch Code** is selected from the Branches Codes in the Branch window, accessed **ArrowDown** in the field.|
 |**Division Code**|The **Division Code** is selected from the Division Codes in the Division window, accessed from the **ArrowDown** in the field.|
 |**Global Dimension 1**|The **Global Dimension 1 Code** is selected from the Global Dimension Codes in the General Ledger, accessed from the **ArrowDown** in the field.|
@@ -153,7 +153,7 @@ Prior to setting up a contractor's record within Human Resources and Payroll, th
 *Some information contained on this FastTab are for display purposes only and are not used within the Labour Hire environment as rates are typically attached to the [Resource Allocations](#resource-placement-allocations) via the [Rate Sets](#resource-placement-allocations-rate-sets).* 
 
 |Field Name|Description|
-|-------------------------|-------------------------------------------------|	
+|---------------------------------------------|---------------------------------------------------------------------|
 |**Hours in a Full Week**|This field is used to determine the standard hours worked for Ordinary pay and for accruals.|
 |**Hours Worked for TIL**|This field is used to calculate the value accrued to Time In Lieu.  The hours worked in excess of this value are accrued to the employee’s TIL entitlement.|
 |**Days Per Week**|Enter the standard number of days in a week the employee works.  This field is used for the calculation and processing of leave.|
@@ -162,7 +162,7 @@ Prior to setting up a contractor's record within Human Resources and Payroll, th
 5.  On the **Tax Scale** FastTab, fill the fields as described in the following table.
 
 |Field Name|Description|
-|-------------------------|-------------------------------------------------|	
+|---------------------------------------------|---------------------------------------------------------------------|	
 |**Tax Scale No.**|This code defines the Tax Scale for this employee.|
 |**HELP Debt**|This field Indicates the employee has a Higher Education Loan Program.  |
 |**Student Loan (SFSS)**|This field Indicates the employee has a student loan |
@@ -180,7 +180,7 @@ Prior to setting up a contractor's record within Human Resources and Payroll, th
 6.  On the **Declaration** FastTab, fill the fields as described in the following table.
 
 |Field Name|Description|
-|-------------------------|-------------------------------------------------|
+|---------------------------------------------|---------------------------------------------------------------------|
 |**Resident**|Tick this field if the employee has indicated they have residential status.|
 |**Tax Free Threshold Claimed**|Tick this field if the employee has is claiming the Tax Free Threshold.|
 |**Claim FTB**|Tick this field if the employee is claiming the Family Tax Benefit.|
@@ -203,7 +203,7 @@ Prior to setting up a contractor's record within Human Resources and Payroll, th
 7.  On the **Pay Details** FastTab, fill the fields as described in the following table.
 
 |Field Name|Description|
-|-------------------------|-------------------------------------------------|
+|---------------------------------------------|---------------------------------------------------------------------|
 |**Minimum Net Salary**|If your organisation guarantees your employees a minimum net salaries enter the amount here.  If you have previously entered the amount in the Payroll setup the amount will default from there and you can override the amount.|
 |**Forward Paid Periods**|This field indicates the number of pay periods that the Employee has been paid in advance.|
 |**Date Paid Up Until**|This field displays the date to which an Employee has been paid.|
@@ -219,7 +219,7 @@ Prior to setting up a contractor's record within Human Resources and Payroll, th
 8.  On the **Work Cover** FastTab, fill the fields as described in the following table.
 
 |Field Name|Description|
-|-------------------------|-------------------------------------------------|
+|---------------------------------------------|---------------------------------------------------------------------|
 |**Work Cover Code**|Select the **Work Cover Code** for the Employee. Work Cover is set up as a percentage of Gross Wages calculated as the Work Cover Levy. This field is generally used for internal employees only.|
 |**Work Cover Location Code**|Select the **Work Cover Levy** Location.This field is generally used for internal employees only.|
 |**Workers Comp Policy No.**|The **Workers Comp Policy No.** is used to record a Contractors policy number.|
@@ -229,7 +229,7 @@ Prior to setting up a contractor's record within Human Resources and Payroll, th
 9.  On the **User Defined** FastTab, fill the fields as described in the following table.
 
 |Field Name|Description|
-|-------------------------|-------------------------------------------------|
+|---------------------------------------------|---------------------------------------------------------------------|
 |**User Defined Fields 1 to 10**|Enter information in here if required during Data Entry. Such information includes Telstra Codes. Check customer setup to determine which fields apply for this contractor.|
 
 [GoToTop](#how-to-setup-a-contractor)
@@ -244,7 +244,7 @@ This form is used to set up the bank accounts and spilt the employees’ Net pay
 **Note:** The Main dissection type pays the balance of the employee net pay to the specified bank account and each employee paid by EFT must have a Pay Dissection Type of **Main**.  Other bank accounts (dissections) such as an employee’s savings account must be defined as Pay Dissection Type **Part**.  The employee can have unlimited **Part** bank accounts.
 
 |Field Name|Description|
-|-------------------------|-------------------------------------------------|
+|---------------------------------------------|---------------------------------------------------------------------|
 |**Transaction Type Code**|This field identifies the Pay Transaction Type assigned to the Net Pay.  The **Transaction Type Code** is selected from the Pay Transaction Type table; accessed by the **ArrowDown** in the field.|
 |**Pay Dissection Type**|This field is used to select the dissection type used for this bank account: **Main** – The Main Pay Dissection is used to pay the balance of net pay.  You must setup 1 **Main** Pay Dissection.  **Part** – The Part Pay Dissection is used to define where specific amounts or a percentage of the employee net pay is banked.  An employee can have unlimited Part pay dissections.|
 |**Bank Account No.**|This field is used to enter the bank account number for the EFT payment.|
@@ -265,7 +265,7 @@ You access the Gross & Allowances from the Payroll Employee Card by clicking on 
 This option is used to set up the Gross Pay Transaction Type and Allowances for contractors who are automatically paid an Allowance.  An example of this might be a Car Allowance which is paid by your organisation but not charged to a Job. 
 
 |Field Name|Description|
-|-------------------------|-------------------------------------------------|
+|---------------------------------------------|---------------------------------------------------------------------|
 |**Transaction Type Code**|The **Transaction Type Code** is selected from the Pay Transaction Type table; accessed from the **ArrowDown** in the field.|
 |**Shift Code**|If the employee works a **Shift** enter the shift code (for shifts where an allowance is paid).  E.g. When the employees work the midnights to dawn shift they will receive the Pay Transaction Type allowance for sleep deprivation automatically.  If the employee does not work this shift then they will not receive this allowance.|
 |**Start Date**|This field is used to enter the date from which this Pay Transaction Type applies.|
@@ -289,7 +289,7 @@ This option is used to setup any Deductions for this contractor.  An example of 
 You access the Deductions from the Payroll Employee Card by clicking on the **Deductions** icon on the **Navigate** ribbon.  
 
 |Field Name|Description|
-|-------------------------|-------------------------------------------------| 
+|---------------------------------------------|---------------------------------------------------------------------|
 |**Transaction Type Code**|The **Transaction Type Code** is selected from the Pay Transaction Type table; accessed by from the **ArrowDown** in the field.|
 |**Shift Code**|If a **Shift Code** is selected the deduction will only apply when the employee is paid the particular shift.|
 |**Priority**|This field is used to set the **Priority** this deduction is taken from an employees pay.  If the employee does not have enough net pay to deduct all deductions; the deduction with the lowest priority will not be deducted.  The priority can be set to any value, the lower the number the higher priority the deduction has i.e. a deduction with priority 1will be taken before a deduction with priority 6.  If two deductions have the same priority the deduction will be taken in alphabetical order of the Pay Transaction Type and or amount of net pay that is still available.|
@@ -312,7 +312,7 @@ The Superannuation area is used to identify the Superannuation fund nominated by
 You access Superannuation from the Payroll Employee Card by clicking on the **Superannuation** icon on the **Navigate** ribbon.  
  
 |Field Name|Description|
-|-------------------------|-------------------------------------------------| 
+|---------------------------------------------|---------------------------------------------------------------------| 
 |**Superannuation Company Code**|This field is used to select the Superannuation Company Code.|
 |**Membership No.**|Enter the employee superannuation fund **Membership No.**|
 |**Date Joined Fund**|This field is used to enter the date the employee joined the fund.|
@@ -340,7 +340,7 @@ The Accumulation Calculations area is where you can add or maintain any On Cost 
 You access Employer On Costs from the Payroll Employee Card by clicking on the **Accumulation Calculations** icon on the **Navigate** ribbon.  
  
 |Field Name|Description|
-|-------------------------|-------------------------------------------------| 
+|---------------------------------------------|---------------------------------------------------------------------| 
 |**Transaction Type Code**|Select the appropriate transaction type code from the **ArrowDown** in the field.|
 |**Start Date**|The **Start Date** field is used to specify the date at which the On Cost transaction is to commence.|
 |**End Date**|The **End Date** field is used to specify the date at which the On Cost transaction is to end.|
@@ -357,7 +357,7 @@ The Resource Placement Allocations section of the Payroll Employee Card is used 
 You access the Resource Allocations from the Payroll Employee Card via the **Resource Allocations** icon on the **Navigate** ribbon.  
  
 |Field Name|Description|
-|-------------------------|-------------------------------------------------| 
+|---------------------------------------------|---------------------------------------------------------------------|
 |**Placement No.**|This field displays the unique Placement No. for this allocation.  The Placement No. is used to link the contractor to the job and customer for a period of time.|
 |**Job No.**|This field displays the Job No. for this allocation.|
 |**Job Task No.**|This field displays the Job Task. No. for this allocation.|
@@ -395,7 +395,7 @@ You can access the Rate Sets associated to each of the Resource Placement Alloca
 To access the Rate Sets via the Resource Allocations Card click **Rate Sets** icon on the **Navigate** ribbon.
  
 |Field Name|Description|
-|-------------------------|-------------------------------------------------| 
+|---------------------------------------------|---------------------------------------------------------------------|
 |**Placement No.**|This field displays the unique Placement No. for this allocation.  The Placement No. is used to link the contractor to the job and customer for a period of time.|
 |**Job No.**|This field displays the Job No. for this allocation.  |
 |**Job Task No.**|This field displays the Job Task. No. for this allocation.|
@@ -409,4 +409,3 @@ To access the Rate Sets via the Resource Allocations Card click **Rate Sets** ic
 |**Required Monday to Required Sunday**|These fields identify what days the contractor is required for this allocation.|
 
 [GoToTop](#how-to-setup-a-contractor)
-
