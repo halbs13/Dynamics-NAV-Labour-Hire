@@ -3,8 +3,8 @@
 This section contains information relating to Internal Payroll Processing:
 
 - [Entering New Employees](#entering-new-employees)
-  - [Employee Card](#edit-employee-card)
-  - [Payroll Employee Card](#edit-payroll-employee-card)
+  - [Employee Card](#employee-card)
+  - [Payroll Employee Card](#payroll-employee-card)
 - [Processing Pays](#payroll-processing)
   - [Pay Journals](#payroll-processing-pay-journals)
   - [Enter Leave Adjustments](#payroll-processing-enter-any-leave-adjustments)
@@ -51,7 +51,9 @@ All internal staff will be entered into the Human Resources and Payroll modules 
 
 # PROCESS DETAIL
 
-## Entering New Employees – Human Resources Module
+## Entering New Employees - Human Resources
+
+### Employee Card
 
 1. In the **Search** box, enter in **Employees**, and then choose the related link.  Or go to the following menu:*Departments/Payroll/Employee Maintenance/Employees* 
  
@@ -96,6 +98,8 @@ All internal staff will be entered into the Human Resources and Payroll modules 
 [GoToTop](#how-to-process-an-internal-payroll-in-labour-hire)
 
 ## Entering New Employees – Payroll Module
+
+### Payroll Employee Card
 
 After employees are entered into the Human Resources module they are then entered into the Payroll module. All employee maintenance such as updates to pay details, bank details and tax information is maintained on the Payroll Employee Card.
 
