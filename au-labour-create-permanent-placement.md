@@ -12,8 +12,8 @@ This section contains information relating to Permanent Placements/Requirements 
   - [Generating Permanent Placement Invoices](#generating-permanent-placement-invoices)
 
 - [Requirements Invoicing Overview](#requirements-invoicing) 
-  -[Requirements Invoicing Setup](#requirements-invoicing) 
-  -[Generating Requirements Invoices](#generating-requirements)
+  - [Requirements Invoicing Setup](#requirements-invoicing) 
+  - [Generating Requirements Invoices](#generating-requirements)
 
 ## PERMANENT PLACEMENT OVERVIEW
 Permanent Placements are candidates who apply for positions advertised by recruitment agencies on behalf of their clients with the intention of being permanently placed.
@@ -238,9 +238,9 @@ Permanent Placement invoices can be generated once the Permanent Placement recor
 
 Permanent Placement Invoice parameters are maintained within the following areas of the Labour Hire module:
 
-- [Labour Hire Setup – Permanent Placement FastTab](#labour-hire-setup---permanent-placement-fasttab)
-- [Customer Card – Invoice Formats](#customer-card---invoice-formats)
-- [Customer Card – Payment Terms](#customer-card---payment-terms)
+- Labour Hire Setup – Permanent Placement FastTab
+- Customer Card – Invoice Formats
+- Customer Card – Payment Terms
 
 ### Labour Hire Setup – Permanent Placement FastTab
 
