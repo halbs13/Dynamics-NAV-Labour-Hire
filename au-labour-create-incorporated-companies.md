@@ -49,12 +49,11 @@ The information that needs to be recorded includes;
 
 To enter this information, go to the following menu: *Departments/Payroll/Employee Maintenance/Payroll Employees*
 
-   |Field Name|Description|  
-   |---------------------------------|---------------------------------------|  
-   |**Workers Comp Policy No.**|The **Workers Comp Policy No.** is used to record a Contractors policy number.|
-   |**Workers Comp Insurer**|The **Workers Comp Insurer** is used to record the name of the Contractors Workers Comp Insurer.|
-   |**Policy Expiration Date**|The **Policy Expiration Date** is used to record the expiry date of the policy.|
-
+|Field Name|Description|
+|---------------------------------------------|---------------------------------------------------------------------|
+|**Workers Comp Policy No.**|The **Workers Comp Policy No.** is used to record a Contractors policy number.|
+|**Workers Comp Insurer**|The **Workers Comp Insurer** is used to record the name of the Contractors Workers Comp Insurer.|
+|**Policy Expiration Date**|The **Policy Expiration Date** is used to record the expiry date of the policy.|
 
 [GoToTop](#how-to-setup-incorporated-companies)
     
@@ -90,5 +89,4 @@ GST needs to be setup on the **General** FastTab on the **Payroll Setup**card an
  
 To access the Payroll Control Setup task go to the following menu: *Departments/Payroll/Setup/Payroll Setup/Payroll Controls/Payroll Setup*
 
- [GoToTop](#how-to-setup-incorporated-companies)
-
+[GoToTop](#how-to-setup-incorporated-companies)
