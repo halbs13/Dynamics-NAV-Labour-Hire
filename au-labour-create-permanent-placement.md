@@ -1,6 +1,7 @@
 # How to create Permanent Placements
 
-This document will contain information relating to Permanent Placements/Requirements Billing and contains the following sections:
+This section contains information relating to Permanent Placements/Requirements Billing:
+
 - [Permanent Placement Overview](#permanent-placement-overview) 
   - [Fee Types](#fee-types)
   - [Permanent Placement Setup](#permanent-placement-setup) 
@@ -41,8 +42,8 @@ Permanent Placement records are setup within the Placement Entry area of the Lab
 - Client (Customer) FastTab
 - Perm Placement FastTab
  
-Upon transferring data from this area, the following records are created within various areas of Dynamics NAV:
 
+Upon transferring data from this area, the following records are created within various areas of Dynamics NAV:
   - Resource Card
   - Job Card
   - Job Placement Fee
