@@ -6,7 +6,7 @@ Leave processing within the Dynamics NAV Payroll and Labour Hire modules encompa
 - Calculating & Posting Leave Provisions
 - Employee Leave Entitlement Reporting
 
-This section pecifically discusses how to use the Leave Processing function within Dynamics NAV.  The activities discussed are:
+This section specifically discusses how to use the Leave Processing function within Dynamics NAV.  The activities discussed are:
 
 - [Mass Adjust Leave Balances](#mass-adjust-leave-balance)
 - [Calculate and Post Provision](#calculate-and-post-provision)
