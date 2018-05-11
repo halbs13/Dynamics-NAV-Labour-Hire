@@ -267,6 +267,7 @@ Permanent Placement invoices will have a specific invoice format to present the 
 
 The Permanent Placement Invoice format is maintained on the **Invoicing** FastTab in the **Perm. Invoice/Cr. Format Code** field.
  
+
 [GoToTop](#how-to-create-permanent-placements)
 
 
