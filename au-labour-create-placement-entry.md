@@ -211,6 +211,10 @@ Placement Entry is used to update information relating to the Job and the Ratese
 - [Resources – Resource Card](#resources-card)
 - [Human Resources – Employee Card](#employee-card)
 - [Payroll – Payroll Employee Card](#payroll-employee-card)
+  - [Updating Employee Bank Details](#payroll-employee-pay-dissections)
+  - [Updating Employee Deduction](#payroll-employee-deductions)
+  - [Updating Employee Superannuation](#payroll-employee-superannuation)
+  - [Updating Employer On Costs](#payroll-employee-employer-on-costs)
 - [Jobs – Job Card](#jobs-card)
 - [Customer – Customer Card](#customer-card)
 
@@ -248,6 +252,7 @@ The types of information you will update on the Resource Card will be discussed 
 |**Employment Date**|It is not necessary to update this field in the Resource Card as it is not currently used in the Labour Hire module.|
 
 [GoToTop](#how-to-create-placements-in-placement-entry)
+
 [GoToRecordMaintenance](#record-maintenance) 
 
 ## Employee Card
@@ -288,6 +293,7 @@ The types of information you will update on the Employee Card will be discussed 
 |**Birth Date**|This is a mandatory field. The Birth Date is used in the calculation of Superannuation.  The Birth Date must be over 13 & 9 Months.|
 
 [GoToTop](#how-to-create-placements-in-placement-entry)
+
 [GoToRecordMaintenance](#record-maintenance) 
 
 ## Payroll Employee Card
@@ -369,9 +375,10 @@ The types of information you will update on the Payroll Employee Card will be di
 |**Policy Expiration Date**|This field is used to record the Workers Comp Policy Expiration Date for the Employee/Contractor if they are operating as an Incorporated Company.|
 
 [GoToTop](#how-to-create-placements-in-placement-entry)
+
 [GoToRecordMaintenance](#record-maintenance) 
   
-## Payroll Employee – Pay Dissections
+## Payroll Employee Pay Dissections
 You can update the Employee/Contractor’s bank details from the Pay Dissections menu on the Payroll Employee Card.
 
 1.  To access the Pay Dissections, go to the following menu: *Departments/Labour Hire/Candidate Processing/Payroll Employees/Pay Dissections*
@@ -390,9 +397,10 @@ You can update the Employee/Contractor’s bank details from the Pay Dissections
 |**Not Used**|This field is used to suspend the transaction for one pay period only.  When the pay period is closed, the check mark is removed making it available again in the next pay.|
 
 [GoToTop](#how-to-create-placements-in-placement-entry)
+
 [GoToRecordMaintenance](#record-maintenance) 
 
-## Payroll Employee – Deductions
+## Payroll Employee Deductions
 You can update the Employee/Contractor’s deduction details from the Deductions menu on the Payroll Employee Card.
 
 1.  To access the Deductions, go to the following menu: *Departments/Labour Hire/Candidate Processing/Payroll Employees/Deductions*
@@ -415,9 +423,10 @@ You can update the Employee/Contractor’s deduction details from the Deductions
 |**Not Used**|This field is used to suspend the transaction for one pay period only.  When the pay period is closed, the check mark is removed making it available again in the next pay.|
 
 [GoToTop](#how-to-create-placements-in-placement-entry)
+
 [GoToRecordMaintenance](#record-maintenance) 
 
-## Payroll Employee – Superannuation
+## Payroll Employee Superannuation
 You can update the Employee/Contractor’s Superannuation details from the Superannuation menu on the Payroll Employee Card.
 
 1.  To access the Superannuation, go to the following menu: *Departments/Labour Hire/Candidate Processing/Payroll Employees/Superannuation*
@@ -442,10 +451,11 @@ You can update the Employee/Contractor’s Superannuation details from the Super
 |**Employee Post-Tax Standard %**|This field is used to record the Employee Post-Tax Standard % as nominated by the Employee/Contractor.|
 
 [GoToTop](#how-to-create-placements-in-placement-entry)
+
 [GoToRecordMaintenance](#record-maintenance) 
 
 
-## Payroll Employee – Employer On Costs
+## Payroll Employee Employer On Costs
 You can update the Employee/Contractor’s Employer On Cost details from the Accumulation Calculations menu on the Payroll Employee Card.
 
 1.  To access the Employer On Costs, go to the following menu: *Departments/Labour Hire/Candidate Processing/Payroll Employees/Accumulation Calculations/Employer On Costs*
@@ -462,6 +472,7 @@ You can update the Employee/Contractor’s Employer On Cost details from the Acc
 |**Not Used**|This field is used to suspend the transaction for one pay period only.  When the pay period is closed, the check mark is removed making it available again in the next pay.|
 
 [GoToTop](#how-to-create-placements-in-placement-entry)
+
 [GoToRecordMaintenance](#record-maintenance)
 
 ## Jobs Card
@@ -469,16 +480,21 @@ The types of information you will update on the Jobs Card will be discussed in t
 
 The types of information you may update on the Jobs Card are:
 
-- Hiring Manager via the Invoice FastTab
-- Account Managers/Salespeople via the Home ribbon
+- Hiring Manager via the **Invoice** FastTab
+- Account Managers/Salespeople via the **Home** ribbon
 
-1.  To access the Jobs Card, go to the following menu: *Departments/Labour Hire/Candidate Processing/Jobs*
- 
+To access the Jobs Card, go to the following menu: *Departments/Labour Hire/Candidate Processing/Jobs*
+
+[GoToTop](#how-to-create-placements-in-placement-entry)
+
+[GoToRecordMaintenance](#record-maintenance)
+
 ## Customer Card
 
 The types of information you will update on the Customer Card will be discussed in this section.  It will not contain an explanation of all fields only those relative to the Labour Hire module.  
 
 The types of information you may update on the Customer Card are:
+
 - Name
 - Address
 - Phone Numbers
@@ -490,133 +506,123 @@ The types of information you may update on the Customer Card are:
 - Perm Placement Payment Terms Code
 - Customer Specific Fields
 
-To access the Customer Card, go to the following menu:
+1.  To access the Customer Card, go to the following menu: *Departments/Labour Hire/Candidate Processing/Customer*
 
-*Departments/Labour Hire/Candidate Processing/Customer*
+2.  On the **General** FastTab, update the fields as described in the following table.
 
-### Edit – Customer Card window 
- |Field|Description|
-|------------------------------------------|--------------------------------------------------------------------|
-|**GENERAL FASTTAB**||
+|Field Name|Description|
+|---------------------------------------------|---------------------------------------------------------------------|
 |**Name**|This field is used to store the name of the Customer.|
 
+3.  On the **Address & Contact** FastTab, update the fields as described in the following table.
 
- |Field|Description|
-|------------------------------------------|--------------------------------------------------------------------|
-|**ADDRESS & CONTACT FASTTAB**||
+|Field Name|Description|
+|---------------------------------------------|---------------------------------------------------------------------|
 |**Address**|This field is used to record the Address of the Customer.|
 |**Phone No.**|The Customer Phone Number is stored on the Contact Card.|
 
+4.  On the **Invoicing** FastTab, update the fields as described in the following table.
 
-|Field|Description|
-|------------------------------------------|--------------------------------------------------------------------| 
-|**INVOICING FASTTAB**||
-|**Invoice/Cr. Memo Format Code**|This field is used to record the Customer’s Invoice/Cr. Memo Format.|
-||Click on the “ArrowDown” button to select an appropriate code.|
-|**Perm. Invoice/Cr. Format Code**|This field is used to record the Customer’s Perm Invoice/Cr. Memo Format.|
-||Click on the “ArrowDown” button to select an appropriate code.|
-|**Req. Inv./Cr. Format Code**|This field is used to record the Customer’s Invoice/Cr. Memo Format.|
-||Click on the “ArrowDown” button to select an appropriate code.|
-|**Job Invoice Consolidation Type**|This field is used to record the Job Invoice Consolidation Type.  The options are;|
-||·         Bill-To Customer No.|
-||·         Bill-To Customer No. + Sell-to Customer No.|
-|**Job Invoice Grouping**|This field is used to identify how the invoices will group.  The following options are;|
-||·         Alternate Date|
-||·         Job Posting Group|
-||·         Job Bill-To Contact|
-||·         Job No. |
-||·         Job Task No.|
+|Field Name|Description|
+|---------------------------------------------|---------------------------------------------------------------------|
+|**Invoice/Cr. Memo Format Code**|This field is used to record the Customer’s Invoice/Cr. Memo Format.  Click on the **ArrowDown** to select an appropriate code.|
+|**Perm. Invoice/Cr. Format Code**|This field is used to record the Customer’s Perm Invoice/Cr. Memo Format.  Click on the **ArrowDown** to select an appropriate code.|
+|**Req. Inv./Cr. Format Code**|This field is used to record the Customer’s Invoice/Cr. Memo Format.  Click on the **ArrowDown** to select an appropriate code.|
+|**Job Invoice Consolidation Type**|This field is used to record the Job Invoice Consolidation Type.  The options are; - Bill-To Customer No., - Bill-To Customer No. + Sell-to Customer No.|
+|**Job Invoice Grouping**|This field is used to identify how the invoices will group.  The following options are; - Alternate Date, - Job Posting Group, - Job Bill-To Contact, - Job No., - Job Task No.|
  
+5.  On the **Payments** FastTab, update the fields as described in the following table.
 
-|Field|Description|
-|------------------------------------------|--------------------------------------------------------------------| 
-|**PAYMENTS FASTTAB**||
-|**Payment Terms Code**|This field is used to record the Customer’s standard Payment Terms.|
-||Click on the “ArrowDown” button to select an appropriate code.|
-|**Perm. Placement Payment Terms**|This field is used to record the Customer’s Permanent Placement Payment Terms.|
-||Click on the “ArrowDown” button to select an appropriate code.|
+|Field Name|Description|
+|---------------------------------------------|---------------------------------------------------------------------|
+|**Payment Terms Code**|This field is used to record the Customer’s standard Payment Terms.  Click on the **ArrowDown** to select an appropriate code.|
+|**Perm. Placement Payment Terms**|This field is used to record the Customer’s Permanent Placement Payment Terms.  Click on the **ArrowDown** to select an appropriate code.|
 
+6.  On the **User Defined** FastTab, update the fields as described in the following table.
 
-
-
-|Field|Description|
-|------------------------------------------|--------------------------------------------------------------------| 
-|**USER DEFINED FASTTAB**||
-|**Field No. 1 Required..Field No. 10 Required**|This field is used to record whether additional reporting is being captured from the Employee/Contractor’s timesheet. |
-||If one of the fields are selected, then a heading must be entered in the Field 1 Label, etc.|
+|Field Name|Description|
+|---------------------------------------------|---------------------------------------------------------------------|
+|**Field No. 1 Required..Field No. 10 Required**|This field is used to record whether additional reporting is being captured from the Employee/Contractor’s timesheet. If one of the fields are selected, then a heading must be entered in the Field 1 Label, etc.|
 
 [GoToTop](#how-to-create-placements-in-placement-entry)
+
 [GoToRecordMaintenance](#record-maintenance) 
 
 ## EXAMPLES OF UPDATES
-This section will outline examples of when information is updated and where these updates should occur.
+This section outlines examples of where information should be updated based on the type of change it it.  
+
+- [Placement Entry](#placement-entry)
+ 
+- [Non Placement Entry](#non-placement-entry)
+
 
 ### Placement Entry
-
 Placement Entry is used to update information relating to the Job and the Ratesets.  These areas are;
 
-- Extending a Contract
-- Updating the Rate sets
+- [Extending a Contract](#extending-a-contract)
+- [Updating Ratesets](#updating-ratesets)
 
 ### Extending a Contract
-
 Extending Contracts is performed in Placement Entry.  You will also need to know the Employee/Contractor, the Customer No. and the Job and Job Task No. to update the information successfully.
 
-To access Placement Entry, go to the following menu:
+1.  To access Placement Entry, go to the following menu: *Departments/Labour Hire/Candidate Processing/Placement Entry*
 
-*Departments/Labour Hire/Candidate Processing/Placement Entry*
+2.  Click on the **New** icon on the Home ribbon.
 
- Use the following steps to perform this process:
+3.  On the **Person** FastTab, select the Placement Type in the **Placement Type** field.
 
-1. Click on the “New” icon on the Home ribbon.
-
-2. Go the Person FastTab, select the Placement Type in the “Placement Type” field.
-
-3. Go the “Candidate No.” field and click on the “ArrowDown” and select the Employee.
-
+4.  On the  **Candidate No.** field, click on the **ArrowDown** and select the Employee
 
 Once you retrieve the Employee record, there will be some “greyed” out fields which means that these fields are not editable from within the Placement Entry window.   
 
-When you see this screen, then proceed to the “Client” FastTab.
+5.  On the **Client** FastTab, select the **ArrowDown** on the **Customer No.** field and select the Customer.
 
-1. Go to the Customer No. field and click on the “ArrowDown” and select the Customer.
+Once you retrieve the Customer record, there will be some “greyed” out fields which means that these fields are not editable from within the Placement Entry window.   
 
-Once you retrieve the Customer record, there will be some “greyed” out fields which means that these fields are not editable from within the Placement Entry window.   When you see this screen, then proceed to the “Placement” FastTab.
+6.  On the **Placement** FastTab, select the **ArrowDown** on the **Job No.** field and select the Job No.
 
+7.  On the **Job Task No.** field, select the **ArrowDown** and select the Job Task No. for this Job.
 
-1. Go to the Job No. field, click on the “ArrowDown” and select the Job No.
+8.  Once you select the first two fields, other fields will be populated accordingly.
 
-2. Go to the Job Task No. field, click on the “ArrowDown” and select the Job Task No. for this Job.
+9.  If you are extending a Contract, update the **End Date** of the record.  Do not update the Starting Date as this will create a new record. 
 
-3. Once you select the first two fields, other fields will be populated accordingly.
+### Updating Ratesets
 
-4. If you are extending a Contract, update the End Date of the record.  Do not update the Starting Date as this will create a new record.4.1.2 Update the Rateset
+1.  On the **Placement Entry Rates Section**, in the **Transaction Type Code** field, enter you in the Transaction Type Code.
 
+2.  Enter in the Pay & Charge Rate.
 
-1. New Ratesets are entred in the “Placement Entry Rates” window.
+3.  In the **Frequency** field, select the **ArrowDown** and select the frequency.
 
-2. Enter you in the Transaction Type Code.
-3. Enter in the Pay & Charge Rate.
-4. Go to the Frequency field and click on the “ArrowDown” and select the frequency.
-5. Go to the Date Effective field and enter in the a new effective date.After you have updated this information, then click on the “Transfer” icon to update the various tables within Dynamics NAV.
+4.  In the **Date Effective** field and enter in the a new effective date.
+
+5.  After you have updated this information, then click on the **Transfer** icon to update the various tables within Dynamics NAV.
+
+[GoToTop](#how-to-create-placements-in-placement-entry)
+
+[GoToExamplesOfUpdates](#examples-of-updates)
 
 ## Non-Placement Entry
-
 There is other maintenance which are performed directly on the card.  Some of the examples of these updates are:
-- Employee/Contractor Terminates
-- Transfer from PAYG Contractor to Company
+
+- [Employee/Contractor Terminates](#contractor-terminates)
+- [Transfer from PAYG Contractor to Company](#transfer-from-payg-contractor-to-company)
 
 ### Contractor Terminates
-
 If an Employee/Contractor terminates employment then the updates should occur as follows:
 
-1. Update the Ending Date on the Job via Placement Entry.  This will ensure that no timesheets will generate for the Employee/Contractor.
+1. Update the **Ending Date** on the Job via [Placement Entry](#extending-a-contract).  This will ensure that no timesheets will generate for the Employee/Contractor.
 
-2. Update the following fields on the Administration FastTab of the Employee Card:
+2. Update the following fields on the **Administration** FastTab of the [Employee Card](#employee-card):
  
    * Status – update to Terminated
    * Terminated Date – enter in the Termination Date
-   * Grounds for Term. Code – click on the “ArrowDown” button and select the Termination Reason code.
+   * Grounds for Term. Code – click on the **ArrowDown** and select the Termination Reason code.
+   
+[GoToTop](#how-to-create-placements-in-placement-entry)
+
+[GoToExamplesOfUpdates](#examples-of-updates)
 
 ### Transfer from PAYG to Company
 
