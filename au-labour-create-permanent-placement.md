@@ -7,9 +7,9 @@ This section contains information relating to Permanent Placements/Requirements 
   - [Permanent Placement Setup](#permanent-placement-setup) 
   - [Permanent Placement Card](#permanent-placement-cards) 
   
- - [Permanent Placement Invoicing](#permanent-placement-invoicing)
-  -[Permanent Placement Invoice Parameters](#permanent-placement-invoice-parameters) 
-  -[Generating Permanent Placement Invoices](#generating-permanent-placement-invoices)
+- [Permanent Placement Invoicing](#permanent-placement-invoicing)
+  - [Permanent Placement Invoice Parameters](#permanent-placement-invoice-parameters) 
+  - [Generating Permanent Placement Invoices](#generating-permanent-placement-invoices)
 
 - [Requirements Invoicing Overview](#requirements-invoicing) 
   -[Requirements Invoicing Setup](#requirements-invoicing) 
@@ -238,9 +238,9 @@ Permanent Placement invoices can be generated once the Permanent Placement recor
 
 Permanent Placement Invoice parameters are maintained within the following areas of the Labour Hire module:
 
-- Labour Hire Setup – Permanent Placement FastTab
-- Customer Card – Invoice Formats
-- Customer Card – Payment Terms
+- [Labour Hire Setup – Permanent Placement FastTab](#labour-hire-setup---permanent-placement-fasttab)
+- [Customer Card – Invoice Formats](#customer-card---invoice-formats)
+- [Customer Card – Payment Terms](#customer-card---payment-terms)
 
 ### Labour Hire Setup – Permanent Placement FastTab
 
