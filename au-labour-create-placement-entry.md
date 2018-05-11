@@ -208,82 +208,78 @@ All new placements are entered into the Placement Entry page.  Follow the steps
 ## RECORD MAINTENANCE
 Placement Entry is used to update information relating to the Job and the Ratesets associated to the Job, otherwise maintenance should occur in the following areas:
 
-- Resources – Resource Card
-- Human Resources – Employee Card
-- Payroll – Payroll Employee Card
-- Jobs – Job Card
-- Customer – Customer Card
+- [Resources – Resource Card](#resources-card)
+- [Human Resources – Employee Card](#employee-card)
+- [Payroll – Payroll Employee Card](#payroll-employee-card)
+- [Jobs – Job Card](#jobs-card)
+- [Customer – Customer Card](#customer-card)
 
 
-## Resources
+## Resources Card
 The types of information you will update on the Resource Card will be discussed in this section.  It will not contain an explanation of all fields only those relative to the Labour Hire module.
 
-To access the Resources Card, go to the following menu:
+1.  To access the Resources Card, go to the following menu: *Departments/Labour Hire/Candidate Processing/Resources* 
 
-*Departments/Labour Hire/Candidate Processing/Resources* 
+2.  Search Contractor's Employee No. on the **Resource No.** field on the **Resource Card**.
 
-### Edit – Resource Card window
-|Field|Description|
-|------------------------------------------|--------------------------------------------------------------------| 
-|**GENERAL FASTTAB**||
+3.  On the **General** FastTab, update the fields as described in the following table.
+
+|Field Name|Description|
+|---------------------------------------------|---------------------------------------------------------------------|
 |**Name**|The name field appears on the Customer Invoice.|
-|**Type**|The value in the Type field should be setup as “Person”|
-|**Base Unit of Measure**|The value in the Base Unit of Measure field should be setup as “Hour”|
+|**Type**|The value in the Type field should be setup as “Person”.|
+|**Base Unit of Measure**|The value in the Base Unit of Measure field should be setup as “Hour”.|
 |**Job Posting Group**|This field is the Job Posting Group as entered in Placement Entry.|
 
+4.  On the **Invoicing** FastTab, update the fields as described in the following table.
 
-|Field|Description|
-|------------------------------------------|--------------------------------------------------------------------| 
-|**INVOICING FASTTAB**||
+|Field Name|Description|
+|---------------------------------------------|---------------------------------------------------------------------|
 |**Gen. Prod. Posting Group**|This field is used to determine what type of Product the Resource is for posting purposes.|
 |**VAT/GST Prod. Posting Group**|This field is used to determine what type of Product the Resource is for GST purposes.|
 
+5.  On the **Personal** FastTab, update the fields as described in the following table.
 
-|Field|Description|
-|------------------------------------------|--------------------------------------------------------------------| 
-|**PERSONAL FASTTAB**||
+|Field Name|Description|
+|---------------------------------------------|---------------------------------------------------------------------|
 |**Address**|It is not necessary to update this field in the Resource Card as it is not currently used in the Labour Hire module.|
 |**Post Code**|It is not necessary to update this field in the Resource Card as it is not currently used in the Labour Hire module.|
 |**City**|It is not necessary to update this field in the Resource Card as it is not currently used in the Labour Hire module.|
 |**Employment Date**|It is not necessary to update this field in the Resource Card as it is not currently used in the Labour Hire module.|
  
 
-## Human Resources
+## Employee Card
 The types of information you will update on the Employee Card will be discussed in this section.  It will not contain an explanation of all fields only those relative to the Labour Hire module.
 
-To access the Employee Card, go to the following menu:
-
-*Departments/Labour Hire/Candidate Processing/Employees*
+1.  To access the Employee Card, go to the following menu: *Departments/Labour Hire/Candidate Processing/Employees*
  
-### Edit – Employee Card window 
+2.  Search the Contractor's Employee No. on the **No.** field on the **Employee Card**.
 
-|Field|Description|
-|------------------------------------------|--------------------------------------------------------------------| 
-|**GENERAL FASTTAB**||
+3.  On the **General** FastTab, update the fields as described in the following table.
+
+|Field Name|Description|
+|---------------------------------------------|---------------------------------------------------------------------|
 |**Title**|The Title field is used to specify the title of the Employee. E.g. Miss, Mrs, Mr, etc|
 |**First Name**|The First Name field displays on all Payroll and Employee related reports for the Employee/Contractor.|
-||If you update the Employee Card, the relevant fields will also be updated in the Payroll Employee card and vice versa.|
-|**Last Name**|The Last Name field displays on all Payroll and Employee reports for the Employee/Contractor.|
-||If you update the Employee Card, the relevant fields will also be updated in the Payroll Employee card and vice versa.|
-|**Address**|The Address field displays on all relevant Payroll and Employee reports for the Employee/Contractor.|
-||If you update the Employee Card, the relevant fields will also be updated in the Payroll Employee card and vice versa.|
-|**Post Code, City, County, Country/Region Code**|These fields display on all relevant Payroll and Employee reports for the Employee/Contractor.|
-||If you update the Employee Card, the relevant fields will also be updated in the Payroll Employee card and vice versa.|
+||If you update the Employee Card, the relevant fields will also be updated in the Payroll Employe.e card and vice versa.|
+|**Last Name**|The Last Name field displays on all Payroll and Employee reports for the Employee/Contractor.  If you update the Employee Card, the relevant fields will also be updated in the Payroll Employee card and vice versa.|
+|**Address**|The Address field displays on all relevant Payroll and Employee reports for the Employee/Contractor.  If you update the Employee Card, the relevant fields will also be updated in the Payroll Employee card and vice versa.|
+|**Post Code, City, County, Country/Region Code**|These fields display on all relevant Payroll and Employee reports for the Employee/Contractor.  If you update the Employee Card, the relevant fields will also be updated in the Payroll Employee card and vice versa.|
 
+4.  On the **Communication** FastTab, update the fields as described in the following table.
 
-|Field|Description|
-|------------------------------------------|--------------------------------------------------------------------| 
-|**COMMUNICATION FASTTAB**||
-|**Mobile Phone No./Phone No.**|These fields display on all relevant Payroll and Employee reports for the Employee/Contractor.|
-||If you update the Employee Card, the relevant fields will also be updated in the Payroll Employee card and vice versa.|
+|Field Name|Description|
+|---------------------------------------------|---------------------------------------------------------------------|
+|**Mobile Phone No./Phone No.**|These fields display on all relevant Payroll and Employee reports for the Employee/Contractor.  If you update the Employee Card, the relevant fields will also be updated in the Payroll Employee card and vice versa.|
 |**E-Mail**|This field is used to distribute pay advices and payment summaries via E-Mail.|
 
+5.  On the **Adminstration** FastTab, update the fields as described in the following table.
 
-|Field|Description|
-|------------------------------------------|--------------------------------------------------------------------| 
-|**ADMINISTRATION FASTTAB**||
+|Field Name|Description|
+|---------------------------------------------|---------------------------------------------------------------------|
 |**Status**|This field can be updated to Terminated should the Employee/Contractor leave your organisation.|
 
+6.  On the **Personal** FastTab, update the fields as described in the following table.
 
 |Field|Description|
 |------------------------------------------|--------------------------------------------------------------------|
@@ -292,7 +288,7 @@ To access the Employee Card, go to the following menu:
 ||The Birth Date is used in the calculation of Superannuation.  The Birth Date must be over 13 & 9 Months.|
  
 
-## Payroll Employee
+## Payroll Employee Card
 The types of information you will update on the Payroll Employee Card will be discussed in this section.  It will not contain an explanation of all fields only those relative to the Labour Hire module.
 
 To access the Payroll Employee Card, go to the following menu:
