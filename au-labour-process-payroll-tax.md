@@ -11,7 +11,7 @@ Payroll Tax processing within the Dynamics NAV Payroll and Labour Hire modules e
   - Payroll Tax Transactions allocated to Pay Transaction Types
 - Payroll Tax Reporting
 
-This document will specifically discuss how to use the Payroll Tax Report within Dynamics NAV.  For further information relating to the setup of each of these areas, please refer to the Dialog – Training – LH – Payroll Setup Configuration document.
+This section will specifically discuss how to use the Payroll Tax Report within Dynamics NAV.  For further information relating to the setup of each of these areas, please refer to the Dialog – Training – LH – Payroll Setup Configuration document.
 
 ## Payroll Tax Overview
 
