@@ -229,7 +229,7 @@ Permanent Placements are created once the transactions entered into Placement En
 
 [GoToTop](#how-to-create-permanent-placements)
 
-# PERMANENT PLACEMENT INVOICNG
+# PERMANENT PLACEMENT INVOICING
 Permanent Placement invoices can be generated once the Permanent Placement record has been created.   Various parameters are established to determine when invoices are generated, invoice formats and payment terms if they are different to normal payment terms.
 
 ## Permanent Placement Invoice Parameters
