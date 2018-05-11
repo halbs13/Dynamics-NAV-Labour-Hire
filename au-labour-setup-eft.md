@@ -17,6 +17,7 @@ This section will discuss the setting up EFT to produce the appropriate files.
 ## To setup EFT   
 
 1. In the **Search** box, enter **Bank Accounts**, and then choose the related link.  
+
 2. On the **General** FastTab, fill the fields as described in the following table.  
 
 |Field Name|Description|
