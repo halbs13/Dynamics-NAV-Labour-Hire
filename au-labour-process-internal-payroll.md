@@ -39,7 +39,7 @@ All internal staff will be entered into the Human Resources and Payroll modules 
 ## Processing Pays
 
 1.  Receive timesheets including Leave and /or pay adjustments for employees.
-2.  As an optional task, you can specify a particular payroll to work in.  Go into *Departments/Payroll/Payroll Processing/Payroll Selection* and select the Payroll.  (**Note:** If you perform this task, you can release this filter by coming back into this area and selecting **Clear Selection** and this will release the filter and allow you to access all the Payrolls you will have User Access to.
+2.  As an optional task, you can specify a particular payroll to work in.  Go into *Departments/Payroll/Payroll Processing/Payroll Selection* and select the Payroll.  (**Note:** If you perform this task, you can release this filter by coming back into this area and selecting the **Clear Selection** icon and this will release the filter and allow you to access all the Payrolls you have User Access to.
 3.  Go into *Departments/Pay Journal/Pay Processing/Pay Journal* and enter in the leave adjustments. 
 4.  Once the adjustments are complete, select the **Calculate Pays** function.  Enter the **Pay Date** and select **OK**. 
 5.  Run the **Entry Validation Report** , select print preview to check for errors and warnings on the screen, when all clear, **Print the report** or save as a .PDF. 
