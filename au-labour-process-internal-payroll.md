@@ -68,7 +68,7 @@ All internal staff will be entered into the Human Resources and Payroll modules 
 3.  On the **General** FastTab, fill the fields as described in the following table.
 
 |Field Name|Description|
-|----------------------------------------|---------------------------------------------------------------------|
+|---------------------------------------------|---------------------------------------------------------------------|
 |**Job Title**|Enter the Person’s Job Title.|
 |**First Name**|Enter the Employee’s First Name.|
 |**Last Name**|Enter the Employee’s Last Name.|
@@ -82,7 +82,7 @@ All internal staff will be entered into the Human Resources and Payroll modules 
 4.  On the **Communication** FastTab, fill the fields as described in the following table.
 
 |Field Name|Description|
-|----------------------------------------|---------------------------------------------------------------------|
+|---------------------------------------------|---------------------------------------------------------------------|
 |**Extension**|Enter the employee’s work extension number if applicable.|
 |**Mobile Phone No**|Enter the employee’s mobile phone number if applicable.|
 |**Phone No.**|The employee’s phone number will default if entered on the General FastTab.|
@@ -91,14 +91,14 @@ All internal staff will be entered into the Human Resources and Payroll modules 
 5.  On the **Administration** FastTab, fill the fields as described in the following table.
 
 |Field Name|Description|
-|----------------------------------------|---------------------------------------------------------------------|
+|---------------------------------------------|---------------------------------------------------------------------|
 |**Employment date**|Enter the employee’s employment or start date. This field is a mandatory field, if nothing is entered will cause issues when calculating pays.|
 |**Status**|This will default to **Active**.|
 
 6.  On the **Personal** FastTab, fill the fields as described in the following table.
 
 |Field Name|Description|
-|----------------------------------------|---------------------------------------------------------------------|
+|---------------------------------------------|---------------------------------------------------------------------|
 |**Birth Date**|Enter the employee’s birth date.|
 
 [GoToTop](#how-to-process-an-internal-payroll-in-labour-hire)
@@ -116,7 +116,7 @@ After employees are entered into the Human Resources module they are then entere
 3.  On the **General** FastTab, fill the fields as described in the following table.
 
 |Field Name|Description|
-|----------------------------------------|---------------------------------------------------------------------|
+|---------------------------------------------|---------------------------------------------------------------------|
 |**Payroll No**|Select the appropriate Payroll No. from the **ArrowDown**.  You will receive a message requesting whether you want to change the Employee to the Payroll No. you have selected. Click **Yes**.|
 |**Emp Type Code**|Select the Employee Type Code from **ArrowDown**.|
 |**Payment Method**|Confirm the Payment Method has been changed to **EFT**. This will default to the Defaults on the Payroll Setup Card.|
@@ -127,14 +127,14 @@ After employees are entered into the Human Resources module they are then entere
 4.  On the **Posting** FastTab, fill the fields as described in the following table.
 
 |Field Name|Description|
-|----------------------------------------|---------------------------------------------------------------------|
+|---------------------------------------------|---------------------------------------------------------------------|
 |**Branch Code**|Select the relevant Branch Code from the **ArrowDown**.|
 |**Global Dimension 1 &2**|Select the relevant Dimension Codes from the **ArrowDown**. This will usually be the same as the Branch Code.|
 
 5.  On the **Tax** FastTab, fill the fields as described in the following table.
 
 |Field Name|Description|
-|----------------------------------------|---------------------------------------------------------------------|
+|---------------------------------------------|---------------------------------------------------------------------|
 |**Tax Scale No**|The Tax Scale No. will default from the Payroll setup card and can be overridden.|
 |**HELP Debt**|Select this field if advised on the declaration form.|
 |**Student Loan ( SFSS )**|Select his field if advised on the declaration form.|
@@ -145,7 +145,7 @@ After employees are entered into the Human Resources module they are then entere
 6.  On the **Declaration** FastTab, fill the fields as described in the following table.
 
 |Field Name|Description|
-|----------------------------------------|---------------------------------------------------------------------|
+|---------------------------------------------|---------------------------------------------------------------------|
 |**Resident**|Select this field if advised on the Declaration Form.|
 |**Tax Free Threshold Claimed**|Select this field if advised on the Declaration Form.|
 |**HELP Debt**|Select this field if advised on the Declaration Form.|
@@ -172,7 +172,7 @@ Employee Bank accounts are entered in the Pay Dissections area.
 2.  Fill the fields as described in the following table.
 
 |Field Name|Description|
-|----------------------------------------|---------------------------------------------------------------------|
+|---------------------------------------------|---------------------------------------------------------------------|
 |**Transaction Type Code**|Transaction Type Code 9999 will default in this field.|
 |**Pay Dissection Type**|There are 2 types of dissections: * **Main** – Used to identify the main bank account, * **Part** – Used to identify additional bank accounts.|
 |**Bank Account No.**|Enter the employee’s bank account number. This field has a limit of 9 characters which should be entered as follows: 123456789.|
@@ -189,7 +189,7 @@ Employee Bank accounts are entered in the Pay Dissections area.
  2. Fill the fields as described in the following table.
  
 |Field Name|Description|
-|----------------------------------------|---------------------------------------------------------------------|
+|---------------------------------------------|---------------------------------------------------------------------|
 |**Employee start Date**|This field should default to the Employee’s Start Date.|
 |**Classification Code**|Click on the **ArrowDown** and select the award associated with the employee.|
 |**Employee Rate**|Enter in the Employee’s rate as an hourly amount.|
@@ -207,7 +207,7 @@ It is assumed that Internal Employees are **Auto Paid**. To automatically genera
 2.  Fill the fields as described in the following table.
 
 |Field Name|Description|
-|----------------------------------------|---------------------------------------------------------------------|
+|---------------------------------------------|---------------------------------------------------------------------|
 |**Transaction Type Code**|Select the Transaction Type Code from the **ArrowDown** e.g. Ordinary Time or a Permanent Allowance.|
 |**Start Date**|Enter in a Start Date of when the Allowance transaction should commence. If this is for Ordinary of Normal Hours there is no need to enter in a Start Date.|
 |**Description**|The Description will default from the Transaction. You can override the description should you require a user defined description to print on the Pay Advice.|
@@ -228,7 +228,7 @@ The Deductions Area is used to setup permanent deductions.
 2.  Fill the fields as described in the following table.
 
 |Field Name|Description|
-|----------------------------------------|---------------------------------------------------------------------|
+|---------------------------------------------|---------------------------------------------------------------------|
 |**Transaction Type Code**|Select the Transaction Type Code from the **ArrowDown**.|
 |**Priority**|If there are a number of deductions, you can select the order in which they are deducted, by entering 1,2,3, etc. for each transaction type.|
 |**Start Date**|Enter in a Start Date of when the Deduction transaction should commence.|
@@ -248,7 +248,7 @@ The Deductions Area is used to setup permanent deductions.
 2.  Fill the fields as described in the following table.
 
 |Field Name|Description|
-|----------------------------------------|---------------------------------------------------------------------|
+|---------------------------------------------|---------------------------------------------------------------------|
 |**Superannuation Company Code**|Select the Superannuation Company code from the **ArrowDown**.|
 |**Membership No.**|Enter in the Membership No. if known.|
 |**Date Joined Fund**|The **Date Joined Fund** date will default to the Employee’s start date. If this date differs from the Employee start date, enter in the stat date for the Superannuation Fund.|
@@ -276,7 +276,7 @@ Dependent upon what is setup on the Payroll (Pay Cycles) card, will depend upon 
 2.  If you wish to create or add a new Leave Accrual, click on the **New** icon and fill the fields as described in the following table.
 
 |Field Name|Description|
-|----------------------------------------|---------------------------------------------------------------------|
+|---------------------------------------------|---------------------------------------------------------------------|
 |**Leave Type**|Select the Leave Type code from the **ArrowDown**.|
 |**Leave Code**|Select the appropriate Leave Code from the **ArrowDown**.|
 |**Start Date**|The **Starting Date** will default to the employees start date. This date is the Employee leave Accrual Start Date.|
@@ -292,7 +292,7 @@ If your organisation has chosen to calculate On Cost transactions, you will need
 2.  Fill the fields as described in the following table.
 
 |Field Name|Description|
-|----------------------------------------|---------------------------------------------------------------------|
+|---------------------------------------------|---------------------------------------------------------------------|
 |**Transaction Type Code**|Select the Transaction Type code from the **ArrowDown**.|
 |**Start Date**|The **Start Date** field is used to specify the date at which the On Cost transaction is to commence.|
 |**End Date**|The **End Date** field is used to specify the date at which the On Cost transaction is to end.|
@@ -315,7 +315,7 @@ To access the Pay Journals task, go to the following menu: *Departments/Pay Jour
 2.  To enter leave against a specific employee, at a minimum fill the fields as described in the following table.  
 
 |Field Name|Description|
-|----------------------------------------|---------------------------------------------------------------------|
+|---------------------------------------------|---------------------------------------------------------------------|
 |**No.**|Select the Employee’s No. from the **ArrowDown**.|
 |**Transaction Type Code**|Enter or select the Transaction Type code for the Leave Type from the **ArrowDown**.|
 |**From Date**|Enter in the Start Date of the absence in this field.(**You will need to update your display settings if this field is not displaying**).|
@@ -364,7 +364,7 @@ When the Entry Validation report has been checked and found to be correct, run t
 2.  Fill the fields as described in the folllowing table.
  
 |Field Name|Description|
-|----------------------------------------|---------------------------------------------------------------------|
+|---------------------------------------------|---------------------------------------------------------------------|
 |**Employee No.**|You can create a bank transfer file for one employee by nominating the Employee’s number from the **ArrowDown**.  Otherwise leave it blank to create a bank file for all employees.|
 |**Bank Account**|The Bank Account attached to the Payroll will default from the Payroll Card. Otherwise select another bank account from the **ArrowDown**.|
 |**Process Date**|This will be the **Processing Date** when the file will be processed by the Bank. The date should be today’s date or greater.|
@@ -388,7 +388,7 @@ When bank files for each batch of pays has been processed, the payroll journals 
 3.  Fill the fields described in the following table.
  
 |Field Name|Description|
-|----------------------------------------|---------------------------------------------------------------------|
+|---------------------------------------------|---------------------------------------------------------------------|
 |**Payroll No.**|From the **ArrowDown**, select the Payroll you wish to re-print pay advices for.|
 |**Period No.**|From the **ArrowDown**, select the Period No. you wish to re-print the pay advices for.|
 
@@ -398,13 +398,13 @@ When bank files for each batch of pays has been processed, the payroll journals 
 2.  On the **Options** FastTab, fill the fields as described in the following table.
  
 |Field Name|Description|
-|----------------------------------------|---------------------------------------------------------------------|
+|---------------------------------------------|---------------------------------------------------------------------|
 |**Pay Advice Message**|Complete this field if you wish to have a pay advice message printed on the emailed pay advices.|
 
 3.  On the **Posted Pay Advice** FastTab, fill the fields as described in the following table.
 
 |Field Name|Description|
-|----------------------------------------|---------------------------------------------------------------------|
+|---------------------------------------------|---------------------------------------------------------------------|
 |**Employee No.**|From the **ArrowDown**, select the Employee No. otherwise leave this blank to generate email pay advices for all.|
 |**Payroll No.**|From the **ArrowDown**, select the Payroll No. otherwise leave this blank to generate email pay advices for all.|
 |**Tax Year**|From the **ArrowDown**, select the Tax Year otherwise leave this blank to generate email pay advices for all.|
