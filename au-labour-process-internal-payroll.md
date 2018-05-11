@@ -36,7 +36,7 @@ All internal staff will be entered into the Human Resources and Payroll modules 
 10. Review or add new leave accrual types such as Annual Leave , Sick Leave and Long Service Leave.  To access the Leave Accrual task,       select the **Accruals** task icon.
 11. After you have completed these steps, you are ready to process pays.
 
-[Enter New Employee[(#employee-card)
+[Enter New Employee](#employee-card)
 [Enter New Payroll Employee](#payroll-employee-card)
 
 [GoToTop](#how-to-process-an-internal-payroll-in-labour-hire)
