@@ -463,13 +463,14 @@ You can update the Employee/Contractor’s Employer On Cost details from the Acc
 2.  Update the fields as described in the following table.
 
 |Field Name|Description|
-|---------------------------------------------|---------------------------------------------------------------------| 
+|---------------------------------------------|---------------------------------------------------------------------|
 |**Transaction Type Code**|Select the Pay Transaction Type code from the **ArrowDown**.|
 |**Start Date**|This field is used to record the Start Date of the Employer On Cost Transaction.|
 |**End Date**|This field is used to record the End Date of the Employer On Cost Transaction.|
 |**Pay Rate**|This field is used to record the Pay Rate as a % value and expressed in decimal format. If the value is 9.5%, then enter in 0.095.|
 |**Superannuation Code**|This field is used to record the Employee/Contractor’s Superannuation Code.  Click on the **ArrowDown** button to select the Superannuation Fund.|
 |**Not Used**|This field is used to suspend the transaction for one pay period only.  When the pay period is closed, the check mark is removed making it available again in the next pay.|
+
 
 [GoToTop](#how-to-create-placements-in-placement-entry)
 
