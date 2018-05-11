@@ -12,7 +12,7 @@ This section contains information relating to Permanent Placements/Requirements 
   - [Generating Permanent Placement Invoices](#generating-permanent-placement-invoices)
 
 - [Requirements Invoicing Overview](#requirements-invoicing-overview)
-  - [Requirements Invoicing Setup](#requirements-invoicing-setup)
+  - [Requirements Invoicing Setup](#requirements-invoice-setup)
   - [Requirements Invoice Parameters](#requirements-invoice-parameters)
   - [Generating Requirements Invoices](#generating-requirements-invoices)
 
@@ -324,7 +324,8 @@ Requirements are created as Jobs within the Labour Hire module where 3rd party i
 Requirement Invoice parameters are maintained within the following areas of the Labour Hire module:
 
 - Interface Options - Integration FastTab
-- Customer Card – Invoice Formats - Invoicing FastTab
+- Customer Card - Invoice Formats - Invoicing FastTab
+
 
 ### Interface Options – Integration FastTab
 
