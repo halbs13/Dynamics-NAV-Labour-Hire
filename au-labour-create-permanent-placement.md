@@ -72,7 +72,7 @@ Upon transferring data from this area, the following records are created within 
 |**Fax No.**|This field is used to record the Customer’s Fax No.|
 |**E-Mail:**|This field is used to record the Customer’s E-Mail address.|
 
-4.  In the **Contract Invoice Details Section** of the **Clients*** FastTab, fill the fields as described in the following table.
+4.  In the **Contract Invoice Details Section** of the **Clients** FastTab, fill the fields as described in the following table.
 
 |Field Name|Description|
 |---------------------------------------------|---------------------------------------------------------------------|
