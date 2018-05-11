@@ -68,7 +68,7 @@ After posting of the journal has occurred, you will be asked if you want to clos
 |**Post Code / City**|Enter in the Employee’s Post Code e.g. 2000.|
 |**Sate / Country Code**|Enter in **AUS**.|
 |**Phone Number**|Enter in the employee’s home phone number if known.|
-|**Gender**|Select **Male** or **Female**|
+|**Gender**|Select **Male** or **Female**.|
 |**Marital Status**|If the Marital Status is known, select the appropriate code.|
 
 4.  On the **Communication** FastTab, fill the fields as described in the following table.
@@ -76,22 +76,22 @@ After posting of the journal has occurred, you will be asked if you want to clos
 |Field Name|Description|
 |----------------------------------------|---------------------------------------------------------------------|
 |**Extension**|Enter the employee’s work extension number if applicable.|
-|**Mobile Phone No**|Enter the employee’s mobile phone number if applicable|
-|**Phone No.**|The employee’s phone number will default if entered on the General FastTab|
-|**E-mail**|Enter the employee’s email address. This will be required if intending on emailing the employee’s pay advice|
+|**Mobile Phone No**|Enter the employee’s mobile phone number if applicable.|
+|**Phone No.**|The employee’s phone number will default if entered on the General FastTab.|
+|**E-mail**|Enter the employee’s email address. This will be required if intending on emailing the employee’s pay advice.|
 
 5.  On the **Administration** FastTab, fill the fields as described in the following table.
 
 |Field Name|Description|
 |----------------------------------------|---------------------------------------------------------------------|
 |**Employment date**|Enter the employee’s employment or start date. This field is a mandatory field, if nothing is entered will cause issues when calculating pays.|
-|**Status**|This will default to **Active**|
+|**Status**|This will default to **Active**.|
 
 6.  On the **Personal** FastTab, fill the fields as described in the following table.
 
 |Field Name|Description|
 |----------------------------------------|---------------------------------------------------------------------|
-|**Birth Date**|Enter the employee’s birth date|
+|**Birth Date**|Enter the employee’s birth date.|
 
 [GoToTop](#how-to-process-an-internal-payroll-in-labour-hire)
 
@@ -147,7 +147,7 @@ After employees are entered into the Human Resources module they are then entere
 |**Birth Date**|This field will populate from the HR Employee card.|
 |**Date Declaration Signed**|Enter in the Date Declaration Signed from the Employment Declaration form.|
 |**Payee Signature**|If the employee has signed the Employment Declaration form, check this field.|
-|**Declaration Lodged**|This field will be populated with a date once the Declaration File Generation has been processed. |
+|**Declaration Lodged**|This field will be populated with a date once the Declaration File Generation has been processed.|
 
 7.  Information on the **Work Cover** FastTab is only completed for Incorporated Company contractors.
 
@@ -203,8 +203,8 @@ It is assumed that Internal Employees are **Auto Paid**. To automatically genera
 |**Description**|The Description will default from the Transaction. You can override the description should you require a user defined description to print on the Pay Advice.|
 |**Units**|Enter in the number of units required to be generated. For Ordinary / Normal Time type transactions you can enter in the number of hours per the pay period. |
 |**Fixed Value**|Enter in the Fixed Value for allowance type transaction if required.|
-|**Hourly Rate**|This will default from the Pay Rate table for Ordinary / Normal Time type transactions|
-|**Pay Value**|This will be the sum of the Units field * Hourly Rate field|
+|**Hourly Rate**|This will default from the Pay Rate table for Ordinary / Normal Time type transactions.|
+|**Pay Value**|This will be the sum of the Units field * Hourly Rate field.|
 |**Not Used**|The Not Used field is used to suppress the permanent transaction for a single pay only. When the pay period is closed on a payroll, this flag is then removed and ready to be generated for the next period.|
 
 [GoToTop](#how-to-process-an-internal-payroll-in-labour-hire)
@@ -224,7 +224,7 @@ The Deductions Area is used to setup permanent deductions.
 |**Start Date**|Enter in a Start Date of when the Deduction transaction should commence.|
 |**Description**|The Description will default from the Transaction. You can override the description should you require a user defined description to print on the Pay Advice.|
 |**Standard Amount / Standard %**|Enter in a Standard Amount or Standard % of the deduction.|
-|**Details**|Enter in a Reference number for the deduction|
+|**Details**|Enter in a Reference number for the deduction.|
 |**Total Deduction**|If the Deduction is to cease as soon as it reaches a certain amount, enter in this amount here.|
 |**LTD Amount**|This field is a sum of all the deductions to date.|
 |**Not Used**|The Not Used field is used to suppress the permanent transaction for a single pay only. When the pay period is closed on a payroll, this flag is then removed and ready to be generated for the next period.|
@@ -240,8 +240,8 @@ The Deductions Area is used to setup permanent deductions.
 |Field Name|Description|
 |----------------------------------------|---------------------------------------------------------------------|
 |**Superannuation Company Code**|Select the Superannuation Company code from the **ArrowDown**.|
-|**Membership No.**|Enter in the Membership No. if known|
-|**Date Joined Fund**|The **Date Joined Fund** date will default to the Employee’s start date. If this date differs from the Employee start date, enter in the stat date for the Superannuation Fund. |
+|**Membership No.**|Enter in the Membership No. if known.|
+|**Date Joined Fund**|The **Date Joined Fund** date will default to the Employee’s start date. If this date differs from the Employee start date, enter in the stat date for the Superannuation Fund.|
 |**Employer Standard %**|The employer standard percentage will default to the value setup on the Superannuation Company card.|
 
 [GoToTop](#how-to-process-an-internal-payroll-in-labour-hire)
@@ -261,17 +261,15 @@ If you are updating the employee’s Superannuation fund and your organisation i
 
 Dependent upon what is setup on the Payroll (Pay Cycles) card, will depend upon whether the leave accruals will default to the Payroll Employee card when the employee is assigned to the Payroll.
 
-To access the Leave Accrual task, Click the “Accruals” task icon.  A list of the Leave Accruals for the employee will appear for viewing purposes.
+1.  To review or setup the Leave Accruals, select the **Accruals** icon from the **Navigate** ribbon.  A list of the Leave Accruals for the employee will appear for viewing purposes.
 
- 
-If you wish to create or add a new Leave Accrual, click on the “New” icon.  
+2.  If you wish to create or add a new Leave Accrual, click on the **New** icon and fill the fields as described in the following table.
 
 |Field Name|Description|
 |----------------------------------------|---------------------------------------------------------------------|
-|**Leave Type**|Select the Leave Type code from the “ArrowDown”.|
-|**Leave Code**|Select the appropriate Leave Code from the “ArrowDown”.|
-|**Start Date**|The ‘Starting Date’ will default to the employees start date. This date is the Employee leave Accrual Start Date.|
-|**Click “OK” once you have completed all fields required.**|
+|**Leave Type**|Select the Leave Type code from the **ArrowDown**.|
+|**Leave Code**|Select the appropriate Leave Code from the **ArrowDown**.|
+|**Start Date**|The **Starting Date** will default to the employees start date. This date is the Employee leave Accrual Start Date.|
  
 [GoToTop](#how-to-process-an-internal-payroll-in-labour-hire)
 
@@ -279,145 +277,140 @@ If you wish to create or add a new Leave Accrual, click on the “New” icon.
 
 If your organisation has chosen to calculate On Cost transactions, you will need to add in the relevant On Cost Transactions so that they are generated during the calculation of pays.  
 
-You access Employer On Costs from the Payroll Employee Card by clicking on the “Accumulation Calculations/” on the “Navigate” ribbon.  
+1.  To setup Employer On Costs, select on the **Employer On Costs** icon, from the **Accumulation Calculations** on the **Navigate** ribbon.  
   
+2.  Fill the fields as described in the following table.
+
 |Field Name|Description|
 |----------------------------------------|---------------------------------------------------------------------|
-|**Transaction Type Code**|Select the Transaction Type code from the “ArrowDown”.|
-|**Start Date**|The “Start Date” field is used to specify the date at which the On Cost transaction is to commence.|
-|**End Date**|The “End Date” field is used to specify the date at which the On Cost transaction is to end.|
-|**Pay Rate**|The “Pay Rate” field is used to retain the calculation rate of the On Cost transaction.  This amount entered into this field should be expressed in decimal format.  E.g. If the value is 9%, it should be entered as 0.09.|
-|**Superannuation Code**|The “Superannuation Code” field is used to nominate the Contractor’s Superannuation code.  This is only applicable if this On Cost transaction relates to the SGC accrual.|
+|**Transaction Type Code**|Select the Transaction Type code from the **ArrowDown**.|
+|**Start Date**|The **Start Date** field is used to specify the date at which the On Cost transaction is to commence.|
+|**End Date**|The **End Date** field is used to specify the date at which the On Cost transaction is to end.|
+|**Pay Rate**|The **Pay Rate** field is used to retain the calculation rate of the On Cost transaction.  This amount entered into this field should be expressed in decimal format.  E.g. If the value is 9%, it should be entered as 0.09.|
+|**Superannuation Code**|The **Superannuation Code** field is used to nominate the Contractor’s Superannuation code.  This is only applicable if this On Cost transaction relates to the SGC accrual.|
 |**Not Used**|If this field is ticked the Pay Transaction Type is not applied to the “current” pay period only.  The flag will be reset for the next pay period.|
-|**Click “OK” after you have completed your selection.**|
 
 [GoToTop](#how-to-process-an-internal-payroll-in-labour-hire)
 
 # PAYROLL PROCESSING
 
-
 ## Payroll Processing Pay Journals
 
-To access the Pay Journals task, go to the following menu:
-
-*Departments/Pay Journal/Pay Processing/Pay Journal*
- 
+To access the Pay Journals task, go to the following menu: *Departments/Pay Journal/Pay Processing/Pay Journal*
 
 ## Payroll Processing Enter any leave adjustments
 
-In the “Pay Journal” section enter in any leave taken for auto paid employee. 
+1.  In the **Pay Journal** section enter in any leave taken for auto paid employee. 
  
-To enter leave against a specific employee, at a minimum the following fields should be populated:
+2.  To enter leave against a specific employee, at a minimum fill the fields as described in the following table.  
 
 |Field Name|Description|
 |----------------------------------------|---------------------------------------------------------------------|
-|**No.**|Select the Employee’s No. from the “ArrowDown”.|
-|**Transaction Type Code**|Enter or select the Transaction Type code for the Leave Type from the “ArrowDown”.|
-|**From Date**|Enter in the Start Date of the absence in this field.   (**You will need to update your display settings if this field is not displaying)|
-|**To Date**|Enter in the End Date of the absence in this field.  (**You will need to update your display settings if this field is not displaying)|
+|**No.**|Select the Employee’s No. from the **ArrowDown**.|
+|**Transaction Type Code**|Enter or select the Transaction Type code for the Leave Type from the **ArrowDown**.|
+|**From Date**|Enter in the Start Date of the absence in this field.(**You will need to update your display settings if this field is not displaying**).|
+|**To Date**|Enter in the End Date of the absence in this field.(**You will need to update your display settings if this field is not displaying**).|
 |**Units**|Enter in the No. of Hours in this field.|
-|**Subtract From Permanent Hours**|This field will automatically default from the setup of the Pay Transaction Type card.|
-||If the field is ticked, the value of this leave transaction will be deducted from the Employee’s standard auto-pay.|
-||If the field is not ticked, the value of this leave transaction will be paid in addition to the Employee’s standard auto-pay.|
-|**After entering your leave/temporary adjustments, the auto-pays can be calculated.**|
+|**Subtract From Permanent Hours**|This field will automatically default from the setup of the Pay Transaction Type card.  If the field is ticked, the value of this leave transaction will be deducted from the Employee’s standard auto-pay. If the field is not ticked, the value of this leave transaction will be paid in addition to the Employee’s standard auto-pay.|
+
+3.  After entering your leave/temporary adjustments, the auto-pays can be calculated.
 
 [GoToTop](#how-to-process-an-internal-payroll-in-labour-hire)
 
 ## Payroll Processing Calculate Pays
 
-In the Pay Journal - Select “Calculate Pays” to calculate your pays and “Enter the Pay Date“ and select “OK”. 
- 
-During this process any permanent hours and deductions, leave accruals, tax and superannuation is generated.
+1.  In the Pay Journal, select **Calculate Pays** to calculate your pays and enter the **Pay Date** and select **OK**.   
 
-Please note : Pays can be calculated by individual or by all employees.
+2.  During this process any permanent hours and deductions, leave accruals, tax and superannuation is generated.  Please note : Pays can be calculated by individual or by all employees.
 
 [GoToTop](#how-to-process-an-internal-payroll-in-labour-hire)
 
 ## Payroll Processing Entry Validation Reports
 
-Once pays have been calculated, the Entry Validation report has to be printed. You can  preview the report online first for any errors or warnings which need to be fixed before proceeding to the next step. To run click on the  “Entry Validation report” task. 
+Once pays have been calculated, the Entry Validation report has to be printed. You can preview the report online first for any errors or warnings which need to be fixed before proceeding to the next step. 
 
-Select Print Preview to check for errors and warnings on the screen, when all clear, Print. 
+1.  Select the **Entry Validation report** icon on the **Home** ribbon.  
 
-If errors are found on the Entry Validation Report, the individual’s pay can be fixed by uncalculating the pay. Please see the next step for “uncalculating Pays”.
+2.  Select **Print Preview** to check for errors and warnings on the screen, when all clear, **Print** the report or save as a **.PDF**. 
+
+3.  If errors are found on the Entry Validation Report, the individual’s pay can be fixed by uncalculating the pay. Please see the next step for **uncalculating Pays**.
  
 [GoToTop](#how-to-process-an-internal-payroll-in-labour-hire)
 
 ## Payroll Processing Uncalculating Pays
 
-Pays can be uncalculated for individual employees or for all employees within the Pay Journal. To “uncalculate” the pays, open the Actions Tab and click on “Cancel Calculated Pays”
+Pays can be uncalculated for individual employees or for all employees within the Pay Journal. 
+
+1.  To **uncalculate** the pays, select the **Actions** ribbon and select **Cancel Calculated Pays**.
  
  [GoToTop](#how-to-process-an-internal-payroll-in-labour-hire)
  
 ## Payroll Processing Create Bank Transfer File
 
-When the Entry Validation report has been checked and found to be correct, run the create bank transfer file process. To run the process click on the “Create Bank Transfer File” icon. The file can be saved to a network.
+When the Entry Validation report has been checked and found to be correct, run the create bank transfer file process. 
+
+1.  To create the file, select the **Create Bank Transfer File** icon on the **Home** ribbon. 
+
+2.  Fill the fields as described in the folllowing table.
  
 |Field Name|Description|
 |----------------------------------------|---------------------------------------------------------------------|
-|**Employee No.**|You can create a bank transfer file for one employee by nominating the Employee’s number from the AssistButton.|
-||Otherwise leave it blank to create a bank file for all employees.|
-|**Bank Account**|The Bank Account attached to the Payroll will default from the Payroll Card.|
-||Otherwise you can click on the AssistButton if you wish to nominate another Bank Account.|
-|**Process Date**|This will be the “Processing Date” when the file will be processed by the Bank.|
-||The date should be today’s date or greater.|
+|**Employee No.**|You can create a bank transfer file for one employee by nominating the Employee’s number from the **ArrowDown**.  Otherwise leave it blank to create a bank file for all employees.|
+|**Bank Account**|The Bank Account attached to the Payroll will default from the Payroll Card. Otherwise select another bank account from the **ArrowDown**.|
+|**Process Date**|This will be the **Processing Date** when the file will be processed by the Bank. The date should be today’s date or greater.|
 |**Description**|Enter in a Description for the file.|
-|**File Name**|You can specify where you would like to save the file by clicking on the AssistButton.  |
-||You must ensure that you save the file with an .aba extension.|
-|**Print Transfer Listing**|This field will automatically be selected and will provide you with an option to Print or Preview the Bank Transfer Listing Report.|
-||(*If you do not print this report, it can be re-printed at a later stage).|
+|**File Name**|You can specify where you would like to save the file by clicking on the **AssistButton**.  You must ensure that you save the file with an .aba extension.|
+|**Print Transfer Listing**|This field will automatically be selected and will provide you with an option to **Print** or **Preview** the Bank Transfer Listing Report. (**If you do not print this report, it can be re-printed at a later stage**).|
 
-
-Click “OK” once you have completed all fields required.
-
-Pay advices are automatically flagged as paid. If for any reason you need to re-run the transfer again, run the “Cancel Bank Transfer” process and redo. 
+3.  Pay advices are automatically flagged as paid. If for any reason you need to re-run the transfer again, select the
+**Cancel Bank Transfer** process and redo. 
   
 [GoToTop](#how-to-process-an-internal-payroll-in-labour-hire)
 
 ## Payroll Processing Post and Print Pay Advices
 
-When each batch of pays has been processed, they should be posted. This clears them from the Pay Journal area and writes the data to the employee pay history ledgers.
+When bank files for each batch of pays has been processed, the payroll journals should be posted. This clears them from the Pay Journal area and writes the data to the employee pay history ledgers.
  
-After you nominate the “Post” option, a “Print Pay Advice” message will appear as part of the posting process.
+1.  Select the **Post** option, and the **Print Pay Advice** message will appear as part of the posting process.
  
-To print or reprint payslips, go to the following menu:
+2.  To print or reprint payslips, go to the following menu:  *Departments/Payroll/Payroll Processing/ Print Pay Advices*
 
-*Departments/Payroll/Payroll Processing/ Print Pay Advices*
+3.  Fill the fields described in the following table.
  
 |Field Name|Description|
 |----------------------------------------|---------------------------------------------------------------------|
-|**Payroll No.**|From the AssistButton, nominate the Payroll you wish to re-print pay advices for.|
-|**Period No.**|From the AssistButton, nominate the Period No. you wish to re-print the pay advices for.|
-|**Click “OK” once you have completed all fields required.**|
+|**Payroll No.**|From the **ArrowDown**, select the Payroll you wish to re-print pay advices for.|
+|**Period No.**|From the **ArrowDown**, select the Period No. you wish to re-print the pay advices for.|
 
  
-To email payslips, go to the following menu:
+1.  To email payslips, go to the following menu: *Departments/Payroll/Payroll Processing/ E-Mail Pay Advices* 
 
-*Departments/Payroll/Payroll Processing/ E-Mail Pay Advices* 
+2.  On the **Options** FastTab, fill the fields as described in the following table.
  
 |Field Name|Description|
 |----------------------------------------|---------------------------------------------------------------------|
-|**OPTIONS FASTTAB**||
 |**Pay Advice Message**|Complete this field if you wish to have a pay advice message printed on the emailed pay advices.|
-|**POSTED PAY ADVICE FASTTAB**||
-|**Employee No.**|From the AssistButton, select the Employee No. otherwise leave this blank to generate email pay advices for all.|
-|**Payroll No.**|From the AssistButton, select the Payroll No. otherwise leave this blank to generate email pay advices for all.|
-|**Tax Year**|From the AssistButton, select the Tax Year otherwise leave this blank to generate email pay advices for all.|
-|**Period No.**|From the AssistButton, select the Period No. otherwise leave this blank to generate email pay advices for all.|
-|**No.**|From the AssistButton, select the No. (which relates to the Pay Advice No.) otherwise leave this blank to generate email pay advices for all.|
-|**Click “OK” once you have completed all fields required.**||
+
+3.  On the **Posted Pay Advice** FastTab, fill the fields as described in the following table.
+
+|Field Name|Description|
+|----------------------------------------|---------------------------------------------------------------------|
+|**Employee No.**|From the **ArrowDown**, select the Employee No. otherwise leave this blank to generate email pay advices for all.|
+|**Payroll No.**|From the **ArrowDown**, select the Payroll No. otherwise leave this blank to generate email pay advices for all.|
+|**Tax Year**|From the **ArrowDown**, select the Tax Year otherwise leave this blank to generate email pay advices for all.|
+|**Period No.**|From the **ArrowDown**, select the Period No. otherwise leave this blank to generate email pay advices for all.|
+|**No.**|From the **ArrowDown**, select the No. (which relates to the Pay Advice No.) otherwise leave this blank to generate email pay advices for all.|
 
 [GoToTop](#how-to-process-an-internal-payroll-in-labour-hire)
 
 ## Payroll Processing Close Pay Periods
 
-You can close the pay period independently if you choose not to close the pay period at the time of posting the payroll.  To Close Pay periods, go to the following menu:
+You can close the pay period independently if you choose not to close the pay period at the time of posting the payroll.  
 
-*Departments/Payroll/Periodic Activities/Periodic Maintenance/ Close Pay Periods*
- 
+1.  To Close Pay periods, go to the following menu: *Departments/Payroll/Periodic Activities/Periodic Maintenance/ Close Pay Periods*
 
-Select the Payroll No and press “OK’. Then select the Pay Period by the ticking the ‘Closed and Date Locked’ columns to close the pay period.
+2.  Select the **Payroll No.** and press **OK**. 
 
-
+3.  Select the **Pay Period** by the ticking the **Closed and Date Locked** columns to close the pay period.
 
 [GoToTop](#how-to-process-an-internal-payroll-in-labour-hire)
