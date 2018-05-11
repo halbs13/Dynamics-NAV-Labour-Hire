@@ -552,15 +552,15 @@ The types of information you may update on the Customer Card are:
 ## EXAMPLES OF UPDATES
 This section outlines examples of where information should be updated based on the type of change it it.  
 
-- [Placement Entry](#placement-entry)
+- [Placement Entry Updates](#placement-entry-updates)
   - [Extending a Contract](#extending-a-contract)
   - [Updating Rateset](#updating-ratesets)
  
-- [Non Placement Entry](#non-placement-entry)
+- [Non Placement Entry Updates](#non-placement-entry-updates)
   - [Employee/Contractor Terminates](#contractor-terminates)
   - [Transfer from PAYG Contractor to Company](#transfer-from-payg-to-company)
 
-## Placement Entry
+## Placement Entry Updates
 Placement Entry is used to update information relating to the Job and the Ratesets.  These areas are;
 
 - [Extending a Contract](#extending-a-contract)
@@ -611,7 +611,7 @@ Once you retrieve the Customer record, there will be some “greyed” out field
 
 [GoToExamplesOfUpdates](#examples-of-updates)
 
-## Non-Placement Entry
+## Non Placement Entry Updates
 There is other maintenance which are performed directly on the card.  Some of the examples of these updates are:
 
 - [Employee/Contractor Terminates](#contractor-terminates)
