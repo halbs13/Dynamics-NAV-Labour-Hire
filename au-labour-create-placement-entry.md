@@ -495,17 +495,17 @@ To access the Jobs Card, go to the following menu: *Departments/Labour Hire/Cand
 The types of information you will update on the Customer Card will be discussed in this section.  It will not contain an explanation of all fields only those relative to the Labour Hire module.  
 
 The types of information you may update on the Customer Card are:
-
-- Name
-- Address
-- Phone Numbers
-- Contact Information
-- Invoice Format
-- Job Invoice Consolidation Type
-- Invoice Frequency
-- Permanent Placement Invoice Format-• Payment Terms Code
-- Perm Placement Payment Terms Code
-- Customer Specific Fields
+- Name
+- Address
+- Phone Numbers
+- Contact Information
+- Invoice Format
+- Job Invoice Consolidation Type
+- Invoice Frequency
+- Permanent Placement Invoice Format
+- Payment Terms Code
+- Permanent Placement Payment Terms Code
+- Customer Specific Fields
 
 1.  To access the Customer Card, go to the following menu: *Departments/Labour Hire/Candidate Processing/Customer*
 
@@ -589,7 +589,11 @@ Once you retrieve the Customer record, there will be some “greyed” out field
 
 8.  Once you select the first two fields, other fields will be populated accordingly.
 
-9.  If you are extending a Contract, update the **End Date** of the record.  Do not update the Starting Date as this will create a new record. 
+9.  If you are extending a Contract, update the **End Date** of the record.  Do not update the Starting Date as this will create a new record.
+
+[GoToTop](#how-to-create-placements-in-placement-entry)
+
+[GoToExamplesOfUpdates](#examples-of-updates)
 
 ### Updating Ratesets
 
