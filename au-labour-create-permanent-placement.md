@@ -4,7 +4,7 @@ This section contains information relating to Permanent Placements/Requirements 
 
 - [Permanent Placement Overview](#permanent-placement-overview) 
   - [Fee Types](#fee-types)
-  - [Permanent Placement Setup](#permanent-placement-setup) 
+  - [Permanent Placement via Placement Entry](#permanent-placement-via-placement-entry) 
   - [Permanent Placement Cards](#permanent-placement-cards) 
   
 - [Permanent Placement Invoicing](#permanent-placement-invoicing)
@@ -39,7 +39,7 @@ Fee Types are setup to identify where the revenue for the fees will post to with
 
 [GoToTop](#how-to-create-permanent-placements)
 
-## Permanent Placement Setup
+## Permanent Placement via Placement Entry
 Permanent Placement records are setup within the Placement Entry area of the Labour Hire module.  The following FastTabs are used when creating a new Permanent Placement record:
 
 - Client (Customer) FastTab
