@@ -36,8 +36,6 @@ All internal staff will be entered into the Human Resources and Payroll modules 
 10. Review and Add new leave accrual types such as Annual Leave , Sick Leave and Long Service Leave. To access the Leave Accrual task,       select the **Accruals** task icon.  
 11. After you have completed these steps, you are then ready to process pays.
 
-[GoToTop](#how-to-process-an-internal-payroll-in-labour-hire)
-
 ## Processing Pays
 
 1.  Receive timesheets including Leave and /or pay adjustments for employees.
@@ -55,78 +53,89 @@ After posting of the journal has occurred, you will be asked if you want to clos
 
 ## Entering New Employees – Human Resources Module
 
-1. To access the Employee Maintenance task, go to the following menu: *Departments/Payroll/Employee Maintenance/Employees* 
+1. In the **Search** box, enter in **Employees**, and then choose the related link.  Or go to the following menu:*Departments/Payroll/Employee Maintenance/Employees* 
  
-Click on the “New” button. The cursor will be on the ‘Employee No’ on the General Tab. Press ‘OK’, NAV will allocate the New Employee number. Proceed to complete the following details.
+2. Click on the **New** button. The cursor will be in the **Employee No** field on the **General** FastTab. Press **OK**, NAV will allocate the New Employee number. 
 
-### Edit Employee Card
+3.  On the **General** FastTab, fill the fields as described in the following table.
 
 |Field Name|Description|
 |----------------------------------------|---------------------------------------------------------------------|
-|**Job Title**|Enter the Person’s Job Title|
-|**First Name**|Enter the Employee’s First Name|
-|**Last Name**|Enter the Employee’s Last Name|
+|**Job Title**|Enter the Person’s Job Title.|
+|**First Name**|Enter the Employee’s First Name.|
+|**Last Name**|Enter the Employee’s Last Name.|
 |**Address**|Enter in the Employee’s Address Details.|
 |**Post Code / City**|Enter in the Employee’s Post Code e.g. 2000.|
-|**Sate / Country Code**|Enter in ‘AUS’|
+|**Sate / Country Code**|Enter in **AUS**.|
 |**Phone Number**|Enter in the employee’s home phone number if known.|
-|**Gender**|Select ‘Male’ or ‘Female’|
-|**Marital Status**|If the Marital Status is known, select the appropriate code from the drop down arrow.|
-|**COMMUNICATION FASTTAB**||
+|**Gender**|Select **Male** or **Female**|
+|**Marital Status**|If the Marital Status is known, select the appropriate code.|
+
+4.  On the **Communication** FastTab, fill the fields as described in the following table.
+
+|Field Name|Description|
+|----------------------------------------|---------------------------------------------------------------------|
 |**Extension**|Enter the employee’s work extension number if applicable.|
 |**Mobile Phone No**|Enter the employee’s mobile phone number if applicable|
-|**Phone No.**|The employee’s phone number will default if entered on the General Tab|
+|**Phone No.**|The employee’s phone number will default if entered on the General FastTab|
 |**E-mail**|Enter the employee’s email address. This will be required if intending on emailing the employee’s pay advice|
-|**ADMINISTRATION FASTTAB**||
+
+5.  On the **Administration** FastTab, fill the fields as described in the following table.
+
+|Field Name|Description|
+|----------------------------------------|---------------------------------------------------------------------|
 |**Employment date**|Enter the employee’s employment or start date. This field is a mandatory field, if nothing is entered will cause issues when calculating pays.|
-|**Status**|This will default to ‘Active’|
-|**PERSONAL FASTTAB**||
+|**Status**|This will default to **Active**|
+
+6.  On the **Personal** FastTab, fill the fields as described in the following table.
+
+|Field Name|Description|
+|----------------------------------------|---------------------------------------------------------------------|
 |**Birth Date**|Enter the employee’s birth date|
-|**Click “OK” once you have completed all fields required.**||
 
 [GoToTop](#how-to-process-an-internal-payroll-in-labour-hire)
 
 ## Entering New Employees – Payroll Module
 
-After employees are entered into the Human Resources module they are then entered into the Payroll module. All employee maintenance such as applications, updates to pay details, bank details and tax information is maintained on the Payroll Employee Card.
+After employees are entered into the Human Resources module they are then entered into the Payroll module. All employee maintenance such as updates to pay details, bank details and tax information is maintained on the Payroll Employee Card.
 
-To access the Employee Maintenance task Click the “Payroll Employee Card” button or go to the following menu:
+1. In the **Search** box, enter in **Payroll Employees**, and then choose the related link.  Or go to the following menu:*Departments/Payroll/Employee Maintenance/Payroll Employees* 
  
-*Departments/Payroll/Employee Maintenance/Payroll Employees*
-
-Click on the “New” button.  
-
-On the Payroll Employee Card go to the Employee No and from the Employee List select the employee you wish to continue entering on Payroll and proceed to complete the following details:
-Once the New Employee has been selected ‘Press Enter’ and the information that was entered into the Human Resources Employee Card will default to the relevant fields in the Payroll Employee Card.
+2. On the Payroll Employee Card, click on the **New** icon to create a new record and go to the **Employee No.** field.  From the Employee List, select the employee you wish to continue entering the details for Payroll.  Once the New Employee has been selected, **Press Enter** and the information that was entered intot he Human Resoures Employee Card will default tot he relevant fields in the Payroll Employee Card.  
  
- [GoToTop](#how-to-process-an-internal-payroll-in-labour-hire)
- 
-### Edit Payroll Employee Card
+3.  On the **General** FastTab, fill the fields as described in the following table.
 
 |Field Name|Description|
 |----------------------------------------|---------------------------------------------------------------------|
-|**GENERAL FASTTAB**||
-|**Payroll No**|Select the appropriate Payroll No. from the “ArrowDown”.  You will receive a message requesting whether you want to change the Employee to the Payroll No. you have selected. Click ‘Yes’|
-|**Emp Type Code**|Select the Employee Type Code from “ArrowDown”.|
-|**Payment Method**|Confirm the Payment Method has been changed to ‘EFT’. This will default to the Defaults on the Payroll Setup Card.|
+|**Payroll No**|Select the appropriate Payroll No. from the **ArrowDown**.  You will receive a message requesting whether you want to change the Employee to the Payroll No. you have selected. Click **Yes**.|
+|**Emp Type Code**|Select the Employee Type Code from **ArrowDown**.|
+|**Payment Method**|Confirm the Payment Method has been changed to **EFT**. This will default to the Defaults on the Payroll Setup Card.|
 |**Email Pay Advice**|If Pay advices will be sent via email, check this field. The employee’s email address must be entered in the Human Resources field, otherwise you will not be able to email the pay advice.|
 |**Email Payment Summaries**|If Payment Summaries will be sent via email, check this field. The employee’s email address must be entered in the Human Resources field, otherwise you will not be able to email the pay advice.|
-|**Timesheet Reminder**|The Timesheet Reminder field will default to ‘Yes’. Uncheck this field. |
-|**POSTING FASTTAB - The Posting Tab determines where and what information will be posted to the GL Accounts.**||
-|**Branch Code**|Select the relevant Branch Code from the “ArrowDown”.|
-|**Global Dimension 1 &2**|Select the relevant Dimension Codes from the “ArrowDown”. This will usually be the same as the Branch Code. |
-|**RATE FASTTAB - There is nothing that needs to be completed on this tab, as the pay rates are later entered in the Pay Rates area.**||
-|**TAX FASTTAB**||
+|**Timesheet Reminder**|The Timesheet Reminder field will default to **Yes**. Uncheck this field.|
+
+4.  On the **Posting** FastTab, fill the fields as described in the following table.
+
+|Field Name|Description|
+|----------------------------------------|---------------------------------------------------------------------|
+|**Branch Code**|Select the relevant Branch Code from the **ArrowDown**.|
+|**Global Dimension 1 &2**|Select the relevant Dimension Codes from the **ArrowDown**. This will usually be the same as the Branch Code.|
+
+5.  On the **Tax** FastTab, fill the fields as described in the following table.
+
+|Field Name|Description|
+|----------------------------------------|---------------------------------------------------------------------|
 |**Tax Scale No**|The Tax Scale No. will default from the Payroll setup card and can be overridden.|
 |**HELP Debt**|Select this field if advised on the declaration form.|
 |**Student Loan ( SFSS )**|Select his field if advised on the declaration form.|
 |**Fixed Tax Rate Applicable**|This Field needs to be selected and ticked.|
 |**Fixed Tax Rate Valid Until Date**|The Valid Until Date will be supplied from the ATO and needs to be entered in this field.|
 |**Fixed Tax Rate**|The ATO will supply a letter detailing the fixed Tax rate amount.|
-|**G.S.T. Exempt**|This relates to the setup of an Incorporated Company and if this is required, it needs to be ticked.|
-|**Fringe Benefits Amount**|This field needs to be entered for reporting on the PAYG Payment Summary.|
-|**Inc. Company Tax Inv.Not Req**|This relates to the setup of an Incorporated Company and if this is required, it needs to be ticked.|
-|**DECLARATION FASTTAB - If you have an Employment Declaration form for your employee, check the fields as per this form if you intend on remitting your employment declarations electronically to the ATO.**||
+
+6.  On the **Declaration** FastTab, fill the fields as described in the following table.
+
+|Field Name|Description|
+|----------------------------------------|---------------------------------------------------------------------|
 |**Resident**|Select this field if advised on the Declaration Form.|
 |**Tax Free Threshold Claimed**|Select this field if advised on the Declaration Form.|
 |**HELP Debt**|Select this field if advised on the Declaration Form.|
@@ -134,74 +143,69 @@ Once the New Employee has been selected ‘Press Enter’ and the information th
 |**Claim Pension Rebate**|Select this field if advised on the Declaration Form.|
 |**Use TFN for Superannuation**|Select this field if advised on the Declaration Form.|
 |**Rebate Amount Claimed**|Select this field if advised on the Declaration Form.|
-|**A.B.N.**|This relates to the setup of an Incorporated Company and needs to be entered – the format of this field is 11 characters.|
-|**Incorporated Company Name**|This relates to the setup of an Incorporated Company and will need to be entered.|
 |**Tax.File No**|Enter the employee’s Tax File No. the format for this field is a maximum of 9 characters.|
 |**Birth Date**|This field will populate from the HR Employee card.|
 |**Date Declaration Signed**|Enter in the Date Declaration Signed from the Employment Declaration form.|
 |**Payee Signature**|If the employee has signed the Employment Declaration form, check this field.|
 |**Declaration Lodged**|This field will be populated with a date once the Declaration File Generation has been processed. |
-|**PAY DETAILS FASTTAB - There is nothing that needs to be completed on this tab, as the pay details are populated from the history ledgers.**||
-|**WORK COVER FASTTAB - This tab is only required if the employee has been setup as an Incorporated Company.**||
-|**Workers Comp Policy No.**|The “Workers Comp Policy No” is used to record a Contractors policy number.|
-|**Workers Comp Insurer**|The “Workers Comp Insurer” is used to record the name of the Contractors Workers Comp Insurer.|
-|**Policy Expiration Policy**|The “Policy Expiration Date” is used to record the expiry date of the policy.|
+
+7.  Information on the **Work Cover** FastTab is only completed for Incorporated Company contractors.
 
 [GoToTop](#how-to-process-an-internal-payroll-in-labour-hire)
 
 ### Payroll Employee Card Pay Dissections
 
-Employee Bank accounts are entered in the Pay Dissections area.
+Employee Bank accounts are entered in the Pay Dissections area.  
 
-Access this task by clicking the “Pay Dissections” task icon. 
+1.  To enter in Employee Bank accounts, select the **Pay Dissections** icon on the **Navigate** ribbon. 
+
+2.  Fill the fields as described in the following table.
 
 |Field Name|Description|
 |----------------------------------------|---------------------------------------------------------------------|
 |**Transaction Type Code**|Transaction Type Code 9999 will default in this field.|
-|**Pay Dissection Type**|There are 2 types of dissections:|
-||·         Main – Used to identify the main bank account|
-||·         Part – Used to identify additional bank accounts |
-|**Bank Account No.**|Enter the employee’s bank account number. This field has a limit of 9 characters which should be entered as follows: 123456789|
-|**Bank Name**|This will default to the employee’s name and can be overridden accordingly |
-|**EFT Bank No.**|Enter in the employee’s BSB no. This field has a limit of 7 characters which should be entered as follows: 032-170|
+|**Pay Dissection Type**|There are 2 types of dissections: * **Main** – Used to identify the main bank account, * **Part** – Used to identify additional bank accounts.|
+|**Bank Account No.**|Enter the employee’s bank account number. This field has a limit of 9 characters which should be entered as follows: 123456789.|
+|**Bank Name**|This will default to the employee’s name and can be overridden accordingly.|
+|**EFT Bank No.**|Enter in the employee’s BSB no. This field has a limit of 7 characters which should be entered as follows: 032-170.|
 |**Standard Amount / Standard %**|If the employee has nominated an additional account, enter in the Amount or the Percentage as nominated by the employee.|
-|**Click “OK” once you have completed all fields required.**||
 
 [GoToTop](#how-to-process-an-internal-payroll-in-labour-hire)
 
 ### Payroll Employee Card Pay Rates
 
-Enter in Pay Rates in as an hourly rate. To access the Employee Pay Rates task, click the “Pay Rates” task icon. 
-
+1.  To enter in Pay Rates in as an hourly rate, select the **Pay Rates**” icon on the **Navigate** ribbon. 
+ 
+ 2. Fill the fields as described in the following table.
  
 |Field Name|Description|
 |----------------------------------------|---------------------------------------------------------------------|
-|**Employee start Date**|This field should default to the Employee’s Start Date|
-|**Classification Code**|Click on the Arrow Up Button and select from the list – system created. |
+|**Employee start Date**|This field should default to the Employee’s Start Date.|
+|**Classification Code**|Click on the **ArrowDown** and select the award associated with the employee.|
 |**Employee Rate**|Enter in the Employee’s rate as an hourly amount.|
-|**Click “OK” once you have completed all fields required.**|
 
-After you have updated the rate and you click on the Rate Tab, the rate should be updated accordingly. ( This will only be updated if the Pay Period is after the Employee’s Start Date ).
+After you have updated the rate, go to the **Rate** FastTab where the rate will be updated accordingly. (This will only be updated if the Pay Period is after the Employee’s Start Date).
 
 [GoToTop](#how-to-process-an-internal-payroll-in-labour-hire)
 
 ### Payroll Employee Card Gross / Allowances
 
-It is assumed that Internal Employees are ‘Auto Paid’. To automatically generate hours, Ordinary / Normal Time should be set up as a permanent occurrence. The same applies if the employee is to receive an allowance on a permanent basis.
+It is assumed that Internal Employees are **Auto Paid**. To automatically generate hours, Ordinary / Normal Time should be set up as a permanent occurrence. The same applies if the employee is to receive an allowance on a permanent basis.
 
-To access the Pay and Allowances task, Click the “Gross & Allowances” task icon.  
+1.  To enter in the Pay and Allowances, select the **Gross & Allowances** icon on the **Navigate** ribbon.  
+
+2.  Fill the fields as described in the following table.
 
 |Field Name|Description|
 |----------------------------------------|---------------------------------------------------------------------|
-|**Transaction Type Code**|Select the Transaction Type Code from the “ArrowDown” e.g. Normal Time or a Permanent Allowance.|
+|**Transaction Type Code**|Select the Transaction Type Code from the **ArrowDown** e.g. Ordinary Time or a Permanent Allowance.|
 |**Start Date**|Enter in a Start Date of when the Allowance transaction should commence. If this is for Ordinary of Normal Hours there is no need to enter in a Start Date.|
-|**Description**|The Description will default from the Transaction. You can override the description should you require a user defined description to print on the Pay Advice. This will save using duplicate codes.|
+|**Description**|The Description will default from the Transaction. You can override the description should you require a user defined description to print on the Pay Advice.|
 |**Units**|Enter in the number of units required to be generated. For Ordinary / Normal Time type transactions you can enter in the number of hours per the pay period. |
 |**Fixed Value**|Enter in the Fixed Value for allowance type transaction if required.|
 |**Hourly Rate**|This will default from the Pay Rate table for Ordinary / Normal Time type transactions|
 |**Pay Value**|This will be the sum of the Units field * Hourly Rate field|
 |**Not Used**|The Not Used field is used to suppress the permanent transaction for a single pay only. When the pay period is closed on a payroll, this flag is then removed and ready to be generated for the next period.|
-|**Click “OK” once you have completed all fields required.**|
 
 [GoToTop](#how-to-process-an-internal-payroll-in-labour-hire)
 
@@ -209,46 +213,47 @@ To access the Pay and Allowances task, Click the “Gross & Allowances” task i
 
 The Deductions Area is used to setup permanent deductions.
 
-To access the Deductions task, Click the “Deductions” task icon. 
+1.  To setup Deductions, select the **Deductions** icon on the **Navigate** ribbon.
 
+2.  Fill the fields as described in the following table.
 
 |Field Name|Description|
 |----------------------------------------|---------------------------------------------------------------------|
-|**Transaction Type Code**|Select the Transaction Type Code from the “ArrowDown”.|
+|**Transaction Type Code**|Select the Transaction Type Code from the **ArrowDown**.|
 |**Priority**|If there are a number of deductions, you can select the order in which they are deducted, by entering 1,2,3, etc. for each transaction type.|
-|**Start Date**|Enter in a Start Date of when the Allowance transaction should commence. If this is for Ordinary or Normal Hours there is no need to enter in a Start Date. |
-|**Description**|The Description will default from the Transaction. You can override the description should you require a user defined description to print on the Pay Advice. This will save using duplicated codes.|
+|**Start Date**|Enter in a Start Date of when the Deduction transaction should commence.|
+|**Description**|The Description will default from the Transaction. You can override the description should you require a user defined description to print on the Pay Advice.|
 |**Standard Amount / Standard %**|Enter in a Standard Amount or Standard % of the deduction.|
 |**Details**|Enter in a Reference number for the deduction|
 |**Total Deduction**|If the Deduction is to cease as soon as it reaches a certain amount, enter in this amount here.|
 |**LTD Amount**|This field is a sum of all the deductions to date.|
 |**Not Used**|The Not Used field is used to suppress the permanent transaction for a single pay only. When the pay period is closed on a payroll, this flag is then removed and ready to be generated for the next period.|
-|**Click “OK” once you have completed all fields required.**|
 
 [GoToTop](#how-to-process-an-internal-payroll-in-labour-hire)
 
 ### Payroll Employee Card Superannuation 
 
-To access the Superannuation task, Click the “Superannuation” task icon. 
+1.  To setup Superannuation, select the **Superannuation** icon on the **Navigate** ribbon.
 
+2.  Fill the fields as described in the following table.
 
 |Field Name|Description|
 |----------------------------------------|---------------------------------------------------------------------|
-|**Superannuation Company Code**|Select the Superannuation Company code from the “ArrowDown”.|
+|**Superannuation Company Code**|Select the Superannuation Company code from the **ArrowDown**.|
 |**Membership No.**|Enter in the Membership No. if known|
-|**Date Joined Fund**|The ‘Date Joined Fund’ date will default to the Employee’s start date. If this date differs from the Employee start date, enter in the stat date for the Superannuation Fund. |
+|**Date Joined Fund**|The **Date Joined Fund** date will default to the Employee’s start date. If this date differs from the Employee start date, enter in the stat date for the Superannuation Fund. |
 |**Employer Standard %**|The employer standard percentage will default to the value setup on the Superannuation Company card.|
-|**Click “OK” once you have completed all fields required.**|
 
 [GoToTop](#how-to-process-an-internal-payroll-in-labour-hire)
 
-#### Superannuation Employee Choice ( Changing Superannuation Funds )
+#### Superannuation Employee Choice (Changing Superannuation Funds)
 
-Changing Superannuation funds - enter an end date on the old fund and change the 9.5% to zero amount.
+The following procedures should be undertaken if an employee elects to change their fund.
 
-Then on the next line Add the new fund with the current month in the start date, then add the employer standard 9.5%.
+1.  Changing Superannuation funds - enter an end date on the old fund and change the 9.5% to zero amount.
+2.  Add the new fund on a new line with the current month in the start date, then add the employer standard 9.5%.
 
-If you are updating the employee’s Superannuation fund and your organisation is calculating Employer liabilities using On Costs, you must ensure that you update the Superannuation Code on the Superannuation On Cost transaction type.  (Reference Payroll Employee Card  – On Cost Transactions).
+If you are updating the employee’s Superannuation fund and your organisation is calculating Employer liabilities using On Costs, you must ensure that you update the Superannuation Code on the [Superannuation On Cost transaction type](#payroll-employee-card-on-cost-transactions).  
 
 [GoToTop](#how-to-process-an-internal-payroll-in-labour-hire)
 
