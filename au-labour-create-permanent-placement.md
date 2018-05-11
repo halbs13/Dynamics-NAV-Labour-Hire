@@ -242,6 +242,8 @@ Permanent Placement Invoice parameters are maintained within the following areas
 - Customer Card – Invoice Formats
 - Customer Card – Payment Terms
 
+[GoToTop](#how-to-create-permanent-placements)
+
 ### Labour Hire Setup – Permanent Placement FastTab
 
 1.  To access the Permanent Placement FastTab on the Labour Hire Setup card, go to the following menu; *Departments/Payroll/Setup/Labour Hire/Administration/Labour Hire Setup* 
