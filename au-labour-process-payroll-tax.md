@@ -38,7 +38,9 @@ To ensure that each of the employee pay transactions applicable to Payroll Tax a
 
 4.  If you wish to print the report to a printer or save as a pdf, click **Print** and select the relevant option.
 
-The Payroll Tax report will contain each of the Pay Transaction Types which are applicable to the relevant Payroll Tax code as shown in the diagram above.
+## Payroll Tax Report
+
+The Payroll Tax report will contain each of the Pay Transaction Types which are applicable to the relevant Payroll Tax code.  The Posted Payroll Summary Report, if produced in detail will be used to verify the value on the transactions on the Payroll Tax report.  
 
 The fields on the Calculate Payroll Tax Report are:
 
@@ -46,33 +48,26 @@ The fields on the Calculate Payroll Tax Report are:
 |------------------------------------|-----------|---------------------------------------------------|
 |**State Code**|(1)|This is the State Code|
 |**State Description**|(2)|This is the State Description|
-|**Transaction Detail section**|
 |**Transaction Code**|(3)|This is the Pay Transaction Type Code which has been defined as being applicable to Payroll Tax.|
 |**Transaction Description**|(4)|This is the Description of the Pay Transaction Type Code.|
 |**Amount (LCY)**|(5)|This is a sum of the Amount of all the Pay Transaction Type codes.|
-|**Superannuation Summary section**|
 |**Employer SGC/Non SGC**|(6)|This is the sum of the Employer SGC and Non SGC amounts for the Payroll Tax state.|
 |**Salary Sacrifice**|(7)|This is the sum of the Salary Sacrifice or Pre Tax Superannuation Deduction amount for the Payroll Tax state.|
-|**Other Amounts Summary section**|
 |**Fringe Benefits Estimate**|(8)|This is the value of the Fringe Benefits Estimate as setup on the Payroll Tax Rates record.|
-|**Grand Total**|(9)|This is the sum of values in the “Transaction Detail”, “Superannuation Summary” and “Other Amounts Summary” sections.|
-|**Payroll Tax Calculations section**|
+|**Grand Total**|(9)|This is the sum of values in the **Transaction Detail**, **Superannuation Summary** and **Other Amounts Summary** sections.|
 |**Australia Wide Wages**|(10)|This is the sum of all wages Australia Wide.|
 |**State Wide Wages**|(11)|This is the sum of all wages applicable for the Payroll Tax within the Payroll Tax State.|
 |**Gross Taxable Wages**|(12)|This is the sum of all Gross Taxable Wages applicable to Payroll Tax.|
 |**Plus Adjustment**|(13)|This is the value of the Adjustment as setup on the Payroll Tax Rates record.|
 |**Less Deduction**|(14)|This is the value of the Monthly Deduction as setup on the Payroll Tax Rates record.|
-|**Net Taxable Wages**|(15)|This is the sum of the “Gross Taxable Wages” and “Plus Adjustment, “Less Deduction”.|
-|||If the value is negligible then zero will be represented in this field.|
+|**Net Taxable Wages**|(15)|This is the sum of the **Gross Taxable Wages** and **Plus Adjustment**, **Less Deduction**.  If the value is negligible then zero will be represented in this field.|
 |**Tax Rate**|(16)|This is the Tax Rate as setup on the Payroll Tax Rates record.|
 |**Payroll Tax Payable**|(17)|This is the value of the Payroll Tax Payable for the State.|
 
+- The lower section of the first page will contain a breakdown of the calculated information.
 
+- The second page of the report contains a breakdown of the Gross Taxable Wages and Payroll Tax Payable by Payroll Branch and Division.
 
-The lower section of the first page will contain a breakdown of the calculated information.
-
-The second page of the report contains a breakdown of the Gross Taxable Wages and Payroll Tax Payable by Payroll Branch and Division.
-
-The last page of the report will contain a breakdown of the Gross Taxable Wages and Payroll Tax Payable by Dimension.
+- The last page of the report will contain a breakdown of the Gross Taxable Wages and Payroll Tax Payable by Dimension.
 
 [GoToTop](#how-to-process-payroll-tax)
