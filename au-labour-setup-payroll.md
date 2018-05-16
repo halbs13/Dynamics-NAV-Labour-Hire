@@ -758,7 +758,7 @@ the following information Pay frequency (weekly, fortnightly, 4 weekly, monthly 
 |**Ship-To Contact**|Enter the name of the person to send mail to for this payroll.|
 |**Ship-to Address**|Enter the address items are sent for this payroll.|
 |**Ship-To Address 2**|Line two of the “Ship To Address”.|
-|**|Ship-To Post Code**|The “Ship to Post Code” is used to store the postcode.  You may enter the postcode or select it from the **ArrowDown**. If the postcode exists in the Post Code table the City field is populated to the city associated with the postcode.  If no value appears in the City field the postcode does not exist in the table and you must add the postcode and its City to the Post Code table.|
+|**Ship-To Post Code**|The “Ship to Post Code” is used to store the postcode.  You may enter the postcode or select it from the **ArrowDown**. If the postcode exists in the Post Code table the City field is populated to the city associated with the postcode.  If no value appears in the City field the postcode does not exist in the table and you must add the postcode and its City to the Post Code table.|
 |**Ship-To Country/Region Code**|You must select a Country from the list using the **ArrowDown**.|
 
 8.  On the **Integration** FastTab, fill the fields as described in the following table.
