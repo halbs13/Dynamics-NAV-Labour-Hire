@@ -14,8 +14,8 @@ These areas include:
 
 This section will discuss the setting up General Ledger areas required to operate the Dynamics NAV Labour Hire module at a summarised level as this setup should be undertaken by a user with the appropriate level of Financial Management knowledge.  Some of the areas discussed in this document are;
 
-- [General Ledger Setup](#to-setup-general-ledger)
-- [Dimensions Setup](#to-setup-dimensions) 
+- [General Ledger Setup](#to-set-up-general-ledger)
+- [Dimensions Setup](#to-set-up-dimensions) 
 
 ### To set up General Ledger   
 1. In the **Search** box, enter **General Ledger Setup**, and then choose the related link.  
