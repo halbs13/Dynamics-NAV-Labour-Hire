@@ -80,7 +80,8 @@ When Account Managers are set up during initial implementation or as new Account
 |Field Name|Description|
 |-------------------------------------|---------------------------------------------------|
 |**Code**|Select and Account Manager or leave it blank to run for all Account Managers|  
-|When you have completed your selection, you can either click “Print” to send the report to a printer or “Preview” to view the report to the screen.|
+
+3.  When you have completed your selection, you can either click **Print** to send the report to a printer or **Preview** to view the report to the screen.
  
  [GoToTop](#how-to-setup-commissions)
  
