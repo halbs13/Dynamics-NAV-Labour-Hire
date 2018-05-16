@@ -526,6 +526,10 @@ This function is used to allocate on cost accumulators to this Pay Transaction T
 
 2.  Click on the **OK** button after you have completed your selection.
 
+[GoToTop](#how-to-setup-payroll)
+
+
+
 ## To setup Payroll Posting Group
 
 Payroll Posting Groups define the Bank Account to pay the employee from for the payroll.  They are also used to determine the General Ledger accounts used for posting.
@@ -547,6 +551,9 @@ Posting Groups*
   
 The “Setup” button opens the “Payroll Posting Setup”.  The Payroll Posting Setup is specific to the selected Payroll Posting Group on this nested form.
 
+[GoToTop](#how-to-setup-payroll)
+
+
 ## To setup Transaction Posting Groups
 
 Transaction Posting Groups are used to determine the General Ledger accounts used for posting.  Each Pay Transaction Type is assigned to a Transaction Posting Group. Together with Payroll Posting Groups, Branch and Divisions you can direct transaction to post to different GL accounts.
@@ -564,6 +571,9 @@ Setup/Transaction Posting Group*
 3.  Click on the **OK** button after you have completed your selection.
 
 The “Setup” button opens the “Payroll Posting Setup”.  The Payroll Posting Setup is specific to the selected Payroll Posting Group on this nested form.
+
+[GoToTop](#how-to-setup-payroll)
+
 
 ## To setup Payroll Posting Setup
 
@@ -597,6 +607,9 @@ Setup/Payroll Posting Setup*
 
 3.  Click on the **OK** button after you have completed your selection.
 
+[GoToTop](#how-to-setup-payroll)
+
+
 ## To setup YTD Accumulators
 
 YTD accumulators, accumulate YTD values for Gross, Tax, Lump Sums, Allowances and Deductions.  The values accumulated are
@@ -624,6 +637,9 @@ Accumulations*
 |**Non PS Net Superannuation**|This field is an accumulation of all pay transaction types that are for superannuation that are assigned to this YTD Accumulation code.  This field shows the total of this YTD Accumulation code that will not print on the Payment Summary.|
 
 3.  Click on the **OK** button after you have completed your selection.
+
+[GoToTop](#how-to-setup-payroll)
+
   
 ## To setup Tax Scales
 
@@ -677,6 +693,9 @@ The current Tax Scale coefficients are provided when the Payroll granule is inst
 |**Medicare Levy**|This field is used in calculating the MLA.|
 
 7.  Click on the **CLOSE** button to close this window.
+
+[GoToTop](#how-to-setup-payroll)
+
 
 ## To setup Payroll 
 
@@ -791,1010 +810,173 @@ the following information Pay frequency (weekly, fortnightly, 4 weekly, monthly 
 |**ATO Supplier Number**|This field is populated from the Payroll Setup card You can override the field if required. This field is used to display the registered number from the ATO and is required when submitting electronic data to the ATO.  This is either your ABN or withholding payer number (WPN). If you are reporting via the internet using ECI, only a valid ABN will be accepted in the supplier number field and it must match the ABN provided on the digital certificate. If reporting via magnetic media, either an ABN or WPN will be accepted.|
 |**Minimum Net Salary**|This field defines the minimum net salary an employee on this payroll must be paid before deductions are deducted from their pay.  If the deductions bring the value of their net pay below the Minimum Net Salary the deduction is not deducted.|
 |**Payroll Tax Code**|This field defines the code used to calculate Payroll Tax for this payroll.  This field can be left blank.  Payroll Tax can be defined at the employee level by indicating the Branch associated with the Payroll Tax code.|
-|**Dissections for Pay Advice >1**|You can produce more than 1 pay advice for an
-  employee in the current pay period to pay terminations payments, bonus’s,
-  adjustments etc. 
-  The employee’s bank account dissections are
-  only applicable to Pay Advice 1(Standard Pay) 
-  When a pay is calculated on subsequent pay
-  advices in a pay period only the main bank account dissection is used to pay
-  the employee.  
-  Tick this field to use all the employee bank
-  account dissections for subsequent pay advices.
-  
- 
- 
-  
-  On Cost Dims From Employee
-  
-  
-  Tick this field to post on-cost pay transaction
-  types with employee dimensions through to the General Ledger.
-  Leave this field blank to post the on cost
-  transaction types without the employee dimensions to the General Ledger
-  
- 
- 
-  
-  Calc. Superannuation Monthly
-  
-  
-  Tick this field to calculate employer
-  superannuation contributions monthly using the Calculate Monthly
-  Superannuation menu reporting option. 
-  Leave this field blank to calculate employer
-  superannuation contributions each pay period.
-  
- 
- 
-  
-  Time Sheet Week Ending Day
-  
-  
-  This field identifies which day of the week
-  that the Time Sheet Week Ending Day is.
-  
- 
- 
-  
-  PAY ADVICE FASTTAB – The options on this tab
-  determine the items printed on the employee’s/contractor’s pay advice.
-  
- 
- 
-  
-  Pay Advice Report ID
-  
-  
-  This field is used to select the Pay Advice
-  Report Id.  The report Id is used to
-  define the format of the Pay Advice. 
-  The Standard Pay Advice Report Id is16000473 for internal employees or
-  16003876 for Labour Hire which includes an Incorporated Company RCTI.  
-  To use a custom pay advice we recommend a new
-  Report ID is used
-  
- 
- 
-  
-  Pay Advice Report Name
-  
-  
-  This field is populated with the name of the
-  Pay Advice selected and cannot be changed.
-  
- 
- 
-  
-  Pay Advice Message
-  
-  
-  Use this field to enter a message to print on
-  all Pay Advices.  The message can be
-  overridden when printing pay advices during the pay process.
-  
- 
- 
-  
-  Weekly Rate on Pay Advice
-  
-  
-  Tick this field to print the employee’s weekly
-  rate of pay on the pay advice.  This is
-  only applicable for internal employees.
-  
- 
- 
-  
-  Annual Rate on Pay Advice
-  
-  
-  Tick this field to print the employee’s annual
-  rate on the pay advice.  This is only
-  applicable for internal employees.
-  
- 
- 
-  
-  YTD Value on Pay Advice
-  
-  
-  Tick this field to print the Year to Date
-  values on the pay advice.
-  
- 
- 
-  
-  Employer Super. On Pay Advice
-  
-  
-  Tick this field to print the Employer
-  Superannuation Contribution on the pay advice.
-  
- 
- 
-  
-  Accrued TIL on Pay Advice
-  
-  
-  Tick this field to print the balance of Time in
-  Lieu on the pay advice.
-  
- 
- 
-  
-  Annual Leave on Pay Advice
-  
-  
-  Tick this field to print the Annual Leave on
-  the pay advice.
-  
- 
- 
-  
-  Sick Leave on Pay Advice
-  
-  
-  Tick this field to print the Sick Leave on the
-  pay advice.
-  
- 
- 
-  
-  L.S.L. on Pay Advice
-  
-  
-  Tick this field to print the Long Service Leave
-  on the pay advice.
-  
- 
- 
-  
-  Leave Ent. ONLY on Pay Advice
-  
-  
-  Tick this field to only print the employees
-  leave entitlement excluding pro-rata on the pay advice.
-  
- 
- 
-  
-  Pay Advice Logo:
-  
-  
-  The Pay Advice Logo can be imported into the
-  Payroll Card where you can have a different logo for each payroll if you
-  wish.
-  Right click over the logo section and select
-  one of the following options:
-  ·        
-  Select Picture
-  ·        
-  Save Picture
-  As
-  ·        
-  Preview
-  Picture
-  ·        
-  Copy
-  ·        
-  Delete
-  
- 
- 
-  
-  DEFAULTS FASTTAB – This tab is populated from
-  the Payroll Setup card and can be overridden. 
-  The values entered in these fields are automatically setup as defaults
-  for new employees when they are created and assigned to this payroll.  Any of these fields may be left blank and
-  entered or overridden against the employee.
-  
- 
- 
-  
-  Default Superannuation Company
-  
-  
-  This field defines
-  the Employer‘s standard Superannuation Company used for SGC payments.
-  Note: You must setup the Superannuation Company before making your
-  selection.  
-  Select a Superannuation Companies from the “ArrowDown”.  
-  
- 
- 
-  
-  Default Annual Leave Type
-  
-  
-  This field defines
-  the default Annual Leave Type used for employees attached to this
-  payroll.  
-  The Leave Type(s) must be setup before making your selection.  To
-  display the Leave Types assigned an Accumulation Type of “Annual Leave”
-  select the “ArrowDown”.
-  
- 
- 
-  
-  Default Annual Leave Code
-  
-  
-  This field defines
-  the default Annual Leave Code used for employees attached to this
-  payroll.  The Leave code defines the accrual rules for the leave.
-  The Leave Code must be setup before making the selection. To display Leave
-  Codes with a Leave Type of Annual Leave select the “ArrowDown”.
-  
- 
- 
-  
-  Default Leave Loading Type
-  
-  
-  This field defines
-  the default Leave Loading Type used for employees attached to this
-  payroll.  
-  The Leave Type(s) must be setup before making your selection.  To
-  display the Leave Types assigned an Accumulation Type of “Leave Loading”
-  select the “ArrowDown”.
-  
- 
- 
-  
-  Default Leave Loading Code
-  
-  
-  This field defines
-  the default Leave Loading Code used for employees attached to this
-  payroll.  The Leave code defines the accrual rules for the leave.
-  The Leave Code must be setup before making the selection. To display Leave
-  Codes with a Leave Type of Leave Loading select the “ArrowDown”.
-  
- 
- 
-  
-  Default Sick Leave Type
-  
-  
-  This field defines
-  the default Sick Leave Type used for employees attached to this
-  payroll.  
-  The Leave Type(s) must be setup before making your selection.  To
-  display the Leave Types assigned an Accumulation Type of “Sick Leave” select
-  the “ArrowDown”.
-  
- 
- 
-  
-  Default Sick Leave Code
-  
-  
-  This field defines
-  the default Sick Leave Code used for employees attached to this
-  payroll.  The Leave code defines the accrual rules for the leave.
-  The Leave Code must be setup before making the selection. To display Leave
-  Codes with a Leave Type of Sick Leave select the “ArrowDown”.
-  
- 
- 
-  
-  Default L.S.L. Leave Type
-  
-  
-  This field defines
-  the default Long Serve Leave Type used for employees attached to this
-  payroll.  
-  The Leave Type(s) must be setup before making your selection.  To
-  display the Leave Types assigned an Accumulation Type of “Long Serve Leave”
-  select the “ArrowDown”.
-  
- 
- 
-  
-  Default L.S.L. Leave Code
-  
-  
-  This field defines
-  the default Long Service Leave Code used for employees attached to this
-  payroll.  The Leave code defines the accrual rules for the leave.
-  The Leave Code must be setup before making the selection. To display Leave
-  Codes with a Leave Type of Long Service Leave select the “ArrowDown”.
-  
- 
- 
-  
-  Default Work Cover Code
-  
-  
-  This field defines
-  the default Workers Compensation Rate used for employees attached to this
-  payroll
-  The Workers Compensation Rates must be setup before making the selection. To
-  display the available Workers Compensation Rate codes select the “ArrowDown”.
-  
- 
- 
-  
-  Default Work Cover Loc. Code
-  
-  
-  This field defines
-  the default Workers Compensation Location used for employees attached to this
-  payroll
-  The Workers Compensation Locations must be setup before making the
-  selection.  To display the available Workers Compensation Location codes
-  select the “ArrowDown”.
-  
- 
- 
-  
-  Default Days Per Week
-  
-  
-  This field defines the number of days per week
-  the majority of employees attached to this payroll work.  This field can be overridden at the
-  employee level.
-  
- 
- 
-  
-  Default Hours Per Week
-  
-  
-  This field defines the number of hours per week
-  the majority of employees attached to this payroll work.  This field can be overridden at the
-  employee level.
-  
- 
- 
-  
-  Default Hours Per Period
-  
-  
-  This field defines the number of hours per pay
-  period the majority of employees attached to this payroll work.  This field can be overridden at the
-  employee level.
-  
- 
- 
-  
-  Default Payment Method
-  
-  
-  This field defines the Payment method for the
-  majority of employees attached to this payroll.  This field can be overridden at the
-  employee level.  Select from Cash,
-  Cheque, or EFT.
-  
- 
- 
-  
-  Default Tax Scale No.
-  
-  
-  This field defines the PAYG Tax Scale used by
-  the majority of employees attached to this payroll.  This field can be overridden at the
-  employee level.
-  
- 
- 
-  
-  LABOUR HIRE FASTTAB
-  
- 
- 
-  
-  Employment Agency Reg. No.
-  
-  
-  The Employment Agency Reg. No. field is used to
-  record the Employment Agency Reg. No. for your organisation if applicable.
-  
- 
- 
-  
-  Day Of Week That Week Starts
-  
-  
-  This field determines the Day that the Week
-  Starts.  
-  The options are 1 through to 7 where “1”
-  represents “Monday”, etc.
-  
- 
- 
-  
-  Week Day Name
-  
-  
-  This field determines the name of the day from
-  the selection of the above field.
-  
- 
- 
-  
-  Default Posting From Job
-  
-  
-  Tick this field if you wish the posting
-  information to default from the Job Posting Group attached to the Job.
-  If contractors work on multiple jobs and GL
-  cost transactions should be posted to where worked.
-  
- 
- 
-  
-  Branch/Division from Job
-  
-  
-  Tick this field if the Branch/Division should
-  default from the Job Posting Group attached to the Job. 
-  If contractors work on multiple jobs and
-  Branch/Division should default from the Job.
-  
- 
- 
-  
-  Clear All Timesheets
-  
-  
-  Tick this field if you wish all the unused
-  timesheets to be cleared when generating timesheets for a new period.
-  
- 
- 
-  
-  Generate Timesheet per Period
-  
-  
-  Tick this field if you wish for a timesheet to
-  generate per period.
-  An example of this is where the payroll is a
-  Fortnightly Payroll and 2 timesheets for each W/E date within the fortnightly
-  period is required.
-  
- 
- 
-  
-  Central Close Payroll Periods
-  
-  
-  Tick this field if you wish this payroll to be
-  included when closing the payroll period for other like payrolls.
-  An example of where you would use this is when
-  the pay frequencies are the same, i.e. Weekly and they are of the same period
-  dates.
-  
- 
- 
-  
-  Skip Processing All Employees
-  
-  
-  This field is used to suspend the message
-  generated at the time of calculating the pays.  
-  If this field is ticked, a message will be
-  presented after the pays are calculated to advise how many employees are
-  attached to the payroll and how many were processed and paid.  
-  If this field is not ticked, the message will
-  not be generated and therefore the calculation process speed is
-  increased.  
-  
- 
- 
-  
-  Skip Generate Std. Allowances
-  
-  
-  This field is used to by-pass generating
-  standard allowances within the Labour Hire module and is designed to increase
-  the calculation speed of the payroll.
-  If this field is ticked, no standard allowances
-  which may be setup within the Payroll Employee card will be generated as part
-  of the pay calculation process.
-  
- 
- 
-  
-  Skip Generate Std. Deductions
-  
-  
-  This field is used to by-pass generating
-  standard deductions within the Labour Hire module and is designed to increase
-  the calculation speed of the payroll.
-  If this field is ticked, no standard deductions
-  which may be setup within the Payroll Employee card will be generated as part
-  of the pay calculation process.
-  
- 
- 
-  
-  Skip Generate Std. Super.
-  
-  
-  This field is used to by-pass generating
-  standard superannuation process within the Labour Hire module and is designed
-  to increase the calculation speed of the payroll.
-  If this field is ticked, no standard superannuation
-  processes which may be setup within the Payroll Employee card will be
-  generated as part of the pay calculation process.
-  
- 
- 
-  
-  Skip Generate Leave Accruals
-  
-  
-  This field is used to by-pass generating leave
-  accruals within the Labour Hire module and is designed to increase the
-  calculation speed of the payroll.
-  If this field is ticked, no leave accruals
-  which may be setup within the Payroll Employee card will be generated as part
-  of the pay calculation process.
-  
- 
- 
-  
-  Skip Generate On Costs
-  
-  
-  This field is used to by-pass generating on
-  cost transactions within the Labour Hire module and is designed to increase
-  the calculation speed of the payroll.
-  If this field is ticked, no on cost transactions
-  which may be setup within the Payroll Employee card will be generated as part
-  of the pay calculation process.
-  
- 
- 
-  
-  Skip Gen On Cost Allow. & Dedct
-  
-  
-  This field is used to by-pass generating on
-  cost allowances and deductions within the Labour Hire module and is designed
-  to increase the calculation speed of the payroll.
-  If this field is ticked, no on cost allowance
-  and deductions which may be setup within the Payroll Employee card will be
-  generated as part of the pay calculation process.
-  
- 
- 
-  
-  Click on the “Periods”
-  Button if you wish to view/edit the Pay Periods associated to this Payroll,
-  OR
-  Click on the “OK”
-  button to close this window.
-  
- 
+|**Dissections for Pay Advice >1**|You can produce more than 1 pay advice for an employee in the current pay period to pay terminations payments, bonus’s, adjustments etc.  The employee’s bank account dissections are only applicable to Pay Advice 1 (Standard Pay).  When a pay is calculated on subsequent pay advices in a pay period only the main bank account dissection is used to pay the employee.  Tick this field to use all the employee bank account dissections for subsequent pay advices.|
+|**On Cost Dims From Employee**|Tick this field to post on-cost pay transaction types with employee dimensions through to the General Ledger. Leave this field blank to post the on cost transaction types without the employee dimensions to the General Ledger.|
+|**Calc. Superannuation Monthly**|Tick this field to calculate employer superannuation contributions monthly using the Calculate Monthly Superannuation menu reporting option. Leave this field blank to calculate employer superannuation contributions each pay period.|
+|**Time Sheet Week Ending Day**|This field identifies which day of the week that the Time Sheet Week Ending Day.|
 
+11.  On the **Pay Advice** FastTab, fill the fields as described in the following table.
 
- 
+|Field|Description|  
+|---------------------------------|---------------------------------------| 
+|**Pay Advice Report ID**|This field is used to select the Pay Advice Report Id.  The report Id is used to define the format of the Pay Advice.  The Standard Pay Advice Report Id is16000473 for internal employees or 16003876 for Labour Hire which includes an Incorporated Company RCTI.  To use a custom pay advice we recommend a new Report ID is used.|
+|**Pay Advice Report Name**|This field is populated with the name of the Pay Advice selected and cannot be changed.|
+|**Pay Advice Message**|Use this field to enter a message to print on all Pay Advices.  The message can be overridden when printing pay advices during the pay process.|
+|**Weekly Rate on Pay Advice**|Tick this field to print the employee’s weekly rate of pay on the pay advice.  This is only applicable for internal employees.|
+|**Annual Rate on Pay Advice**|Tick this field to print the employee’s annual rate on the pay advice.  This is only applicable for internal employees.|
+|**YTD Value on Pay Advice**|Tick this field to print the Year to Date values on the pay advice.|
+|**Employer Super. On Pay Advice**|Tick this field to print the Employer Superannuation Contribution on the pay advice.|
+|**Accrued TIL on Pay Advice**|Tick this field to print the balance of Time in Lieu on the pay advice.|
+|**Annual Leave on Pay Advice**|Tick this field to print the Annual Leave on the pay advice.|
+|**Sick Leave on Pay Advice**|Tick this field to print the Sick Leave on the pay advice.|
+|**L.S.L. on Pay Advice**|Tick this field to print the Long Service Leave on the pay advice.|
+|**Leave Ent. ONLY on Pay Advice**|Tick this field to only print the employees leave entitlement excluding pro-rata on the pay advice.|
+|**Pay Advice Logo:**|The Pay Advice Logo can be imported into the Payroll Card where you can have a different logo for each payroll if you wish. Right click over the logo section and select one of the following options: Select Picture, Save Picture As, Preview Picture, Copy, Delete.|
 
-2.16Pay Periods
+12.  On the **Defaults** FastTab, fill the fields as described in the following table.
 
-The Pay Period card is used to maintain the Pay Periods for
-this Payroll.  The card is nested within
-the Payroll Card so fields maintained on this card only update this specific
-Payroll Card.
+|Field|Description|  
+|---------------------------------|---------------------------------------| 
+|**Default Superannuation Company**|This field defines the Employer‘s standard Superannuation Company used for SGC payments. **Note: You must setup the Superannuation Company before making your selection. Select a Superannuation Companies from the ArrowDown.**|
+|**Default Annual Leave Type**|This field defines the default Annual Leave Type used for employees attached to this payroll.   The Leave Type(s) must be setup before making your selection.  To display the Leave Types assigned an Accumulation Type of “Annual Leave” select the **ArrowDown**.|
+|**Default Annual Leave Code**|This field defines the default Annual Leave Code used for employees attached to this payroll.  The Leave code defines the accrual rules for the leave.  The Leave Code must be setup before making the selection. To display Leave Codes with a Leave Type of Annual Leave select the **ArrowDown**.|
+|**Default Leave Loading Type**|This field defines the default Leave Loading Type used for employees attached to this payroll.  The Leave Type(s) must be setup before making your selection.  To display the Leave Types assigned an Accumulation Type of “Leave Loading” select the **ArrowDown**.|
+|**Default Leave Loading Code**|This field defines the default Leave Loading Code used for employees attached to this payroll.  The Leave code defines the accrual rules for the leave. The Leave Code must be setup before making the selection. To display Leave Codes with a Leave Type of Leave Loading select the **ArrowDown**.|
+|**Default Sick Leave Type**|This field defines the default Sick Leave Type used for employees attached to this payroll.   The Leave Type(s) must be setup before making your selection.  To display the Leave Types assigned an Accumulation Type of “Sick Leave” select the **ArrowDown**.|
+|**Default Sick Leave Code**|This field defines the default Sick Leave Code used for employees attached to this payroll.  The Leave code defines the accrual rules for the leave. The Leave Code must be setup before making the selection. To display Leave Codes with a Leave Type of Sick Leave select the **ArrowDown**.|
+|**Default L.S.L. Leave Type**|This field defines the default Long Serve Leave Type used for employees attached to this payroll.   The Leave Type(s) must be setup before making your selection.  To display the Leave Types assigned an Accumulation Type of “Long Serve Leave” select the **ArrowDown**.|
+|**Default L.S.L. Leave Code**|This field defines the default Long Service Leave Code used for employees attached to this payroll.  The Leave code defines the accrual rules for the leave. The Leave Code must be setup before making the selection. To display Leave Codes with a Leave Type of Long Service Leave select the **ArrowDown**.|
+|**Default Work Cover Code**|This field defines the default Workers Compensation Rate used for employees attached to this payroll. The Workers Compensation Rates must be setup before making the selection. To display the available Workers Compensation Rate codes select the **ArrowDown**.|
+|**Default Work Cover Loc. Code**|This field defines the default Workers Compensation Location used for employees attached to this payroll The Workers Compensation Locations must be setup before making the selection.  To display the available Workers Compensation Location codes select the **ArrowDown**.|
+|**Default Days Per Week**|This field defines the number of days per week the majority of employees attached to this payroll work.  This field can be overridden at the employee level.|
+|**Default Hours Per Week**|This field defines the number of hours per week the majority of employees attached to this payroll work.  This field can be overridden at the employee level.|
+|**Default Hours Per Period**|This field defines the number of hours per pay period the majority of employees attached to this payroll work.  This field can be overridden at the employee level.|
+|**Default Payment Method**|This field defines the Payment method for the majority of employees attached to this payroll.  This field can be overridden at the employee level.  Select from Cash, Cheque, or EFT.|
+|**Default Tax Scale No.**|This field defines the PAYG Tax Scale used by the majority of employees attached to this payroll.  This field can be overridden at the employee level.|
 
- 
+13.  On the **Labour Hire** FastTab, fill the fields as described in the following table.
 
-You can access the Pay Periods window, by clicking on the “Periods” Button on the Home
-ribbon.
+|Field|Description|  
+|---------------------------------|---------------------------------------| 
+|**Employment Agency Reg. No.**|The Employment Agency Reg. No. field is used to record the Employment Agency Reg. No. for your organisation if applicable.|
+|**Day Of Week That Week Starts**|This field determines the Day that the Week Starts.   The options are 1 through to 7 where “1” represents “Monday”, etc.|
+|**Week Day Name**|This field determines the name of the day from the selection of the above field.|
+|**Default Posting From Job**|Tick this field if you wish the posting information to default from the Job Posting Group attached to the Job. If contractors work on multiple jobs and GL cost transactions should be posted to where worked.|
+|**Branch/Division from Job**|Tick this field if the Branch/Division should default from the Job Posting Group attached to the Job.  If contractors work on multiple jobs and Branch/Division should default from the Job.|
+|**Clear All Timesheets**|Tick this field if you wish all the unused timesheets to be cleared when generating timesheets for a new period.|
+|**Generate Timesheet per Period**|Tick this field if you wish for a timesheet to generate per period. An example of this is where the payroll is a Fortnightly Payroll and 2 timesheets for each W/E date within the fortnightly period is required.|
+|**Central Close Payroll Periods**|Tick this field if you wish this payroll to be included when closing the payroll period for other like payrolls. An example of where you would use this is when the pay frequencies are the same, i.e. Weekly and they are of the same period dates.|
+|**Skip Processing All Employees**|This field is used to suspend the message generated at the time of calculating the pays. If this field is ticked, a message will be presented after the pays are calculated to advise how many employees are attached to the payroll and how many were processed and paid.   If this field is not ticked, the message will not be generated and therefore the calculation process speed is increased.|
+|**Skip Generate Std. Allowances**|This field is used to by-pass generating standard allowances within the Labour Hire module and is designed to increase the calculation speed of the payroll. If this field is not ticked, no standard allowances which may be setup within the Payroll Employee card will be generated as part of the pay calculation process.
+|**Skip Generate Std. Deductions**|This field is used to by-pass generating standard deductions within the Labour Hire module and is designed to increase the calculation speed of the payroll. If this field is not ticked, no standard deductions which may be setup within the Payroll Employee card will be generated as part of the pay calculation process.|
+|**Skip Generate Std. Super.**|This field is used to by-pass generating standard superannuation process within the Labour Hire module and is designed to increase the calculation speed of the payroll. If this field is not ticked, no standard superannuation processes which may be setup within the Payroll Employee card will be generated as part of the pay calculation process.|
+|**Skip Generate Leave Accruals**|This field is used to by-pass generating leave accruals within the Labour Hire module and is designed to increase the calculation speed of the payroll. If this field is not ticked, no leave accruals which may be setup within the Payroll Employee card will be generated as part of the pay calculation process.|
+|**Skip Generate On Costs**|This field is used to by-pass generating on cost transactions within the Labour Hire module and is designed to increase the calculation speed of the payroll. If this field is not ticked, no on cost transactions which may be setup within the Payroll Employee card will be generated as part of the pay calculation process.|
+|**Skip Gen On Cost Allow. & Dedct**|This field is used to by-pass generating on cost allowances and deductions within the Labour Hire module and is designed to increase the calculation speed of the payroll. If this field is not ticked, no on cost allowance and deductions which may be setup within the Payroll Employee card will be generated as part of the pay calculation process.|
 
- 
-
-
-
-2.16.1 
-“Edit – Pay Periods” window
-
- 
-
-
- 
-  
+14.  Click on the “Periods" Button if you wish to view/edit the Pay Periods associated to this Payroll, OR Click on the “OK” button to close this window.
    
-   Field Name
-   
-   
-   Description
-   
-  
- 
- 
-  
-  Tax Year
-  
-  
-  This field indicates the Tax Year for the
-  following fields
-  
- 
- 
-  
-  No.
-  
-  
-  This field indicates the Period Number within
-  the tax year.  This field starts at 1
-  for each new Payroll Tax Year.
-  
- 
- 
-  
-  Starting Date
-  
-  
-  This field defines the first date (inclusive)
-  of the Corresponding Period No.
-  
- 
- 
-  
-  Ending Date
-  
-  
-  This field defines the last date (inclusive) of
-  the Corresponding Period No.
-  
- 
- 
-  
-  Closed
-  
-  
-  A checkmark in this field indicates that the
-  pay period is closed.
-  You can either manually place a checkmark in
-  this field, or run a process to close the pay period correctly.
-  
- 
- 
-  
-  Date Locked
-  
-  
-  A checkmark in this field indicates that Pays
-  have been generated within the Pay Period and the dates can’t be changed.
-  You can manually place a checkmark in this
-  field, or run a process to lock the dates for the pay period correctly.
-  
- 
- 
-  
-  Click on the “Edit” icon
-  if you wish to 
-  ·        
-  “Create a New Tax Year”, 
-  ·        
-  Delete a Tax Year, 
-  ·        
-  Modify Pay Periods or 
-  ·        
-  Close a Current or Selected Pay Periods,
-  OR
-  Click on the “CLOSE”
-  button to close this window.
-  
- 
 
-
-2.16.2 
-Create a New Tax Year
-
-Note:  After the first
-tax year has been created, you cannot change the starting date if payrolls have
-been processed against any of the pay periods. 
-All subsequent tax years start the date after the previous tax year.
+[GoToTop](#how-to-setup-payroll)
 
  
 
+## To setup Pay Periods
 
+The Pay Period card is used to maintain the Pay Periods for this Payroll.  The card is nested within the Payroll Card so fields maintained on this card only update this specific Payroll Card.
+
+1.  You can access the Pay Periods window, by clicking on the “Periods” Button on the Home ribbon.
+
+|Field|Description|  
+|---------------------------------|---------------------------------------| 
+|**Tax Year**|This field indicates the Tax Year.|
+|**No.**|This field indicates the Period Number within the tax year.  This field starts at 1 for each new Payroll Tax Year.|
+|**Starting Date**|This field defines the first date (inclusive) of the Corresponding Period No.|
+|**Ending Date**|This field defines the last date (inclusive) of the Corresponding Period No.|
+|**Closed**|A checkmark in this field indicates that the pay period is closed. You can either manually place a checkmark in this field, or run a process to close the pay period correctly.|
+|**Date Locked**|A checkmark in this field indicates that Pays have been generated within the Pay Period and the dates can’t be changed.  You can manually place a checkmark in this field, or run a process to lock the dates for the pay period correctly.|
+
+2.  Click on the “Edit” icon if you wish to
+
+- Create a New Tax Year,
+- Delete a Tax Year,
+- Modify Pay Periods or 
+- Close a Current or Selected Pay Periods
+- OR Click on the “CLOSE" button to close this window.
+  
+ 
+[GoToTop](#how-to-setup-payroll)
+
+
+### Create a New Tax Year
+
+**Note:  After the first tax year has been created, you cannot change the starting date if payrolls have been processed against any of the pay periods. All subsequent tax years start the date after the previous tax year.**
+
+When you create a Payroll Tax Year, the equivalent to a year’s worth of pay period records are created. After clicking OK on this card, the created periods will display in the Pay Periods card.
+
+1.  On the **Options** FastTab, fill the fields as described in the following table.
+
+|Field|Description|  
+|---------------------------------|---------------------------------------| 
+|**Payroll No.**|This field identifies the currently selected Payroll.|
+|**Starting Date**|This field defines the first date of the first pay period for the year.  The day after the last pay period end date of the previous tax year is the default.|
+|**Pay Period Frequency**|This field defaults to” Weekly”.  You must select the correct frequency from the list.|
+|**No. of Periods**|The default for this field is calculated from the “Pay Period Frequency” entry.|
+|**Weeks Per Pay Period**|This field is calculated from the above entries and cannot be changed.|
+
+2.  Click on the **OK** button after you have entered your selection to close this window.
+
+[GoToTop](#how-to-setup-payroll)
 
  
 
-When you create a Payroll Tax Year, the equivalent to a
-year’s worth of pay period records are created. 
-After clicking OK on this card, the created periods will display in the
-Pay Periods card.
+### Delete Tax Year
 
-2.16.3 
-Edit – Create Tax Year” window
+1.  On the **Options** FastTab, fill the fields as described in the following table.
 
- 
+|Field|Description|  
+|---------------------------------|---------------------------------------| 
+|**Payroll No.**|This field identifies the currently selected Payroll.|
+|**Tax Year**|This field identifies the Tax Year you wish to delete for the currently selected Payroll.|
+|**Starting Date**|This field defines the first date of the first pay period for the year.|
+|**End Date**|This field defines the end date of the last pay period for the year.|
 
+2.  Click on the **OK** button after you have entered your selection to close this window.
+  
 
-
- 
-
-
- 
-  
-   
-   Field Name
-   
-   
-   Description
-   
-  
- 
- 
-  
-  OPTIONS FASTTAB – this function is used to
-  create Pay Periods for subsequent tax years. 
-  The process populates values for each field that you can override if
-  required.
-  
- 
- 
-  
-  Payroll No.
-  
-  
-  This field identifies the currently selected
-  Payroll.
-  
- 
- 
-  
-  Starting Date
-  
-  
-  This field defines the first date of the first
-  pay period for the year.  The day after
-  the last pay period end date of the previous tax year is the default.
-  
- 
- 
-  
-  Pay Period Frequency
-  
-  
-  This field defaults to” Weekly”.  You must select the correct frequency from
-  the list.
-  
- 
- 
-  
-  No. of Periods
-  
-  
-  The default for this field is calculated from
-  the “Pay Period Frequency” entry.
-  
- 
- 
-  
-  Weeks Per Pay Period
-  
-  
-  This field is calculated from the above entries
-  and cannot be changed.
-  
- 
- 
-  
-  Click on the “OK”
-  button after you have entered your selection to close this window.
-  
- 
-
-
- 
-
-2.16.4 
-Edit – Delete Tax Year” window
-
- 
+[GoToTop](#how-to-setup-payroll)
 
 
 
- 
+### Modify Pay Periods
 
+1.  On the **Options** FastTab, fill the fields as described in the following table.
 
+|Field|Description|  
+|---------------------------------|---------------------------------------| 
+|**Payroll No.**|This field identifies the currently selected Payroll.|
+|**Starting Date**|This field indicates the pay period start date you wish to modify.|
+|**Pay Period Frequency**|This field can be changed by selecting the **ArrowDown** and selecting from list. Once changed; all Pay Periods from the starting date are converted to the new frequency. Example of changing from a weekly to a monthly frequency during a tax year follows. Decide on the first period to be changed to monthly, preferably one with an Ending Date in the same month as the start date  The sequence you apply the following date changes must never allow periods to overlap.   1. In the Pay Periods window change the Ending Date of the last weekly period to the last date of the month 2. Change the Starting Date for the first monthly period to the first date of the month.  3. Select the first monthly period, go to the Modify Pay Periods window and change the frequency to monthly. After you exit this window, all future periods have changed to monthly.|
+|**By Calendar Months**|The “By Calendar Month” is used in conjunction with either the Monthly or Quarterly setting in the Pay Period Frequency.  When ticked, modifications are applied according to calendar months. This is only necessary when changing the frequency.|
 
- 
+2.  Click on the **OK** button after you have entered your selection to close this window.
+  
 
- 
+[GoToTop](#how-to-setup-payroll)
 
-
- 
-  
-   
-   Field Name
-   
-   
-   Description
-   
-  
- 
- 
-  
-  OPTIONS FASTTAB
-  
- 
- 
-  
-  Payroll No.
-  
-  
-  This field identifies the currently selected
-  Payroll.
-  
- 
- 
-  
-  Tax Year
-  
-  
-  This field identifies the Tax Year you wish to
-  delete for the currently selected Payroll.
-  
- 
- 
-  
-  Starting Date
-  
-  
-  This field defines the first date of the first
-  pay period for the year.  
-  
- 
- 
-  
-  End Date
-  
-  
-  This field defines the end date of the last pay
-  period for the year.  
-  
- 
- 
-  
-  Click on the “OK”
-  button after you have entered your selection to close this window.
-  
- 
-
-
- 
-
-2.16.5 
-Edit – Modify Pay Periods” window
-
- 
-
-
-
- 
-
-
-
- 
-
- 
-
-
- 
-  
-   
-   Field Name
-   
-   
-   Description
-   
-  
- 
- 
-  
-  OPTIONS FASTTAB
-  
- 
- 
-  
-  Payroll No.
-  
-  
-  This field identifies the currently selected
-  Payroll.
-  
- 
- 
-  
-  Starting Date
-  
-  
-  This field indicates the pay period start date
-  you wish to modify
-  
- 
- 
-  
-  Pay Period Frequency
-  
-  
-  This field can be changed by selecting the “ArrowDown”
-  and selecting from list
-  Once changed; all Pay Periods from the starting date are converted to the new
-  frequency.  .
-  Example of changing
-  from a weekly to a monthly frequency during a tax year follows. 
-  Decide on the first period to be changed to monthly, preferably one with an
-  Ending Date in the same month as the start date
-  The sequence you apply the following date changes must never allow periods to
-  overlap.
-  1. In the Pay Periods window change the Ending Date of the last
-  weekly period to the last date of the month
-  2. Change the Starting Date for the first monthly period to the first
-  date of the month. 
-  3. Select the first monthly period, go to the Modify Pay Periods window
-  and change the frequency to monthly.  
-  After you exit this window, all future periods have changed to monthly.
-  
- 
- 
-  
-  By Calendar Months
-  
-  
-  The “By Calendar Month” is used in conjunction
-  with either the Monthly or Quarterly setting in the Pay Period
-  Frequency.  When ticked, modifications
-  are applied according to calendar months. 
-  This is only necessary when changing the frequency.
-  
- 
- 
-  
-  Click on the “OK”
-  button after you have entered your selection to close this window.
-  
- 
-
-
- 
-
-2.16.6 
-Closing Pay Periods
-
- 
-
-
-
- 
-
- 
-
-2.16.7 
-Close Pay Period Message” window
-
- 
-
- 
+### Closing Pay Periods
 
 The 2 options available to close a pay period are:
 
+- Close Current – this option will close the current period.
+- Close Selected – from the Pay Periods window, you can nominate by highlighting which pay period you wish to close.
+
+[GoToTop](#how-to-setup-payroll)
  
 
+## To setup Payroll Tax
 
- Close Current – this
-     option will close the current period.
- Close Selected – from
-     the Pay Periods window, you can nominate by highlighting which pay periods
-     you wish to close.
-
-
- 
-
-2.17   
-Payroll Tax
-
-A Payroll
-Tax Card must be setup for each State that you process payrolls for employees.  The Payroll Tax Calculation report will
+A Payroll Tax Card must be setup for each State that you process payrolls for employees.  The Payroll Tax Calculation report will
 provide you with the ability to calculate your payroll tax liability based on
 the Branch and Division assigned to your employees/contractors.
 
@@ -1812,15 +994,6 @@ Payroll TaxTo access the Payroll Tax setup, go to the
 following menu:
 
 
-
-
-
-
-
-
-
-
-
 Departments/Payroll/Setup/Payroll Setup/ Tax/Payroll Tax
 
 
@@ -1828,13 +1001,7 @@ Departments/Payroll/Setup/Payroll Setup/ Tax/Payroll Tax
 2.17.1 
 “Edit – Payroll Tax List” window
 
- 
-
-
- 
-  
-   
-   Field Name
+ Field Name
    
    
    Description
@@ -2107,12 +1274,12 @@ Departments/Payroll/Setup/Payroll Setup/ Tax/Payroll Tax
   button to close this window.
   
  
+[GoToTop](#how-to-setup-payroll)
 
 
  
 
-3     
-Award Overview
+# Award Overview
 
 An Award is set up by:
 
@@ -2125,20 +1292,6 @@ Rates for each Award Classification. (Optional) At least one Award and Classifi
 company to process the payrolls.  The default Award is automatically created by the
 Initialisation Codeunit when payroll is implemented and is called “GENERAL” for
 both the Award and Classification: 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
  All
@@ -2214,6 +1367,7 @@ be set up by creating Gross / Allowances for that Award.
 On the Payroll Employee Card a second Over Award Rate can be
 added in addition to the Over Award Rate.
 
+[GoToTop](#how-to-setup-payroll)
  
 
 3.1   
@@ -2380,6 +1534,7 @@ Associated Transactions
   button to close this window.
   
  
+[GoToTop](#how-to-setup-payroll)
 
 
  
@@ -2582,6 +1737,7 @@ Edit – “Award Gross/Allowances” window
   button to close this window.
   
  
+[GoToTop](#how-to-setup-payroll)
 
 
  
@@ -5303,50 +4459,15 @@ Accumulators
 
  
 
-5.2   
-Transaction Accumulators
+## Transaction Accumulators
 
-To access the Transaction Accumulators, go to the
-following menu:
+1.  To access the Transaction Accumulators, go to the following menu: *Departments/Payroll/Setup/Payroll Setup/ General/Pay
+Transaction Types*
 
-Departments/Payroll/Setup/Payroll Setup/ General/Pay
-Transaction Types
+2.  Select a Transaction Type and click on the **Accumulators** icon.
 
-Select a Transaction Type and click on the “Accumulators” icon.
+3.  To create a new record, cick on the **New** button.
 
- 
-
-
-
- 
-
- 
-
-5.2.1    
-“Edit – Transaction Accumulator” window
-
- 
-
-
-
- 
-
-
- 
-  
-   
-   Field Name
-   
-   
-   Description
-   
-  
- 
- 
-  
-  To create a new record, click on the “New” button.
-  
- 
  
   
   Accumulator Code
@@ -5378,17 +4499,11 @@ Select a Transaction Type and click on the “Accumulators” icon.
   Click on the “OK”
   button to close this window.
   
- 
-
-
- 
-
  
 
 5.3   
 Accumulation and Deduction Types
 
- 
 
 To complete the setup for on cost transactions, Pay
 Transaction types relating to the on costs should be setup for them to
@@ -5436,23 +4551,14 @@ be identified on the Calculations tab of the Pay Transaction Type Card.
 The Calculation Base field is linked to the Accumulators table
 and will only be active if the Rate Calculation Method selected is Percentage.
 
- 
-
-
- 
-  
-   
+   
    Field Name
    
    
    Description
-   
   
- 
- 
   
   On Cost Rate
-  
   
   If the rate needs to be held at a “Global”
   level then enter in the rate amount in this field, otherwise it should be
@@ -5485,21 +4591,12 @@ and will only be active if the Rate Calculation Method selected is Percentage.
   
  
 
-
- 
-
- 
-
 5.3.3    
 “Edit – Pay Transaction Type Card” (Expense and
 Provision) window
 
- 
-
 On Cost type transactions will need to be set up with both a
 G/L Expense Account and a G/L Provision Account.
-
- 
 
 When the transaction type is an on cost, then this field
 will be left blank and the Transaction Posting Group and On Cost Prov. Posting
@@ -5507,188 +4604,54 @@ Group should be completed.  Both of these
 posting group fields are linked to the existing Transaction Posting and Payroll
 Posting setup tables to allow G/L account mapping.
 
- 
+## Posting Setup
 
- 
-
- 
-
- 
-
- 
-
-5.4   
-Posting Setup
-
- 
-
-During the Post Journal Lines process, General Ledger
-Accounts are resolved for each transaction where amounts will be consolidated
+During the Post Journal Lines process, General Ledger Accounts are resolved for each transaction where amounts will be consolidated
 according to:
 
- 
+- GL Account
+- Global Dimensions and Shortcut Dimensions
 
+With On Cost transactions they are calculated and post both sides of the journal entry.  Where an amount of $20 is calculated, a debit entry is generated and posted to the nominated expense account and an equal credit entry is generated and posted to the nominated provision account.
 
- GL Account
- Global Dimensions and
-     Shortcut Dimensions
+Transaction Posting groups must be setup and specified to ensure that the provision and expense go the correct General Ledger account.
 
+## On Cost Generation 
+On Costs are generated automatically as there is a flag used to identify any transaction types that should be generated automatically if the code in question is found in the rateset applicable to the resource allocation.
 
- 
+### Calculate Pays
+When the Calculate Pays function is run, the following process happens:
 
-With On Cost transactions they are calculated and post both
-sides of the journal entry.  Where an
-amount of $20 is calculated, a debit entry is generated and posted to the
-nominated expense account and an equal credit entry is generated and posted to
-the nominated provision account.
+- Check Rateset for any transactions that are flagged as Auto Generate.
+- Generate Transactions and calculate values based on rateset rate.  If there is no rateset rate found then the rate found on the Pay Transaction Type will be used. 
 
- 
+## Branch/Division/Global Dimensions/Shortcut Dimension
 
-Transaction Posting groups must be setup and specified to
-ensure that the provision and expense go the correct General Ledger account.
+When the On Cost transactions are generated, Branch, Division, Global Dimension codes can be assigned automatically to the transactions.
 
- 
+[GoToTop](#how-to-setup-payroll)
 
-5.4.1    
-“Edit – Transaction Posting Groups” window
+## Labour Hire/PAYG Contractors
 
- 
-
-
-
- 
-
- 
-
-5.4.2    
-“Edit – Payroll Posting Setup” window
-
- 
-
-
-
- 
-
- 
-
-5.5   
-On Cost Generation 
-
- 
-
-On Costs are generated automatically as there is a flag used
-to identify any transaction types that should be generated automatically if the
-code in question is found in the rateset applicable to the resource allocation.
-
- 
-
-5.5.1    
-Calculate Pays
-
- 
-
-When the Calculate Pays function is run, the following
-process happens:
-
- 
-
-
- Check Rateset for any
-     transactions that are flagged as Auto Generate.
- Generate Transactions
-     and calculate values based on rateset rate.  If there is no rateset rate found then
-     the rate found on the Pay Transaction Type will be used.
-
-
- 
-
-5.5.2    
-Branch/Division/Global Dimensions/Shortcut
-Dimension
-
- 
-
-When the On Cost transactions are generated, Branch, Division,
-Global Dimension codes can be assigned automatically to the transactions.
-
- 
-
-5.5.2.1    
-Labour
-Hire/PAYG Contractors
-
- 
-
-Where the option “Default
-Posting from Job flag” on the Labour Hire Tab on the Payroll is set to
-false, then it is a fairly straightforward procedure of finding the combination
-held on the Payroll Employee record and writing this combination on the on cost
+Where the option “Default Posting from Job flag” on the Labour Hire Tab on the Payroll is set to false, then it is a fairly straightforward procedure of finding the combination held on the Payroll Employee record and writing this combination on the on cost
 journal line.
 
+Where the “Default Posting from Job” flag is set to true, then the process becomes a lot more complicated.  Where there are multiple combinations then a new set of on cost transactions are generated.  The calculation will be performed per group.
+
+For example, if an employee has worked on 2 different jobs that belong to 2 different departments in this period, then his transactions will be costed accordingly.
  
+## Internal Employees
 
+As Internal Employees are not necessarily assigned to Jobs the Branches and Dimensions will be inherited from the settings on the Payroll Employee Card or Transactional lines contained in the pay journal.
 
+If the Dimensions for On Costs should always default from the Payroll Employee Card then you can set the “On Cost Dims. From Employee” flag to true, on the Options Tab of the Payroll card. 
 
- 
+ ### On Costing and Internal Employees
 
-Where the “Default
-Posting from Job” flag is set to true, then the process becomes a lot more
-complicated.  Where there are multiple
-combinations then a new set of on cost transactions are generated.  The calculation will be performed per group.
+Internal employees are identified as administration staff, etc that are employed by the company.  It is assumed that Internal employees will use the base payroll function and rates will be setup via the Awards and Classifications structure.
 
- 
+On costing can also be set up for these types of employees in another area if rate sets are not being used.
 
-For example, if an employee has worked on 2 different jobs
-that belong to 2 different departments in this period, then his transactions
-will be costed accordingly.
+Select the employee from the Payroll Employee Card – click on the “Navigate” ribbon > “Accumulation Calculations” > “Employer On Costs”.
 
- 
-
-5.5.2.2    
-Internal
-Employees
-
- 
-
-As Internal Employees are not necessarily assigned to Jobs
-the Branches and Dimensions will be inherited from the settings on the Payroll
-Employee Card or Transactional lines contained in the pay journal.
-
- 
-
-If the Dimensions for On Costs should always default from
-the Payroll Employee Card then you can set the “On Cost Dims. From Employee” flag t true, on the Options Tab of
-the Payroll card. 
-
- 
-
- 
-
-
-
-5.6   
-On Costing and Internal Employees
-
- 
-
-Internal employees are identified as administration staff,
-etc that are employed by the company.  It
-is assumed that Internal employees will use the base payroll function and rates
-will be setup via the Awards and Classifications structure.
-
- 
-
-On costing can also be set up for these types of employees
-in another area if rate sets are not being used.
-
- 
-
-Select the employee from the Payroll Employee Card – click
-on the “Navigate” ribbon
-> “Accumulation Calculations”
-> “Employer On Costs”.
-
- 
-
- 
- 
+[GoToTop](#how-to-setup-payroll)
