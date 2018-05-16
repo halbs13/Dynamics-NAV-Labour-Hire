@@ -28,9 +28,7 @@ Only Pay Transaction Type payments that are reported to the ATO have an YTD Accu
 When the Payment Summary YTD Accumulation code has not been correctly applied to the Pay Transaction Type you must correct the accumulation code in the Pay transaction and then run the YTD accumulation Code Update to update the values in the Employee Ledger table.
 
 
-To access the YTD Accumulation Code Update, go to the following menu:
-
-*Departments/Payroll/EOFY Processing/End of Tax Year/YTD Accumulation Code Update*
+To access the YTD Accumulation Code Update, go to the following menu: *Departments/Payroll/EOFY Processing/End of Tax Year/YTD Accumulation Code Update*
  
 |Field Name|Description|
 |------------------------------------|-------------------------------------------------------|
@@ -52,12 +50,9 @@ PAYG Payment Summaries are not produced for an employee with an “Incorporated 
 
 Note: A “PAYG Payment Summary Proof List” is always printed, by default, when selecting the “Print PAYG Payment Summaries” option. This is used to provide proof of the values printed on the PAYG Payment Summaries and supplied to the ATO.
 
-To print the PAY Payment Summary Proof List, go to the following menu:
-
-*Departments/Payroll/EOFY Processing/End of Tax Year/EOTY Payment Summaries*
+1.  To print the PAY Payment Summary Proof List, go to the following menu: *Departments/Payroll/EOFY Processing/End of Tax Year/EOTY Payment Summaries*
  
-
-Select End of Tax Year processing and click “OK”
+2.  Select End of Tax Year processing and click “OK”
 
  |Field Name|Description|
 |------------------------------------|-------------------------------------------------------|
@@ -96,12 +91,9 @@ The format of the ATO Electronic file name is defaulted. You must indicate the p
 
 **Note: Eligible Termination Payment ( ETP ) summaries are produced automatically during the PAYG Payment Summary process if you have entered the employees ETP details using the Eligible Termination Pay task accessed via the button  from the Payroll Employee Card.**
 
-To print the PAYG Payment Summary, go to the following menu:
-
-*Departments/Payroll/EOFY Processing/End of Tax Year/EOTY Payment Summaries*
+1.  To print the PAYG Payment Summary, go to the following menu: *Departments/Payroll/EOFY Processing/End of Tax Year/EOTY Payment Summaries*
  
- 
-Select Either Normal Processing or End of Tax Year processing and click “OK”
+ 2.  Select Either Normal Processing or End of Tax Year processing and click “OK”
 
  |Field Name|Description|
 |------------------------------------|-------------------------------------------------------|
