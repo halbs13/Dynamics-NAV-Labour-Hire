@@ -28,7 +28,7 @@ This section will discuss the following setup areas within Payroll;
 - [Payroll Posting Setup](#to-setup-payroll-posting-setup) 
 - [YTD Accumulators](#to-setup-ytd-accumulators) 
 - [Tax Scales](#to-setup-tax-scales) 
-- [Payrolls](#to-setup-payrolls) 
+- [Payrolls](#to-setup-payroll) 
 - [Pay Periods](#to-setup-pay-periods) 
 - [Payroll Tax](#to-setup-payroll-tax) 
 - [Award Overview](#to-setup-award-overview) 
