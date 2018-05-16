@@ -457,8 +457,7 @@ Examples of Pay Transaction Types are Normal Time, Overtime, Net Pay, Superannua
 |Field|Description|  
 |---------------------------------|---------------------------------------|  
 |**Apply to Taxable Income**|This field is used to determine if the value calculated for this Pay Transaction Type is taxable.  Select this field to apply PAYG tax or leave this field blank for exempt transactions.  Note: Pre tax deductions for Salary Sacrifice must have this flag ticked to reduce the tax liability.  Leave this field blank for Post tax deductions.|
-|**Apply to Superannuation**|Select this field to indicate the PayTransaction Type is used in the calculation of percentage based Superannuation amounts.This field determines if the value of this Pay Transaction Type is to be included in the calculation and have SGC
-calculated.|
+|**Apply to Superannuation**|Select this field to indicate the PayTransaction Type is used in the calculation of percentage based Superannuation amounts.This field determines if the value of this Pay Transaction Type is to be included in the calculation and have SGC calculated.|
 |**Apply to Min. Salary Check**|Tick this field to include this Pay Transaction Type as part of the employee’s “ordinary time earnings”. The “ordinary time earnings” is used with the “Monthly Min. Earnings” field on “Payroll Setup - Superannuation” tab to determine if the employee has earned the minimum monthly pay to be eligible for Superannuation Guarantee Contributions.|
 |**Apply to Time In Lieu**|Tick this field to indicate if this Pay Transaction Type is used in the calculation of Time in Lieu.|
 |**Apply to Work Cover**|Tick this field to indicate if this transaction is to be part of Workers Compensation gross pay.  The gross value is used for the calculation of the Workers Compensation Rate contribution.|
