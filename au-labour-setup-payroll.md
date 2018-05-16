@@ -40,6 +40,7 @@ This section will discuss the following setup areas within Payroll;
 The Payroll Setup defines global settings and rules within the payroll.  Many of these are set with defaults when the Payroll is installed and maybe revised and updated after all payroll areas have been configured. 
 
 1. In the **Search** box, enter **Payroll Setup**, and then choose the related link.  
+
 2. On the **General** FastTab, fill the fields as described in the following table.
 
 |Field|Description|  
@@ -97,7 +98,7 @@ The Payroll Setup defines global settings and rules within the payroll.  Many of
 |**Leave Ent. ONLY on Pay Advice**|A checkmark in this field indicates to print the balance of Annual Leave on the pay advice.| 
 |**Annual Leave on Pay Advice**|A checkmark in this field is used to exclude pro rata accrual amounts (for annual leave, personal leave, and long service leave) from printing on the pay advice.| 
 |**Pay Advice Email File Path**|This field is used to identify the folder where the Pay Advice will be temporarily stored as a PDF before it is emailed out.|
-|**E-mail Sending Type**|This field is used to identify if pay advice emails will be sent manually or automatically. The options available are:**Manually**, **Automatically**.|
+|**E-mail Sending Type**|This field is used to identify if pay advice emails will be sent manually or automatically. The options available are: **Manually**, **Automatically**.|
 |**E-Mail Application Type**|This field is used to identify which email application will be used to email the pay advices. The options available are: **Microsoft Outlook – this will use the User’s outlook to send the pay advices** and **SMTP – this will use the email server to send the pay advices.**|
    
 6. On the **Options** FastTab, fill the fields as described in the following table.
@@ -113,7 +114,7 @@ The Payroll Setup defines global settings and rules within the payroll.  Many of
 |**Pay Rates Are Hourly**|A checkmark in this field indicates that Pay Rates are entered as hourly rates against the employee Pay Rates card.  If left blank weekly rates of pay are entered.|  
 |**Allow Award Pay Rates**|A checkmark in this field indicates the Award Rates Menu item on the Setup Menu is displayed. | 
 |**Auto Increment Classification**|A checkmark in this field indicates that incrementing of classification rates is performed automatically when the pay period is closed.| 
- |**Term. Empl. On Pay Detail List**|A checkmark in this field indicates that Terminated Employees will appear on the Pay Details Listing report.| 
+|**Term. Empl. On Pay Detail List**|A checkmark in this field indicates that Terminated Employees will appear on the Pay Details Listing report.| 
     
 7. On the **Superannuation** FastTab, fill the fields as described in the following table.
 
@@ -175,7 +176,8 @@ Employees can be granted permissions to inquire on their own pay details.  Acces
 
 Note:  This security is not replicated in the Human Resources granule. 
 
-1. In the **Search** box, enter **Payroll User Setup**, and then choose the related link.  
+1. In the **Search** box, enter **Payroll User Setup**, and then choose the related link.
+
 2. Fill the fields as described in the following table.  
 
 |Field|Description|  
@@ -198,7 +200,8 @@ Note:  This security is not replicated in the Human Resources granule.
 ## To setup Superannuation Funds
 Superannuation Funds are used to define the different type of Superannuation funds available to your employees.. 
 
-1. In the **Search** box, enter **Superannuation Funds**, and then choose the related link.  
+1. In the **Search** box, enter **Superannuation Funds**, and then choose the related link. 
+
 2. On the **General** FastTab, fill the fields as described in the following table. 
 
 |Field|Description|  
@@ -323,6 +326,7 @@ Employee Types are assigned to Employees in the Payroll Employee card (General F
 The above types are automatically created by the Payroll-Initialise Codeunit 16000400.These values are user defined and you can add and maintain them to reflect your own requirements.The Employee types defined the type of payment summary the employee receives at the End of Financial Year. 
 
 1. In the **Search** box, enter **Employee Type**, and then choose the related link.
+
 2. Fill the fields in the following table.
 
 |Field|Description|  
@@ -348,6 +352,7 @@ Branches and Divisions are assigned to Payroll Employee. They are used:
 - In reporting to filter informationIn payroll security to restrict access to employee data. 
 
 1. In the **Search** box, enter **Branches**, and then choose the related link.
+
 2. Fill the fields in the following table.
 
 |Field|Description|  
@@ -364,6 +369,7 @@ Branches and Divisions are assigned to Payroll Employee. They are used:
 ## To setup Branch Divisions
 
 1. On the *Navigate* ribbon, choose the **Divisions** icon. 
+
 2. Fill the fields in the following table.
 
 |Field|Description|  
@@ -379,11 +385,10 @@ Pay Bank State Branches are used by your employees to receive their payment by E
 
 A file containing the Australian banks is delivered with the system.  This file must be imported during setup of the Payroll Granule.
 
-For further information on importing this file refer to: [Import Employee BSB Numbers](au-labour-import-employee-bsb-numbers.md)
-
 You can maintain the bank information and add additional bank details if required.
 
 1. In the **Search** box, enter **Pay Bank State Branches**, and then choose the related link.
+
 2. On the **General** FastTab, fill the fields in the following table.
 
 |Field|Description|  
@@ -408,6 +413,7 @@ Pay Transaction Types are used to calculate pays, superannuation, leave accruals
 Examples of Pay Transaction Types are Normal Time, Overtime, Net Pay, Superannuation, Allowances, Deductions, and Leave Payments.
 
 1. In the **Search** box, enter **Pay Transaction Types**, and then choose the related link.
+
 2. On the **General** FastTab, fill the fields in the following table.
 
 |Field|Description|  
@@ -470,7 +476,7 @@ The “ordinary time earnings” is used with the “Monthly Min. Earnings” fi
 |**Subtract From Permanent Hours**|Tick this field to automatically reduce the Ordinary Hours by the hours entered for this Transaction Type on the pay journal line.  This field is only applicable for Leave type Transactions when the employee is auto-paid.|
 |**Payroll Report Category**|The “Payroll Report Category” field is used to defined where each of the transactions will appear in the Payroll Report.|
 
-5.  On the **Posting** FastTab, fill the fields in the following table. 
+6.  On the **Posting** FastTab, fill the fields in the following table. 
 
 |Field|Description|  
 |---------------------------------|---------------------------------------|  
@@ -482,7 +488,7 @@ The “ordinary time earnings” is used with the “Monthly Min. Earnings” fi
 |**Timesheet Submission Tracking**|A checkmark in this field indicates that this transaction type is applicable to timesheet tracking used in identifying missing timesheets for a contractor.  An example of where you might use this is tracking missing timesheets on Ordinary time.|
 |**Automatic Timesheet Generation**|A checkmark in this field indicates that a timesheet will be generated for this transaction type.|
 
-6. Click on the **OK** button after you have completed your selection OR Click on the **OK & New** button to create a new record.
+7. Click on the **OK** button after you have completed your selection OR Click on the **OK & New** button to create a new record.
   
 ### Pay Transaction Types – Vendors
 
@@ -1111,7 +1117,7 @@ Associated Transactions*
 |**Blocked**|This field is used to block the Award and any of its Classifications for use.|
 |**Comments**|This field is optional and is used to indicate a comment is recorded against this Award. To add or maintain comments click the “Navigation Menu” and then select the Comments icon.|
 
-32. Click on the **OK** button to close this window.
+3. Click on the **OK** button to close this window.
   
  
 [GoToTop](#how-to-setup-payroll)
