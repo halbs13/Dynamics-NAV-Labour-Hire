@@ -32,10 +32,9 @@ This section will discuss the following setup areas within Payroll;
 - [Pay Periods](#to-setup-pay-periods) 
 - [Payroll Tax](#to-setup-payroll-tax) 
 - [Award Overview](#award-overview) 
-- [Award Classifications](#to-setup-award-classification) 
-- [Award Classification & Rates](#to-setup-award-classification-rates) 
-- [Leave Overview](#to-setup-leave-overview) 
-- [Oncosting Overview](#to-setup-oncosting-overview) 
+- [Award Classifications](#to-setup-award-classifications) 
+- [Leave Overview](#leave-overview) 
+- [Oncosting Overview](#oncosting-overview) 
 
 ## To setup Payroll Setup
 The Payroll Setup defines global settings and rules within the payroll.  Many of these are set with defaults when the Payroll is installed and maybe revised and updated after all payroll areas have been configured. 
@@ -1107,8 +1106,7 @@ Associated Transactions*
 |**Position Code**|This field is optional and is used to indicate the Award is only used for a specific Position.  The position is attached to either a Payroll Employee.|
 |**Position Description**|This field is the description of the Position Code selected.|
 |**Customer No.**|The Customer No. field is used to identify that this Award pertains to a particular customer.|
-|**Public Holiday Calendar**|This field is optional and is used to assign a calendar to determine Public Holidays for this Award for the purposes of Award Interpretation.  Alternatively the Calendar can be attached to the Employee’s Branch and the Employee assigned
-to the Branch.|
+|**Public Holiday Calendar**|This field is optional and is used to assign a calendar to determine Public Holidays for this Award for the purposes of Award Interpretation.  Alternatively the Calendar can be attached to the Employee’s Branch and the Employee assigned to the Branch.|
 |**Certification Date**|This field is Mandatory and is used to enter  the date the Award is certified for use.   If this date is left blank you cannot setup the Award Interpretation Criteria Items for this Award as this date is verified when setting up Items.|
 |**Blocked**|This field is used to block the Award and any of its Classifications for use.|
 |**Comments**|This field is optional and is used to indicate a comment is recorded against this Award. To add or maintain comments click the “Navigation Menu” and then select the Comments icon.|
@@ -1125,7 +1123,7 @@ to the Branch.|
 You can set up unlimited Leave Types and Accruals.  Each employee can have more than one Leave Type and Accrual assigned to them. To setup the parameters for Leave you must setup:
 
 - Types
- - Accruals
+- Accruals
 
 After you setup the Types and Accrual rules you must assign them to your employees.  
 
