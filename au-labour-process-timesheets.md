@@ -3,69 +3,52 @@
 
 ## Introduction
 
-Timesheet lines are used to generate invoices and pay contractors/employees for work that
-has been performed on a Job.
+Timesheet lines are used to generate invoices and pay contractors/employees for work that has been performed on a Job.
 
-The Labour Hire Timesheet module is unique where it can be configured so that the timesheet
-lines once processed, can be invoiced prior to paying contractors/employees.  
+The Labour Hire Timesheet module is unique where it can be configured so that the timesheet lines once processed, can be invoiced prior to paying contractors/employees.  
 
-Timesheets can generated on a pay-by-pay basis using the Automatic Timesheet Generation
-process and are only generated where the placement date falls within that particular 
-pay period.  
+Timesheets can generated on a pay-by-pay basis using the Automatic Timesheet Generation process and are only generated where the placement date falls within that particular pay period.  
 
-This document describes the various activities relating to Timesheets and contains the
-following sections;
+This section describes the various activities relating to Timesheets;
 
-Labour Hire Setup – establishing the Timesheet Processing Method
-Generate Timesheets
-Timesheet Entry 
- Order Sheet Entry
-Process Timesheets         
+- [Timesheet Processing Method](#timesheet-processing-method)
+- [Generate Timesheets](#generate-timesheets)
+- [Timesheet Entry](#timesheet-entry) 
+- [Order Sheet Entry](#order-sheet-entry)
+- [Process Timesheets](#process-timesheets)         
 
 
 ## Timesheet Processing Method
 
-The Timesheet processing method allows you todefine when the Timesheet lines are posted
-against a job and ready for invoicing. There are 2 processing methods;
+The Timesheet processing method allows you todefine when the Timesheet lines are posted against a job and ready for invoicing. There are 2 processing methods;
 
-Timesheet – this method transfers the timesheet lines to the Job Planning Lines to allow
-for invoices to be generated.  At the same time it also transfers the timesheet lines to
-the Pay Journal Lines to allow for pays to be processed for contractors/employees. 
-Implementing this method however prevents the timesheet lines in the pay journal lines 
-from being modified.
+- Timesheet – this method transfers the timesheet lines to the Job Planning Lines to allow for invoices to be generated.  At the same time it also transfers the timesheet lines to the Pay Journal Lines to allow for pays to be processed for contractors/employees. 
+Implementing this method however prevents the timesheet lines in the pay journal lines from being modified.
 
-Payroll – the method requires the user to import the timesheets into the Pay Journal. Once
-the pays are calculated and posted, the Job Planning Lines are populated with the lines to
-generate invoices.  Implementing this method allows for the timesheet lines to be modified
+- Payroll – the method requires the user to import the timesheets into the Pay Journal. Once the pays are calculated and posted, the Job Planning Lines are populated with the lines to generate invoices.  Implementing this method allows for the timesheet lines to be modified
  in the pay journal.  
 
 The Timesheet Processing Method is updated via the “Job Contract Posting Method”.
 
-To access this field, go to the following menu:
-
-Departments/Payroll/Setup/Labour Hire/Administration/Labour Hire Setup
+1.  To access this field, go to the following menu: *Departments/Payroll/Setup/Labour Hire/Administration/Labour Hire Setup*
 
 Job Contract Posting Method – Select the required field :
 
-  Timesheets  
+- Timesheets  
 
-  Payroll       
+- Payroll       
   
 
 ## Timesheet Parameters
 
-There are a number of parameters which will define how timesheets are generated, duplicate 
-Timesheets, etc. Timesheet settings are configured on the Labour Hire Setup card.
+There are a number of parameters which will define how timesheets are generated, duplicate Timesheets, etc. Timesheet settings are configured on the Labour Hire Setup card.
 
-To access the Labour Hire Setup, go to the following menu:
+1.  To access the Labour Hire Setup, go to the following menu: *Departments/Payroll/setup/Labour Hire/Administration/Labour Hire Setup*
 
-Departments/Payroll/setup/Labour Hire/Administration/Labour Hire Setup
-
-### “Edit – Labour Hire Setup” window
+2.  On the **Timesheet** FastTab, fill the fields as described in the following table.
 
 |Field Name | Description
 |---------------------------------------------------------------|--------------------------------------------------------------|
-|**TIMESHEET FASTTAB**
 |**Automatic Timesheet Line** | If this field is selected, Timesheet Lines will generate at the time the Pay Period is closed for the last period. Time Sheet Lines are generated based on settings on the Pay Transaction Types and whether the Pay Transaction Type has been setup on the Order Rate Set.|
 |**Timesheet Unit Validation** |This field is used to check the number of units on a Weekly basis. The following generic validation will occur based on values set up in the Rate Frequency table.|
 ||  · If the Actual Units entered is greater than 38 hours or 5 days or 1 week, a warning message will be displayed.|
@@ -77,40 +60,36 @@ Departments/Payroll/setup/Labour Hire/Administration/Labour Hire Setup
 ||  · Placement – this selection is only applicable if there is no integration and you are using Placement Entry to create your records.| 
   |**Dup. Timesheet Check Frequency**|The options available in this field are;|
  || · Daily – this can be used where timesheets are entered or received on a daily basis|
- || · Weekly – this option is used to check if you receive duplicate timesheets based on the Alternate (Week End Date), Rate Type| 
- |**Click “OK” after you have completed your selection.**||
+ || · Weekly – this option is used to check if you receive duplicate timesheets based on the Alternate (Week End Date), Rate Type|
+ 
+ 3.  Click **OK** after you have completed your selection.
+ 
+ [GoToTop](#how-to-process-timesheets)
   
  
 ## Generate Timesheets
 
-### Generate Timesheets
+Timesheets are generated by Payroll so therefore when you select to generate the timesheets you will be prompted to specify the Payroll you wish to generate the timesheets for.
 
-Timesheets are generated by Payroll so therefore when you select to generate the timesheets you will be prompted to
-specify the Payroll you wish to generate the timesheets for.
+1.  To access the Generate Timesheets task, go to the following menu: *Departments/Labour Hire/Timesheets Processing/Generate Timesheets*
 
-To access the Generate Timesheets task, go to the following menu:
+2.  In the Payroll list, Select the required Payroll No. to generate the Timesheets, then click **OK**.
 
-Departments/Labour Hire/Timesheets Processing/Generate Timesheets 
+3.  Once the **Generate Timesheet** window opens, select the pay period you wish to generate the timesheets for and then select **Generate Timesheets Current** icon on the **Home** ribbon.  
 
-In the Payroll list, Select the required Payroll No. to generate the Timesheets, then click “OK”
-One the Generate Timesheet window opens, select the pay period you wish to generate the timesheets for and then select “Generate Timesheets Current” icon on the Home ribbon.  
+[GoToTop](#how-to-process-timesheets)
 
 
 ## Timesheet Entry
 
-To access the Timesheet Entry, go to the
-following menu:
+1.  To access the Timesheet Entry, go to the following menu; *Departments/Labour Hire/Timesheets Processing/Time Sheet Entry*
 
-Departments/Labour Hire/Timesheets Processing/Time Sheet Entry
+2.  The **Labour Hire Timesheet Line** window will enable you to filter on the required fields.
 
-The window that opens is entitled Labour Hire Timesheet Line – this will enable you to filter
-on the required fields.
-
-An example of the Timesheet Entry filters available :
+3.  On the **Labour Hire Time Sheet Line** FastTab, you can apply the following filters.
 
 |**Field Name** | **Description**|
 |-----------------------------------------------------------------------|--------------------------------------------------------------|
-||**LABOUR HIRE TIME SHEET LINE FASTTAB**|
 |**Alternate Date**|Use the Date Filter to select only Timesheets that were due for the period specified.|
 |**Employee No**|This will allow the user to specify what employee Timesheets to display (Only Resource allocations belonging to Jobs the Employee is allocated to will be displayed).|
 |**Sell-to Customer No**|This will allow the user to specify what Customer Timesheets to display ( Only Resource allocations belonging to Jobs of these Customers will be displayed. ) This format will allow the user to specify customer from A to F, or pick a specific customer by name.|
@@ -119,17 +98,16 @@ An example of the Timesheet Entry filters available :
 |**Payroll No**|Users can specify which Payroll No. to select from.|
 |**Units**|Select only those timesheets where Units = 0, which effectively displays those timesheets that have yet to be entered.| 
 |**Other**|Many filters are available in Navision, the user can specify other fields to filter on if they desire.|  
-|**Click “OK” after you have completed your selection.**|
+
+4.  Click **OK** after you have completed your selection.
   
-When the Timesheet Entry screen first opens, timesheets within the defined filter will be
-displayed. If there are previously entered values, these will be displayed otherwise the Units, 
-Pay and Charge fields will be zero.
+When the Timesheet Entry screen first opens, timesheets within the defined filter will be displayed. If there are previously entered values, these will be displayed otherwise the Units, Pay and Charge fields will be zero.
 
 You can customize the Timesheet Entry Pay Header by choosing the Columns you wish to display.  
 
-Select from theavailable columns, then press “Add” this will transfer to the ‘Show columns in this order’. 
+Select from the available columns, then press “Add” this will transfer to the ‘Show columns in this order’. 
 
-Once you have completed your selection, click ‘OK’ to be returned to the main Timesheet Entry Screen.
+Once you have completed your selection, click **OK** to be returned to the main Timesheet Entry Screen.
 
 |**Field Name**|**Description**|
 |------------------------------------------------------------------------------|-------------------------------------------------------|
@@ -150,13 +128,13 @@ Once you have completed your selection, click ‘OK’ to be returned to the mai
 |**Pay Amount**|This will be calculated as Units * the Pay Rate.|
 |**Charge Rate**|Rate at which the Client is charged for this Job.| 
 
+[GoToTop](#how-to-process-timesheets)
+
 ### Entering or Adding Another Timesheet Line
 
-A user can add a new line by positioning the cursor on the Employee ‘No’ and selecting “Copy Employee”
-icon from the Home ribbon.
+A user can add a new line by positioning the cursor on the Employee ‘No’ and selecting **Copy Employee** icon from the **Home** ribbon.
 
-Depending on the sorting sequence of the Time Sheet Entry table, the new line will appear at the bottom
-of the screen.
+Depending on the sorting sequence of the Time Sheet Entry table, the new line will appear at the bottom of the screen.
 
 ### Customer Specific Fields
 
@@ -178,23 +156,19 @@ are mandatory during data entry.
 
 Purchase Order Budgets is designed to allow you to manage Purchase Orders for a client. 
 
-The Purchase Order Budgets icon is available for selection on the Navigate ribbon in Time Sheet Entry.
-
-To access the Labour Hire Setup task, go to the following menu:
-
 The Purchase Order Budgets screen shows Purchase Order Number, Purchase Order Date, Customer Number and Name the
 purchase order belongs to, Total Value of Purchase Order and remaining value left on the purchase order.
 
 If there is a purchase order set up for this customer then entry into this screen will be mandatory. 
-If this contractor/employee has been assigned to a purchase order that has enough dollars left to cover the
-charge amount of this transaction, then the screen will not be launched, otherwise if the value of this 
-transaction exceeds the value of the purchase order then a warning message will appear.
 
-### “Edit – Budget Pop Up Box” window
+If this contractor/employee has been assigned to a purchase order that has enough dollars left to cover the charge amount of this transaction, then the screen will not be launched, otherwise if the value of this transaction exceeds the value of the purchase order then a warning message will appear.
+
+1.  The **Purchase Order Budgets** icon is available for selection on the **Navigate** ribbon in Time Sheet Entry.
+
+2.  On the **Purchase Order Budget** FastTab, the following fields are avaialble.
 
 |**Field Name**|**Description**|
 |---------------------------------------------------------------------------|----------------------------------------------------------|
-||**PURCHASE ORDER BUDGET FASTTAB**|
 |**Employee Name**|This field will display the Employee’s Name.|
 |**Purchase Order Budget No.**|This field will display the Purchase Order Budget No.|
 |**Start Date**|This field will display the Start Date of the Purchase Order Budget.|
@@ -207,14 +181,14 @@ transaction exceeds the value of the purchase order then a warning message will 
 ### Show Missing Timesheets
 The Show Missing Timesheets function is designed to allow you to manage missing timesheets for the Payroll. 
 
-### “Edit – Missing Timesheets” window
-   
+1.  The **Show Missing Timesheets** icon is available for selection on the **Navigate** ribbon in Time Sheet Entry.
+
+2.  On the **Details** FastTab, the following fields are available.
+
 |**Field Name**|**Description**|
 |-----------------------------------------------------------|-----------------------------------------------------------------|
-||**DETAILS FASTTAB**|
 |**E-Mail Message**|This field is used to identify a template message for Timesheet reminders can be issued.|
-|**Select**|You can nominate individual lines so that Timesheet reminders can be issued.| 
-||There are “Select All” and “Deselect All” icons available on the Home ribbon to assist you in selecting the records.|
+|**Select**|You can nominate individual lines so that Timesheet reminders can be issued. There are “Select All” and “Deselect All” icons available on the Home ribbon to assist you in selecting the records.|
 |**Employee No.**|This field is the Employee’s No.|
 |**Employee Name**|This field is the Employee’s Name|
 |**Placement No.**|This field is the Placement No.| 
@@ -223,7 +197,8 @@ The Show Missing Timesheets function is designed to allow you to manage missing 
 |**Phone No.**|This field is the Employee’s Phone No. in case they haven’t provided an E-Mail address.|
 |**Timesheet Expected**|This field will be selected if there is a Timesheet Expected.|
 |**Timesheet Submitted**|This field will default to “No” until such time that the Timesheet has been submitted.|
-|**Click “OK” after you have completed your selection.**|
+
+3.  Click **OK** after you have completed your selection.
   
 ### Totals Summary Report
 
@@ -231,14 +206,15 @@ The Total Summary Report will provide you with a summary of the hours which have
 available on the Actions ribbon of the Time Sheet Entry page.  
 
 There are a number of different filters that can be applied to produce a report with filtered information. 
-An explanation of the filters shown in the screenshot is provided below.  To produce a report with unfiltered
-information, it is recommended that the fields on the FastTabs are left blank.  
 
-### “Edit – Totals – Time Sheet Line Summ.” window
+An explanation of the filters shown in the screenshot is provided below.  To produce a report with unfiltered information, it is recommended that the fields on the FastTabs are left blank.  
+
+1.  The **Totals Summary** icon is available for selection on the **Navigate** ribbon in Time Sheet Entry.
+
+2.  On the **Pay Transaction Type** FastTab, the following fields are available.
 
 |**Field Name**|**Description**|
 |----------------------------|------------------------------------------------------|
-|**PAY TRANSACTION TYPE FASTTAB**|
 |**Accumulation Type**|This field is used to filter the report information by Accumulation Type.|
 |**LABOUR HIRE TIME SHEET LINE FASTTAB**|
 |**Employee No.**|This field is used to filter the report information by Employee No.|
@@ -249,14 +225,16 @@ The Timesheet Report is used to verify the Pay and Charge Rates for each of the 
 Actions ribbon of the Time Sheet Entry page.
 
 There are a number of different filters that can be applied to produce a report with filtered information. 
-An explanation of the filters shown in the screenshot is provided below. To produce a report with
-unfiltered information, it is recommended that the fields on the FastTabs are left blank.  
 
-### “Edit – Totals – Time Sheet Line Summ.” window
-   
+An explanation of the filters shown in the screenshot is provided below. To produce a report with unfiltered information, it is recommended that the fields on the FastTabs are left blank.  
+
+1.  The **Timesheet Report** icon is available for selection on the **Navigate** ribbon in Time Sheet Entry.
+
+2.  On the **Labour Hire Time Sheet Line** FastTab, the following fields are avaialble.
+
+ 
 |**Field Name**|**Description**|
 |---------------------------------------------------------------------|----------------------------------------------------------------|
-|**LABOUR HIRE TIME SHEET LINE FASTTAB**|
 |**Employee No.**|This field is used to filter the report information by Employee No.|
   
 ### Process Timesheets
@@ -266,19 +244,15 @@ Once timesheets have been entered and verified, the next step is to process the 
 The “Process Timesheets” function is used when the Timesheet Processing Method is set to “Timesheets” as described in section 2
 - Timesheet Processing Method of this document.
 
-To access Process Timesheets, go to the following menu:
+1.  To access Process Timesheets, go to the following menu: *Departments/Labour Hire/Timesheets Processing/Process Timesheets*
 
-Departments/Labour Hire/Timesheets Processing/Process Timesheets
+There are a number of different filters that can be applied to process the timesheets.  An explanation of the filters shown in the screenshot is provided below.  To process all timesheet information, it is recommended that the fields on the FastTabs are left blank. 
 
-There are a number of different filters that can be applied to process the timesheets.  An
-explanation of the filters shown in the screenshot is provided below.  To process all timesheet information, it is
-recommended that the fields on the FastTabs are left blank.  
+2.  On the **Labour Hire Time Sheet Line** FastTab, the following fields are avaialble.
 
-### “Edit – Process Timesheets” window
-   
+ 
 |**Field Name**|**Description**|
 |-----------------------------------------------------------------------------|---------------------------------------------------------|
-||**LABOUR HIRE TIME SHEET LINE FASTTAB**|
 |**Employee No.**|This field is used to filter processed timesheets by Employee No.|
 |**Job No.**|This field is used to filter processed timesheets by Job No.|
 |**Department Code (Global Dimension 1)**|This field is used to filter processed timesheets by Dimension 1.|
@@ -288,21 +262,20 @@ recommended that the fields on the FastTabs are left blank. 
 |**Placement No.**|This field is used to filter processed timesheets by Placement No.|
 |**Sell-to Customer No.**|This field is used to filter processed timesheets by Sell-to Customer No.|
 |**Alternate Date**|This field is used to filter processed timesheets by Alternate Date.|
-|**Click “OK” when you have completed your selection to process timesheet lines.**|
-  
-This process sends the timesheet transaction to both the Jobs module and the Payroll module. The Job Ledger
-Entry records now await processing into Invoices and the Pay Journal Lines now await processing as payments to contractors.
 
+3.  Click **OK** when you have completed your selection to process timesheet lines.
+  
+This process sends the timesheet transaction to both the Jobs module and the Payroll module. The Job Planning Line records now await processing into Invoices and the Pay Journal Lines now await processing as payments to contractors.
+
+[GoToTop](#how-to-process-timesheets)
      
 ## Order Sheet Entry
 
 Order Sheet Entry allows you to enter timesheets in by Job No.  Users will manually enter the timesheets in by Job No.
 
-To access the Order Sheet Entry, go to the following menu:
+1.  To access the Order Sheet Entry, go to the following menu: *Departments/Labour Hire/Timesheets Processing/Order Sheet Entry*
 
-Departments/Labour Hire/Timesheets Processing/Order Sheet Entry
-
-### “Edit – Time Sheet Order” window
+2.  The following fields are avaialble.
 
 |**Field Name**|**Description**|
 |---------------------------------------------------------------|----------------------------------------------------------------|   
@@ -321,7 +294,8 @@ Departments/Labour Hire/Timesheets Processing/Order Sheet Entry
 |**Alternate Date**|If the Timesheet relates to a prior period, you can enter in the Alternate Date/Week Ending Date specific to the timesheet.|
 |**Transaction Type Code**|Enter in the Transaction Type code for the Rate Type.|
 |**Units**|Enter in the no. of Units for the transactional line.|
-||**Click “OK” after you have completed your selection.**|
+
+3.  Click **OK** after you have completed your selection.
   
 ### Pro-Forma Timesheet Report
 
@@ -329,14 +303,16 @@ The Pro-Forma Timesheet Report will provide you with a summary of the hours whic
 is available on the Actions ribbon of the Time Sheet Entry page.  
 
 There are a number of different filters that can be applied to produce a report with filtered information. 
-An explanation of the filters shown in the screenshot is provided below.  To produce a report with
-unfiltered information, it is recommended that the fields on the FastTabs are left blank.  
 
-## “Edit – Pro-Forma Time Sheet” window
+An explanation of the filters shown in the screenshot is provided below.  To produce a report with unfiltered information, it is recommended that the fields on the FastTabs are left blank.  
+
+1.  The **Pro-Forma Timesheet Report** icon is available for selection on the **Navigate** ribbon in Time Sheet Entry.
+
+2.  On the **Labour Hire Time Sheet Line** FastTab, the following fields are avaialble.
+
    
 |**Field Name**|**Description**|
 |-----------------------------------------------------|--------------------------------------------------------------------------|
-||**LABOUR HIRE TIME SHEET LINE FASTTAB**|
 |**Job No.**|This field is used to filter the report information by Job No.|
 |**Employee No.**|This field is used to filter the report information by Employee No.|
  
