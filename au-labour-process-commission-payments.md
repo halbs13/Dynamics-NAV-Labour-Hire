@@ -163,7 +163,6 @@ Commission Payable                               
 |**Total Perm Placement Fees**|Total amount of Permanent Placement fees for the period with the Account Manager’s Commission percentages applied.|
 |**Total Permanent Commission Value**|Total of Perm Placement amounts.|
 |**Total Commission Payable**|Total of Permanent and Contracting Commission totals.|
-|**When you have completed your selection, you can either click “Print” to send the report to a printer or “Preview” to view the report to the screen.**||
 
 
 [GoToTop](#how-to-setup-commissions)
