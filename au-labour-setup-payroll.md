@@ -31,9 +31,9 @@ This section will discuss the following setup areas within Payroll;
 - [Payrolls](#to-setup-payroll) 
 - [Pay Periods](#to-setup-pay-periods) 
 - [Payroll Tax](#to-setup-payroll-tax) 
-- [Award Overview](#to-setup-award-overview) 
+- [Award Overview](#award-overview) 
 - [Award Classifications](#to-setup-award-classification) 
-- [Award Classification & Rates](#to-setup-award-classification-&-rates) 
+- [Award Classification & Rates](#to-setup-award-classification-rates) 
 - [Leave Overview](#to-setup-leave-overview) 
 - [Oncosting Overview](#to-setup-oncosting-overview) 
 
@@ -977,301 +977,71 @@ The 2 options available to close a pay period are:
 ## To setup Payroll Tax
 
 A Payroll Tax Card must be setup for each State that you process payrolls for employees.  The Payroll Tax Calculation report will
-provide you with the ability to calculate your payroll tax liability based on
-the Branch and Division assigned to your employees/contractors.
+provide you with the ability to calculate your payroll tax liability based on the Branch and Division assigned to your employees/contractors.
 
-To setup
-Payroll Tax:
+To setup Payroll Tax:
 
-Setup the
-Payroll Code Setup - Payroll Tax and Payroll Tax Group: Defines the state Set up Branch:
-Attaches the Payroll Tax State to the BranchAssign the
-Branch to the Payroll Employee - Attaches the Branch associated to the Payroll
-Tax State to the employeeSetup Payroll
-Tax Rates - Defines the Rates and Thresholds for each state and effective datesFlag Payroll
-Transaction Types on the Parameter tab - Defines the transactions attracting
-Payroll TaxTo access the Payroll Tax setup, go to the
-following menu:
+- Setup the Payroll Code Setup - Payroll Tax and Payroll Tax Group: 
+- Defines the state Set up Branch: Attaches the Payroll Tax State to the Branch
+- Assign the Branch to the Payroll Employee - Attaches the Branch associated to the Payroll Tax State to the employee
+- Setup Payroll Tax Rates - Defines the Rates and Thresholds for each state and effective dates
+- Flag Payroll Transaction Types on the Parameter tab - Defines the transactions attracting Payroll Tax
 
+1.  To access the Payroll Tax setup, go to the following menu: *Departments/Payroll/Setup/Payroll Setup/ Tax/Payroll Tax*
 
-Departments/Payroll/Setup/Payroll Setup/ Tax/Payroll Tax
+2.  To create a new record, click on the **New** button.
+  
+|Field|Description|  
+|---------------------------------|---------------------------------------|  
+|**Date Applicable**|This is the date which the Payroll Tax rate is effective.|
+|**Code**|The “Code” is used to uniquely identify the Payroll Tax.  The codes were previously defined in the section “Payroll Tax”.|
+|**Description**|The “Description” is used to name the Payroll Tax.|
 
+3.  Click on the “Actions/Edit” if you wish to edit this Payroll Tax card OR Click on the “OK” button to close this window.
 
+4.  On the **General** FastTab, fill the fields as described in the following table.
 
-2.17.1 
-“Edit – Payroll Tax List” window
+|Field|Description|  
+|---------------------------------|---------------------------------------|  
+|**Date Applicable**|This is the date which the Payroll Tax rate is effective.|
+|**Code**|The “Code” is used to uniquely identify the Payroll Tax.  The codes were previously defined in the section “Payroll Tax”.|
+|**Description**|The “Description” is used to name the Payroll Tax.|  
+|**Monthly FBT Estimation**|Enter the amount of the monthly FBT estimation.  This field can be left blank if your organisation is not required to estimate their FBT obligations.  This field is used in the calculation of Payroll Tax.|
 
- Field Name
-   
-   
-   Description
-   
-  
- 
- 
-  
-  To create a new record, click on the “New” button.
-  
- 
- 
-  
-  Date Applicable
-  
-  
-  This is the date which the Payroll Tax rate is
-  effective.  
-  
- 
- 
-  
-  Code
-  
-  
-  The “Code” is used to uniquely identify the
-  Payroll Tax.  The codes were previously
-  defined in the section “Payroll Tax”.
-  
- 
- 
-  
-  Description 
-  
-  
-  The “Description” is used to name the Payroll
-  Tax.
-  
- 
- 
-  
-  Click on the “Actions/Edit”
-  if you wish to edit this Payroll Tax card 
-  OR
-  Click on the “OK”
-  button to close this window.
-  
- 
+5.  On the **Payroll Tax Subform** FastTab, fill the fields as described in the following table.
 
+|Field|Description|  
+|---------------------------------|---------------------------------------|  
+|**Yearly Threshold**|The “Yearly Threshold” is used for reconciling payroll tax paid.|
+|**Monthly Threshold**|The “Monthly Threshold” is used for calculating the monthly payroll tax to pay.|
+|**Rate**|The “Rate” is the tax rate at which to calculate the levy.|
+|**Rate – Maximum**|The “Rate - Maximum” is the maximum tax rate at which to calculate the levy.|
+|**Exceeds Threshold Divisor**|The Divisor should be set to 3.|
 
- 
+6.  On the **VIC Information** FastTab, fill the fields as described in the following table.
 
-2.17.2 
-“Edit – Payroll Tax Card” window
+|Field|Description|  
+|---------------------------------|---------------------------------------|  
+|**State Annual Estimate**|Enter the Victorian State Annual Estimate if applicable.|
+|**Australia Wide Annual Estimate**|Enter the Australia Wide Annual Estimate.|
+|**Part Year Start**|Enter the date that the Part Year Start began.|
+|**Part Year Start**|Enter in the date that the Part Year End will cease.|
 
- 
+7.  On the **ACT Information** FastTab, fill the fields as described in the following table.
 
+|Field|Description|  
+|---------------------------------|---------------------------------------|  
+|**ACT Calculation Method**|Select the Calculation Method Option 1. Not Claiming the ACT Threshold: The system calculates ACT payroll tax at a flat rate of 6.85% of the total ACT wages. Option 2. Claiming the ACT Threshold: The System calculates the portion of the tax free threshold.|
 
+8.  On the **Adjustments** FastTab, fill the fields as described in the following table.
 
- 
+|Field|Description|  
+|---------------------------------|---------------------------------------|  
+|**Estimated Tax Rate**|If an “Estimated Tax Rate” is required, enter the amount in this field.  This field may be left zero.|
+|**Estimated Deduction**|Enter an “Estimated Deduction” amount if a deduction is incorporated into the calculation of Payroll Tax. This field may be left zero.|
+|**Monthly Adjustment**|Enter a “Monthly Adjustment” amount if this is incorporated into the calculation of Payroll Tax.  This field may be left zero.|
 
-
- 
-  
-   
-   Field Name
-   
-   
-   Description
-   
-  
- 
- 
-  
-  GENERAL FASTTAB 
-  
- 
- 
-  
-  Date Applicable
-  
-  
-  Enter the date from which the Payroll Tax rate
-  is effective.
-  
- 
- 
-  
-  Code
-  
-  
-  The “Code” is used to uniquely identify the
-  Payroll Tax. The codes were previously defined in the section “ Payroll Tax”
-  
- 
- 
-  
-  Description
-  
-  
-  The “Description” is used to name the Payroll
-  Tax.
-  
- 
- 
-  
-  Monthly FBT Estimation
-  
-  
-  Enter the amount of the monthly FBT
-  estimation.  This field can be left
-  blank if your organisation is not required to estimate their FBT
-  obligations.  This field is used in the
-  calculation of Payroll Tax.
-  
- 
- 
-  
-  PAYROLL TAX SUBFORM FASTTAB – Each state has
-  its own thresholds and rate.  For
-  comparison with the thresholds a company’s total payroll is calculated
-  Australia wide.  The thresholds are a
-  tax free level.  Payroll tax is only
-  paid on the value over the threshold.
-  The Payroll Tax code entered on the Payroll
-  card determines the payroll tax that applies to employees on that
-  payroll.  You can override the Branch
-  on the Payroll Employee card.  A
-  separate Payroll can be setup for each state. 
-  
- 
- 
-  
-  Yearly Threshold
-  
-  
-  The “Yearly Threshold” is used for reconciling
-  payroll tax paid.
-  
- 
- 
-  
-  Monthly Threshold
-  
-  
-  The “Monthly Threshold” is used for calculating
-  the monthly payroll tax to pay.
-  
- 
- 
-  
-  Rate
-  
-  
-  The “Rate” is the tax rate at which to
-  calculate the levy.
-  
- 
- 
-  
-  Rate – Maximum
-  
-  
-  The “Rate - Maximum” is the maximum tax rate at
-  which to calculate the levy.
-  
- 
- 
-  
-  Exceeds Threshold Divisor
-  
-  
-  The Divisor should be set to 3
-  
- 
- 
-  
-  VIC INFORMATION FASTTAB
-  
- 
- 
-  
-  State Annual Estimate
-  
-  
-  Enter the Victorian State Annual Estimate if
-  applicable.
-  
- 
- 
-  
-  Australia Wide Annual Estimate
-  
-  
-  Enter the Australia Wide Annual Estimate.
-  
- 
- 
-  
-  Part Year Start
-  
-  
-  Enter the date that the Part Year Start began.
-  
- 
- 
-  
-  Part Year Start
-  
-  
-  Enter in the date that the Part Year End will cease.
-  
- 
- 
-  
-  ACT INFORMATION FASTTAB 
-  
- 
- 
-  
-  ACT Calculation Method
-  
-  
-  Select the Calculation Method 
-  Option 1. Not Claiming the ACT Threshold: The
-  system calculates ACT payroll tax at a flat rate of 6.85% of the total ACT
-  wages.
-  Option 2. Claiming the ACT Threshold: The
-  System calculates the portion of the tax free threshold
-  
- 
- 
-  
-  ADJUSTMENTS FASTTAB – Adjustments are sought
-  and approved by the Payroll Tax office for the state you are calculating.
-  
- 
- 
-  
-  Estimated Tax Rate
-  
-  
-  If an “Estimated Tax Rate” is required, enter
-  the amount in this field.  This field
-  may be left zero.
-  
- 
- 
-  
-  Estimated Deduction
-  
-  
-  Enter an “Estimated Deduction” amount if a
-  deduction is incorporated into the calculation of Payroll Tax. This field may
-  be left zero.
-  
- 
- 
-  
-  Monthly Adjustment
-  
-  
-  Enter a “Monthly Adjustment” amount if this is
-  incorporated into the calculation of Payroll Tax.  This field may be left zero.
-  
- 
- 
-  
-  Click on the “CLOSE”
-  button to close this window.
+9.  Click on the **CLOSE** button to close this window.
   
  
 [GoToTop](#how-to-setup-payroll)
@@ -1283,3181 +1053,412 @@ Departments/Payroll/Setup/Payroll Setup/ Tax/Payroll Tax
 
 An Award is set up by:
 
- 
+- Defining the Award 
+- Creating one or more Award Classifications 
+- Creating Classification Rates for each Award Classification. 
+- (Optional) At least one Award and Classification must be setup for each company to process the payrolls.  
 
-Defining the
-Award Creating one or more
-Award Classifications Creating Classification
-Rates for each Award Classification. (Optional) At least one Award and Classification must be setup for each
-company to process the payrolls.  The default Award is automatically created by the
-Initialisation Codeunit when payroll is implemented and is called “GENERAL” for
-both the Award and Classification: 
+The default Award is automatically created by the Initialisation Codeunit when payroll is implemented and is called “GENERAL” for both the Award and Classification: 
 
+All employees Pay Rates are associated with the default Award until you create your own Awards and assign them to Employees. Setting up additional Awards and Classifications is optional. Awards are broken down into Classifications (Grades) that may apply for a specific period of service until they increment to a higher classification.  
 
- All
-     employees Pay Rates are associated with the default Award until you create
-     your own Awards and assign them to Employees. 
- Setting
-     up additional Awards and Classifications is optional.
- Awards
-     are broken down into Classifications (Grades) that may apply for a
-     specific period of service until they increment to a higher
-     classification.  
- Classifications
-     may have Pay Rates that apply from a specified date.
- Each
-     Classification can have the “Number of Months of Service” for which the
-     Classification is applicable, and a “Next Classification” that applies on
-     completion of the Number of Months.  When the specified “Number of
-     Months of Service” is complete, an Employee is automatically incremented
-     to the “Next Classification”.
- Each
-     Classification can have an effective date specified for each Pay Rate that
-     you can set to increment and apply to the Employee’s in the Classification
- Awards
-     have a Weekly Rate and may have an Over Award Rate applied to Payroll
-     Employees.
- A
-     second Over Award Rate added in addition to the Over Award Rate may be
-     applied to individual Employees. 
- Classifications
-     may have Additional Allowances generated for each Employee in a
-     Classification.  These allowances are granted each Pay-run for those
-     Employees.
+Classifications may have Pay Rates that apply from a specified date. Each Classification can have the “Number of Months of Service” for which the Classification is applicable, and a “Next Classification” that applies on completion of the Number of Months.  When the specified “Number of Months of Service” is complete, an Employee is automatically incremented to the “Next Classification”.  
 
+Each Classification can have an effective date specified for each Pay Rate that you can set to increment and apply to the Employee’s in the Classification Awards have a Weekly Rate and may have an Over Award Rate applied to Payroll Employees.
 
- 
+A second Over Award Rate added in addition to the Over Award Rate may be applied to individual Employees. Classifications may have additional Allowances generated for each Employee in a Classification.  These allowances are granted each Pay-run for those Employees.
 
-Each Employee must be allocated to a Classification in order
-to obtain a rate of Pay.  
+Each Employee must be allocated to a Classification in order to obtain a rate of Pay.  
 
- 
+The date of Employment is used to determine the date from which to calculate the Employee length of service.
 
-The date of Employment is used to determine the date from
-which to calculate the Employee length of service.
+When the Payroll is processed and the rate is not set up in the Pay Transaction Type the following applies: 
 
- 
+The Classification of the Employee or the Classification entered against the Employee Hours in the pay journal is used to determine the Pay rate to assign to the Pay transaction.
 
-When the Payroll is processed and the rate is not set up in
-the Pay Transaction Type the following applies: 
+Awards may have Associated Transactions. When a pay is run the Associated Transactions are generated for each Employee covered by the
+Award.  These affect each Pay-run for Employees that falls within the date range of the Award Associated Transactions.  When the date fields are left blank no date limitation apply.
 
- 
-
-
- The
-     Classification of the Employee or the Classification entered against the
-     Employee Hours in the pay journal is used to determine the Pay rate to
-     assign to the Pay transaction.
-
-
-Awards may have Associated Transactions. When a pay is run
-the Associated Transactions are generated for each Employee covered by the
-Award.  These affect each Pay-run for Employees that falls within the date
-range of the Award Associated Transactions.  When the date fields are left
-blank no date limitation apply
-
- 
-
-When an award has standard allowances (e.g. for uniforms)
-applicable to all persons on the payroll that are under that award, these can
+When an award has standard allowances (e.g. for uniforms) applicable to all persons on the payroll that are under that award, these can
 be set up by creating Gross / Allowances for that Award.
 
- 
-
-On the Payroll Employee Card a second Over Award Rate can be
-added in addition to the Over Award Rate.
+On the Payroll Employee Card a second Over Award Rate can be added in addition to the Over Award Rate.
 
 [GoToTop](#how-to-setup-payroll)
  
 
-3.1   
-Award Classifications
+## To setup Award Classifications
 
- 
+The Award and Classifications menu options are only displayed after you flag the “Allow Award Pay Rates” check box in the “Payroll > Setup> Payroll Setup> Payroll Controls > Payroll Setup > Options FastTab”.
 
-The Award and Classifications menu options are only
-displayed after you flag the “Allow Award Pay Rates” check box in the “Payroll > Setup> Payroll Setup>
-Payroll Controls > Payroll Setup > Options tab”.
+The Awards card is used to maintain Awards and to link the Award to Gross, Allowances, Associated Transactions, and Classifications. (For example shift allowances that apply to hours worked on a specific shift or to associate Leave Loading with Annual Leave.
 
- 
+1.  To access the Award setup, go to the following menu: *Departments/Payroll/Setup/Payroll Setup/Award/Awards &
+Associated Transactions*
 
-The Awards card is used to maintain Awards and to link the
-Award to Gross, Allowances, Associated Transactions, and Classifications. (For
-example shift allowances that apply to hours worked on a specific shift or to
-associate Leave Loading with Annual Leave.
+2.  To create a new record, click on the **New** button.
 
-To access the Award setup, go to the following
-menu:
+|Field|Description|  
+|---------------------------------|---------------------------------------|  
+|**Code**|This field is used to uniquely identify this Award.|
+|**Description**|This field is used to name this Award.|
+|**Gross/Allowances**|This field is automatically populated with a checkmark after transaction has been set up for this award.  The value cannot be changed here. To view the transactions set up for the award, select the **ArrowDown**.|
+|**Associated Transactions**|This field is automatically ticked after an Associated Transaction is set up for this award.  The value cannot be changed here. To view the transactions set up for the award, select the **ArrowDown**.|
+|**Position Code**|This field is optional and is used to indicate the Award is only used for a specific Position.  The position is attached to either a Payroll Employee.|
+|**Position Description**|This field is the description of the Position Code selected.|
+|**Customer No.**|The Customer No. field is used to identify that this Award pertains to a particular customer.|
+|**Public Holiday Calendar**|This field is optional and is used to assign a calendar to determine Public Holidays for this Award for the purposes of Award Interpretation.  Alternatively the Calendar can be attached to the Employee’s Branch and the Employee assigned
+to the Branch.|
+|**Certification Date**|This field is Mandatory and is used to enter  the date the Award is certified for use.   If this date is left blank you cannot setup the Award Interpretation Criteria Items for this Award as this date is verified when setting up Items.|
+|**Blocked**|This field is used to block the Award and any of its Classifications for use.|
+|**Comments**|This field is optional and is used to indicate a comment is recorded against this Award. To add or maintain comments click the “Navigation Menu” and then select the Comments icon.|
 
-Departments/Payroll/Setup/Payroll Setup/Award/Awards &
-Associated Transactions
-
-
-
- 
-
-3.1.1    
-“Edit – Awards” window
-
- 
-
-
- 
-  
-   
-   Field Name
-   
-   
-   Description
-   
-  
- 
- 
-  
-  To create a new record, click on the “New” button.
-  
- 
- 
-  
-  Code
-  
-  
-  This field is used to uniquely identify this
-  Award.
-  
- 
- 
-  
-  Description
-  
-  
-  This field is used to name this Award.
-  
- 
- 
-  
-  Gross/Allowances
-  
-  
-  This field is automatically populated with a checkmark
-  after transaction has been set up for this award.  The value cannot be
-  changed here.
-  To view the
-  transactions set up for the award, select the “ArrowDown”.
-  
- 
- 
-  
-  Associated Transactions
-  
-  
-  This field is automatically ticked after an Associated
-  Transaction is set up for this award.  The value cannot be changed here.
-  To view the
-  transactions set up for the award, select the “ArrowDown”.
-  
- 
- 
-  
-  Position Code
-  
-  
-  This field is optional and is used to indicate
-  the Award is only used for a specific Position.  The position is attached to either a
-  Payroll Employee.
-  
- 
- 
-  
-  Position Description
-  
-  
-  This field is the description of the Position
-  Code selected.
-  
- 
- 
-  
-  Customer No.
-  
-  
-  The Customer No. field is used to identify that
-  this Award pertains to a particular customer.
-  
- 
- 
-  
-  Public Holiday Calendar
-  
-  
-  This field is optional and is used to assign a
-  calendar to determine Public Holidays for this Award for the purposes of
-  Award Interpretation.  Alternatively
-  the Calendar can be attached to the Employee’s Branch and the Employee assigned
-  to the Branch.
-  
- 
- 
-  
-  Certification Date
-  
-  
-  This field is Mandatory and is used to enter
-  the date the Award is certified for use. 
-  If this date is left blank you cannot setup the Award Interpretation
-  Criteria Items for this Award as this date is verified when setting up Items.
-  
- 
- 
-  
-  Blocked
-  
-  
-  This field is used to block the Award and any
-  of its Classifications for use.
-  
- 
- 
-  
-  Comments
-  
-  
-  This field is optional and is used to indicate
-  a comment is recorded against this Award. 
-  To add or maintain comments click the “Navigation Menu” and then
-  select the Comments icon.   
-  
- 
- 
-  
-  Click on the “OK”
-  button to close this window.
+32. Click on the **OK** button to close this window.
   
  
 [GoToTop](#how-to-setup-payroll)
 
 
- 
 
-3.1.2    
-Edit – Awards – Navigate Menu
+# Leave Overview
 
- 
+You can set up unlimited Leave Types and Accruals.  Each employee can have more than one Leave Type and Accrual assigned to them. To setup the parameters for Leave you must setup:
 
-Gross Allowances
-– opens the “Award Gross/Allowances”
-window.  You can link this Award Code to
-a specific Pay Transaction Type(s) to create Award Gross/Allowance
-records.  When an award has allowances
-(e.g. uniform allowance) applicable to all employees under this award you can
-set up the Allowance under the Award so that it generates automatically each
-pay run.
+- Types
+ - Accruals
+
+After you setup the Types and Accrual rules you must assign them to your employees.  
+
+Default Leave Codes and Types can be setup to default for each Payroll for Annual Leave, Leave Loading, Sick Leave, and Long Service
+Leave.  The defaults are used for each Payroll Employee assigned to the Payroll. You can change and delete the defaults for the individual employees prior to their first pay on the Payroll Employee Card > Navigate Ribbon >Leave> Accruals if you require.
 
  
-
-Associated
-Transactions – opens the “Award
-Associated Transactions” window.  You
-can associate this Award Code to specific Pay Transaction Type(s) to create
-Award Associated Transaction records.
-
- 
-
-Classifications –
-opens the “Award Classification List”
-window.  The Award Code has a one to many
-classification links to create Award Classification records.
-
- 
-
-Pay Item Criteria
-– opens the “Pay Item Criteria”
-window.  The Pay Item Criteria records
-that have been setup to interpret the hours into Pay Transaction Types for the
-Award or the Award Classification are listed. 
-This will be discussed in the Award Interpretation Processing Document.
-
- 
-
-Allow Item Criteria
-– opens the “Allowance Item Criteria”
-window.  The Allowance Item Criteria
-records that have been setup to interpret the hours into Pay Transaction Types
-for the Award or the Award Classification are listed.  This will be discussed in the Award
-Interpretation Processing Document.
-
- 
-
-Click on the “Gross
-Allowances” icon.
-
- 
-
- 
-
-
-
- 
-
-3.1.3    
-Edit – “Award Gross/Allowances” window
-
- 
-
-
- 
-  
-   
-   Field Name
-   
-   
-   Description
-   
-  
- 
- 
-  
-  To create a new record, click on the “New” button.
-  
- 
- 
-  
-  Transaction Type Code
-  
-  
-  This field is used
-  to select the Pay Transaction Type Code for the Gross and Allowance record.
-  Select a “Transaction Type Code” from the “ArrowDown”.
-   
-  You can only select Transaction Types with an “Accumulation Summary Type” of
-  Gross.
-  
- 
- 
-  
-  Shift Code
-  
-  
-  This field is used
-  to filter the allowance to a specific shift worked by the employees under
-  this award.
-  
-  Select a “Shift Code” from the “ArrowDown”.  
-   
-  You can setup several Allowance line for each shift
-  your employees use.
-  
- 
- 
-  
-  Start Date
-  
-  
-  This field determines the effective date from
-  which this transaction is used.  An
-  “End Date” must be entered when a “Start Date” is entered.
-  
- 
- 
-  
-  End Date
-  
-  
-  This field determines the date this transaction
-  is no longer used.  An “End Date” must
-  be entered when a “Start Date” is entered.
-  
- 
- 
-  
-  Description
-  
-  
-  This field is used to display the description
-  of the selected “Transaction Type”.
-  
- 
- 
-  
-  Use Full Week Hours
-  
-  
-  Tick this field to use the employees default
-  hours from the Employee Pay Card Rate Tab
-  
- 
- 
-  
-  Units
-  
-  
-  This field indicates the number of units paid
-  by this transaction.
-  
- 
- 
-  
-  Fixed Value
-  
-  
-  This field determines the dollar value paid by
-  this transaction.
-  
- 
- 
-  
-  Classification
-  
-  
-  This field is used to select the classification
-  
- 
- 
-  
-  Apportion Cost
-  
-  
-  Tick this field to apportion the allowance to
-  jobs entered into the pay journal for the employee.
-  
- 
- 
-  
-  Not Used
-  
-  
-  Tick this box to temporarily stop this
-  transaction line from generating for the current pay period only.  To effectively end transactions you should
-  use the Start and End date fields.
-  
- 
- 
-  
-  Click on the “OK”
-  button to close this window.
-  
- 
-[GoToTop](#how-to-setup-payroll)
-
-
- 
-
-Click on the “Associated
-Transactions” icon.
-
- 
-
-
-
- 
-
-3.1.4    
-Edit – “Award Associated Transactions” window
-
- 
-
-
- 
-  
-   
-   Field Name
-   
-   
-   Description
-   
-  
- 
- 
-  
-  To create a new record, click on the “New” button.
-  
- 
- 
-  
-  Originating Tran. Type Code
-  
-  
-  This field is used to select the originating
-  Transaction Type Code the Associated Transaction Type applies its conversion
-  factor against. Only Transactions Types with an Accumulation Type other than
-  Deduction, Advance, Tax and Net may be used.
-  
- 
- 
-  
-  Transaction Type Code
-  
-  
-  This field is used to select the Pay
-  Transaction Type Code generated when the Originating Transaction Type Code is
-  used.  Valid Transaction Types are
-  those with an Accumulation Type not equal to “Net”.
-  
- 
- 
-  
-  Shift Code
-  
-  
-  This field is used to filter the generation of
-  Associated Transactions to a specific Shift.  
-  Select a Shift Code from the “ArrowDown”.
-  
- 
- 
-  
-  Start Date
-  
-  
-  This field determines the date from which this
-  transaction is effective.  An “End
-  Date” must be entered when a “Start Date” is entered.
-  
- 
- 
-  
-  End Date
-  
-  
-  This field determines the date after this
-  transaction is not used.  An “End Date”
-  must be entered when a “Start Date” has been entered.
-  
- 
- 
-  
-  Transaction Type Description
-  
-  
-  This displays the description of the selected
-  Transaction Type.
-  
- 
- 
-  
-  Fixed Units
-  
-  
-  This field is used to enter Fixed Units. When a
-  value is entered here it overrides the value entered on a transaction it is
-  associated with.
-  
- 
- 
-  
-  Fixed Value
-  
-  
-  The field is used to enter the Value.  When a value is entered here it overrides
-  the value entered on a transaction with which it is associated with.
-  
- 
- 
-  
-  Fixed Charge Value
-  
-  
-  The field is used to enter the Fixed Charge Value.  When a value is entered here it overrides
-  the value entered on a transaction with which it is associated with.
-  
- 
- 
-  
-  Conversion Factor
-  
-  
-  This field is used for conversions of Pay.  Up to three decimal places may be entered
-  The conversion factor is applied to the Pay
-  Journal line.  The conversion factor is
-  taken from the Pay Transaction Type. 
-  The hourly rate is multiplied by the conversion factor to obtain the Pay
-  Rate for the Pay Journal line.  The
-  units in the Pay Journal line multiply the Pay Rate
-   
-  Example the transaction type equals ‘no value’.
-  (E.g. sick with no entitlement available) then the conversion factor must be
-  zero.
-  
- 
- 
-  
-  Number of Units before Used
-  
-  
-  This field is used to enter the total number of
-  units the originating transaction must total before this associated
-  transaction is generated.
-  
- 
- 
-  
-  Once Only Per Pay Run
-  
-  
-  Tick this box if the associated transaction is
-  only generated once per employee in the pay run regardless of the number of
-  times the originating transaction is used.
-  
- 
- 
-  
-  Not Used
-  
-  
-  This field is ticked when this transaction is
-  not used for this pay period only.  To
-  effectively end transactions, you must use the Start and End date fields.
-  
- 
- 
-  
-  Click on the “OK”
-  button to close this window.
-  
- 
-
-
- 
-
-Click on the “Classifications”
-icon.
-
- 
-
- 
-
-
-
- 
-
-3.1.5    
-Edit – “Award Classification List” window
-
- 
-
-The Award Classification List card is used to display a list
-of the Classification Codes and Descriptions that are used in your Payroll.
-
- 
-
-Each Employee is allocated a Classification Code.  The Description of the Classification is
-printed on various reports.
-
- 
-
-Once a Classification Rate has been used in a pay-run, it
-cannot be updated or deleted.  To make
-changes to the rate or conditions you must create a new Classification Rate
-dated before the next pay run.  The
-Classification Rates entered automatically update the employee classification
-rates
-
- 
-
- 
-
-
- 
-  
-   
-   Field Name
-   
-   
-   Description
-   
-  
- 
- 
-  
-  To create a new record, click on the “New” button.
-  
- 
- 
-  
-  Code
-  
-  
-  This field is used to identify the Award
-  Classification
-  
- 
- 
-  
-  Description
-  
-  
-  This field is used to name this classification
-  code.
-  
- 
- 
-  
-  Award Code
-  
-  
-  This field is used
-  to select records defined in Awards & Associated Transactions.
-   
-  Select an Award Code from the “ArrowDown”.
-  
- 
- 
-  
-  Description
-  
-  
-  This field is used to name this Award
-  Code.  This description cannot be
-  changed here.
-  
- 
- 
-  
-  No. Months Service
-  
-  
-  This field defines the number of month’s
-  service the employees under this classification must complete until the
-  employee is automatically incremented to the next classification within the
-  award.
-  
- 
- 
-  
-  Next Classification Code
-  
-  
-  This field is used to define the next
-  Classification the employee increments automatically to after completion of
-  the number of month’s service.
-  The Next Classification must belong to the same
-  Award as the current Classification.
-  
- 
- 
-  
-  Shift Code
-  
-  
-  This field is used to select a permanent shift for
-  this Award classification if required
-  
- 
- 
-  
-  Work Cover Code
-  
-  
-  Enter the Work Cover Code applicable to this
-  Classification
-  
- 
- 
-  
-  Position Code
-  
-  
-  This field is used to attach a specific position to
-  the Award Classification.
-  
- 
- 
-  
-  Sub Band
-  
-  
-  This field is used to define the Sub Band code which
-  will be setup within HRPayFocus.
-  
- 
- 
-  
-  Click on the “OK”
-  button to close this window.
-  
- 
-
-
- 
-
-3.1.6    
-Edit – “Award Leave Transaction Setup” window
-
- 
-
-The Award Leave
-Setup is used to defined the rules for Leave specific to each of the
-Awards.  An award has the potential to
-dictate what rules are to be incorporated when leave is applied for through the
-Dynamics AX HRPayFocus portal.
-
- 
-
-An example of a requirement
-is where Compassionate Leave in some awards allows up to 2 days per incidence
-whereas others may allow for 3 days.
-
- 
-
- 
-
-
- 
-  
-   
-   Field Name
-   
-   
-   Description
-   
-  
- 
- 
-  
-  To create a new record, click on the “New” button.
-  
- 
- 
-  
-  Award Code
-  
-  
-  This field is used to identify the Award Code
-  the Award Leave Setup is being configured.
-  
- 
- 
-  
-  Award Description
-  
-  
-  This field is used to identify the name of the
-  Award.
-  
- 
- 
-  
-  Transaction Type Code
-  
-  
-  This field displays the description of the
-  Transaction Type code.
-  
- 
- 
-  
-  Transaction Type Description
-  
-  
-  This field displays
-  the description of the Transaction Type code.
-  
- 
- 
-  
-  Blocked
-  
-  
-  This field can be used to block this particular
-  transaction from the Award Leave Setup so that it may longer be in use.
-  
- 
- 
-  
-  Minimum Service
-  (Months)
-  
-  
-  This field is used
-  to define the minimum service in months for this particular transaction.  
-   
-  An example of
-  where this might be used is where Parental Leave requires at least 12 months
-  of service before it can be applied for.
-  
- 
- 
-  
-  Maximum Days Per
-  Year
-  
-  
-  This field is used
-  to define the maximum days allowed per year. 
-  
-   
-  An example of
-  where this might be used is where Parental Leave has a maximum of 12 months
-  of leave per incident. 
-  
- 
- 
-  
-  Maximum Days Per
-  Occurrence
-  
-  
-  This field is used
-  to define the maximum days allowed per occurrence/application.
-  
- 
- 
-  
-  Click on the “OK”
-  button to close this window.
-  
- 
-
-
- 
-
- 
-
-3.2   
-Award Classification & Rates
-
- 
-
-The Award Classifications & Rates is used to
-define the Classification Rates of Pay.
-
-To access the Classifications & Rates window,
-go to the following menu:
-
-Departments/Payroll/Setup/Payroll Setup/Award/Classifications
-& Rates
-
- 
-
-To update the rates
-for a particular Award Classification, click on the “Edit” button.
-
- 
-
-
-
-3.2.1    
-“Edit – Award Classification Card” window
-
- 
-
-
- 
-  
-   
-   Field Name
-   
-   
-   Description
-   
-  
- 
- 
-  
-  To create a new record, click on the “New” button.
-  
- 
- 
-  
-  GENERAL FASTTAB
-  
- 
- 
-  
-  Code
-  
-  
-  Used to identify the Award Classification.
-  
- 
- 
-  
-  Description
-  
-  
-  Used to name this classification code.
-  
- 
- 
-  
-  Award Code
-  
-  
-  Select the Award Code from the “ArrowDown”.
-  
- 
- 
-  
-  Next Classification Code
-  
-  
-  This field is used to define the Classification
-  an employee will automatically increment to on completion of the number of
-  months of service.
-  The Next Classification must belong to the same
-  Award as the current Classification.
-  
- 
- 
-  
-  No. Months Service
-  
-  
-  This field defines the number of month’s
-  service that must be completed by an employee before incrementing to the next
-  classification.
-  
- 
- 
-  
-  Position Code
-  
-  
-  This field is used to attach a specific
-  position to the Award Classification.
-  
- 
- 
-  
-  Position Description
-  
-  
-  This field is the Position Description of the
-  Position Code selected.
-  
- 
- 
-  
-  Exclude from Integration
-  
-  
-  Select this field if you wish for this Award
-  Classification to be excluded from integration to the AXiOM Rate Set Manager.
-  
- 
- 
-  
-  AWARD CLASSIFICATION SUBFORM FASTTAB
-  
- 
- 
-  
-  Starting Date
-  
-  
-  The Starting Date is used to define the date
-  this rate is effective for this Award Classification.
-  
- 
- 
-  
-  Shift Code
-  
-  
-  This field indicates the shift this Award
-  Classification is applicable against.
-  
- 
- 
-  
-  Award Rate
-  
-  
-  This field is the pay rate for this Award
-  Classification.
-  
- 
- 
-  
-  Over Award Rate
-  
-  
-  This field is the over award pay rate for this
-  Award Classification.
-  The Award plus the Over Award rate is the total
-  weekly rate for this Award Classification.
-  
- 
- 
-  
-  Charge Rate
-  
-  
-  This field is used to enter the charge rate for
-  Jobs.
-  
- 
- 
-  
-  WORKERS COMP. FASTTAB
-  
- 
- 
-  
-  Work Cover Code
-  
-  
-  This field is used
-  to assign the Workers Compensation Rate to this Classification
-  
-  
-  Select the Work Cover Code from the “ArrowDown”.
-  
- 
- 
-  
-  Click on the “OK”
-  button to close this window.
-  
- 
-
-
- 
-
-4     
-Leave Overview
-
-You can set up unlimited Leave Types and Accruals.  Each employee can have more than one Leave
-Type and Accrual assigned to them. To setup the parameters for Leave you must
-setup:
-
- 
-
-
- Types
- Accruals
-
-
- 
-
-After you setup the Types and Accrual rules you must assign
-them to your employees.  
-
- 
-
-Default Leave Codes and Types can be setup to default for
-each Payroll for Annual Leave, Leave Loading, Sick Leave, and Long Service
-Leave.  The defaults are used for each
-Payroll Employee assigned to the Payroll. You can change and delete the
-defaults for the individual employees prior to their first pay on the Payroll Employee Card > Navigate Ribbon >Leave
-> Accruals if you require.
-
- 
-
-4.1   
-Leave Examples
-
- 
+## Leave Examples
 
 Leave Accruals can be one of the following types:
 
+- Annual Leave
+- Leave Loading
+- Long Service Leave
+- Sick Leave
+- Other Leave
+- Time in Lieu.
+
+Each Type can have a different method of entitlement calculated dependant on the length of service.
+
+### Example 1 
+
+Annual Leave is setup to give the employee an Entitlement of four weeks on the first anniversary of employment.  
+
+After the first year of service the calculation method automatically moves to Pro-rata and entitlement is granted according to the percentage of the leave period (Usually 12 months) that has passed. 
+
+### Example 2 
+
+Annual Leave is accrued as a percent of the rate of the employee’s pay for the first year of employment, and then accrued as days after
+that time.  You can use this method to prevent an employee from being paid leave in the first year of employment, upon termination of employment; they are paid the value of their leave entitlement.
  
+A period is the duration of the leave period for the leave accrual. Leave Accrual periods are setup in the system using Calculation
+Methods for entitlement. 
 
+- Pro-Rata
+- Pro Rata Days Worked
+- Pro Rata No Carry
+- Anniversary
+- Anniversary No Carry
+- Percentage
+- Percentage No Carry
+- Return to Period
 
- Annual Leave
- Leave Loading
- Long Service Leave
- Sick Leave
- Other Leave
- Time in Lieu.
+### Pro Rata Calculation
+This Calculation Method calculates the number of days since the end of the previous period of service (N) and the total number of days in the current period (D). It uses the ratio of these two numbers (N/D) to calculate the proportion of leave entitlement for the period to accrue.
 
-
- 
-
- 
-
-Each Type can have a different method of entitlement
-calculated dependant on the length of service.
-
- 
-
-4.1.1.1    
-Example
-1 
-
- 
-
-Annual Leave is setup to give the employee an Entitlement of
-four weeks on the first anniversary of employment.  
-
- 
-
-After the first year of service the calculation method
-automatically moves to Pro-rata and entitlement is granted according to the
-percentage of the leave period (Usually 12 months) that has passed. 
-
- 
-
-4.1.1.2    
-Example
-2 
-
- 
-
-Annual Leave is accrued as a percent of the rate of the
-employee’s pay for the first year of employment, and then accrued as days after
-that time.  You can use this method to
-prevent an employee from being paid leave in the first year of employment, upon
-termination of employment; they are paid the value of their leave entitlement.
-
- 
-
-A period is the duration of the leave period for the leave
-accrual. Leave Accrual periods are setup in the system using Calculation
-Methods for entitlement.  
-
- 
-
-
- Pro-Rata
- Pro Rata Days Worked
- Pro Rata No Carry
- Anniversary
- Anniversary No Carry
- Percentage
- Percentage No Carry
- Return to Period
-
-
- 
-
-4.1.1.3    
-Pro-Rata
-Calculation
-
- 
-
-This Calculation Method calculates the number of days since
-the end of the previous period of service (N) and the total number of days in
-the current period (D).
-
- 
-
-It uses the ratio of these two numbers (N/D) to calculate
-the proportion of leave entitlement for the period to accrue.
-
- 
-
-No. Days Accrued = No. Days Accrued Prior Periods + (No.
-Days to Date in Period / Total No. Days in Period) * No. Days leave entitlement
-for the period.)
-
- 
+No. Days Accrued = No. Days Accrued Prior Periods + (No. Days to Date in Period / Total No. Days in Period) * No. Days leave entitlement
+for the period.) 
 
 Leave Rate = Ordinary Earnings Rate * Conversion Factor
+   
+### Pro-Rata Days Worked
 
+This Calculation Method must be used for Leave based in hours and is the same as Pro-Rata except that the first number (N) is the
+number of hours worked in the period. 
  
-
-4.1.1.4    
-Pro-Rata
-Days Worked
-
- 
-
-This Calculation Method must be used for Leave based in
-hours and is the same as Pro-Rata except that the first number (N) is the
-number of hours worked in the period.
-
- 
-
-No. Days Accrued = No. Days Accrued Prior Periods + (No. Days
-worked in Period / Total Days in Period) * No. Days leave entitlement for the
-period.)
-
- 
+No. Days Accrued = No. Days Accrued Prior Periods + (No. Days worked in Period / Total Days in Period) * No. Days leave entitlement for the period.)
 
 Leave Rate = Ordinary Earnings Rate * Conversion Factor.
+   
+### Pro-rata No Carry
 
- 
+This Calculation Method is the same as Pro-Rata except that it does not carry forward the previous period’s entitlement.
 
-4.1.1.5    
-Pro-rata
-No Carry
-
- 
-
-This Calculation Method is the same as Pro-Rata except that
-it does not carry forward the previous period’s entitlement.
-
- 
-
-No. Days Accrued = (No. Days to day in Period / Total No.
-Days in Period) * No. Days leave entitlement for the period.)
-
- 
+No. Days Accrued = (No. Days to day in Period / Total No. Days in Period) * No. Days leave entitlement for the period.)
 
 Leave Rate = Ordinary Earnings Rate * Conversion factor.
 
- 
+### Anniversary
 
-4.1.1.6    
-Anniversary
+This Calculation Method uses the number of days in the entitlement on anniversary of the number of months for accrual.
 
- 
-
-This Calculation Method uses the number of days in the
-entitlement on anniversary of the number of months for accrual.
-
- 
-
-When anniversary is reached then: 
-
- 
-
-No. Days Accrued = No Days Accrued Prior Period + No Days
-Entitlement for the period.
-
- 
+When anniversary is reached then: No. Days Accrued = No Days Accrued Prior Period + No Days Entitlement for the period.
 
 Leave Rate = Ordinary Earnings Rate * Conversion Factor
-
  
+### Anniversary No Carry
 
-4.1.1.7    
-Anniversary
-No Carry
+This Calculation Method is the same as the Anniversary Calculation Method, except that it does not carry forward the previous period’s
+entitlement. 
 
- 
+When anniversary is reached then:  No. Days Accrued = No. Days Entitlement.
 
-This Calculation Method is the same as the Anniversary
-Calculation Method, except that it does not carry forward the previous period’s
-entitlement.
+  
+### Percentage
 
- 
-
-When anniversary is reached then: 
-
- 
-
-No. Days Accrued = No. Days Entitlement.
-
- 
-
-4.1.1.8    
-Percentage
-
- 
-
-This Calculation Method accrues an amount that is a
-percentage of ordinary earnings for the period.
-
- 
+This Calculation Method accrues an amount that is a percentage of ordinary earnings for the period. 
 
 Leave Value = Leave Percentage * Ordinary Earnings
 
- 
+### Percentage No Carry
 
-4.1.1.9    
-Percentage
-No Carry
-
- 
-
-This Calculation Method is the same as Percentage Calculation
-Method, except that it does not carry forward the previous period’s
+This Calculation Method is the same as Percentage Calculation Method, except that it does not carry forward the previous period’s
 entitlement.
 
- 
-
-4.1.1.10 
-Return
-to Period 
-
- 
+### Return to Period 
 
 Loop back to a previous period.
 
- 
+The end of the previous period is determined using the starting Award Period No. on the Employee Leave Accrual Table.
 
-The end of the previous period is determined using the
-starting Award Period No. on the Employee Leave Accrual Table.
+Where the method “Percentage” or “Percentage No Carry” is used, the percentage to divide the ordinary earnings must be set up.  These earnings can be made to exclude over award amounts.
 
- 
+Where days are to be accrued at half pay, a conversion factor can be set-up against the leave type.  This conversion factor will affect the value of the entitlement. 
 
-Where the method “Percentage” or “Percentage No Carry” is
-used, the percentage to divide the ordinary earnings must be set up.  These earnings can be made to exclude over
-award amounts.
-
-Where days are to be accrued at half pay, a conversion
-factor can be set-up against the leave type. 
-This conversion factor will affect the value of the entitlement.
-
-In order to track leave taken for leave accruals, pay
-transaction types must be set up to “apply to leave taken” against the leave
+In order to track leave taken for leave accruals, pay transaction types must be set up to “apply to leave taken” against the leave
 accrual codes.
 
- 
-
-Annual Leave can
-be accrued according to any of the above Calculation Methods.  A maximum number of days to accrue can also
+Annual Leave can be accrued according to any of the above Calculation Methods.  A maximum number of days to accrue can also
 be entered.
 
+Leave Loading may be setup as a separate leave type, or as part of “Another leave” type.  When leave loading is setup, a transaction
+type to use for generated leave loading must be entered with a percentage-loading factor.  A maximum salary to calculate loading percentage against can be setup. 
+
+Long Service Leave may be accrued according to any of the above Calculation Methods.  LSL may be set-up to appear on reports after
+a set number of years.  A specific LSL percentage to report for the first number of years of service may be set up.
+
+Sick Leave can use any of the Calculation Methods for entitlement calculation.  A maximum number of days to accrue can be set-up against sick leave accruals.
  
+Time in Lieu entitlement is calculated using the employee’s average hours and worked hours. 
 
-Leave Loading may
-be setup as a separate leave type, or as part of “Another leave” type.  When leave loading is setup, a transaction
-type to use for generated leave loading must be entered with a
-percentage-loading factor.  A maximum
-salary to calculate loading percentage against can be setup. 
+Time in Lieu Hours Accrued formula = (Hours Worked – Average Hours) / Hours Worked.
 
- 
+In order to calculate the hours accrued for a pay period, the result of this formula is multiplied by the hours worked in the pay period
+(determined by the pay transactions that are flagged as “Apply to Time in Lieu”). 
 
-Long Service Leave
-may be accrued according to any of the above Calculation Methods.  LSL may be set-up to appear on reports after
-a set number of years.  A specific LSL
-percentage to report for the first number of years of service may be set up.
+An accrual transaction is generated for the employee with a value of the calculated number of hours multiplied by the employee’s pay
+rate.  The resulting value is used to reduce the employee’s pay for the period.
 
- 
+The transaction type to generate for accruals is entered on the Time in Lieu Setup table.
 
-Sick Leave can
-use any of the Calculation Methods for entitlement calculation.  A maximum number of days to accrue can be
-set-up against sick leave accruals.
+To enable tracking Time in Lieu taken, one or more pay transaction types must be set up as affecting the Time in Lieu Award.
 
- 
+The transaction used to take Time in Lieu can be set up to “Apply to Time in Lieu”.  This means that the user could enter 8 hours as the time taken, but only reduce the Entitlement by the formula result hours.
 
-Time in Lieu
-entitlement is calculated using the employee’s average hours and worked hours.
+## Leave Types
 
-Time in Lieu Hours Accrued formula = (Hours Worked – Average
-Hours) / Hours Worked.
-
-In order to calculate the hours accrued for a pay period,
-the result of this formula is multiplied by the hours worked in the pay period
-(determined by the pay transactions that are flagged as “Apply to Time in
-Lieu”). 
-
- 
-
-An accrual transaction is generated for the employee with a
-value of the calculated number of hours multiplied by the employee’s pay
-rate.  The resulting value is used to
-reduce the employee’s pay for the period.
-
- 
-
-The transaction type to generate for accruals is entered on
-the Time in Lieu Setup table.
-
-To enable tracking Time in Lieu taken, one or more pay
-transaction types must be set up as affecting the Time in Lieu Award.
-
- 
-
-The transaction used to take Time in Lieu can be set up to
-“Apply to Time in Lieu”.  This means that
-the user could enter 8 hours as the time taken, but only reduce the Entitlement
-by the formula result hours.
-
-4.2   
-Leave Types
-
- 
-
-Leave Types must be created before defining any Leave
-Accruals.  You can set up unlimited Leave
-Types.  
-
- 
+Leave Types must be created before defining any Leave Accruals.  You can set up unlimited Leave Types.  
 
 Leave Types can be one of the following types:
 
- 
+- Annual Leave
+- Leave Loading
+- Long Service Leave
+- Sick Leave
+- Other Leave
+- Time in Lieu.
+
+1.  To access the Leave Types setup, go to the following menu: *Departments/Payroll/Setup/Payroll Setup/Leave/Types*
+
+2.  To create a new record, click on the **New** button.
+
+|Field|Description|  
+|---------------------------------|---------------------------------------|  
+|**Code**|This field is used to identify the Leave Type in the system.|
+|**Description**|This field is user defined.  Enter a name for this Leave Type.|
+|**Accumulation Type**|You must select an accumulation type (leave type) from the **ArrowDown** on the right of the field. Accumulation Types allow the accumulation of values.|
+|**Leave Type Based in Hours**|Tick this field if you wish to use Hours instead of Days for this Leave Type. If left blank the leave type is based in Days.|
+
+3.  Click on the **OK** button to close this window.
+  
+## Leave Accruals
+
+Leave Accruals cannot be set up for Time in Lieu Leave Types.  
+
+1.  To access the Leave Accruals setup, go to the following menu: *Departments/Payroll/Setup/Payroll Setup/Leave/Accruals*
+
+2.  To create a new record, click on the **New** button.
+
+3.  On the **General** FastTab, fill the fields as described in the following table.
+
+|Field|Description|  
+|---------------------------------|---------------------------------------|  
+|**Leave Type**|This field is used to select the Leave Type you wish to assign to the Accrual.|
+|**Code**|This field identifies the Accrual within this Leave Type. Enter a unique code for the Type.|
+|**Description**|Enter a description to identify the Leave Type.|
+|**Value Conversion Factor**|The factor ordinary earnings are multiplied by to obtain the current Leave value.|
+|**Percentage Method Factor**|The percentage of the entitlement that accrues for the employee.  Set to 1 unless the Calculation Method is Percentage.|
+|**Over Award Applicable**|This field indicates when an Over Award rate is allowed for this accrual. Over Award is calculated by the sum of the Standard Rate plus Over Award Rate.  If the Over Award field is blank the Over Award is ignored.|
+|**Max Days**|This field is the maximum number of days that is accrued for this Leave Accrual at any one time.  If this field is set to 20 days then the employee entitlement will never exceed 20 days.
+|**Use a Flat Accrual Calculation**|If this field is ticked then the employee’s leave accrual is averaged over the Leave Accrual period (Usually 12 months) to give a standard accrual amount for each pay period.   If the field is not ticked then the leave accrual will be apportioned on the number of days in the current month.  This field is only used for Pro Rata Calculation method.|
+|**Leave Type Based in Hours**|This field is used to identify this leave accrual is based in hours.  This field defaults from the Leave Type. If the Leave Type is based in hours you must use Pro Rata Days Worked as the Calculation Method.|
+|**Max Hours**|If leave is accrued in hours, this field is the maximum number of hours that is accrued for this Leave Accrual at any one  time.  If this field is set to 160 hours (based on a 40 hours) then the employee entitlement will never exceed 160 hours.|
+
+4.  On the **Leave Accrual Subform** FastTab, fill the fields as described in the following table.
+
+|Field|Description|  
+|---------------------------------|---------------------------------------|  
+|**Award Period No.**|The “Award Period No.” is automatically incremented by the system when a new line is entered.|
+|**Calculation Method**|Select the “Calculation Method for this period.|
+|**No. Days Entitlement**|This field indicates the number of days / hours entitlement in a Leave period.|
+|**No. Months**|This field indicates the length of the Leave period in months.|
+|**Return To Period**|Used to loop back to a previous period.  Enter the “Award Period number that you wish to loop back to.|
+  
+5.  On the **Long Service Leave** FastTab, fill the fields as described in the following table.
+
+|Field|Description|  
+|---------------------------------|---------------------------------------|  
+|**L.S.L Threshold (Years)**|The Number of years before Long Service Leave is accrued as a liability in the General Ledger.|
+|**Action Prior To Threshold**|This field determines how the L.S.L accrual is handled during the L.S.L. threshold. The options available are: Accrue Only or Accrue & Post and can be selected from the **ArrowDown**.|
 
+6.  On the **Posting** FastTab, fill the fields as described in the following table.
 
- Annual Leave
- Leave Loading
- Long Service Leave
- Sick Leave
- Other Leave
- Time in Lieu.
+|Field|Description|  
+|---------------------------------|---------------------------------------|  
+|**No G/L Posting**|Leave this field blank if you wish to post leave accruals to the General Ledger. Tick this field if you don’t wish  to post accruals to the General Ledger.|
+|**Accrual Cost Tran. Posting Group**|The Calculate & Post Leave Provision process uses this field to Debit the Leave Expense account in the General Ledger. This group must be a P&L account.|
+|**Provision Tran. Posting Group**|The Calculate & Post Leave Provision process uses this field to Credit the Leave Provision account in the General Ledger. This group must be a Balance Sheet account.|
+|**Taken Cost Adj. Tran. Posting Group**|This field is not used when the "Post Leave Accruals Only" flag is ticked in the Payroll Setup - Options tab. The Calculate & Post Leave Provision process uses this field to Credit this Posting Group with the value of the Leave Taken.  2. When the Leave Taken Pay Transaction Type Posting group is the Leave Provision Group this field must be the same Provision Posting Group to have a nil net effect on the Provision.  3. When the Leave Taken Pay Transaction Type Posting Group is a P&L Expense account. This group must be a P&L Expense account. The Pay Transaction Type must be a different Group to the group entered here to avoid a nil expense in the General Ledger.|
 
+7.  On the **Reporting** FastTab, fill the fields as described in the following table.
 
-To access the Leave Types setup, go to the
-following menu:
+|Field|Description|  
+|---------------------------------|---------------------------------------|  
+|**Max Salary**|This field is used to set the maximum Salary Amount an employee is paid Leave Loading.|
+|**Loading Percentage**|This field is for reporting purposes.|
 
-Departments/Payroll/Setup/Payroll Setup/Leave/Types
+8.  On the **On-Costs** FastTab, fill the fields as described in the following table.
 
+|Field|Description|  
+|---------------------------------|---------------------------------------|  
+|**Superannuation On-Costs**|Tick to apply “Superannuation On-Cost” to this leave accrual.|
+|**Work Cover On-Costs**|Tick to apply “Work Cover On-Costs” to this leave accrual.|
+|**Additional On-Cost %**|Enter a % to apply “Additional On-Costs” to this leave type.|
 
-
- 
-
-4.2.1    
-“Edit – Leave Types” window
-
- 
-
-
- 
-  
-   
-   Field Name
-   
-   
-   Description
-   
-  
- 
- 
-  
-  To create a new record, click on the “New” button.
-  
- 
- 
-  
-  Code
-  
-  
-  This field is used to identify the Leave Type
-  in the system.
-  
- 
- 
-  
-  Description
-  
-  
-  This field is user defined.  Enter a name for this Leave Type.
-  
- 
- 
-  
-  Accumulation Type
-  
-  
-  You must select an accumulation type (leave type)
-  from the “ArrowDown” on the right of
-  the field.
-  Accumulation Types allow the accumulation of values.
-  
- 
- 
-  
-  Leave Type Based in Hours
-  
-  
-  Tick this field if you wish to use Hours
-  instead of Days for this Leave Type
-  If left blank the leave type is based in Days.
-  
- 
- 
-  
-  Click on the “OK”
-  button to close this window.
-  
- 
-
-
- 
-
-4.3   
-Leave Accruals
-
- 
-
-Leave Accruals cannot be set up for Time in Lieu Leave
-Types.  
-
- 
-
-To access the Leave Accruals setup, go to the
-following menu:
-
-Departments/Payroll/Setup/Payroll Setup/Leave/Accruals
-
-
-
- 
-
- 
-
-4.3.1    
-“Edit – Leave Accrual Card (Leave Accrued in Days)”
-window
-
- 
-
- 
-
-
- 
-  
-   
-   Field Name
-   
-   
-   Description
-   
-  
- 
- 
-  
-  To edit the existing record, click on the “Edit” to update the existing record.
-  
- 
- 
-  
-  GENERAL FASTTAB
-  
- 
- 
-  
-  Leave Type
-  
-  
-  This field is used to select the Leave Type you
-  wish to assign to the Accrual
-  
- 
- 
-  
-  Code
-  
-  
-  This field identifies the Accrual within this
-  Leave Type. Enter a unique code for the Type
-  
- 
- 
-  
-  Description
-  
-  
-  Enter a description to identify the Leave Type
-  / Accrual Code combination.
-  
- 
- 
-  
-  Value Conversion Factor
-  
-  
-  The factor ordinary earnings are multiplied by
-  to obtain the current Leave value.
-  
- 
- 
-  
-  Percentage Method Factor
-  
-  
-  The percentage of the entitlement that accrues
-  for the employee.  Set to 1 unless the
-  Calculation Method is Percentage
-  
- 
- 
-  
-  Over Award Applicable
-  
-  
-  This field indicates when an Over Award rate is
-  allowed for this accrual.
-  Over Award is calculated by the sum of the
-  Standard Rate plus Over Award Rate.  If
-  the Over Award field is blank the Over Award is ignored.
-  
- 
- 
-  
-  Max Days
-  
-  
-  This field is the maximum number of days that
-  is accrued for this Leave Accrual at any one time.  If this field is set to 20 days then the
-  employee entitlement will never exceed 20 days
-  
- 
- 
-  
-  Use a Flat Accrual Calculation
-  
-  
-  If this field is ticked then the employee’s
-  leave accrual is averaged over the Leave Accrual period (Usually 12 months)
-  to give a standard accrual amount for each pay period.  
-  If the field is not ticked then the leave
-  accrual will be apportioned on the number of days in the current month.  This field is only used for Pro Rata
-  Calculation method
-  
- 
- 
-  
-  Leave Type Based in Hours
-  
-  
-  This field is used to identify this leave
-  accrual is based in hours.  This field
-  defaults from the Leave Type. If the Leave Type is based in hours you must
-  use Pro Rata Days Worked as the Calculation Method.
-  
- 
- 
-  
-  Max Hours
-  
-  
-  If leave is accrued in hours, this field is the
-  maximum number of hours that is accrued for this Leave Accrual at any one
-  time.  If this field is set to 160
-  hours (based on a 40 hours) then the employee entitlement will never exceed 160
-  hours.
-  
- 
- 
-  
-  LEAVE ACCRUAL SUBFORM FASTTAB – set up Leave
-  Accrual detailed lines for each Leave Type/Accrual combination to define the
-  Leave Periods and Calculation Methods for the entitlement and nominated
-  periods of time.
-  
- 
- 
-  
-  Award Period No.
-  
-  
-  The “Award Period No.” is automatically
-  incremented by the system when a new line is entered.
-  
- 
- 
-  
-  Calculation Method
-  
-  
-  Select the “Calculation Method for this period.
-  Pro-Rata Calculation
-  Calculate the Number of days since the end of
-  the previous period of service and allocate the proportion of the days
-  applicable to the total Number of days in the period.
-  Anniversary
-  Apply the Number of days on anniversary of the
-  Number of months applicable.
-  Percentage
-  Apply a percentage of ordinary earnings for the
-  period.
-  Return to Period
-  Loop Back to a previous Awards Period No.
-  Pro-Rata Time Worked
-  Same as for Pro-Rata but only increase Leave
-  depending on the Number of days worked in the period. You must use this
-  method for Leave in Hours
-  Pro-Rata No Carry
-  Same as Pro-Rata but does not carry forward
-  previous period's entitlement.
-  Anniversary No Carry
-  Same as Anniversary but does not carry forward
-  previous period's entitlement.
-  Percentage No Carry
-  Same as Percentage but does not carry forward
-  the previous period's entitlement.
-  
- 
- 
-  
-  No. Days Entitlement
-  
-  
-  This field indicates the number of days / hours
-  entitlement in a Leave period.
-  
- 
- 
-  
-  No. Months
-  
-  
-  This field indicates the length of the Leave
-  period in months.
-  
- 
- 
-  
-  Return To Period
-  
-  
-  Used to loop back to a previous period.  Enter the “Award Period number that you
-  wish to loop back to.
-  
- 
- 
-  
-  LONG SERVICE LEAVE FASTTAB – this tab is used
-  for Long Service Leave Type accruals. 
-  The fields are used to delay pro-rata accruing for the LSL
-  liability.  If the “L.S.L Threshold
-  (Years) of 10.00 is entered then after the 10th anniversary of the
-  employee is reached the first ten-years liability is posted to the General
-  Ledger.  From this time on the
-  liability will accrue and post each pay period according to the rules defined
-  in the Award Details Lines.
-  
- 
- 
-  
-  L.S.L Threshold (Years)
-  
-  
-  The Number of years before Long Service Leave
-  is accrued as a liability in the General Ledger.
-  
- 
- 
-  
-  Action Prior To Threshold
-  
-  
-  This field determines how the L.S.L accrual is
-  handled during the L.S.L. threshold.
-  The options available are: Accrue Only or
-  Accrue & Post and can be selected from the “ArrowDown”.
-  
- 
- 
-  
-  POSTING FASTTAB – the Leave Posting tab is used
-  to set up posting groups that determine General Ledger accounts for posting
-  the End of Month Leave journals.
-  
- 
- 
-  
-  No G/L Posting
-  
-  
-  Leave this field blank if you wish to post
-  leave accruals to the General Ledger.
-  Tick this field if you don’t wish  to post accruals to the General Ledger
-  
- 
- 
-  
-  Accrual Cost Tran. Posting Group
-  
-  
-  The Calculate & Post Leave Provision
-  process uses this field to Debit the Leave Expense account in the General
-  Ledger. This group must be a P&L account
-  
- 
- 
-  
-  Provision Tran. Posting Group
-  
-  
-  The Calculate & Post Leave Provision
-  process uses this field to Credit the Leave Provision account in the General
-  Ledger. This group must be a Balance Sheet account
-  
- 
- 
-  
-  Taken Cost Adj. Tran. Posting Group
-  
-  
-  1. This field is not used when the "Post
-  Leave Accruals Only" flag is ticked in the Payroll Setup - Options
-  tab.  
-   
-  The Calculate & Post Leave Provision
-  process uses this field to Credit this Posting Group with the value of the
-  Leave Taken
-   
-  2. When the Leave Taken Pay Transaction Type
-  Posting group is the Leave Provision Group this field must be the same
-  Provision Posting Group to have a nil net effect on the Provision.
-   
-  3. When the Leave Taken Pay Transaction Type
-  Posting Group is a P&L Expense account. This group must be a P&L
-  Expense account. The Pay Transaction Type must be a different Group to the
-  group entered here to avoid a nil expense in the General Ledger
-  
- 
- 
-  
-  REPORTING FASTTAB – the Reporting tab is used
-  to set up information for leave loading calculations.
-  
- 
- 
-  
-  Max Salary
-  
-  
-  This field is used to set the maximum Salary
-  Amount an employee is paid Leave Loading.
-  
- 
- 
-  
-  Loading Percentage
-  
-  
-  This field is for reporting purposes.
-  
- 
- 
-  
-  ON-COSTS FASTTAB – the On-Costs tab is used to
-  add on costs that apply to this Accrual. 
-  The on cost rates are added to the Leave Provision posted to the
-  General Ledger on the Calculate & Post Provision for leave End of Month
-  Processing.
-  
- 
- 
-  
-  Superannuation On-Costs
-  
-  
-  Tick to apply “Superannuation On-Cost” to this
-  leave accrual.
-  
- 
- 
-  
-  Work Cover On-Costs
-  
-  
-  Tick to apply “Work Cover On-Costs” to this
-  leave accrual.
-  
- 
- 
-  
-  Additional On-Cost %
-  
-  
-  Enter a % to apply “Additional On-Costs” to
-  this leave type.
-  
- 
- 
-  
-  Click on the “OK”
-  button to close this window.
-  
- 
-
-
- 
-
-4.3.2    
-“Edit – Leave Accrual Card (Leave Accrued in
-Hours)” window
-
- 
-
-
-
- 
-
- 
-
- 
-
-
- 
-  
-   
-   Field Name
-   
-   
-   Description
-   
-  
- 
- 
-  
-  To edit the existing record, click on the “Edit” to update the existing record.
-  
- 
- 
-  
-  GENERAL FASTTAB
-  
- 
- 
-  
-  Leave Type
-  
-  
-  This field is used to select the Leave Type you
-  wish to assign to the Accrual
-  
- 
- 
-  
-  Code
-  
-  
-  This field identifies the Accrual within this
-  Leave Type. Enter a unique code for the Type
-  
- 
- 
-  
-  Description
-  
-  
-  Enter a description to identify the Leave Type
-  / Accrual Code combination.
-  
- 
- 
-  
-  Value Conversion Factor
-  
-  
-  The factor ordinary earnings are multiplied by
-  to obtain the current Leave value.
-  
- 
- 
-  
-  Percentage Method Factor
-  
-  
-  The percentage of the entitlement that accrues
-  for the employee.  Set to 1 unless the
-  Calculation Method is Percentage
-  
- 
- 
-  
-  Over Award Applicable
-  
-  
-  This field indicates when an Over Award rate is
-  allowed for this accrual.
-  Over Award is calculated by the sum of the
-  Standard Rate plus Over Award Rate.  If
-  the Over Award field is blank the Over Award is ignored.
-  
- 
- 
-  
-  Max Days
-  
-  
-  This field is the maximum number of days that
-  is accrued for this Leave Accrual at any one time.  If this field is set to 20 days then the
-  employee entitlement will never exceed 20 days
-  
- 
- 
-  
-  Use a Flat Accrual Calculation
-  
-  
-  If this field is ticked then the employee’s
-  leave accrual is averaged over the Leave Accrual period (Usually 12 months)
-  to give a standard accrual amount for each pay period.  
-  If the field is not ticked then the leave
-  accrual will be apportioned on the number of days in the current month.  This field is only used for Pro Rata
-  Calculation method
-  
- 
- 
-  
-  Leave Type Based in Hours
-  
-  
-  This field is used to identify this leave
-  accrual is based in hours.  This field
-  defaults from the Leave Type. If the Leave Type is based in hours you must
-  use Pro Rata Days Worked as the Calculation Method.
-  
- 
- 
-  
-  Max Hours
-  
-  
-  If leave is accrued in hours, this field is the
-  maximum number of hours that is accrued for this Leave Accrual at any one time.  If this field is set to 160 hours (based on
-  a 40 hours) then the employee entitlement will never exceed 160 hours.
-  
- 
- 
-  
-  Grant Pro-Rata Accrual Only
-  
-  
-  If ticked the employee is granted into
-  entitlement the Pro Rata value accrued for the period.  
-  If left blank the employee is granted into
-  entitlement the value in the No Hours Entitlement field when the entitlement
-  period has been reached (usually 12 months)
-  
- 
- 
-  
-  Use Emp Std Hrs For Day Value
-  
-  
-  If ticked both the hour and day balances are
-  displayed on the Employee Leave Accrual card. 
-  
-  The value of a day is determined by the “Hours
-  in Full Week” and “Days per Week” fields on the Payroll Employee card.  
-  If blank only the hours balance will display on
-  the Employee Leave Accrual card (Only used for Accruals in Hours)
-  
- 
- 
-  
-  LEAVE ACCRUAL SUBFORM FASTTAB – set up Leave
-  Accrual detailed lines for each Leave Type/Accrual combination to define the
-  Leave Periods and Calculation Methods for the entitlement and nominated
-  periods of time.
-  
- 
- 
-  
-  Award Period No.
-  
-  
-  The “Award Period No.” is automatically
-  incremented by the system when a new line is entered.
-  
- 
- 
-  
-  Calculation Method
-  
-  
-  Select the “Calculation Method for this period.
-  Pro-Rata Calculation
-  Calculate the Number of days since the end of
-  the previous period of service and allocate the proportion of the days
-  applicable to the total Number of days in the period.
-  Anniversary
-  Apply the Number of days on anniversary of the
-  Number of months applicable.
-  Percentage
-  Apply a percentage of ordinary earnings for the
-  period.
-  Return to Period
-  Loop Back to a previous Awards Period No.
-  Pro-Rata Time Worked
-  Same as for Pro-Rata but only increase Leave
-  depending on the Number of days worked in the period. You must use this
-  method for Leave in Hours
-  Pro-Rata No Carry
-  Same as Pro-Rata but does not carry forward
-  previous period's entitlement.
-  Anniversary No Carry
-  Same as Anniversary but does not carry forward
-  previous period's entitlement.
-  Percentage No Carry
-  Same as Percentage but does not carry forward
-  the previous period's entitlement.
-  
- 
- 
-  
-  No. Days Entitlement
-  
-  
-  This field indicates the number of days / hours
-  entitlement in a Leave period.
-  
- 
- 
-  
-  Hours Basis (Weekly)
-  
-  
-  This field is used to identify the number of
-  hours the accrual is based on.  E.g.
-  160 hours entitlement with an hour basis of 40 grants 20 days leave to an employee
-  on a 40 hour week.
-  
- 
- 
-  
-  No. Months
-  
-  
-  This field indicates the length of the Leave
-  period in months.
-  
- 
- 
-  
-  Return To Period
-  
-  
-  Used to loop back to a previous period.  Enter the “Award Period number that you
-  wish to loop back to.
-  
- 
- 
-  
-  LONG SERVICE LEAVE FASTTAB – this tab is used
-  for Long Service Leave Type accruals. 
-  The fields are used to delay pro-rata accruing for the LSL
-  liability.  If the “L.S.L Threshold
-  (Years) of 10.00 is entered then after the 10th anniversary of the
-  employee is reached the first ten-years liability is posted to the General
-  Ledger.  From this time on the
-  liability will accrue and post each pay period according to the rules defined
-  in the Award Details Lines.
-  
- 
- 
-  
-  L.S.L Threshold (Years)
-  
-  
-  The Number of years before Long Service Leave
-  is accrued as a liability in the General Ledger.
-  
- 
- 
-  
-  Action Prior To Threshold
-  
-  
-  This field determines how the L.S.L accrual is
-  handled during the L.S.L. threshold.
-  The options available are: Accrue Only or
-  Accrue & Post and can be selected from the “ArrowDown”.
-  
- 
- 
-  
-  POSTING FASTTAB – the Leave Posting tab is used
-  to set up posting groups that determine General Ledger accounts for posting
-  the End of Month Leave journals.
-  
- 
- 
-  
-  No G/L Posting
-  
-  
-  Leave this field blank if you wish to post
-  leave accruals to the General Ledger.
-  Tick this field if you don’t wish  to post accruals to the General Ledger
-  
- 
- 
-  
-  Accrual Cost Tran. Posting Group
-  
-  
-  The Calculate & Post Leave Provision
-  process uses this field to Debit the Leave Expense account in the General
-  Ledger. This group must be a P&L account
-  
- 
- 
-  
-  Provision Tran. Posting Group
-  
-  
-  The Calculate & Post Leave Provision
-  process uses this field to Credit the Leave Provision account in the General
-  Ledger. This group must be a Balance Sheet account
-  
- 
- 
-  
-  Taken Cost Adj. Tran. Posting Group
-  
-  
-  1. This field is not used when the "Post
-  Leave Accruals Only" flag is ticked in the Payroll Setup - Options
-  tab.  
-   
-  The Calculate & Post Leave Provision
-  process uses this field to Credit this Posting Group with the value of the
-  Leave Taken
-   
-  2. When the Leave Taken Pay Transaction Type Posting
-  group is the Leave Provision Group this field must be the same Provision
-  Posting Group to have a nil net effect on the Provision.
-   
-  3. When the Leave Taken Pay Transaction Type
-  Posting Group is a P&L Expense account. This group must be a P&L
-  Expense account. The Pay Transaction Type must be a different Group to the
-  group entered here to avoid a nil expense in the General Ledger
-  
- 
- 
-  
-  REPORTING FASTTAB – the Reporting tab is used
-  to set up information for leave loading calculations.
-  
- 
- 
-  
-  Max Salary
-  
-  
-  This field is used to set the maximum Salary
-  Amount an employee is paid Leave Loading.
-  
- 
- 
-  
-  Loading Percentage
-  
-  
-  This field is for reporting purposes.
-  
- 
- 
-  
-  ON-COSTS FASTTAB – the On-Costs tab is used to
-  add on costs that apply to this Accrual. 
-  The on cost rates are added to the Leave Provision posted to the
-  General Ledger on the Calculate & Post Provision for leave End of Month
-  Processing.
-  
- 
- 
-  
-  Superannuation On-Costs
-  
-  
-  Tick to apply “Superannuation On-Cost” to this
-  leave accrual.
-  
- 
- 
-  
-  Work Cover On-Costs
-  
-  
-  Tick to apply “Work Cover On-Costs” to this
-  leave accrual.
-  
- 
- 
-  
-  Additional On-Cost %
-  
-  
-  Enter a % to apply “Additional On-Costs” to
-  this leave type.
-  
- 
- 
-  
-  Click on the “OK”
-  button to close this window.
-  
- 
-
-
- 
-
-4.4   
-Leave Accrual Posting
-
- 
-
-Posting Leave Accrual Provisions is a process located in the
-End of Month menu option.  
-
-To Calculate and Post Provisions open Payroll >EOM Processing > Leave Processing > Calculate
-& Post Provision.
-
- 
-
-You must select the Payroll you wish to use to Post Leave
-accruals to the General Ledger.
-
- 
-
-Once you have selected the Payroll the Calculate Leave
-Provisions card is displayed.
-
- 
-
-Depending on the filters selected the report will print:
-
-
- Sorted by Leave Type /
-     Leave Code
- Employee
- Previously Posted Amount
-     - If this process was ran in period sequence (Jan. Feb, March etc each
-     month after all Pay Journals were posted and the period finalised) the
-     amount will equal the amount of the Provision Amount on the previous
-     Calculation of Leave Provision report. 
-     
- Provision Amount =
-     Remaining Amount + Leave Loading Value + OnCost Value
- Amount to Post to GL =
-     Remaining Amount + OnCost value
- Value of Leave -
-     Remaining Amount
- Leave Loading Value =
-     Value of Leave Loading
- Value of On-Costs = The
-     Remaining amount x On Cost % 
-
-
- 
-
-The report totals the above columns for each Leave Type and
-produces a summary page for posting:
-
- 
-
-
- Account No
- Document Date
- Global Dimension 1
- Global Dimension 2
- Previously Posted Amount
- Provision Amount
- Amount to Post to GL
-
-
- 
-
-The report totals the last 3 columns by GL Account and
-prints the Totals Debits and Total Credits.
-
- 
-
-4.5   
-Post Leave Accruals Only Flag
-
- 
-
-This field is in the Payroll Setup  option card and is used to determine the
-method for posting leave accruals to the General Ledger 
-
- 
-
-
- Option 1 The employee’s taken leave is posted directly to the
-     leave provision General Ledger account during payroll processing.  The employee leave accruals is posted to
-     the leave provision and leave expense General Ledger accounts during the
-     “Calculate Leave Accruals” process. 
-
-
- 
-
-
- Option 2 The” net” value of taken and accrued leave is posted
-     to the leave provision and leave expense accounts during the “Post Leave
-     Accruals” process
-
-
- 
-
- 
-
-4.5.1    
-Option 1 “Post Leave Accruals Only” is “TICKED”
-
-
- 
-
-Leave taken is posted directly to the “Leave Provision”
-account during payroll processing.  The
-employee leave accruals are posted to the leave provision and leave expense
-accounts during the “Post Leave Accruals” process
-
- 
-
-Note: The General
-Ledger transaction Posting Group on the Leave Taken Pay transaction type must
-be the “Leave Provision” General Ledger account.
-
- 
-
-4.5.1.1    
-Journal
-Examples:
-
- 
-
-Employee Details
-
-            
-
-Employee Salary net of Super     $54600.00
-
-            Hourly
-Rate                               $      26.25
-
-            Monthly
-Salary                           $
-4550.00
-
- 
-
-            Monthly
-Leave Accrual Hours      13.33
-
- 
-
-Payroll Processing
-Journal
-
- 
-
-
-
-
- 
-  
-  Activity
-  / Transaction
-  
-  
-  DR
-  
-  
-  CR
-  
-  
-  GL
-  Account
-  
- 
- 
-  
-  Ordinary
-  Hours
-  
-  
-  4130.00
-  
-  
-   
-  
-  
-  Gross
-  Salary 8724
-  
- 
- 
-  
-  2 days
-  Annual Leave
-  
-  
-    420.00
-  
-  
-   
-  
-  
-  Leave
-  Provision 5844
-  
- 
- 
-  
-  Tax
-  
-  
-   
-  
-  
-  1550.00
-  
-  
-  Tax 5810
-  
- 
- 
-  
-  Net pay
-  
-  
-   
-  
-  
-  3000.00
+9.  Click on the **OK** button to close this window.
   
-  
-  Wages
-  Clearing 5845
-  
- 
-
-
-
-
- 
-
- 
-
-Post Leave Accruals
-at month end    (Based on 13.33 hrs *
-$26.25 = $349.91)      
-
- 
-
-
-
-
- 
-  
-  Activity
-  / Transaction
-  
-  
-  DR
-  
-  
-  CR
-  
-  
-  GL
-  Account
-  
- 
- 
-  
-  Leave
-  Expense
-  
-  
-  349.01
-  
-  
-   
-  
-  
-  Leave
-  Expense 8744
-  
- 
- 
-  
-  Leave
-  Accrual
-  
-  
-   
-  
-  
-  349.91
-  
-  
-  Leave
-  Provision 5844
-  
- 
-
-
-
-
- 
-
- 
-
-4.5.2    
-Option 2 “Post Leave Accruals Only” is “BLANK”
-
-
- 
-
-The net value of the employees taken and accrued leave is
-posted to the leave provision and leave expense General Ledger accounts during
-the “Post Leave Accruals” process. 
-
- 
-
-Note: The General
-Ledger account on the Annual Leave taken pay transaction type must be the
-“Gross Salary” General Ledger account
-
- 
-
-4.5.2.1    
-Journal
-Examples:
-
- 
-
-Employee Details
-
-            
-
-Employee Salary net of Super   $54600.00
-
-            Hourly
-Rate                               $      26.25
-
-            Monthly
-Salary                          $   4550.00
-
-          
+   
+### Leave Accrual Card (Leave Accrued in Hours)
 
-  Monthly Leave
-Accrual Hours      13.33
+1.  To edit the existing record, click on the “Edit” to update the existing record.
 
- 
-
-Payroll Processing
-Journal
-
- 
-
-
-
-
- 
-  
-  Activity
-  / Transaction
-  
-  
-  DR
-  
-  
-  CR
-  
-  
-  GL
-  Account
-  
- 
- 
-  
-  Ordinary
-  Hours
-  
-  
-  4130.00
-  
-  
-   
-  
-  
-  Gross
-  Salary 8724
-  
- 
- 
-  
-  2 days
-  Annual Leave
-  
-  
-    420.00
-  
-  
-   
-  
-  
-  Gross
-  Salary 8724
-  
- 
- 
-  
-  Tax
-  
-  
-   
-  
-  
-  1550.00
-  
-  
-  Tax 5810
-  
- 
+2.  On the **General** FastTab, fill the fields as described in the following table.
  
-  
-  Net pay
-  
+|Field|Description|  
+|---------------------------------|---------------------------------------|  
+|**Leave Type**|This field is used to select the Leave Type you wish to assign to the Accrual.|
+|**Code**|This field identifies the Accrual within this Leave Type. Enter a unique code for the Type.|
+|**Description**|Enter a description to identify the Leave Type.|
+|**Value Conversion Factor**|The factor ordinary earnings are multiplied by to obtain the current Leave value.|
+|**Percentage Method Factor**|The percentage of the entitlement that accrues for the employee.  Set to 1 unless the Calculation Method is Percentage.|
+|**Over Award Applicable**|This field indicates when an Over Award rate is allowed for this accrual. Over Award is calculated by the sum of the Standard Rate plus Over Award Rate.  If the Over Award field is blank the Over Award is ignored.|
+|**Max Days**|This field is the maximum number of days that is accrued for this Leave Accrual at any one time.  If this field is set to 20 days then the employee entitlement will never exceed 20 days.|
+|**Use a Flat Accrual Calculation**|If this field is ticked then the employee’s leave accrual is averaged over the Leave Accrual period (Usually 12 months) to give a standard accrual amount for each pay period.   If the field is not ticked then the leave accrual will be apportioned on the number of days in the current month.  This field is only used for Pro Rata Calculation method.
+|**Leave Type Based in Hours**|This field is used to identify this leave accrual is based in hours.  This field defaults from the Leave Type. If the Leave Type is based in hours you must use Pro Rata Days Worked as the Calculation Method.|
+|**Max Hours**|  If leave is accrued in hours, this field is the maximum number of hours that is accrued for this Leave Accrual at any one time.  If this field is set to 160 hours (based on a 40 hours) then the employee entitlement will never exceed 160 hours.|
+|**Grant Pro-Rata Accrual Only**|If ticked the employee is granted into entitlement the Pro Rata value accrued for the period.  If left blank the employee is granted into entitlement the value in the No Hours Entitlement field when the entitlement period has been reached (usually 12 months)|
+|**Use Emp Std Hrs For Day Value**|If ticked both the hour and day balances are displayed on the Employee Leave Accrual card. The value of a day is determined by the “Hours in Full Week” and “Days per Week” fields on the Payroll Employee card.  If blank only the hours balance will display on the Employee Leave Accrual card (Only used for Accruals in Hours).|
   
-   
-  
-  
-  3000.00
-  
-  
-  Wages Clearing
-  5845
-  
- 
+3.  On the **Leave Accrual Subform** FastTab, fill the fields as described in the following table.
 
+|Field|Description|  
+|---------------------------------|---------------------------------------|  
+|**Award Period No.**|The “Award Period No.” is automatically incremented by the system when a new line is entered.|
+|**Calculation Method**|Select the “Calculation Method for this period.|
+|**No. Days Entitlement**|This field indicates the number of days / hours entitlement in a Leave period.|
+|**Hours Basis (Weekly)**|This field is used to identify the number of hours the accrual is based on.  E.g. 160 hours entitlement with an hour basis of 40 grants 20 days leave to an employee on a 40 hour week.|
+|**No. Months**|This field indicates the length of the Leave period in months.|
+|**Return To Period**|Used to loop back to a previous period.  Enter the “Award Period number that you wish to loop back to.|
 
+4.  On the **Long Service Leave** FastTab, fill the fields as described in the following table.
 
+|Field|Description|  
+|---------------------------------|---------------------------------------|  
+|**L.S.L Threshold (Years)**|The Number of years before Long Service Leave is accrued as a liability in the General Ledger.|
+|**Action Prior To Threshold**|This field determines how the L.S.L accrual is handled during the L.S.L. threshold. The options available are: Accrue Only or Accrue & Post and can be selected from the **ArrowDown**.|
 
- 
+5.  On the **Posting** FastTab, fill the fields as described in the following table.
 
- 
+|Field|Description|  
+|---------------------------------|---------------------------------------|  
+|**No G/L Posting**|Leave this field blank if you wish to post leave accruals to the General Ledger. Tick this field if you don’t wish  to post accruals to the General Ledger.|
+|**Accrual Cost Tran. Posting Group**|The Calculate & Post Leave Provision process uses this field to Debit the Leave Expense account in the General Ledger. This group must be a P&L account.|
+|**Provision Tran. Posting Group**|The Calculate & Post Leave Provision process uses this field to Credit the Leave Provision account in the General Ledger. This group must be a Balance Sheet account.|
+|**Taken Cost Adj. Tran. Posting Group**|This field is not used when the "Post Leave Accruals Only" flag is ticked in the Payroll Setup - Options tab. The Calculate & Post Leave Provision process uses this field to Credit this Posting Group with the value of the Leave Taken.  2. When the Leave Taken Pay Transaction Type Posting group is the Leave Provision Group this field must be the same Provision Posting Group to have a nil net effect on the Provision.  3. When the Leave Taken Pay Transaction Type Posting Group is a P&L Expense account. This group must be a P&L Expense account. The Pay Transaction Type must be a different Group to the group entered here to avoid a nil expense in the General Ledger.|
 
-Post Leave Accruals
-at month end    (Based on 13.33 hours -
-2.67 * $26.25 = $70.09)      
+6.  On the **Reporting** FastTab, fill the fields as described in the following table.
 
- 
+|Field|Description|  
+|---------------------------------|---------------------------------------|  
+|**Max Salary**|This field is used to set the maximum Salary Amount an employee is paid Leave Loading.|
+|**Loading Percentage**|This field is for reporting purposes.|
 
+7.  On the **On-Costs** FastTab, fill the fields as described in the following table.
 
+|Field|Description|  
+|---------------------------------|---------------------------------------|  
+|**Superannuation On-Costs**|Tick to apply “Superannuation On-Cost” to this leave accrual.|
+|**Work Cover On-Costs**|Tick to apply “Work Cover On-Costs” to this leave accrual.|
+|**Additional On-Cost %**|Enter a % to apply “Additional On-Costs” to this leave type.|
 
-
- 
-  
-  Activity
-  / Transaction
-  
-  
-  DR
-  
-  
-  CR
-  
-  
-  GL
-  Account
-  
+8.  Click on the **OK** button to close this window.  
  
- 
-  
-  Leave
-  Expense
-  
-  
-  70.09
-  
-  
-   
-  
-  
-  Leave
-  Expense 8744
-  
- 
- 
-  
-  Leave
-  Accrual
-  
-  
-   
-  
-  
-  70.09
-  
-  
-  Leave
-  Provision 5844
-  
- 
-
-
-
-
- 
-
- 
-
-4.6   
-Pro Rata Leave Calculation Methods
-
-The system calculates pro-rata leave using 2 different
-methods:
-
- 
-
-
- Pro-Rata Calculation
- Pro-Rata Days Worked
-     (pro-rata hours worked). 
-
-
- 
-
-4.6.1    
-Pro-Rata Calculation 
-
- 
-
-This method is used to calculate an amount based on the
-employees standard hours every period regardless of the number of hours the
-employees are paid.  
-
- 
-
-The system can be flagged to calculate either a flat rate
-accrual each period or calculate a daily accrual and multiply the daily amount
-by the number of days in the pay period.
-
- 
-
-Example:
-
- 
-
-Annual leave = 20 days per year  
-
- 
-
-Employee standard work hours are 40 hours each week / 173.33
-hours month.
-
- 
-
-The employee accrues 0.054945 days per 7 days for the pay
-period regardless of how many hours are actually worked.
-
- 
-
-
- You can set up to
-     calculate a daily accrual, and then multiple it by the number of days
-     within the pay period, such as 31 for January, 28 / 29 for February, 31
-     for March, etc.  
- Alternately, you can
-     calculate a flat accrual for each pay period, such as 20 / 12 = 1.666667
-     days each month every month.
- The pro-rata leave can
-     be setup to recalculate each pay period. 
-     Each period leave is re- calculated from the employee's last leave
-     anniversary date, based on the leave accrual start date, to the end of the
-     current pay period.  The system will
-     only keep one open pro-rata leave transaction, which is the total for the
-     current anniversary leave period. 
- Alternately you can
-     setup the system to only calculate the portion of the leave for each pay
-     period.  The system has an open
-     leave transaction for each pay period accrued within the current
-     anniversary leave period.
-
-
- 
-
-To configure part time employees:
-
- 
-
-
- The "Hours in a
-     Full Week" field on the Payroll Employee’s card must equal the number
-     of hours the employee works in a week (Eg, 32).
- The "Days per
-     Week" field on the payroll employee card must equal the number of
-     days worked (Eg, 4).
- The "Ratio by Days
-     per Week" field on the Employee Leave Accrual card must be ticked to
-     reduce the employees leave accrual by 1/5 (Eg, 1 day).  
-
-
- 
-
-Example
-
- 
-
-Weekly Accrual = (Full Week Accrual (0.384615) * Days per
-Week (4) / 5) = 0.307692
-
- 
-
-Hours per Leave Day = (Hours in Full Week / Days per Week) =
-8
-
- 
-
-4.6.2    
-Pro-Rata Time Worked (Must be used if Leave is
-based in Hours)
-
- 
+# On Costing Overview
 
-The pro-rata days worked method is based upon the number of
-hours an employee actually worked within the pay period.
+An On Cost type transaction is a calculation of some type of overhead or Employer Liability transaction such as Payroll Tax, Workers Comp Levy, Insurance, Superannuation, etc. for example.
 
- 
+While some of these calculations may be possible using other methods, these are not all pay period type calculations and therefore no data is available for reporting purposes until end of month when the other calculation is performed.  By using On costing, the Employer is able to report on Wages plus on costs to get a true cost of labour as opposed to just having the wage component available.
 
-Example:
+As On Cost amounts are posted through to GL expense and provision accounts per pay period, the General Ledger is always up to date.
 
- 
+The functionalities of On Costing are;
 
-Annual Leave = 20 days per year  
+- Allows a transaction type to be calculated as a percentage % of another transaction or accumulated value
+- Allows double sided account entries – expense and provision account set up
+- Allows the setup of a transaction type that does not affect the contractor’s pay – Employer Liability
+- Allows on cost transactions to be automatically generated for a group of contractors under relevant conditions.
 
- 
+On Cost Setup encompasses the following activities:
 
-Employee standard work hours are 40 hours each week / 173.33
-hours month.
+- On Cost Accumulators – In order to be able to calculate on costs, there will need to be a base from which to calculate.  For example, if calculating on costs for the provision of annual leave, then you will need to base the calculation on the value of those types of incomes that accrue annual leave.  
 
- 
+To enable this, new Accumulators and Transaction Accumulators need to be setup and assigned to the appropriate transactions.
 
+Transaction Accumulators – Are accessed via the Pay Transaction Type Card.  This option will allow the selection of as
+many accumulators as required, to be attached to the selected pay transaction type code.
 
- If the employee works 40
-     hours then the accrual will be 0.3846 days for the week.
- If the employee works 20
-     hours then the accrual will be 0.1923 days for the week.
+## On Cost Accumulators
 
+1.  To access the On Cost Accumulators, go to the following menu: *Departments/Payroll/Setup/Payroll Setup/ General/Calculation
+Accumulators* 
 
- 
+2. To create a new record, click on the **New** button.
 
-You must have all the Pay Transaction Types set-up correctly
-on the "Leave Application" tab.
+3.  Fill the fields as described in the following table.
 
- 
+|Field|Description|  
+|---------------------------------|---------------------------------------|  
+|**Accumulator Code**|The “Accumulator Code” is used to uniquely identify the Accumulator.|
+|**Accumulator Description**|The “Accumulator Description” field is used to record a description for the Accumulator.|
 
-The "Accum. For Leave Calculations" field must be
-set to 'Accumulate" for all transactions that accrue leave such as
-Ordinary time, Annual leave, Sick leave, LSL etc.  
-
- 
-
-This field must be set to 'No Accumulation' for transaction
-types that do not accrue leave such as allowances, deductions, LAHA, and
-overtime.
-
- 
-
-Note:  When only one leave accrual is set-up for a
-Leave Type the "Hours in a Full Week" and "Days per Week"
-fields on the Payroll Employee card must all have the same values entered for
-part time and full time employees.  You
-cannot enter individual employees standard hours and days.  
-
-In the example above every employee will have 40 "Hours
-in a Full Week" and 5 "Days per Week".  
-
- 
-
-The system uses these fields to determine the full accrual
-used for the calculation.  
-
- 
-
-Alternatively, you must set up a leave accrual for each
-employee with different hours and days per week combination.
-
- 
-
-To configure part time employees:
-
- 
-
-No special procedure is required as the accrual is based on
-hours worked and the pay transactions flagged to accrue leave.  If the employee is only paid 30 hours per
-week they will accrue leave based on the 30 hours.  
-
-5     
-On Costing Overview
-
-An On
-Cost type transaction is a calculation of some type of overhead or Employer
-Liability transaction such as Payroll Tax, Workers Comp Levy, Insurance,
-Superannuation, etc. for example.
-
-While
-some of these calculations may be possible using other methods, these are not
-all pay period type calculations and therefore no data is available for
-reporting purposes until end of month when the other calculation is performed.  By using On costing, the Employer is able to
-report on Wages plus on costs to get a true cost of labour as opposed to just
-having the wage component available.
-
-As On
-Cost amounts are posted through to GL expense and provision accounts per pay
-period, the General Ledger is always up to date.
-
-The
-functionalities of On Costing are:
-
-Allows a
-transaction type to be calculated as a percentage % of another transaction or
-accumulated valueAllows double
-sided account entries – expense and provision account set upAllows the setup
-of a transaction type that does not affect the contractor’s pay – Employer
-LiabilityAllows on cost
-transactions to be automatically generated for a group of contractors under
-relevant conditions.On Cost Setup encompasses the following activities:On Cost Accumulators
-– In order to be able to calculate on costs, there will need to be a base from
-which to calculate.  For example, if
-calculating on costs for the provision of annual leave, then you will need to
-base the calculation on the value of those types of incomes that accrue annual
-leave.  To enable this, new Accumulators
-and Transaction Accumulators need to be setup and assigned to the appropriate
-transactions.Transaction
-Accumulators – Are accessed via the Pay Transaction Type Card.  This option will allow the selection of as
-many accumulators as required, to be attached to the selected pay transaction
-type code.
-
-
-
-
-
-
-
-
-
-
-
-
-
-5.1   
-On Cost Accumulators
-
-To access the On Cost Accumulators, go to the
-following menu:
-
-Departments/Payroll/Setup/Payroll Setup/ General/Calculation
-Accumulators
-
-
-
-5.1.1    
-“Edit – Accumulator List” window
-
- 
-
-
- 
-  
-   
-   Field Name
-   
-   
-   Description
-   
-  
- 
- 
-  
-  To create a new record, click on the “New” button.
-  
- 
- 
-  
-  Accumulator Code
-  
-  
-  The “Accumulator Code” is used to uniquely
-  identify the Accumulator.  
-  
- 
- 
-  
-  Accumulator Description
+4.  Click on the **OK** button to close this window.
   
-  
-  The “Accumulator Description” field is used to
-  record a description for the Accumulator.
-  
- 
- 
-  
-  Click on the “OK”
-  button to close this window.
-  
- 
-
-
- 
 
 ## Transaction Accumulators
 
@@ -4468,141 +1469,16 @@ Transaction Types*
 
 3.  To create a new record, cick on the **New** button.
 
- 
-  
-  Accumulator Code
-  
-  
-  Select the Accumulator Code from the “ArrowDown”.
-  
- 
- 
-  
-  Accumulator Description
-  
-  
-  The Description field will be updated with the
-  description from the Accumulator code selected.
-  
- 
- 
-  
-  Negative Accumulator
-  
-  
-  Tick this field if you expect the calculation
-  base to be a negative value.
-  
- 
- 
-  
-  Click on the “OK”
-  button to close this window.
-  
- 
+|Field|Description|  
+|---------------------------------|---------------------------------------|  
+|**Accumulator Code**|Select the Accumulator Code from the **ArrowDown**.|
+|**Accumulator Description**|The Description field will be updated with the description from the Accumulator code selected.|
+|**Negative Accumulator**|Tick this field if you expect the calculation base to be a negative value.|
 
-5.3   
-Accumulation and Deduction Types
+4.  Click on the **OK** button to close this window.
+   
+[GoToTop](#how-to-setup-payroll)
 
-
-To complete the setup for on cost transactions, Pay
-Transaction types relating to the on costs should be setup for them to
-calculate accordingly.
-
- 
-
-5.3.1    
-“Edit – Pay Transaction Type Card” (Accumulation
-Type) window
-
- 
-
-If Accumulation Type, On Cost is selected then the
-Accumulation Summary value will automatically be set to On Cost.  
-
- 
-
- 
-
-
-
- 
-
- 
-
-5.3.2    
-“Edit – Pay Transaction Type Card” (Calculation
-Method) window
-
- 
-
-To enable the calculation of On Costs, which are essentially
-calculated as a percentage of an accumulated value, a Calculation Base should
-be identified on the Calculations tab of the Pay Transaction Type Card.
-
- 
-
- 
-
- 
-
- 
-
-The Calculation Base field is linked to the Accumulators table
-and will only be active if the Rate Calculation Method selected is Percentage.
-
-   
-   Field Name
-   
-   
-   Description
-  
-  
-  On Cost Rate
-  
-  If the rate needs to be held at a “Global”
-  level then enter in the rate amount in this field, otherwise it should be
-  left blank and completed accordingly on the Payroll Employee Card or added to
-  the Rate Set. 
-  It should be expressed as in decimal format,
-  e.g. 9% would be entered as 0.09.
-  
- 
- 
-  
-  Rate Calculation Method
-  
-  
-  This field will default to “Percentage”
-  
- 
- 
-  
-  Calculation Base Accumulator
-  
-  
-  Select the Accumulator from the “ArrowDown”. 
-  
- 
- 
-  
-  Click on the “OK”
-  button to close this window.
-  
- 
-
-5.3.3    
-“Edit – Pay Transaction Type Card” (Expense and
-Provision) window
-
-On Cost type transactions will need to be set up with both a
-G/L Expense Account and a G/L Provision Account.
-
-When the transaction type is an on cost, then this field
-will be left blank and the Transaction Posting Group and On Cost Prov. Posting
-Group should be completed.  Both of these
-posting group fields are linked to the existing Transaction Posting and Payroll
-Posting setup tables to allow G/L account mapping.
 
 ## Posting Setup
 
