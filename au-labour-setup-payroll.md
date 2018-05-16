@@ -34,7 +34,7 @@ This section will discuss the following setup areas within Payroll;
 - [Award Overview](#award-overview) 
 - [Award Classifications](#to-setup-award-classifications) 
 - [Leave Overview](#leave-overview) 
-- [Oncosting Overview](#oncosting-overview) 
+- [Oncosting Overview](#on-costing-overview) 
 
 ## To setup Payroll Setup
 The Payroll Setup defines global settings and rules within the payroll.  Many of these are set with defaults when the Payroll is installed and maybe revised and updated after all payroll areas have been configured. 
