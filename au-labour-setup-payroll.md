@@ -421,14 +421,11 @@ Examples of Pay Transaction Types are Normal Time, Overtime, Net Pay, Superannua
 |**Code**|This field is used to identify the Pay Transaction Type and is used in Journal lines.|  
 |**Brief Description**|This field is used to provide a short description for the **Pay Transaction Type**.|  
 |**Description**|This field is used to provide a detailed description for the “Pay Transaction Type”.|
-|**Accumulation Type**|This field is mandatory and is used to group like transactions together for processing by the system and reporting.  The Accumulation Types are: Ordinary,Overtime, Annual Leave, Leave Loading, Long Service Leave, Sick Leave, Other
-  Leave, Time in Lieu, Lump Sum, Allowance, Deduction, Advance, Tax, Net, On Cost. Select an option from the **ArrowDown**.|
+|**Accumulation Type**|This field is mandatory and is used to group like transactions together for processing by the system and reporting.  The Accumulation Types are: Ordinary,Overtime, Annual Leave, Leave Loading, Long Service Leave, Sick Leave, Other Leave, Time in Lieu, Lump Sum, Allowance, Deduction, Advance, Tax, Net, On Cost. Select an option from the **ArrowDown**.|
 |**Accumulation Summary Type**|This field is used to group Accumulation Types together for processing by the system and for reporting.  This field is populated automatically depending on the Accumulation type selected in the previous field.  You cannot change this field.|
 |**Deduction Type**| This field is used only when the Accumulation Type = Deduction. The options are Deduction or Superannuation.  
 If the deduction is for Superannuation you must select Superannuation to include the deduction in all Superannuation reporting. Select an option from the **ArrowDown**.|
-|**P.S. YTD Accumulation Code**|This field is used for Pay Transaction Types that must accumulate and print on the Employee’s Payment Summary.  The accumulation code selected determines where the amount is printed on the Payment Summaries. If no Code is selected,
-the amount does not print on the Payment Summary. The ATO determines the Pay Transactions that must print on the Payment Summary
-See the “Year To Date Accumulations” section  for further information.|
+|**P.S. YTD Accumulation Code**|This field is used for Pay Transaction Types that must accumulate and print on the Employee’s Payment Summary.  The accumulation code selected determines where the amount is printed on the Payment Summaries. If no Code is selected, the amount does not print on the Payment Summary. The ATO determines the Pay Transactions that must print on the Payment Summary.  See the “Year To Date Accumulations” section  for further information.|
 |**Non-P.S. Accum. Code**|This field is similar to the PS. YTD Accumulation Code, except it is used to accumulate values that do not print on the Payment Summary. These accumulation codes can be used for reporting. See the “Year To Date Accumulations” section for further information.|
 |**Report Group**|This field is user defined and is used to group Pay Transaction Types for reporting purposes.|
 |**Blocked**|A checkmark in this field indicates that the Pay Transaction type can no longer be used.|
@@ -438,8 +435,7 @@ See the “Year To Date Accumulations” section  for further information.|
 |Field|Description|  
 |---------------------------------|---------------------------------------|  
 |**Rate Amount**|This field is used to apply a fixed rate to a Pay Transaction Type.  When a Rate is entered it is used as the default value. The value can be overridden at the Employee Level.  If this field is left blank the rate must be entered at the Employee Level or at the time of entering the Pay Journal.  The format used to enter this value is determined by the option selected in the “Rate Calculation Method” field.|
-|**Rate Conversion Factor**|This field determines the factor applied to the Rate Amount. 3 decimal places may be entered E.g. Transaction Type for Overtime at time and a half - the Rate Conversion Factor is 1.5. If the Pay Transaction Type is Leave Without
-Pay then the Rate Conversion factor is 0 (zero).|
+|**Rate Conversion Factor**|This field determines the factor applied to the Rate Amount. 3 decimal places may be entered E.g. Transaction Type for Overtime at time and a half - the Rate Conversion Factor is 1.5. If the Pay Transaction Type is Leave Without Pay then the Rate Conversion factor is 0 (zero).|
 |**Rate Calculation Method**|This field is used to select the type of rate used for the calculation (Percentage, Unit or Employee Pay Rate). E.g. Employee Pay Rate - the Pay Transaction Type uses the Employee’s Pay Rate setup on the Employee’s Payroll Employee card.  Units – Amount entered in the Payroll Employee card for Superannuation or a Deduction Percentage – SGC  9% = 0.09.|
 |**Calculation Base**|This field is used only for On Cost Pay Transaction Types.  Select the corresponding on cost accumulation code from the **ArrowDown**.|
 |**Deduction Basis**|The “Deduction Basis” field defines the calculation of a Deduction when setup as a % value.  The options are; Net Pay – this option will calculate the deduction based on the Net Pay.   Gross Income – this option will calculate the deduction based on the Gross Income. Taxable Gross Income – this option will calculate the deduction value based on the Taxable Income.|
@@ -461,12 +457,10 @@ Pay then the Rate Conversion factor is 0 (zero).|
 
 |Field|Description|  
 |---------------------------------|---------------------------------------|  
-|**Apply to Taxable Income**|This field is used to determine if the value calculated for this Pay Transaction Type is taxable.  Select this field to apply PAYG tax or leave this field blank for exempt transactions.  Note: Pre tax deductions for Salary Sacrifice must have
-this flag ticked to reduce the tax liability.  Leave this field blank for Post tax deductions.|
+|**Apply to Taxable Income**|This field is used to determine if the value calculated for this Pay Transaction Type is taxable.  Select this field to apply PAYG tax or leave this field blank for exempt transactions.  Note: Pre tax deductions for Salary Sacrifice must have this flag ticked to reduce the tax liability.  Leave this field blank for Post tax deductions.|
 |**Apply to Superannuation**|Select this field to indicate the PayTransaction Type is used in the calculation of percentage based Superannuation amounts.This field determines if the value of this Pay Transaction Type is to be included in the calculation and have SGC
 calculated.|
-|**Apply to Min. Salary Check**|Tick this field to include this Pay Transaction Type as part of the employee’s “ordinary time earnings”.
-The “ordinary time earnings” is used with the “Monthly Min. Earnings” field on “Payroll Setup - Superannuation” tab to determine if the employee has earned the minimum monthly pay to be eligible for Superannuation Guarantee Contributions.|
+|**Apply to Min. Salary Check**|Tick this field to include this Pay Transaction Type as part of the employee’s “ordinary time earnings”. The “ordinary time earnings” is used with the “Monthly Min. Earnings” field on “Payroll Setup - Superannuation” tab to determine if the employee has earned the minimum monthly pay to be eligible for Superannuation Guarantee Contributions.|
 |**Apply to Time In Lieu**|Tick this field to indicate if this Pay Transaction Type is used in the calculation of Time in Lieu.|
 |**Apply to Work Cover**|Tick this field to indicate if this transaction is to be part of Workers Compensation gross pay.  The gross value is used for the calculation of the Workers Compensation Rate contribution.|
 |**Apply to Hours Worked**|This field is used to determine if this Pay Transaction Type is applied to hours worked for the calculation of Leave accruals and Superannuation.|
