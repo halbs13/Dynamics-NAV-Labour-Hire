@@ -644,974 +644,154 @@ The current Tax Scale coefficients are provided when the Payroll granule is inst
 |**Name**|This is the Tax scale name assigned by the ATO.|
 
 3.  Click on the “Actions/Edit" if you wish to edit this tax scale OR Click on the “CLOSE” button to close this window.
-  
 
+4.  On the **General** FastTab of the **Tax Scale** window, review the fields as described in the following table.
+  
+|Field|Description|  
+|---------------------------------|---------------------------------------|  
+|**Type**|This field determines the type of tax applied.  The options available are: Standard, HELP, SFSS, HELP & SFSS.  When a value is selected the relevant coefficients are displayed.|
+|**Date Effective**|This is the date which the tax scales comes into effect.|
+|**No.**|This value is the tax scale number assigned by the ATO for the calculation of PAYG.|
+|**Name**|This is the Tax scale name assigned by the ATO.|
+|**Rounding Method**|This field displays the rounding method:  Pre-2000, Up, Down, Nearest.|
+  
+5.  On the **Tax Scale Subform** FastTab, reivew the fields as described in the following table.
 
+|Field|Description|  
+|---------------------------------|---------------------------------------|  
+|**Minimum Weekly Rate**|If an employee’s weekly earnings are less than this value the associated coefficients are applied.|
+|**Co-efficient A**|Multiplication coefficient supplied by the ATO.|
+|**Co-efficient B**|Subtraction coefficient supplied by the ATO.|
 
- 
+6.  On the **Medicare Levy Adjustment** FastTab, reivew the fields as described in the following table.
 
-2.14.2 
-“Edit – Tax Scale Card” window
+|Field|Description|  
+|---------------------------------|---------------------------------------|  
+|**MLA**|Each Tax scale requires fields for the MLA calculation for low-income earners. The entries are used to calculate the amount of MLA.  The MLA is applicable to low-income earners and employees with declared dependents who are paid on tax scale 2 or 6.  The calculated MLA amount is used to reduce the tax instalment. To receive a reduction in tax instalments the employee must complete a Medicare Levy Variation Declaration form obtained from the ATO (Ref: NAT 929-5.97)|
+|**Earnings Threshold**|This field is used to determine if an employee is eligible to receive the MLA.|
+|**Earnings Shade-In Threshold**|This field (ESIT) is used to determine if an employee is eligible to receive a MLA.|
+|**Medicare Levy Family Threshold**|This field is used to calculate the Weekly Family Threshold (WFT).  The WFT is used to determine if an employee is eligible to receive a MLA.|
+|**WFT Divisor**|This field is used in calculating the WFT.|
+|**SOP Divisor**|The “SOP Divisor” (Shade Out Point Divisor) is used in calculating the SOP.|
+|**WLA Factor**|The “WLA Factor” is used in calculating the MLA.|
+|**Medicare Levy**|This field is used in calculating the MLA.|
 
- 
+7.  Click on the **CLOSE** button to close this window.
 
+## To setup Payroll 
 
- 
-  
-   
-   Field Name
-   
-   
-   Description
-   
-  
- 
- 
-  
-  GENERAL FASTTAB – this tab is used to identify
-  the Tax Scale and the date the levy comes into effect.
-  
- 
- 
-  
-  Type
-  
-  
-  This field determines the type of tax
-  applied.  The options available are:
-  ·        
-  Standard
-  ·        
-  HELP
-  ·        
-  SFSS
-  ·        
-  HELP &
-  SFSS
-  When a value is selected the relevant coefficients
-  are displayed.
-  
- 
- 
-  
-  Date Effective
-  
-  
-  This is the date which the tax scales comes
-  into effect.
-  
- 
- 
-  
-  No.
-  
-  
-  This value is the tax scale number assigned by
-  the ATO for the calculation of PAYG.
-  
- 
- 
-  
-  Name
-  
-  
-  This is the Tax scale name assigned by the ATO.
-  
- 
- 
-  
-  Rounding Method
-  
-  
-  This field displays the rounding method:  Pre-2000, Up, Down, Nearest.
-  
- 
- 
-  
-  TAX SCALE SUBFORM FASTTAB 
-  
- 
- 
-  
-  Minimum Weekly Rate
-  
-  
-  If an employee’s weekly earnings are less than
-  this value the associated coefficients are applied.
-  
- 
- 
-  
-  Co-efficient A
-  
-  
-  Multiplication coefficient supplied by the ATO.
-  
- 
- 
-  
-  Co-efficient B
-  
-  
-  Subtraction coefficient supplied by the ATO.
-  
- 
- 
-  
-  MEDICARE LEVY ADJUSTMENT FASTTAB – the records
-  in the Medicare Adjustment tab are used to calculate the amount of Medicare
-  Levy Adjustment (MLA)
-  Each Tax scale requires fields for the MLA
-  calculation for low-income earners.
-  The entries are used to calculate the amount of
-  MLA.  The MLA is applicable to
-  lo-income earners and employees with declared dependents who are paid on tax
-  scale 2 or 6.  The calculated MLA amount
-  is used to reduce the tax instalment.
-  To receive a reduction in tax instalments the
-  employee must complete a Medicare Levy Variation Declaration form obtained
-  from the ATO (Ref: NAT 929-5.97)
-  
- 
- 
-  
-  Earnings Threshold
-  
-  
-  This field is used to determine if an employee
-  is eligible to receive the MLA.
-  
- 
- 
-  
-  Earnings Shade-In Threshold
-  
-  
-  This field (ESIT) is used to determine if an
-  employee is eligible to receive a MLA.
-  
- 
- 
-  
-  Medicare Levy Family Threshold
-  
-  
-  This field is used to calculate the Weekly
-  Family Threshold (WFT).  The WFT is
-  used to determine if an employee is eligible to receive a MLA.
-  
- 
- 
-  
-  WFT Divisor
-  
-  
-  This field is used in calculating the WFT.
-  
- 
- 
-  
-  SOP Multiplier
-  
-  
-  The “SOP Multiplier” (Shade Out Point
-  Multiplier) is used in calculating the SOP.
-  
- 
- 
-  
-  SOP Divisor
-  
-  
-  The “SOP Divisor” (Shade Out Point Divisor) is
-  used in calculating the SOP.
-  
- 
- 
-  
-  WLA Factor
-  
-  
-  The “WLA Factor” is used in calculating the
-  MLA.
-  
- 
- 
-  
-  Medicare Levy
-  
-  
-  This field is used in calculating the MLA.
-  
- 
- 
-  
-  Click on the “CLOSE”
-  button to close this window.
-  
- 
+The Payroll Card is used to maintain the Payrolls used to pay the employees.  Each employee is assigned to a specific Payroll in the Payroll Employee card.
 
+The parameters set up in Payrolls are the defaults applied to all employees assigned to that payroll.  The Pay Frequency and integration to the General Ledger and other Dynamics NAV granules is defined and activated.
 
- 
+When a new Payroll is created some fields are automatically populated from the Payroll Setup card and from Company Information in the General Ledger.  These fields may be overwritten.
 
-2.15   
-Payroll 
+When you setup a new Payroll you are prompted to create the new Payroll Tax Year.  To create the Payroll Tax Year you must enter
+the following information Pay frequency (weekly, fortnightly, 4 weekly, monthly or quarterly) The first pay period start date.  
 
-The
-Payroll Card is used to maintain the Payrolls used to pay the employees.  Each employee is assigned to a specific
-Payroll in the Payroll Employee card.
+**Note: The pay period start date, is not necessarily the 1st June.  The Payroll Tax Year can be setup at any time prior to running the first payroll.**
 
-The
-parameters set up in Payrolls are the defaults applied to all employees
-assigned to that payroll.  The Pay
-Frequency and integration to the General Ledger and other Navision Granules is
-defined and activated.
+1.  To access the Payroll Card, go to the following menu: *Departments/Payroll/Setup/Payroll Setup/ General/Payroll*
 
-When a
-new Payroll is created some fields are automatically populated from the Payroll
-Setup card and from Company Information in the General Ledger.  These fields may be overwritten.
+2.  The **Payroll List** window contains the following fields as described in the following table.
+  
+|Field|Description|  
+|---------------------------------|---------------------------------------|  
+|**No.**|This field is used to identify this Payroll throughout the Payroll Granule. You can type the name of the Payroll that you wish to use or select a number from the Payroll Number Series by selecting the **ArrowDown**.|
+|**Group Account No.**|The Group Account No. field will display the information as entered into the Payroll card.|
+|**Company Name**|The Company Name field will display the Company Name of the Payroll you are viewing.|
+|**Ship-To Contact**|The Ship-To Contact will display the contact of the Payroll you are viewing.|
+|**Company Phone No.**|The Company Phone No. will display the information as entered on the Payroll card.|
 
-When you
-setup a new Payroll you are prompted to create the new Payroll Tax Year.  To create the Payroll Tax Year you must enter
-the following information 
+3.  Click on the “Actions/Edit” if you wish to edit this Payroll, Click on the “Periods” Button if you wish to view/edit the Pay Periods associated to this Payroll, OR Click on the “CLOSE” button to close this window.
 
-Pay frequency
-(weekly, fortnightly, 4 weekly, monthly or quarterly) The first pay
-period start date.  Note: The
-pay period start date, is not necessarily the 1st June.  The Payroll Tax Year can be setup at any time
-prior to running the first payroll.  To access the Payroll Card, go to the following
-menu:
+4.  To create a new record, click on the **New** button.
 
+5.  On the **General** FastTab, fill the fields as described in the following table.
 
+|Field|Description|  
+|---------------------------------|---------------------------------------| 
+|**No.**|This field is used to identify this Payroll throughout the Payroll Granule. You can type the name of the Payroll that you wish to use or select a number from the Payroll Number Series by selecting the **ArrowDown**.|
+|**Company Name**|The contents of the Name and Address fields are printed on documents including Payment Summaries and must be entered.  This field populates from the Company setup in the General ledger.  You can over type the Company Name if you wish.|
+|**Company Name 2**|The “Company Name 2” is used to extend the “Company Name” when a longer name is required.|
+|**Company Address 1**|The “Company Address” holds line one of the company addresses.|
+|**Company Address 2**|The “Company Address 2” holds line two of the company address.|
+|**Company Post Code**|The “Company Post Code/City” is used to store the postcode and city.  You may enter the postcode or select it from the “ArrowDown”. If the postcode exists in the Post Code table the City field is populated to the city associated with the postcode. If no value appears in the City field the postcode does not exist in the table and you must add the postcode and its City to the Post Code table.|
+|**Company City**|The “Company Post Code/City” is used to store the postcode and city.  You may enter the postcode or select it from the “ArrowDown”.  If the postcode exists in the Post Code table the City field is populated to the city associated with the postcode.  If no value appears in the City field the postcode does not exist in the table and you must add the postcode and its City to the Post Code table.|
+|**Company Country Code**|The “Company Country Code” must be selected from the **ArrowDown**.|
+|**Group Account No.:**|The “Group Account No.” is the current active PAYG Group Number allocated to the Employer by the Australian Taxation Office (ATO).|
+|**Company A.B.N.:**|The “Company A.B.N.” is the Australian Business Number.|
+|**Registered Name**|The “Registered Name” is the registered name for this company.|
+|**Registered Name 2**|The “Registered Name 2” is used to extend the “Registered Name” when a longer name is required.|
+|**Company Division Part No.**|This field is used to enter in the Company Division Part No. of this company forms part of a Group.|
+  
+6.  On the **Communications** FastTab, fill the fields as described in the following table.
 
+|Field|Description|  
+|---------------------------------|---------------------------------------| 
+|**Company Phone No.**|The “Company Phone No.” is the Company’s telephone number.  Use a standard format for the telephone number so that it will look uniform on printouts.|
+|**Company Fax No.**|The “Company Fax No.” is the Company's fax number.  Use a standard format to enter the fax Number so that it will look uniform on printouts.|
+|**Company Email**|The “Company E-Mail” is the Company's E-Mail address. When your program is integrated with an E-Mail system, you can click the button located next to the field to create and send messages.  If you have entered an address in the E-Mail field, the program automatically fills in this address in the ‘To’. Field.|
+|**Contact Person**|Enter the name of the person to contact in relation to this payroll.|
+|**Contact Phone No.**|Enter the telephone number of the Contact Person.|
 
+7.  On the **Shipping** FastTab, fill the fields as described in the following table.
 
+|Field|Description|  
+|---------------------------------|---------------------------------------| 
+|**Ship-To Contact**|Enter the name of the person to send mail to for this payroll.|
+|**Ship-to Address**|Enter the address items are sent for this payroll.|
+|**Ship-To Address 2**|Line two of the “Ship To Address”.|
+|**|Ship-To Post Code**|The “Ship to Post Code” is used to store the postcode.  You may enter the postcode or select it from the **ArrowDown**. If the postcode exists in the Post Code table the City field is populated to the city associated with the postcode.  If no value appears in the City field the postcode does not exist in the table and you must add the postcode and its City to the Post Code table.|
+|**Ship-To Country/Region Code**|You must select a Country from the list using the **ArrowDown**.|
 
+8.  On the **Integration** FastTab, fill the fields as described in the following table.
 
-Departments/Payroll/Setup/Payroll Setup/ General/Payroll
+|Field|Description|  
+|---------------------------------|---------------------------------------| 
+|**G/L Integration**|A checkmark in this field indicates that integration to the General Ledger granule. An example of where you might use this is when you want to post entries into the General Ledger.|
+|**Job Cost Integration**|A checkmark in this field indicates integration into the Jobs granule. An example of where you might use this is when you want to post entries into the Jobs where job information is entered into the Pay Journal.|
+|**Customer Integration**|A checkmark in this field indicates integration into the Sales & Receivables granule. An example of where you might use this is when you want to post entries to Customers if your employee is setup as a customer.|
+|**Vendor Integration**|A checkmark in this field indicates integration into the Purchase & Payables granule.  An example of where you might use this is when you want to post deduction entries to a Vendor when posting the pay journal.|
+|**Create Vendor Invs. For Super**|A checkmark in this field indicates to post unpaid invoices to the Purchase & Payables granule.  This field is available only when Vendor Integration has been ticked. An example of this is Superannuation deductions, Health and Union deductions.|
+|**Payroll Posting Group**|Enter or select the posting group for this payroll by selecting the **ArrowDown**. Payroll Posting Groups are used to help define the General Ledger Account Number to post payroll transactions against. See [Payroll Posting Setup](#to-setup-payroll-posting-setup).|
+|**Journal Template Name**|This field defines the journal template used to process Employee Pays.  This field must be selected from previously defined templates.  Select the “ArrowDown” in the field to select the Journal Template Name.|
+|**Journal Batch Name**|This field defines the journal batch used to process Employee Pays.  This field must be selected from previously defined batches.  Select the **ArrowDown** in the field to select the Journal Batch Name.|
+|**Gen. Bus. Posting Group**|This field is used to define the General Business Posting Group for posting GST amounts.  This field may be left blank if your organisation is not calculating GST components in Payroll.|
+|**GST Bus. Posting Group**|This field is used to define the GST Business Posting Group for posting the GST component.  This field may be left blank if your organisation is not calculating GST components in Payroll.|
+|**Currency Code**|This field is used to identify the currency for this payroll for reporting purposes only. This field may be left blank if your organisation does not use multiple currencies.|
 
+9.  On the **Pay Periods** FastTab, review the fields as described in the following table.
 
+|Field|Description|  
+|---------------------------------|---------------------------------------| 
+|**Pay Period Frequency**|This field defines the frequency for this  Payroll.  Select from the following options: Weekly, Fortnightly, 4 Weekly, Monthly, and  Quarterly.|
+|**No. Pays Per Year**|This field is used to define the number of Pay Periods in the Payroll Tax Year for this Payroll.|
+|**No. Tax Weeks per Pay Run**|This field defaults based upon the “No. Pays Per Year” (E.g. 52 weekly = 1 tax week, 12 monthly = 4.3333 tax weeks, 13 4-weekly = 4 tax weeks).|
+|**Tax Year**|This field indicates the current tax year.|
+|**Period No.**|This field is updated by the system each time you close a Pay Period. It indicates the current Pay Period and is automatically reset to 1 after the last Pay Period is closed for the Payroll Tax Year.|
+|**Period End Date**|This field is displayed on Reports and is used to validate the dates entered are within the current period.|
+|**Previous Period End Date**|This field is transferred from the current “Period End Date” when End Of Period Processing is run.  These two dates determine the number of days in the period for Leave Entitlement.|
 
-2.15.1 
-“View – Payroll List” window
+10.  On the **Options** FastTab, fill the fields as described in the following table.
 
- 
-
-
- 
-  
-   
-   Field Name
-   
-   
-   Description
-   
-  
- 
- 
-  
-  To create a new record, click on the “New” button.
-  
- 
- 
-  
-  No.
-  
-  
-  This field is used
-  to identify this Payroll throughout the Payroll Granule. You can type the
-  name of the Payroll that you wish to use or select a number from the Payroll
-  Number Series by selecting the “ArrowDown”.
-  
- 
- 
-  
-  Group Account No.
-  
-  
-  The Group Account No. field will display the
-  information as entered into the Payroll card.
-  
- 
- 
-  
-  Company Name
-  
-  
-  The Company Name field will display the Company
-  Name of the Payroll you are viewing.
-  
- 
- 
-  
-  Ship-To Contact
-  
-  
-  The Ship-To Contact will display the contact of
-  the Payroll you are viewing.
-  
- 
- 
-  
-  Company Phone No.
-  
-  
-  The Company Phone No. will display the
-  information as entered on the Payroll card.
-  
- 
- 
-  
-  Click on the “Actions/Edit”
-  if you wish to edit this Payroll,
-  Click on the “Periods”
-  Button if you wish to view/edit the Pay Periods associated to this Payroll,
-  OR
-  Click on the “CLOSE”
-  button to close this window.
-  
- 
-
-
- 
-
-
-
-2.15.2 
-“Edit – Payroll Card” window
-
- 
-
-
- 
-  
-   
-   Field Name
-   
-   
-   Description
-   
-  
- 
- 
-  
-  GENERAL FASTTAB – 
-  
- 
- 
-  
-  No.
-  
-  
-  This field is used
-  to identify this Payroll throughout the Payroll Granule. You can type the
-  name of the Payroll that you wish to use or select a number from the Payroll
-  Number Series by selecting the “ArrowDown”.
-  
- 
- 
-  
-  Company Name
-  
-  
-  The contents of the Name and Address fields are
-  printed on documents including Payment Summaries and must be entered.  This field populates from the Company setup
-  in the General ledger.  You can over
-  type the Company Name if you wish
-  
- 
- 
-  
-  Company Name 2
-  
-  
-  The “Company Name 2” is used to extend the
-  “Company Name” when a longer name is required.
-  
- 
- 
-  
-  Company Address 1
-  
-  
-  The “Company Address” holds line one of the
-  company addresses.
-  
- 
- 
-  
-  Company Address 2
-  
-  
-  The “Company Address 2” holds line two of the
-  company address.
-  
- 
- 
-  
-  Company Post Code
-  
-  
-  The “Company Post
-  Code/City” is used to store the postcode and city. 
-  You may enter the postcode or select it from the “ArrowDown”. 
-  If the postcode exists in the Post Code table the City field is populated to
-  the city associated with the postcode.
-  If no value appears in the City field the postcode does not exist in the
-  table and you must add the postcode and its City to the Post Code table.
-  
- 
- 
-  
-  Company City
-  
-  
-  The “Company Post
-  Code/City” is used to store the postcode and city. 
-  You may enter the postcode or select it from the “ArrowDown”. 
-  If the postcode exists in the Post Code table the City field is populated to
-  the city associated with the postcode.
-  If no value appears in the City field the postcode does not exist in the
-  table and you must add the postcode and its City to the Post Code table.
-  
- 
- 
-  
-  Company Country Code
-  
-  
-  The “Company
-  Country Code” must be selected from the “ArrowDown”.
-  
- 
- 
-  
-  Group Account No.:
-  
-  
-  The “Group Account No.” is the current active
-  PAYG Group Number allocated to the Employer by the Australian Taxation Office
-  (ATO).
-  
- 
- 
-  
-  Company A.B.N.:
-  
-  
-  The “Company A.B.N.” is the Australian Business
-  Number
-  
- 
- 
-  
-  Registered Name
-  
-  
-  The “Registered Name” is the registered name
-  for this company.
-  
- 
- 
-  
-  Registered Name 2
-  
-  
-  The “Registered Name 2” is used to extend the
-  “Registered Name” when a longer name is required.
-  
- 
- 
-  
-  Company Division Part No.
-  
-  
-  This field is used to enter in the Company
-  Division Part No. of this company forms part of a Group.  
-  
- 
- 
-  
-  COMMUNICATION FASTTAB – the fields contained on
-  this FastTab are used when producing the Payment Summaries and Electronic
-  Transfer File for the ATO at the end of the Taxation year.
-  
- 
- 
-  
-  Company Phone No.
-  
-  
-  The “Company Phone No.” is the Company’s
-  telephone number.  Use a standard
-  format for the telephone number so that it will look uniform on printouts.
-  
- 
- 
-  
-  Company Fax No.
-  
-  
-  The “Company Fax No.” is the Company's fax
-  number.  Use a standard format to enter
-  the fax Number so that it will look uniform on printouts.
-  
- 
- 
-  
-  Company Email
-  
-  
-  The “Company E-Mail” is the Company's E-Mail
-  address.
-  When your program is integrated with an E-Mail
-  system, you can click the button located next to the field to create and send
-  messages.  If you have entered an
-  address in the E-Mail field, the program automatically fills in this address
-  in the ‘To’. Field.
-  
-  
- 
- 
-  
-  Contact Person
-  
-  
-  Enter the name of the person to contact in
-  relation to this payroll.
-  
- 
- 
-  
-  Contact Phone No.
-  
-  
-  Enter the telephone number of the Contact
-  Person.
-  
- 
- 
-  
-  SHIPPING FASTTAB
-  
- 
- 
-  
-  Ship-To Contact
-  
-  
-  Enter the name of the person to send mail to
-  for this payroll.
-  
- 
- 
-  
-  Sip-To Address 1
-  
-  
-  Enter the address items are sent for this
-  payroll.
-  
- 
- 
-  
-  Ship-To Address 2
-  
-  
-  Line two of the “Ship To Address”.
-  
- 
- 
-  
-  Ship-To Post Code
-  
-  
-  The “Ship to Post
-  Code” is used to store the postcode. 
-  You may enter the postcode or select it from the “ArrowDown”. 
-  If the postcode exists in the Post Code table the City field is populated to
-  the city associated with the postcode.
-  If no value appears in the City field the postcode does not exist in the
-  table and you must add the postcode and its City to the Post Code table.
-  
- 
- 
-  
-  Ship-To Country/Region Code
-  
-  
-  You must select a
-  Country from the list using the “ArrowDown”.
-  
- 
- 
-  
-  INTEGRATION FASTTAB- this tab is used to
-  integrate the Payroll module with the Financial Management granule
-  
- 
- 
-  
-  G/L Integration
-  
-  
-  A checkmark in this field indicates that
-  integration to the General Ledger granule.
-  An example of where you might use this is when
-  you want to post entries into the General Ledger.
-  
- 
- 
-  
-  Job Cost Integration
-  
-  
-  A checkmark in this field indicates integration
-  into the Jobs granule.
-  An example of where you might use this is when
-  you want to post entries into the Jobs where job information is entered into
-  the Pay Journal.
-  
- 
- 
-  
-  Customer Integration
-  
-  
-  A checkmark in this field indicates integration
-  into the Sales & Receivables granule.
-  An example of where you might use this is when
-  you want to post entries to Customers if your employee is setup as a
-  customer.
-  
- 
- 
-  
-  Vendor Integration
-  
-  
-  A checkmark in this field indicates integration
-  into the Purchase & Payables granule.
-  An example of where you might use this is when
-  you want to post deduction entries to a Vendor when posting the pay journal.
-  
- 
- 
-  
-  Create Vendor Invs. For Super
-  
-  
-  A checkmark in this field indicates to post
-  unpaid invoices to the Purchase & Payables granule.  This field is available only when Vendor
-  Integration has been ticked.
-  An example of this is Superannuation
-  deductions, Health and Union deductions.
-  
- 
- 
-  
-  Payroll Posting Group
-  
-  
-  Enter or select the
-  posting group for this payroll by selecting the “ArrowDown”.
-  Payroll Posting Groups are used to help define the General Ledger Account
-  Number to post payroll transactions against.
-  See “Payroll Posting Setup”
-  
- 
- 
-  
-  Journal Template Name
-  
-  
-  This field defines
-  the journal template used to process Employee Pays.  This field must be
-  selected from previously defined templates.  Select the “ArrowDown” in the field to select the Journal Template Name.
-  
- 
- 
-  
-  Journal Batch Name
-  
-  
-  This field defines
-  the journal batch used to process Employee Pays.  This field must be
-  selected from previously defined batches.  Select the “ArrowDown” in the field to select the Journal Batch Name.
-  
- 
- 
-  
-  Gen. Bus. Posting Group
-  
-  
-  This field is used to define the General
-  Business Posting Group for posting GST amounts.  This field may be left blank if your
-  organisation is not calculating GST components in Payroll.
-  
- 
- 
-  
-  GST Bus. Posting Group
-  
-  
-  This field is used to define the GST Business
-  Posting Group for posting the GST component. 
-  This field may be left blank if your organisation is not calculating
-  GST components in Payroll.
-  
- 
- 
-  
-  Currency Code
-  
-  
-  This field is used to identify the currency for
-  this payroll for reporting purposes only. 
-  
-  This field may be left blank if your
-  organisation does not use multiple currencies.
-  
- 
- 
-  
-  PAY PERIODS FASTTAB – this field is used for
-  viewing purposes only.  The “No. Pays
-  Per Year Actual” and “No. Tax Weeks Per Pay Period” are populated when the
-  Payroll Tax Year is created.  They can be
-  changed if required.
-  
- 
- 
-  
-  Pay Period Frequency
-  
-  
-  This field defines the frequency for this
-  Payroll.  Select from the following
-  options: 
-  Weekly, Fortnightly, 4 Weekly, Monthly, and
-  Quarterly.  
-  
- 
- 
-  
-  No. Pays Per Year
-  
-  
-  This field is used to define the number of Pay
-  Periods in the Payroll Tax Year for this Payroll
-  
- 
- 
-  
-  No. Tax Weeks per Pay Run
-  
-  
-  This field defaults based upon the “No. Pays
-  Per Year” (E.g. 52 weekly = 1 tax week, 12 monthly = 4.3333 tax weeks, 13
-  4-weekly = 4 tax weeks).
-  
- 
- 
-  
-  Tax Year
-  
-  
-  This field indicates the current tax year.
-  
- 
- 
-  
-  Period No.
-  
-  
-  This field is updated by the system each time
-  you close a Pay Period.
-  It indicates the current Pay Period and is
-  automatically reset to 1 after the last Pay Period is closed for the Payroll
-  Tax Year
-  
- 
- 
-  
-  Period End Date
-  
-  
-  This field is displayed on Reports and is used
-  to validate the dates entered are within the current period.
-  
- 
- 
-  
-  Previous Period End Date
-  
-  
-  This field is transferred from the current
-  “Period End Date” when End Of Period Processing is run.  These two dates determine the number of
-  days in the period for Leave Entitlement.
-  
- 
- 
-  
-  OPTIONS FASTTAB
-  
- 
- 
-  
-  Printer Name
-  
-  
-  This field is used
-  to select a default Printer when a different printer is required to print
-  payroll documents from your default windows printer 
-  When a different printer is required  you must select a Printer
-   previously set up in the Windows Printer table.  Select the
-  Printer from the “ArrowDown”.
-  
- 
- 
-  
-  Max. Overtime Before Warning
-  
-  
-  This field is used to set the maximum allowed
-  before a warning is triggered on the Payroll “Entry Validation” report.
-  
- 
- 
-  
-  Max. Worked Before Warning
-  
-  
-  This field is used to set the maximum allowed
-  before a warning is triggered on the Payroll “Entry Validation” report.
-  
- 
- 
-  
-  Max. Pay Value Before Warning
-  
-  
-  This field is used to set the maximum allowed
-  before a warning is triggered on the Payroll “Entry Validation” report.
-  
- 
- 
-  
-  Max. Leave Days Before Warning
-  
-  
-  This field is used to set the maximum allowed
-  before a warning is triggered on the Payroll “Entry Validation” report.
-  
- 
- 
-  
-  Net Pays by Cash Denomination
-  
-  
-  When using Cash to pay your employees tick this
-  field to round Net Pay amounts that cannot be made up of the lowest
-  denomination to be applied to tax. 
-  This is the default when the employee is paid in cash.
-  
- 
- 
-  
-  Round Net If Tax Applicable
-  
-  
-  This field is ticked only when the Net Pay is
-  rounded, using “Net Pays by Cash Denomination”, if the employee pays tax.
-  
- 
- 
-  
-  Employer Super. Rounding 
-  
-  
-  This field is used to nominate the rounding
-  amount.  The default is 1 cent.
-  
- 
- 
-  
-  Employee Super. Rounding
-  
-  
-  This field is used to nominate the rounding
-  amount.  The default is 1 cent.
-  
- 
- 
-  
-  Show Leave as Hours
-  
-  
-  Ticked this field to show the employees leave
-  balances in hours on the employee’s pay advice.  
-  By default the system calculates employee leave
-  accruals and entitlements in days.
-  
- 
- 
-  
-  Validation Not Required
-  
-  
-  Leave this field blank to force the User to run
-  the Entry Validation report prior to posting the Payroll Batch.  (This option is Recommended).  Errors reported must be corrected before the
-  batch will post.
-  Tick this field to allow posting without
-  running the “Entry Validation Report”
-  
- 
- 
-  
-  ATO Supplier Number
-  
-  
-  This field is populated from the Payroll Setup
-  card You can override the field if required. 
-  This field is used to display the registered number from the ATO and
-  is required when submitting electronic data to the ATO.  This is either your ABN or withholding
-  payer number (WPN). If you are reporting via the internet using ECI, only a
-  valid ABN will be accepted in the supplier number field and it must match the
-  ABN provided on the digital certificate. If reporting via magnetic media,
-  either an ABN or WPN will be accepted.
-  
- 
- 
-  
-  Minimum Net Salary
-  
-  
-  This field defines the minimum net salary an
-  employee on this payroll must be paid before deductions are deducted from
-  their pay.  
-  If the deductions bring the value of their net
-  pay below the Minimum Net Salary the deduction is not deducted.
-  
- 
- 
-  
-  Payroll Tax Code
-  
-  
-  This field defines the code used to calculate
-  Payroll Tax for this payroll.  This
-  field can be left blank.  Payroll Tax
-  can be defined at the employee level by indicating the Branch associated with
-  the Payroll Tax code.
-  
- 
- 
-  
-  Dissections for Pay Advice >1
-  
-  
-  You can produce more than 1 pay advice for an
+|Field|Description|  
+|---------------------------------|---------------------------------------| 
+|**Printer Name**|This field is used to select a default Printer when a different printer is required to print payroll documents from your default windows printer.  When a different printer is required  you must select a Printer previously set up in the Windows Printer table.  Select the Printer from the **ArrowDown**.|
+|**Max. Overtime Before Warning**|This field is used to set the maximum allowed before a warning is triggered on the Payroll “Entry Validation” report.|
+|**Max. Worked Before Warning**|This field is used to set the maximum allowed before a warning is triggered on the Payroll “Entry Validation” report.|
+|**Max. Pay Value Before Warning**|This field is used to set the maximum allowed before a warning is triggered on the Payroll “Entry Validation” report.|
+|**Max. Leave Days Before Warning**|This field is used to set the maximum allowed before a warning is triggered on the Payroll “Entry Validation” report.|
+|**Net Pays by Cash Denomination**|When using Cash to pay your employees tick this field to round Net Pay amounts that cannot be made up of the lowest denomination to be applied to tax.  This is the default when the employee is paid in cash.|
+|**Round Net If Tax Applicable**|This field is ticked only when the Net Pay is rounded, using “Net Pays by Cash Denomination”, if the employee pays tax.|
+|**Employer Super. Rounding**|This field is used to nominate the rounding amount.  The default is 1 cent.|
+|**Employee Super. Rounding**|This field is used to nominate the rounding amount.  The default is 1 cent.|
+|**Show Leave as Hours**|Ticked this field to show the employees leave balances in hours on the employee’s pay advice. By default the system calculates employee leave accruals and entitlements in days.|
+|**Validation Not Required**|Leave this field blank to force the User to run the Entry Validation report prior to posting the Payroll Batch.  (This option is Recommended).  Errors reported must be corrected before the batch will post. Tick this field to allow posting without running the “Entry Validation Report”.|
+|**ATO Supplier Number**|This field is populated from the Payroll Setup card You can override the field if required. This field is used to display the registered number from the ATO and is required when submitting electronic data to the ATO.  This is either your ABN or withholding payer number (WPN). If you are reporting via the internet using ECI, only a valid ABN will be accepted in the supplier number field and it must match the ABN provided on the digital certificate. If reporting via magnetic media, either an ABN or WPN will be accepted.|
+|**Minimum Net Salary**|This field defines the minimum net salary an employee on this payroll must be paid before deductions are deducted from their pay.  If the deductions bring the value of their net pay below the Minimum Net Salary the deduction is not deducted.|
+|**Payroll Tax Code**|This field defines the code used to calculate Payroll Tax for this payroll.  This field can be left blank.  Payroll Tax can be defined at the employee level by indicating the Branch associated with the Payroll Tax code.|
+|**Dissections for Pay Advice >1**|You can produce more than 1 pay advice for an
   employee in the current pay period to pay terminations payments, bonus’s,
   adjustments etc. 
   The employee’s bank account dissections are
