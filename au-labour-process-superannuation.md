@@ -19,7 +19,7 @@ The activities discussed are: 
    - [Calculate Monthly Superannuation](#calculate-monthly-superannuation)
    - [Calculate and Post Superannuation](#calculate-and-post-superannuation)
    - [Superannuation Report](#superannuation-report)
-   - Superannuation Adjustments
+   - [SuperStream Payment Requirements](#superstream-payment-requirements)
       
 ## Superannuation Overview
 
@@ -79,6 +79,8 @@ SGC % changes.
 
 5.  Click **OK** once you have completed your selection.
 
+[GoToTop](#introduction)
+
 ## Calculate Monthly Superannuation
 
 This option isused to create monthly superannuation transactions to post to the General Ledger. 
@@ -133,6 +135,8 @@ This process must be run after the “Calculate Monthly Superannuation” proces
 3.  If you wish to preview the report to screen, you should ensure that you click **Report Only** and then click **Preview**.
 
 4.  If you wish to create Superannuation Ledger Entries, you should ensure that **Report Only is NOT TICKED and print the report**. You can send the report to a printer or save as a pdf, click **Print** and select the relevant option.
+
+[GoToTop](#introduction)
 
 ## Superannuation Report
 
