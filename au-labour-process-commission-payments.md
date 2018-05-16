@@ -16,36 +16,38 @@ sections:
 Account Managers must be set up in the Sales
 & Marketing granule. 
 
-To access the salespeople records go to:
+1.  To access the salespeople records go to: *Departments/Sales & Marketing/Sales/Salespeople*
 
-*Departments/Sales & Marketing/Sales/Salespeople*
+2.  To add a new record, click on the **New** icon.
 
-To add a new record, click on the “New” icon.
+3.  On the **General** FastTab, fill the fields as described in the following table.
 
 |Field Name|Description|
 |----------------------------------------------|----------------------------------|
-|**GENERAL FASTTAB**||
 |**Code**|Enter in a unique identifier.  The format can be alpha or numeric, or a combination of both.|
 |**Name**|Enter in the name of the Account Manager|
 |**Initials**|Enter in the Initials of the Account Manager|
 |**Job Title**|Enter in the Job Title of the Account Manager|
 |**Commission %**|The commission percentage is not used at this level|
 |**Phone No.**|Record the phone number if applicable|
-|**Email**|Record the Email address if applicable|  
-|**INVOICING FASTTAB**|| 
-|**Global Dimension 1**|This field is used to select the Global Dimension 1 Code. |
-||Select the Global Dimension 1 Code from the “ArrowDown”.|
-|**Global Dimension 2**|This field is used to select the Global Dimension 2 Code.|
-||Select the Global Dimension 2 Code from the “ArrowDown”.| 
+|**Email**|Record the Email address if applicable|
+
+4.  On the **Invoicing** FastTab, fill the fields as described in the following table.
+
+|Field Name|Description|
+|------------------------------------|-------------------------------------------------------|
+|**Global Dimension 1**|This field is used to select the Global Dimension 1 Code. Select the Global Dimension 1 Code from the **ArrowDown**.|
+|**Global Dimension 2**|This field is used to select the Global Dimension 2 Code.  Select the Global Dimension 2 Code from the **ArrowDown**.| 
 
 [GoToTop](#how-to-setup-commissions)
 
 # Commission Plans
  
 When Account Managers are set up during initial implementation or as new Account Managers are hired they will need to have a Commission Plan selected.  The values found in this table will tell the Commission calculation program how to calculate commission for this Account Manager.
-To access the Commission Plans table, go to:
 
-*Departments/Labour Hire/End of Period Processing/Commission Processing/Commission Plans*
+1.  To access the Commission Plans table, go to: *Departments/Labour Hire/End of Period Processing/Commission Processing/Commission Plans*
+
+2.  Fill the fields as described in the following table.
 
 |Field Name|Description|
 |----------------------------------------------|----------------------------------|
@@ -71,14 +73,12 @@ To access the Commission Plans table, go to:
        
 ## Report Selection Criteria
 
-To run the Commission Summary Report go to:
+1.  To run the Commission Summary Report go to: *Departments/Labour Hire/End of Period Processing/Commission Processing/Commission Summary Report*
 
-*Departments/Labour Hire/End of Period
-Processing/Commission Processing/Commission Summary Report*
+2.  On the **Salesperson/Purchase** FastTab, fill the fields as described in the following table.
 
 |Field Name|Description|
 |-------------------------------------|---------------------------------------------------|
-|**SALESPERSON/PURCHASE FASTTAB**|
 |**Code**|Select and Account Manager or leave it blank to run for all Account Managers|  
 |When you have completed your selection, you can either click “Print” to send the report to a printer or “Preview” to view the report to the screen.|
  
@@ -183,31 +183,22 @@ The information contained in the lower section is as follows:
 |NSW|OPTUS|3046.40|51.22|3097.62|
 |Totals||4046.40|4304.56|8350.96|
 
-To enable the breakup of amounts required in
-the second section of the report above, we will need to capture department and
-project for each transaction being included in the calculation and then split
-the end commission values accordingly.
+To enable the breakup of amounts required in the second section of the report above, we will need to capture department and
+project for each transaction being included in the calculation and then split the end commission values accordingly.
 
-For example if the base contracting
-transactions were split between Optus – 38%, IBM – 27.5% and General – 34.5%
-and the commission calculated for an account manager for contract transactions
-was $5000 then this total amount will be split accordingly between the three
+For example if the base contracting transactions were split between Optus – 38%, IBM – 27.5% and General – 34.5% and the commission calculated for an account manager for contract transactions was $5000 then this total amount will be split accordingly between the three
 projects.
 
 [GoToTop](#how-to-setup-commissions) 
 
 ### Account Manager Audit Report
 
-The second report that is printed for each
-Account Manager is the audit or detailed report that shows all of the
-transactions that his/her commission has been calculated on for the period.
+The second report that is printed for each Account Manager is the audit or detailed report that shows all of the transactions that his/her commission has been calculated on for the period.
 
-The report is formatted in 2 sections, the
-first is the Temp Contractor details and the second is the Permanent Placement
+The report is formatted in 2 sections, the first is the Temp Contractor details and the second is the Permanent Placement
 details.
 
-The following information will be shown for
-the Contractor Details section:
+The following information will be shown for the Contractor Details section:
 
 - Period of Calculation
 - Account Manager Name
@@ -248,35 +239,3 @@ The Permanent Placement Section includes the following:
 
 
 [GoToTop](#how-to-setup-commissions)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
