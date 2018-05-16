@@ -526,7 +526,7 @@ This function is used to allocate on cost accumulators to this Pay Transaction T
 
 2.  Click on the **OK** button after you have completed your selection.
 
-## Payroll Posting Group
+## To setup Payroll Posting Group
 
 Payroll Posting Groups define the Bank Account to pay the employee from for the payroll.  They are also used to determine the General Ledger accounts used for posting.
 
@@ -547,7 +547,7 @@ Posting Groups*
   
 The “Setup” button opens the “Payroll Posting Setup”.  The Payroll Posting Setup is specific to the selected Payroll Posting Group on this nested form.
 
-## Transaction Posting Groups
+## To setup Transaction Posting Groups
 
 Transaction Posting Groups are used to determine the General Ledger accounts used for posting.  Each Pay Transaction Type is assigned to a Transaction Posting Group. Together with Payroll Posting Groups, Branch and Divisions you can direct transaction to post to different GL accounts.
 
@@ -565,7 +565,7 @@ Setup/Transaction Posting Group*
 
 The “Setup” button opens the “Payroll Posting Setup”.  The Payroll Posting Setup is specific to the selected Payroll Posting Group on this nested form.
 
-## Payroll Posting Setup
+## To setup Payroll Posting Setup
 
 The Payroll Posting Setup card is used to post to specific GL Accounts in the General Ledger granule.  
 
@@ -597,7 +597,7 @@ Setup/Payroll Posting Setup*
 
 3.  Click on the **OK** button after you have completed your selection.
 
-## YTD Accumulators
+## To setup YTD Accumulators
 
 YTD accumulators, accumulate YTD values for Gross, Tax, Lump Sums, Allowances and Deductions.  The values accumulated are
 then used to print Payment Summaries, Pay Advices, and reports.  The YTD Accumulator codes are assigned to Pay Transaction Types.  A Pay Transaction Type can have only one YTD accumulator at any one time. 
@@ -625,7 +625,7 @@ Accumulations*
 
 3.  Click on the **OK** button after you have completed your selection.
   
-## Tax Scales
+## To setup Tax Scales
 
 The Tax Scales card displays the coefficients used to calculate employee PAYG tax determined by the Australian Taxation Office (ATO).  The full details can be obtained from the ATO.
 
