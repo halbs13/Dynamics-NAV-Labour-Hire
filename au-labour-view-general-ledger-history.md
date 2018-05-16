@@ -2,9 +2,6 @@
 
 General Ledger records can be viewed in various forms.  This section outlines some of the regularly used methods.
 
-
-# GENERAL LEDGER RECORDS
-
 After Payroll and Invoice transactions have been posted, information can be viewed from within the General Ledger by;
 - Account, 
 - Date, 
