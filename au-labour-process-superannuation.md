@@ -201,12 +201,12 @@ An export has been created to allow for New Member information to be remitted to
 
 There are 5 Superannuation Payment File options:
 
-- Generic
-- ClickSuper
-- SuperChoice
-- SunSuper
-- SuperStream Alternative
-- Quick Super
+- [Generic](#generic-payment-format)
+- [ClickSuper](#clicksuper-payment-format)
+- [SuperChoice](#superchoice-payment-format)
+- [SunSuper](#sunsuper-payment-format)
+- [SuperStream Alternative](#superstream-alternative-payment-format)
+- [Quick Super](#quicksuper-payment-format)
 
 1.  To open the Superannuation Payments module; *Department/Payroll/Periodic Activities/Superannuation/Superannuation Payments*
 
@@ -297,7 +297,7 @@ The Super Payment Export &Notification Report flags the Employee Superannuation 
 |**Contribution End Date**|This date will default to the end date that you have entered in the “End Posting Date” field.|
 |**Run Type**|Select the process from the list. **Preview no post** – This option previews the report without flagging the amounts as reported to the Employee.  Use this option to verify the amounts remitted to the fund before reporting.  This option can be run multiple times. **Post and create letter file** – Used to create a “.CSV” file to produce letters to the employee and flag the employee records as advised of Superannuation contributions. **Post and Create Pay Advice record**– This option is similar to the previous option but instead of creating a “.CSV” file the Employee Superannuation Ledger Entries are flagged to print on the next Employee Pay Advice. **Employees with no pay next period** – This option must be used after your Next Pay is posted to general Ledger. The option selects all employees who did not receive a Pay Advice in the “next pay” after “Post and create Pay Advice record” are run. A “.CSV” file is then created that you can use to produce a letter for these employees. **Note:** If your Company has multiple Payrolls and you select all Payrolls you must ensure that you have completed processing all payrolls before you run this process.  If you don’t the employees contributions not yet paid and posted to the GL will go to the “.CSV” file and the message will not print on their Pay Advice.  Or run this process separately for each payroll.|
 |**Payment Export Format**|There are currently 5 options for you to select from:|
-||**Generic:** The Generic payment file layout is described in the[Generic Payment Format](#generic-payment-format).|
+||**Generic:** The Generic payment file layout is described in the [Generic Payment Format](#generic-payment-format).|
 ||**ClickSuper:** The ClickSuper payment file layout is described in the [ClickSuper Payment Format](#clicksuper-payment-format).|
 ||**SuperChoice:** The SuperChoice payment file layout is described in the [SuperChoice Payment Format](#superchoice-payment-format).|
 ||**SunSuper:** The SunSuper payment file layout is described in the [SunSuper Payment Format](#sunsuper-payment-format).|
